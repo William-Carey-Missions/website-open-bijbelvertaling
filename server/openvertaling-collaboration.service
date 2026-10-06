@@ -5,8 +5,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-User=www-data
-Group=www-data
+User=openvertaling
+Group=openvertaling
 Environment=PYTHONDONTWRITEBYTECODE=1
 Environment=OV_COLLABORATION_DB=/var/lib/openvertaling-collaboration/collaboration.sqlite3
 Environment=OV_REVIEW_CATALOG=/var/www/openvertaling.nl/site/data/review-catalog.json

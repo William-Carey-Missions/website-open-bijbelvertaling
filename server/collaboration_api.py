@@ -99,8 +99,11 @@ class FirebaseTokenVerifier:
         self.certificates = {}
         self.expires_at = 0.0
         self.lock = threading.Lock()
+        self.refreshed = threading.Condition(self.lock)
+        self.refreshing = False
+        self.next_refresh_at = 0.0
 
-    def _refresh_certificates(self) -> None:
+    def _refresh_certificates(self) -> tuple[dict, float]:
         request = urllib.request.Request(
             CERTIFICATES_URL, headers={"User-Agent": "openvertaling-collaboration/1"}
         )
@@ -113,17 +116,41 @@ class FirebaseTokenVerifier:
             raise Unauthorized()
         match = re.search(r"max-age=(\d+)", cache_control)
         ttl = int(match.group(1)) if match else 300
-        self.certificates = certificates
-        self.expires_at = time.time() + max(60, min(ttl, 86400))
+        return certificates, time.time() + max(60, min(ttl, 86400))
 
     def _certificate(self, key_id: str) -> str:
-        with self.lock:
-            if time.time() >= self.expires_at or key_id not in self.certificates:
-                self._refresh_certificates()
+        with self.refreshed:
+            if time.time() < self.expires_at and key_id in self.certificates:
+                return self.certificates[key_id]
+            if self.refreshing:
+                # A missing key in a fresh cache must never hold up valid logins.
+                if time.time() < self.expires_at:
+                    raise Unauthorized()
+                self.refreshed.wait_for(lambda: not self.refreshing, timeout=9)
+                if time.time() < self.expires_at and key_id in self.certificates:
+                    return self.certificates[key_id]
+                raise Unauthorized()
+            if time.monotonic() < self.next_refresh_at:
+                raise Unauthorized()
+            self.refreshing = True
+            # Failed downloads and attacker-selected key IDs share this budget.
+            self.next_refresh_at = time.monotonic() + 60
+        try:
+            certificates, expires_at = self._refresh_certificates()
+            with self.refreshed:
+                self.certificates, self.expires_at = certificates, expires_at
+        except Exception as error:
+            LOGGER.exception("Could not refresh Firebase signing certificates")
+            raise Unauthorized() from error
+        finally:
+            with self.refreshed:
+                self.refreshing = False
+                self.refreshed.notify_all()
+        with self.refreshed:
             certificate = self.certificates.get(key_id)
-        if not certificate:
-            raise Unauthorized()
-        return certificate
+            if not certificate or time.time() >= self.expires_at:
+                raise Unauthorized()
+            return certificate
 
     def verify(self, token: str) -> dict:
         try:

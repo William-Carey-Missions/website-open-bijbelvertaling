@@ -1,4 +1,8 @@
 location ^~ /api/collaboration/ {
+    limit_req zone=openvertaling_api burst=40 nodelay;
+    limit_req_status 429;
+    limit_conn openvertaling_connections 20;
+    limit_conn_status 429;
     proxy_pass http://127.0.0.1:8787;
     proxy_http_version 1.1;
     proxy_set_header Host $host;
