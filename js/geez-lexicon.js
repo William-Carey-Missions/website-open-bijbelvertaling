@@ -74,9 +74,9 @@
     function geezLexLink(strongs, word) {
         if (strongs && /^OVG(\d+)/.test(strongs)) {
             var n = parseInt(strongs.replace(/^OVG0*/, ''), 10);
-            return `<a class="geez-lex-link" target="_top" href="lexicon-viewer.html?taal=geez&zoek=${encodeURIComponent('OVG' + n)}">In het woordenboek (Dillmann) →</a>`;
+            return `<a class="geez-lex-link" target="_top" href="${KASites.url('ogw', 'lexicon-viewer.html')}?taal=geez&zoek=${encodeURIComponent('OVG' + n)}">In het woordenboek (Dillmann) →</a>`;
         }
-        return `<a class="geez-lex-link" target="_top" href="lexicon-viewer.html?taal=geez&zoek=${encodeURIComponent(word)}">In het woordenboek opzoeken →</a>`;
+        return `<a class="geez-lex-link" target="_top" href="${KASites.url('ogw', 'lexicon-viewer.html')}?taal=geez&zoek=${encodeURIComponent(word)}">In het woordenboek opzoeken →</a>`;
     }
 
     function showLatinPopup(word, anchorEl) {
@@ -92,7 +92,7 @@
             (bet ? `<div class="geez-lex-betekenis">${esc(bet)}</div>`
                  : `<div class="geez-lex-empty">betekenis nog niet beschikbaar</div>`) +
             (ds.strongs ? `<div class="geez-lex-strongs">${esc(ds.strongs)}</div>` : '') +
-            `<a class="geez-lex-link" target="_top" href="lexicon-viewer.html?taal=latijn&zoek=${encodeURIComponent(lemma || word)}">In het woordenboek (Lewis &amp; Short) →</a>`;
+            `<a class="geez-lex-link" target="_top" href="${KASites.url('ogw', 'lexicon-viewer.html')}?taal=latijn&zoek=${encodeURIComponent(lemma || word)}">In het woordenboek (Lewis &amp; Short) →</a>`;
         document.body.appendChild(popupEl);
         place(anchorEl);
     }

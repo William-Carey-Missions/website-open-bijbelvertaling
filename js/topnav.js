@@ -19,6 +19,14 @@
         return;
     }
 
+    /* Adressen van de zustersites (OGW voor wiki en achtergrond). Pagina's
+       die ze al bij het laden nodig hebben, laden sites.js zelf vooraan. */
+    if (!window.KASites && !document.querySelector('script[src$="sites.js"]')) {
+        var sitesScript = document.createElement('script');
+        sitesScript.src = 'js/sites.js';
+        document.head.appendChild(sitesScript);
+    }
+
     var nav = document.getElementById('topnav');
     if (!nav) return;
 
@@ -52,7 +60,8 @@
         '<div class="topnav-links" id="topnav-links">' +
             '<a href="over-ov.html">Over OV</a>' +
             '<a href="index.html#johannes/1">Tekst</a>' +
-            '<a href="wiki.html">Wiki</a>' +
+            '<a href="wiki.html">Over de vertaling</a>' +
+            '<a href="https://opengodswoord.nl/wiki.html" data-ogw-href="wiki.html" title="Wiki en Bijbelachtergrond op Open Gods Woord">Achtergrond <span aria-hidden="true">&#8599;</span></a>' +
             '<button class="topnav-mobile-weergave" id="topnav-mobile-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false">Weergave</button>' +
         '</div>' +
         '<input type="search" id="topnav-search-input" class="topnav-search-input" placeholder="Zoek in Gods Woord… (Ctrl+K)" autocomplete="off" aria-label="Zoeken in Gods Woord" onkeydown="if(event.key===\'Enter\'){var q=this.value.trim();if(q){location.href=\'index.html?q=\'+encodeURIComponent(q);}}">' +
@@ -121,12 +130,11 @@
     })();
 
 
+    if (window.KASites) window.KASites.vulLinks(nav);
+
     var page = (location.pathname.split('/').pop() || 'index.html');
     var wikiPages = {
-        'onderwerpen.html': true,
-        'downloads.html': true,
-        'lexicon.html': true,
-        'lexicon-viewer.html': true
+        'downloads.html': true
     };
     var links = nav.querySelectorAll('.topnav-links a');
     for (var i = 0; i < links.length; i++) {

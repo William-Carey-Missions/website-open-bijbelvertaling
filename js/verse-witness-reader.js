@@ -30,7 +30,7 @@
         if (w.alle && typeof w.alle.jaar === 'number' && w.alle.jaar < best.jaar) best = w.alle;
         var titel = 'Oudste bewaarde tekst van dit vers: ' + best.naam + ' (' + jaarLabel(best.jaar) + '). Klik voor de foto en toelichting.';
         var html = '<span class="hs-vw-kop">Oudste handschrift</span>' +
-            '<a class="hs-vw-link" target="_top" href="handschriften.html?ms=' + encodeURIComponent(best.ms) + '" title="' + esc(titel) + '">' +
+            '<a class="hs-vw-link" target="_top" href="' + KASites.url('ogw', 'handschriften.html?ms=' + encodeURIComponent(best.ms)) + '" title="' + esc(titel) + '">' +
             '<span class="hs-vw-naam">' + esc(kort(best.naam)) + '</span><span class="hs-vw-jaar">' + jaarLabel(best.jaar) + '</span></a>';
         var tag = document.createElement('div');
         tag.className = 'hs-vers-tag';

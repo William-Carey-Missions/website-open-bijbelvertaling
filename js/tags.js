@@ -48,7 +48,8 @@ const Tags = {
                 naam: naam,
                 kleur: cat.kleur || '#999',
                 // De naslagpagina kiest zijn ingang uit ?item=, niet uit de hash
-                naslagUrl: (cat.pagina || '') + '?item=' + encodeURIComponent(id),
+                // De naslag staat op Open Gods Woord, niet op de OV-site zelf.
+                naslagUrl: KASites.url('ogw', (cat.pagina || '') + '?item=' + encodeURIComponent(id)),
                 categorieLabel: cat.label || categorie
             };
         });

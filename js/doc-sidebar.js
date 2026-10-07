@@ -13,6 +13,8 @@
         'lexicon-bdb': 'Hebreeuws (BDB)',
         'lexicon-abbott': 'Grieks (Abbott-Smith)',
     };
+    // Achtergrondpagina's staan op Open Gods Woord (zie js/sites.js).
+    const opOGW = new Set(['maateenheden', 'geografie', 'handschriften-henoch', 'handschriften', 'lexicon-bdb', 'lexicon-abbott']);
     const main = ['uitgangspunten', 'principes', 'statistieken', 'maateenheden', 'grondteksten'];
     const lexicons = ['lexicon-bdb', 'lexicon-abbott'];
     const menus = {
@@ -39,8 +41,14 @@
         const link = document.createElement('a');
         link.href = id + '.html';
         link.textContent = links[id];
+        if (opOGW.has(id)) {
+            link.href = 'https://opengodswoord.nl/' + id + '.html';
+            link.setAttribute('data-ogw-href', id + '.html');
+            link.textContent += ' ↗';
+        }
         if (id === 'handschriften' || id === 'handschriften-henoch') link.className = 'doc-sidebar-child';
         if (page === id + '.html') link.setAttribute('aria-current', 'page');
         nav.appendChild(link);
     }
+    if (window.KASites) window.KASites.vulLinks(nav);
 })();

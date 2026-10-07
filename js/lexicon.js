@@ -170,7 +170,8 @@ const Lexicon = {
         const taal = family === 'H' ? 'hebreeuws'
             : family === 'G' ? 'grieks'
                 : family === 'OVL' ? 'latijn' : 'geez';
-        const fullLink = `lexicon-viewer.html?taal=${taal}&entry=${encodeURIComponent(strongs)}`;
+        // Het volledige woordenboek staat op Open Gods Woord.
+        const fullLink = KASites.url('ogw', `lexicon-viewer.html?taal=${taal}&entry=${encodeURIComponent(strongs)}`);
         const articleLink = `${fullLink}&embed=1`;
 
         const sheet = document.createElement('div');

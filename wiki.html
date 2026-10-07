@@ -4,15 +4,16 @@
     <script type="module" src="/js/auth-bootstrap.js"></script>
     <meta charset="UTF-8">
     <script src="/js/theme.js"></script>
+    <script src="/js/sites.js"></script>
     
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#142e42">
     <link rel="apple-touch-icon" href="/icons/icon-192.png">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wiki — Open Vertaling</title>
+    <title>Over de vertaling — Open Vertaling</title>
     <!-- SEO:start (auto — seo_build.py) -->
-    <meta name="description" content="Wiki bij de Open Vertaling: achtergrond bij personen, plaatsen en de wereld van Gods Woord.">
+    <meta name="description" content="Over de Open Vertaling: uitgangspunten, wijzigingsprincipes, statistieken, grondteksten en bronnen.">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://openvertaling.nl/wiki.html">
     <meta name="author" content="Open Vertaling — de kleine ark">
@@ -20,13 +21,13 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Open Vertaling">
     <meta property="og:locale" content="nl_NL">
-    <meta property="og:title" content="Wiki — Open Vertaling">
-    <meta property="og:description" content="Wiki bij de Open Vertaling: achtergrond bij personen, plaatsen en de wereld van Gods Woord.">
+    <meta property="og:title" content="Over de vertaling — Open Vertaling">
+    <meta property="og:description" content="Over de Open Vertaling: uitgangspunten, wijzigingsprincipes, statistieken, grondteksten en bronnen.">
     <meta property="og:url" content="https://openvertaling.nl/wiki.html">
     <meta property="og:image" content="https://openvertaling.nl/icons/icon-512.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Wiki — Open Vertaling">
-    <meta name="twitter:description" content="Wiki bij de Open Vertaling: achtergrond bij personen, plaatsen en de wereld van Gods Woord.">
+    <meta name="twitter:title" content="Over de vertaling — Open Vertaling">
+    <meta name="twitter:description" content="Over de Open Vertaling: uitgangspunten, wijzigingsprincipes, statistieken, grondteksten en bronnen.">
     <meta name="twitter:image" content="https://openvertaling.nl/icons/icon-512.png">
     <!-- SEO:end -->
 
@@ -117,36 +118,20 @@
             Documentatie-menu
         </button>
         <nav class="wiki-sidebar">
-            <!-- Eerst de zes hoofdingangen, daarna de inhoudelijke wereld
-                 achter de tekst. Dubbele ingangen verwijzen bewust naar
-                 dezelfde pagina; er wordt geen tweede naslagpagina gemaakt. -->
-            <div class="wiki-groep" data-groep="inhoud">
-                <button type="button" class="wiki-groep-kop" aria-expanded="true">Inhoud</button>
+            <!-- Documentatie over de vertaling zelf. De wiki-onderwerpen
+                 (naslag, kaart, woordenboek, handschriften) staan sinds de
+                 splitsing op Open Gods Woord; zie de laatste groep. -->
+            <div class="wiki-groep" data-groep="vertaling">
+                <button type="button" class="wiki-groep-kop" aria-expanded="true">De vertaling</button>
                 <div class="wiki-groep-inhoud">
-                    <a href="#onderwerpen" data-page="onderwerpen.html">Onderwerpen</a>
-                    <a href="#woordenboek" data-page="lexicon.html">Woordenboek</a>
-                    <a href="#liederen" data-page="liederen.html">Liederen</a>
-                    <a href="#gebeden" data-page="gebeden.html">Gebeden</a>
-                    <a href="#kaart" data-page="kaart.html">Kaart</a>
-                    <a href="#personen" data-page="personen.html">Personen en stambomen</a>
-                </div>
-            </div>
-
-            <div class="wiki-groep" data-groep="oosten">
-                <button type="button" class="wiki-groep-kop" aria-expanded="true">De wereld van het Oosten</button>
-                <div class="wiki-groep-inhoud">
-                    <a href="#personen-en-stambomen" data-page="personen.html">Personen en stambomen</a>
-                    <a href="#volken-naties" data-page="volken-naties.html">Volken &amp; Naties</a>
-                    <a href="#geografie" data-page="geografie.html">Geografische aanduidingen</a>
-                    <a href="#maateenheden" data-page="maateenheden.html">Maten, gewichten &amp; munten</a>
-                    <a href="#tijdsaanduidingen" data-page="tijdsaanduidingen.html">Tijdsaanduidingen</a>
-                    <a href="#materialen" data-page="materialen.html">Materialen</a>
-                    <a href="#voedsel" data-page="voedsel.html">Voedsel</a>
-                    <a href="#afgoden" data-page="afgoden.html">Afgoden &amp; machten</a>
-                    <a href="#dieren" data-page="dieren.html">Dieren</a>
-                    <a href="#bomen-planten" data-page="bomen-planten.html">Bomen &amp; planten</a>
-                    <a href="#muziekinstrumenten" data-page="muziekinstrumenten.html">Muziekinstrumenten</a>
-                    <a href="#gereedschap" data-page="gereedschap.html">Gereedschap &amp; gebruiksvoorwerpen</a>
+                    <a href="#uitgangspunten" data-page="uitgangspunten.html">Uitgangspunten &amp; techniek</a>
+                    <a href="#principes" data-page="principes.html">Wijzigingsprincipes</a>
+                    <a href="#statistieken" data-page="statistieken.html">Statistieken</a>
+                    <a href="#changelog" data-page="changelog.html">Changelog</a>
+                    <a href="#grondteksten" data-page="grondteksten.html">Grondteksten</a>
+                    <a href="#strongs-en-grondtekst" data-page="strongs-en-grondtekst.html">Strongs en grondtekst</a>
+                    <a href="#bronnen" data-page="bronnen.html">Bronnen &amp; licenties</a>
+                    <a href="#citaatvragen" data-page="citaatvragen.html">Citaatvragen nalopen</a>
                 </div>
             </div>
 
@@ -161,34 +146,21 @@
                 </div>
             </div>
 
-            <div class="wiki-groep" data-groep="vertaling">
-                <button type="button" class="wiki-groep-kop" aria-expanded="true">De vertaling</button>
+            <!-- Wiki, naslag en broninformatie staan op Open Gods Woord.
+                 Zonder data-page: ze openen buiten het frame, op die site. -->
+            <div class="wiki-groep" data-groep="achtergrond">
+                <button type="button" class="wiki-groep-kop" aria-expanded="true">Achtergrond (Open Gods Woord)</button>
                 <div class="wiki-groep-inhoud">
-                    <a href="#uitgangspunten" data-page="uitgangspunten.html">Uitgangspunten &amp; techniek</a>
-                    <a href="#principes" data-page="principes.html">Wijzigingsprincipes</a>
-                    <a href="#statistieken" data-page="statistieken.html">Statistieken</a>
-                    <a href="#changelog" data-page="changelog.html">Changelog</a>
-                    <a href="#grondteksten" data-page="grondteksten.html">Grondteksten</a>
-                    <a href="#strongs-en-grondtekst" data-page="strongs-en-grondtekst.html">Strongs en grondtekst</a>
-                    <a href="#handschriften" data-page="handschriften.html">Handschriften</a>
-                    <a href="#bronnen" data-page="bronnen.html">Bronnen &amp; licenties</a>
-                    <a href="#citaatvragen" data-page="citaatvragen.html">Citaatvragen nalopen</a>
+                    <a href="https://opengodswoord.nl/wiki.html" data-ogw-href="wiki.html">Wiki <span aria-hidden="true">&#8599;</span></a>
+                    <a href="https://opengodswoord.nl/wiki.html#onderwerpen" data-ogw-href="wiki.html#onderwerpen">Onderwerpen <span aria-hidden="true">&#8599;</span></a>
+                    <a href="https://opengodswoord.nl/wiki.html#woordenboek" data-ogw-href="wiki.html#woordenboek">Woordenboek <span aria-hidden="true">&#8599;</span></a>
+                    <a href="https://opengodswoord.nl/wiki.html#kaart" data-ogw-href="wiki.html#kaart">Kaart <span aria-hidden="true">&#8599;</span></a>
+                    <a href="https://opengodswoord.nl/wiki.html#handschriften" data-ogw-href="wiki.html#handschriften">Handschriften <span aria-hidden="true">&#8599;</span></a>
                 </div>
-            </div>
-
-            <!-- Toelichtingen bij afkortingen in het woordenboek. Homerus en
-                 Aratus komen in de Bijbel niet voor — Paulus haalt in
-                 Handelingen 17:28 wel een regel van Aratus aan, maar noemt hem
-                 niet — dus ze horen niet tussen de wiki-onderwerpen. Ze staan
-                 hier alleen zodat de router hun hash kent: lexicon-viewer.html
-                 verwijst bij de afkorting "Hom." naar wiki.html#homerus. -->
-            <div class="wiki-route-alleen" hidden>
-                <a href="#homerus" data-page="homerus.html">Homerus</a>
-                <a href="#aratus" data-page="aratus.html">Aratus</a>
             </div>
         </nav>
 
-        <iframe id="wiki-frame" class="wiki-iframe" src="wiki-overzicht.html"></iframe>
+        <iframe id="wiki-frame" class="wiki-iframe" src="uitgangspunten.html"></iframe>
     </div>
 
     <script>
@@ -330,6 +302,10 @@
             var hash = window.location.hash.replace('#', '');
             if (hash && hashMap[hash]) {
                 loadPage(hash);
+            } else if (hash && window.KASites) {
+                // Oude wiki-adressen (wiki.html#dieren, #kaart, …) wonen nu op
+                // Open Gods Woord.
+                window.location.replace(window.KASites.url('ogw', 'wiki.html#' + hash));
             }
         }
 

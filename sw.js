@@ -10,7 +10,7 @@
 
 const VERSION = 'v0.59.6';
 // New reader modules must not be mixed with HTML from before verification.
-const CACHE_VERSION = `${VERSION}-verification-v13`;
+const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `data-${CACHE_VERSION}`;
 const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
@@ -81,6 +81,7 @@ const PRECACHE_URLS = [
     '/js/search.js',
     '/js/cloud-opties.js',
     '/js/stats-inject.js',
+    '/js/sites.js',
     '/data/books.json',
     '/data/vertalingen/manifest.json',
     '/i18n/nl.json',

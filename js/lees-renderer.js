@@ -22,7 +22,7 @@ const LeesRenderer = {
             const heading = document.getElementById('chapter-heading');
             if (heading && heading.parentNode) heading.parentNode.insertBefore(box, heading.nextSibling);
         }
-        const handschriftenUrl = `handschriften/${encodeURIComponent(book.id)}.html`;
+        const handschriftenUrl = KASites.url('ogw', `handschriften/${encodeURIComponent(book.id)}.html`);
         const handschriftenTitel = 'Open de handschriftenpagina met oudste fragment, vindgeschiedenis en scans';
         const parts = [];
         if (d && (d.schrijftijdKort || d.schrijftijd)) parts.push(`<a class="dating-link" href="${handschriftenUrl}" title="${handschriftenTitel}"><span class="dating-label">Schrijftijd:</span> ${d.schrijftijdKort || d.schrijftijd}</a>`);

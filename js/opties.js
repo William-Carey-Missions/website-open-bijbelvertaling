@@ -94,10 +94,10 @@ const Opties = {
             this.loadTijden(),
         ]);
 
-        // Klik op een gemarkeerde geografische locatie -> geografie-pagina (later: kaart/geodata)
+        // Klik op een gemarkeerde geografische locatie -> geografie-pagina op Open Gods Woord
         document.addEventListener('click', function (e) {
             var geo = e.target.closest && e.target.closest('.geo-locatie');
-            if (geo) { window.location.href = 'geografie.html'; }
+            if (geo) { window.location.href = KASites.url('ogw', 'geografie.html'); }
         });
 
         // Versnummers-checkbox (in 'Pagina & leeshulp') synchroniseren met state
