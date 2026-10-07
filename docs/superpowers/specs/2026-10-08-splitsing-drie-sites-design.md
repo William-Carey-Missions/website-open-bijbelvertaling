@@ -67,8 +67,11 @@ OV-deploy. `sw.js` krijgt een nieuwe cacheversie.
 
 Afgeleid van OV (na de wiki-strip), daarna:
 - Standaardeditie `nl-opv`; keuze beperkt tot `nl-opv` en `nl-ov` (OV als
-  vergelijkingskolom). Buitenlandse edities en `data/edities` (werkbron)
-  blijven in de OV-repo.
+  vergelijkingskolom). Buitenlandse edities blijven in de OV-repo.
+- De werkbron van de parafrase (`data/edities/opv`, `scripts/opv_leeseditie.py`,
+  `scripts/validate_opv.py`, de OPV-tests en `docs/opv/`) hoort hier: in deze
+  repo wordt aan de parafrase gewerkt. De OV-repo houdt voorlopig een kopie,
+  zodat de OV-lezer de OPV als vergelijkingseditie kan blijven tonen.
 - Weg: review/samenwerking (pagina's, server/, migrations/), principes en
   OV-specifieke documentatie, audio, drukversie, downloads van OV.
 - Branding: naam "Open Parafrase Vertaling", eigen `manifest.json`, CNAME,
