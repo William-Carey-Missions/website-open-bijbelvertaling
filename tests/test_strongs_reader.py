@@ -1647,27 +1647,6 @@ class StrongsReaderBrowserTests(unittest.TestCase):
         finally:
             page.close()
 
-    def test_interne_citatie_neemt_globale_woordnummervoorkeur_over(self):
-        page = self.browser.new_page(viewport={"width": 1280, "height": 900})
-        page.add_init_script(
-            "localStorage.setItem('sv2026_vertaalopties', JSON.stringify({strongs:'aan'}))"
-        )
-        try:
-            page.goto(f"{self.base_url}/onderwerpen.html", wait_until="domcontentloaded")
-            page.wait_for_function("window.OSV && window.OVTekstweergave")
-            html = page.evaluate("() => OSV.cite('johannes 1:1', {link:false}).then(r => r.html)")
-            self.assertNotIn('class="strongs-alignment', html)
-            self.assertIn('data-strongs="G1722"', html)
-
-            page.locator("body").evaluate(
-                "(el, markup) => el.insertAdjacentHTML('beforeend', markup)", html
-            )
-            page.locator('[data-strongs="G1722"]').first.click()
-            page.locator("#strongs-sheet").wait_for(state="visible", timeout=5_000)
-            self.assertIn("G1722", page.locator("#strongs-sheet-number").inner_text())
-        finally:
-            page.close()
-
     def test_doorlopende_leesversie_neemt_woordnummervoorkeur_over(self):
         page = self.browser.new_page(viewport={"width": 900, "height": 900})
         page.add_init_script(

@@ -212,14 +212,16 @@ class BrandingBrowserTests(unittest.TestCase):
             finally:
                 page.close()
 
-    def test_onderwerpen_downloads_en_woordenboek_staan_alleen_in_de_wiki(self):
+    def test_documentatie_lokaal_en_achtergrond_op_open_gods_woord(self):
+        # Sinds de splitsing (2026-10-08) staan onderwerpen en woordenboek op
+        # Open Gods Woord; de OV houdt alleen de documentatie van de vertaling.
         page = self.browser.new_page(viewport={"width": 1440, "height": 900})
         try:
             page.goto(f"{self.base_url}/over-ov.html")
             hoofdlinks = page.locator("#topnav-links a")
             self.assertEqual(
-                hoofdlinks.all_text_contents(),
-                ["Over OV", "Tekst", "Wiki"],
+                [t.strip() for t in hoofdlinks.all_text_contents()],
+                ["Over OV", "Tekst", "Over de vertaling", "Achtergrond ↗"],
             )
 
             page.goto(f"{self.base_url}/wiki.html")
@@ -228,9 +230,14 @@ class BrandingBrowserTests(unittest.TestCase):
                 link.inner_text(): (link.get_attribute("href"), link.get_attribute("data-page"))
                 for link in wiki_links.all()
             }
-            self.assertEqual(routes["Onderwerpen"], ("#onderwerpen", "onderwerpen.html"))
-            self.assertEqual(routes["Woordenboek"], ("#woordenboek", "lexicon.html"))
             self.assertEqual(routes["Downloads"], ("#downloads", "downloads.html"))
+            self.assertNotIn("Onderwerpen", routes)
+            extern = {
+                link.inner_text().replace("↗", "").strip(): link.get_attribute("data-ogw-href")
+                for link in page.locator(".wiki-sidebar a[data-ogw-href]").all()
+            }
+            self.assertEqual(extern["Onderwerpen"], "wiki.html#onderwerpen")
+            self.assertEqual(extern["Woordenboek"], "wiki.html#woordenboek")
         finally:
             page.close()
 

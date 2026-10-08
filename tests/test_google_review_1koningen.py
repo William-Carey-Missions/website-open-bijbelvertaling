@@ -232,9 +232,7 @@ def test_vakmanschap_is_een_zelfstandig_onderwerp_met_tubal_kain_en_hiram():
 
     assert len(tag["topTien"]) == 10
     assert {"genesis 4:22", "exodus 31:3", "1koningen 7:14"} <= refs
-
-    pagina = (ROOT / "onderwerpen.html").read_text(encoding="utf-8")
-    assert "'vakmanschap'" in pagina
+    # De onderwerpenpagina zelf staat sinds de splitsing op Open Gods Woord.
 
 
 def test_1_koningen_5_2_is_een_aankondiging_en_geen_zelfstandig_citaat():
