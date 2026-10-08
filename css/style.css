@@ -26,8 +26,20 @@
 .topnav-brand-link {
     display: flex;
     align-items: center;
-    flex: 0 1 auto;
-    min-width: 0;
+    /* Niet krimpen: anders schuift het versielabel over het logo zodra de
+       bovenbalk meer links krijgt (zustersites, taalkeuze). */
+    flex: 0 0 auto;
+}
+@media (min-width: 1181px) {
+    .topnav-brand { flex: 0 0 auto; }
+}
+@media (min-width: 1181px) and (max-width: 1300px) {
+    /* Net boven de hamburgergrens: het zoekveld geeft ruimte af. */
+    #topnav .topnav-search-input { min-width: 110px; margin: 0 8px; }
+}
+/* Middelbrede schermen: compactere links, zodat merk en zoekveld passen. */
+@media (min-width: 1181px) and (max-width: 1500px) {
+    .topnav-links a { padding: 8px 11px; }
 }
 .topnav-logo {
     display: block;
