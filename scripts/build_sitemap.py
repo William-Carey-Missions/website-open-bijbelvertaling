@@ -18,7 +18,6 @@ MAIN = [
     ("/kaart.html", "0.6", "monthly"),
     ("/grondteksten.html", "0.7", "monthly"),
     ("/handschriften.html", "0.7", "weekly"),
-    ("/wiki.html", "0.6", "monthly"),
     ("/over-ov.html", "0.6", "monthly"),
     ("/bronnen.html", "0.5", "monthly"),
     ("/uitgangspunten.html", "0.5", "monthly"),

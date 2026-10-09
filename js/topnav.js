@@ -60,7 +60,7 @@
         '<div class="topnav-links" id="topnav-links">' +
             '<a href="over-ov.html">Over OV</a>' +
             '<a href="index.html#johannes/1">Tekst</a>' +
-            '<a href="wiki.html">Over de vertaling</a>' +
+            '<a href="over-ov.html#documentatie">Documentatie</a>' +
             '<a href="https://opengodswoord.nl/wiki.html" data-ogw-href="wiki.html" title="Wiki en Bijbelachtergrond op Open Gods Woord">Achtergrond <span aria-hidden="true">&#8599;</span></a>' +
             '<button class="topnav-mobile-weergave" id="topnav-mobile-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false">Weergave</button>' +
         '</div>' +
@@ -133,14 +133,18 @@
     if (window.KASites) window.KASites.vulLinks(nav);
 
     var page = (location.pathname.split('/').pop() || 'index.html');
-    var wikiPages = {
-        'downloads.html': true
+    // Documentatiepagina's: de link "Documentatie" (naar over-ov.html) is actief.
+    var docPaginas = {
+        'uitgangspunten.html': 1, 'principes.html': 1, 'statistieken.html': 1, 'changelog.html': 1,
+        'grondteksten.html': 1, 'strongs-en-grondtekst.html': 1, 'bronnen.html': 1, 'citaatvragen.html': 1,
+        'downloads.html': 1, 'drukversie.html': 1, 'insluiten.html': 1, 'voor-ai.html': 1
     };
     var links = nav.querySelectorAll('.topnav-links a');
     for (var i = 0; i < links.length; i++) {
         var href = links[i].getAttribute('href') || '';
         var file = href.split('#')[0].split('?')[0];
-        if (file === page || (file === 'wiki.html' && wikiPages[page])) {
+        var isDoc = links[i].getAttribute('href') === 'over-ov.html#documentatie';
+        if ((file === page && !isDoc) || (isDoc && docPaginas[page])) {
             links[i].classList.add('active');
         }
     }

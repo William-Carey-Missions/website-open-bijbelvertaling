@@ -16,8 +16,8 @@ def test_uitgangspunten_beschrijft_de_actuele_werkwijze():
     assert "menselijke controle" in html
     assert "phraseDiff" in html
     assert "data/wijzigingsprincipes.json" in html
-    assert 'href="wiki.html#principes" target="_top"' in html
-    assert 'href="wiki.html#bronnen" target="_top"' in html
+    assert 'href="principes.html"' in html
+    assert 'href="bronnen.html"' in html
 
 
 def test_uitgangspunten_bevat_geen_verouderde_techniek_of_oude_standaarden():
@@ -36,16 +36,15 @@ def test_uitgangspunten_bevat_geen_verouderde_techniek_of_oude_standaarden():
         assert stale not in html
 
 
-def test_documentatiepagina_s_gebruiken_de_wiki_als_enige_navigatie():
-    for name, route in (
-        ("uitgangspunten.html", "uitgangspunten"),
-        ("principes.html", "principes"),
-    ):
+def test_documentatiepagina_s_staan_op_zichzelf_met_de_bovenbalk():
+    # Sinds de splitsing geen wiki-shell meer: de bovenbalk (Documentatie)
+    # is de navigatie, er wordt niet meer doorgestuurd.
+    for name in ("uitgangspunten.html", "principes.html"):
         html = read(name)
         assert "doc-sidebar" not in html
         assert "doc-shell" not in html
-        assert f'window.location.replace("wiki.html#{route}")' in html
-        assert 'document.documentElement.classList.add("ov-ingebed")' in html
+        assert "wiki.html" not in html
+        assert 'id="topnav"' in html
 
 
 def test_principes_legt_status_en_herkomst_van_de_lijst_uit():

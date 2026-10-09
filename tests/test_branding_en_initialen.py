@@ -213,31 +213,27 @@ class BrandingBrowserTests(unittest.TestCase):
                 page.close()
 
     def test_documentatie_lokaal_en_achtergrond_op_open_gods_woord(self):
-        # Sinds de splitsing (2026-10-08) staan onderwerpen en woordenboek op
-        # Open Gods Woord; de OV houdt alleen de documentatie van de vertaling.
+        # Sinds de splitsing (2026-10-08) heeft de OV geen wiki: documentatie
+        # hangt aan over-ov.html#documentatie, achtergrond staat op OGW.
         page = self.browser.new_page(viewport={"width": 1440, "height": 900})
         try:
             page.goto(f"{self.base_url}/over-ov.html")
             hoofdlinks = page.locator("#topnav-links a")
             self.assertEqual(
                 [t.strip() for t in hoofdlinks.all_text_contents()],
-                ["Over OV", "Tekst", "Over de vertaling", "Achtergrond ↗"],
+                ["Over OV", "Tekst", "Documentatie", "Achtergrond ↗"],
             )
-
-            page.goto(f"{self.base_url}/wiki.html")
-            wiki_links = page.locator(".wiki-sidebar a[data-page]")
-            routes = {
-                link.inner_text(): (link.get_attribute("href"), link.get_attribute("data-page"))
-                for link in wiki_links.all()
-            }
-            self.assertEqual(routes["Downloads"], ("#downloads", "downloads.html"))
-            self.assertNotIn("Onderwerpen", routes)
-            extern = {
-                link.inner_text().replace("↗", "").strip(): link.get_attribute("data-ogw-href")
-                for link in page.locator(".wiki-sidebar a[data-ogw-href]").all()
-            }
-            self.assertEqual(extern["Onderwerpen"], "wiki.html#onderwerpen")
-            self.assertEqual(extern["Woordenboek"], "wiki.html#woordenboek")
+            self.assertEqual(
+                page.locator("#topnav-links a", has_text="Achtergrond").get_attribute("data-ogw-href"),
+                "wiki.html",
+            )
+            doc = page.locator("#documentatie + p + ul.ov-doc-lijst a")
+            hrefs = [a.get_attribute("href") for a in doc.all()]
+            for verwacht in ("uitgangspunten.html", "principes.html", "bronnen.html", "downloads.html"):
+                self.assertIn(verwacht, hrefs)
+            # wiki.html is alleen nog een doorverwijzing voor oude links.
+            page.goto(f"{self.base_url}/wiki.html#principes")
+            page.wait_for_url("**/principes.html")
         finally:
             page.close()
 
