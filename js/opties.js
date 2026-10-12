@@ -12,6 +12,7 @@ const Opties = {
         boekvolgorde: 'canoniek',// 'canoniek' | 'tenach' | 'chronologisch' | 'auteur' | 'lengte'
         versnummers: 'aan',      // 'aan' | 'uit'
         citaten: 'aan',          // 'aan' | 'uit' — citaatmarkering en sprekerkleuren
+        spoor: 'aan',            // 'aan' | 'uit' — het spoor: woorden die afwijken van SV1888 gestippeld onderstrepen
         otSheol: 'dodenrijk',    // 'dodenrijk' (OT-context, modern) | 'hel' (SV-traditioneel)
         thema: 'auto',           // 'auto' (systeem) | 'licht' | 'donker'
         arabischeNamen: 'uit',   // 'uit' (Nederlandse namen) | 'aan' (Musa, Ibrahim, Isa …) — alleen OV-tekst

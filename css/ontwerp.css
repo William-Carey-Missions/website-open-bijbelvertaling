@@ -619,6 +619,55 @@ body:not(.citaten-uit) .god-speaks i,
 }
 
 /* ============================================================
+   5. Het spoor
+   ============================================================ */
+.spoor {
+    text-decoration: underline dotted var(--ka-trace);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-decoration-skip-ink: none;
+    position: relative;
+    cursor: help;
+    border-radius: 2px;
+}
+.spoor:hover,
+.spoor:focus-visible { background: var(--ka-gold-wash); }
+.spoor:focus-visible { outline: 2px solid var(--ka-focus); outline-offset: 1px; }
+.spoor[tabindex]::after {
+    content: "SV: " attr(data-sv) "  ·  " attr(data-p);
+    position: absolute;
+    left: 50%;
+    bottom: calc(100% + 8px);
+    transform: translateX(-50%);
+    white-space: nowrap;
+    max-width: min(80vw, 420px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font: 500 12px/1 var(--ka-mono);
+    font-style: normal;
+    letter-spacing: 0;
+    color: #f2efe7;
+    background: var(--ka-navy);
+    padding: 7px 9px;
+    border-radius: 6px;
+    box-shadow: var(--ka-shadow);
+    pointer-events: none;
+    z-index: 50;
+    /* Alleen tekenen als hij zichtbaar is: een verborgen maar gepositioneerd
+       label telt anders mee in de paginabreedte (horizontaal scrollen). */
+    display: none;
+}
+.spoor[tabindex]:hover::after,
+.spoor[tabindex]:focus-visible::after,
+.spoor[tabindex]:focus::after { display: block; }
+/* Dicht bij de rand: label naar binnen uitlijnen (spoor.js zet data-tip). */
+.spoor[data-tip="links"]::after { left: 0; transform: none; }
+.spoor[data-tip="rechts"]::after { left: auto; right: 0; transform: none; }
+:root[data-theme="donker"] .spoor[tabindex]::after { background: #f2efe7; color: #142e42; }
+/* Bij kopiëren/afdrukken geen markering */
+@media print { .spoor { text-decoration: none; } .spoor::after { display: none; } }
+
+/* ============================================================
    6. Optiepaneel
    ============================================================ */
 #sidebar-right.options-panel {

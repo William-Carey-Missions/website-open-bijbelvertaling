@@ -238,6 +238,7 @@ class OptionsPanelBrowserTests(unittest.TestCase):
             "grondtalen.png", "oudste-handschrift.png", "onderwerptags.png",
             "strong-nummers.png",
             "apocriefe-boeken.png", "ethiopische-boeken.png",
+            "spoor.png",
         }
         page = self.open_reader()
         try:
@@ -339,7 +340,8 @@ class OptionsPanelBrowserTests(unittest.TestCase):
             typography = verse.evaluate(
                 "el => ({font: getComputedStyle(el).fontFamily, line: parseFloat(getComputedStyle(el).lineHeight)})"
             )
-            self.assertIn("Fira Sans", typography["font"])
+            # Ontwerp 2026: het alternatieve (schreefloze) lettertype is IBM Plex Sans.
+            self.assertIn("IBM Plex Sans", typography["font"])
             self.assertGreater(typography["line"], 32)
             page.wait_for_function(
                 """() => {

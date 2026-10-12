@@ -351,6 +351,8 @@ const ChapterRenderer = {
                 <div class="verse-cell col-noteDiff" data-col="noteDiff">${noteDiffHtml}</div>
             `;
 
+            // Versdata bewaren voor het spoor (SV1888-wijzigingen), alleen bij de OV zelf.
+            if (!isExternalTranslation) row._ovVers = verse;
             sink.appendChild(row);
             if (!isExternalTranslation) Editor.attachVerseListeners(row, bookId, chapterNum, verse);
             // Rechtermuisknop op versnummer = tag toevoegen
@@ -389,6 +391,9 @@ const ChapterRenderer = {
         if (typeof Highlight !== 'undefined') Highlight.applyToChapter(bookId, chapterNum);
         // Versierde initiaal (drop-cap) op het eerste vers
         App._applyDropcap();
+        // Het spoor: gewijzigde woorden t.o.v. SV1888 markeren (na de initiaal,
+        // zodat die de eerste letter al uit de tekst heeft gehaald).
+        if (window.OVSpoor) OVSpoor.markeerRijen(container);
         // Doorlopend lezen: sentinel/observer beheren
         App._afterRenderContinuous(append, prepend);
         // Versmarkering wordt NIET meer op scroll gezet (gaf een storende "bracket"

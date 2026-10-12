@@ -311,6 +311,8 @@ const LeesRenderer = {
             textNode.className = 'verse-text';
             const html = verse.text2026_html || verse.text2026 || '';
             textNode.innerHTML = this.wrapWordsWithStrongs(html, verse.woordnummers);
+            // Het spoor: woorden die afwijken van SV1888 (optie 'spoor', standaard aan)
+            if (window.OVSpoor) OVSpoor.markeer(textNode, verse);
             span.appendChild(textNode);
             // Parallelle vertalingen onder het vers
             for (const par of parallels) {
