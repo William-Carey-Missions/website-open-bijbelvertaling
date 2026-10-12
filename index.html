@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <script src="/js/theme.js"></script>
     <script src="/js/sites.js"></script>
+    <!-- Zonder #hash opent het startscherm; met #boek/h direct de lezer. -->
+    <script>document.documentElement.classList.add(location.hash.length > 1 ? 'ov-lezer' : 'ov-start');</script>
     <link rel="stylesheet" href="css/verification.css">
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -116,6 +118,70 @@
         </div>
         <div class="mp-body" id="mp-body"></div>
     </div>
+
+    <!-- Startscherm: alleen zichtbaar als index.html zonder #hash wordt geopend
+         (html.ov-start). Aantallen komen uit data/stats.json (data-stat), de
+         passage uit data/johannes/1.json; zie js/startscherm.js. -->
+    <main id="ov-start" class="ka-start" aria-labelledby="ka-start-titel">
+        <div class="ka-hero">
+            <div>
+                <p class="ka-eyebrow">Herziening van de Statenvertaling 1637 · 1888</p>
+                <h1 id="ka-start-titel">De Statenvertaling in hedendaags Nederlands. <em>Zo dicht mogelijk bij het origineel.</em></h1>
+                <p class="ka-lede">De Open Vertaling past alleen aan wat een lezer van nu niet meer begrijpt: naamvallen, verouderde woorden, oude werkwoordsvormen. Elke wijziging valt onder een genummerd principe en wordt door mensen nagelezen. De tekst is vrij van rechten.</p>
+                <div class="ka-cta">
+                    <a class="ka-btn ka-btn-gold" href="#johannes/1">Begin met lezen <span aria-hidden="true">→</span></a>
+                    <a class="ka-btn ka-btn-ghost" href="uitgangspunten.html">Hoe we herzien</a>
+                </div>
+                <p class="ka-verder" id="ka-verder"></p>
+                <ul class="ka-facts">
+                    <li><b data-stat="principes">1.667</b>principes</li>
+                    <li><b><span data-stat="changes_via_principe_pct">80,8</span>%</b>van de wijzigingen via een principe</li>
+                    <li><b>CC0</b>vrij te gebruiken</li>
+                </ul>
+            </div>
+            <article class="ka-passage" aria-labelledby="ka-passage-titel">
+                <div class="ka-passage-head">
+                    <h2 id="ka-passage-titel">Johannes 1:1–5</h2>
+                    <label class="ka-toggle"><input type="checkbox" id="ka-spoor-toggle" checked> Toon wijzigingen t.o.v. SV1888</label>
+                </div>
+                <p class="ka-scripture" id="ka-passage-tekst" lang="nl">In het begin was het Woord, en het Woord was bij God, en het Woord was God.</p>
+                <div class="ka-passage-foot">
+                    <span class="ka-pill draft" id="ka-passage-status">Concept</span>
+                    <span id="ka-passage-telling"></span>
+                    <a href="#johannes/1">Lees hoofdstuk 1 <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
+        </div>
+
+        <div class="ka-progress-wrap">
+            <section class="ka-progress" aria-labelledby="ka-voortgang">
+                <div>
+                    <h2 id="ka-voortgang" class="ka-sr">Voortgang van de herziening</h2>
+                    <div class="ka-big"><b data-stat="chapters_verified">1.149</b><span class="ka-van"> / <span data-stat="chapters_total">1.189</span></span></div>
+                    <p>hoofdstukken zijn door mensen gecontroleerd. Bij de rest staat de status <span class="ka-pill draft">Concept</span> nog open. Nog <span data-stat="review_remaining_verses">1.431</span> canonieke verzen te gaan; er worden er gemiddeld ±<span data-stat="review_verses_per_week">1.390</span> per week nagelezen.</p>
+                </div>
+                <ul class="ka-bars">
+                    <li class="ka-bar-row"><span>Oude Testament</span><span class="ka-bar" aria-hidden="true"><i data-stat-balk="ot_verses_verified_pct"></i></span><span class="v"><span data-stat="ot_verses_verified_pct">96,5</span>%</span></li>
+                    <li class="ka-bar-row"><span>Nieuwe Testament</span><span class="ka-bar" aria-hidden="true"><i data-stat-balk="nt_verses_verified_pct"></i></span><span class="v"><span data-stat="nt_verses_verified_pct">92,4</span>%</span></li>
+                    <li class="ka-bar-row"><span>Apocriefen</span><span class="ka-bar" aria-hidden="true"><i data-stat-balk="ap_verses_verified_pct"></i></span><span class="v"><span data-stat="ap_verses_verified_pct">39,2</span>%</span></li>
+                    <li><small>Percentage gecontroleerde verzen · stand <span data-stat="date">19 september 2026</span> · <a href="statistieken.html">alle statistieken</a></small></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="ka-docs-wrap">
+            <section class="ka-docs" aria-labelledby="ka-docs-titel">
+                <h2 id="ka-docs-titel">Over de Open Vertaling</h2>
+                <p>Hoe wordt er gewerkt, welke bronnen worden gebruikt, en hoe kun je de tekst hergebruiken?</p>
+                <div class="ka-doc-grid">
+                    <a class="ka-doc-card" href="uitgangspunten.html"><span class="k">Begin hier</span><b>Uitgangspunten</b><span>Waarom zo dicht bij de SV, en waar we bewust van afwijken.</span></a>
+                    <a class="ka-doc-card" href="principes.html"><span class="k"><span data-stat="principes">1.667</span> principes</span><b>Alle principes</b><span>Doorzoekbaar per categorie, met aantallen en voorbeelden.</span></a>
+                    <a class="ka-doc-card" href="statistieken.html"><span class="k">Review</span><b>Status en controle</b><span>Hoe ver de controle per boek is, en hoe snel het gaat.</span></a>
+                    <a class="ka-doc-card" href="downloads.html"><span class="k">CC0</span><b>Downloads</b><span>De volledige tekst om te downloaden, zonder voorwaarden.</span></a>
+                </div>
+            </section>
+        </div>
+    </main>
 
     <div id="app-container">
     <!-- Sidebar navigatie -->
@@ -986,5 +1052,6 @@
     </div>
     </div><!-- /app-container -->
 <script src="js/stats-inject.js"></script>
+<script src="js/startscherm.js?v=1"></script>
 </body>
 </html>

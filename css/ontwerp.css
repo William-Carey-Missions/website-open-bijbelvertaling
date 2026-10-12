@@ -752,6 +752,137 @@ body > .stats-page {
 .woordkracht-tekst { font-family: var(--ka-serif); }
 
 /* ============================================================
+   8. Startscherm (index.html zonder #hash)
+   ============================================================ */
+#ov-start { display: none; }
+html.ov-start #ov-start { display: block; }
+html.ov-start #mobile-topbar,
+html.ov-start #mobile-picker,
+html.ov-start #app-container,
+html.ov-start #mobile-footer-nav,
+html.ov-start #chapter-footer,
+html.ov-start #sidebar-open { display: none !important; }
+
+.ka-start { background: var(--ka-paper); color: var(--ka-ink); }
+.ka-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    gap: 56px;
+    padding: 56px 48px 48px;
+    align-items: start;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.ka-eyebrow {
+    font: 500 12px/1.3 var(--ka-mono);
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--ka-gold-text);
+    margin: 0 0 18px;
+}
+.ka-hero h1 {
+    font: 600 clamp(28px, 3vw, 40px)/1.14 var(--ka-serif);
+    margin: 0 0 18px;
+    letter-spacing: -.012em;
+    text-wrap: balance;
+    color: var(--ka-ink);
+}
+.ka-hero h1 em { font-style: italic; font-weight: 400; }
+.ka-lede { font-size: 17px; line-height: 1.55; color: var(--ka-ink-2); margin: 0 0 26px; max-width: 46ch; }
+.ka-cta { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
+.ka-verder { margin: 0 0 24px; font-size: 14px; color: var(--ka-muted); min-height: 1.4em; }
+.ka-verder a { color: var(--ka-gold-text); font-weight: 600; }
+.ka-facts { display: flex; gap: 22px; flex-wrap: wrap; font-size: 13px; color: var(--ka-muted); padding: 0; margin: 0; list-style: none; }
+.ka-facts b { display: block; font: 600 19px/1.2 var(--ka-serif); color: var(--ka-ink); }
+
+.ka-passage {
+    background: var(--ka-surface);
+    border: 1px solid var(--ka-rule);
+    border-radius: 14px;
+    padding: 28px 32px 22px;
+    position: relative;
+    min-width: 0;
+}
+.ka-passage-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px; gap: 12px; flex-wrap: wrap; }
+.ka-passage-head h2 {
+    font: 500 13px/1.2 var(--ka-mono);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--ka-muted);
+    margin: 0;
+}
+.ka-toggle { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; color: var(--ka-ink-2); cursor: pointer; min-height: 32px; }
+.ka-toggle input { accent-color: var(--ka-navy); width: 16px; height: 16px; margin: 0; }
+:root[data-theme="donker"] .ka-toggle input { accent-color: var(--ka-gold); }
+.ka-scripture { font: 400 21px/1.75 var(--ka-serif); margin: 0; color: var(--ka-ink); }
+.ka-scripture .ka-vn {
+    font: 600 11px/1 var(--ka-mono);
+    color: var(--ka-gold-text);
+    margin-right: 4px;
+    vertical-align: 6px;
+}
+.ka-scripture.spoor-uit .spoor { text-decoration: none; cursor: auto; background: none; }
+.ka-scripture.spoor-uit .spoor::after { display: none; }
+.ka-passage-foot {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--ka-rule-soft);
+    display: flex;
+    gap: 8px 14px;
+    align-items: center;
+    font-size: 12.5px;
+    color: var(--ka-muted);
+    flex-wrap: wrap;
+}
+.ka-passage-foot a { margin-left: auto; color: var(--ka-gold-text); font-weight: 600; text-decoration: none; }
+.ka-passage-foot a:hover { text-decoration: underline; }
+
+.ka-progress {
+    max-width: calc(1320px - 96px);
+    margin: 0 auto 48px;
+    display: grid;
+    grid-template-columns: 1.1fr 1.6fr;
+    gap: 40px;
+    background: var(--ka-surface-2);
+    border-radius: 14px;
+    padding: 28px 32px;
+}
+.ka-progress-wrap { padding: 0 48px; }
+.ka-big { font: 600 56px/1 var(--ka-serif); color: var(--ka-ink); letter-spacing: -.02em; }
+.ka-big b { font-weight: inherit; }
+.ka-big .ka-van { font-size: 24px; color: var(--ka-muted); }
+.ka-progress p { margin: 8px 0 0; color: var(--ka-ink-2); font-size: 14.5px; }
+.ka-bars { display: grid; gap: 14px; align-content: center; margin: 0; padding: 0; list-style: none; }
+.ka-bar-row { display: grid; grid-template-columns: 150px minmax(0, 1fr) 70px; gap: 12px; align-items: center; font-size: 13.5px; }
+.ka-bar { height: 10px; background: var(--ka-sunk); border-radius: 5px; overflow: hidden; }
+.ka-bar i { display: block; height: 100%; background: var(--ka-navy); border-radius: 5px; }
+:root[data-theme="donker"] .ka-bar i { background: var(--ka-gold); }
+.ka-bar-row .v { font: 500 13px var(--ka-mono); text-align: right; color: var(--ka-ink); }
+.ka-bars small { color: var(--ka-muted); font-size: 12.5px; }
+.ka-bars small a { color: var(--ka-gold-text); }
+
+.ka-docs { max-width: calc(1320px - 96px); margin: 0 auto 56px; border-top: 1px solid var(--ka-rule); padding-top: 28px; }
+.ka-docs-wrap { padding: 0 48px; }
+.ka-docs h2 { font: 600 22px/1.25 var(--ka-serif); margin: 0 0 6px; color: var(--ka-ink); }
+.ka-docs > p { color: var(--ka-ink-2); margin: 0 0 18px; }
+.ka-doc-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.ka-doc-card,
+.ka-doc-card:visited {
+    display: block;
+    text-decoration: none;
+    border: 1px solid var(--ka-rule);
+    background: var(--ka-surface);
+    border-radius: 12px;
+    padding: 16px 18px;
+    color: var(--ka-ink) !important;
+    transition: border-color .15s;
+}
+.ka-doc-card:hover { border-color: var(--ka-trace); }
+.ka-doc-card .k { font: 500 11px/1.3 var(--ka-mono); text-transform: uppercase; letter-spacing: .07em; color: var(--ka-gold-text); }
+.ka-doc-card b { display: block; font: 600 17px/1.3 var(--ka-serif); margin: 6px 0 4px; }
+.ka-doc-card span:last-child { font-size: 13.5px; color: var(--ka-ink-2); }
+
+/* ============================================================
    9. Leesweergave (lees.html) — eigen variabelen in lees.css
    ============================================================ */
 html.ka-lees {

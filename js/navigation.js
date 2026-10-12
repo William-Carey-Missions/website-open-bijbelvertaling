@@ -100,6 +100,9 @@ const Navigation = {
     async handleHash() {
         const hash = location.hash.slice(1); // verwijder #
         if (!hash) {
+            // Zonder hash toont index.html het startscherm (js/startscherm.js).
+            if (window.OVStart && document.documentElement.classList.contains('ov-start')) return;
+            if (window.OVStart && this.currentBook) { window.OVStart.toon(); return; }
             // Default: eerste boek, eerste hoofdstuk
             const manifest = await DataLoader.loadManifest();
             if (manifest.books.length > 0) {
