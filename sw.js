@@ -10,7 +10,7 @@
 
 const VERSION = 'v0.59.6';
 // New reader modules must not be mixed with HTML from before verification.
-const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1`;
+const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1-ontwerp1`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `data-${CACHE_VERSION}`;
 const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
@@ -47,18 +47,21 @@ const PRECACHE_URLS = [
     '/js/book-orders.js',
     '/js/navigation.js',
     // Lokale fonts — pre-cachen zodat ze ook in slechte verbinding-situaties direct aanwezig zijn
-    '/fonts/allura-400.woff2',
-    '/fonts/fira-sans-400.woff2',
-    '/fonts/fira-sans-500.woff2',
-    '/fonts/fira-sans-600.woff2',
-    '/fonts/fira-sans-700.woff2',
-    '/fonts/eb-garamond-400.woff2',
-    '/fonts/eb-garamond-400-italic.woff2',
-    '/fonts/eb-garamond-500.woff2',
-    '/fonts/eb-garamond-600.woff2',
-    '/fonts/eb-garamond-700.woff2',
+    // Ontwerp 2026: Source Serif 4 (Bijbeltekst), IBM Plex Sans/Mono (interface).
+    // Alleen de latin-subsets; latin-ext laadt de browser pas als een tekst
+    // die tekens nodig heeft. Fira Sans en EB Garamond zijn geen hoofdletter
+    // meer en worden niet meer vooraf opgehaald.
+    '/fonts/source-serif-4-latin-normal.woff2',
+    '/fonts/source-serif-4-latin-italic.woff2',
+    '/fonts/ibm-plex-sans-latin-400.woff2',
+    '/fonts/ibm-plex-sans-latin-500.woff2',
+    '/fonts/ibm-plex-sans-latin-600.woff2',
+    '/fonts/ibm-plex-mono-latin-500.woff2',
     '/fonts/noto-serif-hebrew.woff2',
     '/css/fonts.css',
+    '/css/ontwerp.css',
+    '/js/spoor.js',
+    '/js/startscherm.js',
     '/js/sidebar.js',
     '/js/app.js',
     '/js/opties.js',
