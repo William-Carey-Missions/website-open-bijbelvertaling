@@ -1,0 +1,851 @@
+/* Open Vertaling — ontwerplaag 2026: "tekstkritische werkplaats".
+ *
+ * Wordt op elke pagina NA style.css (of lees.css) geladen en legt de visuele
+ * taal van het goedgekeurde ontwerpvoorstel over de bestaande site:
+ * koel wit papier, navy #142e42 + goud #cba449, Source Serif 4 voor de
+ * Bijbeltekst, IBM Plex Sans/Mono voor interface en codes, rood voor woorden
+ * van God/Christus, de zustersites-strook en "de kleine ark" in de footer.
+ *
+ * Opbouw:
+ *   1. Tokens (licht/donker) en koppeling aan de bestaande variabelen
+ *   2. Basis: typografie, links, focus, knoppen
+ *   3. Zustersites-strook, bovenbalk, footer
+ *   4. Lezer (index.html): zijbalk, kop, verzen, citaten
+ *   5. Het spoor (gewijzigde woorden t.o.v. SV1888)
+ *   6. Optiepaneel
+ *   7. Documentatiepagina's
+ *   8. Startscherm (index.html zonder #hash)
+ *   9. Leesweergave (lees.html)
+ *  10. Responsief
+ *
+ * Kleurregel uit het ontwerp: goud (#cba449) nooit als tekstkleur op licht;
+ * daarvoor is er --ka-gold-text (AA). Overal zichtbare focusringen.
+ */
+
+/* ============================================================
+   1. Tokens
+   ============================================================ */
+:root {
+    --ka-navy: #142e42;
+    --ka-navy-2: #1d3d56;
+    --ka-navy-deep: #0c1f2e;
+    --ka-gold: #cba449;
+    --ka-paper: #fbfaf7;
+    --ka-surface: #ffffff;
+    --ka-surface-2: #f3f1ec;
+    --ka-sunk: #eceae4;
+    --ka-ink: #1b2630;
+    --ka-ink-2: #47535e;
+    --ka-muted: #5d6872;
+    --ka-rule: #dcd8cf;
+    --ka-rule-soft: #ebe8e1;
+    --ka-gold-text: #7a5c12;
+    --ka-gold-wash: rgba(203, 164, 73, .16);
+    --ka-trace: #b38a2b;
+    --ka-red: #a1262a;
+    --ka-ok: #2f6b4f;
+    --ka-ok-wash: #e3efe8;
+    --ka-draft: #8a5a00;
+    --ka-draft-wash: #fbefd6;
+    --ka-del: #8c3b33;
+    --ka-on-navy: #f2efe7;
+    --ka-on-navy-2: #b9c4cd;
+    --ka-shadow: 0 1px 2px rgba(20, 46, 66, .06), 0 8px 28px rgba(20, 46, 66, .08);
+    --ka-focus: #1f6fd1;
+    --ka-serif: 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+    --ka-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --ka-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    --ka-topnav-h: 64px;
+
+    /* Koppeling aan de bestaande tokens van style.css */
+    --parchment: var(--ka-paper);
+    --bg-page: var(--ka-paper);
+    --bg-surface: var(--ka-surface);
+    --bg-surface-alt: var(--ka-surface-2);
+    --bg-elevated: var(--ka-surface);
+    --text-primary: var(--ka-ink);
+    --text-secondary: var(--ka-ink-2);
+    --text-muted: var(--ka-muted);
+    --border: var(--ka-rule);
+    --border-default: var(--ka-rule);
+    --border-light: var(--ka-rule-soft);
+    --border-soft: var(--ka-rule-soft);
+    --shadow-soft: var(--ka-shadow);
+    --teal: var(--ka-gold-text);
+    --teal-light: var(--ka-gold);
+    --teal-bg: var(--ka-gold-wash);
+    --brown: var(--ka-navy);
+    --brown-light: var(--ka-muted);
+    --header-bg: var(--ka-navy);
+    --status-review: var(--ka-gold-text);
+    --status-final: var(--ka-ok);
+    --font-body: var(--ka-sans);
+    --font-ui: var(--ka-sans);
+    --font-serif: var(--ka-serif);
+    --font-cursive: var(--ka-serif);
+    --font-heading: var(--ka-serif);
+    --font-mono: var(--ka-mono);
+}
+
+:root[data-theme="donker"] {
+    --ka-paper: #0e1b26;
+    --ka-surface: #132433;
+    --ka-surface-2: #182c3d;
+    --ka-sunk: #0b1620;
+    --ka-ink: #ebe6da;
+    --ka-ink-2: #c3c9cd;
+    --ka-muted: #9aa6af;
+    --ka-rule: #2a4153;
+    --ka-rule-soft: #21384a;
+    --ka-gold-text: #dcbd6a;
+    --ka-gold-wash: rgba(203, 164, 73, .14);
+    --ka-trace: #cba449;
+    --ka-red: #ef8f86;
+    --ka-ok: #8fcfae;
+    --ka-ok-wash: #163528;
+    --ka-draft: #f0c470;
+    --ka-draft-wash: #3a2d10;
+    --ka-del: #e59a90;
+    --ka-shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 10px 30px rgba(0, 0, 0, .35);
+    --ka-focus: #7fb2ff;
+    --gold: #cba449;
+    /* style.css zet in donker eigen (zwarte) waarden met dezelfde selector;
+       daarom de koppeling hier herhalen. */
+    --parchment: var(--ka-paper);
+    --bg-page: var(--ka-paper);
+    --bg-surface: var(--ka-surface);
+    --bg-surface-alt: var(--ka-surface-2);
+    --bg-elevated: var(--ka-surface-2);
+    --text-primary: var(--ka-ink);
+    --text-secondary: var(--ka-ink-2);
+    --text-muted: var(--ka-muted);
+    --border: var(--ka-rule);
+    --border-default: var(--ka-rule);
+    --border-light: var(--ka-rule-soft);
+    --border-soft: var(--ka-rule-soft);
+    --shadow-soft: var(--ka-shadow);
+    --teal: var(--ka-gold-text);
+    --teal-light: var(--ka-gold);
+    --teal-bg: var(--ka-gold-wash);
+    --header-bg: var(--ka-navy);
+    --green-tint: #142a22;
+    --yellow-tint: #2a2412;
+    color-scheme: dark;
+}
+
+/* ============================================================
+   2. Basis
+   ============================================================ */
+body {
+    font-family: var(--ka-sans);
+    color: var(--ka-ink);
+    background: var(--ka-paper);
+}
+:root[data-theme="donker"] body { background: var(--ka-paper); color: var(--ka-ink); }
+
+:focus-visible {
+    outline: 3px solid var(--ka-focus);
+    outline-offset: 2px;
+}
+::selection { background: rgba(203, 164, 73, .32); }
+
+code, kbd, samp, pre { font-family: var(--ka-mono); }
+
+/* Knoppen uit het ontwerp, herbruikbaar */
+.ka-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 44px;
+    border-radius: 8px;
+    padding: 11px 18px;
+    font: 600 15px/1 var(--ka-sans);
+    text-decoration: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.ka-btn-gold { background: var(--ka-gold); color: #142e42; }
+.ka-btn-gold:hover { background: #d8b45e; }
+.ka-btn-ghost { border-color: var(--ka-rule); color: var(--ka-ink); background: var(--ka-surface); }
+.ka-btn-ghost:hover { border-color: var(--ka-trace); }
+:root[data-theme="donker"] .ka-btn-gold,
+:root[data-theme="donker"] .ka-btn-gold:visited { color: #142e42; }
+:root[data-theme="donker"] .ka-btn-ghost,
+:root[data-theme="donker"] .ka-btn-ghost:visited { color: var(--ka-ink); }
+
+.ka-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font: 500 11.5px/1 var(--ka-mono);
+    border: 1px solid var(--ka-trace);
+    color: var(--ka-gold-text);
+    background: var(--ka-gold-wash);
+    border-radius: 4px;
+    padding: 3px 5px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.ka-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font: 500 12px/1 var(--ka-sans);
+    padding: 5px 9px;
+    border-radius: 999px;
+    white-space: nowrap;
+}
+.ka-pill::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.ka-pill.ok { background: var(--ka-ok-wash); color: var(--ka-ok); }
+.ka-pill.draft { background: var(--ka-draft-wash); color: var(--ka-draft); }
+
+.ka-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* ============================================================
+   3. Zustersites-strook, bovenbalk, footer
+   ============================================================ */
+.ka-zusters {
+    background: var(--ka-navy-deep);
+    color: var(--ka-on-navy-2);
+    font: 400 12.5px/1.4 var(--ka-sans);
+    position: relative;
+    z-index: 301;
+}
+.ka-zusters-in {
+    display: flex;
+    align-items: center;
+    gap: 4px 14px;
+    padding: 5px 30px;
+    flex-wrap: wrap;
+}
+.ka-fam {
+    font: italic 400 13px/1 var(--ka-serif);
+    color: var(--ka-on-navy);
+    display: inline-flex;
+    align-items: center;
+}
+
+.ka-ark::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 8px;
+    border: 1.5px solid var(--ka-gold);
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    margin-right: 7px;
+}
+.ka-zusters nav {
+    display: flex;
+    gap: 2px 12px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    align-items: center;
+}
+.ka-zusters a,
+.ka-zusters a:visited {
+    text-decoration: none;
+    color: var(--ka-on-navy-2) !important;
+    padding: 2px 0;
+}
+.ka-zusters a[aria-current] { color: var(--ka-gold) !important; }
+.ka-zusters a:hover { color: #fff !important; }
+.ka-zusters .ka-dot { color: #5c7385; }
+
+/* Bovenbalk */
+#topnav {
+    height: var(--ka-topnav-h);
+    background: var(--ka-navy);
+    border-bottom: 2px solid var(--ka-gold);
+    font-family: var(--ka-sans);
+}
+:root[data-theme="donker"] #topnav {
+    background: var(--ka-navy) !important;
+    border-bottom: 2px solid var(--ka-gold) !important;
+}
+@media (min-width: 1181px) { .topnav-logo { height: 50px; } }
+.topnav-version {
+    background: transparent;
+    border: 1px solid rgba(203, 164, 73, .55);
+    font: 500 10.5px/1.5 var(--ka-mono);
+    padding: 0 5px;
+}
+.topnav-version a { font-family: var(--ka-mono); }
+.topnav-links a,
+:root[data-theme="donker"] .topnav-links a {
+    color: var(--ka-on-navy) !important;
+    font: 500 14.5px/1.2 var(--ka-sans);
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+.topnav-links a:hover { background: var(--ka-navy-2); color: #fff; }
+.topnav-links a.active {
+    box-shadow: inset 0 -2px 0 var(--ka-gold);
+    border-radius: 0;
+    color: #fff !important;
+}
+#topnav .topnav-search-input,
+:root[data-theme="donker"] #topnav .topnav-search-input {
+    background: var(--ka-navy-2) !important;
+    border: 1px solid #2f5470 !important;
+    border-radius: 8px !important;
+    color: var(--ka-on-navy) !important;
+    font: 400 13.5px/1.2 var(--ka-sans);
+}
+#topnav .topnav-search-input::placeholder { color: var(--ka-on-navy-2); opacity: 1; }
+.topnav-weergave {
+    background: transparent;
+    border-color: rgba(203, 164, 73, .55);
+    color: var(--ka-on-navy);
+    font-family: var(--ka-sans);
+}
+.topnav-weergave:hover,
+.topnav-weergave[aria-expanded="true"] { background: var(--ka-gold-wash); border-color: var(--ka-gold); }
+
+@media (min-width: 769px) and (max-width: 1180px) {
+    .topnav-links { top: var(--ka-topnav-h); background: var(--ka-navy); }
+    .topnav-logo { height: 46px; }
+}
+@media (min-width: 769px) {
+    #sidebar {
+        top: var(--ka-topnav-h);
+        height: calc(100vh - var(--ka-topnav-h));
+    }
+    #sidebar-open { top: calc(var(--ka-topnav-h) + 12px); }
+}
+
+/* Footer (door topnav.js op elke pagina gezet; niet in de lezer zelf) */
+.ka-footer {
+    background: var(--ka-navy);
+    color: var(--ka-on-navy-2);
+    font: 400 13.5px/1.55 var(--ka-sans);
+    margin-top: auto;
+}
+.ka-footer-in {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 32px;
+    padding: 36px 30px 20px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.ka-footer h2 {
+    font: 600 12px/1 var(--ka-mono);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--ka-gold);
+    margin: 0 0 12px;
+}
+.ka-footer a,
+.ka-footer a:visited {
+    display: block;
+    text-decoration: none;
+    color: var(--ka-on-navy) !important;
+    padding: 3px 0;
+}
+.ka-footer a:hover { color: var(--ka-gold) !important; text-decoration: underline; }
+.ka-footer p { margin: 12px 0 10px; max-width: 38ch; color: var(--ka-on-navy-2) !important; }
+.ka-footer-base {
+    border-top: 1px solid #2a4a62;
+    display: flex;
+    gap: 8px 16px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 30px;
+    font-size: 12.5px;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.ka-footer-base a,
+.ka-footer-base a:visited { display: inline; color: var(--ka-gold) !important; }
+.ka-ark {
+    font: italic 400 15px/1 var(--ka-serif);
+    color: var(--ka-on-navy);
+    letter-spacing: .01em;
+    display: inline-flex;
+    align-items: center;
+}
+.ka-footer-mono { font-family: var(--ka-mono); }
+/* In de lezer (index.html#boek/h) en ingebed geen footer: daar is de tekst alles. */
+html.ov-lezer .ka-footer,
+.ov-ingebed .ka-footer { display: none; }
+
+/* ============================================================
+   4. Lezer (index.html)
+   ============================================================ */
+#content { background: var(--ka-paper); }
+
+/* Zijbalk: licht papier i.p.v. navy (ontwerp: navigatie links, rustig) */
+#sidebar,
+:root[data-theme="donker"] #sidebar {
+    background: var(--ka-surface-2) !important;
+    color: var(--ka-ink) !important;
+    border-right: 1px solid var(--ka-rule);
+}
+#sidebar-toggle {
+    background: var(--ka-surface-2);
+    color: var(--ka-muted);
+}
+#sidebar-toggle:hover { color: var(--ka-ink); background: var(--ka-sunk); }
+#sidebar-open,
+:root[data-theme="donker"] #sidebar-open {
+    background: var(--ka-surface) !important;
+    color: var(--ka-gold-text) !important;
+    border-color: var(--ka-rule) !important;
+}
+#sidebar-tree::-webkit-scrollbar-thumb { background: var(--ka-rule); }
+.tree-group-label,
+:root[data-theme="donker"] .tree-group-label {
+    font: 500 11.5px/1.2 var(--ka-mono) !important;
+    letter-spacing: .08em;
+    color: var(--ka-muted) !important;
+    padding-top: 12px;
+}
+.tree-group-label:hover { background: var(--ka-sunk); }
+.tree-subgroup-label { color: var(--ka-muted); border-top-color: var(--ka-rule-soft); font-family: var(--ka-mono); }
+.tree-book-label,
+:root[data-theme="donker"] .tree-book-label {
+    font-family: var(--ka-sans) !important;
+    font-style: normal !important;
+    font-size: 14px;
+    color: var(--ka-ink) !important;
+    border-radius: 6px;
+    margin: 0 8px;
+    padding-left: 16px;
+}
+.tree-book-label:hover { background: var(--ka-sunk); color: var(--ka-ink); }
+.tree-book-label.active,
+:root[data-theme="donker"] .tree-book-label.active {
+    background: var(--ka-surface) !important;
+    color: var(--ka-ink) !important;
+    box-shadow: inset 0 0 0 1px var(--ka-rule);
+    font-weight: 600;
+}
+.tree-chapters { gap: 5px; padding: 6px 14px 10px 22px; }
+.tree-ch-btn,
+:root[data-theme="donker"] .tree-ch-btn {
+    width: 32px;
+    height: 30px;
+    font: 500 12.5px/1 var(--ka-mono) !important;
+    background: var(--ka-surface) !important;
+    border: 1px solid var(--ka-rule-soft) !important;
+    color: var(--ka-ink) !important;
+    border-radius: 6px;
+    position: relative;
+}
+.tree-ch-btn:hover { border-color: var(--ka-trace) !important; }
+.tree-ch-btn.approved::after {
+    content: "";
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--ka-ok);
+}
+.tree-ch-btn.active,
+.tree-ch-btn.approved.active,
+:root[data-theme="donker"] .tree-ch-btn.active {
+    background: var(--ka-navy) !important;
+    color: #fff !important;
+    border-color: var(--ka-navy) !important;
+}
+:root[data-theme="donker"] .tree-ch-btn.active,
+:root[data-theme="donker"] .tree-ch-btn.approved.active {
+    background: var(--ka-gold) !important;
+    color: #142e42 !important;
+    border-color: var(--ka-gold) !important;
+}
+.tree-ch-btn.approved.active::after { background: #8fcfae; }
+#sidebar-footer { border-top-color: var(--ka-rule); }
+.sidebar-link { color: var(--ka-ink-2); }
+.sidebar-link:hover { background: var(--ka-sunk); color: var(--ka-gold-text); }
+
+/* Kopbalk boven de tekst = de werkbalk uit het ontwerp */
+#content-topbar,
+:root[data-theme="donker"] #content-topbar {
+    background: var(--ka-surface) !important;
+    border-bottom: 1px solid var(--ka-rule) !important;
+    box-shadow: none;
+    padding: 10px 28px;
+    margin: 0 -20px;
+}
+#content-topbar #chapter-title,
+:root[data-theme="donker"] #content-topbar #chapter-title {
+    font: 600 28px/1.15 var(--ka-serif) !important;
+    font-style: normal !important;
+    color: var(--ka-ink) !important;
+    letter-spacing: -.005em;
+}
+.quickfilter-btn,
+:root[data-theme="donker"] .quickfilter-btn {
+    border: 1px solid var(--ka-rule) !important;
+    background: var(--ka-surface) !important;
+    color: var(--ka-ink) !important;
+    border-radius: 8px !important;
+    padding: 6px 11px !important;
+    font: 500 13px/1.2 var(--ka-sans) !important;
+    min-height: 34px;
+}
+.quickfilter-btn[aria-pressed="true"],
+.quickfilter-btn.is-on {
+    border-color: var(--ka-trace) !important;
+    background: var(--ka-gold-wash) !important;
+}
+
+/* Alleen de OV-kolom aan: tekstbreedte begrenzen (±70 tekens per regel). */
+#content.reading-mode.hide-1637.hide-sv1888.hide-hebrew.hide-diff.hide-margin2026.hide-margin1637.hide-marginSV1888.hide-noteDiff #verses-container:not(:has(.edition-comparison)) {
+    max-width: 900px;
+}
+
+/* Verzen */
+#content.reading-mode .verse-row {
+    font-family: var(--ka-serif);
+    font-size: 19.5px;
+    padding: 3px 28px;
+}
+#content.reading-mode .col-2026 {
+    font-family: var(--ka-serif);
+    font-size: 19.5px;
+    line-height: 1.72;
+    color: var(--ka-ink);
+}
+#content.reading-mode .verse-num,
+:root[data-theme="donker"] #content.reading-mode .verse-num {
+    font: 500 12.5px/2.2 var(--ka-mono) !important;
+    color: var(--ka-gold-text) !important;
+    vertical-align: baseline;
+    min-width: 26px;
+    text-align: right;
+    padding-right: 6px;
+}
+.pericope-heading,
+:root[data-theme="donker"] .pericope-heading {
+    font: 600 1.02em/1.3 var(--ka-serif) !important;
+    font-style: italic !important;
+    color: var(--ka-gold-text) !important;
+    margin: 28px 28px 6px 60px;
+}
+.chapter-intro-inline,
+.book-intro-inline {
+    font-family: var(--ka-serif);
+    font-style: italic;
+    color: var(--ka-ink-2);
+}
+.verse-row.verse-focus .col-2026 { background: var(--ka-gold-wash); }
+
+/* Woorden van God/Christus: donkerrood, niet vet (ontwerp) */
+body:not(.citaten-uit) .god-speaks,
+body:not(.citaten-uit) span.god-speaks,
+body:not(.citaten-uit) .god-speaks i,
+:root[data-theme="donker"] body:not(.citaten-uit) .god-speaks,
+:root[data-theme="donker"] body:not(.citaten-uit) span.god-speaks,
+:root[data-theme="donker"] body:not(.citaten-uit) .god-speaks i {
+    color: var(--ka-red) !important;
+    font-weight: 400 !important;
+}
+
+/* Kleinere vlakken in de lezer */
+.book-dating,
+:root[data-theme="donker"] .book-dating {
+    background: var(--ka-surface) !important;
+    border: 1px solid var(--ka-rule) !important;
+    color: var(--ka-ink-2) !important;
+    border-radius: 10px;
+    font-family: var(--ka-sans);
+}
+.book-dating .dating-label,
+.book-dating .dating-link,
+:root[data-theme="donker"] .book-dating .dating-label,
+:root[data-theme="donker"] .book-dating .dating-link { color: var(--ka-gold-text) !important; }
+.principe-badge {
+    font-family: var(--ka-mono) !important;
+}
+.diff-old { color: var(--ka-del); }
+.chapter-separator { font-family: var(--ka-serif); font-weight: 600; color: var(--ka-gold-text); }
+
+/* Hoofdstukvoet en voorleesknop */
+.chf-btn,
+:root[data-theme="donker"] .chf-btn {
+    background: var(--ka-surface) !important;
+    border-color: var(--ka-rule) !important;
+    color: var(--ka-ink) !important;
+}
+.chf-btn:hover { border-color: var(--ka-trace) !important; }
+.chf-play,
+:root[data-theme="donker"] .chf-play { background: var(--ka-gold) !important; color: #142e42 !important; }
+
+/* Mobiele boek/hoofdstuk-balk en voet */
+@media (max-width: 768px) {
+    #mobile-topbar,
+    :root[data-theme="donker"] #mobile-topbar {
+        background: var(--ka-surface) !important;
+        border-bottom: 1px solid var(--ka-rule) !important;
+        box-shadow: none;
+    }
+    .mobile-pick-btn,
+    :root[data-theme="donker"] .mobile-pick-btn {
+        font: 600 17px/1.2 var(--ka-serif) !important;
+        font-style: normal !important;
+        color: var(--ka-ink) !important;
+        background: var(--ka-surface) !important;
+        border-color: var(--ka-rule) !important;
+        border-radius: 8px !important;
+    }
+    #mobile-search-btn,
+    :root[data-theme="donker"] #mobile-search-btn {
+        color: var(--ka-ink) !important;
+        background: var(--ka-surface) !important;
+        border-color: var(--ka-rule) !important;
+        border-radius: 8px !important;
+        min-width: 44px;
+        min-height: 44px;
+    }
+    #content.reading-mode .verse-row,
+    #content.reading-mode .col-2026 { font-size: 19px; }
+    #content.reading-mode .verse-row { padding: 2px 18px; }
+    .pericope-heading,
+    :root[data-theme="donker"] .pericope-heading { margin: 22px 18px 6px; }
+}
+
+/* ============================================================
+   6. Optiepaneel
+   ============================================================ */
+#sidebar-right.options-panel {
+    font-family: var(--ka-sans);
+    background: var(--ka-surface);
+    color: var(--ka-ink);
+    border-color: var(--ka-rule);
+    box-shadow: var(--ka-shadow);
+}
+:root[data-theme="donker"] #sidebar-right.options-panel { background: var(--ka-surface) !important; }
+#options-title {
+    font: 600 20px/1.2 var(--ka-serif) !important;
+    font-style: normal !important;
+    color: var(--ka-ink) !important;
+}
+.options-section-heading h3 {
+    font: 500 11.5px/1.2 var(--ka-mono);
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--ka-muted);
+}
+.options-section-heading p { color: var(--ka-ink-2); }
+.options-category > summary,
+:root[data-theme="donker"] .options-category > summary {
+    background: var(--ka-surface-2) !important;
+    color: var(--ka-ink-2) !important;
+    border-top: 1px solid var(--ka-rule);
+    border-bottom: 1px solid var(--ka-rule) !important;
+    font: 500 12px/1.2 var(--ka-mono) !important;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    min-height: 44px;
+}
+.options-category > summary::after { color: var(--ka-gold-text) !important; }
+.option-row strong { color: var(--ka-ink); font-weight: 500; }
+.option-row small { color: var(--ka-muted); }
+.option-row { border-bottom-color: var(--ka-rule-soft); }
+#sidebar-right input[type="checkbox"]:checked { background: var(--ka-navy); border-color: var(--ka-navy); }
+:root[data-theme="donker"] #sidebar-right input[type="checkbox"]:checked { background: var(--ka-gold); border-color: var(--ka-gold); }
+#sidebar-right input[type="radio"]:checked { accent-color: var(--ka-navy); }
+#sidebar-right .option-segmented label:has(input:checked),
+.option-segmented label:has(input:checked) { background: var(--ka-navy); color: #fff; }
+:root[data-theme="donker"] #sidebar-right .option-segmented label:has(input:checked),
+:root[data-theme="donker"] .option-segmented label:has(input:checked) { background: var(--ka-gold); color: #142e42; }
+#sidebar-right input[type="range"] { accent-color: var(--ka-navy); }
+:root[data-theme="donker"] #sidebar-right input[type="range"] { accent-color: var(--ka-gold); }
+.options-search input { font-family: var(--ka-sans); border-color: var(--ka-rule); }
+.options-search input:focus { border-color: var(--ka-trace); }
+.option-current { font-family: var(--ka-sans); }
+
+/* ============================================================
+   7. Documentatiepagina's
+   ============================================================ */
+/* Losse documentatiepagina's (zonder doc-shell) stonden sinds de wiki weg is
+   tegen de linkerrand; centreer ze met een vaste goot. */
+body > .page,
+body > .stats-page {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 40px;
+    padding-bottom: 72px;
+}
+@media (max-width: 820px) {
+    body > .page,
+    body > .stats-page,
+    .doc-shell > .page,
+    .doc-shell > .stats-page { padding-left: 16px; padding-right: 16px; }
+}
+.page h1,
+.stats-page h1 {
+    font-family: var(--ka-serif) !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    color: var(--ka-ink) !important;
+    letter-spacing: -.01em;
+    line-height: 1.12 !important;
+}
+.page h2,
+.stats-page h2 {
+    font-family: var(--ka-serif);
+    font-weight: 600;
+    color: var(--ka-ink);
+}
+.page h3,
+.stats-page h3 { font-family: var(--ka-serif); color: var(--ka-ink); }
+.page .subtitle,
+.stats-page .subtitle { color: var(--ka-muted) !important; font-family: var(--ka-sans); }
+.page a:not([class*="btn"]):not(.principe-badge),
+.stats-page a:not([class*="btn"]) {
+    color: var(--ka-gold-text);
+    text-decoration-color: rgba(122, 92, 18, .35);
+    text-underline-offset: 2px;
+}
+:root[data-theme="donker"] .page a:not([class*="btn"]):not(.principe-badge),
+:root[data-theme="donker"] .stats-page a:not([class*="btn"]) { color: var(--ka-gold-text); }
+.page .highlight,
+:root[data-theme="donker"] .page .highlight {
+    background: var(--ka-surface-2) !important;
+    border-left-color: var(--ka-gold) !important;
+}
+.page code,
+.stats-page code {
+    font-family: var(--ka-mono);
+    font-size: .88em;
+    background: var(--ka-surface-2);
+    border-radius: 4px;
+    padding: 1px 4px;
+}
+.page table th,
+.stats-page table th {
+    font: 500 11.5px/1.3 var(--ka-mono);
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--ka-muted);
+}
+.stat-card,
+.principe-card {
+    border-radius: 12px;
+    border-color: var(--ka-rule);
+}
+.hero-quote { font-family: var(--ka-serif) !important; }
+.doc-sidebar { font-family: var(--ka-sans); }
+.doc-sidebar a.active,
+.doc-sidebar a[aria-current] { color: var(--ka-ink); }
+.verwijzing-popup .vp-tekst { font-family: var(--ka-serif); }
+/* Lange toelichtingen met schuine strepen (a/b/c) mogen breken op mobiel. */
+.principe-toelichting { overflow-wrap: anywhere; min-width: 0; }
+.woordkracht-tekst { font-family: var(--ka-serif); }
+
+/* ============================================================
+   9. Leesweergave (lees.html) — eigen variabelen in lees.css
+   ============================================================ */
+html.ka-lees {
+    --font-body: var(--ka-serif);
+    --font-ui: var(--ka-sans);
+}
+html.ka-lees body {
+    /* Lees.css kent een eigen donker-schakelaar (body.dark); de tokens volgen die. */
+    --ka-paper: #fbfaf7; --ka-surface: #ffffff; --ka-surface-2: #f3f1ec; --ka-sunk: #eceae4;
+    --ka-ink: #1b2630; --ka-ink-2: #47535e; --ka-muted: #5d6872;
+    --ka-rule: #dcd8cf; --ka-rule-soft: #ebe8e1;
+    --ka-gold-text: #7a5c12; --ka-trace: #b38a2b; --ka-red: #a1262a; --ka-focus: #1f6fd1;
+    --bg: var(--ka-paper);
+    --text: var(--ka-ink);
+    --text-muted: var(--ka-muted);
+    --accent: var(--ka-gold);
+    --link: var(--ka-gold-text);
+    --god-speaks: var(--ka-red);
+    --note-marker: var(--ka-gold-text);
+    --border: var(--ka-rule);
+    --header-bg: var(--ka-surface);
+    --nav-bg: var(--ka-surface-2);
+    --selected: var(--ka-gold-wash);
+    font-family: var(--ka-serif);
+}
+html.ka-lees body.dark {
+    --ka-paper: #0e1b26; --ka-surface: #132433; --ka-surface-2: #182c3d; --ka-sunk: #0b1620;
+    --ka-ink: #ebe6da; --ka-ink-2: #c3c9cd; --ka-muted: #9aa6af;
+    --ka-rule: #2a4153; --ka-rule-soft: #21384a;
+    --ka-gold-text: #dcbd6a; --ka-trace: #cba449; --ka-red: #ef8f86; --ka-focus: #7fb2ff;
+    color-scheme: dark;
+}
+html.ka-lees #reader-header { background: var(--ka-surface); border-bottom: 2px solid var(--ka-gold); font-family: var(--ka-sans); }
+html.ka-lees .search-bar input { font-family: var(--ka-sans); border-radius: 8px; background: var(--ka-surface-2); color: var(--ka-ink); }
+html.ka-lees #book-nav { font-family: var(--ka-sans); }
+html.ka-lees .nav-selector { font: 600 17px/1.2 var(--ka-serif); }
+html.ka-lees .chapter-btns { min-width: 0; }
+html.ka-lees .chapter-btns button { font-family: var(--ka-mono); }
+html.ka-lees #chapter-buttons button.unverified { color: var(--ka-ink-2); background: transparent; border-color: transparent; }
+html.ka-lees #chapter-buttons button.unverified:hover { background: var(--ka-gold-wash); }
+html.ka-lees .chapter-btns button.active,
+html.ka-lees #chapter-buttons button.unverified.active { background: var(--ka-navy); color: #fff; border-color: var(--ka-navy); }
+html.ka-lees body.dark .chapter-btns button.active,
+html.ka-lees body.dark #chapter-buttons button.unverified.active { background: var(--ka-gold); color: #142e42; border-color: var(--ka-gold); }
+html.ka-lees .reader-footer .rf-label { font: 600 17px/1.2 var(--ka-serif); font-style: normal; }
+html.ka-lees #chapter-heading { font: 600 36px/1.15 var(--ka-serif); font-style: normal; color: var(--ka-ink); }
+html.ka-lees .chapter-intro { font-family: var(--ka-serif); font-style: italic; color: var(--ka-ink-2); }
+html.ka-lees #verses { font: 400 19.5px/1.75 var(--ka-serif); }
+html.ka-lees .verse-num { font-family: var(--ka-mono); color: var(--ka-gold-text); font-weight: 500; }
+html.ka-lees .god-speaks { font-weight: 400; }
+html.ka-lees .note-marker { font-family: var(--ka-mono); color: var(--ka-gold-text); }
+html.ka-lees .spoor[tabindex]::after { background: var(--ka-navy); color: #f2efe7; }
+html.ka-lees body.dark .spoor[tabindex]::after { background: #f2efe7; color: #142e42; }
+html.ka-lees .copy-toolbar,
+html.ka-lees .reader-footer { font-family: var(--ka-sans); }
+
+/* ============================================================
+   10. Responsief
+   ============================================================ */
+@media (max-width: 1180px) {
+    .ka-doc-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 860px) {
+    .ka-hero,
+    .ka-progress { grid-template-columns: minmax(0, 1fr); }
+    .ka-hero { padding: 32px 20px; gap: 28px; }
+    .ka-progress-wrap,
+    .ka-docs-wrap { padding: 0 16px; }
+    .ka-progress { padding: 22px; margin-bottom: 28px; gap: 20px; }
+    .ka-bar-row { grid-template-columns: 110px minmax(0, 1fr) 56px; }
+    .ka-footer-in { grid-template-columns: 1fr 1fr; }
+    #content-topbar { padding: 8px 16px; }
+}
+@media (max-width: 768px) {
+    .ka-zusters-in { padding: 5px 12px; gap: 2px 10px; }
+    .ka-zusters nav { margin-left: 0; }
+    /* In de lezer zelf op mobiel geen strook: de tekst krijgt de ruimte. */
+    html.ov-lezer .ka-zusters { display: none; }
+    .ka-footer-in { padding: 28px 16px 16px; gap: 24px; }
+    .ka-zusters { font-size: 12px; }
+    .ka-footer-base { padding: 14px 16px; }
+}
+@media (max-width: 520px) {
+    /* Eén regel: het woordmerk staat ook in de footer. */
+    .ka-zusters .ka-fam { display: none; }
+    .ka-zusters nav { gap: 2px 8px; justify-content: center; width: 100%; }
+    .ka-doc-grid,
+    .ka-footer-in { grid-template-columns: minmax(0, 1fr); }
+    .ka-passage { padding: 20px; }
+    .ka-scripture { font-size: 19px; }
+    .ka-big { font-size: 46px; }
+    .ka-big .ka-van { font-size: 20px; }
+    .ka-bar-row { grid-template-columns: 96px minmax(0, 1fr) 50px; gap: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .spoor::after, .ka-doc-card { transition: none; }
+}

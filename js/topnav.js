@@ -52,10 +52,10 @@
 
     nav.innerHTML =
         '<div class="topnav-brand">' +
-            '<a class="topnav-brand-link" href="index.html#johannes/1" aria-label="Open Vertaling — naar de leestekst">' +
+            '<a class="topnav-brand-link" href="index.html" aria-label="Open Vertaling — naar de startpagina">' +
                 '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg" alt="Open Vertaling">' +
             '</a>' +
-            '<span class="topnav-version"><a href="changelog.html" id="topnav-versie" style="color:#cba449;text-decoration:none;">…</a></span>' +
+            '<span class="topnav-version"><a href="changelog.html" id="topnav-versie" style="color:#cba449;text-decoration:none;" title="Wijzigingen per versie">…</a></span>' +
         '</div>' +
         '<div class="topnav-links" id="topnav-links">' +
             '<a href="over-ov.html">Over OV</a>' +
@@ -70,6 +70,49 @@
         '<span id="topnav-auth-home" hidden></span>' +
         '<div id="auth-slot" class="topnav-auth"></div>' +
         '<button class="topnav-hamburger" id="topnav-hamburger" onclick="document.getElementById(\'topnav-links\').classList.toggle(\'open\');this.classList.toggle(\'open\')" title="Menu" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>';
+
+    /* Zustersites-strook boven de balk en de footer met "de kleine ark".
+       Op alle drie de sites gelijk; de eigen site staat goud gemarkeerd.
+       Adressen van de zusters komen uit sites.js (data-ogw-href/-opv-href). */
+    var zusters = document.createElement('div');
+    zusters.className = 'ka-zusters';
+    zusters.id = 'ka-zusters';
+    zusters.innerHTML =
+        '<div class="ka-zusters-in">' +
+            '<span class="ka-fam">de kleine ark</span>' +
+            '<nav aria-label="Zustersites">' +
+                '<a href="index.html" aria-current="page">Open Vertaling</a><span class="ka-dot" aria-hidden="true">·</span>' +
+                '<a href="https://opengodswoord.nl/" data-ogw-href="">Open Gods Woord</a><span class="ka-dot" aria-hidden="true">·</span>' +
+                '<a href="https://openparafrase.nl/" data-opv-href="">Open Parafrase Vertaling</a>' +
+            '</nav>' +
+        '</div>';
+    nav.parentNode.insertBefore(zusters, nav);
+
+    var footer = document.createElement('footer');
+    footer.className = 'ka-footer';
+    footer.id = 'ka-footer';
+    footer.innerHTML =
+        '<div class="ka-footer-in">' +
+            '<div><span class="ka-ark">de kleine ark</span>' +
+                '<p>De Open Vertaling is een herziening van de Statenvertaling, vrijgegeven onder CC0. ' +
+                'Kopiëren, drukken, citeren en verspreiden mag zonder toestemming.</p></div>' +
+            '<nav aria-labelledby="ka-f-lezen"><h2 id="ka-f-lezen">Lezen</h2>' +
+                '<a href="index.html#johannes/1">Bijbel</a><a href="lees.html">Leesweergave</a><a href="downloads.html">Downloads</a></nav>' +
+            '<nav aria-labelledby="ka-f-verantw"><h2 id="ka-f-verantw">Verantwoording</h2>' +
+                '<a href="uitgangspunten.html">Uitgangspunten</a><a href="principes.html">Principes</a>' +
+                '<a href="bronnen.html">Bronnen</a><a href="statistieken.html">Statistieken</a></nav>' +
+            '<nav aria-labelledby="ka-f-zusters"><h2 id="ka-f-zusters">Zustersites</h2>' +
+                '<a href="https://opengodswoord.nl/" data-ogw-href="">Open Gods Woord</a>' +
+                '<a href="https://openparafrase.nl/" data-opv-href="">Open Parafrase Vertaling</a></nav>' +
+        '</div>' +
+        '<div class="ka-footer-base"><span class="ka-footer-mono"><span id="ka-footer-versie">…</span> · tekst CC0</span>' +
+            '<span>Fout gezien? <a href="over-ov.html#over-ons">Laat het ons weten</a></span></div>';
+    function plaatsFooter() {
+        if (!footer.isConnected) document.body.appendChild(footer);
+        if (window.KASites) window.KASites.vulLinks(footer);
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', plaatsFooter);
+    else plaatsFooter();
 
     // Gebruik overal exact hetzelfde auth-element. Op mobiel staat het in het
     // hamburgermenu; op grotere schermen keert het terug naar de hoofdbalk.
@@ -125,12 +168,17 @@
         if (!el) return;
         fetch('data/stats.json')
             .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (s) { if (s && s.version) el.textContent = s.version; })
+            .then(function (s) {
+                if (!s || !s.version) return;
+                el.textContent = s.version;
+                var fv = document.getElementById('ka-footer-versie') || footer.querySelector('#ka-footer-versie');
+                if (fv) fv.textContent = s.version;
+            })
             .catch(function () { /* stil: de balk werkt ook zonder nummer */ });
     })();
 
 
-    if (window.KASites) window.KASites.vulLinks(nav);
+    if (window.KASites) { window.KASites.vulLinks(nav); window.KASites.vulLinks(zusters); }
 
     var page = (location.pathname.split('/').pop() || 'index.html');
     // Documentatiepagina's: de link "Documentatie" (naar over-ov.html) is actief.
