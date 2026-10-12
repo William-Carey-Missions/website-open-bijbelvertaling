@@ -467,6 +467,12 @@ html.ov-lezer .ka-footer,
     border-color: var(--ka-gold) !important;
 }
 .tree-ch-btn.approved.active::after { background: #8fcfae; }
+/* Concept-hoofdstukken: rustig grijs i.p.v. amber met stip (ontwerp: alleen
+   'gecontroleerd' krijgt een groene stip). */
+.tree-ch-btn.unverified { color: var(--ka-muted) !important; }
+.tree-ch-btn.unverified::after { content: none; }
+.tree-ch-btn.unverified.active { color: #fff !important; }
+:root[data-theme="donker"] .tree-ch-btn.unverified.active { color: #142e42 !important; }
 #sidebar-footer { border-top-color: var(--ka-rule); }
 .sidebar-link { color: var(--ka-ink-2); }
 .sidebar-link:hover { background: var(--ka-sunk); color: var(--ka-gold-text); }
