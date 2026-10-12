@@ -42,7 +42,7 @@
         link.href = id + '.html';
         link.textContent = links[id];
         if (opOGW.has(id)) {
-            link.href = 'https://opengodswoord.nl/' + id + '.html';
+            link.href = 'https://opengodsword.com/' + id + '.html';
             link.setAttribute('data-ogw-href', id + '.html');
             link.textContent += ' ↗';
         }

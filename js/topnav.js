@@ -61,7 +61,7 @@
             '<a href="over-ov.html">Over OV</a>' +
             '<a href="index.html#johannes/1">Tekst</a>' +
             '<a href="over-ov.html#documentatie">Documentatie</a>' +
-            '<a href="https://opengodswoord.nl/wiki.html" data-ogw-href="wiki.html" title="Wiki en Bijbelachtergrond op Open Gods Woord">Achtergrond <span aria-hidden="true">&#8599;</span></a>' +
+            '<a href="https://opengodsword.com/wiki.html" data-ogw-href="wiki.html" title="Wiki en Bijbelachtergrond op Open Gods Woord">Achtergrond <span aria-hidden="true">&#8599;</span></a>' +
             '<button class="topnav-mobile-weergave" id="topnav-mobile-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false">Weergave</button>' +
         '</div>' +
         '<input type="search" id="topnav-search-input" class="topnav-search-input" placeholder="Zoek in Gods Woord… (Ctrl+K)" autocomplete="off" aria-label="Zoeken in Gods Woord" onkeydown="if(event.key===\'Enter\'){var q=this.value.trim();if(q){location.href=\'index.html?q=\'+encodeURIComponent(q);}}">' +
@@ -82,7 +82,7 @@
             '<span class="ka-fam">de kleine ark</span>' +
             '<nav aria-label="Zustersites">' +
                 '<a href="index.html" aria-current="page">Open Vertaling</a><span class="ka-dot" aria-hidden="true">·</span>' +
-                '<a href="https://opengodswoord.nl/" data-ogw-href="">Open Gods Woord</a><span class="ka-dot" aria-hidden="true">·</span>' +
+                '<a href="https://opengodsword.com/" data-ogw-href="">Open Gods Woord</a><span class="ka-dot" aria-hidden="true">·</span>' +
                 '<a href="https://openparafrase.nl/" data-opv-href="">Open Parafrase Vertaling</a>' +
             '</nav>' +
         '</div>';
@@ -102,7 +102,7 @@
                 '<a href="uitgangspunten.html">Uitgangspunten</a><a href="principes.html">Principes</a>' +
                 '<a href="bronnen.html">Bronnen</a><a href="statistieken.html">Statistieken</a></nav>' +
             '<nav aria-labelledby="ka-f-zusters"><h2 id="ka-f-zusters">Zustersites</h2>' +
-                '<a href="https://opengodswoord.nl/" data-ogw-href="">Open Gods Woord</a>' +
+                '<a href="https://opengodsword.com/" data-ogw-href="">Open Gods Woord</a>' +
                 '<a href="https://openparafrase.nl/" data-opv-href="">Open Parafrase Vertaling</a></nav>' +
         '</div>' +
         '<div class="ka-footer-base"><span class="ka-footer-mono"><span id="ka-footer-versie">…</span> · tekst CC0</span>' +
