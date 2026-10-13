@@ -196,11 +196,92 @@ def sync(a) -> int:
     return 0
 
 
+# Boeken waar de projectconventie is dat ieder Grieks woord in precies één
+# koppeling zit (zie tests/test_import_inline_woordnummers.py); elders mag een
+# onvertaald woord als "ongemapt" in het reviewbestand staan.
+IEDER_WOORD_GEKOPPELD = {"johannes"}
+
+
+def herbouw(rec_idx: list[int], anker: dict, basis: dict) -> dict:
+    n = len(anker.get("strongs") or [])
+    rec = {k: v for k, v in basis.items() if k not in LIJSTVELDEN and k != "herkomst"}
+    for veld in LIJSTVELDEN:
+        lijst = anker.get(veld)
+        if isinstance(lijst, list) and len(lijst) == n:
+            rec[veld] = [lijst[i] for i in rec_idx]
+    herkomst = dict(basis.get("herkomst") or {})
+    herkomst["bronindices"] = rec_idx
+    rec["herkomst"] = herkomst
+    return rec
+
+
+def compleet(a) -> int:
+    """Leg ieder Grieks woord van de uitgelijnde verzen vast: gekoppeld, of als
+    'ongemapt' in data/woordnummers-review/<boek>-<h>.json. In boeken uit
+    IEDER_WOORD_GEKOPPELD wordt een los woord bij de buurkoppeling gevoegd."""
+    boek = a.boek
+    totaal_ongemapt = totaal_bijgevoegd = 0
+    for pad in sorted((DATA / boek).glob("*.json"), key=lambda p: int(p.stem) if p.stem.isdigit() else 0):
+        if not pad.stem.isdigit():
+            continue
+        h = int(pad.stem)
+        d = json.loads(pad.read_text(encoding="utf-8"))
+        gewijzigd = False
+        rp = DATA / "woordnummers-review" / f"{boek}-{h}.json"
+        review = json.loads(rp.read_text(encoding="utf-8")) if rp.exists() else {"book": boek, "chapter": h, "verses": {}}
+        review_gewijzigd = False
+        for v in d.get("verses", []):
+            wn = v.get("woordnummers") or []
+            if not wn or not all(isinstance(k, dict) and k.get("status") == "uitgelijnd" for k in wn):
+                continue
+            n = len(v.get("grondtekst") or [])
+            gekoppeld = {i for k in wn for i in (k.get("herkomst") or {}).get("bronindices", [])}
+            los = [i for i in range(n) if i not in gekoppeld]
+            if boek in IEDER_WOORD_GEKOPPELD and los:
+                anker = anker_van(boek, h, v)
+                idx_lijsten = [list((k.get("herkomst") or {}).get("bronindices", [])) for k in wn]
+                for i in los:
+                    # dichtstbijzijnde koppeling in de Griekse volgorde; bij gelijke
+                    # afstand de volgende (een lidwoord hoort bij wat volgt)
+                    beste = min(range(len(wn)), key=lambda j: (min(abs(i - x) for x in idx_lijsten[j]),
+                                                                 0 if min(idx_lijsten[j]) > i else 1))
+                    idx_lijsten[beste] = sorted(idx_lijsten[beste] + [i])
+                    totaal_bijgevoegd += 1
+                v["woordnummers"] = [herbouw(idx_lijsten[j], anker, wn[j]) for j in range(len(wn))]
+                wn = v["woordnummers"]
+                los = []
+                gewijzigd = True
+            verzen = review.setdefault("verses", {})
+            oud = verzen.get(str(v["number"]))
+            record = {"mappings": [{"tekst": k["tekst"], "bronindices": (k.get("herkomst") or {}).get("bronindices", []),
+                                    "reviewstatus": k.get("reviewstatus")} for k in wn],
+                      "ongemapt": [{"bronindices": [i], "reden": "niet_vertaald_in_text2026"} for i in los]}
+            if isinstance(oud, dict):
+                for sleutel, waarde in oud.items():
+                    if sleutel not in record:
+                        record[sleutel] = waarde
+            if verzen.get(str(v["number"])) != record:
+                verzen[str(v["number"])] = record
+                review_gewijzigd = True
+            totaal_ongemapt += len(los)
+        if gewijzigd:
+            bewaar(pad, d)
+        if review_gewijzigd:
+            if rp.exists():
+                bewaar(rp, review)
+            else:
+                rp.write_text(json.dumps(review, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"{boek}: {totaal_ongemapt} Griekse woorden als ongemapt vastgelegd, {totaal_bijgevoegd} bij een buurkoppeling gevoegd")
+    return 0
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     sub = ap.add_subparsers(dest="actie", required=True)
     sy = sub.add_parser("sync")
     sy.add_argument("--boek", required=True)
+    co = sub.add_parser("compleet")
+    co.add_argument("--boek", required=True)
     for naam in ("toon", "schrijf"):
         s = sub.add_parser(naam)
         s.add_argument("--boek", required=True)
@@ -210,4 +291,4 @@ if __name__ == "__main__":
         if naam == "schrijf":
             s.add_argument("--bestand", required=True)
     a = ap.parse_args()
-    sys.exit({"toon": toon, "schrijf": schrijf, "sync": sync}[a.actie](a))
+    sys.exit({"toon": toon, "schrijf": schrijf, "sync": sync, "compleet": compleet}[a.actie](a))

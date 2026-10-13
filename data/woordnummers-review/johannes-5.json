@@ -1998,19 +1998,46 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "41": [
-      {
-        "tekst": "Ik neem geen eer van mensen",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "41": {
+      "mappings": [
+        {
+          "tekst": "eer",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "van",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "mensen",
+          "bronindices": [
+            2
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "geen",
+          "bronindices": [
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Ik neem",
+          "bronindices": [
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "42": [
       {
         "tekst": "Maar Ik ken u",

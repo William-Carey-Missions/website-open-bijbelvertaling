@@ -1058,23 +1058,62 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "24": [
-      {
-        "tekst": "Annas dan had Hem gebonden gezonden tot Kajafas, de hogepriester",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "24": {
+      "mappings": [
+        {
+          "tekst": "Annas",
+          "bronindices": [
+            2,
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Hem",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "gebonden",
+          "bronindices": [
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "gezonden",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "tot",
+          "bronindices": [
+            5
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Kajafas",
+          "bronindices": [
+            6
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "de hogepriester",
+          "bronindices": [
+            7,
+            8
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "25": [
       {
         "tekst": "En Simon Petrus stond en warmde zich",

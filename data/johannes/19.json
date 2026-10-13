@@ -18262,6 +18262,9 @@
         {
           "tekst": "Daar",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G1563"
           ],
@@ -18283,9 +18286,6 @@
           "tvm": [
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18299,6 +18299,9 @@
         {
           "tekst": "dan",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G3767"
           ],
@@ -18320,9 +18323,6 @@
           "tvm": [
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18336,6 +18336,9 @@
         {
           "tekst": "legden",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G5087"
           ],
@@ -18357,9 +18360,6 @@
           "tvm": [
             "G5656"
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18373,36 +18373,44 @@
         {
           "tekst": "Jezus",
           "voorkomen": 1,
-          "strongs": [
-            "G2424"
-          ],
-          "lemma_strongs": [
-            "G2424"
-          ],
-          "morfologie": [
-            "N-ASM"
-          ],
-          "bronwoorden": [
-            "ιησουν"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
+          "strongs": [
+            "G3588",
+            "G2424"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2424"
+          ],
+          "morfologie": [
+            "T-ASM",
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "τον",
+            "ιησουν"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "tvm": [
+            null,
+            null
+          ],
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
             "referentie": "JHN 19:42",
             "bronindices": [
+              13,
               14
             ]
           }
@@ -18410,6 +18418,9 @@
         {
           "tekst": "om",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G1223"
           ],
@@ -18431,9 +18442,6 @@
           "tvm": [
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18447,6 +18455,9 @@
         {
           "tekst": "de voorbereiding",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G3588",
             "G3904"
@@ -18475,9 +18486,6 @@
             null,
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18492,6 +18500,9 @@
         {
           "tekst": "de Joden",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G3588",
             "G2453"
@@ -18520,9 +18531,6 @@
             null,
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18537,6 +18545,9 @@
         {
           "tekst": "omdat",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G3754"
           ],
@@ -18558,9 +18569,6 @@
           "tvm": [
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18574,6 +18582,9 @@
         {
           "tekst": "het graf",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G3588",
             "G3419"
@@ -18602,9 +18613,6 @@
             null,
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18619,6 +18627,9 @@
         {
           "tekst": "nabij",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G1451"
           ],
@@ -18640,9 +18651,6 @@
           "tvm": [
             null
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
@@ -18656,6 +18664,9 @@
         {
           "tekst": "was",
           "voorkomen": 1,
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "strongs": [
             "G2258"
           ],
@@ -18677,9 +18688,6 @@
           "tvm": [
             "G5713"
           ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",

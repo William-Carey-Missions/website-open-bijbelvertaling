@@ -1469,7 +1469,14 @@ def test_johannes_5_publiceert_ieder_tr_token_precies_eenmaal():
         source_indices = [index for item in mappings for index in item["herkomst"]["bronindices"]]
         assert sorted(source_indices) == list(range(len(ground)))
         assert len(set(source_indices)) == len(ground)
-        assert all(item.get("reviewstatus") == "handmatig_gecontroleerd" for item in mappings)
+        # Verzen die van een versanker naar woordniveau zijn uitgelijnd
+        # (scripts/woordnummers_uitlijnen.py) dragen eerlijk de status
+        # automatisch_hoog_vertrouwen tot een mens ze nakijkt.
+        assert all(
+            item.get("reviewstatus") == "handmatig_gecontroleerd"
+            or (item.get("status") == "uitgelijnd" and item.get("reviewstatus") == "automatisch_hoog_vertrouwen")
+            for item in mappings
+        )
 
 
 def test_johannes_6_publiceert_ieder_tr_token_precies_eenmaal():
