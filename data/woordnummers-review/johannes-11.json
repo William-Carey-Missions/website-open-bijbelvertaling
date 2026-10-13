@@ -1502,17 +1502,26 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "35": [
-      {
-        "tekst": "Jezus huilde",
-        "bronindices": [
-          0,
-          1,
-          2
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "35": {
+      "mappings": [
+        {
+          "tekst": "huilde",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Jezus",
+          "bronindices": [
+            1,
+            2
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "36": [
       {
         "tekst": "De Joden dan zeiden",

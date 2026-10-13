@@ -11933,81 +11933,197 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Ik en de Vader zijn één",
+          "tekst": "Ik",
           "voorkomen": 1,
           "strongs": [
-            "G1473",
-            "G2532",
-            "G3588",
-            "G3962",
-            "G1520",
-            "G1510"
+            "G1473"
           ],
           "lemma_strongs": [
-            "G1473",
-            "G2532",
-            "G3588",
-            "G3962",
-            "G1520",
-            "G1510"
+            "G1473"
           ],
           "morfologie": [
-            "P-1NS",
-            "CONJ",
-            "T-NSM",
-            "N-NSM",
-            "A-NSN",
-            "V-PAI-1P"
+            "P-1NS"
           ],
           "bronwoorden": [
-            "εγω",
-            "και",
-            "ο",
-            "πατηρ",
-            "εν",
-            "εσμεν"
+            "εγω"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
-          "status": "vertaald",
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
             "referentie": "JHN 10:30",
             "bronindices": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5
+              0
             ]
-          },
+          }
+        },
+        {
+          "tekst": "en",
+          "voorkomen": 1,
+          "strongs": [
+            "G2532"
+          ],
+          "lemma_strongs": [
+            "G2532"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "και"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:30",
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "de Vader",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G3962"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G3962"
+          ],
+          "morfologie": [
+            "T-NSM",
+            "N-NSM"
+          ],
+          "bronwoorden": [
+            "ο",
+            "πατηρ"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
           "tvm": [
             null,
-            null,
-            null,
-            null,
-            null,
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:30",
+            "bronindices": [
+              2,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "één",
+          "voorkomen": 1,
+          "strongs": [
+            "G1520"
+          ],
+          "lemma_strongs": [
+            "G1520"
+          ],
+          "morfologie": [
+            "A-NSN"
+          ],
+          "bronwoorden": [
+            "εν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:30",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "zijn",
+          "voorkomen": 1,
+          "strongs": [
+            "G1510"
+          ],
+          "lemma_strongs": [
+            "G1510"
+          ],
+          "morfologie": [
+            "V-PAI-1P"
+          ],
+          "bronwoorden": [
+            "εσμεν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
             "G5719"
-          ]
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:30",
+            "bronindices": [
+              5
+            ]
+          }
         }
       ]
     },
@@ -16488,81 +16604,226 @@
       ],
       "woordnummers": [
         {
-          "tekst": "En velen geloofden daar in Hem",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
-            "G2532",
-            "G4100",
-            "G4183",
-            "G1563",
-            "G1519",
-            "G846"
+            "G2532"
           ],
           "lemma_strongs": [
-            "G2532",
-            "G4100",
-            "G4183",
-            "G1563",
-            "G1519",
-            "G846"
+            "G2532"
           ],
           "morfologie": [
-            "CONJ",
-            "V-AAI-3P",
-            "A-NPM",
-            "ADV",
-            "PREP",
-            "P-ASM"
+            "CONJ"
           ],
           "bronwoorden": [
-            "και",
-            "επιστευσαν",
-            "πολλοι",
-            "εκει",
-            "εις",
-            "αυτον"
+            "και"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
-          "status": "vertaald",
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
             "referentie": "JHN 10:42",
             "bronindices": [
-              0,
-              1,
-              2,
-              3,
-              4,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "geloofden",
+          "voorkomen": 1,
+          "strongs": [
+            "G4100"
+          ],
+          "lemma_strongs": [
+            "G4100"
+          ],
+          "morfologie": [
+            "V-AAI-3P"
+          ],
+          "bronwoorden": [
+            "επιστευσαν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5656"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:42",
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "velen",
+          "voorkomen": 1,
+          "strongs": [
+            "G4183"
+          ],
+          "lemma_strongs": [
+            "G4183"
+          ],
+          "morfologie": [
+            "A-NPM"
+          ],
+          "bronwoorden": [
+            "πολλοι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:42",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "daar",
+          "voorkomen": 1,
+          "strongs": [
+            "G1563"
+          ],
+          "lemma_strongs": [
+            "G1563"
+          ],
+          "morfologie": [
+            "ADV"
+          ],
+          "bronwoorden": [
+            "εκει"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:42",
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "G1519"
+          ],
+          "lemma_strongs": [
+            "G1519"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:42",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "Hem",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-ASM"
+          ],
+          "bronwoorden": [
+            "αυτον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 10:42",
+            "bronindices": [
               5
             ]
-          },
-          "tvm": [
-            null,
-            "G5656",
-            null,
-            null,
-            null,
-            null
-          ]
+          }
         }
       ]
     }

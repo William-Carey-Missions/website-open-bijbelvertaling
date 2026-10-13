@@ -1056,25 +1056,82 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "21": [
-      {
-        "tekst": "Als Petrus deze zag, zei hij tot Jezus: Heere, maar wat zal deze",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "21": {
+      "mappings": [
+        {
+          "tekst": "zag",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Petrus",
+          "bronindices": [
+            2,
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "deze",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "zei",
+          "bronindices": [
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "tot",
+          "bronindices": [
+            5
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Jezus",
+          "bronindices": [
+            6
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Heere",
+          "bronindices": [
+            7
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "maar",
+          "bronindices": [
+            9
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "wat",
+          "bronindices": [
+            10
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "deze",
+          "bronindices": [
+            8
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "22": [
       {
         "tekst": "Jezus zei tot hem",

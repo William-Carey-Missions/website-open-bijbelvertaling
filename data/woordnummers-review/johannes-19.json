@@ -1876,28 +1876,91 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "42": [
-      {
-        "tekst": "Daar dan legden zij Jezus, om de voorbereiding van de Joden, omdat het graf nabij was",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ]
+    "42": {
+      "mappings": [
+        {
+          "tekst": "Daar",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "dan",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "legden",
+          "bronindices": [
+            12
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Jezus",
+          "bronindices": [
+            13,
+            14
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "om",
+          "bronindices": [
+            2
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "de voorbereiding",
+          "bronindices": [
+            3,
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "de Joden",
+          "bronindices": [
+            5,
+            6
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "omdat",
+          "bronindices": [
+            7
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "het graf",
+          "bronindices": [
+            10,
+            11
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "nabij",
+          "bronindices": [
+            8
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "was",
+          "bronindices": [
+            9
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    }
   }
 }

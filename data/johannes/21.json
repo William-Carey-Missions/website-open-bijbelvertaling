@@ -10229,121 +10229,382 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Als Petrus deze zag, zei hij tot Jezus: Heere, maar wat zal deze",
+          "tekst": "zag",
           "voorkomen": 1,
           "strongs": [
-            "G3778",
-            "G3708",
-            "G3588",
-            "G4074",
-            "G3004",
-            "G3588",
-            "G2424",
-            "G2962",
-            "G3778",
-            "G1161",
-            "G5101"
+            "G3708"
           ],
           "lemma_strongs": [
-            "G3778",
-            "G3708",
-            "G3588",
-            "G4074",
-            "G3004",
-            "G3588",
-            "G2424",
-            "G2962",
-            "G3778",
-            "G1161",
-            "G5101"
+            "G3708"
           ],
           "morfologie": [
-            "D-ASM",
-            "V-2AAP-NSM",
-            "T-NSM",
-            "N-NSM",
-            "V-PAI-3S",
-            "T-DSM",
-            "N-DSM",
-            "N-VSM",
-            "D-NSM",
-            "CONJ",
-            "I-NSN"
+            "V-2AAP-NSM"
           ],
           "bronwoorden": [
-            "τουτον",
-            "ιδων",
-            "ο",
-            "πετρος",
-            "λεγει",
-            "τω",
-            "ιησου",
-            "κυριε",
-            "ουτος",
-            "δε",
-            "τι"
+            "ιδων"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
-          "status": "vertaald",
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5631"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
             "referentie": "JHN 21:21",
             "bronindices": [
-              0,
-              1,
-              2,
-              3,
-              4,
-              5,
-              6,
-              7,
-              8,
-              9,
-              10
+              1
             ]
-          },
+          }
+        },
+        {
+          "tekst": "Petrus",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G4074"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G4074"
+          ],
+          "morfologie": [
+            "T-NSM",
+            "N-NSM"
+          ],
+          "bronwoorden": [
+            "ο",
+            "πετρος"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
           "tvm": [
             null,
-            "G5631",
-            null,
-            null,
-            "G5719",
-            null,
-            null,
-            null,
-            null,
-            null,
             null
-          ]
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              2,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-ASM"
+          ],
+          "bronwoorden": [
+            "τουτον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "zei",
+          "voorkomen": 1,
+          "strongs": [
+            "G3004"
+          ],
+          "lemma_strongs": [
+            "G3004"
+          ],
+          "morfologie": [
+            "V-PAI-3S"
+          ],
+          "bronwoorden": [
+            "λεγει"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5719"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "tot",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSM"
+          ],
+          "bronwoorden": [
+            "τω"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "Jezus",
+          "voorkomen": 1,
+          "strongs": [
+            "G2424"
+          ],
+          "lemma_strongs": [
+            "G2424"
+          ],
+          "morfologie": [
+            "N-DSM"
+          ],
+          "bronwoorden": [
+            "ιησου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "Heere",
+          "voorkomen": 1,
+          "strongs": [
+            "G2962"
+          ],
+          "lemma_strongs": [
+            "G2962"
+          ],
+          "morfologie": [
+            "N-VSM"
+          ],
+          "bronwoorden": [
+            "κυριε"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "maar",
+          "voorkomen": 1,
+          "strongs": [
+            "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "δε"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "wat",
+          "voorkomen": 1,
+          "strongs": [
+            "G5101"
+          ],
+          "lemma_strongs": [
+            "G5101"
+          ],
+          "morfologie": [
+            "I-NSN"
+          ],
+          "bronwoorden": [
+            "τι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 2,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-NSM"
+          ],
+          "bronwoorden": [
+            "ουτος"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 21:21",
+            "bronindices": [
+              8
+            ]
+          }
         }
       ]
     },

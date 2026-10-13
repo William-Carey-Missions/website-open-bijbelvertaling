@@ -2143,20 +2143,53 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "53": [
-      {
-        "tekst": "En ieder ging heen naar zijn huis",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ]
+    "53": {
+      "mappings": [
+        {
+          "tekst": "En",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "ging heen",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "ieder",
+          "bronindices": [
+            2
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "naar",
+          "bronindices": [
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "huis",
+          "bronindices": [
+            4,
+            5
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "zijn",
+          "bronindices": [
+            6
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    }
   }
 }

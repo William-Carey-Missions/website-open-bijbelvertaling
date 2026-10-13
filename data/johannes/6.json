@@ -20409,81 +20409,168 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Ik ben het Brood van het leven",
+          "tekst": "Ik",
           "voorkomen": 1,
           "strongs": [
-            "G1473",
-            "G1510",
-            "G3588",
-            "G740",
-            "G3588",
-            "G2222"
+            "G1473"
           ],
           "lemma_strongs": [
-            "G1473",
-            "G1510",
-            "G3588",
-            "G740",
-            "G3588",
-            "G2222"
+            "G1473"
           ],
           "morfologie": [
-            "P-1NS",
-            "V-PAI-1S",
-            "T-NSM",
-            "N-NSM",
-            "T-GSF",
-            "N-GSF"
+            "P-1NS"
           ],
           "bronwoorden": [
-            "εγω",
-            "ειμι",
-            "ο",
-            "αρτος",
-            "της",
-            "ζωης"
+            "εγω"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
-            "",
-            "",
             ""
           ],
-          "status": "vertaald",
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "robinson-scrivener-tr",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
             "referentie": "JHN 6:48",
             "bronindices": [
-              0,
-              1,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "ben",
+          "voorkomen": 1,
+          "strongs": [
+            "G1510"
+          ],
+          "lemma_strongs": [
+            "G1510"
+          ],
+          "morfologie": [
+            "V-PAI-1S"
+          ],
+          "bronwoorden": [
+            "ειμι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5719"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 6:48",
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "het Brood",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G740"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G740"
+          ],
+          "morfologie": [
+            "T-NSM",
+            "N-NSM"
+          ],
+          "bronwoorden": [
+            "ο",
+            "αρτος"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "tvm": [
+            null,
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 6:48",
+            "bronindices": [
               2,
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "het leven",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G2222"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2222"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
+          ],
+          "bronwoorden": [
+            "της",
+            "ζωης"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "tvm": [
+            null,
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "77FBB830AE3E11B79F7F47A8E68A119DC77F0722EBCC99BB00111702797BFFE5",
+            "referentie": "JHN 6:48",
+            "bronindices": [
               4,
               5
             ]
-          },
-          "tvm": [
-            null,
-            "G5719",
-            null,
-            null,
-            null,
-            null
-          ]
+          }
         }
       ]
     },

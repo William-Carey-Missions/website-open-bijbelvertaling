@@ -2236,20 +2236,41 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "48": [
-      {
-        "tekst": "Ik ben het Brood van het leven",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "48": {
+      "mappings": [
+        {
+          "tekst": "Ik",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "ben",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "het Brood",
+          "bronindices": [
+            2,
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "het leven",
+          "bronindices": [
+            4,
+            5
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "49": [
       {
         "tekst": "Uw vaders hebben het Manna gegeten",

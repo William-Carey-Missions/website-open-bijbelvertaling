@@ -349,21 +349,48 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "10": [
-      {
-        "tekst": "De discipelen dan gingen opnieuw naar huis",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "10": {
+      "mappings": [
+        {
+          "tekst": "De discipelen",
+          "bronindices": [
+            5,
+            6
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "dan",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "gingen",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "opnieuw",
+          "bronindices": [
+            2
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "naar huis",
+          "bronindices": [
+            3,
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "11": [
       {
         "tekst": "En Maria stond buiten bij het graf, huilend",

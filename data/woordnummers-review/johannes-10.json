@@ -1241,20 +1241,47 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "30": [
-      {
-        "tekst": "Ik en de Vader zijn één",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ],
+    "30": {
+      "mappings": [
+        {
+          "tekst": "Ik",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "en",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "de Vader",
+          "bronindices": [
+            2,
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "één",
+          "bronindices": [
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "zijn",
+          "bronindices": [
+            5
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    },
     "31": [
       {
         "tekst": "De Joden dan namen opnieuw stenen op",
@@ -1726,19 +1753,52 @@
         "reviewstatus": "handmatig_gecontroleerd"
       }
     ],
-    "42": [
-      {
-        "tekst": "En velen geloofden daar in Hem",
-        "bronindices": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5
-        ],
-        "reviewstatus": "handmatig_gecontroleerd"
-      }
-    ]
+    "42": {
+      "mappings": [
+        {
+          "tekst": "En",
+          "bronindices": [
+            0
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "geloofden",
+          "bronindices": [
+            1
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "velen",
+          "bronindices": [
+            2
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "daar",
+          "bronindices": [
+            3
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "in",
+          "bronindices": [
+            4
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        },
+        {
+          "tekst": "Hem",
+          "bronindices": [
+            5
+          ],
+          "reviewstatus": "automatisch_hoog_vertrouwen"
+        }
+      ],
+      "ongemapt": []
+    }
   }
 }
