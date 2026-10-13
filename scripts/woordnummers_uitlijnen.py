@@ -47,10 +47,21 @@ def anker_van(boek: str, h: int, vers: dict):
 
 
 def is_versanker(vers: dict) -> bool:
+    """Eén koppeling voor (bijna) het hele vers met alle Griekse woorden.
+
+    Soms is de ankertekst nog de oude SV-formulering ("onzes Heeren") terwijl
+    text2026 inmiddels gemoderniseerd is; dan vindt de lezer het anker niet en
+    toont hij geen nummers. Die gevallen tellen hier ook als versanker."""
     wn = vers.get("woordnummers") or []
-    return (len(wn) == 1 and isinstance(wn[0], dict)
-            and (wn[0].get("tekst") or "").strip() == (vers.get("text2026") or "").strip()
-            and len(wn[0].get("strongs") or []) > 1)
+    if len(wn) != 1 or not isinstance(wn[0], dict) or len(wn[0].get("strongs") or []) < 2:
+        return False
+    anker = (wn[0].get("tekst") or "").strip()
+    tekst = (vers.get("text2026") or "").strip()
+    if anker == tekst:
+        return True
+    n_grieks = len(vers.get("grondtekst") or [])
+    return (len(wn[0].get("strongs") or []) >= max(2, n_grieks - 1)
+            and len(anker.split()) >= 0.6 * len(tekst.split()))
 
 
 def voorkomens(tekst: str, doel: str) -> int:
