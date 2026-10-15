@@ -68,8 +68,12 @@ systemctl enable --now openvertaling-collaboration.service
 systemctl restart openvertaling-collaboration.service
 nginx -t
 systemctl reload nginx
-curl --fail --silent --show-error --retry 10 --retry-delay 1 --retry-connrefused \
-    --retry-max-time 30 http://127.0.0.1:8787/api/collaboration/health >/dev/null
+if ! curl --fail --silent --show-error --retry 10 --retry-delay 1 --retry-connrefused \
+    --retry-max-time 30 http://127.0.0.1:8787/api/collaboration/health >/dev/null; then
+    systemctl status openvertaling-collaboration.service --no-pager -l >&2 || true
+    journalctl -u openvertaling-collaboration.service -n 40 --no-pager >&2 || true
+    exit 1
+fi
 
 trap - ERR
 unlink -- "$SITE_BACKUP"
