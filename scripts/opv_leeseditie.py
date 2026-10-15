@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Zet de Open Parafrase Vertaling om naar de leeseditie op de site.
+"""Zet de Open Parafrase Weergave om naar de leeseditie op de site.
 
 De parafrase wordt gemaakt in `data/edities/opv/chapters/<boek>/<hs>.json`, met
 per vers de segmenten, de sprekers en de begripskoppelingen. De lezer op de site
@@ -143,7 +143,7 @@ def main():
     manifest["edities"] = [e for e in manifest["edities"] if e["code"] != CODE]
     manifest["edities"].insert(0, {
         "code": CODE,
-        "naam": "Open Parafrase Vertaling",
+        "naam": "Open Parafrase Weergave",
         "taal": "nl",
         "richting": "ltr",
         "rechten": "publiek domein",

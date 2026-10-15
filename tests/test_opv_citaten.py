@@ -1,4 +1,4 @@
-"""De citaatopmaak in de leeseditie van de Open Parafrase Vertaling.
+"""De citaatopmaak in de leeseditie van de Open Parafrase Weergave.
 
 De opmaak wordt uit de sprekersdata van de parafrase gebouwd
 (scripts/opv_leeseditie.py). Die mag de tekst zelf niet veranderen, en moet

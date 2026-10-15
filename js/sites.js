@@ -1,5 +1,5 @@
 /* Adressen van de drie zustersites: Open Vertaling (OV), Open Gods Woord
- * (OGW, wiki en broninformatie) en Open Parafrase Vertaling (OPV).
+ * (OGW, wiki en broninformatie) en Open Parafrase Weergave (OPV).
  *
  * Eén plek, zodat een domeinwissel geen zoektocht door de code wordt. Lokaal
  * draaien de drie naast elkaar op vaste poorten; zo zijn kruislinks ook

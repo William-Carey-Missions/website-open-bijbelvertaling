@@ -40,8 +40,8 @@ class VerificationExportTests(fixtures.CollaborationHttpTests):
             "number": 1, "verses": [{"number": 1, "text2026": "In het begin."}],
         }))
         (self.root / "data/stats.json").write_text(json.dumps({"version": "test", "date": "test"}))
-        (self.root / "data/changelog.json").write_text(json.dumps({
-            "wijzigingen": [{"versie": "test", "datum": "2026-09-14"}],
+        (self.root / "data/release.json").write_text(json.dumps({
+            "versie": "test", "datum": "2026-09-14",
         }))
         (self.root / "data/wijzigingsprincipes.json").write_text('{"principes":[]}')
         (self.root / "data/review-history.json").write_text('{}')

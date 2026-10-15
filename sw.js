@@ -8,7 +8,7 @@
  * Versionering: bump VERSION bij elke deploy om alle caches te vernieuwen.
  */
 
-const VERSION = 'v0.59.6';
+const VERSION = 'v0.60.0';
 // New reader modules must not be mixed with HTML from before verification.
 const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1-ontwerp1`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
@@ -19,16 +19,20 @@ const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
     '/',
     '/index.html',
+    '/llms.txt',
+    '/LLM.txt',
+    '/css/publication.css',
+    '/images/branding/open-vertaling-logo-light.svg',
+    '/images/branding/william-carey-missions.png',
     '/js/theme.js',
     '/js/auth-bootstrap.js',
     '/js/firebase-config.js',
     '/js/auth.js',
     '/js/iframe-navigation.js',
-    '/js/doc-sidebar.js',
-    '/css/doc-sidebar.css',
     '/css/style.css',
     '/js/storage.js',
     '/js/i18n.js',
+    '/js/reader-policy.js',
     '/js/teksteditie.js',
     '/js/data-loader.js',
     '/js/verification.js',
@@ -40,7 +44,6 @@ const PRECACHE_URLS = [
     '/css/corrections.css',
     '/css/collaboration.css',
     '/js/chapter-renderer.js',
-    '/js/lees-renderer.js',
     '/css/verification.css',
     '/js/citatie-uit.js',
     '/js/assets.js',
@@ -60,7 +63,6 @@ const PRECACHE_URLS = [
     '/fonts/noto-serif-hebrew.woff2',
     '/css/fonts.css',
     '/css/ontwerp.css',
-    '/js/spoor.js',
     '/js/startscherm.js',
     '/js/sidebar.js',
     '/js/app.js',
@@ -69,24 +71,16 @@ const PRECACHE_URLS = [
     '/js/begrippen.js',
     '/js/references.js',
     '/js/verwijzing-popup.js',
-    '/js/noot-grondwoorden.js',
     '/css/verwijzing-popup.css',
-    '/js/lexicon.js',
-    '/js/woordnummers.js',
     '/js/editor.js',
     '/js/export.js',
-    '/js/column-resize.js',
-    '/js/column-reorder.js',
-    '/js/kolom-chips.js',
     '/js/verse-select.js',
     '/js/highlight.js',
     '/js/tags.js',
     '/js/search.js',
     '/js/cloud-opties.js',
-    '/js/stats-inject.js',
     '/js/sites.js',
     '/data/books.json',
-    '/data/vertalingen/manifest.json',
     '/i18n/nl.json',
     '/data/stats.json',
 ];

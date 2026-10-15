@@ -17,10 +17,7 @@
         _manifest: null,
         _manifestPromise: null,
         _cache: new Map(),
-        code() {
-            const fromUrl = new URL(location.href).searchParams.get('editie');
-            return CODES.has(fromUrl) ? fromUrl : storedCode();
-        },
+        code() { return 'nl-ov'; },
         isDutch() { return this.code() === 'nl-ov'; },
         async manifest() {
             if (this._manifest) return this._manifest;

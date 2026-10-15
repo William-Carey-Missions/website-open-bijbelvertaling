@@ -70,7 +70,7 @@ class ValidateOpvTests(unittest.TestCase):
             "edities": [
                 {
                     "code": "nl-opv",
-                    "naam": "Open Parafrase Vertaling (proef)",
+                    "naam": "Open Parafrase Weergave (proef)",
                     "taal": "nl",
                     "richting": "ltr",
                     "dataRoot": "data/edities/opv/chapters",
@@ -84,7 +84,7 @@ class ValidateOpvTests(unittest.TestCase):
         self.edition_manifest = {
             "schema": 1,
             "editie": "nl-opv",
-            "naam": "Open Parafrase Vertaling (proef)",
+            "naam": "Open Parafrase Weergave (proef)",
             "taal": "nl",
             "richting": "ltr",
             "status": "pilot",

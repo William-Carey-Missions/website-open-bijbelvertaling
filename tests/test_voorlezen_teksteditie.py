@@ -1,7 +1,7 @@
 """De voorlezing hoort bij de Open Vertaling.
 
 De opnames lezen de tekst van de Open Vertaling voor. Staat er in de lezer een
-andere teksteditie, zoals de Open Parafrase Vertaling, dan mag de speler die
+andere teksteditie, zoals de Open Parafrase Weergave, dan mag de speler die
 opname niet aanbieden.
 """
 import json

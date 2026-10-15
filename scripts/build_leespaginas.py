@@ -5,7 +5,7 @@ De leesweergave (index.html#boek/hoofdstuk) is een JavaScript-toepassing met
 hash-adressen. Zoekmachines en AI-crawlers zien daarin geen Bijbeltekst. Dit
 script schrijft de tekst van de Open Vertaling daarom ook als gewone HTML:
 
-- bijbel/index.html                  alle 88 boeken
+- bijbel/index.html                  82 boeken
 - bijbel/<boek>/index.html           inhoud van een boek
 - bijbel/<boek>/<hoofdstuk>.html     de tekst van een hoofdstuk
 - llms-full.txt                      de hele tekst als platte tekst
@@ -36,7 +36,6 @@ GROEPEN = [
     ("Apocriefe en deuterocanonieke boeken", "3ezra 4ezra tobit judith boekderwijsheid jezussirach baruch "
      "estherapocrief gebedvanazaria gezangindevuuroven susanna belenddedraak gebedvanmanasse 1makkabeeen "
      "2makkabeeen 3makkabeeen"),
-    ("Ethiopische boeken", "henoch jubileeen 1meqabyan 2meqabyan 3meqabyan 4baruch"),
 ]
 
 STIJL = """
@@ -70,12 +69,16 @@ def esc(tekst):
 
 def verstekst(tekst):
     """Platte versdata naar HTML; <<opschrift>> (bv. Jezus Sirach 51:1) wordt een opschrift."""
-    veilig = esc(" ".join(str(tekst or "").split()))
+    tekst = str(tekst or "").replace("God JAHWEH", "de HEERE God")
+    tekst = re.sub(r"\bJAHWEH\b", "de HEERE", tekst)
+    veilig = esc(" ".join(tekst.split()))
     return re.sub(r"&lt;&lt;(.+?)&gt;&gt;\s*", r'<span class="lp-opschrift">\1</span>', veilig)
 
 
 def platte_tekst(tekst):
-    return re.sub(r"<<(.+?)>>\s*", r"\1. ", " ".join(str(tekst or "").split()))
+    tekst = str(tekst or "").replace("God JAHWEH", "de HEERE God")
+    tekst = re.sub(r"\bJAHWEH\b", "de HEERE", tekst)
+    return re.sub(r"<<(.+?)>>\s*", r"\1. ", " ".join(tekst.split()))
 
 
 def lees_json(pad):
@@ -105,8 +108,11 @@ def pagina(titel, omschrijving, pad, inhoud, json_ld, extra_head=""):
 <meta property="og:description" content="{esc(omschrijving)}">
 <meta property="og:url" content="{url}">
 <meta property="og:image" content="{BASE}/icons/icon-512.png">
+<link rel="describedby" href="/llms.txt" type="text/markdown">
 {extra_head}<link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/ontwerp.css?v=0.60.0">
+<link rel="stylesheet" href="css/publication.css?v=0.60.0">
 <style>{STIJL}</style>
 <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>
@@ -115,7 +121,7 @@ def pagina(titel, omschrijving, pad, inhoud, json_ld, extra_head=""):
 <script src="js/topnav.js"></script>
 <main class="lp">
 {inhoud}
-<footer class="lp-voet">De tekst van de Open Vertaling is vrij van rechten (<a href="{CC0}" rel="license">CC0 1.0</a>, publiek domein): vrij te citeren, te kopiëren en te hergebruiken, zonder toestemming. De tekst wordt nog door mensen nagekeken. <a href="over-ov.html">Over de Open Vertaling</a> · <a href="voor-ai.html">Voor AI's &amp; ontwikkelaars</a> · <a href="llms.txt">llms.txt</a></footer>
+<footer class="lp-voet">De tekst van de Open Vertaling is vrij van rechten (<a href="{CC0}" rel="license">CC0 1.0</a>, publiek domein): vrij te citeren, te kopiëren en te hergebruiken, zonder toestemming. De tekst wordt nog door mensen nagekeken. <a href="https://williamcareymissions.nl/over-ons">William Carey Missions</a></footer>
 </main>
 </body>
 </html>
@@ -203,10 +209,10 @@ def overzicht(groepen, aantallen):
         "<h1>De Bijbel in de Open Vertaling</h1>",
         f'<p class="lp-lead">Alle {aantallen["boeken"]} boeken, {aantallen["hoofdstukken"]} hoofdstukken en '
         f"{verzen} verzen: het Oude en het Nieuwe Testament, de apocriefe en deuterocanonieke "
-        "boeken en de Ethiopische boeken. Een herziening van de Statenvertaling in hedendaags Nederlands, "
+        "boeken. Een herziening van de Statenvertaling in hedendaags Nederlands, "
         "vrij van rechten (CC0).</p>",
-        '<p class="lp-app"><a href="index.html">Open de leesweergave</a> voor grondtekst, woordenboek en '
-        'verschillen met de Statenvertaling, of haal de hele tekst op als <a href="llms-full.txt">platte tekst</a> '
+        '<p class="lp-app"><a href="index.html">Lees de Open Vertaling</a>, haal de hele '
+        'tekst als <a href="llms-full.txt">platte tekst</a> '
         'of via de <a href="downloads.html">downloads</a>.</p>',
     ]
     for groep, boeken in groepen:
@@ -225,7 +231,7 @@ def overzicht(groepen, aantallen):
         "isBasedOn": "Statenvertaling (1637/1888)",
         "isAccessibleForFree": True,
     }
-    omschrijving = ("De volledige Bijbel in de Open Vertaling: alle 88 boeken, ook de apocriefe en de Ethiopische, "
+    omschrijving = ("De volledige Bijbel in de Open Vertaling: 82 boeken, inclusief de apocriefe, "
                     "in hedendaags Nederlands en vrij van rechten (CC0).")
     return "bijbel/index.html", pagina("De Bijbel — Open Vertaling", omschrijving, "bijbel/", "\n".join(regels), ld)
 
@@ -259,8 +265,8 @@ def main():
         "# Open Vertaling — de volledige Bijbel in hedendaags Nederlands",
         "",
         "> De volledige tekst van de Open Vertaling (openvertaling.nl): een herziening van de Statenvertaling "
-        "(1637/1888) in hedendaags Nederlands. Alle 88 boeken: het Oude Testament, het Nieuwe Testament, de "
-        "apocriefe/deuterocanonieke boeken en de Ethiopische boeken.",
+        "(1637/1888) in hedendaags Nederlands. 82 boeken: het Oude Testament, het Nieuwe Testament, de "
+        "apocriefe/deuterocanonieke boeken.",
         "",
         f"Licentie: CC0 1.0, publiek domein ({CC0}). Vrij te citeren, te kopiëren, te bewerken en te hergebruiken, "
         "ook commercieel en door AI-taalmodellen, zonder toestemming en zonder verplichte bronvermelding.",

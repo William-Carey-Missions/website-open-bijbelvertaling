@@ -53,64 +53,30 @@
     nav.innerHTML =
         '<div class="topnav-brand">' +
             '<a class="topnav-brand-link" href="index.html" aria-label="Open Vertaling — naar de startpagina">' +
-                '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg" alt="Open Vertaling">' +
+                '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg" alt="Open Vertaling" width="200" height="60" fetchpriority="high">' +
             '</a>' +
-            '<span class="topnav-version"><a href="changelog.html" id="topnav-versie" style="color:#cba449;text-decoration:none;" title="Wijzigingen per versie">…</a></span>' +
         '</div>' +
         '<div class="topnav-links" id="topnav-links">' +
-            '<a href="over-ov.html">Over OV</a>' +
+            '<a href="https://williamcareymissions.nl/over-ons" target="_blank" rel="noopener">Over ons</a>' +
             '<a href="index.html#johannes/1">Tekst</a>' +
-            '<a href="over-ov.html#documentatie">Documentatie</a>' +
-            '<a href="https://opengodsword.com/wiki.html" data-ogw-href="wiki.html" title="Wiki en Bijbelachtergrond op Open Gods Woord">Achtergrond <span aria-hidden="true">&#8599;</span></a>' +
             '<button class="topnav-mobile-weergave" id="topnav-mobile-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false">Weergave</button>' +
         '</div>' +
         '<input type="search" id="topnav-search-input" class="topnav-search-input" placeholder="Zoek in Gods Woord… (Ctrl+K)" autocomplete="off" aria-label="Zoeken in Gods Woord" onkeydown="if(event.key===\'Enter\'){var q=this.value.trim();if(q){location.href=\'index.html?q=\'+encodeURIComponent(q);}}">' +
         '<button class="topnav-weergave" id="topnav-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false" title="Weergave"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h10"/><path d="M18 7h2"/><circle cx="16" cy="7" r="2"/><path d="M4 17h3"/><path d="M11 17h9"/><circle cx="9" cy="17" r="2"/></svg><span>Weergave</span></button>' +
         '<button class="topnav-theme" id="topnav-theme-toggle" title="Thema: licht/donker" aria-label="Wissel thema"><svg class="theme-icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg><svg class="theme-icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>' +
+        '<a class="topnav-wcm" href="https://williamcareymissions.nl/" target="_blank" rel="noopener" aria-label="William Carey Missions"><img src="/images/branding/william-carey-missions.png" alt="" width="36" height="36"><span>William Carey<br>Missions</span></a>' +
         '<span id="topnav-auth-home" hidden></span>' +
         '<div id="auth-slot" class="topnav-auth"></div>' +
         '<button class="topnav-hamburger" id="topnav-hamburger" onclick="document.getElementById(\'topnav-links\').classList.toggle(\'open\');this.classList.toggle(\'open\')" title="Menu" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>';
 
-    /* Zustersites-strook boven de balk en de footer met "de kleine ark".
-       Op alle drie de sites gelijk; de eigen site staat goud gemarkeerd.
-       Adressen van de zusters komen uit sites.js (data-ogw-href/-opv-href). */
-    var zusters = document.createElement('div');
-    zusters.className = 'ka-zusters';
-    zusters.id = 'ka-zusters';
-    zusters.innerHTML =
-        '<div class="ka-zusters-in">' +
-            '<span class="ka-fam">de kleine ark</span>' +
-            '<nav aria-label="Zustersites">' +
-                '<a href="index.html" aria-current="page">Open Vertaling</a><span class="ka-dot" aria-hidden="true">·</span>' +
-                '<a href="https://opengodsword.com/" data-ogw-href="">Open Gods Woord</a><span class="ka-dot" aria-hidden="true">·</span>' +
-                '<a href="https://open-parafrase-weergave.nl/" data-opv-href="">Open Parafrase Vertaling</a>' +
-            '</nav>' +
-        '</div>';
-    nav.parentNode.insertBefore(zusters, nav);
-
     var footer = document.createElement('footer');
     footer.className = 'ka-footer';
     footer.id = 'ka-footer';
-    footer.innerHTML =
-        '<div class="ka-footer-in">' +
-            '<div><span class="ka-ark">de kleine ark</span>' +
-                '<p>De Open Vertaling is een herziening van de Statenvertaling, vrijgegeven onder CC0. ' +
-                'Kopiëren, drukken, citeren en verspreiden mag zonder toestemming.</p></div>' +
-            '<nav aria-labelledby="ka-f-lezen"><h2 id="ka-f-lezen">Lezen</h2>' +
-                '<a href="index.html#johannes/1">Bijbel</a><a href="lees.html">Leesweergave</a><a href="downloads.html">Downloads</a></nav>' +
-            '<nav aria-labelledby="ka-f-verantw"><h2 id="ka-f-verantw">Verantwoording</h2>' +
-                '<a href="uitgangspunten.html">Uitgangspunten</a><a href="principes.html">Principes</a>' +
-                '<a href="bronnen.html">Bronnen</a><a href="statistieken.html">Statistieken</a></nav>' +
-            '<nav aria-labelledby="ka-f-zusters"><h2 id="ka-f-zusters">Zustersites</h2>' +
-                '<a href="https://opengodsword.com/" data-ogw-href="">Open Gods Woord</a>' +
-                '<a href="https://open-parafrase-weergave.nl/" data-opv-href="">Open Parafrase Vertaling</a></nav>' +
-        '</div>' +
-        '<div class="ka-footer-base"><span class="ka-footer-mono"><span id="ka-footer-versie">…</span> · tekst CC0</span>' +
-            '<span>Fout gezien? <a href="over-ov.html#over-ons">Laat het ons weten</a></span></div>';
-    function plaatsFooter() {
-        if (!footer.isConnected) document.body.appendChild(footer);
-        if (window.KASites) window.KASites.vulLinks(footer);
-    }
+    footer.innerHTML = '<div class="ka-footer-in"><div><strong>Open Vertaling</strong>' +
+        '<p>Een herziening van de Statenvertaling. Vrij te gebruiken onder CC0.</p></div>' +
+        '<nav aria-label="Lezen"><a href="index.html#johannes/1">Bijbel</a><a href="downloads.html">Downloads</a></nav>' +
+        '<nav aria-label="Over ons"><a href="https://williamcareymissions.nl/over-ons" target="_blank" rel="noopener">William Carey Missions</a></nav></div>';
+    function plaatsFooter() { if (!footer.isConnected) document.body.appendChild(footer); }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', plaatsFooter);
     else plaatsFooter();
 
@@ -157,45 +123,11 @@
         window.OVTheme.toggle();
     });
 
-    /* Het versienummer stond hier hardgecodeerd en liep daardoor achter: bij
-       v0.28.0 wees de balk nog naar v0.26.0. Nu komt hij uit data/stats.json,
-       dat build_stats.py bij elke uitgave bijwerkt — zo kan hij niet meer
-       verouderen. Mislukt het ophalen (offline, eerste bezoek zonder cache),
-       dan blijft het beletselteken staan; een verkeerd nummer tonen is erger
-       dan geen nummer. */
-    (function () {
-        var el = document.getElementById('topnav-versie');
-        if (!el) return;
-        fetch('data/stats.json')
-            .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (s) {
-                if (!s || !s.version) return;
-                el.textContent = s.version;
-                var fv = document.getElementById('ka-footer-versie') || footer.querySelector('#ka-footer-versie');
-                if (fv) fv.textContent = s.version;
-            })
-            .catch(function () { /* stil: de balk werkt ook zonder nummer */ });
-    })();
-
-
-    if (window.KASites) { window.KASites.vulLinks(nav); window.KASites.vulLinks(zusters); }
-
     var page = (location.pathname.split('/').pop() || 'index.html');
-    // Documentatiepagina's: de link "Documentatie" (naar over-ov.html) is actief.
-    var docPaginas = {
-        'uitgangspunten.html': 1, 'principes.html': 1, 'statistieken.html': 1, 'changelog.html': 1,
-        'grondteksten.html': 1, 'strongs-en-grondtekst.html': 1, 'bronnen.html': 1, 'citaatvragen.html': 1,
-        'downloads.html': 1, 'drukversie.html': 1, 'insluiten.html': 1, 'voor-ai.html': 1
-    };
-    var links = nav.querySelectorAll('.topnav-links a');
-    for (var i = 0; i < links.length; i++) {
-        var href = links[i].getAttribute('href') || '';
-        var file = href.split('#')[0].split('?')[0];
-        var isDoc = links[i].getAttribute('href') === 'over-ov.html#documentatie';
-        if ((file === page && !isDoc) || (isDoc && docPaginas[page])) {
-            links[i].classList.add('active');
-        }
-    }
+    nav.querySelectorAll('.topnav-links a').forEach(function (link) {
+        const href = link.getAttribute('href') || '';
+        if (href.split('#')[0] === page) link.classList.add('active');
+    });
 
     // Mobiele zoomregeling (zweefknop −/+) — self-contained, op elke pagina.
     if (!document.querySelector('script[src$="zoom.js"]')) {

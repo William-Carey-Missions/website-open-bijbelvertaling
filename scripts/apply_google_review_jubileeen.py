@@ -285,7 +285,7 @@ BESLUITEN = [
     ("4:22", "[Principe] Wachters ipv wakers", "principe", "verwerkt",
      "'wakers' is nu 'wachters', in Jubileeën en in Henoch (principe V1642). De vaste "
      "term in de woordenlijst voor het vertalen uit het Ge'ez is mee aangepast. De "
-     "Open Parafrase Vertaling van Henoch gebruikt nog 'wakers'."),
+     "Open Parafrase Weergave van Henoch gebruikt nog 'wakers'."),
     ("5:3", "[Oude woorden vervangen] Verordening", "tekst_eenduidig", "afgedekt",
      "Staat als 'ordening'."),
     ("7:1", "Wiens - van wie de naam", "tekst_eenduidig", "verwerkt",

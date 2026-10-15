@@ -1,4 +1,4 @@
-"""Bewijs dat de Open Parafrase Vertaling als editie op de site te kiezen is."""
+"""Bewijs dat de Open Parafrase Weergave als editie op de site te kiezen is."""
 import http.server
 import threading
 from pathlib import Path
@@ -29,7 +29,7 @@ def test_parafrase_staat_in_de_keuzelijst_en_leest():
             page.goto(f"{basis}/index.html#johannes/1", wait_until="domcontentloaded")
             opties = page.locator("#opt-teksteditie option").evaluate_all(
                 "els => els.map(el => [el.value, el.textContent.trim()])")
-            assert ["nl-opv", "Nederlands — Open Parafrase Vertaling"] in opties, opties
+            assert ["nl-opv", "Nederlands — Open Parafrase Weergave"] in opties, opties
 
             page.goto(f"{basis}/index.html?editie=nl-opv#johannes/1",
                       wait_until="domcontentloaded")

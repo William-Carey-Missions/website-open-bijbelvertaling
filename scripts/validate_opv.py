@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valideer het corpuscontract van de Open Parafrase Vertaling."""
+"""Valideer het corpuscontract van de Open Parafrase Weergave."""
 
 from __future__ import annotations
 
@@ -327,7 +327,7 @@ def validate_manifest(
                     )
                 )
         expected_registry_values = {
-            "naam": "Open Parafrase Vertaling (proef)",
+            "naam": "Open Parafrase Weergave (proef)",
             "taal": "nl",
             "status": "pilot",
         }
@@ -438,7 +438,7 @@ def validate_manifest(
             errors.append(_error("EDITION_FIELD_MISSING", edition_file, f"$.{field}"))
     if edition_manifest.get("editie") != "nl-opv":
         errors.append(_error("EDITION_CODE", edition_file, "$.editie"))
-    if edition_manifest.get("naam") != "Open Parafrase Vertaling (proef)":
+    if edition_manifest.get("naam") != "Open Parafrase Weergave (proef)":
         errors.append(_error("EDITION_NAME", edition_file, "$.naam"))
     if edition_manifest.get("taal") != "nl":
         errors.append(_error("EDITION_LANGUAGE", edition_file, "$.taal"))
