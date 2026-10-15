@@ -68,7 +68,6 @@ const PRECACHE_URLS = [
     '/js/app.js',
     '/js/opties.js',
     '/js/optie-maten.js',
-    '/js/begrippen.js',
     '/js/references.js',
     '/js/verwijzing-popup.js',
     '/css/verwijzing-popup.css',

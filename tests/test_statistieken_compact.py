@@ -22,7 +22,6 @@ def test_statistieken_toont_alleen_actuele_kerncijfers():
 def test_statistieken_bevat_geen_verouderde_of_irrelevante_secties():
     forbidden = (
         "Sprekers (speech-v2)",
-        "Begrippen & encyclopedie",
         "Voortgang in de tijd",
         "Per boek",
         "Easton's",

@@ -278,14 +278,6 @@ const App = {
         // Audio play-knop in chapter-footer wirelinen
         App._setupAudioPlayer();
 
-        // Begrippen-default: als checkbox checked is bij load → meteen activeren
-        setTimeout(() => {
-            const begrCb = document.getElementById('toggle-begrippen') || document.getElementById('quick-begrippen');
-            if (begrCb && begrCb.checked && window.Begrippen) {
-                Begrippen.toggle(true);
-            }
-        }, 200);
-
         // Toolbar knoppen
         document.getElementById('btn-save').addEventListener('click', () => Editor.saveAll());
         document.getElementById('btn-export').addEventListener('click', () => {

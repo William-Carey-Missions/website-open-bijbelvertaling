@@ -166,12 +166,6 @@ const ChapterRenderer = {
         if (typeof updateStickyOffset === 'function') updateStickyOffset();
         // Tags tonen bij verzen
         if (typeof Tags !== 'undefined') Tags.renderTagsForChapter(bookId, chapterNum);
-        // Begrippen herladen bij boekwisseling — eerst checkbox-state synchroniseren
-        if (typeof Begrippen !== 'undefined') {
-            const begrCb = document.getElementById('toggle-begrippen') || document.getElementById('quick-begrippen');
-            if (begrCb && begrCb.checked) Begrippen.active = true;
-            Begrippen.reload(bookId);
-        }
         // Highlights toepassen op nieuwe rijen
         if (typeof Highlight !== 'undefined') Highlight.applyToChapter(bookId, chapterNum);
         // Doorlopend lezen: sentinel/observer beheren
