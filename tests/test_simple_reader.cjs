@@ -95,3 +95,21 @@ test('rendering a chapter never reads hidden research data or decorates the firs
     assert.match(container.children[0].innerHTML,/Paulus, een apostel/);
     assert.equal((container.children[0].innerHTML.match(/<div/g)||[]).length,2);
 });
+
+test('reader startup renders a chapter with the audio updater present', async () => {
+const ids=new Set([...fs.readFileSync('index.html','utf8').matchAll(/id="([^"]+)"/g)].map(m=>m[1]));
+function node(){return {style:{},dataset:{},children:[],classList:{add(){},remove(){},toggle(){},contains(){return false}},appendChild(n){this.children.push(n)},querySelector(){return node()},querySelectorAll(){return []},addEventListener(){},setAttribute(){},remove(){},pause(){},removeAttribute(){},closest(){return null},checked:true};}
+const nodes=new Map([...ids].map(id=>[id,node()]));
+const c={console,setTimeout(){},window:null,location:{hash:'#johannes/1'},localStorage:{getItem(){return null},setItem(){}},document:{addEventListener(){},getElementById:id=>nodes.get(id)||null,querySelectorAll:()=>[],querySelector:()=>null,createElement:node,body:node(),documentElement:node()},addEventListener(){},scrollTo(){},matchMedia(){return {matches:false}},fetch:async url=>{const p=String(url); const data=JSON.parse(fs.readFileSync(p,'utf8'));return {ok:true,json:async()=>data}},ReaderPolicy:{allowsBook:()=>true},Verification:{loadChapters:async()=>{},loadJSON:async url=>JSON.parse(fs.readFileSync(url,'utf8')),chapterVerified:()=>true,readerRendered(){}},VerificationDisplay:{readerTitle(){},banner(){}},Editor:{init(){},attachVerseListeners(){}},References:{init(){}},Storage:{getEdits(){return null}}};
+c.window=c;vm.createContext(c);
+for(const f of ['js/optie-maten.js','js/opties.js','js/book-orders.js','js/data-loader.js','js/navigation.js','js/sidebar.js','js/chapter-renderer.js','js/app.js'])vm.runInContext(fs.readFileSync(f,'utf8'),c,{filename:f});
+await vm.runInContext('App._setupAudioPlayer=()=>{};App.init()',c);
+assert.ok(nodes.get('verses-container').children.some(row => /Woord/.test(row.innerHTML || '')));
+});
+
+test('about page explains Open Vertaling and credits William Carey Missions', () => {
+const html=fs.readFileSync('over-ov.html','utf8');
+for(const text of ['Wat is de Open Vertaling?','Doel en aanleiding','Uitgangspunt: een eerlijke vermenging','Werkwijze','William Carey Missions']) assert.ok(html.includes(text),text);
+assert.ok(html.replace(/<[^>]*>/g,'').length>4500);
+assert.ok(fs.readFileSync('js/topnav.js','utf8').includes('href="/over-ov.html">Over ons'));
+});

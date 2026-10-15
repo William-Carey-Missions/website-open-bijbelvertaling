@@ -30,6 +30,63 @@ const App = {
     },
 
 
+    _updateAudioPlayer(bookId, chapter) {
+        const playBtn = document.getElementById('audio-play-big');
+        const playMob = document.getElementById('audio-play-mobile');
+        const speedBtn = document.getElementById('audio-speed');
+        const speedMob = document.getElementById('audio-speed-mobile');
+        const scrubWrap = document.getElementById('audio-scrubber-wrap');
+        const scrubMob = document.getElementById('audio-scrubber-mobile');
+        const audioEl = document.getElementById('audio-el');
+        // Containers ook hide-en zodat ze geen ruimte innemen op hoofdstukken zonder audio
+        const chfCenter = playBtn ? playBtn.closest('.chf-center') : null;
+        const mfnAudio = playMob ? playMob.closest('.mfn-audio') : null;
+        const voiceBtn = document.getElementById('audio-voice');
+        const voiceMob = document.getElementById('audio-voice-mobile');
+        if (!audioEl) return;
+        try { audioEl.pause(); } catch (e) {}
+
+        // Onthoud huidig hoofdstuk voor de stem-toggle
+        App._audioBookId = bookId;
+        App._audioChapter = chapter;
+
+        const ov = window.OV_AUDIO;
+        const show = !!(ov && ov.available(bookId, chapter));
+        const setHidden = (el, hide) => { if (el) el.classList.toggle('hidden', hide); };
+        setHidden(playBtn, !show);
+        setHidden(playMob, !show);
+        setHidden(speedBtn, !show);
+        setHidden(speedMob, !show);
+        setHidden(scrubWrap, !show);
+        setHidden(scrubMob, !show);
+        setHidden(chfCenter, !show);
+        setHidden(mfnAudio, !show);
+        setHidden(voiceBtn, !show);
+        setHidden(voiceMob, !show);
+        if (!show) { audioEl.removeAttribute('src'); App._autoplayNext = false; return; }
+        audioEl.src = ov.src(bookId, chapter);
+        // Auto-doorspelen: na 'ended' navigeren we naar het volgende hoofdstuk;
+        // zodra dat fragment geladen is, meteen verder afspelen.
+        if (App._autoplayNext) {
+            App._autoplayNext = false;
+            audioEl.addEventListener('loadedmetadata', function once() {
+                audioEl.removeEventListener('loadedmetadata', once);
+                App._announceThenPlay(audioEl, chapter);
+            });
+        }
+        if (voiceBtn) voiceBtn.textContent = ov.label();
+        if (voiceMob) voiceMob.textContent = ov.label();
+        if (playBtn) playBtn.classList.remove('is-playing');
+        if (playMob) playMob.classList.remove('is-playing');
+        // Reset scrubber
+        const scrubber = document.getElementById('audio-scrubber');
+        const cur = document.getElementById('audio-time-cur');
+        const tot = document.getElementById('audio-time-tot');
+        if (scrubber) scrubber.value = 0;
+        if (cur) cur.textContent = '0:00';
+        if (tot) tot.textContent = '0:00';
+    },
+
     // Kondig "Hoofdstuk N" aan en start daarna de voorlezing.
     // Voorkeur: een vooraf gegenereerde clip in DEZELFDE stem
     // (audio/_announce/{m|v}/{n}.mp3). Niet aanwezig → browser-spraak als fallback.
