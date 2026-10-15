@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+    <script src="/js/reader-policy.js"></script>
     <script type="module" src="/js/auth-bootstrap.js"></script>
     <meta charset="UTF-8">
     <script src="/js/theme.js"></script>
@@ -24,7 +25,7 @@
 
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/ontwerp.css?v=1">
+    <link rel="stylesheet" href="css/ontwerp.css?v=0.60.0">
     <link rel="stylesheet" href="css/print.css" media="print">
     <style>
         .page { max-width: 780px; }
@@ -42,6 +43,8 @@
         :root[data-theme="donker"] .dl-kaart { background: var(--bg-surface-alt); }
         @media (max-width: 620px) { .dl-meta { white-space: normal; } }
     </style>
+    <link rel="stylesheet" href="css/publication.css?v=0.60.0">
+    <link rel="describedby" href="/llms.txt" type="text/markdown">
 </head>
 <body>
     <nav id="topnav"></nav>
@@ -62,17 +65,8 @@
 
         <div class="dl-licentie">
             <strong>CC0 / publiek domein.</strong> U mag deze tekst vrij gebruiken, kopiëren, bewerken
-            en verspreiden, voor elk doel, zonder toestemming en zonder bronvermelding. De
-            onderliggende grondteksten, woordenboeken en kaartgegevens behouden hun eigen
-            licentie; zie de <a href="bronnen.html">verantwoording</a>.
+            en verspreiden, voor elk doel, zonder toestemming en zonder bronvermelding.
         </div>
-
-        <h2 style="margin-top:30px">Zelf een uitgave samenstellen</h2>
-        <p>Wie liever een gedrukt boek maakt dan een bestand downloadt, kan met de
-            <a href="drukversie.html">drukversie</a> zelf een uitgave samenstellen: welke boeken erin
-            komen, op welk papier, in hoeveel kolommen, met of zonder kanttekeningen, en met de
-            leesopties die u zelf kiest. De opmaakproef laat blad voor blad zien wat de drukker
-            zou afleveren.</p>
 
         <h2 style="margin-top:30px">Waarom staat niet alles in de EPUB?</h2>
         <p style="font-size:14.5px;line-height:1.7;color:#555">
@@ -81,7 +75,7 @@
             worden alleen de nagekeken hoofdstukken opgenomen, met een aantekening erbij. De uitgave
             groeit dus vanzelf mee. Wilt u wél alles, inclusief wat nog niet is nagekeken, neem dan de
             brondata — of lees online, waar onnagekeken hoofdstukken een waarschuwing tonen.
-            De actuele stand staat op de <a href="statistieken.html">statistiekenpagina</a>.
+            De actuele stand staat op de <a href="https://opengodsword.com/statistieken.html">statistiekenpagina</a>.
         </p>
     </div>
 

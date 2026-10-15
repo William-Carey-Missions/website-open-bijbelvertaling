@@ -21,10 +21,10 @@ def parse_verified():
 
 
 def default_release_metadata():
-    """Lees de actuele versie en datum uit de bovenste changelogvermelding."""
-    pad = os.path.join(DATA, 'changelog.json')
+    """Lees de versie en datum van de actuele uitgave."""
+    pad = os.path.join(DATA, 'release.json')
     with open(pad, encoding='utf-8') as fh:
-        release = json.load(fh)['wijzigingen'][0]
+        release = json.load(fh)
     dag = datetime.date.fromisoformat(release['datum'])
     maanden = ('', 'januari', 'februari', 'maart', 'april', 'mei', 'juni',
                'juli', 'augustus', 'september', 'oktober', 'november', 'december')

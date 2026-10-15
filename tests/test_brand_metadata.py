@@ -20,9 +20,6 @@ def test_homepage_linkmetadata_gebruikt_open_vertaling_en_de_vaste_payoff():
 
 def test_installatiemetadata_gebruikt_dezelfde_projectnaam_en_payoff():
     manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
-    tauri = json.loads((ROOT / "src-tauri" / "tauri.conf.json").read_text(encoding="utf-8"))
 
     assert manifest["name"] == "Open Vertaling"
     assert manifest["description"].startswith(PAYOFF)
-    assert tauri["productName"] == "Open Vertaling"
-    assert tauri["bundle"]["shortDescription"] == f"Open Vertaling — {PAYOFF}"

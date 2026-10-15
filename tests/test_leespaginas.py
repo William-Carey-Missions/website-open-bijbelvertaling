@@ -29,14 +29,14 @@ def json_ld(pagina):
     return json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', pagina, re.S).group(1))
 
 
-def test_elk_hoofdstuk_van_alle_88_boeken_krijgt_een_pagina(gebouwd):
+def test_elk_hoofdstuk_van_alle_82_boeken_krijgt_een_pagina(gebouwd):
     boeken = json.loads((ROOT / "data" / "books-index.json").read_text(encoding="utf-8"))["boeken"]
     for boek in boeken:
         eerste = boek["eerste_hoofdstuk"]
         for nummer in range(eerste, eerste + boek["hoofdstukken"]):
             assert (gebouwd / "bijbel" / boek["id"] / f"{nummer}.html").exists(), (boek["id"], nummer)
         assert (gebouwd / "bijbel" / boek["id"] / "index.html").exists()
-    assert len(list((gebouwd / "bijbel").glob("*/[0-9]*.html"))) == 1604
+    assert len(list((gebouwd / "bijbel").glob("*/[0-9]*.html"))) == 1370
 
 
 def test_hoofdstukpagina_bevat_de_ov_tekst_en_niet_de_vergelijkingsteksten(gebouwd):
@@ -70,23 +70,23 @@ def test_overzicht_noemt_alle_boeken(gebouwd):
     boeken = json.loads((ROOT / "data" / "books-index.json").read_text(encoding="utf-8"))["boeken"]
     for boek in boeken:
         assert f'href="bijbel/{boek["id"]}/"' in overzicht, boek["id"]
-    assert "41.181 verzen" in overzicht
+    assert "37.235 verzen" in overzicht
 
 
 def test_llms_full_bevat_de_hele_tekst_met_licentie(gebouwd):
     tekst = (gebouwd / "llms-full.txt").read_text(encoding="utf-8")
     assert CC0 in tekst
-    assert len(re.findall(r"^### ", tekst, re.M)) == 1604
+    assert len(re.findall(r"^### ", tekst, re.M)) == 1370
     assert f"16 {vers('johannes', 3, 16)['text2026']}" in tekst
-    assert "### Henoch 1" in tekst and "### Esther (apocrief) 10" in tekst
+    assert "### Henoch 1" not in tekst and "### Esther (apocrief) 10" in tekst
 
 
 def test_sitemap_bevat_de_leespaginas():
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
     assert "<loc>https://openvertaling.nl/bijbel/</loc>" in sitemap
     assert "<loc>https://openvertaling.nl/bijbel/johannes/3.html</loc>" in sitemap
-    assert "<loc>https://openvertaling.nl/bijbel/henoch/</loc>" in sitemap
-    assert len(re.findall(r"<loc>https://openvertaling\.nl/bijbel/[^/]+/\d+\.html</loc>", sitemap)) == 1604
+    assert "<loc>https://openvertaling.nl/bijbel/henoch/</loc>" not in sitemap
+    assert len(re.findall(r"<loc>https://openvertaling\.nl/bijbel/[^/]+/\d+\.html</loc>", sitemap)) == 1370
 
 
 def test_serviceworker_haalt_mapadressen_vers_op():

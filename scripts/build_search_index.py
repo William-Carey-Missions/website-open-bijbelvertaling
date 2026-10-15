@@ -12,7 +12,7 @@ Korte keys (b/c/v/t) houden de bestandsgrootte beperkt.
 
 Met --editie CODE (bijv. nl-opv) komt de tekst uit de leeseditie in
 data/vertalingen/CODE/{boek}/{nr}.json (veld verzen[].tekst). Zo zoekt de
-site van de Open Parafrase Vertaling in de parafrase en niet in de OV.
+site van de Open Parafrase Weergave in de parafrase en niet in de OV.
 """
 
 from __future__ import annotations

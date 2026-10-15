@@ -63,7 +63,7 @@
         if (global.DataLoader && DataLoader.loadManifest) {
             DataLoader.loadManifest().then(function (m) {
                 var boek = (m && m.books || []).find(function (b) { return b.id === delen[0]; });
-                toonLink(boek ? (boek.nameDutch || boek.name || delen[0]) : delen[0]);
+                if (boek) toonLink(boek.nameDutch || boek.name || delen[0]);
             }).catch(function () { toonLink(delen[0]); });
         } else {
             toonLink(delen[0]);
@@ -73,7 +73,7 @@
     /* Johannes 1:1–5 met het spoor */
     function vulPassage() {
         var doel = document.getElementById('ka-passage-tekst');
-        var schakelaar = document.getElementById('ka-spoor-toggle');
+        var schakelaar = null;
         if (!doel) return;
         fetch('data/johannes/1.json')
             .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
@@ -95,7 +95,6 @@
                     if (i) doel.appendChild(document.createTextNode(' '));
                     doel.appendChild(nr);
                     doel.appendChild(tekst);
-                    if (global.OVSpoor) OVSpoor.markeer(tekst, vers, { altijd: true });
                 });
                 var sporen = doel.querySelectorAll('.spoor[tabindex]');
                 var codes = {};
@@ -106,45 +105,11 @@
                     telling.textContent = n + (n === 1 ? ' wijziging' : ' wijzigingen') +
                         ' · ' + p + (p === 1 ? ' principe' : ' principes');
                 }
-                pasSpoorToe(schakelaar ? schakelaar.checked : true);
+
             })
             .catch(function () { /* de statische eerste zin blijft staan */ });
 
-        if (schakelaar) {
-            schakelaar.checked = global.OVSpoor ? OVSpoor.aan() : true;
-            schakelaar.addEventListener('change', function () {
-                var aan = schakelaar.checked;
-                bewaarSpoor(aan);
-                pasSpoorToe(aan);
-            });
-        }
-    }
 
-    function pasSpoorToe(aan) {
-        var doel = document.getElementById('ka-passage-tekst');
-        if (!doel) return;
-        doel.classList.toggle('spoor-uit', !aan);
-        doel.querySelectorAll('.spoor[data-sv]').forEach(function (s, i) {
-            if (s.hasAttribute('aria-description')) s.tabIndex = aan ? 0 : -1;
-        });
-    }
-
-    /* Dezelfde optie als in het optiepaneel ('spoor'), zodat de lezer volgt. */
-    function bewaarSpoor(aan) {
-        var waarde = aan ? 'aan' : 'uit';
-        if (global.Opties && Opties._initialized) {
-            Opties.state.spoor = waarde;
-            Opties.save();
-            var cb = document.getElementById('toggle-spoor');
-            if (cb) cb.checked = aan;
-            if (global.OptionsPanel && OptionsPanel.syncOptionMirrors) OptionsPanel.syncOptionMirrors();
-            return;
-        }
-        try {
-            var st = JSON.parse(localStorage.getItem('sv2026_vertaalopties') || '{}');
-            st.spoor = waarde;
-            localStorage.setItem('sv2026_vertaalopties', JSON.stringify(st));
-        } catch (e) { /* */ }
     }
 
     function vulStatus() {
@@ -158,34 +123,11 @@
         }).catch(function () { /* blijft 'Concept' */ });
     }
 
-    function vulBalken() {
-        fetch('data/stats.json')
-            .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (s) {
-                if (!s) return;
-                document.querySelectorAll('[data-stat-balk]').forEach(function (i) {
-                    var v = Number(s[i.getAttribute('data-stat-balk')]);
-                    if (isFinite(v)) i.style.width = Math.max(0, Math.min(100, v)) + '%';
-                });
-            })
-            .catch(function () { /* */ });
-    }
-
-    // Spoor ook in het optiepaneel omgezet? Dan volgt de passage.
-    global.addEventListener('ov:opties-gewijzigd', function (e) {
-        var st = e.detail && e.detail.state;
-        if (!st) return;
-        var aan = st.spoor !== 'uit';
-        var cb = document.getElementById('ka-spoor-toggle');
-        if (cb) cb.checked = aan;
-        pasSpoorToe(aan);
-    });
-
     function init() {
         vulVerderLezen();
         vulPassage();
         vulStatus();
-        vulBalken();
+
     }
 
     global.OVStart = { toon: toon, verberg: verberg, isStart: isStart };

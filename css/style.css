@@ -4457,10 +4457,6 @@ body.kt-popup-mode .col-2026 sup.note-marker:hover {
 }
 /* De gekleurde thema-tag niet inline meeslepen in deze compacte modus */
 #content.reading-mode.layout-eronder .verse-row .verse-num .verse-tag { display: none !important; }
-/* Vers 1 heeft al de sierletter (drop-cap) als markering; het inline nummer '1'
-   zou tussen de drop-cap en de rest van het eerste woord vallen (I¹n) → verbergen. */
-#content.reading-mode.layout-eronder .verse-row[data-verse="1"] .verse-num,
-#content.reading-mode.layout-eronder .verse-row.verse-row--dropcap .verse-num { display: none !important; }
 /* Cellen die niet zichtbaar moeten zijn — hide via grid (display: none) blijft werken */
 #content.reading-mode.hide-sv1888 .col-sv1888,
 #content.reading-mode.hide-1637 .col-1637,

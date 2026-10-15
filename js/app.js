@@ -13,9 +13,7 @@ const App = {
             .replace(/'/g, '&#39;');
     },
 
-    renderStrongLinks(html, woordnummers) {
-        return window.OVWoordnummers ? window.OVWoordnummers.renderInline(html, woordnummers) : html;
-    },
+
     // AUDIO_AVAILABLE leeft in js/audio-available.js (window.AUDIO_AVAILABLE) —
     // niet hier definieren. Wordt door de TTS-rollout-script bijgewerkt.
 
@@ -31,106 +29,6 @@ const App = {
         VerificationDisplay.banner(bookId, chapter);
     },
 
-    async _updateDatingBox(book) {
-        if (App._bookDating === undefined) {
-            App._bookDating = null;
-            try { App._bookDating = await (await fetch('data/book-dating.json')).json(); }
-            catch (e) { App._bookDating = {}; }
-        }
-        const d = App._bookDating && App._bookDating[book.id];
-        let box = document.getElementById('book-dating');
-        if (!box) {
-            box = document.createElement('div');
-            box.id = 'book-dating';
-            box.className = 'book-dating';
-            const container = document.getElementById('verses-container');
-            if (container && container.parentNode) container.parentNode.insertBefore(box, container);
-        }
-        const handschriftenUrl = KASites.url('ogw', `handschriften/${encodeURIComponent(book.id)}.html`);
-        const handschriftenTitel = 'Open de handschriftenpagina met oudste fragment, vindgeschiedenis en scans';
-        const parts = [];
-        if (d && (d.schrijftijdKort || d.schrijftijd)) parts.push(`<a class="dating-link" href="${handschriftenUrl}" title="${handschriftenTitel}"><span class="dating-label">Schrijftijd:</span> ${d.schrijftijdKort || d.schrijftijd}</a>`);
-        // Alleen het jaartal van het oudste handschrift tonen (geen siglum/nummer); details staan op de handschriftenpagina.
-        const oudsteJaar = d && (d.oudsteDatum || d.oudsteHandschrift);
-        if (oudsteJaar) parts.push(`<a class="dating-link" href="${handschriftenUrl}" title="${handschriftenTitel}"><span class="dating-label">Oudste handschrift:</span> ${String(oudsteJaar).split(' (')[0]}</a>`);
-        box.innerHTML = '<img class="dating-icon" src="images/iconen/instellingen/oudste-handschrift.png" alt="" aria-hidden="true">' + parts.join(' &nbsp;·&nbsp; ');
-        box.style.display = 'block';
-    },
-
-    _updateEthiopicBanner(book) {
-        // Alleen de apocriefe boeken krijgen een waarschuwing; de Ethiopische boeken
-        // tonen er bewust geen meer (ook als ze als apocrief gemarkeerd zouden zijn).
-        const isEth = book && (book.testament === 'ET' || (window.ETHIOPIC_BOOKS && window.ETHIOPIC_BOOKS.includes(book.id)));
-        const isApoc = book && book.testament === 'AP';
-        let banner = document.getElementById('ethiopic-banner');
-        if (isEth || !isApoc) { if (banner) banner.style.display = 'none'; return; }
-        if (!banner) {
-            banner = document.createElement('div');
-            banner.id = 'ethiopic-banner';
-            banner.className = 'ethiopic-banner';
-            const container = document.getElementById('verses-container');
-            if (container && container.parentNode) container.parentNode.insertBefore(banner, container);
-        }
-        banner.innerHTML = '<strong>⚠ Apocrief boek - geen onderdeel van de canon van Gods Woord</strong>';
-        banner.style.display = 'block';
-    },
-
-    _updateAudioPlayer(bookId, chapter) {
-        const playBtn = document.getElementById('audio-play-big');
-        const playMob = document.getElementById('audio-play-mobile');
-        const speedBtn = document.getElementById('audio-speed');
-        const speedMob = document.getElementById('audio-speed-mobile');
-        const scrubWrap = document.getElementById('audio-scrubber-wrap');
-        const scrubMob = document.getElementById('audio-scrubber-mobile');
-        const audioEl = document.getElementById('audio-el');
-        // Containers ook hide-en zodat ze geen ruimte innemen op hoofdstukken zonder audio
-        const chfCenter = playBtn ? playBtn.closest('.chf-center') : null;
-        const mfnAudio = playMob ? playMob.closest('.mfn-audio') : null;
-        const voiceBtn = document.getElementById('audio-voice');
-        const voiceMob = document.getElementById('audio-voice-mobile');
-        if (!audioEl) return;
-        try { audioEl.pause(); } catch (e) {}
-
-        // Onthoud huidig hoofdstuk voor de stem-toggle
-        App._audioBookId = bookId;
-        App._audioChapter = chapter;
-
-        const ov = window.OV_AUDIO;
-        const show = !!(ov && ov.available(bookId, chapter));
-        const setHidden = (el, hide) => { if (el) el.classList.toggle('hidden', hide); };
-        setHidden(playBtn, !show);
-        setHidden(playMob, !show);
-        setHidden(speedBtn, !show);
-        setHidden(speedMob, !show);
-        setHidden(scrubWrap, !show);
-        setHidden(scrubMob, !show);
-        setHidden(chfCenter, !show);
-        setHidden(mfnAudio, !show);
-        setHidden(voiceBtn, !show);
-        setHidden(voiceMob, !show);
-        if (!show) { audioEl.removeAttribute('src'); App._autoplayNext = false; return; }
-        audioEl.src = ov.src(bookId, chapter);
-        // Auto-doorspelen: na 'ended' navigeren we naar het volgende hoofdstuk;
-        // zodra dat fragment geladen is, meteen verder afspelen.
-        if (App._autoplayNext) {
-            App._autoplayNext = false;
-            audioEl.addEventListener('loadedmetadata', function once() {
-                audioEl.removeEventListener('loadedmetadata', once);
-                App._announceThenPlay(audioEl, chapter);
-            });
-        }
-        if (voiceBtn) voiceBtn.textContent = ov.label();
-        if (voiceMob) voiceMob.textContent = ov.label();
-        if (playBtn) playBtn.classList.remove('is-playing');
-        if (playMob) playMob.classList.remove('is-playing');
-        // Reset scrubber
-        const scrubber = document.getElementById('audio-scrubber');
-        const cur = document.getElementById('audio-time-cur');
-        const tot = document.getElementById('audio-time-tot');
-        if (scrubber) scrubber.value = 0;
-        if (cur) cur.textContent = '0:00';
-        if (tot) tot.textContent = '0:00';
-    },
 
     // Kondig "Hoofdstuk N" aan en start daarna de voorlezing.
     // Voorkeur: een vooraf gegenereerde clip in DEZELFDE stem
@@ -359,11 +257,19 @@ const App = {
         await App._laadVerified();
         Navigation.init();
         Editor.init();
-        Lexicon.init();
+
         References.init();
         this.initColumnToggles();
-        ColumnReorder.init();
-        ColumnResize.init();
+        const notesToggle = document.getElementById('toggle-kanttekeningen');
+        const applyNotes = () => {
+            document.body.classList.toggle('kt-popup-mode', notesToggle.checked);
+            localStorage.setItem('ov_kanttekeningen', String(notesToggle.checked));
+        };
+        notesToggle.checked = localStorage.getItem('ov_kanttekeningen') !== 'false';
+        applyNotes();
+        notesToggle.addEventListener('change', applyNotes);
+
+
         Sidebar.init();
 
         await Navigation.renderBookNav();
@@ -371,14 +277,6 @@ const App = {
 
         // Audio play-knop in chapter-footer wirelinen
         App._setupAudioPlayer();
-
-        // Begrippen-default: als checkbox checked is bij load → meteen activeren
-        setTimeout(() => {
-            const begrCb = document.getElementById('toggle-begrippen') || document.getElementById('quick-begrippen');
-            if (begrCb && begrCb.checked && window.Begrippen) {
-                Begrippen.toggle(true);
-            }
-        }, 200);
 
         // Toolbar knoppen
         document.getElementById('btn-save').addEventListener('click', () => Editor.saveAll());
@@ -683,147 +581,6 @@ const App = {
         }
     },
 
-    /* Zet de eerste ECHTE letter van het eerste vers in een <span class="dropcap">.
-     * Slaat leidende aanhalingstekens, note-markers (sup) en citaat-spans over,
-     * zodat bij een citaat niet het aanhalingsteken wordt vergroot maar de letter. */
-    _applyDropcap() {
-        const container = document.getElementById('verses-container');
-        if (!container) return;
-        // Verwijder oude dropcaps (bij hervertonen)
-        container.querySelectorAll('.dropcap').forEach(d => {
-            d.replaceWith(document.createTextNode(d.dataset.letter || d.textContent));
-        });
-        container.querySelectorAll('.verse-row--dropcap').forEach(r => r.classList.remove('verse-row--dropcap'));
-        // Drop-cap op het EERSTE vers van ELK hoofdstuk (ook in doorlopend lezen,
-        // waar meerdere hoofdstukken na elkaar staan).
-        const firstVerseRows = container.querySelectorAll('.verse-row[data-verse="1"]');
-        const rows = firstVerseRows.length ? firstVerseRows : (container.querySelector('.verse-row') ? [container.querySelector('.verse-row')] : []);
-        rows.forEach(row => {
-            const cell = row.querySelector('.col-2026');
-            if (!cell) return;
-            // Loop door tekstnodes (in document-volgorde) en zoek de eerste letter.
-            const walker = document.createTreeWalker(cell, NodeFilter.SHOW_TEXT, {
-                acceptNode(node) {
-                    // Sla note-markers (sup) over
-                    if (node.parentElement && node.parentElement.closest('sup')) return NodeFilter.FILTER_REJECT;
-                    // En de letter van het alfabetlied. Klaagliederen 3:1 begint
-                    // met "א Aleph. Ik ben de man…"; het patroon hieronder zoekt
-                    // Latijnse letters, dus zonder deze regel wordt de A van
-                    // Aleph de sierletter en loopt die door de markering heen.
-                    // De sierletter hoort de eerste letter van het vers zelf te
-                    // zijn: de I van Ik.
-                    if (node.parentElement && node.parentElement.closest('.acrostichon')) return NodeFilter.FILTER_REJECT;
-                    return NodeFilter.FILTER_ACCEPT;
-                }
-            });
-            let node;
-            while ((node = walker.nextNode())) {
-                const m = node.nodeValue.match(/[A-Za-zÀ-ÿ]/);
-                if (!m) continue;
-                const idx = node.nodeValue.indexOf(m[0]);
-                const after = node.splitText(idx);          // after begint met de letter
-                const letter = after.nodeValue[0];
-                after.splitText(1);                         // rest = na de letter
-                const span = document.createElement('span');
-                span.textContent = letter;
-                span.dataset.letter = letter;
-                if (/^[A-Za-z]$/.test(letter)) {
-                    const assetLetter = letter.toUpperCase();
-                    span.className = 'dropcap dropcap--penkrul';
-                    span.style.setProperty('--dropcap-shape',
-                        `url("/images/initialen/vrije-penkrul/${assetLetter}.svg")`);
-                    const licht = document.createElement('img');
-                    licht.className = 'dropcap-image dropcap-image--light';
-                    licht.src = `/images/initialen/vrije-penkrul/${assetLetter}.svg`;
-                    licht.alt = '';
-                    licht.setAttribute('aria-hidden', 'true');
-                    const donker = document.createElement('img');
-                    donker.className = 'dropcap-image dropcap-image--dark';
-                    donker.src = `/images/initialen/vrije-penkrul/donker/${assetLetter}.svg`;
-                    donker.alt = '';
-                    donker.hidden = true;
-                    donker.setAttribute('aria-hidden', 'true');
-                    span.append(licht, donker);
-                } else {
-                    // Voor letters buiten A–Z blijft de leesbare typografische initiaal staan.
-                    span.className = 'dropcap dropcap--fallback';
-                }
-                after.replaceWith(span);                     // vervang de losse letter-node
-                // Begint het hoofdstuk niet bij vers 1 (Gezang in de vuuroven
-                // begint bij 51), dan staat het versnummer vóór de zwevende
-                // sierletter en loopt de tekst eroverheen. Net als bij vers 1
-                // markeert de sierletter zelf het begin.
-                row.classList.add('verse-row--dropcap');
-                break;
-            }
-        });
-        // Meten kan pas als de regels staan; direct na het opbouwen is de cel
-        // nog niet opgemaakt en zijn de letters van het weblettertype nog niet
-        // binnen, en dan valt er niets te tellen.
-        const passend = () => this._scheduleFitDropcaps();
-        requestAnimationFrame(passend);
-        setTimeout(passend, 300);
-        if (document.fonts && document.fonts.ready) document.fonts.ready.then(passend);
-        if (!this._dropcapResizeBound) {
-            this._dropcapResizeBound = true;
-            // Een ander venster, een andere tekstgrootte of regelafstand
-            // verandert het aantal regels van het vers.
-            window.addEventListener('resize', passend);
-            window.addEventListener('ov:opties-gewijzigd', passend);
-        }
-    },
-
-    /* Een sierletter van drie regels hoog boven een vers van één regel laat een
-     * gat vallen: het volgende vers begint pas onder de krul (Wijsheid 8:1).
-     * Tel daarom de regels van het vers zelf en maak de letter zo nodig kleiner,
-     * zoals een zetter dat ook zou doen. */
-    _scheduleFitDropcaps() {
-        clearTimeout(this._dropcapTimer);
-        this._dropcapTimer = setTimeout(() => this._fitDropcaps(), 120);
-    },
-
-    _fitDropcaps() {
-        const container = document.getElementById('verses-container');
-        if (!container) return;
-        container.querySelectorAll('.dropcap--penkrul').forEach(span => {
-            const cell = span.closest('.col-2026');
-            if (!cell) return;
-            span.style.removeProperty('--dropcap-height');
-            const stijl = getComputedStyle(cell);
-            const regelhoogte = parseFloat(stijl.lineHeight);
-            const volleMaat = 3.2 * parseFloat(stijl.fontSize);   // de maat uit de CSS
-            if (!regelhoogte || !volleMaat) return;
-            // Tel de tekstregels. Een regel is breed; smalle stukjes zijn de
-            // zwevende letter zelf of de spatie ernaast, en tellen niet mee.
-            // Inline-stukken binnen één regel (een citaat, een cursief woord)
-            // liggen op dezelfde hoogte en tellen samen voor één regel.
-            const bereik = document.createRange();
-            bereik.selectNodeContents(cell);
-            const bovenkanten = [];
-            for (const rect of bereik.getClientRects()) {
-                if (rect.width < regelhoogte) continue;
-                if (rect.height > regelhoogte * 1.4) continue;
-                if (!bovenkanten.some(top => Math.abs(top - rect.top) < regelhoogte * 0.6)) {
-                    bovenkanten.push(rect.top);
-                }
-            }
-            if (!bovenkanten.length) return;
-            // Nooit groter dan de CSS-maat: alleen korte verzen krijgen een
-            // kleinere letter, zodat het volgende vers niet ver weg komt te staan.
-            const hoogte = Math.min(volleMaat, (bovenkanten.length + 0.25) * regelhoogte);
-            span.style.setProperty('--dropcap-height', hoogte.toFixed(1) + 'px');
-            // Verandert de cel alsnog van vorm (een lettertype dat later binnenkomt,
-            // een andere regelafstand), dan opnieuw meten.
-            // De cel zelf is inline; een ResizeObserver meet daar niets aan.
-            // De regel eromheen is een blok en verandert wel van hoogte.
-            const blok = span.closest('.verse-row') || cell.parentElement;
-            if (blok && !span._dropcapObserver && typeof ResizeObserver === 'function') {
-                span._dropcapObserver = new ResizeObserver(() => this._scheduleFitDropcaps());
-                span._dropcapObserver.observe(blok);
-            }
-        });
-    },
-
     updateProgress() {
         const rows = document.querySelectorAll('.verse-row');
         if (rows.length === 0) return;
@@ -846,89 +603,15 @@ const App = {
     // === Kolom-toggle logica ===
     initColumnToggles() {
         const content = document.getElementById('content');
-        const saved = localStorage.getItem('sv2026_columnVisibility');
-        let visibility = saved ? JSON.parse(saved) : null;
-
-        // Defaults: 1637, 2026, margin1637, margin2026 aan; rest uit.
-        // Mobiel zonder opgeslagen voorkeur: alleen OSV (2026), geen verschillen.
-        if (!visibility) {
-            visibility = {};
-            const isMobile = window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
-            this.ALL_COLS.forEach(col => {
-                if (isMobile) {
-                    visibility[col] = (col === '2026');   // alleen OSV, geen verschillen/kanttekeningen
-                } else {
-                    const cb = document.querySelector(`[data-toggle-col="${col}"]`);
-                    visibility[col] = cb ? cb.checked : false;
-                }
-            });
-        }
-
-        // Pas checkboxes en classes toe
-        this.ALL_COLS.forEach(col => {
-            const cb = document.querySelector(`[data-toggle-col="${col}"]`);
-            if (!cb) return;
-            const visible = visibility[col] !== undefined ? visibility[col] : cb.checked;
-            cb.checked = visible;
-            content.classList.toggle(`hide-${col}`, !visible);
-        });
-
+        this.ALL_COLS.forEach(col => content.classList.toggle('hide-' + col, col !== '2026'));
         this.updateGrid();
-
-        // Luister naar veranderingen
-        // Luister op zowel oude topbar-wrapper als nieuwe rechter sidebar
-        document.addEventListener('change', (e) => {
-            const cb = e.target;
-            if (!cb.dataset || !cb.dataset.toggleCol) return;
-            const col = cb.dataset.toggleCol;
-            content.classList.toggle(`hide-${col}`, !cb.checked);
-
-            // Sla op
-            const vis = {};
-            this.ALL_COLS.forEach(c => {
-                const box = document.querySelector(`[data-toggle-col="${c}"]`);
-                vis[c] = box ? box.checked : false;
-            });
-            localStorage.setItem('sv2026_columnVisibility', JSON.stringify(vis));
-
-            this.updateGrid();
-            updateStickyOffset();
-        });
     },
 
     updateGrid() {
-        // Check leesmodus: alleen OV2026 aan
         const content = document.getElementById('content');
-        const activeCols = this.ALL_COLS.filter(col => {
-            const cb = document.querySelector(`[data-toggle-col="${col}"]`);
-            return cb && cb.checked;
-        });
-        // Leesmodus: altijd aan (geen lelijke tabelstructuur)
-        if (content) content.classList.add('reading-mode');
-
-        // Gebruik ColumnResize als die geladen is (heeft custom widths)
-        if (typeof ColumnResize !== 'undefined') {
-            ColumnResize.applyWidths();
-            ColumnResize.addResizeHandles();
-            return;
-        }
-        // Fallback: standaard breedtes
-        const parts = ['40px'];
-        this.ALL_COLS.forEach(col => {
-            const cb = document.querySelector(`[data-toggle-col="${col}"]`);
-            if (cb && cb.checked) {
-                parts.push(this.COL_WIDTHS[col] || '1fr');
-            }
-        });
-        const template = parts.join(' ');
-
-        const headers = document.querySelector('.column-headers');
-        if (headers) headers.style.gridTemplateColumns = template;
-
-        document.querySelectorAll('.verse-row').forEach(row => {
-            row.style.gridTemplateColumns = template;
-        });
+        content.classList.add('reading-mode');
     }
+
 };
 
 // Stel column-headers sticky offset in op basis van header-hoogte

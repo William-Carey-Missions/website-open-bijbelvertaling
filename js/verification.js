@@ -8,8 +8,10 @@
     let generation = 0;
 
     async function loadJSON(url) {
-        const response = await fetch(url, { cache: 'no-store' });
+        const book = String(url).match(/(?:^|\/)data\/([^/]+)\//)?.[1];
+        const response = await fetch(url, { cache: 'no-cache' });
         if (!response.ok) throw new Error(ERROR);
+        if (window.ReaderPolicy?.isNewTestament(book)) return response.json();
         const bytes = await response.arrayBuffer();
         const digest = await crypto.subtle.digest('SHA-256', bytes);
         const hash = Array.from(new Uint8Array(digest), n => n.toString(16).padStart(2, '0')).join('');
@@ -247,6 +249,7 @@
     }
 
     function heading(book, chapter, reader = false) {
+        if (window.ReaderPolicy?.isNewTestament(book)) { document.getElementById('chapter-verification')?.remove(); return; }
         const options = chapters.get(book + '/' + chapter);
         const current = document.querySelector('#chapter-verification [data-verification]');
         if (current && options && current.dataset.verification === 'text-chapter:' + book + '/' + chapter
@@ -262,6 +265,7 @@
     }
 
     function readerRendered(book, chapter, reader, sourceHash, continuous = false) {
+        if (window.ReaderPolicy?.isNewTestament(book)) { document.getElementById('chapter-verification')?.remove(); return; }
         if (!reader && typeof TekstEditie !== 'undefined' && TekstEditie.code() !== 'nl-ov') {
             document.getElementById('chapter-verification')?.remove();
             return;
@@ -307,6 +311,7 @@
     }
 
     function warning(book, chapter) {
+        if (window.ReaderPolicy?.isNewTestament(book)) return '';
         const displayed = chapters.get(book + '/' + chapter);
         if (displayed?.error) return displayed.error;
         if (!displayed?.control?.state || !displayed.control.node.isConnected) return '';
@@ -322,6 +327,7 @@
     }
 
     function notes(parent, book, chapter, verse) {
+        if (window.ReaderPolicy?.isNewTestament(book)) return;
         mount(parent, 'text-verse', book + '/' + chapter + '/' + verse,
             { ...chapters.get(book + '/' + chapter), onlyComponents: ['notes'] });
     }
@@ -335,6 +341,7 @@
     }
 
     function chapterVerified(owner, book, chapter) {
+        if (window.ReaderPolicy?.isNewTestament(book)) return true;
         const displayed = isChapterVerified(book, chapter);
         return displayed === null ? (owner.VERIFIED_CHAPTERS[book] || []).includes(chapter) : displayed;
     }

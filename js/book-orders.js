@@ -158,7 +158,7 @@ function isBookVisibleInNavigation(book) {
     if (!book) return false;
     const options = (typeof window !== 'undefined' && window.Opties && Opties.state) || {};
     const isEthiopic = book.ethiopic || book.testament === 'ET' || ETHIOPIC_BOOKS.includes(book.id);
-    if (isEthiopic) return options.ethiopischeBoeken === 'aan';
+    if (isEthiopic) return false;
     if (book.testament === 'AP') return options.apocriefeBoeken !== 'uit';
     return true;
 }
