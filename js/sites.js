@@ -11,7 +11,7 @@
  * De productiedomeinen van OGW en OPV zijn nog voorlopig. */
 (function () {
     var LOKAAL = { ov: 'http://127.0.0.1:8000', ogw: 'http://127.0.0.1:8001', opv: 'http://127.0.0.1:8002' };
-    var PRODUCTIE = { ov: 'https://openvertaling.nl', ogw: 'https://opengodsword.com', opv: 'https://openparafrase.nl' };
+    var PRODUCTIE = { ov: 'https://openvertaling.nl', ogw: 'https://opengodsword.com', opv: 'https://open-parafrase-weergave.nl' };
 
     var host = location.hostname;
     var basis = (host === 'localhost' || host === '127.0.0.1') ? LOKAAL : PRODUCTIE;

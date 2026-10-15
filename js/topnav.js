@@ -83,7 +83,7 @@
             '<nav aria-label="Zustersites">' +
                 '<a href="index.html" aria-current="page">Open Vertaling</a><span class="ka-dot" aria-hidden="true">·</span>' +
                 '<a href="https://opengodsword.com/" data-ogw-href="">Open Gods Woord</a><span class="ka-dot" aria-hidden="true">·</span>' +
-                '<a href="https://openparafrase.nl/" data-opv-href="">Open Parafrase Vertaling</a>' +
+                '<a href="https://open-parafrase-weergave.nl/" data-opv-href="">Open Parafrase Vertaling</a>' +
             '</nav>' +
         '</div>';
     nav.parentNode.insertBefore(zusters, nav);
@@ -103,7 +103,7 @@
                 '<a href="bronnen.html">Bronnen</a><a href="statistieken.html">Statistieken</a></nav>' +
             '<nav aria-labelledby="ka-f-zusters"><h2 id="ka-f-zusters">Zustersites</h2>' +
                 '<a href="https://opengodsword.com/" data-ogw-href="">Open Gods Woord</a>' +
-                '<a href="https://openparafrase.nl/" data-opv-href="">Open Parafrase Vertaling</a></nav>' +
+                '<a href="https://open-parafrase-weergave.nl/" data-opv-href="">Open Parafrase Vertaling</a></nav>' +
         '</div>' +
         '<div class="ka-footer-base"><span class="ka-footer-mono"><span id="ka-footer-versie">…</span> · tekst CC0</span>' +
             '<span>Fout gezien? <a href="over-ov.html#over-ons">Laat het ons weten</a></span></div>';
