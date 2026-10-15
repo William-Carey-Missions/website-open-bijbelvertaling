@@ -32,6 +32,18 @@ for file in "${MODULES[@]}"; do
     install -m 0644 "$SOURCE_DIR/$file" "/opt/openvertaling-collaboration/$file"
 done
 install -d -o www-data -g www-data -m 0700 /var/lib/openvertaling-collaboration
+# Bestaande databases kunnen door onderhoud onder root zijn aangemaakt.
+# De service moet ook de SQLite-journalbestanden kunnen bijwerken.
+for database_file in /var/lib/openvertaling-collaboration/collaboration.sqlite3{,-wal,-shm,-journal}; do
+    if [[ -L "$database_file" ]]; then
+        echo "Onverwachte database-symlink: $database_file" >&2
+        exit 1
+    fi
+    if [[ -f "$database_file" ]]; then
+        chown www-data:www-data "$database_file"
+        chmod 0600 "$database_file"
+    fi
+done
 install -m 0644 "$SOURCE_DIR/openvertaling-collaboration.service" /etc/systemd/system/openvertaling-collaboration.service
 install -m 0644 "$SOURCE_DIR/openvertaling-collaboration.nginx" /etc/nginx/snippets/openvertaling-collaboration.conf
 
