@@ -57,7 +57,7 @@
             '</a>' +
         '</div>' +
         '<div class="topnav-links" id="topnav-links">' +
-            '<a href="https://williamcareymissions.nl/over-ons" target="_blank" rel="noopener">Over ons</a>' +
+            '<a href="/over-ov.html">Over ons</a>' +
             '<a href="index.html#johannes/1">Tekst</a>' +
             '<button class="topnav-mobile-weergave" id="topnav-mobile-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false">Weergave</button>' +
         '</div>' +
