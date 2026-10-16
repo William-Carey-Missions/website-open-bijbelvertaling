@@ -4571,8 +4571,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֶת"
@@ -4583,27 +4588,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 7:7",
+            "grondindices": [
+              27
+            ],
             "bronindices": [
               27
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdend-voorwerpteken וְאֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֖ה"
@@ -4614,13 +4622,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 7:7",
+            "grondindices": [
+              28
+            ],
             "bronindices": [
               26
             ]
@@ -8835,39 +8847,72 @@
           }
         },
         {
-          "tekst": "hemel",
+          "tekst": "uit",
           "voorkomen": 1,
           "strongs": [
-            "H4480",
-            "H8064"
+            "H4480"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
-            "מִן",
-            "הַ/שָּׁמַ֔יִם"
+            "מִן"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 7:14",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "hemel",
+          "voorkomen": 1,
+          "strongs": [
+            "H8064"
+          ],
+          "morfologie": [
+            "HTd/Ncmpa"
+          ],
+          "bronwoorden": [
+            "הַ/שָּׁמַ֔יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 7:14",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "gids_strongs": [
-            "H8064"
-          ],
-          "toelichting": "De gids voegt מִן ('uit') samen met 'heaven'; beide grondtokens zijn aan dat ene gidstoken gekoppeld en 'hemel' is het anker."
+          }
         },
         {
           "tekst": "vergeven",

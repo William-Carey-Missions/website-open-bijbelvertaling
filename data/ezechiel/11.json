@@ -6360,10 +6360,15 @@
           }
         },
         {
-          "tekst": "met",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "overblijfsel",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֵ֖ת"
@@ -6374,21 +6379,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 11:13",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               18
             ]
-          },
-          "gids_strongs": [
-            "H854"
-          ],
-          "toelichting": "De uitlijngids leest hier H854 (אֵת, 'met'); MorphHB codeert אֵת als het lijdend-voorwerpteken H853. MorphHB blijft leidend."
+          }
         },
         {
           "tekst": "overblijfsel",
@@ -10866,8 +10871,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "vleugels",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -10878,27 +10888,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 11:22",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
-          },
-          "anker": "vleugelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3mp"
           ],
           "bronwoorden": [
             "כַּנְפֵי/הֶ֔ם"
@@ -10909,13 +10922,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 11:22",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               5
             ]

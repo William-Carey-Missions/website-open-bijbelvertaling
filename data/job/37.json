@@ -6949,29 +6949,42 @@
           "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
-            "H3808"
+            "H3808",
+            "H3605"
+          ],
+          "morfologie": [
+            "HTn",
+            "HNcmsc"
           ],
           "bronwoorden": [
-            "לֹֽא"
+            "לֹֽא",
+            "כָּל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 37:24",
+            "grondindices": [
+              3,
+              5
+            ],
             "bronindices": [
-              3
+              3,
+              5
             ]
-          },
-          "toelichting": "לֹא vormt met כָּל de Nederlandse ontkenning 'geen wijzen van harte'; deze koppeling draagt het eerste lid."
+          }
         },
         {
           "tekst": "ziet",
@@ -7001,34 +7014,6 @@
           }
         },
         {
-          "tekst": "geen",
-          "voorkomen": 1,
-          "strongs": [
-            "H3605"
-          ],
-          "bronwoorden": [
-            "כָּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
-            "referentie": "JOB 37:24",
-            "bronindices": [
-              5
-            ]
-          },
-          "toelichting": "כָּל is het tweede lid van dezelfde Nederlandse ontkenning 'geen'."
-        },
-        {
           "tekst": "wijzen",
           "voorkomen": 1,
           "strongs": [
@@ -7056,10 +7041,13 @@
           }
         },
         {
-          "tekst": "harte",
+          "tekst": "hart",
           "voorkomen": 1,
           "strongs": [
             "H3820"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "לֵֽב"
@@ -7070,13 +7058,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 37:24",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]

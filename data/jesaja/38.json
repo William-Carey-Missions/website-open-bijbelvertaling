@@ -1635,25 +1635,39 @@
           "tekst": "huilde",
           "voorkomen": 1,
           "strongs": [
+            "H1058",
             "H1058"
           ],
+          "morfologie": [
+            "HC/Vqw3ms",
+            "HNcmsa"
+          ],
           "bronwoorden": [
-            "וַ/יֵּ֥בְךְּ"
+            "וַ/יֵּ֥בְךְּ",
+            "בְּכִ֥י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 38:3",
+            "grondindices": [
+              15,
+              17
+            ],
             "bronindices": [
+              16,
               17
             ]
           }
@@ -1684,37 +1698,6 @@
               15
             ]
           }
-        },
-        {
-          "tekst": "geheel",
-          "voorkomen": 1,
-          "strongs": [
-            "H1058"
-          ],
-          "bronwoorden": [
-            "בְּכִ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 38:3",
-            "bronindices": [
-              16
-            ]
-          },
-          "gids_strongs": [
-            "H1065"
-          ],
-          "toelichting": "בְּכִ֥י ('geween') vormt met גָדוֹל de versterking 'geheel zeer'."
         },
         {
           "tekst": "zeer",

@@ -1912,10 +1912,13 @@
           }
         },
         {
-          "tekst": "zag hij ervan af",
+          "tekst": "zag",
           "voorkomen": 1,
           "strongs": [
             "H2550"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יַּחְמֹ֗ל"
@@ -1926,18 +1929,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:4",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               3
             ]
-          },
-          "toelichting": "H2550 חָמַל ('sparen, ontzien') is hier met de omschrijving 'zag hij ervan af' weergegeven."
+          }
         },
         {
           "tekst": "nemen",
@@ -2048,10 +2054,13 @@
           }
         },
         {
-          "tekst": "reizenden",
+          "tekst": "reizende",
           "voorkomen": 1,
           "strongs": [
             "H732"
+          ],
+          "morfologie": [
+            "HRd/Vqrmsa"
           ],
           "bronwoorden": [
             "לָ/אֹרֵ֖חַ"
@@ -2062,13 +2071,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:4",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -4717,43 +4730,106 @@
           }
         },
         {
-          "tekst": "zoveel en nog meer daartoe doen",
+          "tekst": "doen",
           "voorkomen": 1,
           "strongs": [
-            "H3254",
-            "H2007",
-            "H2007"
+            "H3254"
+          ],
+          "morfologie": [
+            "HC/Vhh1cs"
           ],
           "bronwoorden": [
-            "וְ/אֹסִ֥פָה",
-            "כָּ/הֵ֥נָּה",
-            "וְ/כָ/הֵֽנָּה"
+            "וְ/אֹסִ֥פָה"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:8",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
-              15
+              17
             ]
-          },
-          "gids_strongs": [
-            "H3254"
+          }
+        },
+        {
+          "tekst": "zoveel",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
           ],
-          "toelichting": "De uitlijngids vat וְאֹסִפָה כָּהֵנָּה וְכָהֵנָּה in één token 'I would have given' samen; כָּהֵנָּה וְכָהֵנָּה ('zoveel als dit en zoveel als dit') heeft daardoor geen eigen gidstoken en is met het werkwoord in één koppeling opgenomen."
+          "morfologie": [
+            "HR/Pp3fs"
+          ],
+          "bronwoorden": [
+            "כָּ/הֵ֥נָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 12:8",
+            "grondindices": [
+              19
+            ],
+            "bronindices": [
+              19
+            ]
+          }
+        },
+        {
+          "tekst": "meer",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
+          ],
+          "morfologie": [
+            "HC/R/Pp3fp"
+          ],
+          "bronwoorden": [
+            "וְ/כָ/הֵֽנָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 12:8",
+            "grondindices": [
+              20
+            ],
+            "bronindices": [
+              20
+            ]
+          }
         }
       ]
     },
@@ -5534,10 +5610,13 @@
           }
         },
         {
-          "tekst": "Ammons",
+          "tekst": "Ammon",
           "voorkomen": 1,
           "strongs": [
             "H5983"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "עַמּֽוֹן"
@@ -5548,13 +5627,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:9",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               21
             ]
@@ -9301,10 +9384,13 @@
           }
         },
         {
-          "tekst": "de nacht over",
+          "tekst": "nacht",
           "voorkomen": 1,
           "strongs": [
             "H3885"
+          ],
+          "morfologie": [
+            "HC/Vqp3ms"
           ],
           "bronwoorden": [
             "וְ/לָ֖ן"
@@ -9315,18 +9401,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:16",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
-          },
-          "toelichting": "H3885 לוּן ('overnachten') is in de Statenvertaling met de omschrijving 'lag de nacht over' weergegeven; het grondwoord draagt daarin 'de nacht over'."
+          }
         },
         {
           "tekst": "lag",
@@ -13708,10 +13797,13 @@
           }
         },
         {
-          "tekst": "terugkomen",
+          "tekst": "terugkeren",
           "voorkomen": 1,
           "strongs": [
             "H7725"
+          ],
+          "morfologie": [
+            "HVqi3ms"
           ],
           "bronwoorden": [
             "יָשׁ֥וּב"
@@ -13722,13 +13814,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:23",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -14244,6 +14340,9 @@
           "strongs": [
             "H853"
           ],
+          "morfologie": [
+            "HTo"
+          ],
           "bronwoorden": [
             "אֶת"
           ],
@@ -14253,27 +14352,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:24",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
-          },
-          "anker": "naam",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "naam",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H8034"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3ms"
           ],
           "bronwoorden": [
             "שְׁמ/וֹ֙"
@@ -14284,13 +14386,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:24",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -14963,10 +15069,13 @@
           }
         },
         {
-          "tekst": "Ammons",
+          "tekst": "Ammon",
           "voorkomen": 1,
           "strongs": [
             "H5983"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "עַמּ֑וֹן"
@@ -14977,13 +15086,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:26",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -15908,10 +16021,13 @@
           }
         },
         {
-          "tekst": "neem ze in",
+          "tekst": "neem",
           "voorkomen": 1,
           "strongs": [
             "H3920"
+          ],
+          "morfologie": [
+            "HC/Vqv2ms/Sp3fs"
           ],
           "bronwoorden": [
             "וְ/לָכְדָ֑/הּ"
@@ -15922,13 +16038,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:28",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -16462,10 +16582,13 @@
           }
         },
         {
-          "tekst": "nam ze in",
+          "tekst": "nam",
           "voorkomen": 1,
           "strongs": [
             "H3920"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms/Sp3fs"
           ],
           "bronwoorden": [
             "וַֽ/יִּלְכְּדָֽ/הּ"
@@ -16476,13 +16599,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:29",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]
@@ -16907,57 +17034,42 @@
           "tekst": "edelgesteente",
           "voorkomen": 1,
           "strongs": [
-            "H68"
-          ],
-          "bronwoorden": [
-            "וְ/אֶ֣בֶן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
-            "referentie": "2SA 12:30",
-            "bronindices": [
-              10
-            ]
-          },
-          "toelichting": "אֶבֶן יְקָרָה ('kostbare steen') is in het Nederlands één woord 'edelgesteente'; beide grondwoorden dragen dat woord."
-        },
-        {
-          "tekst": "edelgesteente",
-          "voorkomen": 1,
-          "strongs": [
+            "H68",
             "H3368"
           ],
+          "morfologie": [
+            "HC/Ncfsa",
+            "HAafsa"
+          ],
           "bronwoorden": [
+            "וְ/אֶ֣בֶן",
             "יְקָרָ֔ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:30",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              10,
               9
             ]
-          },
-          "toelichting": "Zie de vorige koppeling: יְקָרָה is het tweede grondwoord van de samenstelling 'edelgesteente'."
+          }
         },
         {
           "tekst": "werd",
@@ -17122,10 +17234,13 @@
           }
         },
         {
-          "tekst": "voerde hij uit",
+          "tekst": "voerde",
           "voorkomen": 1,
           "strongs": [
             "H3318"
+          ],
+          "morfologie": [
+            "HVhp3ms"
           ],
           "bronwoorden": [
             "הוֹצִ֖יא"
@@ -17136,13 +17251,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:30",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               15
             ]
@@ -17495,10 +17614,13 @@
           }
         },
         {
-          "tekst": "voerde hij uit",
+          "tekst": "voerde",
           "voorkomen": 1,
           "strongs": [
             "H3318"
+          ],
+          "morfologie": [
+            "HVhp3ms"
           ],
           "bronwoorden": [
             "הוֹצִ֗יא"
@@ -17509,13 +17631,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:31",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               1
             ]
@@ -17900,10 +18026,13 @@
           }
         },
         {
-          "tekst": "Ammons",
+          "tekst": "Ammon",
           "voorkomen": 1,
           "strongs": [
             "H5983"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "עַמּ֑וֹן"
@@ -17914,13 +18043,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 12:31",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               17
             ]

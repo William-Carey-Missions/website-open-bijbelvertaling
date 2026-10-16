@@ -1194,42 +1194,79 @@
           }
         },
         {
-          "tekst": "hofmeester",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "H834",
-            "H5921",
-            "H1004"
+            "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
-            "אֲשֶׁ֣ר",
-            "עַל",
-            "הַ/בָּ֑יִת"
+            "אֲשֶׁ֣ר"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 18:3",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
-              4,
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "hofmeester",
+          "voorkomen": 1,
+          "strongs": [
+            "H5921",
+            "H1004"
+          ],
+          "morfologie": [
+            "HR",
+            "HTd/Ncmsa"
+          ],
+          "bronwoorden": [
+            "עַל",
+            "הַ/בָּ֑יִת"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
+            "referentie": "1KI 18:3",
+            "grondindices": [
+              5,
+              6
+            ],
+            "bronindices": [
               5,
               6
             ]
-          },
-          "toelichting": "אֲשֶׁר עַל הַבָּיִת ('die over het huis was') is weergegeven als 'de hofmeester'; de drie grondtokens zijn samen gekoppeld."
+          }
         },
         {
           "tekst": "Obadja",
@@ -16077,10 +16114,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֑ה"
@@ -16091,13 +16131,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 18:29",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -19387,10 +19431,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֗ה"
@@ -19401,13 +19448,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 18:36",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -19712,9 +19763,12 @@
         },
         {
           "tekst": "dat",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "H3588"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "כִּֽי"
@@ -19725,13 +19779,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 18:36",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -24542,43 +24600,109 @@
           "voorkomen": 1,
           "strongs": [
             "H5704",
-            "H3541",
-            "H5704",
             "H3541"
+          ],
+          "morfologie": [
+            "HR",
+            "HD"
           ],
           "bronwoorden": [
             "עַד",
-            "כֹּ֣ה",
-            "וְ/עַד",
-            "כֹּ֗ה"
+            "כֹּ֣ה"
           ],
           "transliteraties": [
-            "",
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 18:45",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
               1,
-              2,
-              3,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H5704"
+          ],
+          "morfologie": [
+            "HC/R"
+          ],
+          "bronwoorden": [
+            "וְ/עַד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
+            "referentie": "1KI 18:45",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H3541"
+          ],
+          "morfologie": [
+            "HD"
+          ],
+          "bronwoorden": [
+            "כֹּ֗ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
+            "referentie": "1KI 18:45",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
               4
             ]
-          },
-          "toelichting": "עַד־כֹּה וְעַד־כֹּה ('tot hier en tot daar') is als één woord 'ondertussen' weergegeven; de vier grondtokens zijn samen gekoppeld."
+          }
         },
         {
           "tekst": "hemel",

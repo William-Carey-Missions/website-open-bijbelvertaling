@@ -3835,13 +3835,13 @@
           }
         },
         {
-          "tekst": "jaar",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H8141"
           ],
           "bronwoorden": [
-            "שְׁנַת֙"
+            "שָׁנָ֔ה"
           ],
           "transliteraties": [
             ""
@@ -3857,9 +3857,13 @@
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 25:8",
             "bronindices": [
-              8
+              7
             ]
-          }
+          },
+          "anker": "jaar",
+          "plaats": "na",
+          "status": "niet_afzonderlijk_weergegeven",
+          "toelichting": "Het tweede שָׁנָה gaat op in het rangtelwoord met 'jaar' en is niet afzonderlijk weergegeven."
         },
         {
           "tekst": "negentiende",
@@ -3895,13 +3899,13 @@
           "toelichting": "תְּשַׁע עֶשְׂרֵה ('negen-tien') is als één Nederlands woord 'negentiende' weergegeven; beide grondwoorden zijn samengevoegd."
         },
         {
-          "tekst": "",
+          "tekst": "jaar",
           "voorkomen": 1,
           "strongs": [
             "H8141"
           ],
           "bronwoorden": [
-            "שָׁנָ֔ה"
+            "שְׁנַת֙"
           ],
           "transliteraties": [
             ""
@@ -3917,13 +3921,9 @@
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 25:8",
             "bronindices": [
-              7
+              8
             ]
-          },
-          "anker": "jaar",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het tweede שָׁנָה gaat op in het rangtelwoord met 'jaar' en is niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "",
@@ -16215,11 +16215,15 @@
           }
         },
         {
-          "tekst": "gevangenhuis",
+          "tekst": "gevangenis",
           "voorkomen": 1,
           "strongs": [
             "H1004",
             "H3608"
+          ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcmsa"
           ],
           "bronwoorden": [
             "מִ/בֵּ֥ית",
@@ -16233,19 +16237,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 25:27",
+            "grondindices": [
+              26,
+              27
+            ],
             "bronindices": [
               26,
               27
             ]
-          },
-          "toelichting": "בֵּית כֶּלֶא ('huis van opsluiting') is als één Nederlands woord 'gevangenhuis' weergegeven; beide grondwoorden zijn samengevoegd."
+          }
         }
       ]
     },

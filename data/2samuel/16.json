@@ -4700,10 +4700,13 @@
           }
         },
         {
-          "tekst": "wiens",
+          "tekst": "wie",
           "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אֲשֶׁ֤ר"
@@ -4714,13 +4717,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 16:8",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]

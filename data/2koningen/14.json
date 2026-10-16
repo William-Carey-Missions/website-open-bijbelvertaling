@@ -10609,10 +10609,13 @@
           }
         },
         {
-          "tekst": "verbintenis",
+          "tekst": "samenzwering",
           "voorkomen": 1,
           "strongs": [
             "H7195"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "קֶ֛שֶׁר"
@@ -10623,13 +10626,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 14:19",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               0
             ]

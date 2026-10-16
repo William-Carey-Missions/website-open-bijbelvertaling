@@ -153,34 +153,10 @@
           "tekst": "dagen",
           "voorkomen": 1,
           "strongs": [
-            "H1992"
-          ],
-          "bronwoorden": [
-            "הָ/הֵ֖מָּה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "65853D4B8AA2233093C014B8E63D45851EE78AF647FE4F73CC7D82E025354B93",
-            "referentie": "JOL 3:1",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "die",
-          "voorkomen": 1,
-          "strongs": [
             "H3117"
+          ],
+          "morfologie": [
+            "HRd/Ncmpa"
           ],
           "bronwoorden": [
             "בַּ/יָּמִ֥ים"
@@ -191,26 +167,33 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "65853D4B8AA2233093C014B8E63D45851EE78AF647FE4F73CC7D82E025354B93",
             "referentie": "JOL 3:1",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               3
             ]
           }
         },
         {
-          "tekst": "tijd",
+          "tekst": "die",
           "voorkomen": 1,
           "strongs": [
-            "H1931"
+            "H1992"
+          ],
+          "morfologie": [
+            "HTd/Pdxmp"
           ],
           "bronwoorden": [
-            "הַ/הִ֑יא"
+            "הָ/הֵ֖מָּה"
           ],
           "transliteraties": [
             ""
@@ -218,23 +201,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "65853D4B8AA2233093C014B8E63D45851EE78AF647FE4F73CC7D82E025354B93",
             "referentie": "JOL 3:1",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              4
+              2
             ]
           }
         },
         {
-          "tekst": "die",
-          "voorkomen": 2,
+          "tekst": "tijd",
+          "voorkomen": 1,
           "strongs": [
             "H6256"
+          ],
+          "morfologie": [
+            "HC/Rd/Ncbsa"
           ],
           "bronwoorden": [
             "וּ/בָ/עֵ֣ת"
@@ -245,15 +235,53 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "65853D4B8AA2233093C014B8E63D45851EE78AF647FE4F73CC7D82E025354B93",
             "referentie": "JOL 3:1",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               5
+            ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 2,
+          "strongs": [
+            "H1931"
+          ],
+          "morfologie": [
+            "HTd/Pp3fs"
+          ],
+          "bronwoorden": [
+            "הַ/הִ֑יא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "65853D4B8AA2233093C014B8E63D45851EE78AF647FE4F73CC7D82E025354B93",
+            "referentie": "JOL 3:1",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              4
             ]
           }
         },

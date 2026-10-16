@@ -2732,36 +2732,69 @@
           "tekst": "vlammen",
           "voorkomen": 1,
           "strongs": [
-            "H7957",
-            "H3050"
+            "H7957"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
-            "שַׁלְהֶ֥בֶתְ",
-            "יָֽה"
+            "שַׁלְהֶ֥בֶתְ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6ADE5C36C07B3CADB5D0AF4CB47D46A889148DC88A94D3C634ADE03E1F467CE3",
             "referentie": "SNG 8:6",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
-          },
-          "gids_strongs": [
-            "H7957"
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 1,
+          "strongs": [
+            "H3050"
           ],
-          "toelichting": "שַׁלְהֶבֶתְיָה is in MorphHB gesplitst in שַׁלְהֶבֶתְ (H7957) en יָה (H3050); de uitlijngids kent alleen een token voor H7957, zodat het grondwoord met het buurwoord is samengevoegd."
+          "morfologie": [
+            "HNp"
+          ],
+          "bronwoorden": [
+            "יָֽה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6ADE5C36C07B3CADB5D0AF4CB47D46A889148DC88A94D3C634ADE03E1F467CE3",
+            "referentie": "SNG 8:6",
+            "grondindices": [
+              18
+            ],
+            "bronindices": [
+              18
+            ]
+          }
         }
       ]
     },

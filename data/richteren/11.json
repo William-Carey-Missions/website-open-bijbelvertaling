@@ -281,38 +281,75 @@
           "voorkomen": 1,
           "strongs": [
             "H1121",
-            "H802",
             "H2181"
+          ],
+          "morfologie": [
+            "HNcmsc",
+            "HVqrfsa"
           ],
           "bronwoorden": [
             "בֶּן",
-            "אִשָּׁ֣ה",
             "זוֹנָ֑ה"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
             "referentie": "JDG 11:1",
+            "grondindices": [
+              6,
+              8
+            ],
             "bronindices": [
               6,
-              7,
               8
             ]
-          },
-          "toelichting": "Eén Nederlandse samenstelling dekt de drie grondwoorden בֶּן (H1121), אִשָּׁה (H802) en זוֹנָה (H2181)."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H802"
+          ],
+          "morfologie": [
+            "HNcfsa"
+          ],
+          "bronwoorden": [
+            "אִשָּׁ֣ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
+            "referentie": "JDG 11:1",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         },
         {
           "tekst": "gegenereerd",

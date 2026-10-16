@@ -829,7 +829,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -858,7 +858,7 @@
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:2",
             "bronindices": [
-              4
+              0
             ]
           }
         },
@@ -900,21 +900,27 @@
           "tekst": "medestrijder",
           "voorkomen": 1,
           "strongs": [
+            "G3588",
             "G4961"
           ],
           "lemma_strongs": [
+            "G3588",
             "G4961"
           ],
           "morfologie": [
+            "T-DSM",
             "N-DSM"
           ],
           "bronwoorden": [
+            "τω",
             "συστρατιωτη"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
           "status": "uitgelijnd",
@@ -925,7 +931,12 @@
             "versie": "PHM.UTR",
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:2",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               7
             ]
           }
@@ -1918,35 +1929,25 @@
           }
         },
         {
-          "tekst": "gedachtig zijnde",
+          "tekst": "gedachtig",
           "voorkomen": 1,
           "strongs": [
-            "G3417",
-            "G4160"
+            "G3417"
           ],
           "lemma_strongs": [
-            "G3417",
-            "G4160"
+            "G3417"
           ],
           "morfologie": [
-            "N-ASF",
-            "V-PMP-NSM"
+            "N-ASF"
           ],
           "bronwoorden": [
-            "μνειαν",
-            "ποιουμενος"
+            "μνειαν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            "G5734"
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -1956,9 +1957,11 @@
             "versie": "PHM.UTR",
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:4",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
-              5,
-              7
+              5
             ]
           }
         },
@@ -1996,6 +1999,43 @@
             "referentie": "PHLM 1:4",
             "bronindices": [
               6
+            ]
+          }
+        },
+        {
+          "tekst": "zijnde",
+          "voorkomen": 1,
+          "strongs": [
+            "G4160"
+          ],
+          "lemma_strongs": [
+            "G4160"
+          ],
+          "morfologie": [
+            "V-PMP-NSM"
+          ],
+          "bronwoorden": [
+            "ποιουμενος"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "PHM.UTR",
+            "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
+            "referentie": "PHLM 1:4",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
             ]
           }
         },
@@ -4791,35 +4831,25 @@
           }
         },
         {
-          "tekst": "wat passend is",
+          "tekst": "wat",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G433"
+            "G3588"
           ],
           "lemma_strongs": [
-            "G3588",
-            "G433"
+            "G3588"
           ],
           "morfologie": [
-            "T-ASN",
-            "V-PAP-ASN"
+            "T-ASN"
           ],
           "bronwoorden": [
-            "το",
-            "ανηκον"
+            "το"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            "G5723"
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -4829,8 +4859,47 @@
             "versie": "PHM.UTR",
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:8",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
-              8,
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "passend",
+          "voorkomen": 1,
+          "strongs": [
+            "G433"
+          ],
+          "lemma_strongs": [
+            "G433"
+          ],
+          "morfologie": [
+            "V-PAP-ASN"
+          ],
+          "bronwoorden": [
+            "ανηκον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "PHM.UTR",
+            "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
+            "referentie": "PHLM 1:8",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
               9
             ]
           }
@@ -5775,6 +5844,51 @@
           }
         },
         {
+          "tekst": "zoon",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G5043"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G5043"
+          ],
+          "morfologie": [
+            "T-GSN",
+            "N-GSN"
+          ],
+          "bronwoorden": [
+            "του",
+            "τεκνου"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "PHM.UTR",
+            "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
+            "referentie": "PHLM 1:10",
+            "grondindices": [
+              3,
+              5
+            ],
+            "bronindices": [
+              3,
+              5
+            ]
+          }
+        },
+        {
           "tekst": "mijn",
           "voorkomen": 1,
           "strongs": [
@@ -5808,43 +5922,6 @@
             "referentie": "PHLM 1:10",
             "bronindices": [
               4
-            ]
-          }
-        },
-        {
-          "tekst": "zoon",
-          "voorkomen": 1,
-          "strongs": [
-            "G5043"
-          ],
-          "lemma_strongs": [
-            "G5043"
-          ],
-          "morfologie": [
-            "N-GSN"
-          ],
-          "bronwoorden": [
-            "τεκνου"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "PHM.UTR",
-            "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
-            "referentie": "PHLM 1:10",
-            "bronindices": [
-              5
             ]
           }
         },
@@ -8723,7 +8800,7 @@
           }
         },
         {
-          "tekst": "kleine tijd",
+          "tekst": "tijd",
           "voorkomen": 1,
           "strongs": [
             "G5610"
@@ -8743,9 +8820,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -8754,6 +8828,9 @@
             "versie": "PHM.UTR",
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:15",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -10875,7 +10952,7 @@
           }
         },
         {
-          "tekst": "heb het geschreven",
+          "tekst": "geschreven",
           "voorkomen": 1,
           "strongs": [
             "G1125"
@@ -10895,9 +10972,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5656"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -10906,6 +10980,9 @@
             "versie": "PHM.UTR",
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:19",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -10994,7 +11071,7 @@
           }
         },
         {
-          "tekst": "ik",
+          "tekst": "Ik",
           "voorkomen": 1,
           "strongs": [
             "G1473"
@@ -11026,12 +11103,12 @@
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:19",
             "bronindices": [
-              6
+              0
             ]
           }
         },
         {
-          "tekst": "zal het betalen",
+          "tekst": "betalen",
           "voorkomen": 1,
           "strongs": [
             "G661"
@@ -11051,9 +11128,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5692"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -11062,6 +11136,9 @@
             "versie": "PHM.UTR",
             "sha256": "A6A39A7AB3C55331A19A0814229EDEB6B1A3D86C99DE377A11C710DE83604F4B",
             "referentie": "PHLM 1:19",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]

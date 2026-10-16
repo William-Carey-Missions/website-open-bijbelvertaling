@@ -5275,6 +5275,9 @@
           "strongs": [
             "H3162"
           ],
+          "morfologie": [
+            "HD"
+          ],
           "bronwoorden": [
             "יַחְדָּו֙"
           ],
@@ -5284,21 +5287,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 25:11",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               2
             ]
-          },
-          "anker": "twisten",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het bijwoord jachdav ('samen') is in het Nederlands niet apart weergegeven; 'de één met de ander' geeft de volgende twee grondwoorden weer."
+          }
         },
         {
           "tekst": "één",
@@ -6076,37 +6079,72 @@
           }
         },
         {
-          "tekst": "tweeërlei weegstenen",
+          "tekst": "weegstenen",
           "voorkomen": 1,
           "strongs": [
-            "H68",
             "H68"
           ],
+          "morfologie": [
+            "HNcfsa"
+          ],
           "bronwoorden": [
-            "אֶ֣בֶן",
-            "וָ/אָ֑בֶן"
+            "אֶ֣בֶן"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 25:13",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "tweeërlei",
+          "voorkomen": 1,
+          "strongs": [
+            "H68"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
+          ],
+          "bronwoorden": [
+            "וָ/אָ֑בֶן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
+            "referentie": "DEU 25:13",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
               3
             ]
-          },
-          "toelichting": "De herhaling even wa-even ('steen en steen') duidt op ongelijke gewichten en is met 'tweeërlei weegstenen' weergegeven; beide grondwoorden staan daarom in één koppeling."
+          }
         },
         {
           "tekst": "grote",
@@ -6313,37 +6351,72 @@
           }
         },
         {
-          "tekst": "tweeërlei efa",
+          "tekst": "efa",
           "voorkomen": 1,
           "strongs": [
-            "H374",
             "H374"
           ],
+          "morfologie": [
+            "HNcfsa"
+          ],
           "bronwoorden": [
-            "אֵיפָ֣ה",
-            "וְ/אֵיפָ֑ה"
+            "אֵיפָ֣ה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 25:14",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "tweeërlei",
+          "voorkomen": 1,
+          "strongs": [
+            "H374"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
+          ],
+          "bronwoorden": [
+            "וְ/אֵיפָ֑ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
+            "referentie": "DEU 25:14",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
               3
             ]
-          },
-          "toelichting": "De herhaling eefa we-eefa ('efa en efa') duidt op ongelijke maten en is met 'tweeërlei efa' weergegeven; beide grondwoorden staan daarom in één koppeling."
+          }
         },
         {
           "tekst": "grote",

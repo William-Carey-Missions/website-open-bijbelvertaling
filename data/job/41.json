@@ -104,10 +104,13 @@
           "toelichting": "לֹא ('niet') vormt met het volgende de Nederlandse ontkenning 'Niemand is zo koen'."
         },
         {
-          "tekst": "koen",
+          "tekst": "vermetel",
           "voorkomen": 1,
           "strongs": [
             "H393"
+          ],
+          "morfologie": [
+            "HAamsa"
           ],
           "bronwoorden": [
             "אַ֭כְזָר"
@@ -118,13 +121,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 41:10",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -3651,10 +3658,13 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "als",
           "voorkomen": 1,
           "strongs": [
             "H3644"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "כְּמוֹ"
@@ -3665,13 +3675,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 41:24",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]

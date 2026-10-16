@@ -13738,37 +13738,75 @@
           }
         },
         {
-          "tekst": "Volstrekt niet",
+          "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
-            "G3361",
-            "G1096"
+            "G3361"
+          ],
+          "lemma_strongs": [
+            "G3361"
+          ],
+          "morfologie": [
+            "PRT-N"
           ],
           "bronwoorden": [
-            "μη",
-            "γενοιτο"
+            "μη"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B174BEE2C87B305DB86862D810BE20B77706C7A87E2298147E7FC90C5D17A7C3",
             "referentie": "GAL 3:21",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
-              8,
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "Volstrekt",
+          "voorkomen": 1,
+          "strongs": [
+            "G1096"
+          ],
+          "lemma_strongs": [
+            "G1096"
+          ],
+          "morfologie": [
+            "V-2ADO-3S"
+          ],
+          "bronwoorden": [
+            "γενοιτο"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "B174BEE2C87B305DB86862D810BE20B77706C7A87E2298147E7FC90C5D17A7C3",
+            "referentie": "GAL 3:21",
+            "grondindices": [
               9
             ],
-            "grondindices": [
-              8,
+            "bronindices": [
               9
             ]
           }
@@ -18356,10 +18394,16 @@
           }
         },
         {
-          "tekst": "bent u",
-          "voorkomen": 1,
+          "tekst": "bent",
+          "voorkomen": 2,
           "strongs": [
             "G1510"
+          ],
+          "lemma_strongs": [
+            "G1510"
+          ],
+          "morfologie": [
+            "V-PAI-2P"
           ],
           "bronwoorden": [
             "εστε"
@@ -18370,18 +18414,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B174BEE2C87B305DB86862D810BE20B77706C7A87E2298147E7FC90C5D17A7C3",
             "referentie": "GAL 3:29",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
               8
+            ],
+            "bronindices": [
+              5
             ]
           }
         },

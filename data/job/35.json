@@ -336,10 +336,13 @@
           }
         },
         {
-          "tekst": "Gods",
+          "tekst": "God",
           "voorkomen": 1,
           "strongs": [
             "H410"
+          ],
+          "morfologie": [
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
             "מֵ/אֵֽל"
@@ -350,13 +353,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 35:2",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -1886,10 +1893,13 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "zoals",
           "voorkomen": 1,
           "strongs": [
             "H3644"
+          ],
+          "morfologie": [
+            "HR/Sp2ms"
           ],
           "bronwoorden": [
             "כָּמ֥וֹ/ךָ"
@@ -1900,13 +1910,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 35:8",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]

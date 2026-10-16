@@ -3631,10 +3631,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfpc"
           ],
           "bronwoorden": [
             "מְדִינ֥וֹת"
@@ -3645,13 +3648,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:5",
+            "grondindices": [
+              32
+            ],
             "bronindices": [
               33
             ]
@@ -6672,10 +6679,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "הַ/מְּדִינ֜וֹת"
@@ -6686,13 +6696,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:9",
+            "grondindices": [
+              24
+            ],
             "bronindices": [
               26
             ]
@@ -6888,10 +6902,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 2,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מְדִינָ֔ה"
@@ -6902,75 +6919,62 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:9",
-            "bronindices": [
-              31
-            ]
-          }
-        },
-        {
-          "tekst": "landschap",
-          "voorkomen": 1,
-          "strongs": [
-            "H4082"
-          ],
-          "bronwoorden": [
-            "מְדִינָ֤ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
-            "referentie": "EST 8:9",
+            "grondindices": [
+              32
+            ],
             "bronindices": [
               32
             ]
           }
         },
         {
-          "tekst": "",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
+            "H4082",
             "H4082"
           ],
+          "morfologie": [
+            "HNcfsa",
+            "HC/Ncfsa"
+          ],
           "bronwoorden": [
+            "מְדִינָ֤ה",
             "וּ/מְדִינָה֙"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:9",
+            "grondindices": [
+              33,
+              34
+            ],
             "bronindices": [
-              33
+              33,
+              31
             ]
-          },
-          "anker": "landschap",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve herhaling מְדִינָה וּמְדִינָה is met 'een ieder landschap' weergegeven; het tweede מְדִינָה heeft geen zelfstandig equivalent."
+          }
         },
         {
           "tekst": "schrift",
@@ -6996,33 +7000,6 @@
             "referentie": "EST 8:9",
             "bronindices": [
               34
-            ]
-          }
-        },
-        {
-          "tekst": "volk",
-          "voorkomen": 1,
-          "strongs": [
-            "H5971"
-          ],
-          "bronwoorden": [
-            "וְ/עַ֥ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
-            "referentie": "EST 8:9",
-            "bronindices": [
-              35
             ]
           }
         },
@@ -7056,6 +7033,33 @@
           "plaats": "na",
           "status": "niet_afzonderlijk_weergegeven",
           "toelichting": "De distributieve herhaling עַם וָעָם is met 'een ieder volk' weergegeven; het tweede עַם heeft geen zelfstandig equivalent."
+        },
+        {
+          "tekst": "volk",
+          "voorkomen": 1,
+          "strongs": [
+            "H5971"
+          ],
+          "bronwoorden": [
+            "וְ/עַ֥ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
+            "referentie": "EST 8:9",
+            "bronindices": [
+              35
+            ]
+          }
         },
         {
           "tekst": "taal",
@@ -8548,10 +8552,13 @@
           }
         },
         {
-          "tekst": "landschap",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מְדִינָ֛ה"
@@ -8562,13 +8569,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:11",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               19
             ]
@@ -8946,10 +8957,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfpc"
           ],
           "bronwoorden": [
             "מְדִינ֖וֹת"
@@ -8960,13 +8974,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:12",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -9518,62 +9536,45 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
+            "H4082",
             "H4082"
           ],
-          "bronwoorden": [
-            "מְדִינָ֣ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
-            "referentie": "EST 8:13",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H4082"
+          "morfologie": [
+            "HNcfsa",
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
+            "מְדִינָ֣ה",
             "וּ/מְדִינָ֔ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:13",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              5,
               6
             ]
-          },
-          "anker": "landschappen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve herhaling מְדִינָה וּמְדִינָה is met 'alle landschappen' weergegeven; het tweede מְדִינָה heeft geen zelfstandig equivalent."
+          }
         },
         {
           "tekst": "openbaar",
@@ -11407,62 +11408,45 @@
           }
         },
         {
-          "tekst": "landschap",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
+            "H4082",
             "H4082"
           ],
-          "bronwoorden": [
-            "מְדִינָ֨ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
-            "referentie": "EST 8:17",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H4082"
+          "morfologie": [
+            "HNcfsa",
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
+            "מְדִינָ֨ה",
             "וּ/מְדִינָ֜ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:17",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
+              1,
               2
             ]
-          },
-          "anker": "landschap",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve herhaling מְדִינָה וּמְדִינָה is met 'alle en een ieder landschap' weergegeven; het tweede מְדִינָה heeft geen zelfstandig equivalent."
+          }
         },
         {
           "tekst": "alle",
@@ -11955,10 +11939,13 @@
           }
         },
         {
-          "tekst": "werden",
+          "tekst": "werden Joden",
           "voorkomen": 1,
           "strongs": [
             "H3054"
+          ],
+          "morfologie": [
+            "HVtrmpa"
           ],
           "bronwoorden": [
             "מִֽתְיַהֲדִ֔ים"
@@ -11969,18 +11956,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 8:17",
+            "grondindices": [
+              21
+            ],
             "bronindices": [
               21
             ]
-          },
-          "toelichting": "מִתְיַהֲדִים ('zich tot Jood maken') is weergegeven in 'werden Joden'; anker op 'werden'."
+          }
         },
         {
           "tekst": "want",

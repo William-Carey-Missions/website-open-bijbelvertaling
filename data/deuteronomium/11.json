@@ -5433,55 +5433,42 @@
           }
         },
         {
-          "tekst": "als",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "כְ/אֶ֤רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 11:10",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "כְ/אֶ֤רֶץ",
             "מִצְרַ֨יִם֙"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 11:10",
+            "grondindices": [
+              8,
+              9
+            ],
             "bronindices": [
+              8,
               9
             ]
           }
@@ -6476,6 +6463,9 @@
           "strongs": [
             "H853"
           ],
+          "morfologie": [
+            "HTo/Sp3fs"
+          ],
           "bronwoorden": [
             "אֹתָ֑/הּ"
           ],
@@ -6485,21 +6475,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 11:12",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "bezorgt",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "steeds",
@@ -11899,10 +11889,13 @@
           }
         },
         {
-          "tekst": "voor uw aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/R/Ncbpc/Sp2mp"
           ],
           "bronwoorden": [
             "מִ/לִּ/פְנֵי/כֶ֑ם"
@@ -11913,13 +11906,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 11:23",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -12010,36 +12007,69 @@
           "tekst": "machtiger",
           "voorkomen": 1,
           "strongs": [
-            "H6099",
-            "H4480"
+            "H6099"
+          ],
+          "morfologie": [
+            "HC/Aampa"
           ],
           "bronwoorden": [
-            "וַ/עֲצֻמִ֖ים",
-            "מִ/כֶּֽם"
+            "וַ/עֲצֻמִ֖ים"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 11:23",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
-          },
-          "gids_strongs": [
-            "H6099"
+          }
+        },
+        {
+          "tekst": "dan",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "De uitlijngids kent geen apart token voor mimmekem ('dan u'); het woordnummer H4480 staat daarom in dezelfde koppeling als H6099."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
+            "referentie": "DEU 11:23",
+            "grondindices": [
+              11
+            ],
+            "bronindices": [
+              11
+            ]
+          }
         }
       ]
     },
@@ -12900,10 +12930,13 @@
           }
         },
         {
-          "tekst": "voor uw aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp2mp"
           ],
           "bronwoorden": [
             "בִּ/פְנֵי/כֶ֑ם"
@@ -12914,13 +12947,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 11:25",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]

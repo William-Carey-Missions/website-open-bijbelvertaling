@@ -13048,9 +13048,17 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 3,
+          "anker": "zijn",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
             "το"
@@ -13061,30 +13069,33 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "BDAE9E3CCA31BF420BA40BD2EE5329E8A08A145518864BC1D9A93583BC021CE2",
             "referentie": "ROM 1:20",
-            "bronindices": [
-              19
-            ],
             "grondindices": [
               19
+            ],
+            "bronindices": [
+              19
             ]
-          },
-          "anker": "zijn",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Griekse lidwoord nominaliseert de infinitief en is niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "zijn",
-          "voorkomen": 1,
+          "voorkomen": 3,
           "strongs": [
             "G1510"
+          ],
+          "lemma_strongs": [
+            "G1510"
+          ],
+          "morfologie": [
+            "V-PAN"
           ],
           "bronwoorden": [
             "ειναι"
@@ -13095,17 +13106,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "BDAE9E3CCA31BF420BA40BD2EE5329E8A08A145518864BC1D9A93583BC021CE2",
             "referentie": "ROM 1:20",
-            "bronindices": [
+            "grondindices": [
               20
             ],
-            "grondindices": [
+            "bronindices": [
               20
             ]
           }

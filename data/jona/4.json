@@ -5700,13 +5700,13 @@
           "toelichting": "עַל hoort bij חוּס ('sparen over'); het Nederlands zegt kortweg 'sparen'."
         },
         {
-          "tekst": "grote",
+          "tekst": "Nineve",
           "voorkomen": 1,
           "strongs": [
-            "H1419"
+            "H5210"
           ],
           "bronwoorden": [
-            "הַ/גְּדוֹלָ֑ה"
+            "נִינְוֵ֖ה"
           ],
           "transliteraties": [
             ""
@@ -5722,7 +5722,7 @@
             "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
             "referentie": "JON 4:11",
             "bronindices": [
-              4
+              6
             ]
           }
         },
@@ -5754,13 +5754,13 @@
           }
         },
         {
-          "tekst": "Nineve",
+          "tekst": "grote",
           "voorkomen": 1,
           "strongs": [
-            "H5210"
+            "H1419"
           ],
           "bronwoorden": [
-            "נִינְוֵ֖ה"
+            "הַ/גְּדוֹלָ֑ה"
           ],
           "transliteraties": [
             ""
@@ -5776,7 +5776,7 @@
             "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
             "referentie": "JON 4:11",
             "bronindices": [
-              6
+              4
             ]
           }
         },
@@ -5835,10 +5835,13 @@
           }
         },
         {
-          "tekst": "meer",
+          "tekst": "veel",
           "voorkomen": 1,
           "strongs": [
             "H7235"
+          ],
+          "morfologie": [
+            "HVha"
           ],
           "bronwoorden": [
             "הַרְבֵּה֩"
@@ -5849,15 +5852,87 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
             "referentie": "JON 4:11",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               9
+            ]
+          }
+        },
+        {
+          "tekst": "honderd",
+          "voorkomen": 1,
+          "strongs": [
+            "H8147"
+          ],
+          "morfologie": [
+            "HR/Acfda"
+          ],
+          "bronwoorden": [
+            "מִֽ/שְׁתֵּים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
+            "referentie": "JON 4:11",
+            "grondindices": [
+              11
+            ],
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "twintig",
+          "voorkomen": 1,
+          "strongs": [
+            "H6240"
+          ],
+          "morfologie": [
+            "HAcfsa"
+          ],
+          "bronwoorden": [
+            "עֶשְׂרֵ֨ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
+            "referentie": "JON 4:11",
+            "grondindices": [
+              12
+            ],
+            "bronindices": [
+              11
             ]
           }
         },
@@ -5865,39 +5940,35 @@
           "tekst": "duizend",
           "voorkomen": 1,
           "strongs": [
-            "H8147",
-            "H6240",
             "H7239"
           ],
+          "morfologie": [
+            "HAcbsa"
+          ],
           "bronwoorden": [
-            "מִֽ/שְׁתֵּים",
-            "עֶשְׂרֵ֨ה",
             "רִבּ֜וֹ"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
             "referentie": "JON 4:11",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
-              10,
-              11,
               12
             ]
-          },
-          "toelichting": "Het Hebreeuws telt שְׁתֵּים עֶשְׂרֵה רִבּוֹ ('twaalf tienduizendtallen'); het Nederlands geeft dat weer met 'honderd en twintig duizend'. De drie grondwoorden zijn op 'duizend' samengevoegd."
+          }
         },
         {
           "tekst": "mensen",

@@ -225,10 +225,13 @@
           }
         },
         {
-          "tekst": "door",
+          "tekst": "dienst",
           "voorkomen": 1,
           "strongs": [
             "H3027"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "בְּ/יַ֖ד"
@@ -239,13 +242,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:1",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -431,37 +438,72 @@
       ],
       "woordnummers": [
         {
-          "tekst": "heb u liefgehad",
+          "tekst": "liefgehad",
           "voorkomen": 1,
           "strongs": [
-            "H157",
-            "H853"
+            "H157"
+          ],
+          "morfologie": [
+            "HVqp1cs"
           ],
           "bronwoorden": [
-            "אָהַ֤בְתִּי",
-            "אֶתְ/כֶם֙"
+            "אָהַ֤בְתִּי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:2",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
-              0,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp2mp"
+          ],
+          "bronwoorden": [
+            "אֶתְ/כֶם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
+            "referentie": "MAL 1:2",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
               1
             ]
-          },
-          "toelichting": "Werkwoord en pronominaal lijdend voorwerp vormen samen de Nederlandse woordgroep."
+          }
         },
         {
           "tekst": "zegt",
@@ -572,10 +614,13 @@
           }
         },
         {
-          "tekst": "hebt U ons liefgehad",
-          "voorkomen": 1,
+          "tekst": "liefgehad",
+          "voorkomen": 2,
           "strongs": [
             "H157"
+          ],
+          "morfologie": [
+            "HVqp2ms/Sp1cp"
           ],
           "bronwoorden": [
             "אֲהַבְתָּ֑/נוּ"
@@ -586,13 +631,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:2",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -707,10 +756,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -721,13 +773,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:2",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -2074,37 +2130,72 @@
           }
         },
         {
-          "tekst": "tot in eeuwigheid",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
-            "H5704",
-            "H5769"
+            "H5704"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
-            "עַד",
-            "עוֹלָֽם"
+            "עַד"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:4",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
-              22,
+              22
+            ]
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
+            "H5769"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "עוֹלָֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
+            "referentie": "MAL 1:4",
+            "grondindices": [
+              24
+            ],
+            "bronindices": [
               23
             ]
-          },
-          "toelichting": "Twee grond- en gidsrecords vormen samen de Nederlandse tijdsbepaling."
+          }
         }
       ]
     },
@@ -3089,13 +3180,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
           ],
           "bronwoorden": [
-            "אָמַ֣ר"
+            "וַ/אֲמַרְתֶּ֕ם"
           ],
           "transliteraties": [
             ""
@@ -3111,7 +3202,7 @@
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:6",
             "bronindices": [
-              15
+              21
             ]
           }
         },
@@ -3252,9 +3343,12 @@
         },
         {
           "tekst": "zegt",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HC/Vqq2mp"
           ],
           "bronwoorden": [
             "וַ/אֲמַרְתֶּ֕ם"
@@ -3265,13 +3359,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:6",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               21
             ]
@@ -4609,10 +4707,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "אָמַ֖ר"
@@ -4623,13 +4724,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:8",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               19
             ]
@@ -5094,9 +5199,12 @@
         },
         {
           "tekst": "uw",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H4480"
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
           ],
           "bronwoorden": [
             "מִ/כֶּם֙"
@@ -5107,17 +5215,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:9",
-            "bronindices": []
-          },
-          "gids_strongs": [],
-          "toelichting": "MorphHB voert H4480 voor מִכֶּם; de gids heeft voor dit grondtoken geen afzonderlijk Strongrecord."
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
+            ]
+          }
         },
         {
           "tekst": "aangezicht",
@@ -5147,10 +5259,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "אָמַ֖ר"
@@ -5161,13 +5276,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:9",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               11
             ]
@@ -5758,10 +5877,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֖ה"
@@ -5772,13 +5894,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:10",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               15
             ]
@@ -6390,10 +6516,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֣ה"
@@ -6404,13 +6533,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:11",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               12
             ]
@@ -7340,10 +7473,13 @@
           }
         },
         {
-          "tekst": "wat",
+          "tekst": "vermoeidheid",
           "voorkomen": 1,
           "strongs": [
             "H4972"
+          ],
+          "morfologie": [
+            "HTi/Ncfsa"
           ],
           "bronwoorden": [
             "מַ/תְּלָאָ֜ה"
@@ -7354,20 +7490,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
-          },
-          "gids_strongs": [
-            "H4100"
-          ]
+          }
         },
         {
           "tekst": "wegblazen",
@@ -7704,8 +7841,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -7716,27 +7858,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               16
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdendvoorwerpspartikel heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֑ה"
@@ -7747,13 +7892,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               9
             ]
@@ -7841,10 +7990,13 @@
           }
         },
         {
-          "tekst": "zeg",
-          "voorkomen": 1,
+          "tekst": "zegt",
+          "voorkomen": 3,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "אָמַ֥ר"
@@ -7855,13 +8007,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               20
             ]

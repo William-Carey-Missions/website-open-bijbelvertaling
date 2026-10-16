@@ -1631,9 +1631,12 @@
         },
         {
           "tekst": "gelijk",
-          "voorkomen": 3,
+          "voorkomen": 2,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HR/Tr"
           ],
           "bronwoorden": [
             "כַּ/אֲשֶׁ֖ר"
@@ -1644,13 +1647,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
             "referentie": "ECC 9:2",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
@@ -6568,26 +6575,40 @@
           "tekst": "daar",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H8033"
+          ],
+          "morfologie": [
+            "HTr",
+            "HD/Sd"
           ],
           "bronwoorden": [
-            "אֲשֶׁ֥ר"
+            "אֲשֶׁ֥ר",
+            "שָֽׁמָּ/ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
             "referentie": "ECC 9:10",
+            "grondindices": [
+              14,
+              17
+            ],
             "bronindices": [
-              9
+              9,
+              12
             ]
           }
         },
@@ -6644,37 +6665,6 @@
               11
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "שָֽׁמָּ/ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
-            "referentie": "ECC 9:10",
-            "bronindices": [
-              12
-            ]
-          },
-          "anker": "heengaat",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "שָׁמָּה 'daarheen' valt in het Nederlands samen met 'daar … heengaat'."
         }
       ]
     },
@@ -8226,39 +8216,72 @@
           }
         },
         {
-          "tekst": "verstrikt",
+          "tekst": "zo",
           "voorkomen": 1,
           "strongs": [
-            "H1992",
-            "H3369"
+            "H1992"
+          ],
+          "morfologie": [
+            "HR/Pp3mp"
           ],
           "bronwoorden": [
-            "כָּ/הֵ֗ם",
-            "יֽוּקָשִׁים֙"
+            "כָּ/הֵ֗ם"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
             "referentie": "ECC 9:12",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              16
+              14
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "verstrikt",
+          "voorkomen": 1,
+          "strongs": [
             "H3369"
           ],
-          "toelichting": "כָּהֵם 'zoals zij' heeft in de uitlijngids geen eigen token; het grondwoord is met יוּקָשִׁים samengevoegd."
+          "morfologie": [
+            "HVPsmpa"
+          ],
+          "bronwoorden": [
+            "יֽוּקָשִׁים֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
+            "referentie": "ECC 9:12",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
+              15
+            ]
+          }
         },
         {
           "tekst": "kinderen",

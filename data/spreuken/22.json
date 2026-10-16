@@ -2807,10 +2807,13 @@
           }
         },
         {
-          "tekst": "gekijf",
+          "tekst": "ruzie",
           "voorkomen": 1,
           "strongs": [
             "H4066"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "מָד֑וֹן"
@@ -2821,13 +2824,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 22:10",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               2
             ]

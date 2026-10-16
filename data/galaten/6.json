@@ -4174,10 +4174,18 @@
           }
         },
         {
-          "tekst": "zijn",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "vlees",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASF"
           ],
           "bronwoorden": [
             "την"
@@ -4188,18 +4196,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B174BEE2C87B305DB86862D810BE20B77706C7A87E2298147E7FC90C5D17A7C3",
             "referentie": "GAL 6:8",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
               4
+            ],
+            "bronindices": [
+              5
             ]
           }
         },

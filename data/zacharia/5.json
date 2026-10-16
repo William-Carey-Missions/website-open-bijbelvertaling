@@ -456,10 +456,13 @@
           }
         },
         {
-          "tekst": "tot mij",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֔/י"
@@ -470,13 +473,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:2",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               4
             ]
@@ -1086,10 +1093,13 @@
           }
         },
         {
-          "tekst": "tot mij",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֔/י"
@@ -1100,13 +1110,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:3",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -2606,10 +2620,13 @@
           }
         },
         {
-          "tekst": "tot mij",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֔/י"
@@ -2620,13 +2637,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:5",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]
@@ -4527,10 +4548,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HR/Ncfdc/Sp3mp"
           ],
           "bronwoorden": [
             "בְּ/כַנְפֵי/הֶ֔ם"
@@ -4541,58 +4565,98 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:9",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
           }
         },
         {
-          "tekst": "vleugelen",
-          "voorkomen": 2,
+          "tekst": "hadden",
+          "voorkomen": 1,
           "strongs": [
-            "H2007",
-            "H3671"
+            "H2007"
+          ],
+          "morfologie": [
+            "HC/R/Sp3fp"
           ],
           "bronwoorden": [
-            "וְ/לָ/הֵ֥נָּה",
-            "כְנָפַ֖יִם"
+            "וְ/לָ/הֵ֥נָּה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:9",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "gids_strongs": [
-            "H3671"
-          ],
-          "toelichting": "וְלָהֵנָּה H2007 'en zij hadden' heeft in de uitlijngids geen eigen token; het is hier samengevoegd met כְּנָפַיִם H3671 tot de Nederlandse woordgroep 'zij hadden vleugelen'. Zie de bronafwijking."
+          }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
+          "voorkomen": 2,
+          "strongs": [
+            "H3671"
+          ],
+          "morfologie": [
+            "HNcfda"
+          ],
+          "bronwoorden": [
+            "כְנָפַ֖יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
+            "referentie": "ZEC 5:9",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "vleugels",
           "voorkomen": 3,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HR/Ncfdc"
           ],
           "bronwoorden": [
             "כְּ/כַנְפֵ֣י"
@@ -4603,15 +4667,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:9",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
-              10
+              11
             ]
           }
         },
@@ -5306,10 +5374,13 @@
           }
         },
         {
-          "tekst": "tot mij",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֔/י"
@@ -5320,13 +5391,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 5:11",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               5
             ]

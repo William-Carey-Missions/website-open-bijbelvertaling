@@ -888,38 +888,75 @@
           "voorkomen": 1,
           "strongs": [
             "H3372",
-            "H853",
             "H430"
+          ],
+          "morfologie": [
+            "HC/Vqp3ms",
+            "HTd/Ncmpa"
           ],
           "bronwoorden": [
             "וְ/יָרֵ֥א",
-            "אֶת",
             "הָ/אֱלֹהִ֖ים"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:2",
+            "grondindices": [
+              14,
+              16
+            ],
             "bronindices": [
               14,
-              15,
               16
             ]
-          },
-          "toelichting": "וְיָרֵא אֶת־הָאֱלֹהִים ('en hij vreesde God', H3372, H853, H430) is één Nederlands woord 'godvrezende'."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H853"
+          ],
+          "morfologie": [
+            "HTo"
+          ],
+          "bronwoorden": [
+            "אֶת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:2",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
+              15
+            ]
+          }
         },
         {
           "tekst": "velen",
@@ -2988,10 +3025,13 @@
           }
         },
         {
-          "tekst": "landschap",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מְּדִינָ֗ה"
@@ -3002,13 +3042,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:6",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -9890,37 +9934,72 @@
           }
         },
         {
-          "tekst": "drie duizend",
+          "tekst": "drie",
           "voorkomen": 1,
           "strongs": [
-            "H7969",
-            "H505"
+            "H7969"
+          ],
+          "morfologie": [
+            "HAcmsc"
           ],
           "bronwoorden": [
-            "שְׁלֹ֣שֶׁת",
-            "אֲלָפִ֔ים"
+            "שְׁלֹ֣שֶׁת"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:38",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "אֲלָפִ֔ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:38",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
               3
             ]
-          },
-          "toelichting": "Eén Nederlands woord 'drie duizend' dekt de woordgroep שְׁלֹשֶׁת אֲלָפִים (H7969 en H505)."
+          }
         },
         {
           "tekst": "negenhonderd",
@@ -17459,42 +17538,106 @@
           "toelichting": "כְּאֶחָד ('als één') is met 'samen' weergegeven."
         },
         {
-          "tekst": "twee en veertig duizend",
+          "tekst": "veertig",
           "voorkomen": 1,
           "strongs": [
-            "H702",
-            "H7239",
-            "H505"
+            "H702"
+          ],
+          "morfologie": [
+            "HAcfsa"
           ],
           "bronwoorden": [
-            "אַרְבַּ֣ע",
-            "רִבּ֔וֹא",
-            "אַלְפַּ֖יִם"
+            "אַרְבַּ֣ע"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:66",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              3,
-              4,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H7239"
+          ],
+          "morfologie": [
+            "HAcbsa"
+          ],
+          "bronwoorden": [
+            "רִבּ֔וֹא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:66",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "twee",
+          "voorkomen": 1,
+          "strongs": [
+            "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "אַלְפַּ֖יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:66",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
               5
             ]
-          },
-          "toelichting": "אַרְבַּע רִבּוֹא אַלְפַּיִם ('vier tienduizendtallen en tweeduizend', H702, H7239 en H505) is 42.000; het Nederlands geeft dit als 'twee en veertig duizend'."
+          }
         },
         {
           "tekst": "driehonderd",
@@ -18267,37 +18410,72 @@
           }
         },
         {
-          "tekst": "zes duizend",
+          "tekst": "zes",
           "voorkomen": 1,
           "strongs": [
-            "H8337",
-            "H505"
+            "H8337"
+          ],
+          "morfologie": [
+            "HAcmsc"
           ],
           "bronwoorden": [
-            "שֵׁ֣שֶׁת",
-            "אֲלָפִ֔ים"
+            "שֵׁ֣שֶׁת"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:69",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              5,
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "אֲלָפִ֔ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:69",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
               6
             ]
-          },
-          "toelichting": "Eén Nederlands woord 'zes duizend' dekt de woordgroep שֵׁשֶׁת אֲלָפִים (H8337 en H505)."
+          }
         },
         {
           "tekst": "zevenhonderd",
@@ -19185,37 +19363,72 @@
           }
         },
         {
-          "tekst": "twintig duizend",
+          "tekst": "twintig",
           "voorkomen": 1,
           "strongs": [
-            "H8147",
-            "H7239"
+            "H8147"
+          ],
+          "morfologie": [
+            "HAcfdc"
           ],
           "bronwoorden": [
-            "שְׁתֵּ֣י",
-            "רִבּ֑וֹת"
+            "שְׁתֵּ֣י"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:71",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
-              5,
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H7239"
+          ],
+          "morfologie": [
+            "HNcbpa"
+          ],
+          "bronwoorden": [
+            "רִבּ֑וֹת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:71",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
               6
             ]
-          },
-          "toelichting": "שְׁתֵּי רִבּוֹת ('twee tienduizendtallen', H8147 en H7239) is 20.000; het Nederlands geeft dit als 'twintig duizend'."
+          }
         },
         {
           "tekst": "zilver",
@@ -19272,10 +19485,13 @@
           }
         },
         {
-          "tekst": "twee duizend",
-          "voorkomen": 1,
+          "tekst": "duizend",
+          "voorkomen": 2,
           "strongs": [
             "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
           ],
           "bronwoorden": [
             "אַלְפַּ֥יִם"
@@ -19286,18 +19502,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:71",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "De dualis אַלְפַּיִם ('tweeduizend') dekt de woordgroep 'twee duizend'."
+          }
         },
         {
           "tekst": "tweehonderd",
@@ -19590,37 +19809,72 @@
           }
         },
         {
-          "tekst": "twintig duizend",
+          "tekst": "twintig",
           "voorkomen": 1,
           "strongs": [
-            "H8147",
-            "H7239"
+            "H8147"
+          ],
+          "morfologie": [
+            "HAcfdc"
           ],
           "bronwoorden": [
-            "שְׁתֵּ֣י",
-            "רִבּ֔וֹא"
+            "שְׁתֵּ֣י"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:72",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              4,
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H7239"
+          ],
+          "morfologie": [
+            "HAcbsa"
+          ],
+          "bronwoorden": [
+            "רִבּ֔וֹא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
+            "referentie": "NEH 7:72",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
               5
             ]
-          },
-          "toelichting": "שְׁתֵּי רִבּוֹא ('twee tienduizendtallen', H8147 en H7239) is 20.000; het Nederlands geeft dit als 'twintig duizend'."
+          }
         },
         {
           "tekst": "zilver",
@@ -19678,10 +19932,13 @@
           "toelichting": "מָנִים ('minen') is met het leenwoord 'mijn' (mina's) weergegeven."
         },
         {
-          "tekst": "twee duizend",
-          "voorkomen": 1,
+          "tekst": "duizend",
+          "voorkomen": 2,
           "strongs": [
             "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
           ],
           "bronwoorden": [
             "אַלְפָּ֑יִם"
@@ -19692,18 +19949,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:72",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               8
             ]
-          },
-          "toelichting": "De dualis אַלְפַּיִם ('tweeduizend') dekt de woordgroep 'twee duizend'."
+          }
         },
         {
           "tekst": "priesterrokken",
@@ -20227,6 +20487,9 @@
           "strongs": [
             "H5060"
           ],
+          "morfologie": [
+            "HC/Vqw3ms"
+          ],
           "bronwoorden": [
             "וַ/יִּגַּע֙"
           ],
@@ -20236,27 +20499,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:73",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               13
             ]
-          },
-          "anker": "steden",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "וַיִּגַּע ('en (de maand) brak aan') hoort bij het versdeel dat in de Nederlandse telling 8:1 is; MT 7:72 is één vers en is hier volledig vastgelegd."
+          }
         },
         {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H2320"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "הַ/חֹ֣דֶשׁ"
@@ -20267,27 +20533,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:73",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
-          },
-          "anker": "steden",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "הַחֹדֶשׁ ('de maand') hoort bij het versdeel dat in de Nederlandse telling 8:1 is ('de zevende maand')."
+          }
         },
         {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H7637"
+          ],
+          "morfologie": [
+            "HTd/Aomsa"
           ],
           "bronwoorden": [
             "הַ/שְּׁבִיעִ֔י"
@@ -20298,27 +20567,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:73",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               11
             ]
-          },
-          "anker": "steden",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "הַשְּׁבִיעִי ('de zevende') hoort bij het versdeel dat in de Nederlandse telling 8:1 is."
+          }
         },
         {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HC/Ncmpc"
           ],
           "bronwoorden": [
             "וּ/בְנֵ֥י"
@@ -20329,27 +20601,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:73",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
-          },
-          "anker": "steden",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "וּבְנֵי ('en de zonen van') hoort bij het versdeel dat in de Nederlandse telling 8:1 is ('de Israëlieten')."
+          }
         },
         {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H3478"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "יִשְׂרָאֵ֖ל"
@@ -20360,27 +20635,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:73",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "anker": "steden",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "יִשְׂרָאֵל hoort bij het versdeel dat in de Nederlandse telling 8:1 is ('de Israëlieten')."
+          }
         },
         {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H5892"
+          ],
+          "morfologie": [
+            "HR/Ncfpc/Sp3mp"
           ],
           "bronwoorden": [
             "בְּ/עָרֵי/הֶֽם"
@@ -20391,21 +20669,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 7:73",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
-          },
-          "anker": "steden",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "בְּעָרֵיהֶם ('in hun steden') hoort bij het versdeel dat in de Nederlandse telling 8:1 is."
+          }
         }
       ]
     }

@@ -1806,10 +1806,13 @@
           }
         },
         {
-          "tekst": "toegemuurd",
+          "tekst": "versperd",
           "voorkomen": 1,
           "strongs": [
             "H1443"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "גָ֭דַר"
@@ -1820,13 +1823,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 19:8",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               0
             ]

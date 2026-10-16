@@ -7541,38 +7541,75 @@
           "voorkomen": 1,
           "strongs": [
             "H3606",
-            "H6903",
-            "H1768"
+            "H6903"
+          ],
+          "morfologie": [
+            "AC/C",
+            "AC"
           ],
           "bronwoorden": [
             "כָּ/ל",
-            "קֳבֵל֙",
-            "דִּֽי"
+            "קֳבֵל֙"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B12569D5200F912C87C58A990D10CF68B0B914C871CA8F718D90A64F7F867923",
             "referentie": "EZR 4:14",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
               1,
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H1768"
+          ],
+          "morfologie": [
+            "AC"
+          ],
+          "bronwoorden": [
+            "דִּֽי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "B12569D5200F912C87C58A990D10CF68B0B914C871CA8F718D90A64F7F867923",
+            "referentie": "EZR 4:14",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
               3
             ]
-          },
-          "toelichting": "De voegwoordgroep כָּל־קֳבֵל דִּי (H3606, H6903, H1768) is één Nederlands woord 'omdat'."
+          }
         },
         {
           "tekst": "salaris",
@@ -8598,10 +8635,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4083"
+          ],
+          "morfologie": [
+            "AC/Ncfpa"
           ],
           "bronwoorden": [
             "וּ/מְדִנָ֔ן"
@@ -8612,13 +8652,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B12569D5200F912C87C58A990D10CF68B0B914C871CA8F718D90A64F7F867923",
             "referentie": "EZR 4:15",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]

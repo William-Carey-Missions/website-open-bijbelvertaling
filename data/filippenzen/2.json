@@ -1069,67 +1069,83 @@
           }
         },
         {
-          "tekst": "eensgezind",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G846"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
-            "το",
-            "αυτο"
+            "το"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
-              5,
-              6
-            ],
             "grondindices": [
-              5,
-              6
+              5
+            ],
+            "bronindices": [
+              5
             ]
           }
         },
         {
-          "tekst": "zijn",
+          "tekst": "eensgezind",
           "voorkomen": 1,
           "strongs": [
+            "G846",
             "G5426"
           ],
+          "lemma_strongs": [
+            "G846",
+            "G5426"
+          ],
+          "morfologie": [
+            "P-ASN",
+            "V-PAS-2P"
+          ],
           "bronwoorden": [
+            "αυτο",
             "φρονητε"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
+            "grondindices": [
+              6,
               7
             ],
-            "grondindices": [
+            "bronindices": [
+              6,
               7
             ]
           }
@@ -1231,10 +1247,16 @@
           }
         },
         {
-          "tekst": "één gemoed",
+          "tekst": "gemoed",
           "voorkomen": 1,
           "strongs": [
             "G4861"
+          ],
+          "lemma_strongs": [
+            "G4861"
+          ],
+          "morfologie": [
+            "A-NPM"
           ],
           "bronwoorden": [
             "συμψυχοι"
@@ -1245,27 +1267,36 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
+            "grondindices": [
               12
             ],
-            "grondindices": [
+            "bronindices": [
               12
             ]
           }
         },
         {
-          "tekst": "één gevoelen",
-          "voorkomen": 1,
+          "tekst": "één",
+          "voorkomen": 2,
           "strongs": [
             "G3588",
             "G1520"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1520"
+          ],
+          "morfologie": [
+            "T-ASN",
+            "A-ASN"
           ],
           "bronwoorden": [
             "το",
@@ -1279,28 +1310,35 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
-              14,
-              15
-            ],
             "grondindices": [
               13,
               14
+            ],
+            "bronindices": [
+              14,
+              15
             ]
           }
         },
         {
-          "tekst": "zijnde",
+          "tekst": "gevoelen",
           "voorkomen": 1,
           "strongs": [
             "G5426"
+          ],
+          "lemma_strongs": [
+            "G5426"
+          ],
+          "morfologie": [
+            "V-PAP-NPM"
           ],
           "bronwoorden": [
             "φρονουντες"
@@ -1311,18 +1349,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
-              13
-            ],
             "grondindices": [
               15
+            ],
+            "bronindices": [
+              13
             ]
           }
         }
@@ -6875,38 +6914,76 @@
           }
         },
         {
-          "tekst": "werkt",
+          "tekst": "Die",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G1754"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
-            "ο",
-            "ενεργων"
+            "ο"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:13",
-            "bronindices": [
-              3,
+            "grondindices": [
               4
             ],
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "werkt",
+          "voorkomen": 1,
+          "strongs": [
+            "G1754"
+          ],
+          "lemma_strongs": [
+            "G1754"
+          ],
+          "morfologie": [
+            "V-PAP-NSM"
+          ],
+          "bronwoorden": [
+            "ενεργων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
+            "referentie": "PHP 2:13",
             "grondindices": [
-              4,
               5
+            ],
+            "bronindices": [
+              4
             ]
           }
         },

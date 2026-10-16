@@ -2117,10 +2117,13 @@
           }
         },
         {
-          "tekst": "wortelen schieten",
+          "tekst": "wortels schieten",
           "voorkomen": 1,
           "strongs": [
             "H8327"
+          ],
+          "morfologie": [
+            "HVhi3ms"
           ],
           "bronwoorden": [
             "יַשְׁרֵ֣שׁ"
@@ -2131,13 +2134,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 27:6",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -2559,8 +2566,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Is",
+          "plaats": "voor",
           "strongs": [
             "H518"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "אִם"
@@ -2571,21 +2583,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 27:7",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "anker": "gedood",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "אִם is het vragende partikel dat de tweede vraag inleidt en is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "gedood",

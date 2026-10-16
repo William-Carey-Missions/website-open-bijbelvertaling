@@ -8880,6 +8880,40 @@
           "toelichting": "De inleesroutine houdt het ketiv ל/שאול aan; het qere leest לִשְׁאָל. Het Strongnummer H7592 is gelijk."
         },
         {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H7592"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "ל֥/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 22:15",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
           "tekst": "God",
           "voorkomen": 1,
           "strongs": [
@@ -8905,34 +8939,6 @@
               3
             ]
           }
-        },
-        {
-          "tekst": "hem",
-          "voorkomen": 1,
-          "strongs": [
-            "H7592"
-          ],
-          "bronwoorden": [
-            "ל֥/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 22:15",
-            "bronindices": [
-              4
-            ]
-          },
-          "toelichting": "MorphHB rekent het aansluitende לוֹ bij hetzelfde lemma H7592; het Nederlandse 'voor hem' draagt dit token."
         },
         {
           "tekst": "Volstrekt",
@@ -8962,10 +8968,13 @@
           }
         },
         {
-          "tekst": "niet",
+          "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
             "H408"
+          ],
+          "morfologie": [
+            "HTn"
           ],
           "bronwoorden": [
             "אַל"
@@ -8976,42 +8985,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 22:15",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               6
-            ]
-          }
-        },
-        {
-          "tekst": "koning",
-          "voorkomen": 1,
-          "strongs": [
-            "H4428"
-          ],
-          "bronwoorden": [
-            "הַ/מֶּ֨לֶךְ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 22:15",
-            "bronindices": [
-              7
             ]
           }
         },
@@ -9043,13 +9029,13 @@
           }
         },
         {
-          "tekst": "ding",
+          "tekst": "koning",
           "voorkomen": 1,
           "strongs": [
-            "H1697"
+            "H4428"
           ],
           "bronwoorden": [
-            "דָבָר֙"
+            "הַ/מֶּ֨לֶךְ"
           ],
           "transliteraties": [
             ""
@@ -9065,7 +9051,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 22:15",
             "bronindices": [
-              9
+              7
             ]
           }
         },
@@ -9097,6 +9083,33 @@
           }
         },
         {
+          "tekst": "ding",
+          "voorkomen": 1,
+          "strongs": [
+            "H1697"
+          ],
+          "bronwoorden": [
+            "דָבָר֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 22:15",
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
           "tekst": "hele",
           "voorkomen": 1,
           "strongs": [
@@ -9120,33 +9133,6 @@
             "referentie": "1SA 22:15",
             "bronindices": [
               11
-            ]
-          }
-        },
-        {
-          "tekst": "vader",
-          "voorkomen": 1,
-          "strongs": [
-            "H1"
-          ],
-          "bronwoorden": [
-            "אָבִ֔/י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 22:15",
-            "bronindices": [
-              12
             ]
           }
         },
@@ -9178,6 +9164,33 @@
           }
         },
         {
+          "tekst": "vader",
+          "voorkomen": 1,
+          "strongs": [
+            "H1"
+          ],
+          "bronwoorden": [
+            "אָבִ֔/י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 22:15",
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
           "tekst": "want",
           "voorkomen": 1,
           "strongs": [
@@ -9201,60 +9214,6 @@
             "referentie": "1SA 22:15",
             "bronindices": [
               14
-            ]
-          }
-        },
-        {
-          "tekst": "knecht",
-          "voorkomen": 2,
-          "strongs": [
-            "H5650"
-          ],
-          "bronwoorden": [
-            "עַבְדְּ/ךָ֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 22:15",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
-          "tekst": "geweten",
-          "voorkomen": 1,
-          "strongs": [
-            "H3045"
-          ],
-          "bronwoorden": [
-            "יָדַ֤ע"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 22:15",
-            "bronindices": [
-              16
             ]
           }
         },
@@ -9286,13 +9245,13 @@
           }
         },
         {
-          "tekst": "deze",
+          "tekst": "geweten",
           "voorkomen": 1,
           "strongs": [
-            "H2063"
+            "H3045"
           ],
           "bronwoorden": [
-            "זֹ֔את"
+            "יָדַ֤ע"
           ],
           "transliteraties": [
             ""
@@ -9308,7 +9267,34 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 22:15",
             "bronindices": [
-              18
+              16
+            ]
+          }
+        },
+        {
+          "tekst": "knecht",
+          "voorkomen": 2,
+          "strongs": [
+            "H5650"
+          ],
+          "bronwoorden": [
+            "עַבְדְּ/ךָ֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 22:15",
+            "bronindices": [
+              15
             ]
           }
         },
@@ -9336,6 +9322,33 @@
             "referentie": "1SA 22:15",
             "bronindices": [
               19
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "H2063"
+          ],
+          "bronwoorden": [
+            "זֹ֔את"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 22:15",
+            "bronindices": [
+              18
             ]
           }
         },

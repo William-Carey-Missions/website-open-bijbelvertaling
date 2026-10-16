@@ -1712,96 +1712,47 @@
         {
           "tekst": "",
           "voorkomen": 1,
-          "strongs": [
-            "G3588"
-          ],
-          "bronwoorden": [
-            "τη"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
-            "referentie": "1TH 5:3",
-            "bronindices": [
-              13
-            ],
-            "grondindices": [
-              14
-            ]
-          },
           "anker": "zwangere",
           "plaats": "voor",
-          "toelichting": "Dit TR-token is niet afzonderlijk in het Nederlands weergegeven."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
           "strongs": [
+            "G3588",
             "G1722"
           ],
+          "lemma_strongs": [
+            "G3588",
+            "G1722"
+          ],
+          "morfologie": [
+            "T-DSF",
+            "PREP"
+          ],
           "bronwoorden": [
+            "τη",
             "εν"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 5:3",
-            "bronindices": [
+            "grondindices": [
+              14,
               15
             ],
-            "grondindices": [
-              15
-            ]
-          },
-          "anker": "zwangere",
-          "plaats": "voor",
-          "toelichting": "Dit TR-token is niet afzonderlijk in het Nederlands weergegeven."
-        },
-        {
-          "tekst": "vrouw",
-          "voorkomen": 1,
-          "strongs": [
-            "G1064"
-          ],
-          "bronwoorden": [
-            "γαστρι"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
-            "referentie": "1TH 5:3",
             "bronindices": [
-              16
-            ],
-            "grondindices": [
-              16
+              13,
+              15
             ]
           }
         },
@@ -1809,29 +1760,44 @@
           "tekst": "zwangere",
           "voorkomen": 1,
           "strongs": [
+            "G1064",
             "G2192"
           ],
+          "lemma_strongs": [
+            "G1064",
+            "G2192"
+          ],
+          "morfologie": [
+            "N-DSF",
+            "V-PAP-DSF"
+          ],
           "bronwoorden": [
+            "γαστρι",
             "εχουση"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 5:3",
-            "bronindices": [
-              14
-            ],
             "grondindices": [
+              16,
               17
+            ],
+            "bronindices": [
+              16,
+              14
             ]
           }
         },
@@ -1866,11 +1832,19 @@
           }
         },
         {
-          "tekst": "in geen geval",
+          "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
             "G3756",
             "G3361"
+          ],
+          "lemma_strongs": [
+            "G3756",
+            "G3361"
+          ],
+          "morfologie": [
+            "PRT-N",
+            "PRT-N"
           ],
           "bronwoorden": [
             "ου",
@@ -1884,20 +1858,21 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 5:3",
-            "bronindices": [
-              18,
-              19
-            ],
             "grondindices": [
               19,
               20
+            ],
+            "bronindices": [
+              18,
+              19
             ]
           }
         },

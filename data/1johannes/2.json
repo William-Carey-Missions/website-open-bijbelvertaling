@@ -2891,7 +2891,7 @@
         },
         {
           "tekst": "die",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G3778"
           ],
@@ -2910,9 +2910,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -2921,6 +2918,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:4",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -3884,7 +3884,7 @@
         },
         {
           "tekst": "zijn",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G1510"
           ],
@@ -3903,9 +3903,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5719"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -3914,6 +3911,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:5",
+            "grondindices": [
+              21
+            ],
             "bronindices": [
               21
             ]
@@ -4312,7 +4312,7 @@
         },
         {
           "tekst": "Hij",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G1565"
           ],
@@ -4331,9 +4331,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -4342,6 +4339,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:6",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -7217,35 +7217,25 @@
           }
         },
         {
-          "tekst": "tot nog toe",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
-            "G2193",
-            "G737"
+            "G2193"
           ],
           "lemma_strongs": [
-            "G2193",
-            "G737"
+            "G2193"
           ],
           "morfologie": [
-            "ADV",
             "ADV"
           ],
           "bronwoorden": [
-            "εως",
-            "αρτι"
+            "εως"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -7255,8 +7245,47 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:9",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
-              15,
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "nog toe",
+          "voorkomen": 1,
+          "strongs": [
+            "G737"
+          ],
+          "lemma_strongs": [
+            "G737"
+          ],
+          "morfologie": [
+            "ADV"
+          ],
+          "bronwoorden": [
+            "αρτι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1JO.UTR",
+            "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
+            "referentie": "1JOHN 2:9",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
               16
             ]
           }
@@ -12742,35 +12771,25 @@
           }
         },
         {
-          "tekst": "al wat",
+          "tekst": "al",
           "voorkomen": 1,
           "strongs": [
-            "G3956",
-            "G3588"
+            "G3956"
           ],
           "lemma_strongs": [
-            "G3956",
-            "G3588"
+            "G3956"
           ],
           "morfologie": [
-            "A-NSN",
-            "T-NSN"
+            "A-NSN"
           ],
           "bronwoorden": [
-            "παν",
-            "το"
+            "παν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -12780,8 +12799,47 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:16",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              1,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "wat",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSN"
+          ],
+          "bronwoorden": [
+            "το"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1JO.UTR",
+            "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
+            "referentie": "1JOHN 2:16",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               2
             ]
           }
@@ -13827,7 +13885,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -13846,9 +13904,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -13857,6 +13912,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:17",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -19037,7 +19095,7 @@
           }
         },
         {
-          "tekst": "ook",
+          "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
             "G3761"
@@ -19057,9 +19115,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -19068,6 +19123,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:23",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -19884,7 +19942,7 @@
         },
         {
           "tekst": "wat",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G3739"
           ],
@@ -19903,9 +19961,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -19914,6 +19969,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:24",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -21941,7 +21999,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -21972,7 +22030,7 @@
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:27",
             "bronindices": [
-              11
+              31
             ]
           }
         },
@@ -22652,7 +22710,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G2532"
           ],
@@ -22683,7 +22741,7 @@
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:27",
             "bronindices": [
-              31
+              35
             ]
           }
         },
@@ -22800,7 +22858,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 3,
+          "voorkomen": 4,
           "strongs": [
             "G2532"
           ],
@@ -22819,9 +22877,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -22830,6 +22885,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:27",
+            "grondindices": [
+              35
+            ],
             "bronindices": [
               35
             ]
@@ -23655,7 +23713,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -23674,9 +23732,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -23685,6 +23740,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:28",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -23922,7 +23980,7 @@
         },
         {
           "tekst": "Zijn",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G846"
           ],
@@ -23941,9 +23999,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -23952,6 +24007,9 @@
             "versie": "1JO.UTR",
             "sha256": "4D47F13A274A6AFD8BE33B71CBC9F30D4B458704710DC0B060C16FCD9DE80FEB",
             "referentie": "1JOHN 2:28",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               19
             ]

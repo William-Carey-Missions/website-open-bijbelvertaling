@@ -1802,36 +1802,69 @@
           "tekst": "deze",
           "voorkomen": 1,
           "strongs": [
-            "H1992",
             "H1992"
           ],
+          "morfologie": [
+            "HR/Pp3mp"
+          ],
           "bronwoorden": [
-            "כָּ/הֵ֤ם",
-            "וְ/כָ/הֵם֙"
+            "כָּ/הֵ֤ם"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 24:3",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "gids_strongs": [
-            "H3967"
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 1,
+          "strongs": [
+            "H1992"
           ],
-          "toelichting": "כָּהֵם וְכָהֵם ('zoals zij en zoals zij') is met 'zoals deze en die nu zijn' weergegeven; de uitlijngids heeft er geen eigen tokens voor, daarom is dit paar aan het buurtoken 'a hundred' gekoppeld."
+          "morfologie": [
+            "HC/R/Pp3mp"
+          ],
+          "bronwoorden": [
+            "וְ/כָ/הֵם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 24:3",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
+            ]
+          }
         },
         {
           "tekst": "honderdmaal",
@@ -5605,57 +5638,42 @@
           "tekst": "nadat",
           "voorkomen": 1,
           "strongs": [
-            "H310"
-          ],
-          "bronwoorden": [
-            "אַחֲרֵי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
-            "referentie": "2SA 24:10",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "אַחֲרֵי כֵן ('daarna') is hier met 'nadat' weergegeven; dit is het eerste grondwoord daarvan."
-        },
-        {
-          "tekst": "nadat",
-          "voorkomen": 1,
-          "strongs": [
+            "H310",
             "H3651"
           ],
+          "morfologie": [
+            "HR",
+            "HD"
+          ],
           "bronwoorden": [
+            "אַחֲרֵי",
             "כֵ֖ן"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 24:10",
+            "grondindices": [
+              4,
+              5
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Zie de vorige koppeling: כֵן is het tweede grondwoord van 'nadat'."
+          }
         },
         {
           "tekst": "geteld",

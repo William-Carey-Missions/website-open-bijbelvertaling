@@ -6596,10 +6596,13 @@
           "toelichting": "Het versterkende עוֹד is in het Nederlands niet afzonderlijk vertaald."
         },
         {
-          "tekst": "van",
-          "voorkomen": 3,
+          "tekst": "",
+          "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַ֛ל"
@@ -6610,13 +6613,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 32:14",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -8379,10 +8386,13 @@
           }
         },
         {
-          "tekst": "tot",
-          "voorkomen": 2,
+          "tekst": "voordat",
+          "voorkomen": 1,
           "strongs": [
             "H5704"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַ֗ד"
@@ -8393,13 +8403,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 32:18",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -8436,52 +8450,39 @@
           "tekst": "Israëlieten",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בְּנֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 32:18",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "Israëlieten",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H3478"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְּנֵ֣י",
             "יִשְׂרָאֵ֔ל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 32:18",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               7
             ]
           }

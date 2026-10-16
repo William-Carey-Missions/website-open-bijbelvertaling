@@ -888,10 +888,13 @@
           }
         },
         {
-          "tekst": "vliedende",
+          "tekst": "vluchtende",
           "voorkomen": 1,
           "strongs": [
             "H6207"
+          ],
+          "morfologie": [
+            "HTd/Vqrmpa"
           ],
           "bronwoorden": [
             "הַֽ/עֹרְקִ֥ים"
@@ -902,18 +905,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 30:3",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "toelichting": "הָעֹרְקִים (H6207) betekent 'knagend' of 'vliedend'; de SV leest 'vliedende', de gids 'they gnawed'."
+          }
         },
         {
           "tekst": "dorre",
@@ -6473,39 +6479,72 @@
           }
         },
         {
-          "tekst": "geschrei",
+          "tekst": "hen",
           "voorkomen": 1,
           "strongs": [
-            "H3860",
-            "H7769"
+            "H3860"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
-            "לָהֶ֥ן",
-            "שֽׁוּעַ"
+            "לָהֶ֥ן"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 30:24",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
-              6
+              7
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "geschrei",
+          "voorkomen": 1,
+          "strongs": [
             "H7769"
           ],
-          "toelichting": "לָהֶן (H3860) heeft in de gids geen eigen token; het grondwoord is bij het naburige שׁוּעַ (H7769, 'geroep') ondergebracht, zodat het traceerbaar blijft."
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "שֽׁוּעַ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
+            "referentie": "JOB 30:24",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
+            ]
+          }
         }
       ]
     },
@@ -7898,10 +7937,13 @@
           "toelichting": "בְנוֹת ('dochters van') vormt met יַעֲנָה de woordgroep 'de jonge struisen'."
         },
         {
-          "tekst": "struisen",
+          "tekst": "struisvogels",
           "voorkomen": 1,
           "strongs": [
             "H3284"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "יַעֲנָֽה"
@@ -7912,13 +7954,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 30:29",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]

@@ -3520,39 +3520,72 @@
           }
         },
         {
-          "tekst": "vele",
+          "tekst": "diergelijke",
           "voorkomen": 1,
           "strongs": [
-            "H2007",
-            "H7227"
+            "H2007"
+          ],
+          "morfologie": [
+            "HC/R/Pp3fp"
           ],
           "bronwoorden": [
-            "וְ/כָ/הֵ֖נָּה",
-            "רַבּ֣וֹת"
+            "וְ/כָ/הֵ֖נָּה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 23:14",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "vele",
+          "voorkomen": 1,
+          "strongs": [
+            "H7227"
+          ],
+          "morfologie": [
+            "HAafpa"
+          ],
+          "bronwoorden": [
+            "רַבּ֣וֹת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
+            "referentie": "JOB 23:14",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
-          },
-          "gids_strongs": [
-            "H7227"
-          ],
-          "toelichting": "כָהֵנָּה ('en dergelijke') heeft in de gids geen eigen token; het grondwoord is bij het naburige רַבּוֹת (H7227) ondergebracht, zodat het traceerbaar blijft."
+          }
         },
         {
           "tekst": "bij",

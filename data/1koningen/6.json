@@ -13010,8 +13010,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "vleugels",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -13022,27 +13027,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 6:27",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               9
             ]
-          },
-          "anker": "vleugelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc"
           ],
           "bronwoorden": [
             "כַּנְפֵ֣י"
@@ -13053,13 +13061,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 6:27",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               7
             ]
@@ -13363,10 +13375,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 2,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HC/Ncfdc/Sp3mp"
           ],
           "bronwoorden": [
             "וְ/כַנְפֵי/הֶם֙"
@@ -13377,13 +13392,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 6:27",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               23
             ]

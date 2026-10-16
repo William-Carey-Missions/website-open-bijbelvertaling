@@ -4386,10 +4386,13 @@
           }
         },
         {
-          "tekst": "voerden hem omhoog",
+          "tekst": "voerden",
           "voorkomen": 1,
           "strongs": [
             "H5927"
+          ],
+          "morfologie": [
+            "HC/Vhw3mp"
           ],
           "bronwoorden": [
             "וַ/יַּעֲל֨וּ"
@@ -4400,13 +4403,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:9",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -5431,10 +5438,13 @@
           }
         },
         {
-          "tekst": "koperen ketenen",
+          "tekst": "koperen",
           "voorkomen": 1,
           "strongs": [
             "H5178"
+          ],
+          "morfologie": [
+            "HRd/Ncfda"
           ],
           "bronwoorden": [
             "בַֽ/נְחֻשְׁתַּ֗יִם"
@@ -5445,13 +5455,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:11",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               6
             ]
@@ -6014,12 +6028,12 @@
         },
         {
           "tekst": "jaar",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H8141"
           ],
           "bronwoorden": [
-            "שְׁנַת֙"
+            "שָׁנָ֔ה"
           ],
           "transliteraties": [
             ""
@@ -6035,7 +6049,7 @@
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:12",
             "bronindices": [
-              8
+              7
             ]
           }
         },
@@ -6074,12 +6088,12 @@
         },
         {
           "tekst": "jaar",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H8141"
           ],
           "bronwoorden": [
-            "שָׁנָ֔ה"
+            "שְׁנַת֙"
           ],
           "transliteraties": [
             ""
@@ -6095,7 +6109,7 @@
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:12",
             "bronindices": [
-              7
+              8
             ]
           }
         },
@@ -6208,10 +6222,13 @@
           }
         },
         {
-          "tekst": "gekomen was",
+          "tekst": "gekomen",
           "voorkomen": 1,
           "strongs": [
             "H935"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "בָּ֗א"
@@ -6222,13 +6239,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:12",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               20
             ]
@@ -7147,8 +7168,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "alle",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֶת"
@@ -7159,24 +7185,24 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:14",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
-          },
-          "anker": "hele",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdendvoorwerpspartikel heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
-          "tekst": "hele",
+          "tekst": "alle",
           "voorkomen": 1,
           "strongs": [
             "H3605"
@@ -7198,7 +7224,7 @@
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:14",
             "bronindices": [
-              1
+              9
             ]
           }
         },
@@ -7311,7 +7337,7 @@
           }
         },
         {
-          "tekst": "alle",
+          "tekst": "hele",
           "voorkomen": 1,
           "strongs": [
             "H3605"
@@ -7333,7 +7359,7 @@
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:14",
             "bronindices": [
-              9
+              1
             ]
           }
         },
@@ -8140,10 +8166,13 @@
           ]
         },
         {
-          "tekst": "als gevangene weg",
+          "tekst": "voerde",
           "voorkomen": 1,
           "strongs": [
             "H1540"
+          ],
+          "morfologie": [
+            "HVhp3ms"
           ],
           "bronwoorden": [
             "הֶגְלָ֕ה"
@@ -8154,13 +8183,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:15",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               3
             ]
@@ -10472,37 +10505,72 @@
           }
         },
         {
-          "tekst": "geheel goud",
+          "tekst": "geheel",
           "voorkomen": 1,
           "strongs": [
-            "H2091",
             "H2091"
           ],
+          "morfologie": [
+            "HNcmsa"
+          ],
           "bronwoorden": [
-            "זָהָב֙",
-            "זָהָ֔ב"
+            "זָהָב֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:19",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
-              18,
+              18
+            ]
+          }
+        },
+        {
+          "tekst": "goud",
+          "voorkomen": 1,
+          "strongs": [
+            "H2091"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "זָהָ֔ב"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:19",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
               19
             ]
-          },
-          "toelichting": "De herhaalde grond- en gidslemma's vormen samen de kwaliteitsomschrijving."
+          }
         },
         {
           "tekst": "wat",
@@ -10532,37 +10600,72 @@
           }
         },
         {
-          "tekst": "geheel zilver",
-          "voorkomen": 1,
+          "tekst": "geheel",
+          "voorkomen": 2,
           "strongs": [
-            "H3701",
             "H3701"
           ],
+          "morfologie": [
+            "HNcmsa"
+          ],
           "bronwoorden": [
-            "כֶּ֖סֶף",
-            "כָּ֑סֶף"
+            "כֶּ֖סֶף"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:19",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
-              21,
+              21
+            ]
+          }
+        },
+        {
+          "tekst": "zilver",
+          "voorkomen": 1,
+          "strongs": [
+            "H3701"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "כָּ֑סֶף"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:19",
+            "grondindices": [
+              19
+            ],
+            "bronindices": [
               22
             ]
-          },
-          "toelichting": "De herhaalde grond- en gidslemma's vormen samen de kwaliteitsomschrijving."
+          }
         },
         {
           "tekst": "nam weg",
@@ -11887,10 +11990,13 @@
           }
         },
         {
-          "tekst": "vingeren",
+          "tekst": "vingers",
           "voorkomen": 1,
           "strongs": [
             "H676"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "אַצְבָּע֖וֹת"
@@ -11901,13 +12007,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:21",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -12748,37 +12858,72 @@
           }
         },
         {
-          "tekst": "zes en negentig",
+          "tekst": "negentig",
           "voorkomen": 1,
           "strongs": [
-            "H8673",
-            "H8337"
+            "H8673"
+          ],
+          "morfologie": [
+            "HAcbpa"
           ],
           "bronwoorden": [
-            "תִּשְׁעִ֥ים",
-            "וְ/שִׁשָּׁ֖ה"
+            "תִּשְׁעִ֥ים"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:23",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
-              1,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "zes",
+          "voorkomen": 1,
+          "strongs": [
+            "H8337"
+          ],
+          "morfologie": [
+            "HC/Acmsa"
+          ],
+          "bronwoorden": [
+            "וְ/שִׁשָּׁ֖ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:23",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
               2
             ]
-          },
-          "toelichting": "Twee grond- en gidsrecords vormen samen het Nederlandse samengestelde telwoord."
+          }
         },
         {
           "tekst": "wind",
@@ -15198,10 +15343,13 @@
           }
         },
         {
-          "tekst": "doodde hen",
+          "tekst": "doodde",
           "voorkomen": 1,
           "strongs": [
             "H4191"
+          ],
+          "morfologie": [
+            "HC/Vhw3ms/Sp3mp"
           ],
           "bronwoorden": [
             "וַ/יְמִתֵ֛/ם"
@@ -15212,13 +15360,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:27",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               7
             ]
@@ -15306,10 +15458,13 @@
           }
         },
         {
-          "tekst": "als gevangene weggevoerd",
+          "tekst": "weggevoerd",
           "voorkomen": 1,
           "strongs": [
             "H1540"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יִּ֥גֶל"
@@ -15320,13 +15475,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:27",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]
@@ -15584,10 +15743,13 @@
           }
         },
         {
-          "tekst": "als gevangene heeft weggevoerd",
+          "tekst": "weggevoerd",
           "voorkomen": 1,
           "strongs": [
             "H1540"
+          ],
+          "morfologie": [
+            "HVhp3ms"
           ],
           "bronwoorden": [
             "הֶגְלָ֖ה"
@@ -15598,13 +15760,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:28",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               4
             ]
@@ -15719,47 +15885,140 @@
           }
         },
         {
-          "tekst": "drie duizend drie en twintig",
+          "tekst": "drie",
           "voorkomen": 1,
           "strongs": [
-            "H7969",
-            "H505",
-            "H6242",
             "H7969"
           ],
+          "morfologie": [
+            "HAcmsc"
+          ],
           "bronwoorden": [
-            "שְׁלֹ֥שֶׁת",
-            "אֲלָפִ֖ים",
-            "וְ/עֶשְׂרִ֥ים",
-            "וּ/שְׁלֹשָֽׁה"
+            "שְׁלֹ֥שֶׁת"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:28",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
-              7,
-              8,
-              9,
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "אֲלָפִ֖ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:28",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "twintig",
+          "voorkomen": 1,
+          "strongs": [
+            "H6242"
+          ],
+          "morfologie": [
+            "HC/Acbpa"
+          ],
+          "bronwoorden": [
+            "וְ/עֶשְׂרִ֥ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:28",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "drie",
+          "voorkomen": 2,
+          "strongs": [
+            "H7969"
+          ],
+          "morfologie": [
+            "HC/Acmsa"
+          ],
+          "bronwoorden": [
+            "וּ/שְׁלֹשָֽׁה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:28",
+            "grondindices": [
+              11
+            ],
+            "bronindices": [
               10
             ]
-          },
-          "toelichting": "Vier grond- en gidsrecords vormen samen het Nederlandse samengestelde telwoord."
+          }
         }
       ]
     },
@@ -15989,47 +16248,113 @@
           }
         },
         {
-          "tekst": "achthonderd twee en dertig",
+          "tekst": "achthonderd",
           "voorkomen": 1,
           "strongs": [
             "H8083",
-            "H3967",
-            "H7970",
-            "H8147"
+            "H3967"
+          ],
+          "morfologie": [
+            "HAcfsa",
+            "HAcbpa"
           ],
           "bronwoorden": [
             "שְׁמֹנֶ֥ה",
-            "מֵא֖וֹת",
-            "שְׁלֹשִׁ֥ים",
-            "וּ/שְׁנָֽיִם"
+            "מֵא֖וֹת"
           ],
           "transliteraties": [
-            "",
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:29",
-            "bronindices": [
-              4,
-              5,
+            "grondindices": [
               6,
               7
+            ],
+            "bronindices": [
+              4,
+              5
             ]
-          },
-          "toelichting": "Vier grond- en gidsrecords vormen samen het Nederlandse samengestelde telwoord."
+          }
+        },
+        {
+          "tekst": "dertig",
+          "voorkomen": 1,
+          "strongs": [
+            "H7970"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "שְׁלֹשִׁ֥ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:29",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "twee",
+          "voorkomen": 1,
+          "strongs": [
+            "H8147"
+          ],
+          "morfologie": [
+            "HC/Acmda"
+          ],
+          "bronwoorden": [
+            "וּ/שְׁנָֽיִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:29",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         }
       ]
     },
@@ -16189,37 +16514,72 @@
           }
         },
         {
-          "tekst": "drie en twintigste",
+          "tekst": "drie",
           "voorkomen": 1,
           "strongs": [
-            "H7969",
-            "H6242"
+            "H7969"
+          ],
+          "morfologie": [
+            "HAcfsa"
           ],
           "bronwoorden": [
-            "שָׁלֹ֣שׁ",
-            "וְ/עֶשְׂרִים֮"
+            "שָׁלֹ֣שׁ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:30",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              1,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "twintigste",
+          "voorkomen": 1,
+          "strongs": [
+            "H6242"
+          ],
+          "morfologie": [
+            "HC/Acbpa"
+          ],
+          "bronwoorden": [
+            "וְ/עֶשְׂרִים֮"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:30",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               2
             ]
-          },
-          "toelichting": "Twee grond- en gidsrecords vormen samen het Nederlandse rangtelwoord."
+          }
         },
         {
           "tekst": "Nebukadrezar",
@@ -16249,10 +16609,13 @@
           }
         },
         {
-          "tekst": "als gevangene weg",
+          "tekst": "voerde",
           "voorkomen": 1,
           "strongs": [
             "H1540"
+          ],
+          "morfologie": [
+            "HVhp3ms"
           ],
           "bronwoorden": [
             "הֶגְלָ֗ה"
@@ -16263,13 +16626,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:30",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               7
             ]
@@ -16411,47 +16778,113 @@
           }
         },
         {
-          "tekst": "zevenhonderd vijf en veertig",
+          "tekst": "zevenhonderd",
           "voorkomen": 1,
           "strongs": [
             "H7651",
-            "H3967",
-            "H705",
-            "H2568"
+            "H3967"
+          ],
+          "morfologie": [
+            "HAcfsa",
+            "HAcbpa"
           ],
           "bronwoorden": [
             "שְׁבַ֥ע",
-            "מֵא֖וֹת",
-            "אַרְבָּעִ֣ים",
-            "וַ/חֲמִשָּׁ֑ה"
+            "מֵא֖וֹת"
           ],
           "transliteraties": [
-            "",
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:30",
-            "bronindices": [
-              8,
-              9,
+            "grondindices": [
               10,
               11
+            ],
+            "bronindices": [
+              8,
+              9
             ]
-          },
-          "toelichting": "Vier grond- en gidsrecords vormen samen het Nederlandse samengestelde telwoord."
+          }
+        },
+        {
+          "tekst": "veertig",
+          "voorkomen": 1,
+          "strongs": [
+            "H705"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "אַרְבָּעִ֣ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:30",
+            "grondindices": [
+              12
+            ],
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "vijf",
+          "voorkomen": 1,
+          "strongs": [
+            "H2568"
+          ],
+          "morfologie": [
+            "HC/Acmsa"
+          ],
+          "bronwoorden": [
+            "וַ/חֲמִשָּׁ֑ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:30",
+            "grondindices": [
+              13
+            ],
+            "bronindices": [
+              11
+            ]
+          }
         },
         {
           "tekst": "Alle",
@@ -16508,47 +16941,113 @@
           }
         },
         {
-          "tekst": "vier duizend en zeshonderd",
+          "tekst": "vier",
           "voorkomen": 1,
           "strongs": [
-            "H702",
-            "H505",
-            "H8337",
-            "H3967"
+            "H702"
+          ],
+          "morfologie": [
+            "HAcmsc"
           ],
           "bronwoorden": [
-            "אַרְבַּ֥עַת",
-            "אֲלָפִ֖ים",
-            "וְ/שֵׁ֥שׁ",
-            "מֵאֽוֹת"
+            "אַרְבַּ֥עַת"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:30",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
-              15,
-              16,
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "duizend",
+          "voorkomen": 1,
+          "strongs": [
+            "H505"
+          ],
+          "morfologie": [
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "אֲלָפִ֖ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:30",
+            "grondindices": [
+              17
+            ],
+            "bronindices": [
+              16
+            ]
+          }
+        },
+        {
+          "tekst": "zeshonderd",
+          "voorkomen": 1,
+          "strongs": [
+            "H8337",
+            "H3967"
+          ],
+          "morfologie": [
+            "HC/Acfsa",
+            "HAcbpa"
+          ],
+          "bronwoorden": [
+            "וְ/שֵׁ֥שׁ",
+            "מֵאֽוֹת"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:30",
+            "grondindices": [
+              18,
+              19
+            ],
+            "bronindices": [
               17,
               18
             ]
-          },
-          "toelichting": "Vier grond- en gidsrecords vormen samen het Nederlandse samengestelde telwoord."
+          }
         }
       ]
     },
@@ -16820,37 +17319,72 @@
           }
         },
         {
-          "tekst": "zeven en dertigste",
+          "tekst": "dertigste",
           "voorkomen": 1,
           "strongs": [
-            "H7970",
-            "H7651"
+            "H7970"
+          ],
+          "morfologie": [
+            "HR/Acbpa"
           ],
           "bronwoorden": [
-            "בִ/שְׁלֹשִׁ֨ים",
-            "וָ/שֶׁ֜בַע"
+            "בִ/שְׁלֹשִׁ֨ים"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:31",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              7,
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "zeven",
+          "voorkomen": 1,
+          "strongs": [
+            "H7651"
+          ],
+          "morfologie": [
+            "HC/Acfsa"
+          ],
+          "bronwoorden": [
+            "וָ/שֶׁ֜בַע"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:31",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               8
             ]
-          },
-          "toelichting": "Twee grond- en gidsrecords vormen samen het Nederlandse rangtelwoord."
+          }
         },
         {
           "tekst": "jaar",
@@ -17048,37 +17582,72 @@
           }
         },
         {
-          "tekst": "vijf en twintigste",
+          "tekst": "twintigste",
           "voorkomen": 1,
           "strongs": [
-            "H6242",
-            "H2568"
+            "H6242"
+          ],
+          "morfologie": [
+            "HR/Acbpa"
           ],
           "bronwoorden": [
-            "בְּ/עֶשְׂרִ֥ים",
-            "וַ/חֲמִשָּׁ֖ה"
+            "בְּ/עֶשְׂרִ֥ים"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:31",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
-              1,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "vijf",
+          "voorkomen": 1,
+          "strongs": [
+            "H2568"
+          ],
+          "morfologie": [
+            "HC/Acmsa"
+          ],
+          "bronwoorden": [
+            "וַ/חֲמִשָּׁ֖ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 52:31",
+            "grondindices": [
+              12
+            ],
+            "bronindices": [
               2
             ]
-          },
-          "toelichting": "Twee grond- en gidsrecords vormen samen het Nederlandse rangtelwoord."
+          }
         },
         {
           "tekst": "maand",
@@ -17222,10 +17791,13 @@
           }
         },
         {
-          "tekst": "eerste jaar",
-          "voorkomen": 1,
+          "tekst": "jaar",
+          "voorkomen": 2,
           "strongs": [
             "H8141"
+          ],
+          "morfologie": [
+            "HR/Ncfsc"
           ],
           "bronwoorden": [
             "בִּ/שְׁנַ֣ת"
@@ -17236,13 +17808,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:31",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               14
             ]
@@ -17614,10 +18190,13 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "met",
           "voorkomen": 1,
           "strongs": [
             "H854"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "אִתּ֖/וֹ"
@@ -17628,13 +18207,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:32",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -17861,10 +18444,13 @@
           }
         },
         {
-          "tekst": "hem",
-          "voorkomen": 2,
+          "tekst": "bij",
+          "voorkomen": 1,
           "strongs": [
             "H854"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "אִתּ֖/וֹ"
@@ -17875,13 +18461,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 52:32",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]

@@ -16519,10 +16519,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "blijve",
+          "tekst": "blijven",
           "voorkomen": 1,
           "strongs": [
             "H2342"
+          ],
+          "morfologie": [
+            "HVqi3mp"
           ],
           "bronwoorden": [
             "יָחֻ֨לוּ֙"
@@ -16533,18 +16536,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:29",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
-          },
-          "toelichting": "H2342 חוּל ('neerkomen op, zich storten op') is in de Statenvertaling 'Het blijve op het hoofd'; het grondwoord is aan 'blijve' gekoppeld."
+          }
         },
         {
           "tekst": "op",
@@ -16736,10 +16742,13 @@
           }
         },
         {
-          "tekst": "niet",
+          "tekst": "nooit",
           "voorkomen": 1,
           "strongs": [
             "H408"
+          ],
+          "morfologie": [
+            "HC/Tn"
           ],
           "bronwoorden": [
             "וְֽ/אַל"
@@ -16750,23 +16759,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:29",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               10
             ]
           }
         },
         {
-          "tekst": "afgesneden",
+          "tekst": "ontbreken",
           "voorkomen": 1,
           "strongs": [
             "H3772"
+          ],
+          "morfologie": [
+            "HVNj3ms"
           ],
           "bronwoorden": [
             "יִכָּרֵ֣ת"
@@ -16777,13 +16793,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:29",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               11
             ]
@@ -16899,10 +16919,13 @@
           }
         },
         {
-          "tekst": "houde",
+          "tekst": "vasthoudt",
           "voorkomen": 1,
           "strongs": [
             "H2388"
+          ],
+          "morfologie": [
+            "HC/Vhrmsa"
           ],
           "bronwoorden": [
             "וּ/מַחֲזִ֥יק"
@@ -16913,18 +16936,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:29",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
-          },
-          "toelichting": "וּמַחֲזִיק (hifil van חזק, 'die vasthoudt') is in het Nederlands 'zich aan de stok houde'; het grondwoord is aan 'houde' gekoppeld."
+          }
         },
         {
           "tekst": "stok",
@@ -16954,10 +16980,13 @@
           }
         },
         {
-          "tekst": "valle",
+          "tekst": "valt",
           "voorkomen": 1,
           "strongs": [
             "H5307"
+          ],
+          "morfologie": [
+            "HC/Vqrmsa"
           ],
           "bronwoorden": [
             "וְ/נֹפֵ֥ל"
@@ -16968,13 +16997,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:29",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -17008,37 +17041,72 @@
           }
         },
         {
-          "tekst": "broodsgebrek",
+          "tekst": "gebrek",
           "voorkomen": 1,
           "strongs": [
-            "H2638",
-            "H3899"
+            "H2638"
+          ],
+          "morfologie": [
+            "HC/Aamsc"
           ],
           "bronwoorden": [
-            "וַ/חֲסַר",
-            "לָֽחֶם"
+            "וַ/חֲסַר"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:29",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
-              18,
+              18
+            ]
+          }
+        },
+        {
+          "tekst": "brood",
+          "voorkomen": 1,
+          "strongs": [
+            "H3899"
+          ],
+          "morfologie": [
+            "HNcbsa"
+          ],
+          "bronwoorden": [
+            "לָֽחֶם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 3:29",
+            "grondindices": [
+              19
+            ],
+            "bronindices": [
               19
             ]
-          },
-          "toelichting": "חֲסַר לָחֶם ('gebrek aan brood') is in het Nederlands één woord 'broodsgebrek'; beide grondwoorden zijn daarom in één koppeling opgenomen."
+          }
         }
       ]
     },
@@ -18815,10 +18883,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "maakte",
+          "tekst": "klage",
           "voorkomen": 1,
           "strongs": [
             "H6969"
+          ],
+          "morfologie": [
+            "HC/Vow3ms"
           ],
           "bronwoorden": [
             "וַ/יְקֹנֵ֥ן"
@@ -18829,18 +18900,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 3:33",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "H6969 קוֹנֵן ('een klaaglied aanheffen') is in het Nederlands 'maakte een klage'; het grondwoord is aan de persoonsvorm 'maakte' gekoppeld."
+          }
         },
         {
           "tekst": "koning",

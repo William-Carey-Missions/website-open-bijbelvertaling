@@ -6222,10 +6222,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֔ה"
@@ -6236,13 +6239,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 2:12",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -6820,8 +6827,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "אֶל"
@@ -6832,27 +6844,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 2:13",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse voorzetsel heeft in deze Nederlandse woordvolgorde geen zelfstandig equivalent."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֔ה"
@@ -6863,13 +6878,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 2:13",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]

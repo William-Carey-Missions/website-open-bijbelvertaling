@@ -2487,38 +2487,75 @@
           "voorkomen": 1,
           "strongs": [
             "H413",
-            "H3605",
             "H834"
+          ],
+          "morfologie": [
+            "HR",
+            "HTr"
           ],
           "bronwoorden": [
             "אֶֽל",
-            "כָּל",
             "אֲשֶׁ֖ר"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 17:8",
+            "grondindices": [
+              5,
+              7
+            ],
             "bronindices": [
               5,
-              6,
               7
             ]
-          },
-          "toelichting": "אֶל כָּל אֲשֶׁר ('tot alles waarheen') is samengetrokken tot het ene woord 'waarheen'; alle drie grondwoorden hangen aan dit anker."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H3605"
+          ],
+          "morfologie": [
+            "HNcmsc"
+          ],
+          "bronwoorden": [
+            "כָּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
+            "referentie": "PRO 17:8",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              6
+            ]
+          }
         },
         {
           "tekst": "wenden",
@@ -4185,10 +4222,13 @@
           }
         },
         {
-          "tekst": "krakeel",
+          "tekst": "twist",
           "voorkomen": 1,
           "strongs": [
             "H4066"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "מָד֑וֹן"
@@ -4199,13 +4239,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 17:14",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               1
             ]
@@ -4267,9 +4311,12 @@
         },
         {
           "tekst": "twist",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H7379"
+          ],
+          "morfologie": [
+            "HTd/Ncbsa"
           ],
           "bronwoorden": [
             "הָ/רִ֥יב"
@@ -4280,13 +4327,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 17:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
@@ -5662,13 +5713,13 @@
       "textSV1888_html": "<sup class=\"note-marker\" data-note=\"57\">57</sup> Die het gekijf liefheeft, heeft de overtreding lief;<sup class=\"note-marker\" data-note=\"h\">h</sup> die<sup class=\"note-marker\" data-note=\"58\">58</sup> zijn deur verhoogt,<sup class=\"note-marker\" data-note=\"59\">59</sup> zoekt<sup class=\"note-marker\" data-note=\"60\">60</sup> verbreking.",
       "woordnummers": [
         {
-          "tekst": "liefheeft",
+          "tekst": "lief",
           "voorkomen": 1,
           "strongs": [
             "H157"
           ],
           "bronwoorden": [
-            "אֹ֣הֵֽב"
+            "אֹהֵ֣ב"
           ],
           "transliteraties": [
             ""
@@ -5684,7 +5735,7 @@
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 17:19",
             "bronindices": [
-              0
+              2
             ]
           }
         },
@@ -5716,13 +5767,13 @@
           }
         },
         {
-          "tekst": "lief",
+          "tekst": "liefheeft",
           "voorkomen": 1,
           "strongs": [
             "H157"
           ],
           "bronwoorden": [
-            "אֹהֵ֣ב"
+            "אֹ֣הֵֽב"
           ],
           "transliteraties": [
             ""
@@ -5738,15 +5789,18 @@
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 17:19",
             "bronindices": [
-              2
+              0
             ]
           }
         },
         {
-          "tekst": "gekijf",
+          "tekst": "ruzie",
           "voorkomen": 1,
           "strongs": [
             "H4683"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מַצָּ֑ה"
@@ -5757,13 +5811,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 17:19",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]

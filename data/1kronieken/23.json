@@ -117,10 +117,13 @@
           }
         },
         {
-          "tekst": "zat",
+          "tekst": "verzadigd",
           "voorkomen": 1,
           "strongs": [
             "H7646"
+          ],
+          "morfologie": [
+            "HC/Vqp3ms"
           ],
           "bronwoorden": [
             "וְ/שָׂבַ֣ע"
@@ -131,13 +134,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 23:1",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -1158,10 +1165,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Uit",
+          "tekst": "deze",
           "voorkomen": 1,
           "strongs": [
             "H428"
+          ],
+          "morfologie": [
+            "HR/Pdxcp"
           ],
           "bronwoorden": [
             "מֵ/אֵ֗לֶּה"
@@ -1172,13 +1182,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 23:4",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -1213,10 +1227,13 @@
           "toelichting": "לְנַצֵּחַ ('om toezicht te houden') is als 'aan te drijven' weergegeven; 'drijven' draagt de koppeling."
         },
         {
-          "tekst": "het",
+          "tekst": "aan",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַל"
@@ -1227,18 +1244,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 23:4",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               5
             ]
-          },
-          "toelichting": "עַל ('over') gaat in 'om het werk ... aan te drijven' op in het lidwoord."
+          }
         },
         {
           "tekst": "werk",
@@ -4404,53 +4424,39 @@
           "tekst": "allerheiligste",
           "voorkomen": 1,
           "strongs": [
+            "H6944",
             "H6944"
           ],
-          "bronwoorden": [
-            "קֹ֨דֶשׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
-            "referentie": "1CH 23:13",
-            "bronindices": [
-              10
-            ]
-          },
-          "toelichting": "קֹדֶשׁ קָדָשִׁים ('heiligste der heilige dingen') is als 'de allerheiligste dingen' weergegeven; 'allerheiligste' draagt de koppeling."
-        },
-        {
-          "tekst": "dingen",
-          "voorkomen": 1,
-          "strongs": [
-            "H6944"
+          "morfologie": [
+            "HNcmsc",
+            "HNcmpa"
           ],
           "bronwoorden": [
+            "קֹ֨דֶשׁ",
             "קָֽדָשִׁ֤ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 23:13",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
+              10,
               11
             ]
           }
@@ -10242,10 +10248,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HR/Ncfsa"
           ],
           "bronwoorden": [
             "לְ/מִנְחָה֙"
@@ -10256,13 +10265,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 23:29",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]

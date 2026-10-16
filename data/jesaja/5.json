@@ -4457,10 +4457,13 @@
           }
         },
         {
-          "tekst": "treffelijke",
+          "tekst": "voortreffelijke",
           "voorkomen": 1,
           "strongs": [
             "H2896"
+          ],
+          "morfologie": [
+            "HC/Aampa"
           ],
           "bronwoorden": [
             "וְ/טוֹבִ֖ים"
@@ -4471,13 +4474,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 5:9",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -6121,59 +6128,42 @@
           "tekst": "heerlijken",
           "voorkomen": 1,
           "strongs": [
-            "H3519"
-          ],
-          "bronwoorden": [
-            "וּ/כְבוֹד/וֹ֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 5:13",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H3519",
             "H4962"
           ],
+          "morfologie": [
+            "HC/Ncbsc/Sp3ms",
+            "HNcmpc"
+          ],
           "bronwoorden": [
+            "וּ/כְבוֹד/וֹ֙",
             "מְתֵ֣י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 5:13",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              5,
               6
             ]
-          },
-          "anker": "heerlijken",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "מְתֵי ('mannen van') is in 'zijn heerlijken zullen honger lijden' niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "honger",
@@ -7883,59 +7873,42 @@
           "tekst": "wagenzelen",
           "voorkomen": 1,
           "strongs": [
-            "H5688"
-          ],
-          "bronwoorden": [
-            "וְ/כַ/עֲב֥וֹת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 5:18",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H5688",
             "H5699"
           ],
+          "morfologie": [
+            "HC/R/Ncbsc",
+            "HTd/Ncfsa"
+          ],
           "bronwoorden": [
+            "וְ/כַ/עֲב֥וֹת",
             "הָ/עֲגָלָ֖ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 5:18",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              7,
               6
             ]
-          },
-          "anker": "wagenzelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "עֲגָלָה ('wagen') zit in de Nederlandse samenstelling 'wagenzelen'; de lezer matcht hele woorden, dus staat de koppeling voor dat woord."
+          }
         },
         {
           "tekst": "zonde",
@@ -12704,10 +12677,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Wier",
+          "tekst": "wie",
           "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אֲשֶׁ֤ר"
@@ -12718,13 +12694,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 5:28",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]

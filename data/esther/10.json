@@ -731,10 +731,13 @@
           }
         },
         {
-          "tekst": "gemaakt",
+          "tekst": "groot",
           "voorkomen": 1,
           "strongs": [
             "H1431"
+          ],
+          "morfologie": [
+            "HVpp3ms/Sp3ms"
           ],
           "bronwoorden": [
             "גִּדְּל֖/וֹ"
@@ -745,18 +748,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 10:2",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "גִּדְּלוֹ ('hij maakte hem groot') is weergegeven in 'die de koning groot gemaakt heeft'; anker op 'gemaakt'."
+          }
         },
         {
           "tekst": "koning",

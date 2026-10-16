@@ -4022,10 +4022,13 @@
           }
         },
         {
-          "tekst": "beroerten",
+          "tekst": "onlusten",
           "voorkomen": 1,
           "strongs": [
             "H4103"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "מְהוּמֹ֤ת"
@@ -4036,13 +4039,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1438EB17357390C6C1E686E84C05F2ECE26E3E1C0FFB03D89E3DC6DDCD05C0D2",
             "referentie": "AMO 3:9",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               15
             ]

@@ -5086,10 +5086,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfpc"
           ],
           "bronwoorden": [
             "מְדִינ֣וֹת"
@@ -5100,13 +5103,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:8",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -7853,10 +7860,13 @@
           }
         },
         {
-          "tekst": "landschap",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מְדִינָ֣ה"
@@ -7867,23 +7877,32 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:12",
+            "grondindices": [
+              21
+            ],
             "bronindices": [
-              20
+              21
             ]
           }
         },
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "gewest",
+          "plaats": "na",
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מְדִינָ֗ה"
@@ -7894,21 +7913,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:12",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
-              21
+              26
             ]
-          },
-          "anker": "landschap",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve herhaling מְדִינָה וּמְדִינָה is met 'elk landschap' weergegeven; het tweede מְדִינָה heeft geen zelfstandig equivalent."
+          }
         },
         {
           "tekst": "aan",
@@ -7965,33 +7984,6 @@
           }
         },
         {
-          "tekst": "volk",
-          "voorkomen": 1,
-          "strongs": [
-            "H5971"
-          ],
-          "bronwoorden": [
-            "עַם֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
-            "referentie": "EST 3:12",
-            "bronindices": [
-              24
-            ]
-          }
-        },
-        {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
@@ -8023,10 +8015,40 @@
           "toelichting": "De distributieve herhaling עַם וָעָם is met 'elk volk' weergegeven; het tweede עַם heeft geen zelfstandig equivalent."
         },
         {
-          "tekst": "landschap",
+          "tekst": "volk",
+          "voorkomen": 1,
+          "strongs": [
+            "H5971"
+          ],
+          "bronwoorden": [
+            "עַם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
+            "referentie": "EST 3:12",
+            "bronindices": [
+              24
+            ]
+          }
+        },
+        {
+          "tekst": "gewest",
           "voorkomen": 2,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מְדִינָ֤ה"
@@ -8037,23 +8059,32 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:12",
+            "grondindices": [
+              27
+            ],
             "bronindices": [
-              26
+              20
             ]
           }
         },
         {
           "tekst": "",
           "voorkomen": 2,
+          "anker": "gewest",
+          "plaats": "na",
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מְדִינָה֙"
@@ -8064,21 +8095,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:12",
+            "grondindices": [
+              28
+            ],
             "bronindices": [
               28
             ]
-          },
-          "anker": "landschap",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve herhaling מְדִינָה וּמְדִינָה is met 'elk landschap' weergegeven; het tweede מְדִינָה heeft geen zelfstandig equivalent."
+          }
         },
         {
           "tekst": "schrift",
@@ -8769,10 +8800,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfpc"
           ],
           "bronwoorden": [
             "מְדִינ֣וֹת"
@@ -8783,13 +8817,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:13",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]
@@ -9729,10 +9767,13 @@
           }
         },
         {
-          "tekst": "landschappen",
+          "tekst": "gewesten",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מְדִינָ֣ה"
@@ -9743,13 +9784,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:14",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -9758,8 +9803,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "gewesten",
+          "plaats": "na",
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מְדִינָ֔ה"
@@ -9770,21 +9820,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 3:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "landschappen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve herhaling מְדִינָה וּמְדִינָה ('landschap en landschap') is met 'alle landschappen' weergegeven; het tweede מְדִינָה heeft geen zelfstandig equivalent."
+          }
         },
         {
           "tekst": "openbaar",

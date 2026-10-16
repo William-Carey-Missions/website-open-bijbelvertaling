@@ -12129,10 +12129,13 @@
           }
         },
         {
-          "tekst": "voeder",
+          "tekst": "voer",
           "voorkomen": 1,
           "strongs": [
             "H1098"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "בְּלִ֥יל"
@@ -12143,13 +12146,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 30:24",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               7
             ]
@@ -16311,10 +16318,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "zijn",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqq3ms"
           ],
           "bronwoorden": [
             "וְ/הָיָ֗ה"
@@ -16325,13 +16335,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 30:32",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -16449,26 +16463,40 @@
           "tekst": "waarop",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H5921"
+          ],
+          "morfologie": [
+            "HTr",
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
-            "אֲשֶׁ֨ר"
+            "אֲשֶׁ֨ר",
+            "עָלָ֔י/ו"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 30:32",
+            "grondindices": [
+              5,
+              8
+            ],
             "bronindices": [
-              5
+              5,
+              8
             ]
           }
         },
@@ -16525,34 +16553,6 @@
               6
             ]
           }
-        },
-        {
-          "tekst": "die",
-          "voorkomen": 2,
-          "strongs": [
-            "H5921"
-          ],
-          "bronwoorden": [
-            "עָלָ֔י/ו"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 30:32",
-            "bronindices": [
-              8
-            ]
-          },
-          "toelichting": "עָלָ֔י/ו hoort bij 'waarop JAHWEH die zal hebben doen rusten'; dat is het tweede 'die' in dit vers."
         },
         {
           "tekst": "trommelen",

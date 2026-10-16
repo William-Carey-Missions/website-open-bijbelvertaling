@@ -1593,10 +1593,15 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "",
           "voorkomen": 2,
+          "anker": "hem",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹת֑/וֹ"
@@ -1607,13 +1612,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:2",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               18
             ]
@@ -3161,10 +3170,13 @@
           }
         },
         {
-          "tekst": "zichzelf gesneden",
+          "tekst": "gesneden",
           "voorkomen": 1,
           "strongs": [
             "H1413"
+          ],
+          "morfologie": [
+            "HC/Vzrmpa"
           ],
           "bronwoorden": [
             "וּ/מִתְגֹּֽדְדִ֑ים"
@@ -3175,23 +3187,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:5",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               7
             ]
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֤ה"
@@ -3202,13 +3221,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:5",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               14
             ]
@@ -3242,10 +3265,13 @@
           }
         },
         {
-          "tekst": "in hun hand",
+          "tekst": "hand",
           "voorkomen": 1,
           "strongs": [
             "H3027"
+          ],
+          "morfologie": [
+            "HR/Ncbsc/Sp3mp"
           ],
           "bronwoorden": [
             "בְּ/יָדָ֔/ם"
@@ -3256,13 +3282,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:5",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               12
             ]
@@ -3602,10 +3632,13 @@
           }
         },
         {
-          "tekst": "hun tegemoet",
+          "tekst": "tegemoet",
           "voorkomen": 1,
           "strongs": [
             "H7125"
+          ],
+          "morfologie": [
+            "HR/Vqc/Sp3mp"
           ],
           "bronwoorden": [
             "לִ/קְרָאתָ/ם֙"
@@ -3616,21 +3649,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:6",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               6
             ]
-          },
-          "gids_strongs": [
-            "H7122"
-          ],
-          "toelichting": "MorphHB voert H7125; de gids voert voor hetzelfde token H7122."
+          }
         },
         {
           "tekst": "van",
@@ -3687,11 +3720,15 @@
           }
         },
         {
-          "tekst": "al gaande",
+          "tekst": "gaande",
           "voorkomen": 1,
           "strongs": [
             "H1980",
             "H1980"
+          ],
+          "morfologie": [
+            "HVqrmsa",
+            "HVqa"
           ],
           "bronwoorden": [
             "הֹלֵ֥ךְ",
@@ -3705,19 +3742,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:6",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
               9,
               10
             ]
-          },
-          "toelichting": "הֹלֵךְ הָלוֹךְ vormt als participium met infinitivus absolutus gezamenlijk het Nederlandse ‘al gaande’."
+          }
         },
         {
           "tekst": "huilend",
@@ -3801,10 +3842,15 @@
           }
         },
         {
-          "tekst": "hen",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "hen",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אֹתָ֔/ם"
@@ -3815,13 +3861,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:6",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -3860,6 +3910,9 @@
           "strongs": [
             "H413"
           ],
+          "morfologie": [
+            "HR/Sp3mp"
+          ],
           "bronwoorden": [
             "אֲלֵי/הֶ֔ם"
           ],
@@ -3869,21 +3922,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:6",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               15
             ]
-          },
-          "anker": "zei",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "אֲלֵיהֶם betekent ‘tot hen’; die betrekking is in de Nederlandse directe rede niet met een afzonderlijk woord weergegeven."
+          }
         },
         {
           "tekst": "Kom",
@@ -4282,10 +4335,13 @@
           }
         },
         {
-          "tekst": "hen keelde",
+          "tekst": "keelde",
           "voorkomen": 1,
           "strongs": [
             "H7819"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms/Sp3mp"
           ],
           "bronwoorden": [
             "וַ/יִּשְׁחָטֵ֞/ם"
@@ -4296,13 +4352,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:7",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               11
             ]
@@ -4930,10 +4990,13 @@
           }
         },
         {
-          "tekst": "Dood ons",
+          "tekst": "Dood",
           "voorkomen": 1,
           "strongs": [
             "H4191"
+          ],
+          "morfologie": [
+            "HVhj2ms/Sp1cp"
           ],
           "bronwoorden": [
             "תְּמִתֵ֔/נוּ"
@@ -4944,13 +5007,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:8",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               7
             ]
@@ -5011,10 +5078,13 @@
           }
         },
         {
-          "tekst": "verborgen schatten",
+          "tekst": "schatten",
           "voorkomen": 1,
           "strongs": [
             "H4301"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "מַטְמֹנִים֙"
@@ -5025,13 +5095,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:8",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               10
             ]
@@ -5173,10 +5247,13 @@
           }
         },
         {
-          "tekst": "liet hij af",
+          "tekst": "liet",
           "voorkomen": 1,
           "strongs": [
             "H2308"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יֶּחְדַּ֕ל"
@@ -5187,13 +5264,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:8",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               16
             ]
@@ -5227,10 +5308,13 @@
           }
         },
         {
-          "tekst": "doodde ze",
+          "tekst": "doodde",
           "voorkomen": 1,
           "strongs": [
             "H4191"
+          ],
+          "morfologie": [
+            "HVhp3ms/Sp3mp"
           ],
           "bronwoorden": [
             "הֱמִיתָ֖/ם"
@@ -5241,13 +5325,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:8",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               18
             ]
@@ -5585,6 +5673,9 @@
           "strongs": [
             "H8033"
           ],
+          "morfologie": [
+            "HD"
+          ],
           "bronwoorden": [
             "שָׁ֤ם"
           ],
@@ -5594,21 +5685,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:9",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "henenwierp",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "שָׁם betekent ‘daar’ en is in de Nederlandse betrekkelijke constructie niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "Ismaël",
@@ -5640,8 +5731,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "dode",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֵ֣ת"
@@ -5652,21 +5748,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:9",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               3
             ]
-          },
-          "anker": "dode lichamen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdendvoorwerpspartikel אֵת heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
           "tekst": "al",
@@ -11343,10 +11439,13 @@
           }
         },
         {
-          "tekst": "van",
-          "voorkomen": 8,
+          "tekst": "Gibeon",
+          "voorkomen": 1,
           "strongs": [
             "H1391"
+          ],
+          "morfologie": [
+            "HR/Np"
           ],
           "bronwoorden": [
             "מִ/גִּבְעֽוֹן"
@@ -11357,13 +11456,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 41:16",
+            "grondindices": [
+              35
+            ],
             "bronindices": [
               35
             ]

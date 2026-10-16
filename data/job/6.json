@@ -1441,10 +1441,13 @@
           }
         },
         {
-          "tekst": "voeder",
+          "tekst": "voer",
           "voorkomen": 1,
           "strongs": [
             "H1098"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3ms"
           ],
           "bronwoorden": [
             "בְּלִילֽ/וֹ"
@@ -1455,13 +1458,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 6:5",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -4591,10 +4598,13 @@
           }
         },
         {
-          "tekst": "vervlieten",
+          "tekst": "wegsmelten",
           "voorkomen": 1,
           "strongs": [
             "H2215"
+          ],
+          "morfologie": [
+            "HVPi3mp"
           ],
           "bronwoorden": [
             "יְזֹרְב֣וּ"
@@ -4605,18 +4615,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 6:17",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
-          },
-          "toelichting": "זרב (H2215) is een hapax legomenon ('opdrogen, warm worden'); de SV leest 'vervlieten'."
+          }
         },
         {
           "tekst": "uitgewist",
@@ -5784,10 +5797,15 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Heb",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "Heb",
+          "plaats": "voor",
           "strongs": [
             "H3588"
+          ],
+          "morfologie": [
+            "HTi/C"
           ],
           "bronwoorden": [
             "הֲֽ/כִי"
@@ -5798,13 +5816,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 6:22",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -6624,36 +6646,69 @@
           "tekst": "bestraffen",
           "voorkomen": 1,
           "strongs": [
-            "H3198",
-            "H4480"
+            "H3198"
+          ],
+          "morfologie": [
+            "HVha"
           ],
           "bronwoorden": [
-            "הוֹכֵ֣חַ",
-            "מִ/כֶּֽם"
+            "הוֹכֵ֣חַ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 6:25",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "gids_strongs": [
-            "H3198"
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "De infinitivus absolutus הוֹכֵחַ en het volgende מִכֶּם ('van u') vormen samen 'het bestraffen, dat van u is'; de gids geeft voor deze woordgroep één token."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
+            "referentie": "JOB 6:25",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         }
       ]
     },

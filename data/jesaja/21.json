@@ -1527,10 +1527,13 @@
           }
         },
         {
-          "tekst": "gruwen",
+          "tekst": "huivering",
           "voorkomen": 1,
           "strongs": [
             "H6427"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "פַּלָּצ֖וּת"
@@ -1541,13 +1544,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 21:4",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]

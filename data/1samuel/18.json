@@ -3403,33 +3403,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Saul",
-          "voorkomen": 1,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "לְ/שָׁא֜וּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:8",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "ontstak",
           "voorkomen": 1,
           "strongs": [
@@ -3453,6 +3426,33 @@
             "referentie": "1SA 18:8",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "Saul",
+          "voorkomen": 1,
+          "strongs": [
+            "H7586"
+          ],
+          "bronwoorden": [
+            "לְ/שָׁא֜וּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:8",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -3538,6 +3538,33 @@
           }
         },
         {
+          "tekst": "woord",
+          "voorkomen": 1,
+          "strongs": [
+            "H1697"
+          ],
+          "bronwoorden": [
+            "הַ/דָּבָ֣ר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:8",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
           "tekst": "dat",
           "voorkomen": 1,
           "strongs": [
@@ -3565,13 +3592,13 @@
           }
         },
         {
-          "tekst": "woord",
+          "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
-            "H1697"
+            "H559"
           ],
           "bronwoorden": [
-            "הַ/דָּבָ֣ר"
+            "וַ/יֹּ֗אמֶר"
           ],
           "transliteraties": [
             ""
@@ -3587,7 +3614,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 18:8",
             "bronindices": [
-              6
+              10
             ]
           }
         },
@@ -3619,34 +3646,6 @@
           }
         },
         {
-          "tekst": "tien",
-          "voorkomen": 1,
-          "strongs": [
-            "H7233"
-          ],
-          "bronwoorden": [
-            "רְבָב֔וֹת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:8",
-            "bronindices": [
-              8
-            ]
-          },
-          "toelichting": "רְבָבוֹת ('tienduizenden') is met 'tien duizend' weergegeven; het anker staat op 'tien'."
-        },
-        {
           "tekst": "David",
           "voorkomen": 1,
           "strongs": [
@@ -3674,13 +3673,16 @@
           }
         },
         {
-          "tekst": "zei",
+          "tekst": "tien duizend",
           "voorkomen": 1,
           "strongs": [
-            "H559"
+            "H7233"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
-            "וַ/יֹּ֗אמֶר"
+            "רְבָב֔וֹת"
           ],
           "transliteraties": [
             ""
@@ -3688,15 +3690,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 18:8",
-            "bronindices": [
+            "grondindices": [
               10
+            ],
+            "bronindices": [
+              8
             ]
           }
         },
@@ -4334,6 +4340,34 @@
           }
         },
         {
+          "tekst": "kracht",
+          "voorkomen": 1,
+          "strongs": [
+            "H6743"
+          ],
+          "bronwoorden": [
+            "וַ/תִּצְלַ֣ח"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:10",
+            "bronindices": [
+              5
+            ]
+          },
+          "toelichting": "וַתִּצְלַח ('werd vaardig') is met 'kwam met kracht' weergegeven; het anker staat op 'kracht'."
+        },
+        {
           "tekst": "geest",
           "voorkomen": 1,
           "strongs": [
@@ -4357,33 +4391,6 @@
             "referentie": "1SA 18:10",
             "bronindices": [
               2
-            ]
-          }
-        },
-        {
-          "tekst": "boze",
-          "voorkomen": 1,
-          "strongs": [
-            "H7451"
-          ],
-          "bronwoorden": [
-            "רָעָ֤ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:10",
-            "bronindices": [
-              3
             ]
           }
         },
@@ -4415,13 +4422,13 @@
           }
         },
         {
-          "tekst": "kracht",
+          "tekst": "boze",
           "voorkomen": 1,
           "strongs": [
-            "H6743"
+            "H7451"
           ],
           "bronwoorden": [
-            "וַ/תִּצְלַ֣ח"
+            "רָעָ֤ה"
           ],
           "transliteraties": [
             ""
@@ -4437,10 +4444,9 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 18:10",
             "bronindices": [
-              5
+              3
             ]
-          },
-          "toelichting": "וַתִּצְלַח ('werd vaardig') is met 'kwam met kracht' weergegeven; het anker staat op 'kracht'."
+          }
         },
         {
           "tekst": "over",
@@ -4632,6 +4638,33 @@
           }
         },
         {
+          "tekst": "hand",
+          "voorkomen": 1,
+          "strongs": [
+            "H3027"
+          ],
+          "bronwoorden": [
+            "בְּ/יָד֖/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:10",
+            "bronindices": [
+              16
+            ]
+          }
+        },
+        {
           "tekst": "dag",
           "voorkomen": 2,
           "strongs": [
@@ -4686,60 +4719,6 @@
           }
         },
         {
-          "tekst": "Saul",
-          "voorkomen": 2,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "שָׁאֽוּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:10",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
-          "tekst": "hand",
-          "voorkomen": 1,
-          "strongs": [
-            "H3027"
-          ],
-          "bronwoorden": [
-            "בְּ/יָד֖/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:10",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "speer",
           "voorkomen": 1,
           "strongs": [
@@ -4790,6 +4769,33 @@
             "referentie": "1SA 18:10",
             "bronindices": [
               18
+            ]
+          }
+        },
+        {
+          "tekst": "Saul",
+          "voorkomen": 2,
+          "strongs": [
+            "H7586"
+          ],
+          "bronwoorden": [
+            "שָׁאֽוּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:10",
+            "bronindices": [
+              15
             ]
           }
         }
@@ -14350,33 +14356,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Als",
-          "voorkomen": 1,
-          "strongs": [
-            "H1767"
-          ],
-          "bronwoorden": [
-            "מִ/דֵּ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:30",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "uittrokken",
           "voorkomen": 1,
           "strongs": [
@@ -14400,6 +14379,33 @@
             "referentie": "1SA 18:30",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "vorsten",
+          "voorkomen": 1,
+          "strongs": [
+            "H8269"
+          ],
+          "bronwoorden": [
+            "שָׂרֵ֣י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:30",
+            "bronindices": [
+              4
             ]
           }
         },
@@ -14458,13 +14464,16 @@
           }
         },
         {
-          "tekst": "vorsten",
-          "voorkomen": 1,
+          "tekst": "als",
+          "voorkomen": 2,
           "strongs": [
-            "H8269"
+            "H1767"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
-            "שָׂרֵ֣י"
+            "מִ/דֵּ֣י"
           ],
           "transliteraties": [
             ""
@@ -14472,15 +14481,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 18:30",
-            "bronindices": [
+            "grondindices": [
               4
+            ],
+            "bronindices": [
+              0
             ]
           }
         },
@@ -14512,33 +14525,6 @@
           }
         },
         {
-          "tekst": "David",
-          "voorkomen": 1,
-          "strongs": [
-            "H1732"
-          ],
-          "bronwoorden": [
-            "דָּוִד֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:30",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "kloeker",
           "voorkomen": 1,
           "strongs": [
@@ -14562,6 +14548,33 @@
             "referentie": "1SA 18:30",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "David",
+          "voorkomen": 1,
+          "strongs": [
+            "H1732"
+          ],
+          "bronwoorden": [
+            "דָּוִד֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:30",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -14593,6 +14606,33 @@
           }
         },
         {
+          "tekst": "knechten",
+          "voorkomen": 1,
+          "strongs": [
+            "H5650"
+          ],
+          "bronwoorden": [
+            "עַבְדֵ֣י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 18:30",
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
           "tekst": "Saul",
           "voorkomen": 1,
           "strongs": [
@@ -14620,13 +14660,13 @@
           }
         },
         {
-          "tekst": "knechten",
+          "tekst": "geacht",
           "voorkomen": 1,
           "strongs": [
-            "H5650"
+            "H3365"
           ],
           "bronwoorden": [
-            "עַבְדֵ֣י"
+            "וַ/יִּיקַ֥ר"
           ],
           "transliteraties": [
             ""
@@ -14642,7 +14682,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 18:30",
             "bronindices": [
-              10
+              13
             ]
           }
         },
@@ -14697,33 +14737,6 @@
             "referentie": "1SA 18:30",
             "bronindices": [
               12
-            ]
-          }
-        },
-        {
-          "tekst": "geacht",
-          "voorkomen": 1,
-          "strongs": [
-            "H3365"
-          ],
-          "bronwoorden": [
-            "וַ/יִּיקַ֥ר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 18:30",
-            "bronindices": [
-              13
             ]
           }
         }

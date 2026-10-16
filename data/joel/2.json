@@ -9746,10 +9746,13 @@
           }
         },
         {
-          "tekst": "verre",
-          "voorkomen": 1,
+          "tekst": "van",
+          "voorkomen": 2,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/R/Sp2mp"
           ],
           "bronwoorden": [
             "מֵ/עֲלֵי/כֶ֗ם"
@@ -9760,13 +9763,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "65853D4B8AA2233093C014B8E63D45851EE78AF647FE4F73CC7D82E025354B93",
             "referentie": "JOL 2:20",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]

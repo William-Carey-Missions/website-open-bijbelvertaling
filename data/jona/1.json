@@ -6658,39 +6658,72 @@
           }
         },
         {
-          "tekst": "storm",
+          "tekst": "mijnentwil",
           "voorkomen": 1,
           "strongs": [
-            "H7945",
-            "H5591"
+            "H7945"
+          ],
+          "morfologie": [
+            "HR/Tr/R/Sp1cs"
           ],
           "bronwoorden": [
-            "בְ/שֶׁ/לִּ֔/י",
-            "הַ/סַּ֧עַר"
+            "בְ/שֶׁ/לִּ֔/י"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
             "referentie": "JON 1:12",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
-              15
+              13
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "storm",
+          "voorkomen": 1,
+          "strongs": [
             "H5591"
           ],
-          "toelichting": "Het grondwoord בְשֶׁלִּי (H7945, 'om mijnentwil') heeft geen eigen token in de uitlijngids; het is bij het volgende הַסַּעַר gevoegd zodat het traceerbaar blijft."
+          "morfologie": [
+            "HTd/Ncmsa"
+          ],
+          "bronwoorden": [
+            "הַ/סַּ֧עַר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
+            "referentie": "JON 1:12",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
         },
         {
           "tekst": "grote",

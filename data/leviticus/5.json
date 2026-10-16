@@ -4720,9 +4720,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 4,
+          "voorkomen": 3,
+          "anker": "die",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -4733,21 +4738,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 5:8",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "die",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "die",
@@ -7934,9 +7939,12 @@
         },
         {
           "tekst": "zijn",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqq3fs"
           ],
           "bronwoorden": [
             "וְ/הָיְתָ֥ה"
@@ -7947,13 +7955,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 5:13",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               10
             ]
@@ -7987,10 +7999,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HRd/Ncfsa"
           ],
           "bronwoorden": [
             "כַּ/מִּנְחָֽה"
@@ -8001,13 +8016,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 5:13",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               12
             ]

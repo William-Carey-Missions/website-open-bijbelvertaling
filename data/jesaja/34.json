@@ -4840,10 +4840,13 @@
           }
         },
         {
-          "tekst": "hen",
+          "tekst": "over",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp3fs"
           ],
           "bronwoorden": [
             "עָלֶ֛י/הָ"
@@ -4854,13 +4857,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 34:11",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               7
             ]
@@ -5726,10 +5733,13 @@
           }
         },
         {
-          "tekst": "struisen",
+          "tekst": "struisvogels",
           "voorkomen": 1,
           "strongs": [
             "H3284"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "יַעֲנָֽה"
@@ -5740,13 +5750,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 34:13",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -5915,10 +5929,13 @@
           }
         },
         {
-          "tekst": "wilde dieren van de woestijnen",
+          "tekst": "woestijnen",
           "voorkomen": 1,
           "strongs": [
             "H6728"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "צִיִּים֙"
@@ -5929,13 +5946,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 34:14",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               0
             ]
@@ -5943,9 +5964,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "wilde",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -5956,27 +5982,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 34:14",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
-          },
-          "anker": "wilde dieren van de eilanden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "wilde dieren van de eilanden",
+          "tekst": "eilanden",
           "voorkomen": 1,
           "strongs": [
             "H338"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "אִיִּ֔ים"
@@ -5987,13 +6016,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 34:14",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -7051,39 +7084,72 @@
           }
         },
         {
-          "tekst": "één van deze",
+          "tekst": "één",
           "voorkomen": 1,
           "strongs": [
-            "H259",
-            "H2007"
+            "H259"
+          ],
+          "morfologie": [
+            "HAcfsa"
           ],
           "bronwoorden": [
-            "אַחַ֤ת",
-            "מֵ/הֵ֨נָּה֙"
+            "אַחַ֤ת"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 34:16",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
+          ],
+          "morfologie": [
+            "HR/Pp3fp"
+          ],
+          "bronwoorden": [
+            "מֵ/הֵ֨נָּה֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
+            "referentie": "ISA 34:16",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "gids_strongs": [
-            "H259"
-          ],
-          "toelichting": "מֵ/הֵ֨נָּה֙ ('van deze') heeft in de uitlijngids geen eigen token; het is hier met אַחַ֤ת samengevoegd tot 'één van deze'."
+          }
         },
         {
           "tekst": "niet",

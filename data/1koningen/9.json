@@ -10774,8 +10774,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "al",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֵ֨ת"
@@ -10786,21 +10791,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 9:19",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
-          },
-          "anker": "schatsteden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "al",
@@ -10830,11 +10835,15 @@
           }
         },
         {
-          "tekst": "schatsteden",
+          "tekst": "voorraadsteden",
           "voorkomen": 1,
           "strongs": [
             "H5892",
             "H4543"
+          ],
+          "morfologie": [
+            "HNcfpc",
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "עָרֵ֤י",
@@ -10848,19 +10857,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 9:19",
+            "grondindices": [
+              2,
+              3
+            ],
             "bronindices": [
               3,
               2
             ]
-          },
-          "toelichting": "Eén Nederlands woord dekt de woordgroep עָרֵי הַמִּסְכְּנוֹת (H5892 en H4543)."
+          }
         },
         {
           "tekst": "die",

@@ -1572,10 +1572,13 @@
           }
         },
         {
-          "tekst": "u",
-          "voorkomen": 3,
+          "tekst": "of",
+          "voorkomen": 2,
           "strongs": [
             "H3426"
+          ],
+          "morfologie": [
+            "HTi/Tm/Sp2mp"
           ],
           "bronwoorden": [
             "הֲ/יִשְׁ/כֶ֤ם"
@@ -1586,13 +1589,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:3",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
@@ -2671,6 +2678,9 @@
           "strongs": [
             "H1931"
           ],
+          "morfologie": [
+            "HTd/Pp3ms"
+          ],
           "bronwoorden": [
             "הַ/ה֜וּא"
           ],
@@ -2680,21 +2690,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:5",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "dromer",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het aanwijzend voornaamwoord wordt bij het tweede lid van de opsomming in het Nederlands niet herhaald."
+          }
         },
         {
           "tekst": "gedood worden",
@@ -2940,55 +2950,42 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֣רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 13:5",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֣רֶץ",
             "מִצְרַ֗יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:5",
+            "grondindices": [
+              15,
+              16
+            ],
             "bronindices": [
+              15,
               16
             ]
           }
@@ -3021,55 +3018,42 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 2,
-          "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "מִ/בֵּ֣ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 13:5",
-            "bronindices": [
-              18
-            ]
-          }
-        },
-        {
           "tekst": "diensthuis",
           "voorkomen": 1,
           "strongs": [
+            "H1004",
             "H5650"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "מִ/בֵּ֣ית",
             "עֲבָדִ֔ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:5",
+            "grondindices": [
+              18,
+              19
+            ],
             "bronindices": [
+              18,
               19
             ]
           }
@@ -4216,10 +4200,13 @@
           }
         },
         {
-          "tekst": "noch",
+          "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
             "H3808"
+          ],
+          "morfologie": [
+            "HTn"
           ],
           "bronwoorden": [
             "לֹ֣א"
@@ -4230,13 +4217,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:6",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
               24
             ]
@@ -6066,83 +6057,43 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 13:10",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֥רֶץ",
             "מִצְרַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:10",
-            "bronindices": [
+            "grondindices": [
+              10,
               11
-            ]
-          }
-        },
-        {
-          "tekst": "uit",
-          "voorkomen": 2,
-          "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "מִ/בֵּ֥ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 13:10",
+            ],
             "bronindices": [
-              12
+              10,
+              11
             ]
           }
         },
@@ -6150,25 +6101,39 @@
           "tekst": "diensthuis",
           "voorkomen": 1,
           "strongs": [
+            "H1004",
             "H5650"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "מִ/בֵּ֥ית",
             "עֲבָדִֽים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 13:10",
+            "grondindices": [
+              12,
+              13
+            ],
             "bronindices": [
+              12,
               13
             ]
           }

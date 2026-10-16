@@ -1616,9 +1616,12 @@
         },
         {
           "tekst": "strijdbare",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H2428"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "חָֽיִל"
@@ -1629,18 +1632,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 13:3",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               22
             ]
-          },
-          "toelichting": "חָיִל (H2428, 'kracht/dapperheid') is als 'kloeke' weergegeven."
+          }
         }
       ]
     },

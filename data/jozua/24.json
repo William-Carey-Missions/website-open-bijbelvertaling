@@ -3471,7 +3471,7 @@
             "H1"
           ],
           "bronwoorden": [
-            "אֲבוֹתֵי/כֶ֛ם"
+            "אֲבֽוֹתֵי/כֶם֙"
           ],
           "transliteraties": [
             ""
@@ -3487,7 +3487,7 @@
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 24:6",
             "bronindices": [
-              9
+              1
             ]
           }
         },
@@ -17837,10 +17837,13 @@
           }
         },
         {
-          "tekst": "leefden",
+          "tekst": "lang",
           "voorkomen": 1,
           "strongs": [
             "H748"
+          ],
+          "morfologie": [
+            "HVhp3cp"
           ],
           "bronwoorden": [
             "הֶאֱרִ֤יכוּ"
@@ -17851,23 +17854,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 24:31",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
           }
         },
         {
-          "tekst": "lang",
+          "tekst": "leefden",
           "voorkomen": 1,
           "strongs": [
             "H3117"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "יָמִים֙"
@@ -17878,13 +17888,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 24:31",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]

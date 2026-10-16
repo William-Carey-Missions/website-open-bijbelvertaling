@@ -11355,6 +11355,33 @@
           }
         },
         {
+          "tekst": "ontbloot",
+          "voorkomen": 2,
+          "strongs": [
+            "H1540"
+          ],
+          "bronwoorden": [
+            "נִגְל֖וֹת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 6:20",
+            "bronindices": [
+              26
+            ]
+          }
+        },
+        {
           "tekst": "onbeschaamdelijk",
           "voorkomen": 1,
           "strongs": [
@@ -11383,37 +11410,13 @@
           "toelichting": "כְּהִגָּלוֹת נִגְלוֹת is een verdubbelde infinitiefconstructie; die versterking is in de Statenvertaling 'onbeschaamdelijk'. Het eerste grondwoord is aan dat bijwoord gekoppeld."
         },
         {
-          "tekst": "ontbloot",
-          "voorkomen": 2,
-          "strongs": [
-            "H1540"
-          ],
-          "bronwoorden": [
-            "נִגְל֖וֹת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
-            "referentie": "2SA 6:20",
-            "bronindices": [
-              26
-            ]
-          }
-        },
-        {
-          "tekst": "één",
+          "tekst": "een",
           "voorkomen": 1,
           "strongs": [
             "H259"
+          ],
+          "morfologie": [
+            "HAcmsa"
           ],
           "bronwoorden": [
             "אַחַ֥ד"
@@ -11424,13 +11427,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 6:20",
+            "grondindices": [
+              25
+            ],
             "bronindices": [
               23
             ]

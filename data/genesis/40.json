@@ -1167,11 +1167,15 @@
           }
         },
         {
-          "tekst": "gevangenhuis",
+          "tekst": "gevangenis",
           "voorkomen": 1,
           "strongs": [
             "H1004",
             "H5470"
+          ],
+          "morfologie": [
+            "HNcmsc",
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "בֵּ֣ית",
@@ -1185,13 +1189,18 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:3",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
               6,
               7
@@ -2395,55 +2404,42 @@
           }
         },
         {
-          "tekst": "gevangenhuis",
+          "tekst": "gevangenis",
           "voorkomen": 1,
           "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "בְּ/בֵ֥ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 40:5",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "gevangenhuis",
-          "voorkomen": 1,
-          "strongs": [
+            "H1004",
             "H5470"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "בְּ/בֵ֥ית",
             "הַ/סֹּֽהַר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:5",
+            "grondindices": [
+              17,
+              18
+            ],
             "bronindices": [
+              9,
               10
             ]
           }
@@ -6691,9 +6687,12 @@
         },
         {
           "tekst": "aan mij",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H5978"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "עִמָּדִ֖/י"
@@ -6704,13 +6703,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:14",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]
@@ -6744,10 +6747,13 @@
           }
         },
         {
-          "tekst": "doe van mij melding",
+          "tekst": "melding",
           "voorkomen": 1,
           "strongs": [
             "H2142"
+          ],
+          "morfologie": [
+            "HC/Vhq2ms/Sp1cs"
           ],
           "bronwoorden": [
             "וְ/הִזְכַּרְתַּ֨/נִי֙"
@@ -6758,13 +6764,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:14",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               10
             ]
@@ -6772,9 +6782,12 @@
         },
         {
           "tekst": "bij",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "אֶל"
@@ -6785,13 +6798,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:14",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               11
             ]
@@ -6825,10 +6842,13 @@
           }
         },
         {
-          "tekst": "maak, dat ik uit",
+          "tekst": "maak",
           "voorkomen": 1,
           "strongs": [
             "H3318"
+          ],
+          "morfologie": [
+            "HC/Vhq2ms/Sp1cs"
           ],
           "bronwoorden": [
             "וְ/הוֹצֵאתַ֖/נִי"
@@ -6839,13 +6859,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:14",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               13
             ]
@@ -10413,10 +10437,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "deed",
+          "tekst": "terugkeren",
           "voorkomen": 1,
           "strongs": [
             "H7725"
+          ],
+          "morfologie": [
+            "HC/Vhw3ms"
           ],
           "bronwoorden": [
             "וַ/יָּ֛שֶׁב"
@@ -10427,13 +10454,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 40:21",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]

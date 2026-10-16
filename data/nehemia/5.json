@@ -1945,10 +1945,13 @@
           }
         },
         {
-          "tekst": "enige",
-          "voorkomen": 1,
+          "tekst": "zijn",
+          "voorkomen": 2,
           "strongs": [
             "H3426"
+          ],
+          "morfologie": [
+            "HC/Tm"
           ],
           "bronwoorden": [
             "וְ/יֵ֨שׁ"
@@ -1959,18 +1962,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 5:5",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
-          },
-          "toelichting": "וְיֵשׁ ('en er zijn') is in 'er zijn enige van onze dochters' met 'enige' weergegeven."
+          }
         },
         {
           "tekst": "dochters",

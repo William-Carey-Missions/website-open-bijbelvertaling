@@ -1965,10 +1965,13 @@
           }
         },
         {
-          "tekst": "waters",
+          "tekst": "water",
           "voorkomen": 1,
           "strongs": [
             "H4325"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "מַ֥יִם"
@@ -1979,13 +1982,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 32:4",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               18
             ]
@@ -8725,26 +8732,40 @@
           "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
-            "H3808"
+            "H3808",
+            "H3605"
+          ],
+          "morfologie": [
+            "HTn",
+            "HNcmsc"
           ],
           "bronwoorden": [
-            "לֹ֣א"
+            "לֹ֣א",
+            "כָּל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 32:15",
+            "grondindices": [
+              13,
+              15
+            ],
             "bronindices": [
-              12
+              12,
+              15
             ]
           }
         },
@@ -8779,34 +8800,35 @@
           "tekst": "god",
           "voorkomen": 1,
           "strongs": [
-            "H3605",
             "H433"
           ],
+          "morfologie": [
+            "HNcmsa"
+          ],
           "bronwoorden": [
-            "כָּל",
             "אֱל֨וֹהַ֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 32:15",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
-              13,
               14
             ]
-          },
-          "toelichting": "Eén Nederlands woord dekt כָּל אֱלוֹהַ ('enige god'; H3605 en H433)."
+          }
         },
         {
           "tekst": "enige",
@@ -16521,10 +16543,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Maar",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1931"
+          ],
+          "morfologie": [
+            "HC/Pp3ms"
           ],
           "bronwoorden": [
             "וְ/ה֣וּא"
@@ -16535,18 +16560,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 32:30",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
-          },
-          "toelichting": "Het nadrukkelijke וְהוּא (H1931, 'en hij') is aan het openingswoord 'Maar' verankerd."
+          }
         },
         {
           "tekst": "Jehizkia",

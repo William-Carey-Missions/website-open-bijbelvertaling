@@ -2981,10 +2981,13 @@
           }
         },
         {
-          "tekst": "waardij",
+          "tekst": "waarde",
           "voorkomen": 1,
           "strongs": [
             "H4377"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3fs"
           ],
           "bronwoorden": [
             "מִכְרָֽ/הּ"
@@ -2995,13 +2998,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 31:10",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]

@@ -7906,33 +7906,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Saul",
-          "voorkomen": 1,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "שָׁא֜וּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 15:15",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
@@ -7960,13 +7933,13 @@
           }
         },
         {
-          "tekst": "volk",
+          "tekst": "Saul",
           "voorkomen": 1,
           "strongs": [
-            "H5971"
+            "H7586"
           ],
           "bronwoorden": [
-            "הָ/עָם֙"
+            "שָׁא֜וּל"
           ],
           "transliteraties": [
             ""
@@ -7982,18 +7955,18 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 15:15",
             "bronindices": [
-              2
+              0
             ]
           }
         },
         {
-          "tekst": "",
+          "tekst": "Amalekieten",
           "voorkomen": 1,
           "strongs": [
-            "H5921"
+            "H6003"
           ],
           "bronwoorden": [
-            "עַל"
+            "מֵ/עֲמָלֵקִ֣י"
           ],
           "transliteraties": [
             ""
@@ -8009,13 +7982,9 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 15:15",
             "bronindices": [
-              3
+              6
             ]
-          },
-          "anker": "gespaard",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het voorzetsel עַל hoort bij חָמַל en heeft in het Nederlands geen eigen woord."
+          }
         },
         {
           "tekst": "gebracht",
@@ -8072,33 +8041,6 @@
           }
         },
         {
-          "tekst": "Amalekieten",
-          "voorkomen": 1,
-          "strongs": [
-            "H6003"
-          ],
-          "bronwoorden": [
-            "מֵ/עֲמָלֵקִ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 15:15",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "gespaard",
           "voorkomen": 1,
           "strongs": [
@@ -8122,6 +8064,69 @@
             "referentie": "1SA 15:15",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "volk",
+          "voorkomen": 1,
+          "strongs": [
+            "H5971"
+          ],
+          "bronwoorden": [
+            "הָ/עָם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 15:15",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "beste",
+          "plaats": "voor",
+          "strongs": [
+            "H5921"
+          ],
+          "morfologie": [
+            "HR"
+          ],
+          "bronwoorden": [
+            "עַל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 15:15",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              3
             ]
           }
         },

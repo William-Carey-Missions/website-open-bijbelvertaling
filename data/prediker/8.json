@@ -9414,39 +9414,72 @@
           }
         },
         {
-          "tekst": "dat",
-          "voorkomen": 3,
+          "tekst": "om",
+          "voorkomen": 1,
           "strongs": [
-            "H7945",
-            "H834"
+            "H7945"
+          ],
+          "morfologie": [
+            "HR/Tr/R"
           ],
           "bronwoorden": [
-            "בְּ֠/שֶׁ/ל",
-            "אֲשֶׁ֨ר"
+            "בְּ֠/שֶׁ/ל"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
             "referentie": "ECC 8:17",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "dat",
+          "voorkomen": 3,
+          "strongs": [
             "H834"
           ],
-          "toelichting": "בְּשֶׁל אֲשֶׁר vormt één voegwoord; de uitlijngids kent alleen een token voor אֲשֶׁר, zodat H7945 met het buurwoord is samengevoegd."
+          "morfologie": [
+            "HTr"
+          ],
+          "bronwoorden": [
+            "אֲשֶׁ֨ר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
+            "referentie": "ECC 8:17",
+            "grondindices": [
+              17
+            ],
+            "bronindices": [
+              17
+            ]
+          }
         },
         {
           "tekst": "arbeidt",

@@ -2798,10 +2798,13 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "mij",
           "voorkomen": 1,
           "strongs": [
             "H4480"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "מִמֶּ֗/נִּי"
@@ -2812,13 +2815,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 30:8",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -3163,10 +3170,13 @@
           }
         },
         {
-          "tekst": "zat",
+          "tekst": "verzadigd",
           "voorkomen": 1,
           "strongs": [
             "H7646"
+          ],
+          "morfologie": [
+            "HVqi1cs"
           ],
           "bronwoorden": [
             "אֶשְׂבַּ֨ע"
@@ -3177,13 +3187,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 30:9",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -10365,10 +10379,13 @@
           "toelichting": "אַלְקוּם is met 'die niet tegen te staan is' weergegeven; het anker staat op het werkwoord."
         },
         {
-          "tekst": "",
+          "tekst": "tegen",
           "voorkomen": 1,
           "strongs": [
             "H5973"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "עִמּֽ/וֹ"
@@ -10379,21 +10396,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 30:31",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "staan",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "עִמּוֹ ('met hem') is in de Statenvertaling niet afzonderlijk weergegeven; het staat na 'staan'."
+          }
         }
       ]
     },

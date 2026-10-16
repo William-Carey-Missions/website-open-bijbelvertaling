@@ -1235,10 +1235,13 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "zoals",
           "voorkomen": 1,
           "strongs": [
             "H3588"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "כי"
@@ -1249,23 +1252,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2A91258D2BD1E5D2D87B51F7BCFAA70A46796AB7FD9618018FD26C6FD162A695",
             "referentie": "LAM 4:3",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
           }
         },
         {
-          "tekst": "struisen",
+          "tekst": "struisvogels",
           "voorkomen": 1,
           "strongs": [
             "H3283"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "ענים"
@@ -1276,18 +1286,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2A91258D2BD1E5D2D87B51F7BCFAA70A46796AB7FD9618018FD26C6FD162A695",
             "referentie": "LAM 4:3",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
-          },
-          "toelichting": "Ketiv ענים (יְעֵנִים); het qere in <note type=\"variant\"> luidt כַּיְעֵנִים en trekt het voorgaande כי mee. MorphHB geeft voor het ketiv H3283."
+          }
         },
         {
           "tekst": "woestijn",

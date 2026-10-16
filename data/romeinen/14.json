@@ -12494,10 +12494,16 @@
           }
         },
         {
-          "tekst": "laat ons najagen",
+          "tekst": "najagen",
           "voorkomen": 1,
           "strongs": [
             "G1377"
+          ],
+          "lemma_strongs": [
+            "G1377"
+          ],
+          "morfologie": [
+            "V-PAS-1P"
           ],
           "bronwoorden": [
             "διωκωμεν"
@@ -12508,18 +12514,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 14:19",
-            "bronindices": [
-              2
-            ],
             "grondindices": [
               5
+            ],
+            "bronindices": [
+              2
             ]
           }
         },

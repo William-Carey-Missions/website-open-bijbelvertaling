@@ -1482,36 +1482,69 @@
           "tekst": "hand",
           "voorkomen": 1,
           "strongs": [
-            "H3027",
-            "H4480"
+            "H3027"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp3ms"
           ],
           "bronwoorden": [
-            "יָד֖/וֹ",
-            "מִ/כֶּֽם"
+            "יָד֖/וֹ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 6:3",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
-              19
+              23
             ]
-          },
-          "gids_strongs": [
-            "H3027"
+          }
+        },
+        {
+          "tekst": "van",
+          "voorkomen": 3,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "H3027 (יָדוֹ, 'Zijn hand') en H4480 (מִכֶּם, 'van u') delen hier één gidstoken; beide nummers verschijnen bij 'hand'."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 6:3",
+            "grondindices": [
+              24
+            ],
+            "bronindices": [
+              24
+            ]
+          }
         }
       ]
     },

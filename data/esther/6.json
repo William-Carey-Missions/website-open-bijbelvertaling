@@ -5382,9 +5382,12 @@
         },
         {
           "tekst": "doen",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H6213"
+          ],
+          "morfologie": [
+            "HVNi3ms"
           ],
           "bronwoorden": [
             "יֵעָשֶׂ֣ה"
@@ -5395,13 +5398,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 6:9",
+            "grondindices": [
+              24
+            ],
             "bronindices": [
               24
             ]

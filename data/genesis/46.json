@@ -943,10 +943,13 @@
           }
         },
         {
-          "tekst": "Zie, hier ben ik",
+          "tekst": "Zie",
           "voorkomen": 1,
           "strongs": [
             "H2009"
+          ],
+          "morfologie": [
+            "HTm/Sp1cs"
           ],
           "bronwoorden": [
             "הִנֵּֽ/נִי"
@@ -957,13 +960,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:2",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]
@@ -1281,10 +1288,13 @@
           }
         },
         {
-          "tekst": "die God",
+          "tekst": "God",
           "voorkomen": 1,
           "strongs": [
             "H410"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "הָ/אֵ֖ל"
@@ -1295,13 +1305,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:3",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
@@ -2024,10 +2038,13 @@
           }
         },
         {
-          "tekst": "doen weer optrekken",
+          "tekst": "optrekken",
           "voorkomen": 1,
           "strongs": [
             "H5927"
+          ],
+          "morfologie": [
+            "HVhi1cs/Sp2ms"
           ],
           "bronwoorden": [
             "אַֽעַלְ/ךָ֣"
@@ -2038,15 +2055,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:4",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
-              7
+              6
             ]
           }
         },
@@ -2369,22 +2390,52 @@
       ],
       "woordnummers": [
         {
-          "tekst": "maakte zich Jakob op",
+          "tekst": "maakte",
           "voorkomen": 1,
           "strongs": [
-            "H6965",
-            "H3290"
+            "H6965"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
-            "וַ/יָּ֥קָם",
-            "יַעֲקֹ֖ב"
+            "וַ/יָּ֥קָם"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 46:5",
+            "grondindices": [
+              0
+            ],
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "Jakob",
+          "voorkomen": 1,
+          "strongs": [
+            "H3290"
+          ],
+          "bronwoorden": [
+            "יַעֲקֹ֣ב"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
             ""
           ],
           "confidence": 1.0,
@@ -2395,8 +2446,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:5",
             "bronindices": [
-              1,
-              0
+              10
             ]
           }
         },
@@ -2515,9 +2565,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "Jakob",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -2528,27 +2583,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:5",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "Jakob",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De Hebreeuwse lijdend-voorwerpmarkeerder is niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "Jakob",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H3290"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "יַעֲקֹ֣ב"
@@ -2559,13 +2617,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:5",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               10
             ]
@@ -2850,10 +2912,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "hem",
           "voorkomen": 1,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹתֽ/וֹ"
@@ -2864,21 +2929,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:5",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               18
             ]
-          },
-          "anker": "voeren",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De Hebreeuwse lijdend-voorwerpmarkeerder met pronominaal object is in de Nederlandse werkwoordgroep weergegeven."
+          }
         }
       ]
     },
@@ -4932,10 +4997,13 @@
           }
         },
         {
-          "tekst": "Kanaänietische vrouw",
+          "tekst": "Kanaänietische",
           "voorkomen": 1,
           "strongs": [
             "H3669"
+          ],
+          "morfologie": [
+            "HTd/Ngfsa"
           ],
           "bronwoorden": [
             "הַֽ/כְּנַעֲנִֽית"
@@ -4946,13 +5014,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:10",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -6727,10 +6799,13 @@
           }
         },
         {
-          "tekst": "drie",
+          "tekst": "dertig",
           "voorkomen": 1,
           "strongs": [
             "H7970"
+          ],
+          "morfologie": [
+            "HAcbpa"
           ],
           "bronwoorden": [
             "שְׁלֹשִׁ֥ים"
@@ -6741,23 +6816,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:15",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
           }
         },
         {
-          "tekst": "dertig",
+          "tekst": "drie",
           "voorkomen": 1,
           "strongs": [
             "H7969"
+          ],
+          "morfologie": [
+            "HC/Acfsa"
           ],
           "bronwoorden": [
             "וְ/שָׁלֹֽשׁ"
@@ -6768,13 +6850,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:15",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -11646,10 +11732,13 @@
           }
         },
         {
-          "tekst": "voor zijn aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp3ms"
           ],
           "bronwoorden": [
             "לְ/פָנָי/ו֙"
@@ -11660,13 +11749,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:28",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -11727,10 +11820,13 @@
           }
         },
         {
-          "tekst": "aanwijzing te doen",
+          "tekst": "aanwijzing",
           "voorkomen": 1,
           "strongs": [
             "H3384"
+          ],
+          "morfologie": [
+            "HR/Vhc"
           ],
           "bronwoorden": [
             "לְ/הוֹרֹ֥ת"
@@ -11741,23 +11837,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:28",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
           }
         },
         {
-          "tekst": "voor zijn aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 2,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp3ms"
           ],
           "bronwoorden": [
             "לְ/פָנָ֖י/ו"
@@ -11768,13 +11871,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:28",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -13901,9 +14008,12 @@
         },
         {
           "tekst": "zijn",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HVqp3cp"
           ],
           "bronwoorden": [
             "הָי֑וּ"
@@ -13914,13 +14024,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:32",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -14614,10 +14728,13 @@
           }
         },
         {
-          "tekst": "omgegaan hebben",
+          "tekst": "omgegaan",
           "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HVqp3cp"
           ],
           "bronwoorden": [
             "הָי֤וּ"
@@ -14628,13 +14745,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 46:34",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               4
             ]

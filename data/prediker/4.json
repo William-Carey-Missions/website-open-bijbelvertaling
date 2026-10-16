@@ -4282,10 +4282,13 @@
           }
         },
         {
-          "tekst": "is",
-          "voorkomen": 4,
+          "tekst": "het",
+          "voorkomen": 2,
           "strongs": [
             "H1931"
+          ],
+          "morfologie": [
+            "HPp3ms"
           ],
           "bronwoorden": [
             "הֽוּא"
@@ -4296,13 +4299,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
             "referentie": "ECC 4:8",
+            "grondindices": [
+              30
+            ],
             "bronindices": [
               28
             ]
@@ -6373,11 +6380,15 @@
           }
         },
         {
-          "tekst": "gevangenhuis",
+          "tekst": "gevangenis",
           "voorkomen": 1,
           "strongs": [
             "H1004",
             "H631"
+          ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HTd/Vqsmpa"
           ],
           "bronwoorden": [
             "מִ/בֵּ֥ית",
@@ -6391,19 +6402,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "489F563E3E503602C8C2F7C5AFE2936AD41806ED3EB2B36068B9BAF4569A44C5",
             "referentie": "ECC 4:14",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
               2,
               3
             ]
-          },
-          "toelichting": "בֵּית הָסוּרִים is met het ene samengestelde woord 'gevangenhuis' weergegeven."
+          }
         },
         {
           "tekst": "komt",

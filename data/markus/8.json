@@ -13125,13 +13125,13 @@
           }
         },
         {
-          "tekst": "het",
-          "voorkomen": 1,
+          "tekst": "de",
+          "voorkomen": 3,
           "strongs": [
             "G3588"
           ],
           "bronwoorden": [
-            "της"
+            "τας"
           ],
           "transliteraties": [
             ""
@@ -13147,10 +13147,10 @@
             "sha256": "546A42F336FAF6E460DA2194B055755DF5BD6CFA1B77CD5B1471A137EDBC4F58",
             "referentie": "MRK 8:23",
             "bronindices": [
-              9
+              18
             ],
             "grondindices": [
-              9
+              18
             ]
           }
         },
@@ -13398,9 +13398,15 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 3,
+          "voorkomen": 4,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-APF"
           ],
           "bronwoorden": [
             "τας"
@@ -13411,17 +13417,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "546A42F336FAF6E460DA2194B055755DF5BD6CFA1B77CD5B1471A137EDBC4F58",
             "referentie": "MRK 8:23",
-            "bronindices": [
+            "grondindices": [
               18
             ],
-            "grondindices": [
+            "bronindices": [
               18
             ]
           }
@@ -15234,10 +15241,16 @@
           }
         },
         {
-          "tekst": "het",
+          "tekst": "de",
           "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASF"
           ],
           "bronwoorden": [
             "την"
@@ -15248,17 +15261,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "546A42F336FAF6E460DA2194B055755DF5BD6CFA1B77CD5B1471A137EDBC4F58",
             "referentie": "MRK 8:26",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -15444,10 +15458,16 @@
           }
         },
         {
-          "tekst": "het",
-          "voorkomen": 3,
+          "tekst": "de",
+          "voorkomen": 2,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSF"
           ],
           "bronwoorden": [
             "τη"
@@ -15458,17 +15478,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "546A42F336FAF6E460DA2194B055755DF5BD6CFA1B77CD5B1471A137EDBC4F58",
             "referentie": "MRK 8:26",
-            "bronindices": [
+            "grondindices": [
               17
             ],
-            "grondindices": [
+            "bronindices": [
               17
             ]
           }
@@ -20638,36 +20659,6 @@
           }
         },
         {
-          "tekst": "de",
-          "voorkomen": 1,
-          "strongs": [
-            "G3588"
-          ],
-          "bronwoorden": [
-            "τα"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "lokale-tr-grondtekst",
-            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
-            "sha256": "546A42F336FAF6E460DA2194B055755DF5BD6CFA1B77CD5B1471A137EDBC4F58",
-            "referentie": "MRK 8:33",
-            "bronindices": [
-              19
-            ],
-            "grondindices": [
-              19
-            ]
-          }
-        },
-        {
           "tekst": "dingen",
           "voorkomen": 1,
           "strongs": [
@@ -20693,6 +20684,45 @@
               20
             ],
             "grondindices": [
+              20
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
+          ],
+          "bronwoorden": [
+            "του"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "546A42F336FAF6E460DA2194B055755DF5BD6CFA1B77CD5B1471A137EDBC4F58",
+            "referentie": "MRK 8:33",
+            "grondindices": [
+              20
+            ],
+            "bronindices": [
               20
             ]
           }

@@ -3710,33 +3710,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "JAHWEH",
-          "voorkomen": 1,
-          "strongs": [
-            "H3068"
-          ],
-          "bronwoorden": [
-            "יְהוָ֜ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 16:7",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
@@ -3760,6 +3733,33 @@
             "referentie": "1SA 16:7",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 1,
+          "strongs": [
+            "H3068"
+          ],
+          "bronwoorden": [
+            "יְהוָ֜ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 16:7",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -3899,10 +3899,13 @@
           }
         },
         {
-          "tekst": "gestalte",
+          "tekst": "uiterlijk",
           "voorkomen": 1,
           "strongs": [
             "H4758"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3ms"
           ],
           "bronwoorden": [
             "מַרְאֵ֛/הוּ"
@@ -3913,13 +3916,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 16:7",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -3980,10 +3987,13 @@
           }
         },
         {
-          "tekst": "statuur",
+          "tekst": "gestalte",
           "voorkomen": 1,
           "strongs": [
             "H6967"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp3ms"
           ],
           "bronwoorden": [
             "קוֹמָת֖/וֹ"
@@ -3994,13 +4004,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 16:7",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -4142,33 +4156,6 @@
           }
         },
         {
-          "tekst": "mens",
-          "voorkomen": 1,
-          "strongs": [
-            "H120"
-          ],
-          "bronwoorden": [
-            "הָ/אָדָ֔ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 16:7",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "ziet",
           "voorkomen": 1,
           "strongs": [
@@ -4192,6 +4179,33 @@
             "referentie": "1SA 16:7",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "mens",
+          "voorkomen": 1,
+          "strongs": [
+            "H120"
+          ],
+          "bronwoorden": [
+            "הָ/אָדָ֔ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 16:7",
+            "bronindices": [
+              16
             ]
           }
         },

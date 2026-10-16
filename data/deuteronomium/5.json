@@ -1799,10 +1799,13 @@
           }
         },
         {
-          "tekst": "uit het midden",
+          "tekst": "midden",
           "voorkomen": 1,
           "strongs": [
             "H8432"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/תּ֥וֹךְ"
@@ -1813,13 +1816,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:4",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
@@ -2201,10 +2208,13 @@
           }
         },
         {
-          "tekst": "aan te zeggen",
+          "tekst": "zeggen",
           "voorkomen": 1,
           "strongs": [
             "H5046"
+          ],
+          "morfologie": [
+            "HR/Vhc"
           ],
           "bronwoorden": [
             "לְ/הַגִּ֥יד"
@@ -2215,13 +2225,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:5",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -2752,83 +2766,43 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 5:6",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֥רֶץ",
             "מִצְרַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:6",
-            "bronindices": [
+            "grondindices": [
+              5,
               6
-            ]
-          }
-        },
-        {
-          "tekst": "uit",
-          "voorkomen": 2,
-          "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "מִ/בֵּ֥ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 5:6",
+            ],
             "bronindices": [
-              7
+              5,
+              6
             ]
           }
         },
@@ -2836,25 +2810,39 @@
           "tekst": "diensthuis",
           "voorkomen": 1,
           "strongs": [
+            "H1004",
             "H5650"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "מִ/בֵּ֥ית",
             "עֲבָדִֽים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:6",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
+              7,
               8
             ]
           }
@@ -5321,59 +5309,42 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H3117"
-          ],
-          "bronwoorden": [
-            "י֥וֹם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 5:12",
-            "bronindices": [
-              3
-            ]
-          },
-          "anker": "sabbatdag",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Jom ('dag') is binnen het Nederlandse samenstelling 'sabbatdag' niet als afzonderlijk woord weergegeven."
-        },
-        {
           "tekst": "sabbatdag",
           "voorkomen": 1,
           "strongs": [
+            "H3117",
             "H7676"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HTd/Ncbsa"
+          ],
           "bronwoorden": [
+            "י֥וֹם",
             "הַ/שַׁבָּ֖ת"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:12",
+            "grondindices": [
+              2,
+              3
+            ],
             "bronindices": [
+              3,
               2
             ]
           }
@@ -6804,10 +6775,13 @@
           }
         },
         {
-          "tekst": "Want",
+          "tekst": "dat",
           "voorkomen": 1,
           "strongs": [
             "H3588"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "כִּ֣י"
@@ -6818,13 +6792,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:15",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -6885,55 +6863,42 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "בְּ/אֶ֣רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 5:15",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְּ/אֶ֣רֶץ",
             "מִצְרַ֔יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:15",
+            "grondindices": [
+              4,
+              5
+            ],
             "bronindices": [
+              4,
               5
             ]
           }
@@ -7327,59 +7292,42 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H3117"
-          ],
-          "bronwoorden": [
-            "י֥וֹם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 5:15",
-            "bronindices": [
-              22
-            ]
-          },
-          "anker": "sabbatdag",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Jom ('dag') is binnen het Nederlandse samenstelling 'sabbatdag' niet als afzonderlijk woord weergegeven."
-        },
-        {
           "tekst": "sabbatdag",
           "voorkomen": 1,
           "strongs": [
+            "H3117",
             "H7676"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HTd/Ncbsa"
+          ],
           "bronwoorden": [
+            "י֥וֹם",
             "הַ/שַׁבָּֽת"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:15",
+            "grondindices": [
+              21,
+              22
+            ],
             "bronindices": [
+              22,
               21
             ]
           }
@@ -9543,10 +9491,13 @@
           }
         },
         {
-          "tekst": "uit het midden",
+          "tekst": "midden",
           "voorkomen": 1,
           "strongs": [
             "H8432"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/תּ֤וֹךְ"
@@ -9557,13 +9508,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:22",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               10
             ]
@@ -9760,10 +9715,13 @@
           "toelichting": "Jasaf ('toevoegen') wordt met het scheidbare werkwoord 'toedoen' weergegeven; het woordnummer staat op 'deed'."
         },
         {
-          "tekst": "schreef ze",
+          "tekst": "schreef",
           "voorkomen": 1,
           "strongs": [
             "H3789"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms/Sp3mp"
           ],
           "bronwoorden": [
             "וַֽ/יִּכְתְּבֵ֗/ם"
@@ -9774,13 +9732,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:22",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
@@ -9895,10 +9857,13 @@
           }
         },
         {
-          "tekst": "gaf ze",
+          "tekst": "gaf",
           "voorkomen": 1,
           "strongs": [
             "H5414"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms/Sp3mp"
           ],
           "bronwoorden": [
             "וַֽ/יִּתְּנֵ֖/ם"
@@ -9909,13 +9874,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:22",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               22
             ]
@@ -10181,10 +10150,13 @@
           }
         },
         {
-          "tekst": "uit het midden",
+          "tekst": "midden",
           "voorkomen": 1,
           "strongs": [
             "H8432"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/תּ֣וֹךְ"
@@ -10195,13 +10167,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:23",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -10973,10 +10949,13 @@
           }
         },
         {
-          "tekst": "uit het midden",
+          "tekst": "midden",
           "voorkomen": 1,
           "strongs": [
             "H8432"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/תּ֣וֹךְ"
@@ -10987,13 +10966,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:24",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -12278,10 +12261,13 @@
           }
         },
         {
-          "tekst": "uit het midden",
+          "tekst": "midden",
           "voorkomen": 1,
           "strongs": [
             "H8432"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/תּוֹךְ"
@@ -12292,13 +12278,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 5:26",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]

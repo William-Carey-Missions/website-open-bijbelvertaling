@@ -4842,9 +4842,12 @@
         },
         {
           "tekst": "die",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹת/וֹ֩"
@@ -4855,13 +4858,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 12:9",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -5756,60 +5763,42 @@
           "tekst": "hogepriester",
           "voorkomen": 1,
           "strongs": [
-            "H3548"
-          ],
-          "bronwoorden": [
-            "וְ/הַ/כֹּהֵ֣ן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
-            "referentie": "2KI 12:10",
-            "bronindices": [
-              9
-            ]
-          },
-          "toelichting": "הַכֹּהֵן ('de priester') is gekoppeld aan de samenstelling 'hogepriester'."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H3548",
             "H1419"
           ],
+          "morfologie": [
+            "HC/Td/Ncmsa",
+            "HTd/Aamsa"
+          ],
           "bronwoorden": [
+            "וְ/הַ/כֹּהֵ֣ן",
             "הַ/גָּד֔וֹל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 12:10",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               8
             ]
-          },
-          "anker": "hogepriester",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "הַגָּדוֹל ('de grote') gaat op in de samenstelling 'hogepriester' en is niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "bonden",
@@ -11576,10 +11565,13 @@
           }
         },
         {
-          "tekst": "verbintenis",
+          "tekst": "samenzwering",
           "voorkomen": 1,
           "strongs": [
             "H7195"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "קָ֑שֶׁר"
@@ -11590,13 +11582,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 12:20",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]

@@ -2499,56 +2499,39 @@
           "tekst": "navolgden",
           "voorkomen": 1,
           "strongs": [
-            "H3212"
-          ],
-          "bronwoorden": [
-            "וַ/יֵּלְכ֖וּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
-            "referentie": "JDG 9:4",
-            "bronindices": [
-              11
-            ]
-          },
-          "gids_strongs": [
-            "H1980"
-          ],
-          "toelichting": "MorphHB leest H3212; de gids geeft H1980."
-        },
-        {
-          "tekst": "hem",
-          "voorkomen": 2,
-          "strongs": [
+            "H3212",
             "H310"
           ],
+          "morfologie": [
+            "HC/Vqw3mp",
+            "HR/Sp3ms"
+          ],
           "bronwoorden": [
+            "וַ/יֵּלְכ֖וּ",
             "אַחֲרָֽי/ו"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
             "referentie": "JDG 9:4",
+            "grondindices": [
+              13,
+              14
+            ],
             "bronindices": [
+              11,
               12
             ]
           }
@@ -19569,37 +19552,72 @@
       ],
       "woordnummers": [
         {
-          "tekst": "voer verder voort",
+          "tekst": "voort",
           "voorkomen": 1,
           "strongs": [
-            "H3254",
-            "H5750"
+            "H3254"
+          ],
+          "morfologie": [
+            "HC/Vhw3ms"
           ],
           "bronwoorden": [
-            "וַ/יֹּ֨סֶף",
-            "ע֣וֹד"
+            "וַ/יֹּ֨סֶף"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
             "referentie": "JDG 9:37",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "verder",
+          "voorkomen": 1,
+          "strongs": [
+            "H5750"
+          ],
+          "morfologie": [
+            "HD"
+          ],
+          "bronwoorden": [
+            "ע֣וֹד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
+            "referentie": "JDG 9:37",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
               4
             ]
-          },
-          "toelichting": "Eén Nederlandse uitdrukking dekt וַיֹּסֶף (H3254) en עוֹד (H5750)."
+          }
         },
         {
           "tekst": "Gaäl",

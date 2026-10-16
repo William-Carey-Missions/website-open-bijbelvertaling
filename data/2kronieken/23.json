@@ -889,9 +889,12 @@
         },
         {
           "tekst": "zich",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H5973"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "עִמּ֥/וֹ"
@@ -902,18 +905,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 23:1",
+            "grondindices": [
+              25
+            ],
             "bronindices": [
               7
             ]
-          },
-          "toelichting": "עִמּוֹ (H5973, 'met hem') is als 'met zich' weergegeven."
+          }
         },
         {
           "tekst": "verbond",
@@ -2020,9 +2026,12 @@
         },
         {
           "tekst": "van",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַל"
@@ -2033,13 +2042,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 23:3",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               16
             ]
@@ -2322,36 +2335,69 @@
           "tekst": "derde",
           "voorkomen": 1,
           "strongs": [
-            "H7992",
-            "H4480"
+            "H7992"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
-            "הַ/שְּׁלִשִׁ֨ית",
-            "מִ/כֶּ֜ם"
+            "הַ/שְּׁלִשִׁ֨ית"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 23:4",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
-          },
-          "gids_strongs": [
-            "H7992"
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 2,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "'een derde deel van u' dekt הַשְּׁלִשִׁית מִכֶּם (H7992 en H4480); de gids heeft geen token voor מִכֶּם."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֜ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 23:4",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
+            ]
+          }
         },
         {
           "tekst": "ingaan",
@@ -10904,33 +10950,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Jojada",
-          "voorkomen": 1,
-          "strongs": [
-            "H3077"
-          ],
-          "bronwoorden": [
-            "יְהוֹיָדָ֨ע"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 23:18",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "bestelde",
           "voorkomen": 1,
           "strongs": [
@@ -10957,6 +10976,33 @@
             ]
           },
           "toelichting": "וַיָּשֶׂם (H7760, 'hij stelde') is als 'bestelde' weergegeven."
+        },
+        {
+          "tekst": "Jojada",
+          "voorkomen": 1,
+          "strongs": [
+            "H3077"
+          ],
+          "bronwoorden": [
+            "יְהוֹיָדָ֨ע"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 23:18",
+            "bronindices": [
+              0
+            ]
+          }
         },
         {
           "tekst": "ambten",
@@ -11203,9 +11249,12 @@
         },
         {
           "tekst": "in",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַל"
@@ -11216,13 +11265,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 23:18",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]

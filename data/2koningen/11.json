@@ -3057,36 +3057,69 @@
           "tekst": "derde",
           "voorkomen": 1,
           "strongs": [
-            "H7992",
-            "H4480"
+            "H7992"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
-            "הַ/שְּׁלִשִׁ֤ית",
-            "מִ/כֶּם֙"
+            "הַ/שְּׁלִשִׁ֤ית"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 11:5",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "gids_strongs": [
-            "H7992"
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 2,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "מִכֶּם ('van u') heeft geen eigen gidstoken en is samengevoegd met הַשְּׁלִשִׁית ('het derde deel')."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
+            "referentie": "2KI 11:5",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         },
         {
           "tekst": "ingaan",
@@ -3863,6 +3896,40 @@
             "referentie": "2KI 11:7",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "בָּ/כֶ֔ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
+            "referentie": "2KI 11:7",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -6194,29 +6261,42 @@
           "tekst": "rechterzijde",
           "voorkomen": 1,
           "strongs": [
-            "H3802"
+            "H3802",
+            "H3233"
+          ],
+          "morfologie": [
+            "HR/Ncfsc",
+            "HTd/Aafsa"
           ],
           "bronwoorden": [
-            "מִ/כֶּ֨תֶף"
+            "מִ/כֶּ֨תֶף",
+            "הַ/יְמָנִית֙"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 11:11",
+            "grondindices": [
+              5,
+              7
+            ],
             "bronindices": [
-              11
+              11,
+              10
             ]
-          },
-          "toelichting": "כֶּתֶף ('zijde') is gekoppeld aan de samenstelling 'rechterzijde'."
+          }
         },
         {
           "tekst": "huis",
@@ -6244,37 +6324,6 @@
               12
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H3233"
-          ],
-          "bronwoorden": [
-            "הַ/יְמָנִית֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
-            "referentie": "2KI 11:11",
-            "bronindices": [
-              10
-            ]
-          },
-          "anker": "rechterzijde",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "הַיְמָנִית ('de rechter-') gaat op in de samenstelling 'rechterzijde' en is niet afzonderlijk weergegeven."
         },
         {
           "tekst": "tot",
@@ -6307,29 +6356,42 @@
           "tekst": "linkerzijde",
           "voorkomen": 1,
           "strongs": [
-            "H3802"
+            "H3802",
+            "H8042"
+          ],
+          "morfologie": [
+            "HNcfsc",
+            "HTd/Aafsa"
           ],
           "bronwoorden": [
-            "כֶּ֤תֶף"
+            "כֶּ֤תֶף",
+            "הַ/שְּׂמָאלִ֔ית"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 11:11",
+            "grondindices": [
+              9,
+              11
+            ],
             "bronindices": [
-              15
+              15,
+              14
             ]
-          },
-          "toelichting": "כֶּתֶף ('zijde') is gekoppeld aan de samenstelling 'linkerzijde'."
+          }
         },
         {
           "tekst": "huis",
@@ -6357,37 +6419,6 @@
               16
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8042"
-          ],
-          "bronwoorden": [
-            "הַ/שְּׂמָאלִ֔ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
-            "referentie": "2KI 11:11",
-            "bronindices": [
-              14
-            ]
-          },
-          "anker": "linkerzijde",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "הַשְּׂמָאלִית ('de linker-') gaat op in de samenstelling 'linkerzijde' en is niet afzonderlijk weergegeven."
         },
         {
           "tekst": "altaar",

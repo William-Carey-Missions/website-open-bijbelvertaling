@@ -741,10 +741,13 @@
           }
         },
         {
-          "tekst": "mat",
+          "tekst": "meette",
           "voorkomen": 1,
           "strongs": [
             "H4058"
+          ],
+          "morfologie": [
+            "HC/Vpw3ms/Sp3mp"
           ],
           "bronwoorden": [
             "וַֽ/יְמַדְּדֵ֤/ם"
@@ -755,13 +758,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 8:2",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               6
             ]
@@ -822,10 +829,13 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
+          "tekst": "hen",
+          "voorkomen": 2,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אוֹתָ֣/ם"
@@ -836,21 +846,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 8:2",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               4
             ]
-          },
-          "anker": "aarde",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אוֹתָם is hier niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "aarde",
@@ -880,10 +890,13 @@
           }
         },
         {
-          "tekst": "mat",
+          "tekst": "meette",
           "voorkomen": 2,
           "strongs": [
             "H4058"
+          ],
+          "morfologie": [
+            "HC/Vpw3ms"
           ],
           "bronwoorden": [
             "וַ/יְמַדֵּ֤ד"
@@ -894,13 +907,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 8:2",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -5168,37 +5185,72 @@
           }
         },
         {
-          "tekst": "vanwege dat",
+          "tekst": "vanwege",
           "voorkomen": 1,
           "strongs": [
-            "H5921",
-            "H834"
+            "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
-            "עַל֩",
-            "אֲשֶׁ֨ר"
+            "עַל֩"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 8:10",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
-              11,
+              11
+            ]
+          }
+        },
+        {
+          "tekst": "dat",
+          "voorkomen": 1,
+          "strongs": [
+            "H834"
+          ],
+          "morfologie": [
+            "HTr"
+          ],
+          "bronwoorden": [
+            "אֲשֶׁ֨ר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 8:10",
+            "grondindices": [
+              13
+            ],
+            "bronindices": [
               12
             ]
-          },
-          "toelichting": "עַל אֲשֶׁר ('op grond waarvan') is in het Nederlands de woordgroep 'vanwege dat'; beide grondwoorden zijn daarom in één koppeling opgenomen."
+          }
         },
         {
           "tekst": "gekrijgd",
@@ -6346,10 +6398,13 @@
           }
         },
         {
-          "tekst": "Ammons",
+          "tekst": "Ammon",
           "voorkomen": 1,
           "strongs": [
             "H5983"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "עַמּ֔וֹן"
@@ -6360,13 +6415,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 8:12",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]

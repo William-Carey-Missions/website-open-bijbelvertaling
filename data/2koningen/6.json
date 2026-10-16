@@ -2439,10 +2439,15 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "plaats",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -2453,13 +2458,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 6:6",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -2993,10 +3002,13 @@
           }
         },
         {
-          "tekst": "voerde",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "הָיָ֥ה"
@@ -3007,24 +3019,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 6:8",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
-          },
-          "toelichting": "Het hulpwerkwoord הָיָה ('was') is met נִלְחָם samen weergegeven als 'voerde oorlog'; de koppeling ligt op 'voerde'."
+          }
         },
         {
-          "tekst": "oorlog",
+          "tekst": "voerde oorlog",
           "voorkomen": 1,
           "strongs": [
             "H3898"
+          ],
+          "morfologie": [
+            "HVNrmsa"
           ],
           "bronwoorden": [
             "נִלְחָ֖ם"
@@ -3035,13 +3053,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 6:8",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -4957,36 +4979,69 @@
           "tekst": "wie",
           "voorkomen": 1,
           "strongs": [
-            "H4310",
-            "H7945"
+            "H4310"
+          ],
+          "morfologie": [
+            "HTi"
           ],
           "bronwoorden": [
-            "מִ֥י",
-            "מִ/שֶּׁ/לָּ֖/נוּ"
+            "מִ֥י"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 6:11",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
-              14
+              15
             ]
-          },
-          "gids_strongs": [
-            "H4310"
+          }
+        },
+        {
+          "tekst": "onzen",
+          "voorkomen": 1,
+          "strongs": [
+            "H7945"
           ],
-          "toelichting": "מִשֶּׁלָּנוּ ('wie van de onzen') heeft geen eigen gidstoken en is samengevoegd met מִי ('wie')."
+          "morfologie": [
+            "HR/Tr/R/Sp1cp"
+          ],
+          "bronwoorden": [
+            "מִ/שֶּׁ/לָּ֖/נוּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
+            "referentie": "2KI 6:11",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
+              16
+            ]
+          }
         },
         {
           "tekst": "voor",
@@ -12706,60 +12761,42 @@
           "tekst": "ezelskop",
           "voorkomen": 1,
           "strongs": [
-            "H7218"
-          ],
-          "bronwoorden": [
-            "רֹאשׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
-            "referentie": "2KI 6:25",
-            "bronindices": [
-              9
-            ]
-          },
-          "toelichting": "רֹאשׁ ('kop') is gekoppeld aan de samenstelling 'ezelskop'."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H7218",
             "H2543"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcbsa"
+          ],
           "bronwoorden": [
+            "רֹאשׁ",
             "חֲמוֹר֙"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "9C7AC50F3A645E0FD13CA440F2CB1D8DD4FE7C534C9A7D8EDB74493329A51CBE",
             "referentie": "2KI 6:25",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               8
             ]
-          },
-          "anker": "ezelskop",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "חֲמוֹר ('ezel') gaat op in de samenstelling 'ezelskop' en is niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "tachtig",

@@ -3614,11 +3614,15 @@
           }
         },
         {
-          "tekst": "Mijn bedehuis",
+          "tekst": "bedehuis",
           "voorkomen": 1,
           "strongs": [
             "H1004",
             "H8605"
+          ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcfsc/Sp1cs"
           ],
           "bronwoorden": [
             "בְּ/בֵ֣ית",
@@ -3632,13 +3636,18 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 56:7",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
               5,
               6
@@ -4309,10 +4318,13 @@
           }
         },
         {
-          "tekst": "tot hem verzameld",
+          "tekst": "verzameld",
           "voorkomen": 1,
           "strongs": [
             "H6908"
+          ],
+          "morfologie": [
+            "HR/VNrmpc/Sp3ms"
           ],
           "bronwoorden": [
             "לְ/נִקְבָּצָֽי/ו"
@@ -4323,13 +4335,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 56:8",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -6157,10 +6173,13 @@
           }
         },
         {
-          "tekst": "treffelijker",
+          "tekst": "voortreffelijker",
           "voorkomen": 1,
           "strongs": [
             "H3499"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "יֶ֥תֶר"
@@ -6171,13 +6190,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 56:12",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]

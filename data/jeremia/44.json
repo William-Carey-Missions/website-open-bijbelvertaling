@@ -10761,33 +10761,69 @@
           }
         },
         {
-          "tekst": "doen",
+          "tekst": "geheel",
           "voorkomen": 1,
           "strongs": [
-            "H6213",
             "H6213"
           ],
+          "morfologie": [
+            "HVqa"
+          ],
           "bronwoorden": [
-            "עָשֹׂ֨ה",
-            "נַעֲשֶׂ֜ה"
+            "עָשֹׂ֨ה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:17",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              1,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "doen",
+          "voorkomen": 1,
+          "strongs": [
+            "H6213"
+          ],
+          "morfologie": [
+            "HVqi1cp"
+          ],
+          "bronwoorden": [
+            "נַעֲשֶׂ֜ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 44:17",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               2
             ]
           }
@@ -10851,59 +10887,42 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H1697"
-          ],
-          "bronwoorden": [
-            "הַ/דָּבָ֣ר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
-            "referentie": "JER 44:17",
-            "bronindices": [
-              5
-            ]
-          },
-          "anker": "al",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "H1697 is in het Nederlandse ‘al wat’ niet afzonderlijk lexicaal weergegeven."
-        },
-        {
           "tekst": "wat",
           "voorkomen": 1,
           "strongs": [
+            "H1697",
             "H834"
           ],
+          "morfologie": [
+            "HTd/Ncmsa",
+            "HTr"
+          ],
           "bronwoorden": [
+            "הַ/דָּבָ֣ר",
             "אֲשֶׁר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:17",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              5,
               6
             ]
           }
@@ -11684,10 +11703,13 @@
           }
         },
         {
-          "tekst": "toen af",
+          "tekst": "toen",
           "voorkomen": 1,
           "strongs": [
             "H227"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
             "אָ֡ז"
@@ -11698,13 +11720,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:18",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -12988,10 +13014,15 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "hem",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹת֛/וֹ"
@@ -13002,13 +13033,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:20",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -15104,59 +15139,42 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H5921"
-          ],
-          "bronwoorden": [
-            "עַל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
-            "referentie": "JER 44:23",
-            "bronindices": [
-              12
-            ]
-          },
-          "anker": "u",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "H5921 is relationeel in ‘u ... overkomen’ weergegeven."
-        },
-        {
           "tekst": "daarom",
           "voorkomen": 1,
           "strongs": [
+            "H5921",
             "H3651"
           ],
+          "morfologie": [
+            "HR",
+            "HTm"
+          ],
           "bronwoorden": [
+            "עַל",
             "כֵּ֞ן"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:23",
+            "grondindices": [
+              15,
+              16
+            ],
             "bronindices": [
+              12,
               13
             ]
           }
@@ -16501,33 +16519,69 @@
           }
         },
         {
-          "tekst": "geheel houden",
+          "tekst": "geheel",
           "voorkomen": 1,
           "strongs": [
-            "H6213",
             "H6213"
           ],
+          "morfologie": [
+            "HVqa"
+          ],
           "bronwoorden": [
-            "עָשֹׂ֨ה",
-            "נַעֲשֶׂ֜ה"
+            "עָשֹׂ֨ה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:25",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              14,
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "houden",
+          "voorkomen": 1,
+          "strongs": [
+            "H6213"
+          ],
+          "morfologie": [
+            "HVqi1cp"
+          ],
+          "bronwoorden": [
+            "נַעֲשֶׂ֜ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 44:25",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
               15
             ]
           }
@@ -16780,33 +16834,69 @@
           }
         },
         {
-          "tekst": "volkomen bevestigd",
+          "tekst": "volkomen",
           "voorkomen": 1,
           "strongs": [
-            "H6965",
             "H6965"
           ],
+          "morfologie": [
+            "HVha"
+          ],
           "bronwoorden": [
-            "הָקֵ֤ים",
-            "תָּקִ֨ימְנָה֙"
+            "הָקֵ֤ים"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:25",
+            "grondindices": [
+              26
+            ],
             "bronindices": [
-              25,
+              25
+            ]
+          }
+        },
+        {
+          "tekst": "bevestigd",
+          "voorkomen": 1,
+          "strongs": [
+            "H6965"
+          ],
+          "morfologie": [
+            "HVhi2fp"
+          ],
+          "bronwoorden": [
+            "תָּקִ֨ימְנָה֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 44:25",
+            "grondindices": [
+              27
+            ],
+            "bronindices": [
               26
             ]
           }
@@ -16870,33 +16960,69 @@
           }
         },
         {
-          "tekst": "volkomen gehouden",
-          "voorkomen": 1,
+          "tekst": "volkomen",
+          "voorkomen": 2,
           "strongs": [
-            "H6213",
             "H6213"
           ],
+          "morfologie": [
+            "HC/Vqa"
+          ],
           "bronwoorden": [
-            "וְ/עָשֹׂ֥ה",
-            "תַעֲשֶׂ֖ינָה"
+            "וְ/עָשֹׂ֥ה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:25",
+            "grondindices": [
+              30
+            ],
             "bronindices": [
-              29,
+              29
+            ]
+          }
+        },
+        {
+          "tekst": "gehouden",
+          "voorkomen": 1,
+          "strongs": [
+            "H6213"
+          ],
+          "morfologie": [
+            "HVqi2fp"
+          ],
+          "bronwoorden": [
+            "תַעֲשֶׂ֖ינָה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 44:25",
+            "grondindices": [
+              31
+            ],
+            "bronindices": [
               30
             ]
           }
@@ -19601,10 +19727,13 @@
           }
         },
         {
-          "tekst": "bezoeking zal doen",
+          "tekst": "bezoeking",
           "voorkomen": 1,
           "strongs": [
             "H6485"
+          ],
+          "morfologie": [
+            "HVqrmsa"
           ],
           "bronwoorden": [
             "פֹקֵ֥ד"
@@ -19615,13 +19744,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:29",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               4
             ]
@@ -19817,33 +19950,69 @@
           }
         },
         {
-          "tekst": "bestaan zullen",
+          "tekst": "zeker",
           "voorkomen": 1,
           "strongs": [
-            "H6965",
             "H6965"
           ],
+          "morfologie": [
+            "HVqa"
+          ],
           "bronwoorden": [
-            "ק֨וֹם",
-            "יָק֧וּמוּ"
+            "ק֨וֹם"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:29",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              16,
+              16
+            ]
+          }
+        },
+        {
+          "tekst": "bestaan",
+          "voorkomen": 1,
+          "strongs": [
+            "H6965"
+          ],
+          "morfologie": [
+            "HVqi3mp"
+          ],
+          "bronwoorden": [
+            "יָק֧וּמוּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 44:29",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
               17
             ]
           }
@@ -20278,8 +20447,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Farao",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -20290,58 +20464,89 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:30",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               9
             ]
-          },
-          "anker": "Farao Hofra",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdendvoorwerpspartikel heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
-          "tekst": "Farao Hofra",
+          "tekst": "Farao",
           "voorkomen": 1,
           "strongs": [
-            "H6548",
             "H6548"
           ],
+          "morfologie": [
+            "HNp"
+          ],
           "bronwoorden": [
-            "פַּרְעֹ֨ה",
-            "חָפְרַ֤ע"
+            "פַּרְעֹ֨ה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 44:30",
-            "bronindices": [
-              5,
+            "grondindices": [
               6
+            ],
+            "bronindices": [
+              5
             ]
-          },
-          "gids_strongs": [
-            "H6547",
+          }
+        },
+        {
+          "tekst": "Hofra",
+          "voorkomen": 1,
+          "strongs": [
             "H6548"
           ],
-          "toelichting": "MorphHB voert beide naamsegmenten onder H6548; de gids voert H6547+H6548."
+          "morfologie": [
+            "HNp"
+          ],
+          "bronwoorden": [
+            "חָפְרַ֤ע"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 44:30",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              6
+            ]
+          }
         },
         {
           "tekst": "koning",

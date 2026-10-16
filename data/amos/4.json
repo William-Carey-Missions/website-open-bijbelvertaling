@@ -2332,10 +2332,13 @@
           "toelichting": "בְּנֵי יִשְׂרָאֵל is één begrip uit twee grondtokens (H1121 en H3478); het hele Nederlandse woord 'Israëlieten' draagt beide nummers."
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻ֖ם"
@@ -2346,13 +2349,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1438EB17357390C6C1E686E84C05F2ECE26E3E1C0FFB03D89E3DC6DDCD05C0D2",
             "referentie": "AMO 4:5",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -3227,36 +3234,69 @@
           "tekst": "geweerd",
           "voorkomen": 1,
           "strongs": [
-            "H4513",
-            "H4480"
+            "H4513"
+          ],
+          "morfologie": [
+            "HVqp1cs"
           ],
           "bronwoorden": [
-            "מָנַ֨עְתִּי",
-            "מִ/כֶּ֜ם"
+            "מָנַ֨עְתִּי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1438EB17357390C6C1E686E84C05F2ECE26E3E1C0FFB03D89E3DC6DDCD05C0D2",
             "referentie": "AMO 4:7",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
-          },
-          "gids_strongs": [
-            "H4513"
+          }
+        },
+        {
+          "tekst": "van",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "Het grondwoord מִכֶּם (H4480, 'van u') heeft geen eigen token in de uitlijngids; het is bij het voorgaande מָנַעְתִּי gevoegd zodat het traceerbaar blijft."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֜ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "1438EB17357390C6C1E686E84C05F2ECE26E3E1C0FFB03D89E3DC6DDCD05C0D2",
+            "referentie": "AMO 4:7",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              3
+            ]
+          }
         },
         {
           "tekst": "",

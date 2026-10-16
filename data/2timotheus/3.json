@@ -8446,35 +8446,25 @@
           }
         },
         {
-          "tekst": "van kinds af",
+          "tekst": "van",
           "voorkomen": 1,
           "strongs": [
-            "G575",
-            "G1025"
+            "G575"
           ],
           "lemma_strongs": [
-            "G575",
-            "G1025"
+            "G575"
           ],
           "morfologie": [
-            "PREP",
-            "N-GSN"
+            "PREP"
           ],
           "bronwoorden": [
-            "απο",
-            "βρεφους"
+            "απο"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -8484,49 +8474,77 @@
             "versie": "2TI.UTR",
             "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
             "referentie": "2TIM 3:15",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "kinds",
+          "voorkomen": 1,
+          "strongs": [
+            "G1025"
+          ],
+          "lemma_strongs": [
+            "G1025"
+          ],
+          "morfologie": [
+            "N-GSN"
+          ],
+          "bronwoorden": [
+            "βρεφους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "2TI.UTR",
+            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
+            "referentie": "2TIM 3:15",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
               3
             ]
           }
         },
         {
-          "tekst": "de heilige Schriften",
+          "tekst": "Schriften",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2413",
             "G1121"
           ],
           "lemma_strongs": [
             "G3588",
-            "G2413",
             "G1121"
           ],
           "morfologie": [
             "T-APN",
-            "A-APN",
             "N-APN"
           ],
           "bronwoorden": [
             "τα",
-            "ιερα",
             "γραμματα"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -8536,10 +8554,50 @@
             "versie": "2TI.UTR",
             "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
             "referentie": "2TIM 3:15",
+            "grondindices": [
+              4,
+              6
+            ],
             "bronindices": [
               4,
-              5,
               6
+            ]
+          }
+        },
+        {
+          "tekst": "heilige",
+          "voorkomen": 1,
+          "strongs": [
+            "G2413"
+          ],
+          "lemma_strongs": [
+            "G2413"
+          ],
+          "morfologie": [
+            "A-APN"
+          ],
+          "bronwoorden": [
+            "ιερα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "2TI.UTR",
+            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
+            "referentie": "2TIM 3:15",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
             ]
           }
         },
@@ -8618,6 +8676,43 @@
           }
         },
         {
+          "tekst": "kunnen",
+          "voorkomen": 1,
+          "strongs": [
+            "G1410"
+          ],
+          "lemma_strongs": [
+            "G1410"
+          ],
+          "morfologie": [
+            "V-PNP-APN"
+          ],
+          "bronwoorden": [
+            "δυναμενα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5740"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "2TI.UTR",
+            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
+            "referentie": "2TIM 3:15",
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
           "tekst": "u",
           "voorkomen": 2,
           "strongs": [
@@ -8688,43 +8783,6 @@
             "referentie": "2TIM 3:15",
             "bronindices": [
               11
-            ]
-          }
-        },
-        {
-          "tekst": "kunnen",
-          "voorkomen": 1,
-          "strongs": [
-            "G1410"
-          ],
-          "lemma_strongs": [
-            "G1410"
-          ],
-          "morfologie": [
-            "V-PNP-APN"
-          ],
-          "bronwoorden": [
-            "δυναμενα"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            "G5740"
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "2TI.UTR",
-            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
-            "referentie": "2TIM 3:15",
-            "bronindices": [
-              9
             ]
           }
         },
@@ -9898,96 +9956,6 @@
           }
         },
         {
-          "tekst": "de mens",
-          "voorkomen": 1,
-          "strongs": [
-            "G3588",
-            "G444"
-          ],
-          "lemma_strongs": [
-            "G3588",
-            "G444"
-          ],
-          "morfologie": [
-            "T-NSM",
-            "N-NSM"
-          ],
-          "bronwoorden": [
-            "ο",
-            "ανθρωπος"
-          ],
-          "transliteraties": [
-            "",
-            ""
-          ],
-          "glossen": [
-            "",
-            ""
-          ],
-          "tvm": [
-            null,
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "2TI.UTR",
-            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
-            "referentie": "2TIM 3:17",
-            "bronindices": [
-              3,
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "van God",
-          "voorkomen": 1,
-          "strongs": [
-            "G3588",
-            "G2316"
-          ],
-          "lemma_strongs": [
-            "G3588",
-            "G2316"
-          ],
-          "morfologie": [
-            "T-GSM",
-            "N-GSM"
-          ],
-          "bronwoorden": [
-            "του",
-            "θεου"
-          ],
-          "transliteraties": [
-            "",
-            ""
-          ],
-          "glossen": [
-            "",
-            ""
-          ],
-          "tvm": [
-            null,
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "2TI.UTR",
-            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
-            "referentie": "2TIM 3:17",
-            "bronindices": [
-              4,
-              5
-            ]
-          }
-        },
-        {
           "tekst": "volmaakt",
           "voorkomen": 1,
           "strongs": [
@@ -10058,6 +10026,96 @@
             "referentie": "2TIM 3:17",
             "bronindices": [
               2
+            ]
+          }
+        },
+        {
+          "tekst": "de mens",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G444"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G444"
+          ],
+          "morfologie": [
+            "T-NSM",
+            "N-NSM"
+          ],
+          "bronwoorden": [
+            "ο",
+            "ανθρωπος"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "tvm": [
+            null,
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "2TI.UTR",
+            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
+            "referentie": "2TIM 3:17",
+            "bronindices": [
+              3,
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "God",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G2316"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2316"
+          ],
+          "morfologie": [
+            "T-GSM",
+            "N-GSM"
+          ],
+          "bronwoorden": [
+            "του",
+            "θεου"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "2TI.UTR",
+            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
+            "referentie": "2TIM 3:17",
+            "grondindices": [
+              4,
+              5
+            ],
+            "bronindices": [
+              4,
+              5
             ]
           }
         },
@@ -10136,43 +10194,6 @@
           }
         },
         {
-          "tekst": "goed",
-          "voorkomen": 1,
-          "strongs": [
-            "G18"
-          ],
-          "lemma_strongs": [
-            "G18"
-          ],
-          "morfologie": [
-            "A-ASN"
-          ],
-          "bronwoorden": [
-            "αγαθον"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "2TI.UTR",
-            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
-            "referentie": "2TIM 3:17",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "werk",
           "voorkomen": 1,
           "strongs": [
@@ -10206,6 +10227,43 @@
             "referentie": "2TIM 3:17",
             "bronindices": [
               9
+            ]
+          }
+        },
+        {
+          "tekst": "goed",
+          "voorkomen": 1,
+          "strongs": [
+            "G18"
+          ],
+          "lemma_strongs": [
+            "G18"
+          ],
+          "morfologie": [
+            "A-ASN"
+          ],
+          "bronwoorden": [
+            "αγαθον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "2TI.UTR",
+            "sha256": "D1EFC2A29B89527D134FD84F39688F30A0740A7DA3A5A473EF3731F8278A73B0",
+            "referentie": "2TIM 3:17",
+            "bronindices": [
+              10
             ]
           }
         },

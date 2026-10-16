@@ -2893,57 +2893,42 @@
           "tekst": "driehonderd",
           "voorkomen": 1,
           "strongs": [
-            "H7969"
-          ],
-          "bronwoorden": [
-            "שְׁלֹשׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 4:5",
-            "bronindices": [
-              4
-            ]
-          },
-          "toelichting": "שְׁלֹשׁ מֵאוֹת is in het Nederlands tot één woord 'driehonderd' samengetrokken; dit is het שָׁלֹשׁ-deel (H7969)."
-        },
-        {
-          "tekst": "driehonderd",
-          "voorkomen": 1,
-          "strongs": [
+            "H7969",
             "H3967"
           ],
+          "morfologie": [
+            "HAcfsa",
+            "HAcbpa"
+          ],
           "bronwoorden": [
+            "שְׁלֹשׁ",
             "מֵא֥וֹת"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:5",
+            "grondindices": [
+              8,
+              9
+            ],
             "bronindices": [
+              4,
               5
             ]
-          },
-          "toelichting": "Dit is het מֵאָה-deel (H3967) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "negentig",
@@ -3439,57 +3424,42 @@
           "tekst": "rechterzijde",
           "voorkomen": 1,
           "strongs": [
-            "H6654"
-          ],
-          "bronwoorden": [
-            "צִדְּ/ךָ֤"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 4:6",
-            "bronindices": [
-              7
-            ]
-          },
-          "toelichting": "צִדְּךָ הַיְמִינִי is in het Nederlands tot één woord 'rechterzijde' samengetrokken; dit is het צַד-deel (H6654)."
-        },
-        {
-          "tekst": "rechterzijde",
-          "voorkomen": 1,
-          "strongs": [
+            "H6654",
             "H3227"
           ],
+          "morfologie": [
+            "HNcmsc/Sp2ms",
+            "HTd/Aamsa"
+          ],
           "bronwoorden": [
+            "צִדְּ/ךָ֤",
             "ה/ימיני"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:6",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              7,
               6
             ]
-          },
-          "toelichting": "Dit is het ketiv הַיְמִינִי (H3227) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "tweede",
@@ -3766,10 +3736,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "elke",
           "voorkomen": 1,
           "strongs": [
             "H3117"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "י֥וֹם"
@@ -3780,27 +3753,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:6",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
-          },
-          "anker": "dag",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuws herhaalt יוֹם לַשָּׁנָה; het Nederlands geeft 'elke dag voor elk jaar' eenmaal weer, dus staat deze koppeling na het woord."
+          }
         },
         {
-          "tekst": "",
+          "tekst": "elk",
           "voorkomen": 1,
           "strongs": [
             "H8141"
+          ],
+          "morfologie": [
+            "HRd/Ncfsa"
           ],
           "bronwoorden": [
             "לַ/שָּׁנָ֖ה"
@@ -3811,21 +3787,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:6",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
-              19
+              18
             ]
-          },
-          "anker": "jaar",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuws herhaalt יוֹם לַשָּׁנָה; het Nederlands geeft 'elke dag voor elk jaar' eenmaal weer, dus staat deze koppeling na het woord."
+          }
         },
         {
           "tekst": "gegeven",
@@ -5896,10 +5872,13 @@
           }
         },
         {
-          "tekst": "daags",
+          "tekst": "dag",
           "voorkomen": 1,
           "strongs": [
             "H3117"
+          ],
+          "morfologie": [
+            "HRd/Ncmsa"
           ],
           "bronwoorden": [
             "לַ/יּ֑וֹם"
@@ -5910,13 +5889,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:10",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -8164,57 +8147,42 @@
           "tekst": "rundermest",
           "voorkomen": 1,
           "strongs": [
-            "H6832"
-          ],
-          "bronwoorden": [
-            "צפועי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 4:15",
-            "bronindices": [
-              6
-            ]
-          },
-          "toelichting": "צְפִיעֵי הַבָּקָר is in het Nederlands tot één woord 'rundermest' samengetrokken; dit is het ketiv צפועי (H6832)."
-        },
-        {
-          "tekst": "rundermest",
-          "voorkomen": 1,
-          "strongs": [
+            "H6832",
             "H1241"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HTd/Ncbsa"
+          ],
           "bronwoorden": [
+            "צפועי",
             "הַ/בָּקָ֔ר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:15",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               5
             ]
-          },
-          "toelichting": "Dit is het בָּקָר-deel (H1241) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "voor",
@@ -8244,60 +8212,45 @@
           }
         },
         {
-          "tekst": "mensendrek",
+          "tekst": "mensenpoep",
           "voorkomen": 1,
           "strongs": [
-            "H1561"
-          ],
-          "bronwoorden": [
-            "גֶּלְלֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 4:15",
-            "bronindices": [
-              9
-            ]
-          },
-          "toelichting": "גֶּלְלֵי הָאָדָם is in het Nederlands tot één woord 'mensendrek' samengetrokken; dit is het גֵּל-deel (H1561)."
-        },
-        {
-          "tekst": "mensendrek",
-          "voorkomen": 1,
-          "strongs": [
+            "H1561",
             "H120"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "גֶּלְלֵ֣י",
             "הָֽ/אָדָ֑ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 4:15",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               8
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "bereiden",

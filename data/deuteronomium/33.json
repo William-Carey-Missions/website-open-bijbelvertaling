@@ -6787,12 +6787,12 @@
         },
         {
           "tekst": "hoornen",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H7161"
           ],
           "bronwoorden": [
-            "וְ/קַרְנֵ֤י"
+            "קַרְנָ֔י/ו"
           ],
           "transliteraties": [
             ""
@@ -6808,10 +6808,9 @@
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 33:17",
             "bronindices": [
-              3
+              4
             ]
-          },
-          "toelichting": "De grondtekst heeft eerst de status constructus qarnee ('hoornen van de eenhoorn') en daarna qarnaw ('zijn hoornen'); de Nederlandse woordvolgorde is omgekeerd."
+          }
         },
         {
           "tekst": "eenhoorn",
@@ -6842,12 +6841,12 @@
         },
         {
           "tekst": "hoornen",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H7161"
           ],
           "bronwoorden": [
-            "קַרְנָ֔י/ו"
+            "וְ/קַרְנֵ֤י"
           ],
           "transliteraties": [
             ""
@@ -6863,9 +6862,10 @@
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 33:17",
             "bronindices": [
-              4
+              3
             ]
-          }
+          },
+          "toelichting": "De grondtekst heeft eerst de status constructus qarnee ('hoornen van de eenhoorn') en daarna qarnaw ('zijn hoornen'); de Nederlandse woordvolgorde is omgekeerd."
         },
         {
           "tekst": "volken",
@@ -7003,10 +7003,13 @@
           }
         },
         {
-          "tekst": "zijn",
-          "voorkomen": 4,
+          "tekst": "Deze",
+          "voorkomen": 1,
           "strongs": [
             "H1992"
+          ],
+          "morfologie": [
+            "HC/Pp3mp"
           ],
           "bronwoorden": [
             "וְ/הֵם֙"
@@ -7017,13 +7020,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 33:17",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               11
             ]
@@ -7084,10 +7091,13 @@
           }
         },
         {
-          "tekst": "zijn",
-          "voorkomen": 5,
+          "tekst": "deze",
+          "voorkomen": 2,
           "strongs": [
             "H1992"
+          ],
+          "morfologie": [
+            "HC/Pp3mp"
           ],
           "bronwoorden": [
             "וְ/הֵ֖ם"
@@ -7098,13 +7108,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 33:17",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               14
             ]

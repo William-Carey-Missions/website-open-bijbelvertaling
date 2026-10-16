@@ -672,10 +672,15 @@
           }
         },
         {
-          "tekst": "met",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "koning",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֶת"
@@ -686,18 +691,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 6:2",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "Het lijdend-voorwerpteken we-et wordt hier met het voegwoord 'met' weergegeven."
+          }
         },
         {
           "tekst": "koning",

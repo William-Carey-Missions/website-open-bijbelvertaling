@@ -474,36 +474,35 @@
           "tekst": "zwicht",
           "voorkomen": 1,
           "strongs": [
-            "H5307",
-            "H4480"
+            "H5307"
+          ],
+          "morfologie": [
+            "HVqrmsa"
           ],
           "bronwoorden": [
-            "נֹפֵ֖ל",
-            "מִ/כֶּֽם"
+            "נֹפֵ֖ל"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 13:2",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
-              6
+              5
             ]
-          },
-          "gids_strongs": [
-            "H5307"
-          ],
-          "toelichting": "נֹפֵל ('achterstaand') en het vergelijkende מִכֶּם ('bij u vandaan') vormen samen 'ik zwicht niet voor u'; de gids heeft voor מִכֶּם geen eigen token, daarom staan beide grondwoorden onder één koppeling."
+          }
         },
         {
           "tekst": "ik",
@@ -532,6 +531,40 @@
             ]
           },
           "toelichting": "אָנֹכִי is het zelfstandige nadrukpronomen in 'ik zwicht niet voor u'."
+        },
+        {
+          "tekst": "voor",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
+            "referentie": "JOB 13:2",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         }
       ]
     },
@@ -2978,10 +3011,13 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "als",
           "voorkomen": 1,
           "strongs": [
             "H4912"
+          ],
+          "morfologie": [
+            "HNcmpc"
           ],
           "bronwoorden": [
             "מִשְׁלֵי"
@@ -2992,18 +3028,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 13:12",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "מִשְׁלֵי (H4912, 'spreuken van') is door de SV met de wortel 'gelijken' verbonden: 'zijn gelijk as'."
+          }
         },
         {
           "tekst": "as",
@@ -7113,10 +7152,13 @@
           "toelichting": "עַל ('op') draagt het tweede 'in' van dit vers, in 'in de wortelen van mijn voeten'."
         },
         {
-          "tekst": "wortelen",
+          "tekst": "wortels",
           "voorkomen": 1,
           "strongs": [
             "H8328"
+          ],
+          "morfologie": [
+            "HNcmpc"
           ],
           "bronwoorden": [
             "שָׁרְשֵׁ֥י"
@@ -7127,13 +7169,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 13:27",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               8
             ]

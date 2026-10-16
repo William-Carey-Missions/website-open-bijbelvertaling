@@ -2593,10 +2593,13 @@
       "textSV1888_html": "<sup class=\"note-marker\" data-note=\"d\">d</sup> Deze was<sup class=\"note-marker\" data-note=\"22\">22</sup> woelachtig en<sup class=\"note-marker\" data-note=\"23\">23</sup> wederstrevig, haar voeten<sup class=\"note-marker\" data-note=\"24\">24</sup> bleven in haar huis niet;",
       "woordnummers": [
         {
-          "tekst": "woelachtig",
+          "tekst": "luidruchtig",
           "voorkomen": 1,
           "strongs": [
             "H1993"
+          ],
+          "morfologie": [
+            "HVqrfsa"
           ],
           "bronwoorden": [
             "הֹמִיָּ֣ה"
@@ -2607,13 +2610,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:11",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               1
             ]
@@ -2647,10 +2654,13 @@
           }
         },
         {
-          "tekst": "wederstrevig",
+          "tekst": "opstandig",
           "voorkomen": 1,
           "strongs": [
             "H5637"
+          ],
+          "morfologie": [
+            "HC/Vqrfsa"
           ],
           "bronwoorden": [
             "וְ/סֹרָ֑רֶת"
@@ -2661,13 +2671,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:11",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -4311,10 +4325,13 @@
           "toelichting": "רָוָה is met 'dronken worden' weergegeven; het anker staat op het hoofdwoord."
         },
         {
-          "tekst": "minnen",
+          "tekst": "liefde",
           "voorkomen": 1,
           "strongs": [
             "H1730"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "דֹ֭דִים"
@@ -4325,13 +4342,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:18",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -4421,9 +4442,12 @@
         },
         {
           "tekst": "liefde",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H159"
+          ],
+          "morfologie": [
+            "HR/Ncmpa"
           ],
           "bronwoorden": [
             "בָּ/אֳהָבִֽים"
@@ -4434,13 +4458,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:18",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -4793,55 +4821,42 @@
       "textSV1888_html": "Hij heeft<sup class=\"note-marker\" data-note=\"38\">38</sup> een bundel gelds<sup class=\"note-marker\" data-note=\"39\">39</sup> in zijn hand genomen;<sup class=\"note-marker\" data-note=\"40\">40</sup> ten bestemden dage zal hij naar zijn huis komen.",
       "woordnummers": [
         {
-          "tekst": "bundel",
+          "tekst": "geldbuidel",
           "voorkomen": 1,
           "strongs": [
-            "H6872"
-          ],
-          "bronwoorden": [
-            "צְֽרוֹר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
-            "referentie": "PRO 7:20",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "gelds",
-          "voorkomen": 1,
-          "strongs": [
+            "H6872",
             "H3701"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "צְֽרוֹר",
             "הַ֭/כֶּסֶף"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:20",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              2,
               3
             ]
           }
@@ -4901,10 +4916,13 @@
           }
         },
         {
-          "tekst": "dage",
+          "tekst": "dag",
           "voorkomen": 1,
           "strongs": [
             "H3117"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "לְ/י֥וֹם"
@@ -4915,23 +4933,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:20",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               6
             ]
           }
         },
         {
-          "tekst": "bestemden",
+          "tekst": "afgesproken",
           "voorkomen": 1,
           "strongs": [
             "H3677"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "הַ֝/כֵּ֗סֶא"
@@ -4942,13 +4967,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 7:20",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               7
             ]

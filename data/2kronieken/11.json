@@ -2587,10 +2587,13 @@
           }
         },
         {
-          "tekst": "vastigheden",
+          "tekst": "vestingen",
           "voorkomen": 1,
           "strongs": [
             "H4692"
+          ],
+          "morfologie": [
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
             "לְ/מָצ֖וֹר"
@@ -2601,18 +2604,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 11:5",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "toelichting": "לְמָצוֹר (H4692, 'tot versterking') is als 'tot vastigheden' weergegeven."
+          }
         },
         {
           "tekst": "Juda",
@@ -4163,8 +4169,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "vestingen",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -4175,27 +4186,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 11:11",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "anker": "vastigheden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "vastigheden",
+          "tekst": "vestingen",
           "voorkomen": 1,
           "strongs": [
             "H4694"
+          ],
+          "morfologie": [
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "הַ/מְּצֻר֑וֹת"
@@ -4206,13 +4220,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 11:11",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]

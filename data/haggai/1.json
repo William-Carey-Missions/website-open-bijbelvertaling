@@ -2999,9 +2999,12 @@
         },
         {
           "tekst": "in",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "אֶל"
@@ -3012,13 +3015,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6EE824B15C6FA14F5E51B799CF4DAC30ACB83CC57D09121FA36EFE3785946A33",
             "referentie": "HAG 1:6",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               15
             ]
@@ -4142,61 +4149,51 @@
           "tekst": "Waarom",
           "voorkomen": 1,
           "strongs": [
-            "H3282"
-          ],
-          "bronwoorden": [
-            "יַ֣עַן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6EE824B15C6FA14F5E51B799CF4DAC30ACB83CC57D09121FA36EFE3785946A33",
-            "referentie": "HAG 1:9",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "dat",
-          "voorkomen": 1,
-          "strongs": [
+            "H3282",
             "H4100"
           ],
+          "morfologie": [
+            "HC",
+            "HTi"
+          ],
           "bronwoorden": [
+            "יַ֣עַן",
             "מֶ֗ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6EE824B15C6FA14F5E51B799CF4DAC30ACB83CC57D09121FA36EFE3785946A33",
             "referentie": "HAG 1:9",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              8,
               9
             ]
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם֙"
@@ -4207,13 +4204,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6EE824B15C6FA14F5E51B799CF4DAC30ACB83CC57D09121FA36EFE3785946A33",
             "referentie": "HAG 1:9",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               10
             ]

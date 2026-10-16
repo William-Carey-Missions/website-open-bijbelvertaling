@@ -4269,6 +4269,33 @@
       ],
       "woordnummers": [
         {
+          "tekst": "Daar",
+          "voorkomen": 1,
+          "strongs": [
+            "H8033"
+          ],
+          "bronwoorden": [
+            "וְ/שָׁ֡ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 21:7",
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
           "tekst": "man",
           "voorkomen": 1,
           "strongs": [
@@ -4292,33 +4319,6 @@
             "referentie": "1SA 21:7",
             "bronindices": [
               0
-            ]
-          }
-        },
-        {
-          "tekst": "Saul",
-          "voorkomen": 1,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "שָׁא֜וּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 21:7",
-            "bronindices": [
-              1
             ]
           }
         },
@@ -4350,13 +4350,13 @@
           }
         },
         {
-          "tekst": "Daar",
+          "tekst": "Saul",
           "voorkomen": 1,
           "strongs": [
-            "H8033"
+            "H7586"
           ],
           "bronwoorden": [
-            "וְ/שָׁ֡ם"
+            "שָׁא֜וּל"
           ],
           "transliteraties": [
             ""
@@ -4372,34 +4372,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 21:7",
             "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "die",
-          "voorkomen": 1,
-          "strongs": [
-            "H1931"
-          ],
-          "bronwoorden": [
-            "הַ/ה֗וּא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 21:7",
-            "bronindices": [
-              4
+              1
             ]
           }
         },
@@ -4427,6 +4400,33 @@
             "referentie": "1SA 21:7",
             "bronindices": [
               5
+            ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 1,
+          "strongs": [
+            "H1931"
+          ],
+          "bronwoorden": [
+            "הַ/ה֗וּא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 21:7",
+            "bronindices": [
+              4
             ]
           }
         },
@@ -4620,10 +4620,13 @@
           }
         },
         {
-          "tekst": "herderen",
+          "tekst": "herders",
           "voorkomen": 1,
           "strongs": [
             "H7473"
+          ],
+          "morfologie": [
+            "HTd/Vqrmpa"
           ],
           "bronwoorden": [
             "הָ/רֹעִ֖ים"
@@ -4634,20 +4637,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 21:7",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
-          },
-          "gids_strongs": [
-            "H7462"
-          ]
+          }
         },
         {
           "tekst": "die",

@@ -3763,34 +3763,69 @@
           "tekst": "ook",
           "voorkomen": 1,
           "strongs": [
-            "H1571",
-            "H1992"
+            "H1571"
+          ],
+          "morfologie": [
+            "HTa"
           ],
           "bronwoorden": [
-            "גַּם",
-            "הֵ֗ם"
+            "גַּם"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 31:6",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              7,
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H1992"
+          ],
+          "morfologie": [
+            "HPp3mp"
+          ],
+          "bronwoorden": [
+            "הֵ֗ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 31:6",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
               6
             ]
-          },
-          "toelichting": "גַּם הֵם ('ook zij') is in het Nederlands tot 'ook' samengetrokken; het zelfstandige voornaamwoord הֵם heeft geen eigen Nederlands woord."
+          }
         },
         {
           "tekst": "tienden",
@@ -5503,10 +5538,13 @@
           }
         },
         {
-          "tekst": "heffing",
+          "tekst": "hefoffer",
           "voorkomen": 1,
           "strongs": [
             "H8641"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/תְּרוּמָ֜ה"
@@ -5517,13 +5555,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 31:10",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               10
             ]
@@ -5972,9 +6014,12 @@
         },
         {
           "tekst": "deze",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H2088"
+          ],
+          "morfologie": [
+            "HTd/Pdxms"
           ],
           "bronwoorden": [
             "הַ/זֶּֽה"
@@ -5985,13 +6030,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 31:10",
+            "grondindices": [
+              26
+            ],
             "bronindices": [
               23
             ]
@@ -6389,8 +6438,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "hefoffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -6401,27 +6455,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 31:12",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "anker": "heffing",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "heffing",
+          "tekst": "hefoffer",
           "voorkomen": 1,
           "strongs": [
             "H8641"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/תְּרוּמָ֧ה"
@@ -6432,13 +6489,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 31:12",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               3
             ]
@@ -7145,10 +7206,13 @@
           }
         },
         {
-          "tekst": "opzieners",
+          "tekst": "opzichters",
           "voorkomen": 1,
           "strongs": [
             "H6496"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "פְּקִידִ֗ים"
@@ -7159,13 +7223,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 31:13",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
