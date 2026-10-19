@@ -95,21 +95,101 @@
     return wordNumberPromise;
   }
 
+  /* Lichte citaatbestanden, gebouwd door scripts/build_citaten.py. Een
+     bewijstekst heeft van een hoofdstuk alleen het versnummer en de tekst
+     nodig; het volledige hoofdstukbestand weegt dertig keer zoveel. Het zijn
+     scripts en geen JSON, omdat een <script> ook vanaf een andere site geladen
+     mag worden: zo komt de tekst op Open Gods Woord en op externe sites
+     rechtstreeks van openvertaling.nl, zonder dat de server daarvoor CORS hoeft
+     toe te staan. Elk bestand roept OSV._ontvang aan met zijn eigen sleutel.
+     Ontbreekt een bestand — lokaal zonder bouwstap — dan valt het laden terug
+     op de JSON van het hoofdstuk. */
+  var citaatWachtend = {};
+  var citaatCache = {};
+
+  function ontvang(sleutel, data) {
+    var klaar = citaatWachtend[sleutel];
+    if (!klaar) return;
+    delete citaatWachtend[sleutel];
+    klaar(data);
+  }
+
+  function laadCitaat(sleutel, pad) {
+    if (!citaatCache[sleutel]) {
+      citaatCache[sleutel] = new Promise(function (resolve, reject) {
+        var tag = document.createElement('script');
+        // Zonder echte DOM — een testomgeving, een worker — laadt een <script>
+        // nooit en zou het citaat eeuwig wachten; dan meteen naar de JSON.
+        if (!document.head || typeof tag.setAttribute !== 'function') {
+          reject(new Error('Geen DOM om citaatbestanden te laden'));
+          return;
+        }
+        citaatWachtend[sleutel] = resolve;
+        tag.src = BASE + '/data/citaat/' + pad;
+        tag.async = true;
+        function afgerond(fout) {
+          if (tag.parentNode) tag.parentNode.removeChild(tag);
+          // Een bestand dat er niet is, beantwoordt de server met een
+          // HTML-pagina: die laadt wel, maar roept OSV._ontvang nooit aan.
+          if (!citaatWachtend[sleutel]) return;
+          delete citaatWachtend[sleutel];
+          reject(fout || new Error('Geen citaatdata in ' + pad));
+        }
+        tag.onload = function () { afgerond(); };
+        tag.onerror = function () { afgerond(new Error(pad + ' niet geladen')); };
+        document.head.appendChild(tag);
+      });
+    }
+    return citaatCache[sleutel];
+  }
+
   function loadBooks() {
     if (!booksPromise) {
-      booksPromise = fetch(BASE + '/data/books.json')
-        .then(function (r) { return r.json(); })
+      booksPromise = laadCitaat('boeken', 'boeken.js')
         .then(function (d) {
           var m = {};
-          (d.books || []).forEach(function (b) { m[b.id] = b; });
+          Object.keys(d).forEach(function (id) {
+            m[id] = { id: id, nameDutch: d[id].naam, testament: d[id].testament };
+          });
           return m;
+        })
+        .catch(function () {
+          return fetch(BASE + '/data/books.json')
+            .then(function (r) { return r.json(); })
+            .then(function (d) {
+              var m = {};
+              (d.books || []).forEach(function (b) { m[b.id] = b; });
+              return m;
+            });
         })
         .catch(function () { return {}; });
     }
     return booksPromise;
   }
 
-  function loadChapter(book, ch) {
+  /* De woordnummers zijn zwaar en alleen nodig als Strong aan staat; ze staan
+     daarom in een eigen bestand, dat er alleen is als het hoofdstuk ze heeft. */
+  function loadChapter(book, ch, metWoorden) {
+    var sleutel = book + '/' + ch;
+    return laadCitaat(sleutel, sleutel + '.js').then(function (citaat) {
+      // Elke aanroep krijgt eigen versobjecten, zodat de woordnummers van de
+      // ene aanroep niet in de gedeelde cache van de andere belanden.
+      var chapter = {
+        verses: citaat.verzen.map(function (regel) {
+          return { number: regel[0], text2026_html: regel[1], text2026: regel[2] };
+        })
+      };
+      if (!metWoorden || !citaat.woorden) return chapter;
+      return laadCitaat(sleutel + '#woorden', sleutel + '.woorden.js').then(function (woorden) {
+        chapter.verses.forEach(function (v) { v.woordnummers = woorden[String(v.number)] || []; });
+        return chapter;
+      }, function () { return chapter; });
+    }, function () {
+      return loadChapterJson(book, ch);
+    });
+  }
+
+  function loadChapterJson(book, ch) {
     var key = book + '/' + ch;
     if (!chapterCache[key]) {
       var chapterRequest = fetch(BASE + '/data/' + book + '/' + ch + '.json')
@@ -146,8 +226,8 @@
     }
   }
 
-  function loadEditionChapter(edition, book, ch) {
-    if (edition === 'nl-ov') return loadChapter(book, ch);
+  function loadEditionChapter(edition, book, ch, metWoorden) {
+    if (edition === 'nl-ov') return loadChapter(book, ch, metWoorden);
     var key = edition + ':' + book + '/' + ch;
     if (!editionChapterCache[key]) {
       editionChapterCache[key] = fetch(BASE + '/data/vertalingen/' + edition + '/' + book + '/' + ch + '.json')
@@ -230,7 +310,7 @@
     var optionsReady = typeof Opties !== 'undefined' && Opties.ready
       ? Opties.ready : Promise.resolve();
     return Promise.all([
-      loadEditionChapter(edition, p.book, p.chapter),
+      loadEditionChapter(edition, p.book, p.chapter, showWordNumbers),
       loadBooks(), optionsReady, ensureWordNumberSupport(showWordNumbers),
       edition === 'nl-ov' ? Promise.resolve(null) : loadEditions()
     ]).then(function (res) {
@@ -279,7 +359,7 @@
         ? '<a class="osv-bron" href="' + url + '" target="_blank" rel="noopener">— ' + label +
           ' <span class="osv-merk">(Open Vertaling)</span></a>'
         : '';
-      var html = '<span class="osv-tekst" lang="' + escapeHtml(editionMeta.taal || 'nl') + '"' +
+      var html = '<span class="osv-tekst" translate="no" lang="' + escapeHtml(editionMeta.taal || 'nl') + '"' +
         ((editionMeta.richting || 'ltr') === 'rtl' ? ' dir="rtl"' : '') + '>' + parts.join(' ') + '</span>' + linkHtml;
 
       var plain = picked.map(function (v) {
@@ -371,7 +451,8 @@
     refresh: function (root) { renderAll(root, true); },
     base: BASE,
     site: SITE,
-    _loadChapter: loadChapter
+    _loadChapter: loadChapter,
+    _ontvang: ontvang
   };
   global.OSV = OSV;
 
