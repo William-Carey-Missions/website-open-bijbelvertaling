@@ -5,8 +5,8 @@ const Opties = {
     STORAGE_KEY: 'sv2026_vertaalopties',
 
     DEFAULTS: {
-        godsnaam: 'klassiek',          // 'ov' (JAHWEH) | 'klassiek' (HEERE) | 'jehovah' (Jehovah) | 'yehovah' (Yehováh) | 'jhwh' (יהוה)
-        godsnaamOPV: 'heere',    // Open Parafrase Weergave: 'heere' (zoals geschreven) | 'jahweh' | 'jehovah' | 'yehovah' | 'jhwh'
+        godsnaam: 'klassiek',          // 'ov' (JAHWEH) | 'klassiek' (HEERE) | 'jehovah' (Jehovah) | 'yehovah' (Yehováh) | 'jhwh' (יהוה) | 'yhwh' (YHWH)
+        godsnaamOPV: 'heere',    // Open Parafrase Weergave: 'heere' (zoals geschreven) | 'jahweh' | 'jehovah' | 'yehovah' | 'jhwh' | 'yhwh'
         heereNT: 'heere',        // NT-aanspreektitel (Kurios): 'heere' (OSV) | 'here' (Heere → Here)
         kolomLayout: 'naast',    // 'naast' (parallelle kolom) | 'eronder' (nieuwe regel onder OV2026)
         boekvolgorde: 'canoniek',// 'canoniek' | 'tenach' | 'chronologisch' | 'auteur' | 'lengte'
@@ -330,6 +330,13 @@ const Opties = {
             out = this._replaceOutsideTags(out, [
                 [/\bGod JAHWEH\b/g, 'God יהוה'],
                 [/\bJAHWEH\b/g, 'יהוה'],
+            ]);
+        } else if (this.state.godsnaam === 'yhwh') {
+            // De vier medeklinkers in Latijnse letters: de naam zonder klinkers,
+            // zoals de Hebreeuwse tekst hem schrijft.
+            out = this._replaceOutsideTags(out, [
+                [/\bGod JAHWEH\b/g, 'God YHWH'],
+                [/\bJAHWEH\b/g, 'YHWH'],
             ]);
         }
         // 'ov': geen transformatie
@@ -670,7 +677,7 @@ const Opties = {
      */
     transformOPV(html) {
         if (!html) return html;
-        const naam = { jahweh: 'JAHWEH', jehovah: 'Jehovah', yehovah: 'Yehováh', jhwh: 'יהוה' }[this.state.godsnaamOPV];
+        const naam = { jahweh: 'JAHWEH', jehovah: 'Jehovah', yehovah: 'Yehováh', jhwh: 'יהוה', yhwh: 'YHWH' }[this.state.godsnaamOPV];
         if (!naam) return html;
         return this._replaceOutsideTags(html, [
             [/\b(?:[Dd]e|DE) HEERE\b/g, naam],

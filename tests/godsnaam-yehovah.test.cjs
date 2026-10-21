@@ -98,7 +98,7 @@ test('de drukversie biedt Yehováh aan als Godsnaam', () => {
     // De lijst komt uit een andere vm-context; kopiëren maakt haar vergelijkbaar.
     assert.deepEqual(
         [...godsnaam[2]].map(keuze => keuze[0]),
-        ['ov', 'klassiek', 'jehovah', 'yehovah', 'jhwh']
+        ['ov', 'klassiek', 'jehovah', 'yehovah', 'jhwh', 'yhwh']
     );
     assert.equal(godsnaam[2].find(keuze => keuze[0] === 'yehovah')[1], 'Yehováh');
 });

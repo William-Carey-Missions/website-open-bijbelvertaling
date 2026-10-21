@@ -390,7 +390,7 @@ class OptionsPanelBrowserTests(unittest.TestCase):
             )
             self.assertEqual(
                 godsnaam_values,
-                ["ov", "klassiek", "jehovah", "yehovah", "jhwh"],
+                ["ov", "klassiek", "jehovah", "yehovah", "jhwh", "yhwh"],
             )
             self.assertEqual(
                 set(column_values),

@@ -15,7 +15,7 @@
  *   numbers   true|false   versnummers tonen          (standaard true)
  *   citaat    true|false   citaatopmaak (rood=God enz.)(standaard true)
  *   link      true|false   bronverwijzing tonen        (standaard true)
- *   godsnaam  ov|klassiek|jehovah|yehovah|jhwh         (standaard ov = JAHWEH)
+ *   godsnaam  ov|klassiek|jehovah|yehovah|jhwh|yhwh    (standaard ov = JAHWEH)
  *   strongs   true|false   bronvaste woordnummers tonen (standaard: globale voorkeur)
  *
  * Via JavaScript:
@@ -274,6 +274,8 @@
       return replaceOutsideTags(html, [[/\bGod JAHWEH\b/g, 'God Yehováh'], [/\bJAHWEH\b/g, 'Yehováh']]);
     } else if (mode === 'jhwh') {
       return replaceOutsideTags(html, [[/\bGod JAHWEH\b/g, 'God יהוה'], [/\bJAHWEH\b/g, 'יהוה']]);
+    } else if (mode === 'yhwh') {
+      return replaceOutsideTags(html, [[/\bGod JAHWEH\b/g, 'God YHWH'], [/\bJAHWEH\b/g, 'YHWH']]);
     }
     return html;
   }
