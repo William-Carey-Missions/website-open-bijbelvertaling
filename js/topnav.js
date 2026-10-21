@@ -30,6 +30,69 @@
     var nav = document.getElementById('topnav');
     if (!nav) return;
 
+    /* === Zustersites: gelijk in de drie sites (OV, OGW, OPV) ===============
+       Eén strook boven de navigatie, met de drie sites in dezelfde volgorde en
+       de eigen site goud onderstreept. Dit blok staat letterlijk gelijk in
+       js/topnav.js van de Open Vertaling, Open Gods Woord en de Open Parafrase
+       Weergave, met zijn eigen opmaak en lettertype; pas het in alle drie tegelijk
+       aan. Lokaal vult sites.js (KASites.vulLinks) de adressen met de poorten. */
+    var ZUSTERSITES = [
+        ['ov', 'https://openvertaling.nl/', 'data-ov-href', 'Open Vertaling'],
+        ['ogw', 'https://opengodsword.com/', 'data-ogw-href', 'Open Gods Woord'],
+        ['opv', 'https://open-parafrase-weergave.nl/', 'data-opv-href', 'Open Parafrase Weergave']
+    ];
+    var ZUSTERSTIJL = [
+        '.ka-fam { display: flex; align-items: center; justify-content: space-between; gap: 6px 14px;',
+        '    padding: 5px 30px; min-height: 28px; background: var(--navy-deep, #0d2131); color: #c9d3db;',
+        '    font: 400 12px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;',
+        '    letter-spacing: .02em; position: relative; z-index: 301; }',
+        '.ka-fam-label { opacity: .78; }',
+        '.ka-fam-links { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 4px; }',
+        '.ka-fam-links a { color: #c9d3db; text-decoration: none; padding: 2px 6px; border-radius: 4px; border: 0; }',
+        '.ka-fam-links a:hover { color: #fff; background: rgba(255,255,255,.07); }',
+        '.ka-fam-links a[aria-current] { color: #fff; font-weight: 600;',
+        '    box-shadow: inset 0 -2px 0 var(--gold, #cba449); border-radius: 0; }',
+        ':root[data-theme="donker"] .ka-fam-links a { color: #c9d3db !important; }',
+        ':root[data-theme="donker"] .ka-fam-links a[aria-current] { color: #fff !important; }',
+        '.ka-fam-sep { opacity: .45; }',
+        '.ov-ingebed .ka-fam { display: none; }',
+        ':root[lang="ar"] .ka-fam { letter-spacing: 0; text-transform: none; }',
+        ':root[dir="rtl"] .ka-fam-links { direction: ltr; }',
+        '@media (max-width: 768px) {',
+        '    .ka-fam { padding: 3px 8px; justify-content: center; font-size: 11px; letter-spacing: 0; }',
+        '    .ka-fam-links { flex-wrap: nowrap; white-space: nowrap; gap: 0 2px; }',
+        '    .ka-fam-links a { padding: 2px 3px; }',
+        '    .ka-fam-label { display: none; }',
+        '    .ogw-lezer .ka-fam { display: none; }',
+        '}'
+    ].join('\n');
+
+    function familiestrook(huidig) {
+        if (!document.getElementById('ka-fam-stijl')) {
+            var stijl = document.createElement('style');
+            stijl.id = 'ka-fam-stijl';
+            stijl.textContent = ZUSTERSTIJL;
+            document.head.appendChild(stijl);
+        }
+        var strook = document.createElement('div');
+        strook.className = 'ka-fam';
+        strook.id = 'ka-fam';
+        strook.setAttribute('role', 'navigation');
+        strook.setAttribute('aria-label', 'Zustersites van de kleine ark');
+        strook.innerHTML =
+            '<span class="ka-fam-label">Familie van de kleine ark</span>' +
+            '<span class="ka-fam-links" translate="no" dir="ltr">' +
+            ZUSTERSITES.map(function (site) {
+                return site[0] === huidig
+                    ? '<a href="index.html" aria-current="page">' + site[3] + '</a>'
+                    : '<a href="' + site[1] + '" ' + site[2] + '="">' + site[3] + '</a>';
+            }).join('<span class="ka-fam-sep" aria-hidden="true">·</span>') +
+            '</span>';
+        if (window.KASites) window.KASites.vulLinks(strook);
+        return strook;
+    }
+    /* === einde zustersites ================================================= */
+
     if (!document.querySelector('script[src$="global-options-host.js"]')) {
         var hostScript = document.createElement('script');
         hostScript.src = 'js/global-options-host.js';
@@ -49,6 +112,8 @@
         document.documentElement.classList.add('ov-ingebed');
         return;
     }
+
+    nav.insertAdjacentElement('beforebegin', familiestrook('ov'));
 
     nav.innerHTML =
         '<div class="topnav-brand">' +
