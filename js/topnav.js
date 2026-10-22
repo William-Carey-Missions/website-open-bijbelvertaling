@@ -38,7 +38,7 @@
        aan. Lokaal vult sites.js (KASites.vulLinks) de adressen met de poorten. */
     var ZUSTERSITES = [
         ['ov', 'https://openvertaling.nl/', 'data-ov-href', 'Open Vertaling'],
-        ['ogw', 'https://opengodsword.com/', 'data-ogw-href', 'Open Gods Woord'],
+        ['ogw', 'https://opengodsword.com/', 'data-ogw-href', 'Open Gods Word'],
         ['opv', 'https://open-parafrase-weergave.nl/', 'data-opv-href', 'Open Parafrase Weergave']
     ];
     var ZUSTERSTIJL = [
@@ -78,9 +78,9 @@
         strook.className = 'ka-fam';
         strook.id = 'ka-fam';
         strook.setAttribute('role', 'navigation');
-        strook.setAttribute('aria-label', 'Zustersites van de kleine ark');
+        strook.setAttribute('aria-label', 'Zustersites');
         strook.innerHTML =
-            '<span class="ka-fam-label">Familie van de kleine ark</span>' +
+            '<span class="ka-fam-label">Zustersites</span>' +
             '<span class="ka-fam-links" translate="no" dir="ltr">' +
             ZUSTERSITES.map(function (site) {
                 return site[0] === huidig

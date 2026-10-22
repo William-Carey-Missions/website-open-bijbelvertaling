@@ -184,7 +184,7 @@ op <a href="{SITE}/">{SITE}</a>.</p>
 <dc:identifier id="bookid">{xml(ident)}</dc:identifier>
 <dc:title>Open Vertaling — nagekeken tekst</dc:title>
 <dc:language>nl</dc:language>
-<dc:creator>Open Vertaling — de kleine ark</dc:creator>
+<dc:creator>Open Vertaling</dc:creator>
 <dc:rights>CC0 / publiek domein</dc:rights>
 <dc:date>{vandaag}</dc:date>
 <meta property="dcterms:modified">{vandaag}T00:00:00Z</meta>
