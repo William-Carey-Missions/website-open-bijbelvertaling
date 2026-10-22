@@ -37,12 +37,12 @@ test('de eigen site roept de strook aan met zijn eigen sleutel', () => {
 });
 
 test('de drie sites staan in dezelfde volgorde, de eigen site gemarkeerd', () => {
-    for (const [huidig, naam] of [['ov', 'Open Vertaling'], ['ogw', 'Open Gods Woord'], ['opv', 'Open Parafrase Weergave']]) {
+    for (const [huidig, naam] of [['ov', 'Open Vertaling'], ['ogw', 'Open Gods Word'], ['opv', 'Open Parafrase Weergave']]) {
         const { el, stijl } = strook(huidig);
         assert.equal(el.id, 'ka-fam');
-        assert.equal(el['aria-label'], 'Zustersites van de kleine ark');
+        assert.equal(el['aria-label'], 'Zustersites');
         const namen = [...el.innerHTML.matchAll(/<a [^>]*>([^<]+)<\/a>/g)].map(m => m[1]);
-        assert.deepEqual(namen, ['Open Vertaling', 'Open Gods Woord', 'Open Parafrase Weergave']);
+        assert.deepEqual(namen, ['Open Vertaling', 'Open Gods Word', 'Open Parafrase Weergave']);
         assert.match(el.innerHTML, new RegExp('<a href="index.html" aria-current="page">' + naam + '</a>'));
         assert.equal((el.innerHTML.match(/aria-current/g) || []).length, 1);
         assert.equal(stijl.length, 1, 'de opmaak komt één keer mee');
