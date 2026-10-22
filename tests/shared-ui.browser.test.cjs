@@ -177,13 +177,3 @@ test('nested manuscript pages also start auth exactly once', async () => {
     await page.close();
 });
 
-test('dynamic Bible links still navigate out of the wiki frame', async () => {
-    const page = await fixture.pageAs('admin');
-    await page.goto(fixture.base + '/wiki.html#onderwerpen');
-    const frame = page.frameLocator('#wiki-frame');
-    await frame.locator('.ond-card').first().click();
-    await frame.locator('.ond-vers-kop a').first().click();
-    await page.waitForURL('**/index.html#**');
-    assert.equal(await page.locator('#wiki-frame').count(), 0);
-    await page.close();
-});

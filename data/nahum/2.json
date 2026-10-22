@@ -12,7 +12,7 @@
           "type": "explanatory",
           "textSV1888": "Te weten, Nebukadnezar, de koning van Babel, die veel koninkrijken heeft ingenoemen en vertrooid.",
           "text1637": "T.w. Nebucadnezar de Coninck van Babel, die veel Coninckrijcken heeft ingenomen ende verstroyt.",
-          "text2026": "Te weten, Nebukadnezar, de koning van Babel, die veel koninkrijken heeft ingenoemen en vertrooid."
+          "text2026": "Te weten, Nebukadnezar, de koning van Babel, die veel koninkrijken heeft ingenomen en verstrooid."
         },
         {
           "marker": "2",
@@ -491,7 +491,7 @@
           "type": "explanatory",
           "textSV1888": "de HEERE heeft de hovaardij Jakobs afgewend: Alsof hij zeide: O Assur, nu is de tijd, dat de straf des Heeren ook over u komt, aangezien die nu een geruimen tijd over het volk Gods gegaan is, waardoor de Heere de hovaardij van Jakob heeft vernederd, gelijk Hij tevoren de hovaardij van Israël vernederd had. Anders: want de Heere is wedergekeerd [met] de voortreffelijkheid, of, heerlijkheid van Jakob, dat is, met Christus Jezus, gelijk Amos 8:7 ; te weten, opdat Hij voortaan zijn volk bijsta, en het niet meer door u late verdelgen, maar veel meer dat Hij u vanwege hetzelve late verdelgen. Zie 2 Sam. 1:19 , van het sieraad of heerlijkheid van Israël. Amos 8:7 : De HEERE heeft gezworen bij Jakobs heerlijkheid: Zo Ik al hun werken in eeuwigheid zal vergeten! 2 Samuël 1:19 : O Sieraad van Israël, op uw hoogten is hij verslagen; hoe zijn de helden gevallen!",
           "text1637": "Als of hy seyde, ô Assur, nu is de tijt, dat de straffe des Heeren oock over u kome, aengesien de selve nu eenen geruymen tijt over ’t volck Godes gegaen heeft, waer door de Heere de hovaerdye Iacobs heeft vernedert, gelijck hy te vooren de hovaerdye Israels vernedert hadde. And. want de Heere is weder gekeert [met] de voortreffelickheyt, ofte, heerlickheyt Iacobs, D. met Christo Iesu, als Amos 8.9. T.w. op dat hy voortaen sijn volck by-stae, ende niet meer door u het selve en late verdelgen, maer veel meer dat hy u van wegen het selve late verdelgen. Siet 2.Sam. 1. op vers 19. van den cieraet, of heerlickheyt Israels.",
-          "text2026": "JAHWEH heeft de hovaardij Jakobs afgewend: Alsof hij zei: O Assur, nu is de tijd, dat de straf van de Heern ook over u komt, aangezien die nu een geruimen tijd over het volk van God gegaan is, waardoor de Heer de hovaardij van Jakob heeft vernederd, gelijk Hij tevoren de hovaardij van Israël vernederd had. Anders: want de Heer is teruggekeerd [met] de voortreffelijkheid, of, heerlijkheid van Jakob, dat is, met Christus Jezus, gelijk Amos 8:7 ; te weten, opdat Hij voortaan zijn volk bijsta, en het niet meer door u late verdelgen, maar veel meer dat Hij u vanwege hetzelfde late verdelgen. Zie 2 Sam. 1:19 , van het sieraad of heerlijkheid van Israël. Amos 8:7 : JAHWEH heeft gezworen bij Jakobs heerlijkheid: Zo Ik al hun werken in eeuwigheid zal vergeten! 2 Samuël 1:19 : O Sieraad van Israël, op uw hoogten is hij verslagen; hoe zijn de helden gevallen!"
+          "text2026": "JAHWEH heeft de hovaardij Jakobs afgewend: Alsof hij zei: O Assur, nu is de tijd, dat de straf van de Heer ook over u komt, aangezien die nu een geruimen tijd over het volk van God gegaan is, waardoor de Heer de hovaardij van Jakob heeft vernederd, gelijk Hij tevoren de hovaardij van Israël vernederd had. Anders: want de Heer is teruggekeerd [met] de voortreffelijkheid, of, heerlijkheid van Jakob, dat is, met Christus Jezus, gelijk Amos 8:7 ; te weten, opdat Hij voortaan zijn volk bijsta, en het niet meer door u late verdelgen, maar veel meer dat Hij u vanwege hetzelfde late verdelgen. Zie 2 Sam. 1:19 , van het sieraad of heerlijkheid van Israël. Amos 8:7 : JAHWEH heeft gezworen bij Jakobs heerlijkheid: Zo Ik al hun werken in eeuwigheid zal vergeten! 2 Samuël 1:19 : O Sieraad van Israël, op uw hoogten is hij verslagen; hoe zijn de helden gevallen!"
         },
         {
           "marker": "a",
@@ -765,10 +765,13 @@
           }
         },
         {
-          "tekst": "Jakobs",
+          "tekst": "Jakob",
           "voorkomen": 1,
           "strongs": [
             "H3290"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "יַעֲקֹ֔ב"
@@ -779,13 +782,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "34646DF63D4AB9AE33965F20BDA83B309837E84F4F466FDF755F01E0EF652E26",
             "referentie": "NAM 2:2",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -819,10 +826,13 @@
           }
         },
         {
-          "tekst": "Israëls",
+          "tekst": "Israël",
           "voorkomen": 1,
           "strongs": [
             "H3478"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "יִשְׂרָאֵ֑ל"
@@ -833,13 +843,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "34646DF63D4AB9AE33965F20BDA83B309837E84F4F466FDF755F01E0EF652E26",
             "referentie": "NAM 2:2",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -1901,7 +1915,7 @@
           "type": "explanatory",
           "textSV1888": "het beschutsel vaardig zal wezen: Of, het deksel. Versta, een krijgsgetimmer als een galerij, onder hetwelk de soldaten schotvrij waren. Hebr. en het beschutsel zal vaardig gemaakt.",
           "text1637": "Of, het decksel. Verst. een krijchs-getimmer als een galerye, onder het welcke de soldaten scheut-vry waren. Hebr. ende het beschutsel sal veerdich gemaeckt worden.",
-          "text2026": "het beschutsel gereed zal wezen: Of, het deksel. Versta, een krijgsgetimmer als een galerij, onder dat de soldaten schotvrij waren. Hebr. en het beschutsel zal gereed gemaakt."
+          "text2026": "het beschutsel gereed zal wezen: Of, het deksel. Versta, een krijgsgetimmer als een galerij, waaronder de soldaten schotvrij waren. Hebr. en het beschutsel zal gereed gemaakt."
         }
       ],
       "grondtekst": [
@@ -2191,21 +2205,21 @@
           "type": "explanatory",
           "textSV1888": "De poorten der rivieren zullen geopend worden: Dat is, de waterpoorten. Hier wordt gesproken van het water van den Tiger en andere beekjes daarin en daaruit vlietende, en dicht onder de stad Nineve lopende. De zin is: Se vijand zal aan dien hoek in de stad vallen, waar zij schijnt het allersterkst te wezen, te weten, daar ter plaatse waar de Tiger en andere beken lopen. Diodor. Siculus zegt. lib. 3, Biblioth. cap. 7, dat als de Chaldeën Nineve belegerd hadden, zo is de muur dezer stad, door het hoge oplopen van den Tiger omgeworpen, over een lengte van twintig stadiën, door welke bres de vijanden in de stad vielen.",
           "text1637": "D. de water-poorten. hier wort gesproken van het water Tigris, ende andre beecxkens daer in ende daer uyt vlietende, ende dichte onder de Stadt Nineve loopende. De sin is, De vyant sal aen dien hoeck in de Stadt vallen, daer sy schijnt alder-sterckst te wesen, T.w. daer ter plaetse, daer de Tigris ende andre beken loopen. Diodor. Siculus seyt lib. 3. Bibliot. cap. 7. dat als de Chaldeen Nineve belegert hadden, so is de muer deser Stadt, door het hooge oploopen van den Tigris, om-geworpen, de lengte van xx stadien, door welcke bresse de vyanden in de stadt vielen.",
-          "text2026": "De poorten van de rivieren zullen geopend worden: Dat is, de waterpoorten. Hier wordt gesproken van het water van de Tiger en andere beekjes daarin en daaruit vlietende, en dicht onder de stad Nineve lopende. De zin is: Se vijand zal aan die hoek in de stad vallen, waar zij schijnt het allersterkst te wezen, te weten, daar ter plaatse waar de Tiger en andere beken lopen. Diodor. Siculus zegt. lib. 3, Biblioth. cap. 7, dat als de Chaldeën Nineve belegerd hadden, zo is de muur van deze stad, door het hoge oplopen van de Tiger omgeworpen, over een lengte van twintig stadiën, door welke bres de vijanden in de stad vielen."
+          "text2026": "De poorten van de rivieren zullen geopend worden: Dat is, de waterpoorten. Hier wordt gesproken van het water van de Tiger en andere beekjes daarin en daaruit vlietende, en dicht onder de stad Nineve lopende. De zin is: De vijand zal aan die hoek in de stad vallen, waar zij schijnt het allersterkst te wezen, te weten, daar ter plaatse waar de Tiger en andere beken lopen. Diodor. Siculus zegt, lib. 3, Biblioth. cap. 7, dat als de Chaldeën Nineve belegerd hadden, zo is de muur van deze stad, door het hoge oplopen van de Tiger omgeworpen, over een lengte van twintig stadiën, door welke bres de vijanden in de stad vielen."
         },
         {
           "marker": "31",
           "type": "explanatory",
           "textSV1888": "het paleis: Of, de tempel, want het Hebr. woord betekent beide, zo een paleis als een tempel, en versta hier den tempel van den Assyrischen afgod.",
           "text1637": "Of, de Tempel, want het Hebr. woort beteeckent beyde, soo een paleys, als eenen Tempel, ende verstaet hier den Tempel des Assyrischen Afgodts.",
-          "text2026": "het paleis: Of, de tempel, want het Hebr. woord betekent zowel, zo een paleis als een tempel, en versta hier de tempel van de Assyrischen afgod."
+          "text2026": "het paleis: Of, de tempel, want het Hebr. woord betekent beide, zo een paleis als een tempel, en versta hier de tempel van de Assyrische afgod."
         },
         {
           "marker": "32",
           "type": "explanatory",
           "textSV1888": "zal versmelten: Te weten, foor de hitte des vuurs, hetzij van het stoffelijke vuur, of van den brandenden toorn Gods. Anders: zal wegvlieten. Dir past wel, indien men ziet op den groten oploop van het water.",
           "text1637": "T.w. door de hitte des vyers, het zy des materialen vyers, ofte des brandenden toorns Godes. And. sal wechvlieten. Dit past wel, indien men siet op den grooten oploop des waters.",
-          "text2026": "zal versmelten: Te weten, foor de hitte van het vuur, hetzij van het stoffelijke vuur, of van de brandenden toorn van God. Anders: zal wegvlieten. Dir past wel, als men ziet op de grote oploop van het water."
+          "text2026": "zal versmelten: Te weten, voor de hitte van het vuur, hetzij van het stoffelijke vuur, of van de brandende toorn van God. Anders: zal wegvlieten. Dit past wel, als men ziet op de grote oploop van het water."
         }
       ],
       "grondtekst": [
@@ -2791,7 +2805,7 @@
           "type": "explanatory",
           "textSV1888": "zij zullen vluchten: Te weten, de inwoners van Nineve zullen vluchten, als hunne stad van hunne vijanden zal ingenoemn worden.",
           "text1637": "T.w. de inwoonders van Nineve, sullen vluchten, als hare Stadt van hare vyanden sal ingenomen worden.",
-          "text2026": "zij zullen vluchten: Te weten, de inwoners van Nineve zullen vluchten, als hun stad van hun vijanden zal ingenoemn worden."
+          "text2026": "zij zullen vluchten: Te weten, de inwoners van Nineve zullen vluchten, als hun stad van hun vijanden zal ingenomen worden."
         }
       ],
       "grondtekst": [
@@ -3575,7 +3589,7 @@
           "type": "explanatory",
           "textSV1888": "Of, tegen elkander aanslaan of stoten; verg. Jes. 13:7 ; Dan. 5:6 . Jesaja 13:7 : Daarom zullen alle handen slap worden, en aller mensen hart zal versmelten; Daniël 5:6 : Toen veranderde zich de glans des konings, en zijn gedachten verschrikten hem; en de banden zijner lendenen werden los, en zijn knieën stieten tegen elkander aan.",
           "text1637": "Ofte, tegens malkanderen aenslaen, ofte, stooten. Vergel. Dani. 5.6. ende Iesa. 13.7.",
-          "text2026": "Of, tegen elkaar aanslaan of stoten; verg. Jes. 13:7 ; Dan. 5:6 . Jesaja 13:7 : Daarom zullen alle handen slap worden, en alle mensen hart zal versmelten; Daniël 5:6 : Toen veranderde zich de glans van de koning, en zijn gedachten verschrikten hem; en de banden zijn lendenen werden los, en zijn knieën stieten tegen elkaar aan."
+          "text2026": "Of, tegen elkaar aanslaan of stoten; verg. Jes. 13:7 ; Dan. 5:6 . Jesaja 13:7 : Daarom zullen alle handen slap worden, en het hart van alle mensen zal versmelten; Daniël 5:6 : Toen veranderde zich de glans van de koning, en zijn gedachten verschrikten hem; en de banden van zijn lendenen werden los, en zijn knieën stieten tegen elkaar aan."
         },
         {
           "marker": "c",
@@ -3589,7 +3603,7 @@
           "type": "explanatory",
           "textSV1888": "hun aller aangezichten betrekken: Zie de aantekening bij Joel 2:6 . Joël 2:6 : Van deszelfs aangezicht zullen de volken in pijn zijn; alle aangezichten zullen betrekken als een pot.",
           "text1637": "Siet de aenteeck. Ioel 2.6.",
-          "text2026": "hun aller aangezichten betrekken: Zie de aantekening bij Joel 2:6 . Joël 2:6 : Van daarvan aangezicht zullen de volken in pijn zijn; alle aangezichten zullen betrekken als een pot."
+          "text2026": "hun aller aangezichten betrekken: Zie de aantekening bij Joel 2:6 . Joël 2:6 : Van zijn aangezicht zullen de volken in pijn zijn; alle aangezichten zullen betrekken als een pot."
         },
         {
           "marker": "47",
@@ -4078,14 +4092,14 @@
           "type": "explanatory",
           "textSV1888": "Waar is nu : Dir zijn de woorden van den profeet, sprekende in den naam van God, en de overwonnen Assyriërs beschimpende.",
           "text1637": "Dit zijn de woorden des Propheten, sprekende in den name Godes, ende de overwonnene Assyriers beschimpende.",
-          "text2026": "Waar is nu : Dir zijn de woorden van de profeet, sprekende in de naam van God, en de overwonnen Assyriërs beschimpende."
+          "text2026": "Waar is nu : Dit zijn de woorden van de profeet, sprekende in de naam van God, en de overwonnen Assyriërs beschimpende."
         },
         {
           "marker": "49",
           "type": "explanatory",
           "textSV1888": "woning der leeuwen: Aldus noemt de profeet de inwoners van Nineve, die rovers en bloeddorstige mensen geweest zijn, inzonderheid hunnen koningen, vorsten en krijgsoversten; zie Ezech. 19:2 , 19:3 , met de aantekeningen aldaar, enz. De apostel noemt ook den keizer Nero een leeuw; 2 Tim. 4:17 . Ezechiël 19:2 : En zeg: Wat was uw moeder? Een leeuwin, onder de leeuwen nederliggende; zij bracht haar welpen op in het midden der jonge leeuwen. Ezechiël 19:3 : Zij toog nu een van haar welpen op; het werd een jonge leeuw, die leerde roof te roven, hij at mensen op. 2 Timotheüs 4:17 : Maar de Heere heeft mij bijgestaan, en heeft mij bekrachtigd; opdat men door mij ten volle zou verzekerd zijn van de prediking, en alle heidenen dezelve zouden horen. En ik ben uit den muil des leeuws verlost.",
           "text1637": "Aldus noemt de Prophete de inwoonders vann Nineve, die roovers, ende bloet-dorstige menschen geweest zijn, insonderheyd hare Coningen, Vorsten, ende krijchs-overste. Siet Ezech. cap. 19. met de aenteeckeninge op versen 2, 3, etc. d’Apostel noemt oock den Keyser Nero eenen leeuw. 2.Timot. 4.17.",
-          "text2026": "woning van de leeuwen: Aldus noemt de profeet de inwoners van Nineve, die rovers en bloeddorstige mensen geweest zijn, in het bijzonder hun koningen, vorsten en krijgsoversten; zie Ez. 19:2 , 19:3 , met de aantekeningen daar, enz. De apostel noemt ook de keizer Nero een leeuw; 2 Tim. 4:17 . Ezechiël 19:2 : En zeg: Wat was uw moeder? Een leeuwin, onder de leeuwen nederliggende; zij bracht haar welpen op in het midden van de jonge leeuwen. Ezechiël 19:3 : Zij toog nu één van haar welpen op; het werd een jonge leeuw, die leerde roof te roven, hij at mensen op. 2 Timotheüs 4:17 : Maar de Heer heeft mij bijgestaan, en heeft mij bekrachtigd; opdat men door mij ten volle zou verzekerd zijn van de prediking, en alle heidenen dezelfde zouden horen. En ik ben uit de muil van de leeuws verlost."
+          "text2026": "woning van de leeuwen: Aldus noemt de profeet de inwoners van Nineve, die rovers en bloeddorstige mensen geweest zijn, in het bijzonder hun koningen, vorsten en krijgsoversten; zie Ez. 19:2 , 19:3 , met de aantekeningen daar, enz. De apostel noemt ook de keizer Nero een leeuw; 2 Tim. 4:17 . Ezechiël 19:2 : En zeg: Wat was uw moeder? Een leeuwin, onder de leeuwen nederliggende; zij bracht haar welpen op in het midden van de jonge leeuwen. Ezechiël 19:3 : Zij toog nu één van haar welpen op; het werd een jonge leeuw, die leerde roof te roven, hij at mensen op. 2 Timotheüs 4:17 : Maar de Heer heeft mij bijgestaan, en heeft mij bekrachtigd; opdat men door mij ten volle zou verzekerd zijn van de prediking, en alle heidenen dezelfde zouden horen. En ik ben uit de muil van de leeuw verlost."
         }
       ],
       "grondtekst": [
@@ -4583,7 +4597,7 @@
           "type": "explanatory",
           "textSV1888": "worgde voor zijn oude leeuwinnen: Der leeuwen aard is de dieren, die zij gevangen hebben, te stikken en te versmachten.",
           "text1637": "Der leeuwen aerdt is, de dieren die sy gevangen hebben, te sticken, ende versmachten.",
-          "text2026": "worgde voor zijn oude leeuwinnen: Van de leeuwen aard is de dieren, die zij gevangen hebben, te stikken en te versmachten."
+          "text2026": "worgde voor zijn oude leeuwinnen: De aard van de leeuwen is de dieren, die zij gevangen hebben, te stikken en te versmachten."
         }
       ],
       "grondtekst": [
@@ -4999,7 +5013,7 @@
           "type": "explanatory",
           "textSV1888": "uwer gezanten zal niet meer gehoord worden: Of, van uwe gezanten, door wie gij den koningen rondom heen den krijg pleegt aan te zeggen. Zie 2 Kon. 18:17 , enz. 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot den koning Hizkia, met een zwaar heir naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij den watergang des oppersten vijvers, welke is bij den hogen weg van het veld des vollers.",
           "text1637": "",
-          "text2026": "uw gezanten zal niet meer gehoord worden: Of, van uw gezanten, door wie u de koningen rondom heen de krijg pleegt aan te zeggen. Zie 2 Kon. 18:17 , enz. 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot de koning Hizkia, met een zwaar legermacht naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij de watergang van de oppersten vijvers, welke is bij de hogen weg van het veld van de voller."
+          "text2026": "uw gezanten zal niet meer gehoord worden: Of, van uw gezanten, door wie u de koningen rondom heen de krijg pleegt aan te zeggen. Zie 2 Kon. 18:17 , enz. 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot de koning Hizkia, met een zware legermacht naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij de watergang van de opperste vijver, welke is bij de hoge weg van het veld van de voller."
         }
       ],
       "grondtekst": [

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
+    <script src="/js/reader-policy.js"></script>
     <script type="module" src="/js/auth-bootstrap.js"></script>
     <meta charset="UTF-8">
+    <link rel="preload" href="/fonts/source-serif-4-latin-normal.woff2" as="font" type="font/woff2" crossorigin>
     <script src="/js/theme.js"></script>
+    <script src="/js/sites.js"></script>
+    <!-- Zonder #hash opent het startscherm; met #boek/h direct de lezer. -->
+    <script>document.documentElement.classList.add(location.hash.length > 1 ? 'ov-lezer' : 'ov-start');</script>
     <link rel="stylesheet" href="css/verification.css">
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -13,21 +18,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Open Vertaling — Een herziening van de Statenvertaling</title>
     <!-- SEO:start (auto — seo_build.py) -->
-    <meta name="description" content="Open Vertaling. Een herziening van de Statenvertaling in hedendaags Nederlands, vrij van rechten (CC0): alle 88 boeken, met grondtekst, kaart en Bijbels woordenboek.">
+    <meta name="description" content="Lees de Open Vertaling, een herziening van de Statenvertaling in hedendaags Nederlands. Met kanttekeningen en voorlezing. Gratis en vrij te gebruiken (CC0).">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://openvertaling.nl/">
-    <meta name="author" content="Open Vertaling — de kleine ark">
+    <meta name="author" content="Open Vertaling — William Carey Missions">
     <meta name="theme-color" content="#142e42">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Open Vertaling">
     <meta property="og:locale" content="nl_NL">
     <meta property="og:title" content="Open Vertaling — Een herziening van de Statenvertaling">
-    <meta property="og:description" content="Open Vertaling. Een herziening van de Statenvertaling in hedendaags Nederlands, vrij van rechten (CC0): alle 88 boeken, met grondtekst, kaart en Bijbels woordenboek.">
+    <meta property="og:description" content="Lees de Open Vertaling, een herziening van de Statenvertaling in hedendaags Nederlands. Met kanttekeningen en voorlezing. Gratis en vrij te gebruiken (CC0).">
     <meta property="og:url" content="https://openvertaling.nl/">
     <meta property="og:image" content="https://openvertaling.nl/icons/icon-512.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Open Vertaling — Een herziening van de Statenvertaling">
-    <meta name="twitter:description" content="Open Vertaling. Een herziening van de Statenvertaling in hedendaags Nederlands, vrij van rechten (CC0): alle 88 boeken, met grondtekst, kaart en Bijbels woordenboek.">
+    <meta name="twitter:description" content="Lees de Open Vertaling, een herziening van de Statenvertaling in hedendaags Nederlands. Met kanttekeningen en voorlezing. Gratis en vrij te gebruiken (CC0).">
     <meta name="twitter:image" content="https://openvertaling.nl/icons/icon-512.png">
     <!-- SEO:end -->
 
@@ -39,8 +44,9 @@
     <!-- Auto-open Search bij ?q=... van andere pagina's -->
     <script>window.addEventListener('load',function(){try{var p=new URLSearchParams(location.search);var q=p.get('q');if(q&&typeof Search!=='undefined'){setTimeout(function(){Search.open(q);},200);history.replaceState(null,'',location.pathname+location.hash);}}catch(e){}});</script>
     <link rel="stylesheet" href="css/fonts.css">
-  <link rel="stylesheet" href="css/style.css?v=0.58.9">
+  <link rel="stylesheet" href="css/style.css?v=0.60.0">
     <link rel="stylesheet" href="css/verwijzing-popup.css">
+  <link rel="stylesheet" href="css/ontwerp.css?v=0.60.0">
     <link rel="stylesheet" href="css/print.css" media="print">
 
     <!-- JSONLD:start (auto) -->
@@ -53,8 +59,8 @@
           "@id": "https://openvertaling.nl/#website",
           "url": "https://openvertaling.nl/",
           "name": "Open Vertaling",
-          "alternateName": "Open Vertaling — de kleine ark",
-          "description": "Open Vertaling. Een herziening van de Statenvertaling in hedendaags Nederlands, met grondtekst, kaart en Bijbels woordenboek.",
+          "alternateName": "Open Vertaling — William Carey Missions",
+          "description": "Open Vertaling. Een herziening van de Statenvertaling in hedendaags Nederlands.",
           "inLanguage": "nl-NL",
           "publisher": { "@id": "https://openvertaling.nl/#org" },
           "potentialAction": {
@@ -66,7 +72,7 @@
         {
           "@type": "Organization",
           "@id": "https://openvertaling.nl/#org",
-          "name": "Open Vertaling — de kleine ark",
+          "name": "Open Vertaling — William Carey Missions",
           "url": "https://openvertaling.nl/",
           "logo": "https://openvertaling.nl/icons/icon-512.png"
         },
@@ -81,18 +87,20 @@
           "author": { "@id": "https://openvertaling.nl/#org" },
           "isAccessibleForFree": true,
           "license": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "description": "Herziening van de Statenvertaling in hedendaags Nederlands: alle 88 boeken, ook de apocriefe en de Ethiopische, vrij van rechten (CC0).",
+          "description": "Herziening van de Statenvertaling in hedendaags Nederlands: 82 boeken, inclusief de apocriefe, vrij van rechten (CC0).",
           "url": "https://openvertaling.nl/"
         }
       ]
     }
     </script>
     <!-- JSONLD:end -->
+    <link rel="stylesheet" href="css/publication.css?v=0.60.0">
+    <link rel="describedby" href="/llms.txt" type="text/markdown">
 </head>
-<body>
+<body class="kt-popup-mode">
     <!-- Top navigatie -->
     <nav id="topnav"></nav>
-    <script src="js/topnav.js?v=0.38.3"></script>
+    <script src="js/topnav.js?v=0.60.0"></script>
 
     <!-- Mobiele topbar: boek+hoofdstuk, begrippen-toggle, opties. Alleen zichtbaar ≤768px. -->
     <div id="mobile-topbar" aria-label="Mobiele navigatie">
@@ -114,6 +122,38 @@
         </div>
         <div class="mp-body" id="mp-body"></div>
     </div>
+
+    <!-- Startscherm: alleen zichtbaar als index.html zonder #hash wordt geopend
+         (html.ov-start). Aantallen komen uit data/stats.json (data-stat), de
+         passage uit data/johannes/1.json; zie js/startscherm.js. -->
+    <main id="ov-start" class="ka-start" aria-labelledby="ka-start-titel">
+        <div class="ka-hero">
+            <div>
+                <p class="ka-eyebrow">Herziening van de Statenvertaling 1637 · 1888</p>
+                <h1 id="ka-start-titel">De Statenvertaling in hedendaags Nederlands. <em>Zo dicht mogelijk bij het origineel.</em></h1>
+                <p class="ka-lede">De Open Vertaling past alleen aan wat een lezer van nu niet meer begrijpt: naamvallen, verouderde woorden, oude werkwoordsvormen. Elke wijziging valt onder een genummerd principe en wordt door mensen nagelezen. De tekst is vrij van rechten.</p>
+                <div class="ka-cta">
+                    <a class="ka-btn ka-btn-gold" href="#johannes/1">Begin met lezen <span aria-hidden="true">→</span></a>
+                    <a class="ka-btn ka-btn-ghost" href="downloads.html">Download de tekst</a>
+                </div>
+                <p class="ka-verder" id="ka-verder"></p>
+
+            </div>
+            <article class="ka-passage" aria-labelledby="ka-passage-titel">
+                <div class="ka-passage-head">
+                    <h2 id="ka-passage-titel">Johannes 1:1–5</h2>
+
+                </div>
+                <p class="ka-scripture" id="ka-passage-tekst" lang="nl">In het begin was het Woord, en het Woord was bij God, en het Woord was God.</p>
+                <div class="ka-passage-foot">
+                    <span class="ka-pill" id="ka-passage-status">Geverifieerd</span>
+
+                    <a href="#johannes/1">Lees hoofdstuk 1 <span aria-hidden="true">→</span></a>
+                </div>
+            </article>
+        </div>
+
+    </main>
 
     <div id="app-container">
     <!-- Sidebar navigatie -->
@@ -143,38 +183,32 @@
     <main id="content">
         <div id="content-topbar">
             <h2 id="chapter-title"></h2>
-            <div id="column-toggles-wrapper">
-                <button type="button" id="quick-diff-btn" class="quickfilter-btn" aria-pressed="false" onclick="
-                    const on = this.getAttribute('aria-pressed') !== 'true';
-                    this.setAttribute('aria-pressed', on);
-                    this.classList.toggle('is-on', on);
-                    const cb = document.querySelector('input[data-toggle-col=diff]'); if (cb) { cb.checked = on; cb.dispatchEvent(new Event('change',{bubbles:true})); }
-                ">Verschillen SV-OV</button>
-                <button type="button" id="quick-strongs-btn" class="quickfilter-btn" aria-pressed="false">Grondtekst-link</button>
-            </div>
+            <label class="reader-notes-toggle"><input type="checkbox" id="toggle-kanttekeningen" checked> Kanttekeningen</label>
+
         </div>
         <div id="book-intro"></div>
         <div id="chapter-intro"></div>
 
         <div id="kolom-chips" class="kolom-chips" aria-label="Aangezette kolommen" hidden></div>
 
+        <input type="checkbox" data-toggle-col="2026" checked hidden aria-hidden="true">
         <div class="column-headers">
             <div data-col="num">Nr</div>
-            <div data-col="1637">Origineel 1637</div>
-            <div data-col="hebrew">Hebr/Grieks/Aram/Lat/Ge'ez</div>
-            <div data-col="1637">SV 1637</div>
-            <div data-col="margin1637">KT 1637</div>
-            <div data-col="sv1888">SV 1888</div>
-            <div data-col="marginSV1888">KT 1888</div>
+
+
+
+
+
+
             <div data-col="2026">OV</div>
-            <div data-col="margin2026">OSV KT</div>
-            <div data-col="hebrew">Hebr/Grieks/Aram/Lat/Ge'ez</div>
-            <div data-col="diff">Verschillen SV-OV</div>
-            <div data-col="noteDiff">Verschillen KT SV-OSV</div>
+
+
+
+
         </div>
 
         <div id="verses-container"></div>
-        <noscript><p style="padding:16px">De leesweergave gebruikt JavaScript. Lees de Bijbeltekst zonder JavaScript op de <a href="bijbel/">leespagina's</a> (alle 88 boeken), of haal de hele tekst op als <a href="llms-full.txt">platte tekst</a>. De tekst is vrij van rechten (CC0).</p></noscript>
+        <noscript><p style="padding:16px">De leesweergave gebruikt JavaScript. Lees de Bijbeltekst zonder JavaScript op de <a href="bijbel/">leespagina's</a> (82 boeken), of haal de hele tekst op als <a href="llms-full.txt">platte tekst</a>. De tekst is vrij van rechten (CC0).</p></noscript>
 
         <div id="chapter-footer">
             <button onclick="Navigation.navigateRelative(-1)" class="chf-btn chf-prev" aria-label="Vorig hoofdstuk" title="Vorig hoofdstuk"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg></button>
@@ -211,333 +245,21 @@
         <button id="mobile-next-btn" aria-label="Volgend hoofdstuk" onclick="Navigation.navigateRelative(1)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
     </nav>
 
-    <!-- Technisch modal -->
-    <div id="technisch-modal" style="display:none;position:fixed;inset:0;background:rgba(20,46,66,0.85);z-index:500;align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-        <div style="background:#fff;border-radius:8px;max-width:900px;width:95%;max-height:90vh;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);display:flex;flex-direction:column;">
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:2px solid var(--gold);background:var(--navy);">
-                <h2 style="font-family:var(--font-cursive);font-size:24px;color:var(--teal-light);font-weight:400;">Technische documentatie</h2>
-                <button onclick="document.getElementById('technisch-modal').style.display='none'" style="border:none;background:none;font-size:24px;cursor:pointer;color:rgba(255,255,255,0.6);">&times;</button>
-            </div>
-            <iframe src="technisch.html" style="flex:1;border:none;width:100%;min-height:70vh;"></iframe>
-        </div>
-    </div>
-
-    <!-- Lexicon modal -->
-    <div id="lexicon-modal" style="display:none;position:fixed;inset:0;background:rgba(20,46,66,0.85);z-index:500;align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-        <div style="background:#fff;border-radius:8px;max-width:900px;width:95%;max-height:90vh;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);display:flex;flex-direction:column;">
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:2px solid var(--gold);background:var(--navy);">
-                <h2 style="font-family:var(--font-cursive);font-size:24px;color:var(--teal-light);font-weight:400;">Lexicon</h2>
-                <div style="display:flex;gap:8px;align-items:center;">
-                    <select id="lexicon-lang" style="padding:4px 8px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);color:#fff;font-family:var(--font-body);font-size:13px;">
-                        <option value="hebrew" style="color:#333;">Hebreeuws (BDB)</option>
-                        <option value="greek" style="color:#333;">Grieks (Abbott-Smith)</option>
-                    </select>
-                    <input type="text" id="lexicon-search" placeholder="Zoek Strong's nr of woord..." style="padding:6px 12px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);color:#fff;font-family:var(--font-body);font-size:13px;width:250px;" autocomplete="off">
-                    <button onclick="document.getElementById('lexicon-modal').style.display='none'" style="border:none;background:none;font-size:24px;cursor:pointer;color:rgba(255,255,255,0.6);">&times;</button>
-                </div>
-            </div>
-            <div id="lexicon-results" style="flex:1;overflow-y:auto;padding:16px 20px;font-family:var(--font-body);font-size:14px;line-height:1.6;"></div>
-        </div>
-    </div>
-
-    <script>
-    // Lexicon zoek-functionaliteit
-    (function() {
-        const searchInput = document.getElementById('lexicon-search');
-        const langSelect = document.getElementById('lexicon-lang');
-        const results = document.getElementById('lexicon-results');
-        let debounce;
-
-        function getLexicon() {
-            const lang = langSelect.value;
-            if (lang === 'hebrew' && typeof bdbLexicon !== 'undefined') return { data: bdbLexicon, prefix: 'H', name: 'BDB Hebreeuws' };
-            if (lang === 'greek' && typeof abbottSmithLexicon !== 'undefined') return { data: abbottSmithLexicon, prefix: 'G', name: 'Abbott-Smith Grieks' };
-            return null;
-        }
-
-        async function search() {
-            const q = searchInput.value.trim().toLowerCase();
-            // Lazy-load het juiste lexicon indien nog niet geladen
-            const lang = langSelect.value;
-            if (window.LexiconLoader) {
-                results.innerHTML = '<p style="color:#999;">Lexicon laden…</p>';
-                try { await window.LexiconLoader.ensureLoaded(lang); }
-                catch (e) { results.innerHTML = '<p style="color:#c00;">Kon lexicon niet laden.</p>'; return; }
-            }
-            const lex = getLexicon();
-            if (!lex) { results.innerHTML = '<p style="color:#999;">Lexicon niet geladen.</p>'; return; }
-
-            if (!q) {
-                // Toon eerste 50 entries
-                const keys = Object.keys(lex.data).slice(0, 50);
-                renderEntries(keys, lex);
-                return;
-            }
-
-            // Zoek op Strong's nummer of woord/gloss
-            const matches = [];
-            for (const [key, entry] of Object.entries(lex.data)) {
-                if (matches.length >= 50) break;
-                if (key.toLowerCase().includes(q) ||
-                    (entry.woord && entry.woord.toLowerCase().includes(q)) ||
-                    (entry.gloss && entry.gloss.toLowerCase().includes(q))) {
-                    matches.push(key);
-                }
-            }
-            renderEntries(matches, lex);
-        }
-
-        function renderEntries(keys, lex) {
-            if (keys.length === 0) {
-                results.innerHTML = '<p style="color:#999;">Geen resultaten.</p>';
-                return;
-            }
-            results.innerHTML = keys.map(key => {
-                const e = lex.data[key];
-                const woord = e.woord || '';
-                const gloss = e.gloss || '';
-                const def = (e.definitie || '').substring(0, 300);
-                return `<div style="padding:10px 0;border-bottom:1px solid var(--border);" id="lex-${key}">
-                    <div style="display:flex;justify-content:space-between;align-items:baseline;">
-                        <span style="font-size:20px;">${woord}</span>
-                        <span style="color:var(--gold);font-weight:600;font-size:12px;">${key}</span>
-                    </div>
-                    <div style="font-weight:600;color:var(--navy);margin:2px 0;">${gloss}</div>
-                    <div style="font-size:12px;color:#666;">${def}${def.length >= 300 ? '...' : ''}</div>
-                </div>`;
-            }).join('');
-        }
-
-        searchInput.addEventListener('input', () => {
-            clearTimeout(debounce);
-            debounce = setTimeout(search, 200);
-        });
-        langSelect.addEventListener('change', search);
-
-        // Initieel laden bij openen
-        document.querySelector('[onclick*="lexicon-modal"]').addEventListener('click', () => {
-            setTimeout(search, 100);
-        });
-    })();
-    </script>
-
-    <!-- Uitgangspunten modal -->
-    <div id="uitgangspunten-modal" style="display:none;position:fixed;inset:0;background:rgba(20,46,66,0.85);z-index:500;align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-        <div style="background:#fff;border-radius:8px;max-width:900px;width:95%;max-height:90vh;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);display:flex;flex-direction:column;">
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:2px solid var(--gold);background:var(--navy);">
-                <h2 style="font-family:var(--font-cursive);font-size:24px;color:var(--teal-light);font-weight:400;">Vertaaluitgangspunten</h2>
-                <button onclick="document.getElementById('uitgangspunten-modal').style.display='none'" style="border:none;background:none;font-size:24px;cursor:pointer;color:rgba(255,255,255,0.6);">&times;</button>
-            </div>
-            <iframe src="wiki.html" style="flex:1;border:none;width:100%;min-height:70vh;"></iframe>
-        </div>
-    </div>
-
-    <!-- Schilderijen modal -->
-    <div id="paintings-modal" style="display:none;position:fixed;inset:0;background:rgba(20,46,66,0.85);z-index:500;align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-        <div style="background:#fff;border-radius:8px;max-width:1400px;width:96%;max-height:94vh;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);display:flex;flex-direction:column;">
-            <!-- Header met zoek -->
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 20px;border-bottom:2px solid var(--gold);background:var(--navy);flex-wrap:wrap;gap:8px;">
-                <h2 style="font-family:var(--font-cursive);font-size:24px;color:var(--teal-light);font-weight:400;">Schilderijen</h2>
-                <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
-                    <input type="text" id="paintings-search" placeholder="Zoek titel, schilder of tekst..." style="padding:6px 12px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);color:#fff;font-family:var(--font-body);font-size:13px;width:280px;" autocomplete="off">
-                    <select id="paintings-artist-filter" style="padding:5px 8px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);color:#fff;font-family:var(--font-body);font-size:12px;">
-                        <option value="" style="color:#333;">Alle schilders</option>
-                    </select>
-                    <span id="paintings-count" style="color:rgba(255,255,255,0.5);font-size:12px;"></span>
-                    <button onclick="document.getElementById('paintings-modal').style.display='none'" style="border:none;background:none;font-size:24px;cursor:pointer;color:rgba(255,255,255,0.6);">&times;</button>
-                </div>
-            </div>
-            <!-- Scroll gallery -->
-            <div id="paintings-grid" style="flex:1;overflow-y:auto;padding:20px 24px;display:flex;flex-direction:column;align-items:center;gap:32px;">
-                <p style="color:#999;font-style:italic;">Laden...</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Schilderij vergroot modal -->
-    <div id="painting-zoom" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.92);z-index:600;align-items:center;justify-content:center;cursor:pointer;" onclick="this.style.display='none'">
-        <div style="max-width:90vw;max-height:90vh;text-align:center;" onclick="event.stopPropagation()">
-            <img id="painting-zoom-img" src="" alt="" style="max-width:92vw;max-height:85vh;object-fit:contain;border-radius:4px;box-shadow:0 4px 24px rgba(0,0,0,0.5);">
-            <div id="painting-zoom-info" style="color:#ccc;font-family:var(--font-body);margin-top:12px;font-size:14px;line-height:1.6;"></div>
-            <button onclick="document.getElementById('painting-zoom').style.display='none'" style="position:absolute;top:16px;right:20px;border:none;background:none;font-size:32px;cursor:pointer;color:rgba(255,255,255,0.7);">&times;</button>
-        </div>
-    </div>
-
-    <!-- Woordenlijst modal -->
-    <div id="woordenlijst-modal" style="display:none;position:fixed;inset:0;background:rgba(20,46,66,0.85);z-index:500;align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-        <div style="background:#fff;border-radius:8px;max-width:900px;width:95%;max-height:90vh;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);display:flex;flex-direction:column;">
-            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 20px;border-bottom:2px solid var(--gold);background:var(--navy);">
-                <h2 style="font-family:var(--font-cursive);font-size:24px;color:var(--teal-light);font-weight:400;">Woordenlijst</h2>
-                <div style="display:flex;gap:8px;align-items:center;">
-                    <input type="text" id="woordenlijst-search" placeholder="Zoek een woord..." style="padding:6px 12px;border-radius:4px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);color:#fff;font-family:var(--font-body);font-size:13px;width:200px;" autocomplete="off">
-                    <button onclick="document.getElementById('woordenlijst-modal').style.display='none'" style="border:none;background:none;font-size:24px;cursor:pointer;color:rgba(255,255,255,0.6);">&times;</button>
-                </div>
-            </div>
-            <div id="woordenlijst-content" style="flex:1;overflow-y:auto;padding:20px 24px;font-family:var(--font-body);font-size:14px;line-height:1.7;color:#333;">
-                <p style="color:#999;font-style:italic;">Laden...</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Changelog modal -->
-    <div id="changelog-modal" style="display:none;position:fixed;inset:0;background:rgba(20,46,66,0.7);z-index:500;align-items:center;justify-content:center;" onclick="if(event.target===this)this.style.display='none'">
-        <div style="background:#fff;border-radius:8px;max-width:600px;width:90%;max-height:80vh;overflow-y:auto;padding:30px;box-shadow:0 8px 32px rgba(0,0,0,0.3);">
-            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
-                <h2 style="font-family:var(--font-cursive);font-size:28px;color:var(--teal);font-weight:400;">Changelog</h2>
-                <button onclick="document.getElementById('changelog-modal').style.display='none'" style="border:none;background:none;font-size:24px;cursor:pointer;color:#999;">&times;</button>
-            </div>
-            <div style="font-family:var(--font-body);font-size:14px;line-height:1.7;color:#333;">
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.11 — 14 april 2026</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li><strong>Citaat-grenzen verbeterd:</strong> Citaten beginnen nu na de dubbelpunt, niet bij het begin van het vers. Inleidende verzen ("zeggende:") worden niet meer als citaat gemarkeerd. Genesis volledig geaudit op te lange citaten.</li>
-                    <li><strong>599 verouderde woorden vervangen:</strong> eer→voordat (277x), moede→moe (82x), wien→wie (240x)</li>
-                    <li><strong>1.130x dezer/dezes → van deze</strong></li>
-                    <li><strong>Begrippenlijst Genesis:</strong> 922 begrippen — personen, plaatsen, volkeren, theologische begrippen, verouderde woorden. Geschreven voor jonge gelovigen. Klikbare woorden (oranje) met popup-uitleg.</li>
-                    <li><strong>Tag-systeem:</strong> Topicale tags op verzen (bijv. "Gods leiding"). Gekleurde bolletjes bij versnummers, rechtermuisklik om tags toe te voegen.</li>
-                    <li><strong>Statistieken-pagina:</strong> Live statistieken met aantallen per boek, woordwijzigingen, citaten, grondtekst-dekking. Per versie changelog.</li>
-                    <li><strong>Engel van JAHWEH / Engel Gods:</strong> Als begrip met Hebreeuws (מַלְאַךְ יהוה / מַלְאַךְ אֱלֹהִים)</li>
-                    <li><strong>Gen 6:4:</strong> Nephilim in plaats van reuzen</li>
-                    <li><strong>Gen 19:12:</strong> Engelen spreken, niet JAHWEH — correct als menselijk citaat</li>
-                    <li><strong>Gen 16:11:</strong> "van JAHWEH Engel" → "Engel van JAHWEH" (woordvolgorde gefixed)</li>
-                    <li><strong>Gebroken woorden gefixed:</strong> "ondervin den" → "ondervinden", "kin deren" → "kinderen"</li>
-                    <li><strong>Uitgangspunten uitgebreid:</strong> eer→voordat, moede→moe, wien→wie, verbeidde→wachtte, vertoefde→bleef, gedichtsel→maaksel, doch→maar, voorts→verder, ganse→gehele, maagschap→familie, have→bezittingen, dezer→van deze. Geen nuancering op Gods Woord (kanttekeningen).</li>
-                    <li><strong>Direct speech aanhalingstekens:</strong> Menselijke citaten nu ook met aanhalingstekens ("...")</li>
-                    <li><strong>Genesis citaten schoongemaakt:</strong> Alle 1.533 verzen individueel geaudit. 90 fouten gecorrigeerd: te lange citaten, verzen die vertelling zijn, inleidende verzen. Multi-speaker verzen (bijv. Gen 32:26, 32:30) correct gemarkeerd.</li>
-                    <li><strong>Gepubliceerd op GitHub:</strong> 1.370 statische HTML pagina's gepusht naar website-de-kleine-ark/bijbel/</li>
-                    <li><strong>Diffs opnieuw berekend:</strong> 26.066 phrase-level diffs (SV1888 vs OV) bijgewerkt na alle woordvervangingen</li>
-                    <li><strong>doorluchtig → glorierijk</strong> (27x)</li>
-                    <li><strong>"voordat dat" → "voordat"</strong> (29x, bijeffect van eer-vervanging gecorrigeerd)</li>
-                    <li><strong>Tag-systeem met ranking:</strong> 7 tags (Schepping, Bekering, Gods leiding, Geloof, Gebed, Zonde, Verbond) met sleutelteksten (★), belangrijke en aanvullende verzen</li>
-                    <li><strong>55.113 woordwijzigingen</strong> totaal t.o.v. SV1888</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.9 — 12 april 2026</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li><strong>Gecureerde God-citaten:</strong> 6.322 verzen handmatig geïdentificeerd door AI-agents, opgeslagen in god-speaks.json. 100% betrouwbare toepassing via versnummer (geen tekst-matching meer).</li>
-                    <li><strong>Alle directe citaten:</strong> 5.000 citaten (God + mens) geïdentificeerd met spreker en vers-bereik in all-speech.json. Doorlopende citaten over meerdere verzen.</li>
-                    <li><strong>God-citaten opmaak:</strong> rood, vet, cursief, met aanhalingstekens ("...")</li>
-                    <li><strong>Menselijke citaten:</strong> cursief met &lt;i&gt; tags</li>
-                    <li><strong>22.112 verouderde woorden vervangen:</strong> doch→maar, ganse→gehele, hetgeen→wat, iegelijk→iedereen, wederom→opnieuw, terstond→meteen, mitsgaders→en ook, desgelijks→evenzo, en 20+ andere</li>
-                    <li><strong>Spelling inleidingen:</strong> 83 boekinleidingen en 158 hoofdstukinleidingen gemoderniseerd (Evangelist, persoon, Farao, Egypte, etc.)</li>
-                    <li><strong>Neen→Nee</strong> (129x), <strong>Habel→Abel</strong> (27x), <strong>dewijl→omdat</strong> (1.513x), <strong>wijfje→vrouwtje</strong> (50x)</li>
-                    <li><strong>Gen 6:4:</strong> reuzen → Nephilim</li>
-                    <li><strong>Traditionele boek-indeling:</strong> Pentateuch, Historische boeken, Poëtische boeken, Profeten, Apocriefen (SV1637-volgorde, tussen OT en NT), Evangeliën, Brieven, Openbaring</li>
-                    <li><strong>Leesversie:</strong> mockup goedgekeurd (HSV-stijl desktop, YouVersion mobiel). Statische HTML export: 1.370 pagina's met boek/hoofdstuk picker.</li>
-                    <li><strong>JSON als single source of truth:</strong> server.py leest direct van JSON bestanden, geen SQLite-tussenlaag meer voor de tekst van Gods Woord</li>
-                    <li><strong>KT Diff kolom:</strong> phrase-level diff voor kanttekeningen (SV1888 vs OV2026)</li>
-                    <li><strong>Kanttekening-diff:</strong> 24.722 verzen met phraseDiff geëxporteerd naar JSON</li>
-                    <li><strong>Hoofdstukinleidingen:</strong> tonen nu text2026 (hertaald) in plaats van text1637</li>
-                    <li><strong>Schilderijen:</strong> verticale scroll-gallery in plaats van grid</li>
-                    <li><strong>Navigatie:</strong> vorig/volgend hoofdstuk knoppen onderaan de pagina</li>
-                    <li><strong>Uitgangspunten uitgebreid:</strong> Neen→Nee, Habel→Abel, dewijl→omdat, verbeidde→wachtte, vertoefde→bleef, gedichtsel→maaksel, doch→maar, voorts→verder, ganse→gehele, maagschap→familie, have→bezittingen, geen nuancering op Gods Woord</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.8 — 31 maart 2026</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li><strong>Nieuw uitgangspunt:</strong> SV1888 als vertrekpunt, minimale wijzigingen</li>
-                    <li><strong>Genesis compleet herzien (50 hfdst):</strong> zo dicht mogelijk bij SV1888, incl. 50 hoofdstuk-inleidingen</li>
-                    <li><strong>SQLite database:</strong> alle data in één bestand (open_vertaling.db)</li>
-                    <li><strong>Phrase-level diff:</strong> vergelijking OV↔SV1888 op begripsniveau met bekende vervangingspatronen</li>
-                    <li><strong>Volledige SV1888:</strong> alle 66 boeken + 16 apocriefen (37.314 verzen)</li>
-                    <li><strong>Grondtekst:</strong> 441.868 woorden met Strong's nummers (83% dekking)</li>
-                    <li><strong>Strong's inline:</strong> klikbare blauwe Strong's nummers bij OV-tekst met lexicon-tooltip</li>
-                    <li><strong>937 schilderijen:</strong> 815 statenvertaling.net + 122 Jan van 't Hoff (gospelimages.com)</li>
-                    <li><strong>Lexicon-pagina:</strong> doorzoekbaar BDB Hebreeuws + Abbott-Smith Grieks, in sidebar</li>
-                    <li><strong>Sidebar-navigatie:</strong> boomstructuur, lexicons, uitgangspunten, technische docs</li>
-                    <li><strong>Opmaak:</strong> woorden van God (rood), directe rede (cursief), kanttekening-nummers bij juiste woord</li>
-                    <li><strong>Tooltip:</strong> nootmarkers tonen nu KT2026 (hertaald) als hoofdtekst</li>
-                    <li><strong>Kolommen:</strong> SV1637, KT1637, SV1888, KT1888, OV2026, KT2026, Hebr/Grieks, Diff</li>
-                    <li><strong>Technische documentatie:</strong> volledig datamodel, scripts, API, bronnen</li>
-                    <li><strong>Uitgangspunten herzien:</strong> God JAHWEH, Heere≠HEERE, tijdsgebonden disputen vermijden</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.7 — 22 maart 2026</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li><strong>Vertaaluitgangspunten herzien:</strong> letterlijkheid boven leesbaarheid</li>
-                    <li><strong>Schrift-register behouden:</strong> gedierte, gevogelte, uitspansel, afgrond, alzo</li>
-                    <li><strong>Genesis 1-4 herzien</strong> op basis van nieuwe uitgangspunten</li>
-                    <li><strong>Johannes 3 herzien:</strong> "alzo lief", "wederom geboren", "verhoogd", kanttekening 29 geneutraliseerd</li>
-                    <li><strong>Romeinen 8 herzien:</strong> "dienstbaarheid", "ijdelheid", calvinistische bias geneutraliseerd (Rom 9)</li>
-                    <li><strong>Kanttekeningen alle boeken hertaald:</strong> volledig modern Nederlands, Hebreeuwse en Griekse woorden met origineel schrift toegevoegd</li>
-                    <li><strong>Calvinistische bias geneutraliseerd:</strong> Hand. 13:48, Rom. 8-9, Joh. 3:16</li>
-                    <li><strong>Nieuw design:</strong> huisstijl Open Vertaling (navy/goud/teal)</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.6 — februari 2026</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li>Kanttekeningen 1637 en hertaalde kanttekeningen als kolommen</li>
-                    <li>Lexicon-tooltips bij Hebreeuwse/Griekse woorden</li>
-                    <li>Kruisverwijzingen als klikbare links</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.5 — januari 2026</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li>Strong's nummers en grondtekst-weergave</li>
-                    <li>Kolom-toggles voor flexibele weergave</li>
-                    <li>HSV en NBG-51 vergelijkingskolommen</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.4 — december 2025</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li>Bewerkbare verzen met lokale opslag</li>
-                    <li>Status per vers (leeg/concept/review/definitief)</li>
-                    <li>Import/export functionaliteit</li>
-                </ul>
-
-                <h3 style="color:var(--navy);margin:16px 0 8px;font-size:16px;">v0.1–0.3 — november 2025</h3>
-                <ul style="padding-left:20px;margin-bottom:16px;">
-                    <li>Eerste opzet vertaaltool</li>
-                    <li>Genesis 1-3 als pilot</li>
-                    <li>Godsnamen-systeem (JahWeh/JAHWEH)</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <!-- Lexicons worden on-demand geladen via Lexicon.ensureLoaded() — niet automatisch op page load (samen 14 MB) -->
-    <script>
-    // Lazy-loader voor lexicons. Roep aan voordat je bdbLexicon/tbesgLexicon nodig hebt.
-    window.LexiconLoader = {
-        promises: {},
-        load(which) {
-            if (this.promises[which]) return this.promises[which];
-            this.promises[which] = new Promise((resolve, reject) => {
-                const src = which === 'hebrew' ? 'js/hebreeuws-woordenboek.js' : 'js/grieks-tbesg.js';
-                const s = document.createElement('script');
-                s.src = src; s.async = true;
-                s.onload = () => resolve();
-                s.onerror = () => reject(new Error('Lexicon load failed: ' + src));
-                document.head.appendChild(s);
-            });
-            return this.promises[which];
-        },
-        async ensureLoaded(which) {
-            const v = which === 'hebrew' ? 'bdbLexicon' : 'tbesgLexicon';
-            if (typeof window[v] !== 'undefined') return;
-            await this.load(which);
-        },
-        async ensureBoth() { await Promise.all([this.load('hebrew'), this.load('greek')]); },
-    };
-    </script>
     <script src="js/storage.js"></script>
     <script src="js/i18n.js"></script>
     <script src="js/citatie-uit.js"></script>
-    <script src="js/teksteditie.js?v=0.38.3"></script>
+    <script src="js/teksteditie.js?v=0.60.0"></script>
     <script src="js/review-components.js"></script>
     <script src="js/verification-display.js"></script>
     <script src="js/verification.js"></script>
-    <script src="js/data-loader.js?v=0.45.2"></script>
+    <script src="js/data-loader.js?v=0.60.0"></script>
     <script src="js/book-orders.js"></script>
-    <script src="js/geez-lexicon.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/chapter-swipe.js"></script>
-    <script src="js/editor.js?v=0.38.3"></script>
+    <script src="js/editor.js?v=0.60.0"></script>
     <script src="js/export.js"></script>
     <script src="js/references.js"></script>
-    <script src="js/noot-grondwoorden.js"></script>
     <script src="js/verwijzing-popup.js"></script>
-  <script src="js/woordnummers.js?v=0.44.28"></script>
-    <script src="js/lexicon.js?v=0.38.5"></script>
     </div><!-- /main-wrapper -->
 
     <!-- Zwevend optiespaneel -->
@@ -585,6 +307,7 @@
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/hoofdstukinleiding.png" alt="" aria-hidden="true"><span><strong>Hoofdstukinleiding</strong><small>Toon de inleiding boven het hoofdstuk.</small></span><input type="checkbox" id="toggle-chapter-intro" onchange="document.body.classList.toggle('show-chapter-intro', this.checked)"></label>
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/dyslexiemodus.png" alt="" aria-hidden="true"><span><strong>Dyslexiemodus</strong></span><input type="checkbox" id="toggle-dyslexia" onchange="document.body.classList.toggle('dyslexia-mode', this.checked);localStorage.setItem('dyslexia', this.checked)"></label>
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/citaatopmaak.png" alt="" aria-hidden="true"><span><strong>Citaatopmaak</strong><small>Cursief en kleuronderscheid voor sprekers.</small></span><input type="checkbox" id="toggle-citaten" data-optie="citaten" value="aan"></label>
+                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/spoor.png" alt="" aria-hidden="true"><span><strong>Wijzigingen t.o.v. SV1888</strong><small>Het spoor: stippel woorden die afwijken van de Statenvertaling 1888. Wijs een woord aan voor het oude woord en het principe.</small></span></label>
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/versnummers.png" alt="" aria-hidden="true"><span><strong>Versnummers</strong></span><input type="checkbox" id="toggle-versnummers" checked onchange="Opties.state.versnummers=this.checked?'aan':'uit';Opties.applyVerseNumbersClass();Opties.save();"></label>
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/hoofdstuknummers.png" alt="" aria-hidden="true"><span><strong>Hoofdstuknummers</strong></span><input type="checkbox" id="toggle-hoofdstuknummers" checked onchange="document.body.classList.toggle('hoofdstuknummers-uit', !this.checked);localStorage.setItem('hoofdstuknummers', this.checked)"></label>
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/perikoopkopjes.png" alt="" aria-hidden="true"><span><strong>Perikoopkopjes</strong><small>Tussenkopjes per gedeelte.</small></span><input type="checkbox" id="toggle-pericopen" checked onchange="document.body.classList.toggle('pericopen-uit', !this.checked);localStorage.setItem('pericopen', this.checked)"></label>
@@ -602,65 +325,11 @@
                             <option value="canoniek">Canoniek (SV / westers)</option>
                             <option value="tenach">Joodse Tenach (TNK)</option>
                             <option value="orthodox">Orthodox (Septuaginta)</option>
-                            <option value="ethiopisch">Ethiopisch (Tewahedo)</option>
                             <option value="chronologisch">Chronologisch (gebeurtenissen)</option>
-                            <option value="schrijftijd">Vermoedelijke schrijftijd</option>
                             <option value="auteur">Op auteur</option>
                         </select>
                     </label>
                     <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/apocriefe-boeken.png" alt="" aria-hidden="true"><span><strong>Apocriefe boeken</strong><small>Toon de apocriefe boeken in de boekkeuze.</small></span><input type="checkbox" id="toggle-apocriefe-boeken" data-optie="apocriefeBoeken" value="aan"></label>
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/ethiopische-boeken.png" alt="" aria-hidden="true"><span><strong>Ethiopische boeken</strong><small>Toon de Ethiopische boeken in de boekkeuze.</small></span><input type="checkbox" id="toggle-ethiopische-boeken" data-optie="ethiopischeBoeken" value="aan"></label>
-                </div>
-
-                <div class="options-section-heading">
-                    <div><h3>Vertaalweergave</h3><p>Kies hoe namen, maten en tijden worden weergegeven.</p></div>
-                </div>
-                <div class="options-list options-choice-list">
-                    <details class="option-choice option-choice-with-icon" data-option-summary="godsnaam"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/godsnaam.png" alt="" aria-hidden="true"><span>Godsnaam in het Oude Testament</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <small class="option-choice-sub">Open Vertaling</small>
-                        <label><input type="radio" name="opt-godsnaam" data-optie="godsnaam" value="ov"> JAHWEH / God JAHWEH</label>
-                        <label><input type="radio" name="opt-godsnaam" data-optie="godsnaam" value="klassiek"> HEERE / de HEERE God</label>
-                        <label><input type="radio" name="opt-godsnaam" data-optie="godsnaam" value="jehovah"> Jehovah / God Jehovah</label>
-                        <label><input type="radio" name="opt-godsnaam" data-optie="godsnaam" value="jhwh"> יהוה / God יהוה</label>
-                        <small class="option-choice-sub">Open Parafrase Vertaling</small>
-                        <label><input type="radio" name="opt-godsnaamOPV" data-optie="godsnaamOPV" value="heere"> HEERE</label>
-                        <label><input type="radio" name="opt-godsnaamOPV" data-optie="godsnaamOPV" value="jahweh"> JAHWEH</label>
-                        <label><input type="radio" name="opt-godsnaamOPV" data-optie="godsnaamOPV" value="jehovah"> Jehovah</label>
-                        <label><input type="radio" name="opt-godsnaamOPV" data-optie="godsnaamOPV" value="jhwh"> יהוה</label>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="heereNT"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/aanspreektitel-nt.png" alt="" aria-hidden="true"><span>Aanspreektitel in het Nieuwe Testament</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-heereNT" data-optie="heereNT" value="heere"> Heere</label>
-                        <label><input type="radio" name="opt-heereNT" data-optie="heereNT" value="here"> Here</label>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="otSheol"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/sheol.png" alt="" aria-hidden="true"><span>Sheol in het Oude Testament</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-otSheol" data-optie="otSheol" value="dodenrijk"> Dodenrijk</label>
-                        <label><input type="radio" name="opt-otSheol" data-optie="otSheol" value="hel"> Hel</label>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="arabischeNamen"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/namen-personen.png" alt="" aria-hidden="true"><span>Namen van personen</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-arabischeNamen" data-optie="arabischeNamen" value="uit"> Nederlands</label>
-                        <label><input type="radio" name="opt-arabischeNamen" data-optie="arabischeNamen" value="aan"> Arabisch</label>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="jezusNaam"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/naam-jezus.png" alt="" aria-hidden="true"><span>Naam van Jezus</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-jezusNaam" data-optie="jezusNaam" value="nl"> Jezus Christus</label>
-                        <label><input type="radio" name="opt-jezusNaam" data-optie="jezusNaam" value="hebreeuws"> Yeshua HaMashiach</label>
-                        <label><input type="radio" name="opt-jezusNaam" data-optie="jezusNaam" value="koranisch"> Isa</label>
-                        <label><input type="radio" name="opt-jezusNaam" data-optie="jezusNaam" value="arabisch"> Yasūʿ al-Masīḥ</label>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="maatstelsel"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/maten-gewichten.png" alt="" aria-hidden="true"><span>Maten en gewichten</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-maatstelsel" data-optie="maatstelsel" value="bijbels"> Bijbels</label>
-                        <label><input type="radio" name="opt-maatstelsel" data-optie="maatstelsel" value="metrisch"> Metrisch</label>
-                        <label><input type="radio" name="opt-maatstelsel" data-optie="maatstelsel" value="imperiaal"> Imperiaal</label>
-                        <p class="option-help">Omrekeningen zijn bij benadering. <a href="maateenheden.html" target="_blank" rel="noopener">Bekijk de verantwoording.</a></p>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="getalweergave"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/grote-getallen.png" alt="" aria-hidden="true"><span>Getallen</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-getalweergave" data-optie="getalweergave" value="woorden"> Uitgeschreven</label>
-                        <label><input type="radio" name="opt-getalweergave" data-optie="getalweergave" value="cijfers"> Vanaf 21 ook als cijfers</label>
-                    </div></details>
-                    <details class="option-choice option-choice-with-icon" data-option-summary="tijdrekening"><summary><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/tijdsaanduidingen.png" alt="" aria-hidden="true"><span>Tijdsaanduidingen</span></span><span class="option-current"></span></summary><div class="option-choice-values">
-                        <label><input type="radio" name="opt-tijdrekening" data-optie="tijdrekening" value="bijbels"> Bijbels</label>
-                        <label><input type="radio" name="opt-tijdrekening" data-optie="tijdrekening" value="modern"> Moderne kloktijd</label>
-                        <p class="option-help"><a href="tijdsaanduidingen.html" target="_blank" rel="noopener">Lees hoe de tijdsomrekening werkt.</a></p>
-                    </div></details>
                 </div>
 
                 <div class="options-section-heading">
@@ -677,225 +346,17 @@
                 </div>
             </section>
 
-            <section id="options-panel-vergelijken" class="options-tabpanel" role="tabpanel" aria-labelledby="options-tab-vergelijken" hidden>
-                <div class="options-section-heading"><div><h3>Teksten naast elkaar</h3><p>Vergelijk vertalingen en kanttekeningen.</p></div></div>
-                <div class="options-list">
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/voorkeurseditie.png" alt="" aria-hidden="true"><span><strong>Bijbeltekst</strong><small>De bediening blijft Nederlands.</small></span><select id="opt-teksteditie" data-optie="teksteditie" aria-label="Bijbeltekst">
-                        <option value="nl-ov">Nederlands — Open Vertaling</option>
-                        <option value="nl-opv">Nederlands — Open Parafrase Vertaling</option>
-                        <option value="fr-lsg1910">Frans — Louis Segond 1910</option>
-                        <option value="en-webbe">Engels — World English Bible (Brits)</option>
-                        <option value="ar-vd">Arabisch — Van Dyck</option>
-                        <option value="uk-ukrfb">Oekraïens — Freedom Bible</option>
-                        <option value="de-luther1912">Duits — Lutherbibel 1912</option>
-                        <option value="es-rv1909">Spaans — Reina-Valera 1909</option>
-                        <option value="pl-gdanska1881">Pools — Biblia Gdańska 1881</option>
-                        <option value="tr-open-basic-nt">Turks — Open Basic Turkish NT</option>
-                    </select></label>
-                    <fieldset id="parallel-editions-choice" class="option-choice option-choice-with-icon"><legend><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/vergelijkingsedities.png" alt="" aria-hidden="true"><span>Parallelle edities <small>maximaal 3</small></span></span></legend><div class="option-choice-values option-choice-grid">
-                        <label><input type="checkbox" data-parallel-editie="nl-ov"> Open Vertaling</label>
-                        <label><input type="checkbox" data-parallel-editie="nl-opv"> Open Parafrase Vertaling</label>
-                        <label><input type="checkbox" data-parallel-editie="fr-lsg1910"> Frans — Segond</label>
-                        <label><input type="checkbox" data-parallel-editie="en-webbe"> Engels — WEB</label>
-                        <label><input type="checkbox" data-parallel-editie="ar-vd"> Arabisch — Van Dyck</label>
-                        <label><input type="checkbox" data-parallel-editie="uk-ukrfb"> Oekraïens</label>
-                        <label><input type="checkbox" data-parallel-editie="de-luther1912"> Duits — Luther</label>
-                        <label><input type="checkbox" data-parallel-editie="es-rv1909"> Spaans — Reina-Valera</label>
-                        <label><input type="checkbox" data-parallel-editie="pl-gdanska1881"> Pools — Gdańska</label>
-                        <label><input type="checkbox" data-parallel-editie="tr-open-basic-nt"> Turks</label>
-                        <label><input type="checkbox" data-toggle-col="1637"> SV 1637</label>
-                        <label><input type="checkbox" data-toggle-col="sv1888"> SV 1888</label>
-                        <label><input type="checkbox" data-toggle-col="2026" checked> Primaire Bijbeltekst</label>
-                    </div></fieldset>
-                    <fieldset class="option-choice option-choice-with-icon"><legend><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/kanttekeningen.png" alt="" aria-hidden="true"><span>Kanttekeningen</span></span></legend><div class="option-choice-values option-choice-grid">
-                        <label><input type="checkbox" data-toggle-col="margin1637"> KT 1637</label>
-                        <label><input type="checkbox" data-toggle-col="marginSV1888"> KT 1888</label>
-                        <label><input type="checkbox" data-toggle-col="margin2026"> OV-kanttekeningen als kolom</label>
-                        <label><input type="checkbox" id="toggle-kt-popup" onchange="document.body.classList.toggle('kt-popup-mode', this.checked)"> Nootnummers tonen — klik voor de kanttekening</label>
-                    </div></fieldset>
-                    <fieldset class="option-choice option-choice-inline option-choice-with-icon"><legend><span class="option-label-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/extra-kolommen.png" alt="" aria-hidden="true"><span>Weergave parallelle edities</span></span></legend>
-                        <label><input type="radio" name="opt-kolomLayout" data-optie="kolomLayout" value="naast"> Naast elkaar</label>
-                        <label><input type="radio" name="opt-kolomLayout" data-optie="kolomLayout" value="eronder"> Onder elkaar</label>
-                    </fieldset>
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/verschillen-vertalingen.png" alt="" aria-hidden="true"><span><strong>Verschillen SV–OV</strong></span><input type="checkbox" data-toggle-col="diff"></label>
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/verschillen-kanttekeningen.png" alt="" aria-hidden="true"><span><strong>Verschillen in kanttekeningen</strong></span><input type="checkbox" data-toggle-col="noteDiff"></label>
-                </div>
-            </section>
 
-            <section id="options-panel-onderzoeken" class="options-tabpanel" role="tabpanel" aria-labelledby="options-tab-onderzoeken" hidden>
-                <div class="options-section-heading"><div><h3>Onderzoekslagen</h3><p>Voeg bronnen en taalinformatie toe aan de tekst.</p></div></div>
-                <div class="options-list">
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/grondtalen.png" alt="" aria-hidden="true"><span><strong>Grondtalen</strong><small>Hebreeuws, Grieks, Aramees, Latijn of Ge'ez.</small></span><input type="checkbox" data-toggle-col="hebrew"></label>
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/oudste-handschrift.png" alt="" aria-hidden="true"><span><strong>Oudste handschrift per vers</strong><small>Oorspronkelijke taal en oudste vindplaats.</small></span><input type="checkbox" id="toggle-hs-vers"></label>
-                    <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/onderwerptags.png" alt="" aria-hidden="true"><span><strong>Tekstverbanden</strong><small>Markeer onderwerpen, materialen, dieren, planten en geografische locaties.</small></span><input type="checkbox" id="toggle-contextmarkeringen" data-optie="geoMarkeren" value="aan" onchange="document.body.classList.toggle('show-tags', this.checked)"></label>
-                        <label class="option-row option-row-with-icon"><img class="option-icon" loading="lazy" src="images/iconen/instellingen/strong-nummers.png" alt="" aria-hidden="true"><span><strong>Strong- en woordnummers</strong><em class="option-status-inline">In bewerking</em></span><input type="checkbox" id="toggle-strongs" data-optie="strongs" value="aan"></label>
-                </div>
-            </section>
+
+
         </div>
     </dialog>
     <div id="mobile-backdrop"></div>
 
-    <script>
-    // Schilderijen zoek/filter/zoom
-    (function() {
-        let allArtworks = [];
-        let loaded = false;
 
-        const grid = document.getElementById('paintings-grid');
-        const searchInput = document.getElementById('paintings-search');
-        const artistFilter = document.getElementById('paintings-artist-filter');
-        const countEl = document.getElementById('paintings-count');
-
-        async function loadArtworks() {
-            if (loaded) return;
-            try {
-                const resp = await fetch('bronbestanden/schilderijen/index.json');
-                const data = await resp.json();
-                allArtworks = data.artworks || [];
-                loaded = true;
-
-                // Vul schilder-dropdown
-                const artists = [...new Set(allArtworks.map(a => a.artist).filter(Boolean))].sort();
-                artists.forEach(a => {
-                    const count = allArtworks.filter(x => x.artist === a).length;
-                    const opt = document.createElement('option');
-                    opt.value = a;
-                    opt.textContent = `${a} (${count})`;
-                    opt.style.color = '#333';
-                    artistFilter.appendChild(opt);
-                });
-
-                renderGrid();
-            } catch(e) {
-                grid.innerHTML = '<p style="color:#c00;">Kon schilderijen niet laden.</p>';
-            }
-        }
-
-        function renderGrid() {
-            const q = (searchInput.value || '').trim().toLowerCase();
-            const artist = artistFilter.value;
-
-            let filtered = allArtworks;
-            if (artist) filtered = filtered.filter(a => a.artist === artist);
-            if (q) filtered = filtered.filter(a =>
-                (a.title || '').toLowerCase().includes(q) ||
-                (a.artist || '').toLowerCase().includes(q) ||
-                (a.bible_reference || '').toLowerCase().includes(q) ||
-                (a.museum || '').toLowerCase().includes(q)
-            );
-
-            countEl.textContent = `${filtered.length} van ${allArtworks.length}`;
-            grid.innerHTML = '';
-
-            filtered.slice(0, 200).forEach(art => {
-                const card = document.createElement('div');
-                card.style.cssText = 'width:100%;max-width:800px;border-radius:10px;overflow:hidden;border:1px solid #e0dcd4;background:#fff;cursor:pointer;transition:box-shadow 0.2s;';
-                card.innerHTML = `
-                    <img src="bronbestanden/schilderijen/${art.image_filename}" alt="${art.title || ''}" loading="lazy"
-                         style="width:100%;display:block;border-radius:10px 10px 0 0;" onerror="this.style.display='none'">
-                    <div style="padding:14px 18px;font-size:14px;line-height:1.5;">
-                        <div style="font-weight:600;color:var(--navy);font-size:17px;margin-bottom:4px;">${art.title || 'Onbekend'}</div>
-                        <div style="color:#666;">${art.artist || 'Onbekend'}${art.year ? ` (${art.year})` : ''}</div>
-                        ${art.museum ? `<div style="color:#888;font-size:13px;margin-top:2px;">${art.museum}</div>` : ''}
-                        ${art.bible_reference ? `<div style="color:var(--gold);font-weight:600;margin-top:4px;">${art.bible_reference}</div>` : ''}
-                    </div>`;
-                card.onmouseover = () => card.style.boxShadow = '0 4px 20px rgba(0,0,0,0.15)';
-                card.onmouseout = () => card.style.boxShadow = '';
-                card.onclick = (e) => {
-                    e.stopPropagation();
-                    showZoom(art);
-                };
-                grid.appendChild(card);
-            });
-
-            if (filtered.length > 200) {
-                const more = document.createElement('p');
-                more.style.cssText = 'color:#888;font-size:12px;text-align:center;padding:12px;';
-                more.textContent = `+ ${filtered.length - 200} meer — verfijn je zoekopdracht`;
-                grid.appendChild(more);
-            }
-            if (filtered.length === 0) {
-                grid.innerHTML = '<p style="color:#999;text-align:center;padding:20px;">Geen schilderijen gevonden.</p>';
-            }
-        }
-
-        function showZoom(art) {
-            const zoom = document.getElementById('painting-zoom');
-            const img = document.getElementById('painting-zoom-img');
-            const info = document.getElementById('painting-zoom-info');
-            img.src = 'bronbestanden/schilderijen/' + art.image_filename;
-            img.alt = art.title || '';
-            info.innerHTML = `
-                <strong style="font-size:16px;color:#fff;">${art.title || ''}</strong><br>
-                <span style="color:var(--gold);">${art.artist || ''}</span>
-                ${art.medium ? `<br><span style="font-size:12px;">${art.medium}</span>` : ''}
-                ${art.museum ? `<br><span style="font-size:12px;">${art.museum}</span>` : ''}
-                ${art.bible_reference ? `<br><span style="color:var(--gold);font-weight:600;margin-top:4px;display:inline-block;">${art.bible_reference}</span>` : ''}
-                ${art.url ? `<br><a href="${art.url}" target="_blank" style="color:#7ab;font-size:11px;">Bron</a>` : ''}
-            `;
-            zoom.style.display = 'flex';
-        }
-
-        let debounce;
-        searchInput.addEventListener('input', () => { clearTimeout(debounce); debounce = setTimeout(renderGrid, 200); });
-        artistFilter.addEventListener('change', renderGrid);
-
-        var _btnSchilderijen = document.getElementById('btn-schilderijen');
-        if (_btnSchilderijen) _btnSchilderijen.addEventListener('click', () => { loadArtworks(); });
-    })();
-    </script>
 
     <!-- Woordenlijst laden en zoeken -->
-    <script>
-    (function() {
-        let woordenlijstHTML = '';
-        let loaded = false;
-        const container = document.getElementById('woordenlijst-content');
-        const searchInput = document.getElementById('woordenlijst-search');
 
-        function markdownToHTML(md) {
-            let html = md;
-            // Headers
-            html = html.replace(/^## (.+)$/gm, '<h3 style="color:var(--navy);font-family:var(--font-cursive);font-size:18px;font-weight:400;margin:24px 0 12px;border-bottom:2px solid var(--gold);padding-bottom:6px;">$1</h3>');
-            html = html.replace(/^# (.+)$/gm, '');
-            // Bold
-            html = html.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-            // Italic
-            html = html.replace(/\*(.+?)\*/g, '<em>$1</em>');
-            // Horizontal rule
-            html = html.replace(/^---$/gm, '<hr style="border:none;border-top:1px solid #e0dcd4;margin:16px 0;">');
-            // Em dash entries: "**Woord** — uitleg"
-            html = html.replace(/^(<strong>.+?<\/strong>) — (.+)$/gm,
-                '<div class="wl-entry" style="margin-bottom:10px;padding:6px 0;border-bottom:1px solid #f0ece4;"><span style="color:var(--navy);">$1</span> <span style="color:#555;">&mdash; $2</span></div>');
-            // Paragraphs
-            html = html.replace(/\n\n/g, '<br><br>');
-            return html;
-        }
-
-        async function loadWoordenlijst() {
-            if (loaded) return;
-            try {
-                const resp = await fetch('data/woordenlijst.md');
-                const md = await resp.text();
-                woordenlijstHTML = markdownToHTML(md);
-                loaded = true;
-                container.innerHTML = woordenlijstHTML;
-            } catch(e) {
-                container.innerHTML = '<p style="color:#c00;">Kon woordenlijst niet laden.</p>';
-            }
-        }
-
-        searchInput.addEventListener('input', () => {
-            const q = searchInput.value.trim().toLowerCase();
-            const entries = container.querySelectorAll('.wl-entry');
-            entries.forEach(el => {
-                el.style.display = el.textContent.toLowerCase().includes(q) ? '' : 'none';
-            });
-        });
-
-        document.querySelector('[onclick*="woordenlijst-modal"]').addEventListener('click', loadWoordenlijst);
-    })();
-    </script>
 
     <script>
     // Dyslexie-modus herstellen uit localStorage
@@ -923,25 +384,19 @@
         if (ch) ch.checked = false;
     }
 </script>
-    <script src="js/options-panel.js?v=0.58.1"></script>
-    <script src="js/sidebar.js?v=0.44.3"></script>
+    <script src="js/options-panel.js?v=0.60.0"></script>
+    <script src="js/sidebar.js?v=0.60.0"></script>
     <script src="js/mobile-nav.js"></script>
-    <script src="js/column-resize.js"></script>
-    <script src="js/column-reorder.js"></script>
     <script src="js/verse-select.js"></script>
     <script src="js/highlight.js"></script>
-    <script src="js/begrippen.js"></script>
-    <script src="js/tags.js"></script>
     <script src="js/optie-maten.js"></script>
-    <script src="js/opties.js?v=0.38.4"></script>
+    <script src="js/opties.js?v=0.60.0"></script>
     <script src="js/tekstweergave.js"></script>
     <script src="js/assets.js"></script>
     <script src="js/audio-available.js"></script>
     <script src="js/chunked-audio.js"></script>
-    <script src="js/verse-witness-reader.js"></script>
   <script src="js/chapter-renderer.js"></script>
-  <script src="js/app.js?v=0.58.5"></script>
-  <script src="js/kolom-chips.js?v=0.58.9"></script>
+  <script src="js/app.js?v=0.60.0"></script>
     <script src="js/search.js"></script>
     <script>
     document.addEventListener('DOMContentLoaded', () => {
@@ -959,7 +414,7 @@
     <!-- Firebase auth + cloud-highlights + feedback (graceful degradation zonder config) -->
     <script src="js/cloud-highlights.js"></script>
     <script src="js/cloud-opties.js"></script>
-    <script src="js/feedback.js?v=0.46.1"></script>
+    <script src="js/feedback.js?v=0.60.0"></script>
 
     <!-- Service Worker: offline-cache + instant 2e bezoek -->
     <script>
@@ -981,16 +436,7 @@
     }
     </script>
 
-    <!-- Begrippen popover -->
-    <div id="begrip-popover" style="display:none;position:absolute;z-index:600;background:#fff;border:1px solid #e5e1d8;border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:14px 18px;box-shadow:0 4px 16px rgba(0,0,0,0.15);max-width:350px;font-family:var(--font-body);font-size:14px;line-height:1.6;">
-        <div id="begrip-woord" style="font-size:18px;font-weight:600;color:var(--navy);margin-bottom:4px;"></div>
-        <div id="begrip-cat" style="font-size:11px;color:var(--teal);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;"></div>
-        <div id="begrip-uitleg" style="color:#333;margin-bottom:6px;"></div>
-        <div id="begrip-ref" style="font-size:12px;color:var(--teal);"></div>
-        <a id="begrip-encyclopedie" href="#" target="_blank" style="display:none;margin-top:8px;font-size:13px;color:var(--gold);text-decoration:none;font-weight:500;"></a>
-        <div style="margin-top:10px;padding:6px 10px;background:#fef3c7;border-left:3px solid #f59e0b;border-radius:0 4px 4px 0;font-size:11px;color:#78350f;line-height:1.4;">⚠️ AI-generated, nog niet gecontroleerd</div>
-    </div>
     </div><!-- /app-container -->
-<script src="js/stats-inject.js"></script>
+<script src="js/startscherm.js?v=0.60.0"></script>
 </body>
 </html>

@@ -2579,7 +2579,7 @@
           "type": "explanatory",
           "textSV1888": "heiligt u: Dat is, bereidt en schikt u daartoe, gelijk dat betaamt. Zie Exod. 19:10 , 19:14 , 19:15 . Exodus 19:10 : Ook zeide de HEERE tot Mozes: Ga tot het volk, en heilig hen heden en morgen, en dat zij hun klederen wassen, Exodus 19:14 : Toen ging Mozes van den berg af tot het volk, en hij heiligde het volk; en zij wiesen hun klederen. Exodus 19:15 : En hij zeide tot het volk: Weest gereed tegen den derden dag, en nadert niet tot de vrouw.",
           "text1637": "D. bereydt ende schickt u daer toe, als dat betaemt, Siet Exod. 19. versen 10, 14, 15.",
-          "text2026": "heiligt u: Dat is, bereidt en schikt u daartoe, gelijk dat betaamt. Zie Ex. 19:10 , 19:14 , 19:15 . Exodus 19:10 : Ook zei JAHWEH tot Mozes: Ga tot het volk, en heilig hen heden en morgen, en dat zij hun kleren groeien, Exodus 19:14 : Toen ging Mozes van de berg af tot het volk, en hij heiligde het volk; en zij wiesen hun kleren. Exodus 19:15 : En hij zei tot het volk: Weest gereed tegen de derden dag, en nadert niet tot de vrouw."
+          "text2026": "heiligt u: Dat is, bereidt en schikt u daartoe, gelijk dat betaamt. Zie Ex. 19:10 , 19:14 , 19:15 . Exodus 19:10 : Ook zei JAHWEH tot Mozes: Ga tot het volk, en heilig hen heden en morgen, en dat zij hun kleren wassen, Exodus 19:14 : Toen ging Mozes van de berg af tot het volk, en hij heiligde het volk; en zij wiesen hun kleren. Exodus 19:15 : En hij zei tot het volk: Weest gereed tegen de derde dag, en nadert niet tot de vrouw."
         },
         {
           "marker": "12",
@@ -3171,7 +3171,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, hij is de man, dien ik tot koning zalven moet; maar hij heef hierin gemist, gelijk Nathan, 2 Sam. 7:3 , sprekende naar zijn eigen gevoelen. 2 Samuël 7:3 : En Nathan zeide tot den koning: Ga heen, doe al wat in uw hart is, want de HEERE is met u.",
           "text1637": "D. hy is de man, dien ick tot Coninck salven moet: maer hy heeft hier in gemist, gelijck Nathan 2.Sam. 7.3. sprekende nae sijn eygen gevoelen.",
-          "text2026": "Dat is, hij is de man, die ik tot koning zalven moet; maar hij heef hierin gemist, gelijk Nathan, 2 Sam. 7:3 , sprekende naar zijn eigen gevoelen. 2 Samuël 7:3 : En Nathan zei tot de koning: Ga heen, doe al wat in uw hart is, want JAHWEH is met u."
+          "text2026": "Dat is, hij is de man, die ik tot koning zalven moet; maar hij heeft hierin gemist, gelijk Nathan, 2 Sam. 7:3 , sprekende naar zijn eigen gevoelen. 2 Samuël 7:3 : En Nathan zei tot de koning: Ga heen, doe al wat in uw hart is, want JAHWEH is met u."
         }
       ],
       "grondtekst": [
@@ -3710,33 +3710,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "JAHWEH",
-          "voorkomen": 1,
-          "strongs": [
-            "H3068"
-          ],
-          "bronwoorden": [
-            "יְהוָ֜ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 16:7",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
@@ -3760,6 +3733,33 @@
             "referentie": "1SA 16:7",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 1,
+          "strongs": [
+            "H3068"
+          ],
+          "bronwoorden": [
+            "יְהוָ֜ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 16:7",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -3899,10 +3899,13 @@
           }
         },
         {
-          "tekst": "gestalte",
+          "tekst": "uiterlijk",
           "voorkomen": 1,
           "strongs": [
             "H4758"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3ms"
           ],
           "bronwoorden": [
             "מַרְאֵ֛/הוּ"
@@ -3913,13 +3916,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 16:7",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -3980,10 +3987,13 @@
           }
         },
         {
-          "tekst": "statuur",
+          "tekst": "gestalte",
           "voorkomen": 1,
           "strongs": [
             "H6967"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp3ms"
           ],
           "bronwoorden": [
             "קוֹמָת֖/וֹ"
@@ -3994,13 +4004,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 16:7",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -4142,33 +4156,6 @@
           }
         },
         {
-          "tekst": "mens",
-          "voorkomen": 1,
-          "strongs": [
-            "H120"
-          ],
-          "bronwoorden": [
-            "הָ/אָדָ֔ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 16:7",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "ziet",
           "voorkomen": 1,
           "strongs": [
@@ -4192,6 +4179,33 @@
             "referentie": "1SA 16:7",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "mens",
+          "voorkomen": 1,
+          "strongs": [
+            "H120"
+          ],
+          "bronwoorden": [
+            "הָ/אָדָ֔ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 16:7",
+            "bronindices": [
+              16
             ]
           }
         },
@@ -6568,7 +6582,7 @@
           "type": "explanatory",
           "textSV1888": "HEERE zeide: Te weten, door een heimelijke en inwendige ingeving des Heiligen Geestes.",
           "text1637": "T.w. door een heymelicke ende inwendige ingevinge des H. Geests.",
-          "text2026": "JAHWEH zei: Te weten, door een geheime en inwendige ingeving van de Heiligen Geestes."
+          "text2026": "JAHWEH zei: Te weten, door een geheime en inwendige ingeving van de Heilige Geest."
         }
       ],
       "grondtekst": [
@@ -7122,7 +7136,7 @@
           "type": "explanatory",
           "textSV1888": "hij zalfde hem: Te weten, nadat hij zijn vader, hem en allen, die daar tegenwoordig waren, den wil des Heeren hiervan had te kennen gegeven.",
           "text1637": "T.w. na dat hy sijnen vader, hem, ende alle die daer tegenwoordich waren, den wille des Heeren hier van hadde te kennen gegeven.",
-          "text2026": "hij zalfde hem: Te weten, nadat hij zijn vader, hem en allen, die daar tegenwoordig waren, de wil van de Heern hiervan had te kennen gegeven."
+          "text2026": "hij zalfde hem: Te weten, nadat hij zijn vader, hem en allen, die daar tegenwoordig waren, de wil van de Heer hiervan had te kennen gegeven."
         },
         {
           "marker": "d",
@@ -12083,14 +12097,14 @@
           "type": "explanatory",
           "textSV1888": "geest Gods over Saul was: Versta, dien bozen geest, waarvan vers 14 , 16:15 gesproken is. 1 Samuël 16:14 : En de Geest des HEEREN week van Saul; en een boze geest van den HEERE verschrikte hem. 1 Samuël 16:15 : Toen zeiden Sauls knechten tot hem: Zie toch, een boze geest Gods verschrikt u.",
           "text1637": "Verst. dien boosen geeft, daer van versen 14, 15. gesproken is.",
-          "text2026": "geest van God over Saul was: Versta, die bozen geest, waarvan vers 14 , 16:15 gesproken is. 1 Samuël 16:14 : En de Geest van JAHWEH week van Saul; en een boze geest van JAHWEH verschrikte hem. 1 Samuël 16:15 : Toen zeiden Sauls knechten tot hem: Zie toch, een boze geest van God verschrikt u."
+          "text2026": "geest van God over Saul was: Versta, die boze geest, waarvan vers 14 , 16:15 gesproken is. 1 Samuël 16:14 : En de Geest van JAHWEH week van Saul; en een boze geest van JAHWEH verschrikte hem. 1 Samuël 16:15 : Toen zeiden Sauls knechten tot hem: Zie toch, een boze geest van God verschrikt u."
         },
         {
           "marker": "43",
           "type": "explanatory",
           "textSV1888": "dat was voor Saul een verademing: Dat is, die verschrikkingen en kwellingen des bozen geestes hielden op als David speelde. God heeft door zijn voorzienigheid deze zaak alzo geregeerd en beschikt, opdat David in het hof des konings zou opgetrokken worden, om hem alzo de baan te openen en den weg te bereiden tot het koninkrijk, waartoe Hij hem verkoren en alrede gezalfd had.",
           "text1637": "D. die verschrickingen, ende quellingen des boosen geestes hielden op, als David speelde. Godt heeft door sijne voorsichticheyt dese sake alsoo geregeert ende beschickt, op dat David in ’t hof des Conincks soude op-getrocken worden, om hem alsoo de bane te openen, ende den wech te bereyden tot het Coninckrijcke, daer toe hy hem verkoren, ende alreede gesalft hadde.",
-          "text2026": "dat was voor Saul een verademing: Dat is, die verschrikkingen en kwellingen van de bozen geestes hielden op als David speelde. God heeft door zijn voorzienigheid deze zaak zo geregeerd en beschikt, opdat David in het hof van de koning zou opgetrokken worden, om hem zo de baan te openen en de weg te bereiden tot het koninkrijk, waartoe Hij hem gekozen en al gezalfd had."
+          "text2026": "dat was voor Saul een verademing: Dat is, die verschrikkingen en kwellingen van de boze geest hielden op als David speelde. God heeft door zijn voorzienigheid deze zaak zo geregeerd en beschikt, opdat David in het hof van de koning zou opgetrokken worden, om hem zo de baan te openen en de weg te bereiden tot het koninkrijk, waartoe Hij hem gekozen en al gezalfd had."
         }
       ],
       "grondtekst": [

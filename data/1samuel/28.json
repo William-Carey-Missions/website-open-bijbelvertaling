@@ -208,6 +208,33 @@
           }
         },
         {
+          "tekst": "dagen",
+          "voorkomen": 1,
+          "strongs": [
+            "H3117"
+          ],
+          "bronwoorden": [
+            "בַּ/יָּמִ֣ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:1",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
           "tekst": "die",
           "voorkomen": 1,
           "strongs": [
@@ -235,13 +262,13 @@
           }
         },
         {
-          "tekst": "dagen",
+          "tekst": "verzamelden",
           "voorkomen": 1,
           "strongs": [
-            "H3117"
+            "H6908"
           ],
           "bronwoorden": [
-            "בַּ/יָּמִ֣ים"
+            "וַ/יִּקְבְּצ֨וּ"
           ],
           "transliteraties": [
             ""
@@ -257,7 +284,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:1",
             "bronindices": [
-              2
+              5
             ]
           }
         },
@@ -318,33 +345,6 @@
           "plaats": "voor",
           "status": "niet_afzonderlijk_weergegeven",
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
-        },
-        {
-          "tekst": "verzamelden",
-          "voorkomen": 1,
-          "strongs": [
-            "H6908"
-          ],
-          "bronwoorden": [
-            "וַ/יִּקְבְּצ֨וּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:1",
-            "bronindices": [
-              5
-            ]
-          }
         },
         {
           "tekst": "legers",
@@ -455,33 +455,6 @@
           }
         },
         {
-          "tekst": "Achis",
-          "voorkomen": 1,
-          "strongs": [
-            "H397"
-          ],
-          "bronwoorden": [
-            "אָכִישׁ֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:1",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
@@ -505,6 +478,33 @@
             "referentie": "1SA 28:1",
             "bronindices": [
               11
+            ]
+          }
+        },
+        {
+          "tekst": "Achis",
+          "voorkomen": 1,
+          "strongs": [
+            "H397"
+          ],
+          "bronwoorden": [
+            "אָכִישׁ֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:1",
+            "bronindices": [
+              10
             ]
           }
         },
@@ -645,40 +645,16 @@
           }
         },
         {
-          "tekst": "u",
-          "voorkomen": 3,
-          "strongs": [
-            "H859"
-          ],
-          "bronwoorden": [
-            "אַתָּ֖ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:1",
-            "bronindices": [
-              17
-            ]
-          }
-        },
-        {
-          "tekst": "mannen",
+          "tekst": "met",
           "voorkomen": 1,
           "strongs": [
-            "H376"
+            "H854"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
-            "וַ/אֲנָשֶֽׁי/ךָ"
+            "אִתִּ/י֙"
           ],
           "transliteraties": [
             ""
@@ -686,20 +662,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:1",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
-              18
+              21
             ]
-          },
-          "gids_strongs": [
-            "H582"
-          ]
+          }
         },
         {
           "tekst": "uittrekken",
@@ -756,13 +733,13 @@
           }
         },
         {
-          "tekst": "mij",
-          "voorkomen": 1,
+          "tekst": "u",
+          "voorkomen": 3,
           "strongs": [
-            "H854"
+            "H859"
           ],
           "bronwoorden": [
-            "אִתִּ/י֙"
+            "אַתָּ֖ה"
           ],
           "transliteraties": [
             ""
@@ -778,9 +755,39 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:1",
             "bronindices": [
-              21
+              17
             ]
           }
+        },
+        {
+          "tekst": "mannen",
+          "voorkomen": 1,
+          "strongs": [
+            "H376"
+          ],
+          "bronwoorden": [
+            "וַ/אֲנָשֶֽׁי/ךָ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:1",
+            "bronindices": [
+              18
+            ]
+          },
+          "gids_strongs": [
+            "H582"
+          ]
         }
       ]
     },
@@ -2049,7 +2056,7 @@
           "type": "explanatory",
           "textSV1888": "Dit is een gebergte, gelegen niet ver van het dal Jizreël, waar de slag geschied is, waar Saul met zijn zonen zijn omgekomen. Zie onder, 1 Sam. 31:1 , en 2 Sam. 1:21 . 1 Samuël 31:1 : De Filistijnen dan streden tegen Israël; en de mannen Israëls vloden voor het aangezicht der Filistijnen, en vielen verslagen op het gebergte Gilboa. 2 Samuël 1:21 : Gij, bergen van Gilboa, noch dauw noch regen moet zijn op u, noch velden der hefofferen; want aldaar is der helden schild smadelijk weggeworpen, het schild van Saul, alsof hij niet gezalfd ware geweest met olie.",
           "text1637": "Dit is een geberchte, gelegen niet verre van ’t dal Iizreel, alwaer de slach geschiet is, daer Saul met sijne sonen is om-gekomen, siet ond. cap. 31.1. ende 2.Sam. 1.21.",
-          "text2026": "Dit is een gebergte, gelegen niet ver van het dal Jizreël, waar de slag geschied is, waar Saul met zijn zonen zijn omgekomen. Zie onder, 1 Sam. 31:1 , en 2 Sam. 1:21 . 1 Samuël 31:1 : De Filistijnen dan streden tegen Israël; en de mannen van Israël vloden voor het aangezicht van de Filistijnen, en vielen verslagen op het gebergte Gilboa. 2 Samuël 1:21 : U, bergen van Gilboa, noch dauw noch regen moet zijn op u, noch velden van de hefofferen; want daar is van de helden schild smadelijk weggeworpen, het schild van Saul, alsof hij niet gezalfd ware geweest met olie."
+          "text2026": "Dit is een gebergte, gelegen niet ver van het dal Jizreël, waar de slag geschied is, waar Saul met zijn zonen zijn omgekomen. Zie onder, 1 Sam. 31:1 , en 2 Sam. 1:21 . 1 Samuël 31:1 : De Filistijnen dan streden tegen Israël; en de mannen van Israël vloden voor het aangezicht van de Filistijnen, en vielen verslagen op het gebergte Gilboa. 2 Samuël 1:21 : U, bergen van Gilboa, noch dauw noch regen moet zijn op u, noch velden van de hefofferen; want daar is het schild van de helden smadelijk weggeworpen, het schild van Saul, alsof hij niet gezalfd ware geweest met olie."
         }
       ],
       "grondtekst": [
@@ -5511,7 +5518,7 @@
           "type": "explanatory",
           "textSV1888": "Hebreeuws, ongerechtigheid, of misdaad; dat is, straf der ongerechtigheid. Zie Lev. 5:1 . Leviticus 5:1 : Als nu een mens zal gezondigd hebben, dat hij gehoord heeft een stem des vloeks, waarvan hij getuige is, hetzij dat hij het gezien of geweten heeft; indien hij het niet te kennen geeft, zo zal hij zijn ongerechtigheid dragen.",
           "text1637": "Hebr. ongerechticheyt, of, misdaet. D. straffe der ongerechticheyt, siet Levit. 5. op vers 1.",
-          "text2026": "Hebreeuws, ongerechtigheid, of misdaad; dat is, straf van de ongerechtigheid. Zie Lev. 5:1 . Leviticus 5:1 : Als nu een mens zal gezondigd hebben, dat hij gehoord heeft een stem van de vloeks, waarvan hij getuige is, hetzij dat hij het gezien of geweten heeft; als hij het niet te kennen geeft, zo zal hij zijn ongerechtigheid dragen."
+          "text2026": "Hebreeuws, ongerechtigheid, of misdaad; dat is, straf van de ongerechtigheid. Zie Lev. 5:1 . Leviticus 5:1 : Als nu een mens zal gezondigd hebben, dat hij gehoord heeft een stem van de vloek, waarvan hij getuige is, hetzij dat hij het gezien of geweten heeft; als hij het niet te kennen geeft, zo zal hij zijn ongerechtigheid dragen."
         }
       ],
       "grondtekst": [
@@ -6931,6 +6938,60 @@
       ],
       "woordnummers": [
         {
+          "tekst": "zei",
+          "voorkomen": 1,
+          "strongs": [
+            "H559"
+          ],
+          "bronwoorden": [
+            "וַ/יֹּ֨אמֶר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:13",
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "koning",
+          "voorkomen": 1,
+          "strongs": [
+            "H4428"
+          ],
+          "bronwoorden": [
+            "הַ/מֶּ֛לֶךְ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:13",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
           "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
@@ -6981,60 +7042,6 @@
             "referentie": "1SA 28:13",
             "bronindices": [
               1
-            ]
-          }
-        },
-        {
-          "tekst": "koning",
-          "voorkomen": 1,
-          "strongs": [
-            "H4428"
-          ],
-          "bronwoorden": [
-            "הַ/מֶּ֛לֶךְ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:13",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "zei",
-          "voorkomen": 1,
-          "strongs": [
-            "H559"
-          ],
-          "bronwoorden": [
-            "וַ/יֹּ֨אמֶר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:13",
-            "bronindices": [
-              3
             ]
           }
         },
@@ -7120,13 +7127,13 @@
           }
         },
         {
-          "tekst": "zie",
-          "voorkomen": 1,
+          "tekst": "zei",
+          "voorkomen": 2,
           "strongs": [
-            "H7200"
+            "H559"
           ],
           "bronwoorden": [
-            "רָאִ֖יתִי"
+            "וַ/תֹּ֤אמֶר"
           ],
           "transliteraties": [
             ""
@@ -7142,115 +7149,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:13",
             "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "goden",
-          "voorkomen": 1,
-          "strongs": [
-            "H430"
-          ],
-          "bronwoorden": [
-            "אֱלֹהִ֥ים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:13",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "opkomende",
-          "voorkomen": 1,
-          "strongs": [
-            "H5927"
-          ],
-          "bronwoorden": [
-            "עֹלִ֥ים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:13",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H4480"
-          ],
-          "bronwoorden": [
-            "מִן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:13",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
-          "tekst": "aarde",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "הָ/אָֽרֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:13",
-            "bronindices": [
-              11
+              15
             ]
           }
         },
@@ -7336,13 +7235,13 @@
           }
         },
         {
-          "tekst": "zei",
-          "voorkomen": 2,
+          "tekst": "goden",
+          "voorkomen": 1,
           "strongs": [
-            "H559"
+            "H430"
           ],
           "bronwoorden": [
-            "וַ/תֹּ֤אמֶר"
+            "אֱלֹהִ֥ים"
           ],
           "transliteraties": [
             ""
@@ -7358,7 +7257,115 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:13",
             "bronindices": [
-              15
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "zie",
+          "voorkomen": 1,
+          "strongs": [
+            "H7200"
+          ],
+          "bronwoorden": [
+            "רָאִ֖יתִי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:13",
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "opkomende",
+          "voorkomen": 1,
+          "strongs": [
+            "H5927"
+          ],
+          "bronwoorden": [
+            "עֹלִ֥ים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:13",
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "uit",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
+          ],
+          "bronwoorden": [
+            "מִן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:13",
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "aarde",
+          "voorkomen": 1,
+          "strongs": [
+            "H776"
+          ],
+          "bronwoorden": [
+            "הָ/אָֽרֶץ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:13",
+            "bronindices": [
+              11
             ]
           }
         }
@@ -7375,7 +7382,7 @@
           "type": "explanatory",
           "textSV1888": "Toen Saul vernam: Te weten, naar het oordeel zijner verwarde zinnen en uit de woorden der toveres, maar hij zelf heeft dezen Samuël niet gezien.",
           "text1637": "T.w. nae het oordeel sijner verwerrede sinnen, ende uyt de woorden der tooveresse, maer hy selve en heeft desen Samuel niet gesien.",
-          "text2026": "Toen Saul vernam: Te weten, naar het oordeel zijn verwarde zinnen en uit de woorden van de toveres, maar hij zelf heeft deze Samuël niet gezien."
+          "text2026": "Toen Saul vernam: Te weten, naar het oordeel van zijn verwarde zinnen en uit de woorden van de toveres, maar hij zelf heeft deze Samuël niet gezien."
         },
         {
           "marker": "30",
@@ -8036,7 +8043,7 @@
           "type": "explanatory",
           "textSV1888": "Waarom hebt gij mij onrustig gemaakt: Het was in des duivels en in der toveresse macht niet den waren Samuël op te wekken en daar te doen verschijnen. Het is niet dan enkel bedriegerij des duivels geweest, denwelken God somtijds enige werkingen toelaat, tot verderf dergenen, die daaraan geloven.",
           "text1637": "Ten was noch in des duyvels, noch in der tooveresse macht niet den waren Samuel op te wecken, ende daer te doen verschijnen: Ten is niet dan enckele bedriegerye des duyvels geweest, den welcken Godt somtijts eenige werckingen toelaett, tot verderf der gener die daer aen gelooven.",
-          "text2026": "Waarom hebt u mij onrustig gemaakt: Het was in van de duivel en in van de toveresse macht niet de waren Samuël op te wekken en daar te doen verschijnen. Het is niet dan enkel bedriegerij van de duivel geweest, denwelken God somtijds enige werkingen toelaat, tot verderf dergenen, die daaraan geloven."
+          "text2026": "Waarom hebt u mij onrustig gemaakt: Het was in de macht van de duivel en van de toveres niet de ware Samuël op te wekken en daar te doen verschijnen. Het is niet dan enkel bedriegerij van de duivel geweest, denwelken God somtijds enige werkingen toelaat, tot verderf dergenen, die daaraan geloven."
         },
         {
           "marker": "33",
@@ -8262,33 +8269,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Samuël",
-          "voorkomen": 1,
-          "strongs": [
-            "H8050"
-          ],
-          "bronwoorden": [
-            "שְׁמוּאֵל֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:15",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
@@ -8312,6 +8292,33 @@
             "referentie": "1SA 28:15",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "Samuël",
+          "voorkomen": 1,
+          "strongs": [
+            "H8050"
+          ],
+          "bronwoorden": [
+            "שְׁמוּאֵל֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:15",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -8478,60 +8485,6 @@
           }
         },
         {
-          "tekst": "zeer",
-          "voorkomen": 1,
-          "strongs": [
-            "H3966"
-          ],
-          "bronwoorden": [
-            "מְאֹ֜ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:15",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "benauwd",
-          "voorkomen": 1,
-          "strongs": [
-            "H6887"
-          ],
-          "bronwoorden": [
-            "צַר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:15",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 2,
           "strongs": [
@@ -8582,6 +8535,60 @@
             "referentie": "1SA 28:15",
             "bronindices": [
               11
+            ]
+          }
+        },
+        {
+          "tekst": "benauwd",
+          "voorkomen": 1,
+          "strongs": [
+            "H6887"
+          ],
+          "bronwoorden": [
+            "צַר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:15",
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "zeer",
+          "voorkomen": 1,
+          "strongs": [
+            "H3966"
+          ],
+          "bronwoorden": [
+            "מְאֹ֜ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:15",
+            "bronindices": [
+              8
             ]
           }
         },
@@ -8694,10 +8701,13 @@
           }
         },
         {
-          "tekst": "mij",
-          "voorkomen": 4,
+          "tekst": "van",
+          "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/R/Sp1cs"
           ],
           "bronwoorden": [
             "מֵֽ/עָלַ/י֙"
@@ -8708,13 +8718,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:15",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               16
             ]
@@ -8748,33 +8762,6 @@
           }
         },
         {
-          "tekst": "meer",
-          "voorkomen": 1,
-          "strongs": [
-            "H5750"
-          ],
-          "bronwoorden": [
-            "ע֗וֹד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:15",
-            "bronindices": [
-              18
-            ]
-          }
-        },
-        {
           "tekst": "antwoordt",
           "voorkomen": 1,
           "strongs": [
@@ -8798,6 +8785,33 @@
             "referentie": "1SA 28:15",
             "bronindices": [
               19
+            ]
+          }
+        },
+        {
+          "tekst": "meer",
+          "voorkomen": 1,
+          "strongs": [
+            "H5750"
+          ],
+          "bronwoorden": [
+            "ע֗וֹד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:15",
+            "bronindices": [
+              18
             ]
           }
         },
@@ -9121,60 +9135,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Waarom",
-          "voorkomen": 1,
-          "strongs": [
-            "H4100"
-          ],
-          "bronwoorden": [
-            "וְ/לָ֖/מָּה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:16",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
-          "tekst": "vraagt",
-          "voorkomen": 1,
-          "strongs": [
-            "H7592"
-          ],
-          "bronwoorden": [
-            "תִּשְׁאָלֵ֑/נִי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:16",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
           "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
@@ -9225,6 +9185,60 @@
             "referentie": "1SA 28:16",
             "bronindices": [
               3
+            ]
+          }
+        },
+        {
+          "tekst": "Waarom",
+          "voorkomen": 1,
+          "strongs": [
+            "H4100"
+          ],
+          "bronwoorden": [
+            "וְ/לָ֖/מָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:16",
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "vraagt",
+          "voorkomen": 1,
+          "strongs": [
+            "H7592"
+          ],
+          "bronwoorden": [
+            "תִּשְׁאָלֵ֑/נִי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:16",
+            "bronindices": [
+              1
             ]
           }
         },
@@ -9283,10 +9297,13 @@
           }
         },
         {
-          "tekst": "u",
-          "voorkomen": 2,
+          "tekst": "van",
+          "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/R/Sp2ms"
           ],
           "bronwoorden": [
             "מֵ/עָלֶ֖י/ךָ"
@@ -9297,13 +9314,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:16",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -9383,7 +9404,7 @@
           "type": "explanatory",
           "textSV1888": "door mijn dienst: Hebreeuws, יָדִ֑, door mijn hand. Dit had God door den bozen geest niet gesproken, maar door den waren Sameul, boven, 1 Sam. 15:28 . 1 Samuël 15:28 : Toen zeide Samuël tot hem: De HEERE heeft heden het koninkrijk van Israël van u afgescheurd, en heeft het aan uw naaste gegeven, die beter is dan gij.",
           "text1637": "Hebr. Door mijne hant. Dit en hadde Godt door den boosen geest niet gesproken, maer door den waren Samuel, bov. cap. 15. vers 28.",
-          "text2026": "door mijn dienst: Hebreeuws, יָדִ֑, door mijn hand. Dit had God door de bozen geest niet gesproken, maar door de waren Sameul, boven, 1 Sam. 15:28 . 1 Samuël 15:28 : Toen zei Samuël tot hem: De JAHWEH heeft heden het koninkrijk van Israël van u afgescheurd, en heeft het aan uw naaste gegeven, die beter is dan u."
+          "text2026": "door mijn dienst: Hebreeuws, יָדִ֑, door mijn hand. Dit had God door de boze geest niet gesproken, maar door de ware Samuël, boven, 1 Sam. 15:28 . 1 Samuël 15:28 : Toen zei Samuël tot hem: JAHWEH heeft heden het koninkrijk van Israël van u afgescheurd, en heeft het aan uw naaste gegeven, die beter is dan u."
         }
       ],
       "grondtekst": [
@@ -10477,7 +10498,7 @@
           "type": "explanatory",
           "textSV1888": "bij mij zijn: Te weten, bij de doden; dat is, gij zult dood zijn. Zie dergelijke manier van spreken 2 Sam. 12:23 . Want dat men dit zou verstaan van in de hel te zijn, waar de duivelen zijn, zou op Jonathan en velen van de Israëlieten niet passen, die wel in den slag zijn dood gebleven, maar niet naar de ziel in de verdoemenis gevaren. 2 Samuël 12:23 : Maar nu is het dood, waarom zou ik nu vasten? Zal ik hem nog kunnen wederhalen? Ik zal wel tot hem gaan, maar hij zal tot mij niet wederkomen.",
           "text1637": "T.w. by de doode, D. ghy sult doot zijn. Siet dergelijcke maniere van spreken, 2.Sam. 12.23. want datmen dit soude verstaen van in de helle te zijn, daer de duyvelen zijn, en soude op Ionathan, ende vele van de Israeliten niet passen, die wel in den slach zijn doot gebleven, maer niet na de ziele in de verdoemenisse gevaren.",
-          "text2026": "bij mij zijn: Te weten, bij de doden; dat is, u zult dood zijn. Zie dergelijke manier van spreken 2 Sam. 12:23 . Want dat men dit zou verstaan van in het dodenrijk te zijn, waar de duivelen zijn, zou op Jonathan en velen van de Israëlieten niet passen, die wel in de slag zijn dood gebleven, maar niet naar de ziel in de verdoemenis gevaren. 2 Samuël 12:23 : Maar nu is het dood, waarom zou ik nu vasten? Zal ik hem nog kunnen wederhalen? Ik zal wel tot hem gaan, maar hij zal tot mij niet wederkomen."
+          "text2026": "bij mij zijn: Te weten, bij de doden; dat is, u zult dood zijn. Zie dergelijke manier van spreken 2 Sam. 12:23 . Want dat men dit zou verstaan van in de hel te zijn, waar de duivelen zijn, zou op Jonathan en velen van de Israëlieten niet passen, die wel in de slag zijn dood gebleven, maar niet naar de ziel in de verdoemenis gevaren. 2 Samuël 12:23 : Maar nu is het dood, waarom zou ik nu vasten? Zal ik hem nog kunnen wederhalen? Ik zal wel tot hem gaan, maar hij zal tot mij niet wederkomen."
         }
       ],
       "grondtekst": [
@@ -10614,13 +10635,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "ook",
+          "tekst": "geven",
           "voorkomen": 1,
           "strongs": [
-            "H1571"
+            "H5414"
           ],
           "bronwoorden": [
-            "גַּ֣ם"
+            "וְ/יִתֵּ֣ן"
           ],
           "transliteraties": [
             ""
@@ -10636,7 +10657,7 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:19",
             "bronindices": [
-              0
+              3
             ]
           }
         },
@@ -10664,6 +10685,33 @@
             "referentie": "1SA 28:19",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "ook",
+          "voorkomen": 1,
+          "strongs": [
+            "H1571"
+          ],
+          "bronwoorden": [
+            "גַּ֣ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:19",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -10699,33 +10747,6 @@
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "geven",
-          "voorkomen": 1,
-          "strongs": [
-            "H5414"
-          ],
-          "bronwoorden": [
-            "וְ/יִתֵּ֣ן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:19",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "Israël",
           "voorkomen": 1,
           "strongs": [
@@ -10753,10 +10774,13 @@
           }
         },
         {
-          "tekst": "u",
+          "tekst": "met",
           "voorkomen": 1,
           "strongs": [
             "H5973"
+          ],
+          "morfologie": [
+            "HR/Sp2ms"
           ],
           "bronwoorden": [
             "עִמְּ/ךָ֙"
@@ -10767,13 +10791,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 28:19",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -11000,60 +11028,6 @@
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "JAHWEH",
-          "voorkomen": 2,
-          "strongs": [
-            "H3068"
-          ],
-          "bronwoorden": [
-            "יְהוָ֖ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:19",
-            "bronindices": [
-              14
-            ]
-          }
-        },
-        {
-          "tekst": "geven",
-          "voorkomen": 2,
-          "strongs": [
-            "H5414"
-          ],
-          "bronwoorden": [
-            "יִתֵּ֥ן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 28:19",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
           "tekst": "leger",
           "voorkomen": 1,
           "strongs": [
@@ -11104,6 +11078,60 @@
             "referentie": "1SA 28:19",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "geven",
+          "voorkomen": 2,
+          "strongs": [
+            "H5414"
+          ],
+          "bronwoorden": [
+            "יִתֵּ֥ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:19",
+            "bronindices": [
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 2,
+          "strongs": [
+            "H3068"
+          ],
+          "bronwoorden": [
+            "יְהוָ֖ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 28:19",
+            "bronindices": [
+              14
             ]
           }
         },
@@ -11181,7 +11209,7 @@
           "type": "explanatory",
           "textSV1888": "zo lang als hij was: Hebreeuws, אַ֔רְצָ, [met] de volheid zijner statuur, of lengte.",
           "text1637": "Hebr. [met] de volheyt sijner statuere, ofte, lengte.",
-          "text2026": "zo lang als hij was: Hebreeuws, אַ֔רְצָ, [met] de volheid zijn statuur, of lengte."
+          "text2026": "zo lang als hij was: Hebreeuws, אַ֔רְצָ, [met] de volheid van zijn statuur, of lengte."
         },
         {
           "marker": "44",

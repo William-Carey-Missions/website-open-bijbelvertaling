@@ -236,55 +236,42 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "בְּ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:1",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְּ/אֶ֥רֶץ",
             "מִצְרַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:1",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               7
             ]
           }
@@ -648,7 +635,7 @@
           "type": "explanatory",
           "textSV1888": "een lam: Hetzij een schaapslam, of een geitenlam, vers 5 . Dit lam was een figuur of voorbeeld, wijzende op Christus, het ware Lam Gods; Joh. 1:29 , en 1 Kor. 5:7 . Exodus 12:5 : Gij zult een volkomen lam hebben, een manneken, een jaar oud; van de schapen of van de geitenbokken zult gij het nemen. Johannes 1:29 : Des anderen daags zag Johannes Jezus tot zich komende, en zeide: Zie het Lam Gods, Dat de zonde der wereld wegneemt! 1 Korinthiërs 5:7 : Zuivert dan den ouden zuurdesem uit, opdat gij een nieuw deeg zijn moogt, gelijk gij ongezuurd zijt. Want ook ons Pascha is voor ons geslacht, namelijk Christus.",
           "text1637": "Het zy een schaeps-lam, ofte een geyten-lam, vers 5. Dit lam was een figuere ofte voorbeelt, wijsende op Christum het ware lam Godes, Ioh. 1.29. ende 1.Cor. 5.7.",
-          "text2026": "een lam: Hetzij een schaapslam, of een geitenlam, vers 5 . Dit lam was een figuur of voorbeeld, wijzende op Christus, het ware Lam van God; Joh. 1:29 , en 1 Kor. 5:7 . Exodus 12:5 : U zult een volkomen lam hebben, een manneken, een jaar oud; van de schapen of van de geitenbokken zult u het nemen. Johannes 1:29 : Van de anderen daags zag Johannes Jezus tot zich komende, en zei: Zie het Lam van God, Dat de zonde van de wereld wegneemt! 1 Korinthiërs 5:7 : Zuivert dan de ouden zuurdesem uit, opdat u een nieuw deeg zijn mag, gelijk u ongezuurd bent. Want ook ons Pascha is voor ons geslacht, namelijk Christus."
+          "text2026": "een lam: Hetzij een schaapslam, of een geitenlam, vers 5 . Dit lam was een figuur of voorbeeld, wijzende op Christus, het ware Lam van God; Joh. 1:29 , en 1 Kor. 5:7 . Exodus 12:5 : U zult een volkomen lam hebben, een manneken, een jaar oud; van de schapen of van de geitenbokken zult u het nemen. Johannes 1:29 : Op de andere dag zag Johannes Jezus tot zich komende, en zei: Zie het Lam van God, Dat de zonde van de wereld wegneemt! 1 Korinthiërs 5:7 : Zuivert dan de oude zuurdesem uit, opdat u een nieuw deeg zijn mag, gelijk u ongezuurd bent. Want ook ons Pascha is voor ons geslacht, namelijk Christus."
         },
         {
           "marker": "6",
@@ -1226,7 +1213,7 @@
           "type": "explanatory",
           "textSV1888": "klein is voor een lam: Dat is, indien hunner te weinig zijn om het lam dien avond geheel te eten.",
           "text1637": "D. in dien harer te weynich zijn om het lam dien avont geheel op te eten.",
-          "text2026": "klein is voor een lam: Dat is, als hun te weinig zijn om het lam die avond geheel te eten."
+          "text2026": "klein is voor een lam: Dat is, als er van hen te weinig zijn om het lam die avond geheel te eten."
         },
         {
           "marker": "8",
@@ -1247,7 +1234,7 @@
           "type": "explanatory",
           "textSV1888": "een iegelijk naar dat hij eten kan: Hebreeuws, de man naar den mond zijns etens.",
           "text1637": "Hebr. de man nae den mont sijnes etens.",
-          "text2026": "een iedereen naar dat hij eten kan: Hebreeuws, de man naar de mond zijn etens."
+          "text2026": "ieder naar dat hij eten kan: Hebreeuws, de man naar de mond van zijn eten."
         },
         {
           "marker": "11",
@@ -2321,14 +2308,14 @@
           "type": "explanatory",
           "textSV1888": "En gij zult het in bewaring hebben: Dat is, gij zult het apart zetten, afgezonderd van de kudde, vier dagen lang, van den tienden tot den veertienden dag.",
           "text1637": "D. ghy sult het apart setten, afgesondert van de cudde, vier dagen lanck, van den tienden tot den veertienden dach.",
-          "text2026": "En u zult het in bewaring hebben: Dat is, u zult het apart zetten, afgezonderd van de kudde, vier dagen lang, van de tienden tot de veertiende dag."
+          "text2026": "En u zult het in bewaring hebben: Dat is, u zult het apart zetten, afgezonderd van de kudde, vier dagen lang, van de tiende tot de veertiende dag."
         },
         {
           "marker": "15",
           "type": "explanatory",
           "textSV1888": "tussen twee avonden: Dat is, tussen het begin en het einde van den avond; dat is, tussen ons derde uur na den middag, en den ondergang der zon; te dien tijde is onze Heere Jezus Christus, het rechte paaslam, gestorven; Matth. 27:46 , 27:50 . Mattheüs 27:46 : En omtrent de negende ure riep Jezus met een grote stem zeggende: ELI, ELI, LAMA SABACHTHANI! dat is: Mijn God! Mijn God! Waarom hebt Gij Mij verlaten! Mattheüs 27:50 : En Jezus, wederom met een grote stem roepende, gaf den geest.",
           "text1637": "D. tusschen het begin ende het eynde des avonts, dat is, tusschen onse derde ure na den middach, ende der sonnen onderganck, te deser tijt is onse Heere Iesus Christus het rechte paesch-lam gestorven, Matt. 27. versen 46, 50.",
-          "text2026": "tussen twee avonden: Dat is, tussen het begin en het einde van de avond; dat is, tussen ons derde uur na de middag, en de ondergang van de zon; te die tijde is onze Heer Jezus Christus, het rechte paaslam, gestorven; Matt. 27:46 , 27:50 . Mattheüs 27:46 : En omtrent de negende ure riep Jezus met een grote stem zeggende: ELI, ELI, LAMA SABACHTHANI! dat is: Mijn God! Mijn God! Waarom hebt U Mij verlaten! Mattheüs 27:50 : En Jezus, opnieuw met een grote stem roepende, gaf de geest."
+          "text2026": "tussen twee avonden: Dat is, tussen het begin en het einde van de avond; dat is, tussen ons derde uur na de middag, en de ondergang van de zon; te dien tijde is onze Heer Jezus Christus, het rechte paaslam, gestorven; Matt. 27:46 , 27:50 . Mattheüs 27:46 : En omtrent de negende ure riep Jezus met een grote stem zeggende: ELI, ELI, LAMA SABACHTHANI! dat is: Mijn God! Mijn God! Waarom hebt U Mij verlaten! Mattheüs 27:50 : En Jezus, opnieuw met een grote stem roepende, gaf de geest."
         }
       ],
       "grondtekst": [
@@ -3299,10 +3286,13 @@
           }
         },
         {
-          "tekst": "welke",
+          "tekst": "waarin",
           "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אֲשֶׁר"
@@ -3313,13 +3303,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:7",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -3354,9 +3348,12 @@
         },
         {
           "tekst": "het",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹת֖/וֹ"
@@ -3367,13 +3364,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:7",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -4367,7 +4368,7 @@
           "type": "explanatory",
           "textSV1888": "zult gij met vuur verbranden: Opdat het nergens anders toe zou gebruikt worden, hetzij tot afgoderij, of tot gemene spijs.",
           "text1637": "Op dat het anders nergens toe soude gebruyckt worden, het zy tot afgoderye, ofte gemeyne spijse.",
-          "text2026": "zult u met vuur verbranden: Opdat het nergens anders toe zou gebruikt worden, hetzij tot afgoderij, of tot gemene voedsel."
+          "text2026": "zult u met vuur verbranden: Opdat het nergens anders toe zou gebruikt worden, hetzij tot afgoderij, of tot gemeen voedsel."
         }
       ],
       "grondtekst": [
@@ -5311,7 +5312,7 @@
           "type": "explanatory",
           "textSV1888": "Ik zal in dezen nacht door Egypteland gaan: Wat God door den slaanden engel gedaan heeft, zegt Hij zelf gedaan te hebben.",
           "text1637": "Dat Godt door den slaenden Engel gedaen heeft, dat seyt hy selfs gedaen te hebben.",
-          "text2026": "Ik zal in deze nacht door Egypteland gaan: Wat God door de slaanden engel gedaan heeft, zegt Hij zelf gedaan te hebben."
+          "text2026": "Ik zal in deze nacht door Egypteland gaan: Wat God door de slaande engel gedaan heeft, zegt Hij zelf gedaan te hebben."
         },
         {
           "marker": "27",
@@ -5479,55 +5480,42 @@
           }
         },
         {
-          "tekst": "door",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "בְ/אֶֽרֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:12",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְ/אֶֽרֶץ",
             "מִצְרַיִם֮"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:12",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
+              3,
               4
             ]
           }
@@ -5668,55 +5656,42 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 2,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "בְּ/אֶ֣רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:12",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 2,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְּ/אֶ֣רֶץ",
             "מִצְרַ֔יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:12",
+            "grondindices": [
+              8,
+              9
+            ],
             "bronindices": [
+              8,
               9
             ]
           }
@@ -7994,7 +7969,7 @@
           "type": "explanatory",
           "textSV1888": "maar wat van iedere ziel gegeten zal worden: Dit was ongeoorloofd te doen op den sabbat, Exod. 16:23 , 16:29 , en Exod. 35:2 , 35:3 . Exodus 16:23 : Hij dan zeide tot hen: Dit is het, dat de HEERE gesproken heeft: Morgen is de rust, de heilige sabbat des HEEREN! wat gij bakken zoudt, bakt dat, en ziedt, wat gij zieden zoudt; en al wat over blijft, legt het op voor u in bewaring tot den morgen. Exodus 16:29 : Ziet, omdat de HEERE ulieden den sabbat gegeven heeft, daarom geeft Hij u aan den zesden dag voor twee dagen brood; een ieder blijve in zijn plaats! dat niemand uit zijn plaats ga op den zevenden dag! Exodus 35:2 : Zes dagen zal men het werk doen; maar op den zevenden dag zal ulieden heiligheid zijn, een sabbat der rust den HEERE; al wie daarop werk doet, zal gedood worden. Exodus 35:3 : Gij zult geen vuur aansteken in enige uwer woningen op den sabbatdag.",
           "text1637": "Dit was ongeoorlooft te doen op den Sabbath-dach, Exod. 16. vers 23, 29. ende 35.2, 3.",
-          "text2026": "maar wat van iedere ziel gegeten zal worden: Dit was ongeoorloofd te doen op de sabbat, Ex. 16:23 , 16:29 , en Ex. 35:2 , 35:3 . Exodus 16:23 : Hij dan zei tot hen: Dit is het, dat JAHWEH gesproken heeft: Morgen is de rust, de heilige sabbat van JAHWEH! wat u bakken zoudt, bakt dat, en ziedt, wat u zieden zoudt; en al wat over blijft, legt het op voor u in bewaring tot de morgen. Exodus 16:29 : Ziet, omdat JAHWEH u de sabbat gegeven heeft, daarom geeft Hij u aan de zesde dag voor twee dagen brood; een ieder blijve in zijn plaats! dat niemand uit zijn plaats ga op de zevende dag! Exodus 35:2 : Zes dagen zal men het werk doen; maar op de zevende dag zal u heiligheid zijn, een sabbat van de rust JAHWEH; al wie daarop werk doet, zal gedood worden. Exodus 35:3 : U zult geen vuur aansteken in enige uw woningen op de sabbatdag."
+          "text2026": "maar wat van iedere ziel gegeten zal worden: Dit was ongeoorloofd te doen op de sabbat, Ex. 16:23 , 16:29 , en Ex. 35:2 , 35:3 . Exodus 16:23 : Hij dan zei tot hen: Dit is het, dat JAHWEH gesproken heeft: Morgen is de rust, de heilige sabbat van JAHWEH! wat u bakken zoudt, bakt dat, en ziedt, wat u zieden zoudt; en al wat over blijft, legt het op voor u in bewaring tot de morgen. Exodus 16:29 : Ziet, omdat JAHWEH u de sabbat gegeven heeft, daarom geeft Hij u aan de zesde dag voor twee dagen brood; een ieder blijve in zijn plaats! dat niemand uit zijn plaats ga op de zevende dag! Exodus 35:2 : Zes dagen zal men het werk doen; maar op de zevende dag zal u heiligheid zijn, een sabbat van de rust voor JAHWEH; al wie daarop werk doet, zal gedood worden. Exodus 35:3 : U zult geen vuur aansteken in enige van uw woningen op de sabbatdag."
         }
       ],
       "grondtekst": [
@@ -9144,55 +9119,42 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֣רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:17",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֣רֶץ",
             "מִצְרָ֑יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:17",
+            "grondindices": [
+              10,
+              11
+            ],
             "bronindices": [
+              10,
               11
             ]
           }
@@ -9919,7 +9881,7 @@
           "type": "explanatory",
           "textSV1888": "Dat er zeven dagen: Zie boven, vers 15 , en 1. Cor. 5:8 . Exodus 12:15 : Zeven dagen zult gijlieden ongezuurde broden eten; maar aan den eersten dag zult gij het zuurdeeg wegdoen uit uw huizen; want wie het gedesemde eet, van den eersten dag af tot op den zevenden dag, diezelve ziel zal uitgeroeid worden uit Israël. 1 Korinthiërs 5:8 : Zo dan laat ons feest houden, niet in den ouden zuurdesem, noch in den zuurdesem der kwaadheid en der boosheid, maar in de ongezuurde broden der oprechtheid en der waarheid.",
           "text1637": "Siet bov. vers 15. ende 1.Cor. 5.8.",
-          "text2026": "Dat er zeven dagen: Zie boven, vers 15 , en 1. Cor. 5:8 . Exodus 12:15 : Zeven dagen zult u ongezuurde broden eten; maar aan de eerste dag zult u het zuurdeeg wegdoen uit uw huizen; want wie het gedesemde eet, van de eerste dag af tot op de zevende dag, diezelve ziel zal uitgeroeid worden uit Israël. 1 Korinthiërs 5:8 : Zo dan laat ons feest houden, niet in de ouden zuurdesem, noch in de zuurdesem van de kwaadheid en van de boosheid, maar in de ongezuurde broden van de oprechtheid en van de waarheid."
+          "text2026": "Dat er zeven dagen: Zie boven, vers 15 , en 1. Cor. 5:8 . Exodus 12:15 : Zeven dagen zult u ongezuurde broden eten; maar aan de eerste dag zult u het zuurdeeg wegdoen uit uw huizen; want wie het gedesemde eet, van de eerste dag af tot op de zevende dag, diezelve ziel zal uitgeroeid worden uit Israël. 1 Korinthiërs 5:8 : Zo dan laat ons feest houden, niet in de oude zuurdesem, noch in de zuurdesem van de kwaadheid en van de boosheid, maar in de ongezuurde broden van de oprechtheid en van de waarheid."
         },
         {
           "marker": "42",
@@ -12209,7 +12171,7 @@
           "type": "explanatory",
           "textSV1888": "Versta, dien slaanden engel.",
           "text1637": "Verstaet dien slaenden Engel.",
-          "text2026": "Versta, die slaanden engel."
+          "text2026": "Versta, die slaande engel."
         },
         {
           "marker": "g",
@@ -13045,7 +13007,7 @@
           "type": "explanatory",
           "textSV1888": "deze zaak: Uitgenomen de ceremoniën, die dit eerste pascha eigen waren. Zie boven, vers 7 , 12:11 , 12:22 . Exodus 12:7 : En zij zullen van het bloed nemen, en strijken het aan de beide zijposten, en aan den bovendorpel, aan de huizen, in welke zij het eten zullen. Exodus 12:11 : Aldus nu zult gij het eten: uw lenden zullen opgeschort zijn, uw schoenen aan uw voeten, en uw staf in uw hand; en gij zult het met haast eten; het is des HEEREN pascha. Exodus 12:22 : Neemt dan een bundelken hysop, en doopt het in het bloed, dat in een bekken zal wezen; en strijkt aan den bovendorpel, en aan de beide zijposten van dat bloed, hetwelk in het bekken zijn zal; doch u aangaande, niemand zal uitgaan uit de deur van zijn huis, tot aan den morgen.",
           "text1637": "Uytgenomen de ceremonien, die dit eerste pascha eygen waren, siet bov. vers 7, 11, 22.",
-          "text2026": "deze zaak: Uitgenomen de ceremoniën, die dit eerste pascha eigen waren. Zie boven, vers 7 , 12:11 , 12:22 . Exodus 12:7 : En zij zullen van het bloed nemen, en strijken het aan de beide zijposten, en aan de bovendorpel, aan de huizen, in welke zij het eten zullen. Exodus 12:11 : Aldus nu zult u het eten: uw lenden zullen opgeschort zijn, uw schoenen aan uw voeten, en uw staf in uw hand; en u zult het met haast eten; het is van JAHWEH pascha. Exodus 12:22 : Neemt dan een bundelken hysop, en doopt het in het bloed, dat in een bekken zal wezen; en strijkt aan de bovendorpel, en aan de beide zijposten van dat bloed, dat in het bekken zijn zal; maar u aangaande, niemand zal uitgaan uit de deur van zijn huis, tot aan de morgen."
+          "text2026": "deze zaak: Uitgenomen de ceremoniën, die dit eerste pascha eigen waren. Zie boven, vers 7 , 12:11 , 12:22 . Exodus 12:7 : En zij zullen van het bloed nemen, en strijken het aan de beide zijposten, en aan de bovendorpel, aan de huizen, in welke zij het eten zullen. Exodus 12:11 : Aldus nu zult u het eten: uw lenden zullen opgeschort zijn, uw schoenen aan uw voeten, en uw staf in uw hand; en u zult het met haast eten; het is het pascha van JAHWEH. Exodus 12:22 : Neemt dan een bundelken hysop, en doopt het in het bloed, dat in een bekken zal wezen; en strijkt aan de bovendorpel, en aan de beide zijposten van dat bloed, dat in het bekken zijn zal; maar u aangaande, niemand zal uitgaan uit de deur van zijn huis, tot aan de morgen."
         },
         {
           "marker": "54",
@@ -14041,10 +14003,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "kinderen",
           "voorkomen": 1,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2mp"
           ],
           "bronwoorden": [
             "בְּנֵי/כֶ֑ם"
@@ -14055,21 +14020,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:26",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               2
             ]
-          },
-          "anker": "Wat",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "Wat",
@@ -15706,55 +15671,42 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "בְּ/אֶ֣רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:29",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְּ/אֶ֣רֶץ",
             "מִצְרַיִם֒"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:29",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
+              7,
               8
             ]
           }
@@ -16003,62 +15955,45 @@
           }
         },
         {
-          "tekst": "gevangenhuis",
+          "tekst": "gevangenis",
           "voorkomen": 1,
           "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "בְּ/בֵ֣ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:29",
-            "bronindices": [
-              18
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H1004",
             "H953"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "בְּ/בֵ֣ית",
             "הַ/בּ֑וֹר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:29",
+            "grondindices": [
+              18,
+              19
+            ],
             "bronindices": [
+              18,
               19
             ]
-          },
-          "anker": "gevangenhuis",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "alle",
@@ -16795,7 +16730,7 @@
           "type": "explanatory",
           "textSV1888": "Toen riep hij Mozes en Aäron in den nacht: Mozes en Aäron kwamen niet tot Farao, maar des konings gezanten moesten tot hen komen, en Mozes met nederigheid bidden, dat zij toch wilden uittrekken, gelijk af te nemen is uit Exod. 10:29 , en Exod. 11:8 . Exodus 10:29 : Mozes nu zeide: Gij hebt recht gesproken; ik zal niet meer uw aangezicht zien! Exodus 11:8 : Dan zullen al deze uw knechten tot mij afkomen, en zich voor mij neigen, zeggende: Trek uit, gij en al het volk, dat uw voetstappen volgt; en daarna zal ik uitgaan. En hij ging uit van Farao in hitte des toorns.",
           "text1637": "Mose ende Aaron en quamen niet tot Pharao, maer des Konincks gesanten moesten tot haer komen, ende Mose met nedericheyt bidden, dat sy doch wilden uyt trecken, gelijck af te nemen is uyt Exod. 10.29. ende 11.8.",
-          "text2026": "Toen riep hij Mozes en Aäron in de nacht: Mozes en Aäron kwamen niet tot Farao, maar van de koning gezanten moesten tot hen komen, en Mozes met nederigheid bidden, dat zij toch wilden uittrekken, gelijk af te nemen is uit Ex. 10:29 , en Ex. 11:8 . Exodus 10:29 : Mozes nu zei: U hebt recht gesproken; ik zal niet meer uw aangezicht zien! Exodus 11:8 : Dan zullen al deze uw knechten tot mij afkomen, en zich voor mij neigen, zeggende: Trek uit, u en al het volk, dat uw voetstappen volgt; en daarna zal ik uitgaan. En hij ging uit van Farao in hitte van het toorn."
+          "text2026": "Toen riep hij Mozes en Aäron in de nacht: Mozes en Aäron kwamen niet tot Farao, maar de gezanten van de koning moesten tot hen komen, en Mozes met nederigheid bidden, dat zij toch wilden uittrekken, gelijk af te nemen is uit Ex. 10:29 , en Ex. 11:8 . Exodus 10:29 : Mozes nu zei: U hebt recht gesproken; ik zal niet meer uw aangezicht zien! Exodus 11:8 : Dan zullen al deze uw knechten tot mij afkomen, en zich voor mij neigen, zeggende: Trek uit, u en al het volk, dat uw voetstappen volgt; en daarna zal ik uitgaan. En hij ging uit van Farao in hitte van de toorn."
         },
         {
           "marker": "63",
@@ -17857,7 +17792,7 @@
           "type": "explanatory",
           "textSV1888": "zijn allen dood: Zie Gen. 20:3 . Genesis 20:3 : Maar God kwam tot Abimelech in een droom des nachts, en Hij zeide tot hem: Zie, gij zijt dood om der vrouwe wil, die gij weggenomen hebt; want zij is met een man getrouwd.",
           "text1637": "Siet Genes. 20. vers 3.",
-          "text2026": "zijn allen dood: Zie Gen. 20:3 . Genesis 20:3 : Maar God kwam tot Abimelech in een droom van het nacht, en Hij zei tot hem: Zie, u bent dood vanwege de vrouwe, die u weggenomen hebt; want zij is met een man getrouwd."
+          "text2026": "zijn allen dood: Zie Gen. 20:3 . Genesis 20:3 : Maar God kwam tot Abimelech in een droom van de nacht, en Hij zei tot hem: Zie, u bent dood vanwege de vrouwe, die u weggenomen hebt; want zij is met een man getrouwd."
         }
       ],
       "grondtekst": [
@@ -19084,7 +19019,7 @@
           "type": "explanatory",
           "textSV1888": "beroofden de Egyptenaren: Aldus is vervuld hetgeen God Abraham beloofd had, Gen. 15:14 , en den Israëlieten, Exod. 3:22 . Genesis 15:14 : Doch Ik zal het volk ook rechten, hetwelk zij zullen dienen; en daarna zullen zij uittrekken met grote have. Exodus 3:22 : Maar elke vrouw zal van haar naburin, en van de waardin haars huizes, eisen zilveren vaten, en gouden vaten, en klederen; die zult gijlieden op uw zonen, en op uw dochteren leggen, en gij zult Egypte beroven.",
           "text1637": "Aldus is vervult ’tgene dat Godt Abraham belooft Genes. 15.14. ende den Israëliten, Exo. 3.22.",
-          "text2026": "beroofden de Egyptenaren: Aldus is vervuld wat God Abraham beloofd had, Gen. 15:14 , en de Israëlieten, Ex. 3:22 . Genesis 15:14 : Maar Ik zal het volk ook rechte, dat zij zullen dienen; en daarna zullen zij uittrekken met grote bezittingen. Exodus 3:22 : Maar elke vrouw zal van haar naburin, en van de waardin haars huizes, eisen zilveren vaten, en gouden vaten, en kleren; die zult u op uw zonen, en op uw dochters leggen, en u zult Egypte beroven."
+          "text2026": "beroofden de Egyptenaren: Aldus is vervuld wat God Abraham beloofd had, Gen. 15:14 , en aan de Israëlieten, Ex. 3:22 . Genesis 15:14 : Maar Ik zal het volk ook rechten, dat zij zullen dienen; en daarna zullen zij uittrekken met grote bezittingen. Exodus 3:22 : Maar elke vrouw zal van haar naburin, en van de waardin haars huizes, eisen zilveren vaten, en gouden vaten, en kleren; die zult u op uw zonen, en op uw dochters leggen, en u zult Egypte beroven."
         }
       ],
       "grondtekst": [
@@ -19485,7 +19420,7 @@
           "type": "explanatory",
           "textSV1888": "Een plaats, zo geheten, omdat de kinderen Israëls, toen zij daar waren gekomen, hutten van takken hebben gemaakt; en dit is hun eerste rustplaats, ndat zij uit Egypte getrokken zijn. Vergelijk Lev. 23:43 . Dit Sukkoth is te onderscheiden van een ander, waarvan gesproken wordt Gen. 33:17 . Leviticus 23:43 : Opdat uw geslachten weten, dat Ik de kinderen Israëls in loofhutten heb doen wonen, als Ik hen uit Egypteland uitgevoerd heb; Ik ben de HEERE, uw God! Genesis 33:17 : Maar Jakob reisde naar Sukkoth, en bouwde een huis voor zich, en maakte hutten voor zijn vee; daarom noemde hij den naam dier plaats Sukkoth.",
           "text1637": "Een plaetse soo geheeten, om dat de kinderen Israëls, als sy daer waren gekomen, hutten van tacken hebben gemaeckt, ende dit is haer eerste rust-plaetse na dat sy uyt Egypten getrocken zijn, verg. Lev. 23.43. Dit Succoth is te onderscheyden van een ander, daer van gesproken wort Gen. 33.17.",
-          "text2026": "Een plaats, zo geheten, omdat de kinderen van Israël, toen zij daar waren gekomen, hutten van takken hebben gemaakt; en dit is hun eerste rustplaats, ndat zij uit Egypte getrokken zijn. Vergelijk Lev. 23:43 . Dit Sukkoth is te onderscheiden van een ander, waarvan gesproken wordt Gen. 33:17 . Leviticus 23:43 : Opdat uw geslachten weten, dat Ik de kinderen van Israël in loofhutten heb doen wonen, als Ik hen uit Egypteland uitgevoerd heb; Ik ben JAHWEH, uw God! Genesis 33:17 : Maar Jakob reisde naar Sukkoth, en bouwde een huis voor zich, en maakte hutten voor zijn vee; daarom noemde hij de naam dier plaats Sukkoth."
+          "text2026": "Een plaats, zo geheten, omdat de kinderen van Israël, toen zij daar waren gekomen, hutten van takken hebben gemaakt; en dit is hun eerste rustplaats, nadat zij uit Egypte getrokken zijn. Vergelijk Lev. 23:43 . Dit Sukkoth is te onderscheiden van een ander, waarvan gesproken wordt Gen. 33:17 . Leviticus 23:43 : Opdat uw geslachten weten, dat Ik de kinderen van Israël in loofhutten heb doen wonen, als Ik hen uit Egypteland uitgevoerd heb; Ik ben JAHWEH, uw God! Genesis 33:17 : Maar Jakob reisde naar Sukkoth, en bouwde een huis voor zich, en maakte hutten voor zijn vee; daarom noemde hij de naam dier plaats Sukkoth."
         },
         {
           "marker": "70",
@@ -19499,7 +19434,7 @@
           "type": "explanatory",
           "textSV1888": "Versta hieronder ook de vrouwen, zonder wier hulp de kindertjes zich niet helpen konden, alzo ook Exod. 10:24 . Exodus 10:24 : Toen riep Farao Mozes, en zeide: Gaat heen, dient den HEERE! alleen uw schapen en uw runderen zullen vast blijven; ook zullen uw kinderkens met u gaan.",
           "text1637": "Verstaet hier by oock de vrouwen, sonder welcker hulpe de kinderkens haer niet behelpen en konden, alsoo oock Exod. 10.24.",
-          "text2026": "Versta hieronder ook de vrouwen, zonder waarvan de hulp de kindertjes zich niet helpen konden, zo ook Ex. 10:24 . Exodus 10:24 : Toen riep Farao Mozes, en zei: Gaat heen, dient JAHWEH! alleen uw schapen en uw runderen zullen vast blijven; ook zullen uw kinderen met u gaan."
+          "text2026": "Versta hieronder ook de vrouwen, zonder wier hulp de kindertjes zich niet helpen konden, zo ook Ex. 10:24 . Exodus 10:24 : Toen riep Farao Mozes, en zei: Gaat heen, dient JAHWEH! alleen uw schapen en uw runderen zullen vast blijven; ook zullen uw kinderen met u gaan."
         }
       ],
       "grondtekst": [
@@ -20871,10 +20806,13 @@
           }
         },
         {
-          "tekst": "vertoeven",
+          "tekst": "talmen",
           "voorkomen": 1,
           "strongs": [
             "H4102"
+          ],
+          "morfologie": [
+            "HR/Vfc"
           ],
           "bronwoorden": [
             "לְ/הִתְמַהְמֵ֔הַּ"
@@ -20885,13 +20823,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:39",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -21945,55 +21887,42 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:41",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֥רֶץ",
             "מִצְרָֽיִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:41",
+            "grondindices": [
+              15,
+              16
+            ],
             "bronindices": [
+              15,
               16
             ]
           }
@@ -22011,7 +21940,7 @@
           "type": "explanatory",
           "textSV1888": "Dezen nacht zal men den HEERE op het vlijtigst houden: Anders, dit is die nacht, welken de HEERE in acht genomen heeft, om hen uit Egypteland te leiden. Hebreeuws, Dit is een nacht der onderhoudingen en Heere.",
           "text1637": "And. Dit is die nacht, welcken de HEERE in achtinge genomen heeft, om haer uyt Egypten-lant te leyden. Hebr. Dit is een nacht der onderhoudingen den Heere.",
-          "text2026": "Deze nacht zal men JAHWEH op het vlijtigst houden: Anders, dit is die nacht, welke JAHWEH in acht genomen heeft, om hen uit Egypteland te leiden. Hebreeuws, Dit is een nacht van de onderhoudingen en Heer."
+          "text2026": "Deze nacht zal men JAHWEH op het vlijtigst houden: Anders, dit is die nacht, welke JAHWEH in acht genomen heeft, om hen uit Egypteland te leiden. Hebreeuws, Dit is een nacht van de onderhoudingen voor de Heer."
         }
       ],
       "grondtekst": [
@@ -22258,55 +22187,42 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֣רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:42",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֣רֶץ",
             "מִצְרָ֑יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:42",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              5,
               6
             ]
           }
@@ -22536,10 +22452,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "geslachten",
           "voorkomen": 1,
           "strongs": [
             "H1755"
+          ],
+          "morfologie": [
+            "HR/Ncmpc/Sp3mp"
           ],
           "bronwoorden": [
             "לְ/דֹרֹתָֽ/ם"
@@ -22550,21 +22469,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:42",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "anker": "Israëlieten",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         }
       ]
     },
@@ -23038,7 +22957,7 @@
           "type": "explanatory",
           "textSV1888": "nadat gij hem zult besneden hebben: Wel verstaande, nadat hij in de ware religie onderwezen zal zijn, en dezelve hebben aangenomen.",
           "text1637": "Wel verstaende, na dat hy inde ware Religie onderwesen sal zijn, ende de selve hebben aengenomen.",
-          "text2026": "nadat u hem zult besneden hebben: Wel verstaande, nadat hij in de ware religie onderwezen zal zijn, en dezelfde hebben aangenomen."
+          "text2026": "nadat u hem zult besneden hebben: Wel verstaande, nadat hij in de ware religie onderwezen zal zijn, en die hebben aangenomen."
         }
       ],
       "grondtekst": [
@@ -23534,7 +23453,7 @@
           "type": "explanatory",
           "textSV1888": "In een huis zal het gegeten worden: De zin is: Elk lam zal men in een bijzonder huis eten, elk huisgezin het zijne, gelijk boven, vers 3 , gezegd wordt. Exodus 12:3 : Spreekt tot de ganse vergadering van Israël, zeggende: Aan den tienden dezer maand neme een iegelijk een lam, naar de huizen der vaderen, een lam voor een huis.",
           "text1637": "De sin is, Elck lam sal men in een bysonder huys eten, elck huysgesin het sijne, als bov. vers 3. geseyt wort.",
-          "text2026": "In een huis zal het gegeten worden: De zin is: Elk lam zal men in een bijzonder huis eten, elk huisgezin het zijn, gelijk boven, vers 3 , gezegd wordt. Exodus 12:3 : Spreekt tot de gehele vergadering van Israël, zeggende: Aan de tienden van deze maand neme een iedereen een lam, naar de huizen van de vaderen, een lam voor een huis."
+          "text2026": "In een huis zal het gegeten worden: De zin is: Elk lam zal men in een bijzonder huis eten, elk huisgezin het zijne, gelijk boven, vers 3 , gezegd wordt. Exodus 12:3 : Spreekt tot de gehele vergadering van Israël, zeggende: Aan de tienden van deze maand neme ieder een lam, naar de huizen van de vaderen, een lam voor een huis."
         },
         {
           "marker": "o",
@@ -23780,7 +23699,7 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "uit",
           "voorkomen": 1,
           "strongs": [
             "H4480"
@@ -23802,7 +23721,7 @@
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:46",
             "bronindices": [
-              5
+              7
             ]
           }
         },
@@ -23834,7 +23753,7 @@
           }
         },
         {
-          "tekst": "uit",
+          "tekst": "van",
           "voorkomen": 1,
           "strongs": [
             "H4480"
@@ -23856,7 +23775,7 @@
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:46",
             "bronindices": [
-              7
+              5
             ]
           }
         },
@@ -25856,64 +25775,45 @@
         {
           "tekst": "",
           "voorkomen": 1,
-          "strongs": [
-            "H853"
-          ],
-          "bronwoorden": [
-            "אֶת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:51",
-            "bronindices": [
-              5
-            ]
-          },
           "anker": "Israëlieten",
           "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
           "strongs": [
+            "H853",
             "H1121"
           ],
+          "morfologie": [
+            "HTo",
+            "HNcmpc"
+          ],
           "bronwoorden": [
+            "אֶת",
             "בְּנֵ֧י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:51",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              5,
               7
             ]
-          },
-          "anker": "Israëlieten",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "Israëlieten",
@@ -25943,55 +25843,42 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 12:51",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֥רֶץ",
             "מִצְרַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 12:51",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               10
             ]
           }

@@ -10,9 +10,14 @@ const DataLoader = {
 
     async loadManifest() {
         if (this.manifest) return this.manifest;
-        const resp = await fetch('data/books.json');
-        this.manifest = await resp.json();
-        return this.manifest;
+        if (!this._manifestPromise) this._manifestPromise = fetch('data/books.json')
+            .then(response => { if (!response.ok) throw new Error('Boekenlijst niet beschikbaar'); return response.json(); })
+            .then(manifest => {
+                manifest.books = manifest.books.filter(ReaderPolicy.allowsBook);
+                this.manifest = manifest;
+                return manifest;
+            }).catch(error => { this._manifestPromise = null; throw error; });
+        return this._manifestPromise;
     },
 
     /** Laadt het boek-manifest (klein, ~5KB): bookIntro + lijst chapters [{number, verseCount}]. */
@@ -29,52 +34,31 @@ const DataLoader = {
 
     /** Laadt 1 hoofdstuk en merget localStorage-edits. */
     async loadChapter(bookId, chapterNum) {
-        const edition = (typeof TekstEditie !== 'undefined') ? TekstEditie.code() : 'nl-ov';
-        const key = `${edition}:${bookId}:${chapterNum}`;
+        const manifest = await this.loadManifest();
+        const book = manifest.books.find(item => item.id === bookId);
+        if (!book || !Number.isInteger(chapterNum) || !book.chaptersIncluded.includes(chapterNum)) return null;
+        const key = 'nl-ov:' + bookId + ':' + chapterNum;
         if (this.chapterCache[key]) {
-            // bump LRU
-            const idx = this._chapterCacheOrder.indexOf(key);
-            if (idx >= 0) this._chapterCacheOrder.splice(idx, 1);
+            this._chapterCacheOrder = this._chapterCacheOrder.filter(item => item !== key);
             this._chapterCacheOrder.push(key);
-            // Gaan de Strong-nummers pas later aan, dan vult het hoofdstuk zich hier alsnog aan.
-            if (edition === 'nl-ov') await this._vulWoordnummersAan(this.chapterCache[key], bookId, chapterNum);
             return this.chapterCache[key];
         }
-        let ch;
-        if (edition !== 'nl-ov' && typeof TekstEditie !== 'undefined') {
-            ch = await TekstEditie.loadChapter(bookId, chapterNum);
-        } else {
-            ch = await Verification.loadJSON(`data/${bookId}/${chapterNum}.json`);
-            if (window.CitatieUit) window.CitatieUit.hoofdstuk(ch, bookId);
-            await this._vulWoordnummersAan(ch, bookId, chapterNum);
-        }
+        this._pendingChapters = this._pendingChapters || new Map();
+        if (this._pendingChapters.has(key)) return this._pendingChapters.get(key);
+        const pending = this._loadChapterData(bookId, chapterNum, key);
+        this._pendingChapters.set(key, pending);
+        try { return await pending; } finally { this._pendingChapters.delete(key); }
+    },
 
-        // Merge localStorage edits voor deze chapter
-        const edits = edition === 'nl-ov' && (typeof Storage !== 'undefined') ? Storage.getEdits(bookId) : null;
+    async _loadChapterData(bookId, chapterNum, key) {
+        const ch = await Verification.loadJSON('data/' + bookId + '/' + chapterNum + '.json');
+        if (window.CitatieUit) CitatieUit.hoofdstuk(ch, bookId);
+        const edits = typeof Storage !== 'undefined' ? Storage.getEdits(bookId) : null;
         if (edits) this._mergeChapterEdits(ch, edits, chapterNum);
-
         this.chapterCache[key] = ch;
         this._chapterCacheOrder.push(key);
         this._evictOld();
         return ch;
-    },
-
-    /** Vult woordnummers aan uit het boekbestand in data/woordnummers-inline/.
-     *  Dat bestand is per boek megabytes groot en voegt alleen iets toe aan verzen
-     *  die in de hoofdstuk-JSON nog geen woordnummers hebben. De lezer toont ze
-     *  bovendien alleen als de Strong-nummers aan staan; zonder die twee
-     *  voorwaarden wacht de eerste weergave er dus niet op. */
-    _woordnummersAangevuld: new WeakSet(),
-
-    async _vulWoordnummersAan(ch, bookId, chapterNum) {
-        if (!ch || !window.OVWoordnummers || this._woordnummersAangevuld.has(ch)) return;
-        if (typeof Opties === 'undefined' || !Opties.state || Opties.state.strongs !== 'aan') return;
-        const zonderWoordnummers = (ch.verses || []).some(v => !(Array.isArray(v.woordnummers) && v.woordnummers.length));
-        if (zonderWoordnummers) {
-            const mappings = await window.OVWoordnummers.loadBookMappings(bookId);
-            window.OVWoordnummers.mergeChapterMappings(ch, mappings, chapterNum);
-        }
-        this._woordnummersAangevuld.add(ch);
     },
 
     /** Backward-compat: bouwt 'oude' formaat dict {chapters: [...]} maar laadt LAZY.

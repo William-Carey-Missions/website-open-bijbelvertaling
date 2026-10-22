@@ -406,7 +406,7 @@
           "type": "explanatory",
           "textSV1888": "is gelijk: Door deze gelijkenis wordt voor ogen gesteld de grote ondankbaarheid der Joden, die, van God door de predikatie des Evangelies tot de gemeenschap zijns Zoons en der zaligheid geroepen zijnde, dezelve veracht hebben en daarom zwaarlijk gestraft en verworpen zouden worden en dat de heidenen daarna in hun plaats zouden worden geroepen.",
           "text1637": "Door dese gelijckenisse wort voor oogen gestelt de groote ondanckbaerheyt der Ioden, die van Godt door de predicatie des Euangeliums tot de gemeenschap sijns Soons ende der salicheyt geroepen zijnde, deselve veracht hebben, ende daerom swaerlick gestraft ende verworpen souden worden: ende dat de Heydenen daer na in hare plaetse souden worden geroepen.",
-          "text2026": "is gelijk: Door deze gelijkenis wordt voor ogen gesteld de grote ondankbaarheid van de Joden, die, van God door de predikatie van het Evangelie tot de gemeenschap zijns Zoons en van de zaligheid geroepen zijnde, dezelfde veracht hebben en daarom moeizaam gestraft en verworpen zouden worden en dat de heidenen daarna in hun plaats zouden worden geroepen."
+          "text2026": "is gelijk: Door deze gelijkenis wordt voor ogen gesteld de grote ondankbaarheid van de Joden, die, van God door de predikatie van het Evangelie tot de gemeenschap zijns Zoons en van de zaligheid geroepen zijnde, dezelfde veracht hebben en daarom zwaar gestraft en verworpen zouden worden en dat de heidenen daarna in hun plaats zouden worden geroepen."
         },
         {
           "marker": "2",
@@ -420,7 +420,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, de genadige en geestelijke gemeenschap met Christo ene de eeuwige zaligheid.",
           "text1637": "D. de genadige ende geestelicke gemeynschap met Christo ende de eeuwige salicheyt.",
-          "text2026": "Dat is, de genadige en geestelijke gemeenschap met Christo ene de eeuwige zaligheid."
+          "text2026": "Dat is, de genadige en geestelijke gemeenschap met Christo en de eeuwige zaligheid."
         }
       ],
       "grondtekst": [
@@ -672,10 +672,18 @@
           }
         },
         {
-          "tekst": "zeker",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "koning",
+          "plaats": "voor",
           "strongs": [
             "G444"
+          ],
+          "lemma_strongs": [
+            "G444"
+          ],
+          "morfologie": [
+            "N-DSM"
           ],
           "bronwoorden": [
             "ανθρωπω"
@@ -686,17 +694,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:2",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }
@@ -2987,10 +2996,16 @@
           }
         },
         {
-          "tekst": "de",
+          "tekst": "ander",
           "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -3001,26 +3016,33 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:5",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
         },
         {
-          "tekst": "ander",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
             "δε"
@@ -3031,17 +3053,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:5",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -3473,10 +3496,16 @@
           }
         },
         {
-          "tekst": "smaad aan",
+          "tekst": "smaad",
           "voorkomen": 1,
           "strongs": [
             "G5195"
+          ],
+          "lemma_strongs": [
+            "G5195"
+          ],
+          "morfologie": [
+            "V-AAI-3P"
           ],
           "bronwoorden": [
             "υβρισαν"
@@ -3487,17 +3516,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5656"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:6",
-            "bronindices": [
+            "grondindices": [
               7
             ],
-            "grondindices": [
+            "bronindices": [
               7
             ]
           }
@@ -4315,7 +4348,7 @@
           "type": "explanatory",
           "textSV1888": "niet waardig: Zie Hand. 13:46 . Handelingen 13:46 : Maar Paulus en Barnabas, vrijmoedigheid gebruikende, zeiden: Het was nodig, dat eerst tot u het Woord Gods gesproken zou worden; doch nademaal gij hetzelve verstoot, en uzelven des eeuwigen levens niet waardig oordeelt, ziet, wij keren ons tot de heidenen.",
           "text1637": "Siet Act. 13.46.",
-          "text2026": "niet waard: Zie Hand. 13:46 . Handelingen 13:46 : Maar Paulus en Barnabas, vrijmoedigheid gebruikende, zeiden: Het was nodig, dat eerst tot u het Woord van God gesproken zou worden; maar aangezien u hetzelfde verstoot, en uzelven van de eeuwigen levens niet waard oordeelt, ziet, wij keren ons tot de heidenen."
+          "text2026": "niet waard: Zie Hand. 13:46 . Handelingen 13:46 : Maar Paulus en Barnabas, vrijmoedigheid gebruikende, zeiden: Het was nodig, dat eerst tot u het Woord van God gesproken zou worden; maar aangezien u hetzelfde verstoot, en uzelven het eeuwige leven niet waard oordeelt, ziet, wij keren ons tot de heidenen."
         }
       ],
       "grondtekst": [
@@ -6339,7 +6372,7 @@
           "type": "explanatory",
           "textSV1888": "Dit bruiloftskleed is Christus met zijn gerechtigheid, aangenomen door een waar geloof, hetwelk door de werken der liefde krachtig is en betoond wordt. Rom. 13:14 , Gal. 3:26 , 27, Openb. 19:8 . Romeinen 13:14 : Maar doet aan den Heere Jezus Christus, en verzorgt het vlees niet tot begeerlijkheden. Galaten 3:26 : Want gij zijt allen kinderen Gods door het geloof in Christus Jezus. Openbaring 19:8 : En haar is gegeven, dat zij bekleed worde met rein en blinkend fijn lijnwaad; want dit fijn lijnwaad zijn de rechtvaardigmakingen der heiligen.",
           "text1637": "Dit bruylofts-kleet is Christus met sijne gerechticheyt, aengenomen door een waer geloove, twelck door de wercken der liefde krachtich is ende betoont wort. Rom. 13.14. Gal. 3. versen 26, 27. Apoc. 19.8.",
-          "text2026": "Dit bruiloftskleed is Christus met zijn gerechtigheid, aangenomen door een waar geloof, dat door de werken van de liefde krachtig is en betoond wordt. Rom. 13:14 , Gal. 3:26 , 27, Openb. 19:8 . Romeinen 13:14 : Maar doet aan de Heer Jezus Christus, en verzorgt het vlees niet tot begeerlijkheden. Galaten 3:26 : Want u bent alle kinderen van God door het geloof in Christus Jezus. Openbaring 19:8 : En haar is gegeven, dat zij bekleed worde met rein en blinkend fijn lijnwaad; want dit fijn lijnwaad zijn de rechtvaardigmakingen van de heiligen."
+          "text2026": "Dit bruiloftskleed is Christus met zijn gerechtigheid, aangenomen door een waar geloof, dat door de werken van de liefde krachtig is en betoond wordt. Rom. 13:14 , Gal. 3:26 , 27, Openb. 19:8 . Romeinen 13:14 : Maar doet aan de Heer Jezus Christus, en verzorgt het vlees niet tot begeerlijkheden. Galaten 3:26 : Want u bent allen kinderen van God door het geloof in Christus Jezus. Openbaring 19:8 : En haar is gegeven, dat zij bekleed worde met rein en blinkend fijn lijnwaad; want dit fijn lijnwaad zijn de rechtvaardigmakingen van de heiligen."
         }
       ],
       "grondtekst": [
@@ -8023,10 +8056,16 @@
           }
         },
         {
-          "tekst": "uit",
+          "tekst": "werpt",
           "voorkomen": 1,
           "strongs": [
             "G1544"
+          ],
+          "lemma_strongs": [
+            "G1544"
+          ],
+          "morfologie": [
+            "V-2AAM-2P"
           ],
           "bronwoorden": [
             "εκβαλετε"
@@ -8037,17 +8076,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5628"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:13",
-            "bronindices": [
+            "grondindices": [
               14
             ],
-            "grondindices": [
+            "bronindices": [
               14
             ]
           }
@@ -8237,10 +8280,16 @@
           }
         },
         {
-          "tekst": "zal",
+          "tekst": "zal zijn",
           "voorkomen": 1,
           "strongs": [
             "G1510"
+          ],
+          "lemma_strongs": [
+            "G1510"
+          ],
+          "morfologie": [
+            "V-FDI-3S"
           ],
           "bronwoorden": [
             "εσται"
@@ -8251,26 +8300,38 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5695"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:13",
-            "bronindices": [
+            "grondindices": [
               21
             ],
-            "grondindices": [
+            "bronindices": [
               21
             ]
           }
         },
         {
-          "tekst": "zijn",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "gehuil",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -8281,17 +8342,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:13",
-            "bronindices": [
+            "grondindices": [
               22
             ],
-            "grondindices": [
+            "bronindices": [
               22
             ]
           }
@@ -8500,7 +8562,7 @@
           "type": "explanatory",
           "textSV1888": "Want velen: Dit besluit ziet niet alleen op deze ene, die als een voorbeeld is van alle huichelaars, maar ook op de menigte dergenen, die tevoren genood zijnde zulks hebben veracht. Matth. 20:16 . Mattheüs 20:16 : Alzo zullen de laatsten de eersten zijn, en de eersten de laatsten; want velen zijn geroepen, maar weinigen uitverkoren.",
           "text1637": "Dit besluyt siet niet alleen op desen eenen, die als een exempel is van alle huychelaren, maer oock op de menichte der gene die te voren genoodt zijnde sulcx hebben veracht.",
-          "text2026": "Want velen: Dit besluit ziet niet alleen op deze ene, die als een voorbeeld is van alle huichelaars, maar ook op de menigte dergenen, die tevoren uitgenodigd zijnde zulks hebben veracht. Matt. 20:16 . Mattheüs 20:16 : Zo zullen de laatsten de eerste zijn, en de eerste de laatsten; want velen zijn geroepen, maar weinigen uitverkoren."
+          "text2026": "Want velen: Dit besluit ziet niet alleen op deze ene, die als een voorbeeld is van alle huichelaars, maar ook op de menigte dergenen, die tevoren uitgenodigd zijnde zulks hebben veracht. Matt. 20:16 . Mattheüs 20:16 : Zo zullen de laatsten de eersten zijn, en de eersten de laatsten; want velen zijn geroepen, maar weinigen uitverkoren."
         }
       ],
       "grondtekst": [
@@ -9210,7 +9272,7 @@
           "type": "explanatory",
           "textSV1888": "Sommige oude leraars menen dat deze Herodianen een bijzondere sekte waren, die ene mengeling uit den Joodse en den heidense godsdienst, van Herodes den Grote ingevoerd, toestonden en navolgden. Hetwelk overeenkomt met Mark. 8:15 . Anderen menen dat zij ook hovelingen of dienaars waren van Herodes Antipas, die deze schattingen voor de keizer vergaderden, en aan degenen, die zulke schatting zouden weigeren of ontkennen geoorloofd te zijn, de handen sloegen, hetwelk uit de woorden van Luk. 20:20 , afgenomen wordt. Marcus 8:15 : En Hij gebood hun, zeggende: Ziet toe, wacht u van den zuurdesem der Farizeën, en van den zuurdesem van Herodes. Lukas 20:20 : En zij namen Hem waar, en zonden verspieders uit, die zichzelven veinsden rechtvaardig te zijn; opdat zij Hem in Zijn rede vangen mochten, om Hem aan de heerschappij en de macht des stadhouders over te leveren.",
           "text1637": "Sommige oude Leeraers meenen, dat dese Herodianen eene bysondere secte waren, die een mengelinge uyt de Iodische ende heydensche religie, van Herodes de Groote in-gevoert, toestonden ende navolghden. het welck over een komt met Marc. 8.15. Andere meenen datse oock hovelingen ofte dienaers waren van Herodes Antipas, die dese schattingen voor den Keyser vergaderden, ende aen de gene die sulcke schattinge souden weygeren, ofte ontkennen geoorloft te zijn, de handen sloegen: het welck uyt de woorden Luc. 20.20. afgenomen wort.",
-          "text2026": "Sommige oude leraars menen dat deze Herodianen een bijzondere sekte waren, die ene mengeling uit de Joodse en de heidense godsdienst, van Herodes de Grote ingevoerd, toestonden en navolgden. Dat overeenkomt met Mark. 8:15 . Anderen menen dat zij ook hovelingen of dienaren waren van Herodes Antipas, die deze schattingen voor de keizer vergaderden, en aan degenen, die zulke schatting zouden weigeren of ontkennen geoorloofd te zijn, de handen sloegen, dat uit de woorden van Luk. 20:20 , afgenomen wordt. Marcus 8:15 : En Hij gebood hun, zeggende: Ziet toe, wacht u van de zuurdesem van de Farizeën, en van de zuurdesem van Herodes. Lukas 20:20 : En zij namen Hem waar, en zonden verspieders uit, die zichzelven veinsden rechtvaardig te zijn; opdat zij Hem in Zijn rede vangen mochten, om Hem aan de heerschappij en de macht van de stadhouders over te leveren."
+          "text2026": "Sommige oude leraars menen dat deze Herodianen een bijzondere sekte waren, die ene mengeling uit de Joodse en de heidense godsdienst, van Herodes de Grote ingevoerd, toestonden en navolgden. Dat overeenkomt met Mark. 8:15 . Anderen menen dat zij ook hovelingen of dienaren waren van Herodes Antipas, die deze schattingen voor de keizer vergaderden, en aan degenen, die zulke schatting zouden weigeren of ontkennen geoorloofd te zijn, de handen sloegen, dat uit de woorden van Luk. 20:20 , afgenomen wordt. Marcus 8:15 : En Hij gebood hun, zeggende: Ziet toe, wacht u van de zuurdesem van de Farizeën, en van de zuurdesem van Herodes. Lukas 20:20 : En zij namen Hem waar, en zonden verspieders uit, die zichzelven veinsden rechtvaardig te zijn; opdat zij Hem in Zijn rede vangen mochten, om Hem aan de heerschappij en de macht van de stadhouder over te leveren."
         },
         {
           "marker": "22",
@@ -11353,7 +11415,7 @@
           "type": "explanatory",
           "textSV1888": "Dit was een stuk geld van de Romeinen, genaamd denarius, gelijk in het laatste van dit vers uitgedrukt wordt waarop het beeld van de Romeinse keizer en de naam gemunt was; welke, en geen andere munt, men tot schatting geven moest, opdat daardoor zou blijken dat zij onder de heerschappij van het Romeinse rijk stonden, gelijk zij ook plachten de schatting des tempels te betalen met een halven sikkel des heiligdoms, op welken aan de ene zijde stond: de sikkel Israëls, en op de andere zijde: het heilige Jeruzalem. Van den denarius, zie Matth. 18:28 . Mattheüs 18:28 : Maar dezelve dienstknecht, uitgaande, heeft gevonden een zijner mededienstknechten, die hem honderd penningen schuldig was, en hem aanvattende, greep hem bij de keel, zeggende: Betaal mij, wat gij schuldig zijt.",
           "text1637": "Dit was een stuck gelts van de Romeynen genaemt Denarius, gelijck in’t laetste van dit vers uytgedruckt wort. Daer op des Roomschen Keysers beelt ende naem gemunt was: welcke, ende geen andere munte, men tot schattinge geven moeste, op dat daer door soude blijcken, dat sy onder de heerschappye des Roomschen Rijcks stonden: gelijck sy oock plachten de schattinge des tempels te betalen met eenen halven sikel des Heylichdoms, op welcken stont aen de eene zijde, den zikel Israels, ende op d’ander zijde, het heylige Ierusalem. Van den Denarius. siet Mat. 18.28.",
-          "text2026": "Dit was een stuk geld van de Romeinen, genaamd denarius, gelijk in het laatste van dit vers uitgedrukt wordt waarop het beeld van de Romeinse keizer en de naam gemunt was; welke, en geen andere munt, men tot schatting geven moest, opdat daardoor zou blijken dat zij onder de heerschappij van het Romeinse rijk stonden, gelijk zij ook plachten de schatting van de tempel te betalen met een halven sikkel van het heiligdom, op welke aan de ene zijde stond: de sikkel Israëls, en op de andere zijde: het heilige Jeruzalem. Van de denarius, zie Matt. 18:28 . Mattheüs 18:28 : Maar dezelfde dienaar, uitgaande, heeft gevonden een zijn mededienstknechten, die hem honderd penningen schuldig was, en hem aanvattende, greep hem bij de keel, zeggende: Betaal mij, wat u schuldig bent."
+          "text2026": "Dit was een stuk geld van de Romeinen, genaamd denarius, gelijk in het laatste van dit vers uitgedrukt wordt waarop het beeld van de Romeinse keizer en de naam gemunt was; welke, en geen andere munt, men tot schatting geven moest, opdat daardoor zou blijken dat zij onder de heerschappij van het Romeinse rijk stonden, gelijk zij ook plachten de schatting van de tempel te betalen met een halven sikkel van het heiligdom, op welke aan de ene zijde stond: de sikkel Israëls, en op de andere zijde: het heilige Jeruzalem. Van de denarius, zie Matt. 18:28 . Mattheüs 18:28 : Maar dezelfde dienaar, uitgaande, heeft gevonden één van zijn mededienstknechten, die hem honderd penningen schuldig was, en hem aanvattende, greep hem bij de keel, zeggende: Betaal mij, wat u schuldig bent."
         }
       ],
       "grondtekst": [
@@ -11687,40 +11749,80 @@
           "voorkomen": 1,
           "strongs": [
             "G3546",
-            "G3588",
             "G2778"
+          ],
+          "lemma_strongs": [
+            "G3546",
+            "G2778"
+          ],
+          "morfologie": [
+            "N-ASN",
+            "N-GSM"
           ],
           "bronwoorden": [
             "νομισμα",
-            "του",
             "κηνσου"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:19",
-            "bronindices": [
-              7,
-              8,
-              9
-            ],
             "grondindices": [
               7,
-              8,
               9
+            ],
+            "bronindices": [
+              7,
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
+          ],
+          "bronwoorden": [
+            "του"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
+            "referentie": "MAT 22:19",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
             ]
           }
         },
@@ -13811,14 +13913,14 @@
           "type": "explanatory",
           "textSV1888": "kinderen hebbende: Dat is, zonen; mits hij zijnen broeder zaad moest verwekken, dat zijns broeders naam zou voeren en zijn erfgenaam wezen; Deut. 25:5 , 25:6 . Deuteronomium 25:5 : Wanneer broeders samenwonen, en een van hen sterft, en geen zoon heeft, zo zal de vrouw des verstorvenen aan geen vreemden man daarbuiten geworden; haar mans broeder zal tot haar ingaan, en nemen haar zich ter vrouwe, en doen haar den plicht van eens mans broeder. Deuteronomium 25:6 : En het zal geschieden, dat de eerstgeborene, dien zij zal baren, zal staan in den naam zijns broeders, des verstorvenen; opdat zijn naam niet uitgedelgd worde uit Israël.",
           "text1637": "D. Sonen: overmits hy moeste sijnen broeder zaet verwecken, dat sijns broeders name soude voeren, ende sijn erfgenaem wesen. Deut. 25.5, 6.",
-          "text2026": "kinderen hebbende: Dat is, zonen; mits hij zijn broer zaad moest verwekken, dat zijns broers naam zou voeren en zijn erfgenaam wezen; Deut. 25:5 , 25:6 . Deuteronomium 25:5 : Wanneer broers samenwonen, en één van hen sterft, en geen zoon heeft, zo zal de vrouw van de verstorvenen aan geen vreemden man daarbuiten geworden; haar mans broer zal tot haar ingaan, en nemen haar zich ter vrouwe, en doen haar de plicht van van een man broer. Deuteronomium 25:6 : En het zal gebeuren, dat de eerstgeborene, die zij zal baren, zal staan in de naam zijns broers, van de verstorvenen; opdat zijn naam niet uitgedelgd worde uit Israël."
+          "text2026": "kinderen hebbende: Dat is, zonen; mits hij voor zijn broer zaad moest verwekken, dat de naam van zijn broer zou voeren en zijn erfgenaam wezen; Deut. 25:5 , 25:6 . Deuteronomium 25:5 : Wanneer broers samenwonen, en één van hen sterft, en geen zoon heeft, zo zal de vrouw van de verstorvene aan geen vreemden man daarbuiten geworden; haar mans broer zal tot haar ingaan, en nemen haar zich ter vrouwe, en doen haar de plicht van de broer van een man. Deuteronomium 25:6 : En het zal gebeuren, dat de eerstgeborene, die zij zal baren, zal staan in de naam van zijn broer, van de verstorvene; opdat zijn naam niet uitgedelgd worde uit Israël."
         },
         {
           "marker": "27",
           "type": "explanatory",
           "textSV1888": "Grieks, uit recht des zwagerschaps tot ene huisvrouw nemen.",
           "text1637": "Gr. uyt recht des swagerschaps tot een huysvrouwe nemen.",
-          "text2026": "Grieks, uit recht van de zwagerschaps tot ene huisvrouw nemen."
+          "text2026": "Grieks, uit recht van de zwagerschap tot ene huisvrouw nemen."
         }
       ],
       "grondtekst": [
@@ -16006,10 +16108,16 @@
           }
         },
         {
-          "tekst": "na",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
             "δε"
@@ -16020,17 +16128,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:27",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
+            "bronindices": [
               1
             ]
           }
@@ -17317,7 +17426,7 @@
           "type": "explanatory",
           "textSV1888": "als engelen Gods: Niet en aanzien van het wezen, maar aangaande het huwelijk en de natuurlijke eigenschappen van dit vergankelijke leven. Zie 1 Kor. 15:44 ; Filipp. 3:21 . 1 Korinthiërs 15:44 : Een natuurlijk lichaam wordt er gezaaid, een geestelijk lichaam wordt er opgewekt. Er is een natuurlijk lichaam, en er is een geestelijk lichaam. Filippensen 3:21 : Die ons vernederd lichaam veranderen zal, opdat hetzelve gelijkvormig worde aan Zijn heerlijk lichaam, naar de werking, waardoor Hij ook alle dingen Zichzelven kan onderwerpen.",
           "text1637": "Niet ten aensien van het wesen, maer aengaende het houwelick, ende de natuerlicke eygenschappen deses vergancklicken levens. Siet 1.Corinth. 15.44. Phil. 3.21.",
-          "text2026": "als engelen van God: Niet en aanzien van het wezen, maar aangaande het huwelijk en de natuurlijke eigenschappen van dit vergankelijke leven. Zie 1 Kor. 15:44 ; Filipp. 3:21 . 1 Korinthiërs 15:44 : Een natuurlijk lichaam wordt er gezaaid, een geestelijk lichaam wordt er opgewekt. Er is een natuurlijk lichaam, en er is een geestelijk lichaam. Filippensen 3:21 : Die ons vernederd lichaam veranderen zal, opdat hetzelfde gelijkvormig worde aan Zijn heerlijk lichaam, naar de werking, waardoor Hij ook alle dingen Zichzelven kan onderwerpen."
+          "text2026": "als engelen van God: Niet ten aanzien van het wezen, maar aangaande het huwelijk en de natuurlijke eigenschappen van dit vergankelijke leven. Zie 1 Kor. 15:44 ; Filipp. 3:21 . 1 Korinthiërs 15:44 : Een natuurlijk lichaam wordt er gezaaid, een geestelijk lichaam wordt er opgewekt. Er is een natuurlijk lichaam, en er is een geestelijk lichaam. Filippensen 3:21 : Die ons vernederd lichaam veranderen zal, opdat hetzelfde gelijkvormig worde aan Zijn heerlijk lichaam, naar de werking, waardoor Hij ook alle dingen Zichzelven kan onderwerpen."
         }
       ],
       "grondtekst": [
@@ -17588,10 +17697,16 @@
           }
         },
         {
-          "tekst": "ten huwelijk",
+          "tekst": "nemen",
           "voorkomen": 1,
           "strongs": [
             "G1060"
+          ],
+          "lemma_strongs": [
+            "G1060"
+          ],
+          "morfologie": [
+            "V-PAI-3P"
           ],
           "bronwoorden": [
             "γαμουσιν"
@@ -17602,17 +17717,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5719"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:30",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }
@@ -17648,10 +17767,16 @@
           }
         },
         {
-          "tekst": "ten huwelijk uitgegeven",
+          "tekst": "uitgegeven",
           "voorkomen": 1,
           "strongs": [
             "G1547"
+          ],
+          "lemma_strongs": [
+            "G1547"
+          ],
+          "morfologie": [
+            "V-PPI-3P"
           ],
           "bronwoorden": [
             "εκγαμιζονται"
@@ -17662,17 +17787,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5743"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:30",
-            "bronindices": [
+            "grondindices": [
               7
             ],
-            "grondindices": [
+            "bronindices": [
               7
             ]
           }
@@ -17858,10 +17987,16 @@
           }
         },
         {
-          "tekst": "de",
-          "voorkomen": 2,
+          "tekst": "hemel",
+          "voorkomen": 1,
           "strongs": [
             "G3772"
+          ],
+          "lemma_strongs": [
+            "G3772"
+          ],
+          "morfologie": [
+            "N-DSM"
           ],
           "bronwoorden": [
             "ουρανω"
@@ -17872,17 +18007,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:30",
-            "bronindices": [
+            "grondindices": [
               14
             ],
-            "grondindices": [
+            "bronindices": [
               14
             ]
           }
@@ -18524,7 +18660,7 @@
           "type": "explanatory",
           "textSV1888": "de God Abrahams: Iemands god te zijn, is iemand de eeuwige zaligheid naar lichaam en ziel te willen geven; zie Ps. 33:12 , en Ps. 144:15 , waaruit volgt dat deze pariarchem naar de ziel bij God leefden [hetwelk deze Sadduceën ook ontkenden, Hand. 23:8 ] en ook naar deze lichamen opstaan zouden en eeuwiglijk leven, mits Hij een God, niet alleen van een deel van hen, maar van hun gehele personen genaamd wordt. Psalmen 33:12 : Welgelukzalig is het volk, welks God de HEERE is; het volk, dat Hij Zich ten erve verkoren heeft. Psalmen 144:15 : Welgelukzalig is het volk, dien het alzo gaat; welgelukzalig, is het volk, wiens God de HEERE is. Handelingen 23:8 : Want de Sadduceën zeggen, dat er geen opstanding is, noch engel, noch geest, maar de Farizeën belijden het beide.",
           "text1637": "Yemants Godt te zijn, is yemant de eeuwige salicheyt na lichaem ende ziele te willen geven. Siet Psalm 33.12. ende 144.15. waer uyt volcht, dat dese Patriarchen na de ziele by Godt leefden (het welck dese Sadduceen oock ontkenden. Actor. 23.8.) ende oock na hare lichamen opstaen souden ende eeuwichlick leven: overmits hy een Godt, niet alleen van een deel van haer, maer van hare geheele persoonen, genaemt wort.",
-          "text2026": "de God van Abraham: Iemands god te zijn, is iemand de eeuwige zaligheid naar lichaam en ziel te willen geven; zie Ps. 33:12 , en Ps. 144:15 , waaruit volgt dat deze pariarchem naar de ziel bij God leefden [dat deze Sadduceën ook ontkenden, Hand. 23:8 ] en ook naar deze lichamen opstaan zouden en eeuwig leven, mits Hij een God, niet alleen van een deel van hen, maar van hun gehele personen genaamd wordt. Psalmen 33:12 : Welgelukzalig is het volk, welks God JAHWEH is; het volk, dat Hij Zich ten erve gekozen heeft. Psalmen 144:15 : Welgelukzalig is het volk, die het zo gaat; welgelukzalig, is het volk, wiens God JAHWEH is. Handelingen 23:8 : Want de Sadduceën zeggen, dat er geen opstanding is, noch engel, noch geest, maar de Farizeën belijden het beide."
+          "text2026": "de God van Abraham: Iemands god te zijn, is iemand de eeuwige zaligheid naar lichaam en ziel te willen geven; zie Ps. 33:12 , en Ps. 144:15 , waaruit volgt dat deze patriarchen naar de ziel bij God leefden [dat deze Sadduceën ook ontkenden, Hand. 23:8 ] en ook naar deze lichamen opstaan zouden en eeuwig leven, mits Hij een God, niet alleen van een deel van hen, maar van hun gehele personen genaamd wordt. Psalmen 33:12 : Welgelukzalig is het volk, welks God JAHWEH is; het volk, dat Hij Zich ten erve gekozen heeft. Psalmen 144:15 : Welgelukzalig is het volk, die het zo gaat; welgelukzalig, is het volk, wiens God JAHWEH is. Handelingen 23:8 : Want de Sadduceën zeggen, dat er geen opstanding is, noch engel, noch geest, maar de Farizeën belijden het beide."
         }
       ],
       "grondtekst": [
@@ -20048,40 +20184,80 @@
           "voorkomen": 1,
           "strongs": [
             "G1909",
-            "G3588",
             "G846"
+          ],
+          "lemma_strongs": [
+            "G1909",
+            "G846"
+          ],
+          "morfologie": [
+            "PREP",
+            "P-ASN"
           ],
           "bronwoorden": [
             "επι",
-            "το",
             "αυτο"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:34",
-            "bronindices": [
-              9,
-              10,
-              11
-            ],
             "grondindices": [
               9,
-              10,
               11
+            ],
+            "bronindices": [
+              9,
+              11
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
+          ],
+          "bronwoorden": [
+            "το"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
+            "referentie": "MAT 22:34",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
             ]
           }
         }
@@ -20771,7 +20947,7 @@
           "type": "explanatory",
           "textSV1888": "Of, gedachte; dat is, overlegging des verstands.",
           "text1637": "Ofte, gedachte, dat is, overlegginge des verstants.",
-          "text2026": "Of, gedachte; dat is, overlegging van de verstand."
+          "text2026": "Of, gedachte; dat is, overlegging van het verstand."
         }
       ],
       "grondtekst": [
@@ -20964,8 +21140,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -20976,24 +21160,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:37",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -23340,10 +23521,16 @@
       ],
       "woordnummers": [
         {
-          "tekst": "En zei",
+          "tekst": "zei",
           "voorkomen": 1,
           "strongs": [
             "G3004"
+          ],
+          "lemma_strongs": [
+            "G3004"
+          ],
+          "morfologie": [
+            "V-PAP-NSM"
           ],
           "bronwoorden": [
             "λεγων"
@@ -23354,17 +23541,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5723"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:42",
-            "bronindices": [
+            "grondindices": [
               0
             ],
-            "grondindices": [
+            "bronindices": [
               0
             ]
           }
@@ -24662,10 +24853,16 @@
           }
         },
         {
-          "tekst": "zal",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G302"
+          ],
+          "lemma_strongs": [
+            "G302"
+          ],
+          "morfologie": [
+            "PRT"
           ],
           "bronwoorden": [
             "αν"
@@ -24676,17 +24873,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "7CD145CC16CD381B5536E22BCE23D43E3B3DE49191709D71400AC55A12F0046C",
             "referentie": "MAT 22:44",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }

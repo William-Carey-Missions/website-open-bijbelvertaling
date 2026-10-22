@@ -19,14 +19,14 @@
           "type": "explanatory",
           "textSV1888": "tabernakel nu: De tabernakel of woning werd gemaakt, om daarin te stellen de ark, de gouden tafel met de toonbroden, en den gouden kandelaar.",
           "text1637": "De Tabernakel, of wooninge wiert gemaeckt, om in den selfden te stellen de Arke, de gouden tafel, met de toonbrooden, ende goudene candelaer.",
-          "text2026": "tabernakel nu: De tabernakel of woning werd gemaakt, om daarin te stellen de ark, de gouden tafel met de toonbroden, en de goude kandelaar."
+          "text2026": "tabernakel nu: De tabernakel of woning werd gemaakt, om daarin te stellen de ark, de gouden tafel met de toonbroden, en de gouden kandelaar."
         },
         {
           "marker": "2",
           "type": "explanatory",
           "textSV1888": "Zie Gen. 38:28 . Genesis 38:28 : En het geschiedde, als zij baarde, dat een de hand uitgaf; en de vroedvrouw nam dezelve, en zij bond een scharlaken draad om zijn hand, zeggende: Deze komt het eerst uit.",
           "text1637": "Siet Genes. 38. vers 28.",
-          "text2026": "Zie Gen. 38:28 . Genesis 38:28 : En het geschiedde, als zij baarde, dat een de hand uitgaf; en de vroedvrouw nam dezelfde, en zij bond een scharlaken draad om zijn hand, zeggende: Deze komt het eerst uit."
+          "text2026": "Zie Gen. 38:28 . Genesis 38:28 : En het geschiedde, als zij baarde, dat een de hand uitgaf; en de vroedvrouw nam die, en zij bond een scharlaken draad om zijn hand, zeggende: Deze komt het eerst uit."
         },
         {
           "marker": "3",
@@ -392,59 +392,42 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8438"
-          ],
-          "bronwoorden": [
-            "וְ/תֹלַ֣עַת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:1",
-            "bronindices": [
-              9
-            ]
-          },
-          "anker": "scharlaken",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
-        },
-        {
           "tekst": "scharlaken",
           "voorkomen": 1,
           "strongs": [
+            "H8438",
             "H8144"
           ],
+          "morfologie": [
+            "HC/Ncfsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "וְ/תֹלַ֣עַת",
             "שָׁנִ֔י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:1",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               10
             ]
           }
@@ -1112,7 +1095,7 @@
           "type": "explanatory",
           "textSV1888": "de een aan de andere: Hebreeuws, de vrouw aan haar zuster; alzo ook vers 5 , 26:6 . Exodus 26:5 : Vijftig striklisjes zult gij aan de ene gordijn maken, en vijftig striklisjes zult gij maken aan het uiterste der gordijn, dat aan de tweede samenvoegende is; deze striklisjes zullen het ene aan het andere samenvatten. Exodus 26:6 : Gij zult ook vijftig gouden haakjes maken, en zult de gordijnen samenvoegen, de ene aan de andere, met deze haakjes, opdat het een tabernakel zij.",
           "text1637": "Hebr. de vrouwe aen haer suster, also oock vers 5, 6.",
-          "text2026": "de één aan de andere: Hebreeuws, de vrouw aan haar zus; zo ook vers 5 , 26:6 . Exodus 26:5 : Vijftig striklisjes zult u aan de één gordijn maken, en vijftig striklisjes zult u maken aan het uiterste van de gordijn, dat aan de tweede samenvoegende is; deze striklisjes zullen het een aan het andere samenvatten. Exodus 26:6 : U zult ook vijftig gouden haakjes maken, en zult de gordijnen samenvoegen, de één aan de andere, met deze haakjes, opdat het een tabernakel zij."
+          "text2026": "de ene aan de andere: Hebreeuws, de vrouw aan haar zus; zo ook vers 5 , 26:6 . Exodus 26:5 : Vijftig striklisjes zult u aan de ene gordijn maken, en vijftig striklisjes zult u maken aan het uiterste van de gordijn, dat aan de tweede samenvoegende is; deze striklisjes zullen het een aan het andere samenvatten. Exodus 26:6 : U zult ook vijftig gouden haakjes maken, en zult de gordijnen samenvoegen, de ene aan de andere, met deze haakjes, opdat het een tabernakel zij."
         }
       ],
       "grondtekst": [
@@ -1577,7 +1560,7 @@
           "type": "explanatory",
           "textSV1888": "kant van de ene gordijn: Of, zelfkant. Hebreeuws, lip; alzo ook vers 10 . Exodus 26:10 : En gij zult vijftig striklisjes maken aan den kant van de ene gordijn, het uiterste in de samenvoeging, en vijftig striklisjes aan den kant van de gordijn, die de tweede samenvoegende is.",
           "text1637": "Ofte self-kant. Hebr. lippe, alsoo oock vers 10.",
-          "text2026": "kant van de één gordijn: Of, zelfkant. Hebreeuws, lip; zo ook vers 10 . Exodus 26:10 : En u zult vijftig striklisjes maken aan de kant van de één gordijn, het uiterste in de samenvoeging, en vijftig striklisjes aan de kant van de gordijn, die de tweede samenvoegende is."
+          "text2026": "kant van de ene gordijn: Of, zelfkant. Hebreeuws, lip; zo ook vers 10 . Exodus 26:10 : En u zult vijftig striklisjes maken aan de kant van de ene gordijn, het uiterste in de samenvoeging, en vijftig striklisjes aan de kant van de gordijn, die de tweede samenvoegende is."
         },
         {
           "marker": "6",
@@ -3534,59 +3517,42 @@
           "tekst": "elf",
           "voorkomen": 1,
           "strongs": [
-            "H6249"
-          ],
-          "bronwoorden": [
-            "עַשְׁתֵּי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:7",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 2,
-          "strongs": [
+            "H6249",
             "H6240"
           ],
+          "morfologie": [
+            "HAcbpc",
+            "HAcfsa"
+          ],
           "bronwoorden": [
+            "עַשְׁתֵּי",
             "עֶשְׂרֵ֥ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:7",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              8,
               9
             ]
-          },
-          "anker": "tentkleden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "tentkleden",
@@ -4123,59 +4089,42 @@
           "tekst": "elf",
           "voorkomen": 1,
           "strongs": [
-            "H6249"
-          ],
-          "bronwoorden": [
-            "לְ/עַשְׁתֵּ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:8",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6249",
             "H6240"
           ],
+          "morfologie": [
+            "HR/Aobpc",
+            "HAcfsa"
+          ],
           "bronwoorden": [
+            "לְ/עַשְׁתֵּ֥י",
             "עֶשְׂרֵ֖ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:8",
+            "grondindices": [
+              12,
+              13
+            ],
             "bronindices": [
+              2,
               3
             ]
-          },
-          "anker": "tentkleden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "tentkleden",
@@ -4845,7 +4794,7 @@
           "type": "explanatory",
           "textSV1888": "maken aan den kant van de ene gordijn: Hebreeuws, aan de lip. Anders, aan den zelfkant.",
           "text1637": "Hebr. aen de lippe, And. aen den self-kant.",
-          "text2026": "maken aan de kant van de één gordijn: Hebreeuws, aan de lip. Anders, aan de zelfkant."
+          "text2026": "maken aan de kant van de ene gordijn: Hebreeuws, aan de lip. Anders, aan de zelfkant."
         }
       ],
       "grondtekst": [
@@ -7000,59 +6949,42 @@
           "tekst": "ramsvellen",
           "voorkomen": 1,
           "strongs": [
-            "H5785"
-          ],
-          "bronwoorden": [
-            "עֹרֹ֥ת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:14",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H5785",
             "H352"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "עֹרֹ֥ת",
             "אֵילִ֖ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:14",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              4,
               3
             ]
-          },
-          "anker": "ramsvellen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "roodgeverfde",
@@ -7112,59 +7044,42 @@
           "tekst": "dassenvellen",
           "voorkomen": 1,
           "strongs": [
-            "H5785"
-          ],
-          "bronwoorden": [
-            "עֹרֹ֥ת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:14",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H5785",
             "H8476"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "עֹרֹ֥ת",
             "תְּחָשִׁ֖ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:14",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
+              8,
               9
             ]
-          },
-          "anker": "dassenvellen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "daarover",
@@ -7374,59 +7289,42 @@
           "tekst": "sittimhout",
           "voorkomen": 1,
           "strongs": [
-            "H6086"
-          ],
-          "bronwoorden": [
-            "עֲצֵ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:15",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6086",
             "H7848"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HNcfpa"
+          ],
           "bronwoorden": [
+            "עֲצֵ֥י",
             "שִׁטִּ֖ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:15",
+            "grondindices": [
+              4,
+              5
+            ],
             "bronindices": [
+              5,
               4
             ]
-          },
-          "anker": "sittimhout",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "staande",
@@ -8534,59 +8432,42 @@
           "tekst": "zuidzijde",
           "voorkomen": 1,
           "strongs": [
-            "H6285"
-          ],
-          "bronwoorden": [
-            "לִ/פְאַ֖ת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:18",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6285",
             "H5045"
           ],
+          "morfologie": [
+            "HR/Ncfsc",
+            "HNcmsa/Sd"
+          ],
           "bronwoorden": [
+            "לִ/פְאַ֖ת",
             "נֶ֥גְבָּ/ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:18",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              7,
               5
             ]
-          },
-          "anker": "zuidzijde",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "zuiden",
@@ -9359,7 +9240,7 @@
           "type": "explanatory",
           "textSV1888": "berderen zijn: Zijnde elk berd anderhalve el breed, vers 16 . Zodat hieruit af te nemen is dat de lengte van den gehelen tabernakel geweest is dertig ellen. Exodus 26:16 : De lengte van een berd zal tien ellen zijn, en een el en een halve el zal de breedte van elk berd zijn.",
           "text1637": "Zijnde elck bert anderhalven cubitus breet, vers 16. Soo dat hier uyt af te nemen is, dat de lengte van den heelen Tabernakel geweest is xxx cubiten.",
-          "text2026": "berderen zijn: Zijnde elk berd anderhalve el breed, vers 16 . Zodat hieruit af te nemen is dat de lengte van de heel tabernakel geweest is dertig ellen. Exodus 26:16 : De lengte van een berd zal tien ellen zijn, en een el en een halve el zal de breedte van elk berd zijn."
+          "text2026": "berderen zijn: Zijnde elk berd anderhalve el breed, vers 16 . Zodat hieruit af te nemen is dat de lengte van de hele tabernakel geweest is dertig ellen. Exodus 26:16 : De lengte van een berd zal tien ellen zijn, en een el en een halve el zal de breedte van elk berd zijn."
         },
         {
           "marker": "24",
@@ -9512,59 +9393,42 @@
           "tekst": "noordzijde",
           "voorkomen": 1,
           "strongs": [
-            "H6285"
-          ],
-          "bronwoorden": [
-            "לִ/פְאַ֣ת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:20",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6285",
             "H6828"
           ],
+          "morfologie": [
+            "HR/Ncfsc",
+            "HNcfsa"
+          ],
           "bronwoorden": [
+            "לִ/פְאַ֣ת",
             "צָפ֑וֹן"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:20",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              4,
               3
             ]
-          },
-          "anker": "noordzijde",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "twintig",
@@ -10554,7 +10418,7 @@
           "type": "explanatory",
           "textSV1888": "tweelingen samengevoegd zijn: De zin is: zij zullen tegelijk vast zijn aan de berderen ter zijde en aan het einde des tabernakels, dezelve alzo aan elkander hechtende, of vastmakende.",
           "text1637": "De sin is, sy sullen te gelijcke vaste zijn aen de berderen ter zyden ende aen het eynde des Tabernakels, de selve alsoo aen malkanderen hechtende, ofte vaste makende.",
-          "text2026": "tweelingen samengevoegd zijn: De zin is: zij zullen tegelijk vast zijn aan de berderen ter zijde en aan het einde van het tabernakel, dezelfde zo aan elkaar hechtende, of vastmakende."
+          "text2026": "tweelingen samengevoegd zijn: De zin is: zij zullen tegelijk vast zijn aan de berderen ter zijde en aan het einde van het tabernakel, die zo aan elkaar hechtende, of vastmakende."
         },
         {
           "marker": "28",
@@ -10816,10 +10680,13 @@
           }
         },
         {
-          "tekst": "dezelfde",
-          "voorkomen": 1,
+          "tekst": "tweelingen",
+          "voorkomen": 2,
           "strongs": [
             "H8535"
+          ],
+          "morfologie": [
+            "HAampa"
           ],
           "bronwoorden": [
             "תַמִּים֙"
@@ -10830,13 +10697,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:24",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]
@@ -11423,59 +11294,42 @@
           "tekst": "zestien",
           "voorkomen": 1,
           "strongs": [
-            "H8337"
-          ],
-          "bronwoorden": [
-            "שִׁשָּׁ֥ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:25",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 2,
-          "strongs": [
+            "H8337",
             "H6240"
           ],
+          "morfologie": [
+            "HAcmsa",
+            "HAcmsa"
+          ],
           "bronwoorden": [
+            "שִׁשָּׁ֥ה",
             "עָשָׂ֖ר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:25",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              3,
               6
             ]
-          },
-          "anker": "voetstukken",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "voetstukken",
@@ -11921,59 +11775,42 @@
           "tekst": "sittimhout",
           "voorkomen": 1,
           "strongs": [
-            "H6086"
-          ],
-          "bronwoorden": [
-            "עֲצֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:26",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6086",
             "H7848"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HNcfpa"
+          ],
           "bronwoorden": [
+            "עֲצֵ֣י",
             "שִׁטִּ֑ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:26",
+            "grondindices": [
+              2,
+              3
+            ],
             "bronindices": [
+              4,
               3
             ]
-          },
-          "anker": "sittimhout",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "vijf",
@@ -13701,7 +13538,7 @@
           "type": "explanatory",
           "textSV1888": "een voorhang maken: Dit voorhangsel was inplaats van een scheidsel, of scheidsmuur, tussen het heilige en heilige der heiligen, waar alleen de hogepriester eenmaal des jaars mocht ingaan; en dit is het voorhangsel, hetwelk de apostel, Hebr. 9:3 , noemt het tweede voorhangsel. Er was een ander voorhangsel aan de deur van het huis; zie ook Lev. 4:6 . Hebreeën 9:3 : Maar achter het tweede voorhangsel was de tabernakel, genaamd het heilige der heiligen; Leviticus 4:6 : En de priester zal zijn vinger in dat bloed dopen; en van dat bloed zal hij zevenmaal sprengen voor het aangezicht des HEEREN, voor den voorhang van het heilige.",
           "text1637": "Desen voorhanck was in plaetse van een scheydsel, ofte scheyd muer, tusschen het heylige ende ’t heylige der heyligen, daer alleen de Hooge-priester eens des jaers mochte ingaen, ende dit is dien voor-hanck welcken de Apostel Hebr. 9.3. noemt den tweeden voorhanck: Daer was eenen anderen voorhanck aen de deure des huyses. Siet oock Lev. 4.6.",
-          "text2026": "een voorhang maken: Dit voorhangsel was inplaats van een scheidsel, of scheidsmuur, tussen het heilige en heilige van de heiligen, waar alleen de hogepriester eenmaal van het jaar mocht ingaan; en dit is het voorhangsel, dat de apostel, Hebr. 9:3 , noemt het tweede voorhangsel. Er was een ander voorhangsel aan de deur van het huis; zie ook Lev. 4:6 . Hebreeën 9:3 : Maar achter het tweede voorhangsel was de tabernakel, genaamd het heilige van de heiligen; Leviticus 4:6 : En de priester zal zijn vinger in dat bloed dopen; en van dat bloed zal hij zevenmaal sprengen voor het aangezicht van JAHWEH, voor de voorhang van het heilige."
+          "text2026": "een voorhang maken: Dit voorhangsel was inplaats van een scheidsel, of scheidsmuur, tussen het heilige en heilige van de heiligen, waar alleen de hogepriester eenmaal per jaar mocht ingaan; en dit is het voorhangsel, dat de apostel, Hebr. 9:3 , noemt het tweede voorhangsel. Er was een ander voorhangsel aan de deur van het huis; zie ook Lev. 4:6 . Hebreeën 9:3 : Maar achter het tweede voorhangsel was de tabernakel, genaamd het heilige van de heiligen; Leviticus 4:6 : En de priester zal zijn vinger in dat bloed dopen; en van dat bloed zal hij zevenmaal sprengen voor het aangezicht van JAHWEH, voor de voorhang van het heilige."
         },
         {
           "marker": "34",
@@ -13915,59 +13752,42 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8438"
-          ],
-          "bronwoorden": [
-            "וְ/תוֹלַ֥עַת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:31",
-            "bronindices": [
-              4
-            ]
-          },
-          "anker": "scharlaken",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
-        },
-        {
           "tekst": "scharlaken",
           "voorkomen": 1,
           "strongs": [
+            "H8438",
             "H8144"
           ],
+          "morfologie": [
+            "HC/Ncfsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "וְ/תוֹלַ֥עַת",
             "שָׁנִ֖י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:31",
+            "grondindices": [
+              4,
+              5
+            ],
             "bronindices": [
+              4,
               5
             ]
           }
@@ -14663,7 +14483,7 @@
           "type": "explanatory",
           "textSV1888": "onder de haakjes hangen: Zie daarvan vers 6 . Exodus 26:6 : Gij zult ook vijftig gouden haakjes maken, en zult de gordijnen samenvoegen, de ene aan de andere, met deze haakjes, opdat het een tabernakel zij.",
           "text1637": "Waer van vers 6.",
-          "text2026": "onder de haakjes hangen: Zie daarvan vers 6 . Exodus 26:6 : U zult ook vijftig gouden haakjes maken, en zult de gordijnen samenvoegen, de één aan de andere, met deze haakjes, opdat het een tabernakel zij."
+          "text2026": "onder de haakjes hangen: Zie daarvan vers 6 . Exodus 26:6 : U zult ook vijftig gouden haakjes maken, en zult de gordijnen samenvoegen, de ene aan de andere, met deze haakjes, opdat het een tabernakel zij."
         },
         {
           "marker": "39",
@@ -15671,7 +15491,7 @@
           "type": "explanatory",
           "textSV1888": "De tafel nu: Versta, de tafel waarop de toonbroden lagen.",
           "text1637": "Verstaet de tafel daer de toon-brooden op lagen.",
-          "text2026": "De tafel nu: Versta, de tafel waarop de toonbroden lage."
+          "text2026": "De tafel nu: Versta, de tafel waarop de toonbroden lagen."
         },
         {
           "marker": "44",
@@ -16248,59 +16068,42 @@
           "tekst": "noordzijde",
           "voorkomen": 1,
           "strongs": [
-            "H6763"
-          ],
-          "bronwoorden": [
-            "צֶ֥לַע"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:35",
-            "bronindices": [
-              17
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6763",
             "H6828"
           ],
+          "morfologie": [
+            "HNcbsc",
+            "HNcfsa"
+          ],
           "bronwoorden": [
+            "צֶ֥לַע",
             "צָפֽוֹן"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:35",
+            "grondindices": [
+              16,
+              17
+            ],
             "bronindices": [
+              17,
               7
             ]
-          },
-          "anker": "noordzijde",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         }
       ]
     },
@@ -16566,59 +16369,42 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8438"
-          ],
-          "bronwoorden": [
-            "וְ/תוֹלַ֥עַת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 26:36",
-            "bronindices": [
-              7
-            ]
-          },
-          "anker": "scharlaken",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
-        },
-        {
           "tekst": "scharlaken",
           "voorkomen": 1,
           "strongs": [
+            "H8438",
             "H8144"
           ],
+          "morfologie": [
+            "HC/Ncfsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "וְ/תוֹלַ֥עַת",
             "שָׁנִ֖י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 26:36",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              7,
               8
             ]
           }
@@ -16744,7 +16530,7 @@
           "type": "explanatory",
           "textSV1888": "die met goud overtrekken: Hij wil niet zeggen dat men den gehelen pilaar met goud zou overtrekken, maar alleen de knopen en randen; Exod. 36:38 . Exodus 36:38 : En de vijf pilaren daarvan, en hun haken; en hij overtrok hun hoofden en derzelver banden met goud; en hun vijf voeten waren van koper.",
           "text1637": "Hy en wil niet seggen, dat men de geheele pilaren met gout soude overtrecken, maer alleen de knoopen ende randen. Exod. 36.38.",
-          "text2026": "die met goud overtrekken: Hij wil niet zeggen dat men de heel pilaar met goud zou overtrekken, maar alleen de knopen en randen; Ex. 36:38 . Exodus 36:38 : En de vijf pilaren daarvan, en hun haken; en hij overtrok hun hoofden en derzelver banden met goud; en hun vijf voeten waren van koper."
+          "text2026": "die met goud overtrekken: Hij wil niet zeggen dat men de hele pilaar met goud zou overtrekken, maar alleen de knopen en randen; Ex. 36:38 . Exodus 36:38 : En de vijf pilaren daarvan, en hun haken; en hij overtrok hun hoofden en derzelver banden met goud; en hun vijf voeten waren van koper."
         }
       ],
       "grondtekst": [

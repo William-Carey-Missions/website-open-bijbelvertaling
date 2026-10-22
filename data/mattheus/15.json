@@ -210,10 +210,16 @@
           }
         },
         {
-          "tekst": "enige",
+          "tekst": "die",
           "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NPM"
           ],
           "bronwoorden": [
             "οι"
@@ -224,17 +230,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:1",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -1613,10 +1620,18 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -1627,17 +1642,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:3",
-            "bronindices": [
+            "grondindices": [
               12
             ],
-            "grondindices": [
+            "bronindices": [
               12
             ]
           }
@@ -1816,7 +1832,7 @@
           "type": "explanatory",
           "textSV1888": "Eren betekent niet alleen uiterlijke eerbied tonen, maar ook allerlei hulp en bijstand. 1 Tim. 5:3 . 1 Timotheüs 5:3 : Eer de weduwen, die waarlijk weduwen zijn.",
           "text1637": "Eere beteeckent niet alleen uyterlicke eerbiedinge, maer oock allerley hulpe ende bystant. 1.Tim. 5.3. 17.",
-          "text2026": "Eren betekent niet alleen uiterlijke eerbied tonen, maar ook allerlei hulp en bijstand. 1 Tim. 5:3 . 1 Timotheüs 5:3 : Voordat de weduwen, die waarlijk weduwen zijn."
+          "text2026": "Eren betekent niet alleen uiterlijke eerbied tonen, maar ook allerlei hulp en bijstand. 1 Tim. 5:3 . 1 Timotheüs 5:3 : Eer de weduwen, die waarlijk weduwen zijn."
         },
         {
           "marker": "c",
@@ -1979,8 +1995,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -1991,24 +2015,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:4",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "Want",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "Want",
@@ -3339,11 +3360,19 @@
           }
         },
         {
-          "tekst": "geen geval",
+          "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
             "G3756",
             "G3361"
+          ],
+          "lemma_strongs": [
+            "G3756",
+            "G3361"
+          ],
+          "morfologie": [
+            "PRT-N",
+            "PRT-N"
           ],
           "bronwoorden": [
             "ου",
@@ -3357,18 +3386,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:5",
-            "bronindices": [
+            "grondindices": [
               18,
               19
             ],
-            "grondindices": [
+            "bronindices": [
               18,
               19
             ]
@@ -4042,7 +4072,7 @@
           "type": "explanatory",
           "textSV1888": "Wel heeft Jesaja: Dat is, wel past op u hetgeen Jesaja ook eertijds gezegd heeft tot de Joden van zijn tijd (zie Jesaja 29:13 ). Jesaja 29:13 : Want de Heere heeft gezegd: Daarom dat dit volk tot Mij nadert met zijn mond, en zij Mij met hun lippen eren, doch hun hart verre van Mij doen; en hun vreze, waarmede zij Mij vrezen, mensengeboden zijn, die hun geleerd zijn;",
           "text1637": "D. Wel past op u het gene Iesaias oock eertijts gesegt heeft tot de Ioden van sijnen tijt.",
-          "text2026": "Wel heeft Jesaja: Dat is, wel past op u wat Jesaja ook eertijds gezegd heeft tot de Joden van zijn tijd (zie Jesaja 29:13 ). Jesaja 29:13 : Want de Heer heeft gezegd: Daarom dit volk tot Mij nadert met zijn mond, en zij Mij met hun lippen eren, maar hun hart verre van Mij doen; en hun vreze, waarmee zij Mij vrezen, mensengeboden zijn, die hun geleerd zijn;"
+          "text2026": "Wel heeft Jesaja: Dat is, wel past op u wat Jesaja ook eertijds gezegd heeft tot de Joden van zijn tijd (zie Jesaja 29:13 ). Jesaja 29:13 : Want de Heer heeft gezegd: Daarom dat dit volk tot Mij nadert met zijn mond, en zij Mij met hun lippen eren, maar hun hart verre van Mij doen; en hun vreze, waarmee zij Mij vrezen, mensengeboden zijn, die hun geleerd zijn;"
         }
       ],
       "grondtekst": [
@@ -4880,8 +4910,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "hart",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSF"
           ],
           "bronwoorden": [
             "η"
@@ -4892,24 +4930,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:8",
-            "bronindices": [
-              13
-            ],
             "grondindices": [
               13
+            ],
+            "bronindices": [
+              13
             ]
-          },
-          "anker": "maar",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "maar",
@@ -5843,14 +5878,14 @@
           "type": "explanatory",
           "textSV1888": "ontreinigt den mens niet: Grieks, maakt gemeen; dat is ontheiligt. Zie Hand. 10:14 , Christus spreekt hier naar de mening der Farizeën van die onreinheid, die ontstaan zou uit het nemen der spijs met ongewassen handen. Handelingen 10:14 : Maar Petrus zeide: Geenszins, Heere! want ik heb nooit gegeten iets, dat gemeen of onrein was.",
           "text1637": "Gr. maeckt gemeyn, D. ontheylicht. siet Act. 10.14. Christus spreeckt hier na de meeninge der Phariseen, van die onreynicheyt die ontstaen soude uyt het nemen der spijse met ongewasschen handen.",
-          "text2026": "ontreinigt de mens niet: Grieks, maakt gemeen; dat is ontheiligt. Zie Hand. 10:14 , Christus spreekt hier naar de mening van de Farizeën van die onreinheid, die ontstaan zou uit het nemen van de voedsel met ongewassen handen. Handelingen 10:14 : Maar Petrus zei: In geen geval, Heer! want ik heb nooit gegeten iets, dat gemeen of onrein was."
+          "text2026": "ontreinigt de mens niet: Grieks, maakt gemeen; dat is ontheiligt. Zie Hand. 10:14 , Christus spreekt hier naar de mening van de Farizeën van die onreinheid, die ontstaan zou uit het nemen van het voedsel met ongewassen handen. Handelingen 10:14 : Maar Petrus zei: In geen geval, Heer! want ik heb nooit gegeten iets, dat gemeen of onrein was."
         },
         {
           "marker": "10",
           "type": "explanatory",
           "textSV1888": "Namelijk voortkomende uit een onrein hart, gelijk Christus hierna verklaart vers 18 , 15:19 . Mattheüs 15:18 : Maar die dingen, die ten monde uitgaan, komen voort uit het hart, en dezelve ontreinigen den mens. Mattheüs 15:19 : Want uit het hart komen voort boze bedenkingen, doodslagen, overspelen, hoererijen, dieverijen, valse getuigenissen, lasteringen.",
           "text1637": "N. voortkomende uyt een onreyn herte, gelijck Christus hier na verklaert versen 18, 19.",
-          "text2026": "Namelijk voortkomende uit een onrein hart, gelijk Christus hierna verklaart vers 18 , 15:19 . Mattheüs 15:18 : Maar die dingen, die in de mond uitgaan, komen voort uit het hart, en dezelfde ontreinigen de mens. Mattheüs 15:19 : Want uit het hart komen voort boze bedenkingen, doodslagen, overspelen, hoererijen, dieverijen, valse getuigenissen, lasteringen."
+          "text2026": "Namelijk voortkomende uit een onrein hart, gelijk Christus hierna verklaart vers 18 , 15:19 . Mattheüs 15:18 : Maar die dingen, die uit de mond uitgaan, komen voort uit het hart, en dezelfde ontreinigen de mens. Mattheüs 15:19 : Want uit het hart komen voort boze bedenkingen, doodslagen, overspelen, hoererijen, dieverijen, valse getuigenissen, lasteringen."
         }
       ],
       "grondtekst": [
@@ -6333,34 +6368,75 @@
           "tekst": "uitgaat",
           "voorkomen": 1,
           "strongs": [
-            "G1607",
-            "G1537"
+            "G1607"
+          ],
+          "lemma_strongs": [
+            "G1607"
+          ],
+          "morfologie": [
+            "V-PNP-NSN"
           ],
           "bronwoorden": [
-            "εκπορευομενον",
-            "εκ"
+            "εκπορευομενον"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5740"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:11",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
-              11,
+              11
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 2,
+          "strongs": [
+            "G1537"
+          ],
+          "lemma_strongs": [
+            "G1537"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εκ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
+            "referentie": "MAT 15:11",
+            "grondindices": [
               12
             ],
-            "grondindices": [
-              11,
+            "bronindices": [
               12
             ]
           }
@@ -7098,10 +7174,16 @@
           }
         },
         {
-          "tekst": "aanstoot hebben genomen",
+          "tekst": "aanstoot",
           "voorkomen": 1,
           "strongs": [
             "G4624"
+          ],
+          "lemma_strongs": [
+            "G4624"
+          ],
+          "morfologie": [
+            "V-API-3P"
           ],
           "bronwoorden": [
             "εσκανδαλισθησαν"
@@ -7112,17 +7194,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5681"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:12",
-            "bronindices": [
+            "grondindices": [
               14
             ],
-            "grondindices": [
+            "bronindices": [
               14
             ]
           }
@@ -8851,8 +8937,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -8863,24 +8957,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:16",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "Maar",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "Maar",
@@ -9949,34 +10040,75 @@
           "tekst": "uitgaan",
           "voorkomen": 1,
           "strongs": [
-            "G1607",
-            "G1537"
+            "G1607"
+          ],
+          "lemma_strongs": [
+            "G1607"
+          ],
+          "morfologie": [
+            "V-PNP-NPN"
           ],
           "bronwoorden": [
-            "εκπορευομενα",
-            "εκ"
+            "εκπορευομενα"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5740"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:18",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "G1537"
+          ],
+          "lemma_strongs": [
+            "G1537"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εκ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
+            "referentie": "MAT 15:18",
+            "grondindices": [
               3
             ],
-            "grondindices": [
-              2,
+            "bronindices": [
               3
             ]
           }
@@ -10792,7 +10924,7 @@
           "type": "explanatory",
           "textSV1888": "ongewassen handen: Christus bestraft hier niet de burgelijke eerbaarheid in het wassen der handen voor het eten, maar het bijgeloof der Farizeën, die daarin heiligheid en godsdienstigheid stelden.",
           "text1637": "Christus en bestraft hier niet de burgerlicke eerbaerheyt in’t wasschen der handen voor het eten, maer de superstitie der Phariseen, die daer in heylicheyt ende Godts-diensticheyt stelden.",
-          "text2026": "ongewassen handen: Christus bestraft hier niet de burgelijke eerbaarheid in het groeien van de handen voor het eten, maar het bijgeloof van de Farizeën, die daarin heiligheid en godsdienstigheid stelden."
+          "text2026": "ongewassen handen: Christus bestraft hier niet de burgerlijke eerbaarheid in het wassen van de handen voor het eten, maar het bijgeloof van de Farizeën, die daarin heiligheid en godsdienstigheid stelden."
         }
       ],
       "grondtekst": [
@@ -17153,10 +17285,18 @@
           }
         },
         {
-          "tekst": "van",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "Galilea",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSF"
           ],
           "bronwoorden": [
             "της"
@@ -17167,17 +17307,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:29",
-            "bronindices": [
+            "grondindices": [
               9
             ],
-            "grondindices": [
+            "bronindices": [
               9
             ]
           }
@@ -18254,10 +18395,18 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -18268,17 +18417,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:30",
-            "bronindices": [
+            "grondindices": [
               21
             ],
-            "grondindices": [
+            "bronindices": [
               21
             ]
           }
@@ -19388,8 +19538,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -19400,24 +19558,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:32",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -19480,10 +19635,16 @@
           }
         },
         {
-          "tekst": "tot Zich geroepen hebbende",
+          "tekst": "geroepen",
           "voorkomen": 1,
           "strongs": [
             "G4341"
+          ],
+          "lemma_strongs": [
+            "G4341"
+          ],
+          "morfologie": [
+            "V-ADP-NSM"
           ],
           "bronwoorden": [
             "προσκαλεσαμενος"
@@ -19494,17 +19655,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5666"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:32",
-            "bronindices": [
+            "grondindices": [
               3
             ],
-            "grondindices": [
+            "bronindices": [
               3
             ]
           }
@@ -19634,10 +19799,16 @@
           }
         },
         {
-          "tekst": "innerlijk met ontferming bewogen",
+          "tekst": "bewogen",
           "voorkomen": 1,
           "strongs": [
             "G4697"
+          ],
+          "lemma_strongs": [
+            "G4697"
+          ],
+          "morfologie": [
+            "V-PNI-1S"
           ],
           "bronwoorden": [
             "σπλαγχνιζομαι"
@@ -19648,17 +19819,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5736"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:32",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -20991,10 +21166,16 @@
           }
         },
         {
-          "tekst": "zulk een grote",
+          "tekst": "grote",
           "voorkomen": 1,
           "strongs": [
             "G5118"
+          ],
+          "lemma_strongs": [
+            "G5118"
+          ],
+          "morfologie": [
+            "D-ASM"
           ],
           "bronwoorden": [
             "τοσουτον"
@@ -21005,17 +21186,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:33",
-            "bronindices": [
+            "grondindices": [
               15
             ],
-            "grondindices": [
+            "bronindices": [
               15
             ]
           }
@@ -23084,10 +23266,16 @@
           }
         },
         {
-          "tekst": "stukken brood",
+          "tekst": "stukken",
           "voorkomen": 1,
           "strongs": [
             "G2801"
+          ],
+          "lemma_strongs": [
+            "G2801"
+          ],
+          "morfologie": [
+            "N-GPN"
           ],
           "bronwoorden": [
             "κλασματων"
@@ -23098,17 +23286,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:37",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -23730,10 +23919,16 @@
           }
         },
         {
-          "tekst": "van Zich gelaten hebbende",
+          "tekst": "gelaten",
           "voorkomen": 1,
           "strongs": [
             "G630"
+          ],
+          "lemma_strongs": [
+            "G630"
+          ],
+          "morfologie": [
+            "V-AAP-NSM"
           ],
           "bronwoorden": [
             "απολυσας"
@@ -23744,17 +23939,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5660"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "8757DE02BF3ED6454729F4BA9248E11CC2E7EA0B52F2B3F990FC2F897F22C2B4",
             "referentie": "MAT 15:39",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
+            "bronindices": [
               1
             ]
           }

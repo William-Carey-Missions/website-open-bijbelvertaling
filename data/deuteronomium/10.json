@@ -12,7 +12,7 @@
           "type": "explanatory",
           "textSV1888": "Ter zelver tijd: Wanneer des HEEREN toorn, na mijn voorbede, die in het einde Deut. 9 verhaald is, nu gestild was.",
           "text1637": "Als des HEEREN toorn, na mijne voorbede, die in ’t eynde des voorgaenden cap. verhaelt is, nu gestilt was.",
-          "text2026": "Ter zelver tijd: Wanneer van JAHWEH toorn, na mijn voorbede, die in het einde Deut. 9 verhaald is, nu gestild was."
+          "text2026": "Ter zelver tijd: Wanneer de toorn van JAHWEH, na mijn voorbede, die in het einde Deut. 9 verhaald is, nu gestild was."
         },
         {
           "marker": "a",
@@ -1008,10 +1008,13 @@
           }
         },
         {
-          "tekst": "ze leggen",
+          "tekst": "leggen",
           "voorkomen": 1,
           "strongs": [
             "H7760"
+          ],
+          "morfologie": [
+            "HC/Vqq2ms/Sp3mp"
           ],
           "bronwoorden": [
             "וְ/שַׂמְתָּ֖/ם"
@@ -1022,13 +1025,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:2",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -2046,10 +2053,13 @@
           }
         },
         {
-          "tekst": "uit het midden",
+          "tekst": "midden",
           "voorkomen": 1,
           "strongs": [
             "H8432"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/תּ֥וֹךְ"
@@ -2060,13 +2070,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:4",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -2154,10 +2168,13 @@
           }
         },
         {
-          "tekst": "gaf ze",
+          "tekst": "gaf",
           "voorkomen": 1,
           "strongs": [
             "H5414"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms/Sp3mp"
           ],
           "bronwoorden": [
             "וַ/יִּתְּנֵ֥/ם"
@@ -2168,13 +2185,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:4",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               18
             ]
@@ -2900,52 +2921,39 @@
           "tekst": "Israëlieten",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "וּ/בְנֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 10:6",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
-          "tekst": "Israëlieten",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H3478"
           ],
+          "morfologie": [
+            "HC/Ncmpc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "וּ/בְנֵ֣י",
             "יִשְׂרָאֵ֗ל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:6",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              0,
               1
             ]
           }
@@ -2978,47 +2986,79 @@
           }
         },
         {
-          "tekst": "Beëroth Bene-Jaäkan",
+          "tekst": "Beëroth",
           "voorkomen": 1,
           "strongs": [
-            "H885",
-            "H885",
             "H885"
           ],
+          "morfologie": [
+            "HR/Np"
+          ],
           "bronwoorden": [
-            "מִ/בְּאֵרֹ֥ת",
-            "בְּנֵי",
-            "יַעֲקָ֖ן"
+            "מִ/בְּאֵרֹ֥ת"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:6",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "Bene-Jaäkan",
+          "voorkomen": 1,
+          "strongs": [
+            "H885",
+            "H885"
+          ],
+          "morfologie": [
+            "HNp",
+            "HNp"
+          ],
+          "bronwoorden": [
+            "בְּנֵי",
+            "יַעֲקָ֖ן"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
+            "referentie": "DEU 10:6",
+            "grondindices": [
+              4,
+              5
+            ],
+            "bronindices": [
               4,
               5
             ]
-          },
-          "gids_strongs": [
-            "H881",
-            "H1142",
-            "H1142"
-          ],
-          "toelichting": "De samengestelde plaatsnaam staat in drie grondtokens; de Nederlandse naam dekt alle drie."
+          }
         },
         {
           "tekst": "Mosera",
@@ -4355,7 +4395,7 @@
           "type": "explanatory",
           "textSV1888": "de HEERE is zijn Erfdeel: Dat is, hetgeen de HEERE van de andere stammen geofferd wordt, daarvan zullen zij leven, volgens des Heeren ordinantie daarvan gegeven. Zie Num. 18:20 , 18:21 , 18:22 , 18:23 , enz. Numeri 18:20 : Ook zeide de HEERE tot Aäron: Gij zult in hun land niet erven, en gij zult geen deel in het midden van henlieden hebben; Ik ben uw deel en uw erfenis, in het midden van de kinderen Israëls. Numeri 18:21 : En zie, aan de kinderen van Levi heb Ik alle tienden in Israël ter erfenis gegeven, voor hun dienst, dien zij bedienen, den dienst van de tent der samenkomst. Numeri 18:22 : En de kinderen Israëls zullen niet meer naderen tot de tent der samenkomst, om zonde te dragen en te sterven. Numeri 18:23 : Maar de Levieten, die zullen bedienen den dienst van de tent der samenkomst, en die zullen hun ongerechtigheid dragen; het zal een eeuwige inzetting zijn voor uw geslachten; en in het midden van de kinderen Israëls zullen zij geen erfenis erven.",
           "text1637": "D.´t gene den HEERE van de andere stammen geoffert wort, daer van sullen sy leven, volgens des Heeren ordinantie daer van gegeven. siet Num. 18.20, 21, 22, 23, etc.",
-          "text2026": "JAHWEH is zijn Erfdeel: Dat is, wat JAHWEH van de andere stammen geofferd wordt, daarvan zullen zij leven, volgens van de Heern ordinantie daarvan gegeven. Zie Num. 18:20 , 18:21 , 18:22 , 18:23 , enz. Numeri 18:20 : Ook zei JAHWEH tot Aäron: U zult in hun land niet erven, en u zult geen deel in het midden van hen hebben; Ik ben uw deel en uw erfenis, in het midden van de kinderen van Israël. Numeri 18:21 : En zie, aan de kinderen van Levi heb Ik alle tienden in Israël ter erfenis gegeven, voor hun dienst, die zij bedienen, de dienst van de tent van de samenkomst. Numeri 18:22 : En de kinderen van Israël zullen niet meer naderen tot de tent van de samenkomst, om zonde te dragen en te sterven. Numeri 18:23 : Maar de Levieten, die zullen bedienen de dienst van de tent van de samenkomst, en die zullen hun ongerechtigheid dragen; het zal een eeuwige inzetting zijn voor uw geslachten; en in het midden van de kinderen van Israël zullen zij geen erfenis erven."
+          "text2026": "JAHWEH is zijn Erfdeel: Dat is, wat JAHWEH van de andere stammen geofferd wordt, daarvan zullen zij leven, volgens de ordinantie van de Heer daarvan gegeven. Zie Num. 18:20 , 18:21 , 18:22 , 18:23 , enz. Numeri 18:20 : Ook zei JAHWEH tot Aäron: U zult in hun land niet erven, en u zult geen deel in het midden van hen hebben; Ik ben uw deel en uw erfenis, in het midden van de kinderen van Israël. Numeri 18:21 : En zie, aan de kinderen van Levi heb Ik alle tienden in Israël ter erfenis gegeven, voor hun dienst, die zij bedienen, de dienst van de tent van de samenkomst. Numeri 18:22 : En de kinderen van Israël zullen niet meer naderen tot de tent van de samenkomst, om zonde te dragen en te sterven. Numeri 18:23 : Maar de Levieten, die zullen bedienen de dienst van de tent van de samenkomst, en die zullen hun ongerechtigheid dragen; het zal een eeuwige inzetting zijn voor uw geslachten; en in het midden van de kinderen van Israël zullen zij geen erfenis erven."
         }
       ],
       "grondtekst": [
@@ -6283,10 +6323,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Nu dan",
+          "tekst": "Nu",
           "voorkomen": 1,
           "strongs": [
             "H6258"
+          ],
+          "morfologie": [
+            "HC/D"
           ],
           "bronwoorden": [
             "וְ/עַתָּה֙"
@@ -6297,13 +6340,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:12",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -6473,10 +6520,14 @@
         },
         {
           "tekst": "dan",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H3588",
             "H518"
+          ],
+          "morfologie": [
+            "HC",
+            "HC"
           ],
           "bronwoorden": [
             "כִּ֣י",
@@ -6490,19 +6541,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:12",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
               7,
               8
             ]
-          },
-          "toelichting": "De vaste Hebreeuwse verbinding ki im ('maar, behalve') wordt met het ene Nederlandse woord 'dan' weergegeven; beide grondwoorden staan daarom in één koppeling."
+          }
         },
         {
           "tekst": "vrezen",
@@ -7725,7 +7780,7 @@
           "type": "explanatory",
           "textSV1888": "Alleenlijk heeft de HEERE: Mozes wil zeggen dat er geen andere oorzaak is van de verkiezing Israëls en van hun vaderen, dan het enkele vrije welbehagen en de loutere genade Gods; want hem waren al zijn schepselen, ten aanzien der schepping, even na; Hij had niemand van doen en het stond hem vrij, Israël en zijn vaderen in hun zondigen staat, als andere volken, te laten, of te verkiezen en te begenadigen wien of welk volk Hij wilde. VergelijK Exod. 33:19 ; boven, Deut. 9:4 , 9:5 , 9:6 , enz; Joz. 24:2 , 24:3 ; Matth. 11:26 ; Hand. 13:17 , en Hand. 14:16 ; Rom. 9:15 , en Rom. 11:35 ; Ef. 1:5 , 1:9 , 1:11 , enz. Exodus 33:19 : Doch Hij zeide: Ik zal al Mijn goedigheid voorbij uw aangezicht laten gaan, en zal den Naam des HEEREN uitroepen voor uw aangezicht; maar Ik zal genadig zijn, wien Ik zal genadig zijn, en Ik zal Mij ontfermen, over wien Ik Mij ontfermen zal. Deuteronomium 9:4 : Wanneer hen nu de HEERE, uw God, voor uw aangezicht zal hebben uitgestoten, zo spreek niet in uw hart, zeggende: De HEERE heeft mij om mijn gerechtigheid ingebracht, om dit land te erven; want, om de goddeloosheid dezer volken, verdrijft hen de HEERE voor uw aangezicht uit de bezitting. Deuteronomium 9:5 : Niet om uw gerechtigheid, noch om de oprechtheid uws harten, komt gij er henen in, om hun land te erven; maar om de goddeloosheid dezer volken, verdrijft hen de HEERE, uw God, voor uw aangezicht uit de bezitting: en om het woord te bevestigen, dat de HEERE, uw God, aan uw vaderen, Abraham, Izak en Jakob, gezworen heeft. Deuteronomium 9:6 : Weet dan, dat u de HEERE, uw God, niet om uw gerechtigheid, ditzelve goede land geeft, om dat te erven; want gij zijt een hardnekkig volk. Jozua 24:2 : Toen zeide Jozua tot het ganse volk: Alzo zegt de HEERE, de God Israëls: Over gene zijde der rivier hebben uw vaders van ouds gewoond, [namelijk] Terah, de vader van Abraham, en de vader van Nahor; en zij hebben andere goden gediend. Jozua 24:3 : Toen nam Ik uw vader Abraham van gene zijde der rivier, en deed hem wandelen door het ganse land Kanaän; Ik vermeerderde ook zijn zaad en gaf hem Izak. Mattheüs 11:26 : Ja, Vader! Want alzo is geweest het welbehagen voor U. Handelingen 13:17 : De God van dit volk Israël heeft onze vaderen uitverkoren, en het volk verhoogd, als zij vreemdelingen waren in het land Egypte, en heeft hen met een hogen arm daaruit geleid. Handelingen 14:16 : Welke in de verledene tijden al de heidenen heeft laten wandelen in hun wegen; Romeinen 9:15 : Want Hij zegt tot Mozes: Ik zal Mij ontfermen, diens Ik Mij ontferm, en zal barmhartig zijn, dien Ik barmhartig ben. Romeinen 11:35 : Of wie heeft Hem eerst gegeven, en het zal hem wedervergolden worden? Efeziërs 1:5 : Die ons te voren verordineerd heeft tot aanneming tot kinderen, door Jezus Christus, in Zichzelven, naar het welbehagen van Zijn wil. Efeziërs 1:9 : Ons bekend gemaakt hebbende de verborgenheid van Zijn wil, naar Zijn welbehagen, hetwelk Hij voorgenomen had in Zichzelven. Efeziërs 1:11 : In Hem, in Welken wij ook een erfdeel geworden zijn, wij, die te voren verordineerd waren naar het voornemen Desgenen, Die alle dingen werkt naar den raad van Zijn wil;",
           "text1637": "Mose wil seggen, datter geene andere oorsake is van de verkiesinge Israëls, ende harer vaderen, als het enckel vry welbehagen ende de loutere genade Godes: want hem alle sijne schepselen, ten aensien der scheppinge, even nae waren, hy hadde niemant van doen, ende het stont hem vry, Israël ende hare vaderen in haren sondigen staet, als andere volckeren, te laten, ofte te verkiesen ende te begenadigen, wien, ofte wat volck hy wilde. Verg. Exod. 33.19 ende bov. 9.4, 5, 6, etc. Ios. 24.2, 3. Matth. 11.26. Actor. 13.17. ende 14.16. Rom. 9.15. ende 11.35. Ephes. 1.5, 9, 11, etc.",
-          "text2026": "Alleen heeft JAHWEH: Mozes wil zeggen dat er geen andere oorzaak is van de verkiezing Israëls en van hun vaderen, dan het enkele vrije welbehagen en de loutere genade van God; want hem waren al zijn schepselen, ten aanzien van de schepping, even na; Hij had niemand van doen en het stond hem vrij, Israël en zijn vaderen in hun zondigen staat, als andere volken, te laten, of te verkiezen en te begenadigen wie of welk volk Hij wilde. VergelijK Ex. 33:19 ; boven, Deut. 9:4 , 9:5 , 9:6 , enz; Joz. 24:2 , 24:3 ; Matt. 11:26 ; Hand. 13:17 , en Hand. 14:16 ; Rom. 9:15 , en Rom. 11:35 ; Ef. 1:5 , 1:9 , 1:11 , enz. Exodus 33:19 : Maar Hij zei: Ik zal al Mijn goedigheid voorbij uw aangezicht laten gaan, en zal de Naam van JAHWEH uitroepen voor uw aangezicht; maar Ik zal genadig zijn, wie Ik zal genadig zijn, en Ik zal Mij ontfermen, over wie Ik Mij ontfermen zal. Deuteronomium 9:4 : Wanneer hen nu JAHWEH, uw God, voor uw aangezicht zal hebben uitgestoten, zo spreek niet in uw hart, zeggende: De JAHWEH heeft mij om mijn gerechtigheid ingebracht, om dit land te erven; want, om de goddeloosheid van deze volken, verdrijft hen JAHWEH voor uw aangezicht uit de bezitting. Deuteronomium 9:5 : Niet om uw gerechtigheid, noch om de oprechtheid uws harten, komt u er heen in, om hun land te erven; maar om de goddeloosheid van deze volken, verdrijft hen JAHWEH, uw God, voor uw aangezicht uit de bezitting: en om het woord te bevestigen, dat JAHWEH, uw God, aan uw vaderen, Abraham, Izak en Jakob, gezworen heeft. Deuteronomium 9:6 : Weet dan, dat u JAHWEH, uw God, niet om uw gerechtigheid, ditzelve goede land geeft, om dat te erven; want u bent een hardnekkig volk. Jozua 24:2 : Toen zei Jozua tot het gehele volk: Zo zegt JAHWEH, de God van Israël: Over gene zijde van de rivier hebben uw vaders van ouds gewoond, [namelijk] Terah, de vader van Abraham, en de vader van Nahor; en zij hebben andere goden gediend. Jozua 24:3 : Toen nam Ik uw vader Abraham van gene zijde van de rivier, en deed hem wandelen door het gehele land Kanaän; Ik vermeerderde ook zijn zaad en gaf hem Izak. Mattheüs 11:26 : Ja, Vader! Want zo is geweest het welbehagen voor U. Handelingen 13:17 : De God van dit volk Israël heeft onze vaderen uitverkoren, en het volk verhoogd, als zij vreemdelingen waren in het land Egypte, en heeft hen met een hogen arm daaruit geleid. Handelingen 14:16 : Welke in de vroegere tijden al de heidenen heeft laten wandelen in hun wegen; Romeinen 9:15 : Want Hij zegt tot Mozes: Ik zal Mij ontfermen, diens Ik Mij ontferm, en zal barmhartig zijn, die Ik barmhartig ben. Romeinen 11:35 : Of wie heeft Hem eerst gegeven, en het zal hem wedervergolden worden? Efeziërs 1:5 : Die ons te voren verordineerd heeft tot aanneming tot kinderen, door Jezus Christus, in Zichzelven, naar het welbehagen van Zijn wil. Efeziërs 1:9 : Ons bekend gemaakt hebbende de verborgenheid van Zijn wil, naar Zijn welbehagen, dat Hij voorgenomen had in Zichzelven. Efeziërs 1:11 : In Hem, in Welke wij ook een erfdeel geworden zijn, wij, die te voren verordineerd waren naar het voornemen Van Degene, Die alle dingen werkt naar de raad van Zijn wil;"
+          "text2026": "Alleen heeft JAHWEH: Mozes wil zeggen dat er geen andere oorzaak is van de verkiezing Israëls en van hun vaderen, dan het enkele vrije welbehagen en de loutere genade van God; want hem waren al zijn schepselen, ten aanzien van de schepping, even na; Hij had niemand van doen en het stond hem vrij, Israël en zijn vaderen in hun zondigen staat, als andere volken, te laten, of te verkiezen en te begenadigen wie of welk volk Hij wilde. Vergelijk Ex. 33:19 ; boven, Deut. 9:4 , 9:5 , 9:6 , enz; Joz. 24:2 , 24:3 ; Matt. 11:26 ; Hand. 13:17 , en Hand. 14:16 ; Rom. 9:15 , en Rom. 11:35 ; Ef. 1:5 , 1:9 , 1:11 , enz. Exodus 33:19 : Maar Hij zei: Ik zal al Mijn goedigheid voorbij uw aangezicht laten gaan, en zal de Naam van JAHWEH uitroepen voor uw aangezicht; maar Ik zal genadig zijn, wie Ik zal genadig zijn, en Ik zal Mij ontfermen, over wie Ik Mij ontfermen zal. Deuteronomium 9:4 : Wanneer hen nu JAHWEH, uw God, voor uw aangezicht zal hebben uitgestoten, zo spreek niet in uw hart, zeggende: JAHWEH heeft mij om mijn gerechtigheid ingebracht, om dit land te erven; want, om de goddeloosheid van deze volken, verdrijft hen JAHWEH voor uw aangezicht uit de bezitting. Deuteronomium 9:5 : Niet om uw gerechtigheid, noch om de oprechtheid uws harten, komt u er heen in, om hun land te erven; maar om de goddeloosheid van deze volken, verdrijft hen JAHWEH, uw God, voor uw aangezicht uit de bezitting: en om het woord te bevestigen, dat JAHWEH, uw God, aan uw vaderen, Abraham, Izak en Jakob, gezworen heeft. Deuteronomium 9:6 : Weet dan, dat u JAHWEH, uw God, niet om uw gerechtigheid, ditzelve goede land geeft, om dat te erven; want u bent een hardnekkig volk. Jozua 24:2 : Toen zei Jozua tot het gehele volk: Zo zegt JAHWEH, de God van Israël: Over gene zijde van de rivier hebben uw vaders van ouds gewoond, [namelijk] Terah, de vader van Abraham, en de vader van Nahor; en zij hebben andere goden gediend. Jozua 24:3 : Toen nam Ik uw vader Abraham van gene zijde van de rivier, en deed hem wandelen door het gehele land Kanaän; Ik vermeerderde ook zijn zaad en gaf hem Izak. Mattheüs 11:26 : Ja, Vader! Want zo is geweest het welbehagen voor U. Handelingen 13:17 : De God van dit volk Israël heeft onze vaderen uitverkoren, en het volk verhoogd, als zij vreemdelingen waren in het land Egypte, en heeft hen met een hogen arm daaruit geleid. Handelingen 14:16 : Welke in de vroegere tijden al de heidenen heeft laten wandelen in hun wegen; Romeinen 9:15 : Want Hij zegt tot Mozes: Ik zal Mij ontfermen, diens Ik Mij ontferm, en zal barmhartig zijn, die Ik barmhartig ben. Romeinen 11:35 : Of wie heeft Hem eerst gegeven, en het zal hem wedervergolden worden? Efeziërs 1:5 : Die ons te voren verordineerd heeft tot aanneming tot kinderen, door Jezus Christus, in Zichzelven, naar het welbehagen van Zijn wil. Efeziërs 1:9 : Ons bekend gemaakt hebbende de verborgenheid van Zijn wil, naar Zijn welbehagen, dat Hij voorgenomen had in Zichzelven. Efeziërs 1:11 : In Hem, in Welke wij ook een erfdeel geworden zijn, wij, die te voren verordineerd waren naar het voornemen van Degene, Die alle dingen werkt naar de raad van Zijn wil;"
         }
       ],
       "grondtekst": [
@@ -9725,55 +9780,42 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "בְּ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 10:19",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "בְּ/אֶ֥רֶץ",
             "מִצְרָֽיִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 10:19",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               7
             ]
           }
@@ -10146,7 +10188,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, die u door zijn genade en weldadigheid oorzaak geeft om hem te loven, en des gij u hebt te beroemen, en wiens lof gij steeds in uw hart en mond behoort te voeren. Vergelijk Jer. 17:14 . Jeremia 17:14 : Genees mij, HEERE! zo zal ik genezen worden, behoud mij, zo zal ik behouden worden; want Gij zijt mijn Lof.",
           "text1637": "D. die u door sijne genade ende weldadicheyt oorsake geeft, om hem te loven, ende des ghy u hebt te beroemen, ende dienst lof ghy steets in u herte ende mont behoort te voeren. Verg. Ier. 17.15.",
-          "text2026": "Dat is, die u door zijn genade en weldadigheid oorzaak geeft om hem te loven, en van de u u hebt te beroemen, en wiens lof u steeds in uw hart en mond behoort te voeren. Vergelijk Jer. 17:14 . Jeremia 17:14 : Genees mij, JAHWEH! zo zal ik genezen worden, behoud mij, zo zal ik behouden worden; want U bent mijn Lof."
+          "text2026": "Dat is, die u door zijn genade en weldadigheid oorzaak geeft om hem te loven, en waarop u zich hebt te beroemen, en wiens lof u steeds in uw hart en mond behoort te voeren. Vergelijk Jer. 17:14 . Jeremia 17:14 : Genees mij, JAHWEH! zo zal ik genezen worden, behoud mij, zo zal ik behouden worden; want U bent mijn Lof."
         }
       ],
       "grondtekst": [
@@ -10684,7 +10726,7 @@
           "type": "explanatory",
           "textSV1888": "sterren des hemels in menigte: Zie Gen. 13:16 , en Gen. 15:5 . Genesis 13:16 : En Ik zal uw zaad stellen als het stof der aarde, zodat, indien iemand het stof der aarde zal kunnen tellen, zal ook uw zaad geteld worden. Genesis 15:5 : Toen leidde Hij hem uit naar buiten, en zeide: Zie nu op naar den hemel, en tel de sterren, indien gij ze tellen kunt; en Hij zeide tot hem: Zo zal uw zaad zijn!",
           "text1637": "Siet Genes. 13. op vers 16. ende 15, 5.",
-          "text2026": "sterren van het hemel in menigte: Zie Gen. 13:16 , en Gen. 15:5 . Genesis 13:16 : En Ik zal uw zaad stellen als het stof van de aarde, zodat, als iemand het stof van de aarde zal kunnen tellen, zal ook uw zaad geteld worden. Genesis 15:5 : Toen leidde Hij hem uit naar buiten, en zei: Zie nu op naar de hemel, en tel de sterren, als u ze tellen kunt; en Hij zei tot hem: Zo zal uw zaad zijn!"
+          "text2026": "sterren van de hemel in menigte: Zie Gen. 13:16 , en Gen. 15:5 . Genesis 13:16 : En Ik zal uw zaad stellen als het stof van de aarde, zodat, als iemand het stof van de aarde zal kunnen tellen, zal ook uw zaad geteld worden. Genesis 15:5 : Toen leidde Hij hem uit naar buiten, en zei: Zie nu op naar de hemel, en tel de sterren, als u ze tellen kunt; en Hij zei tot hem: Zo zal uw zaad zijn!"
         }
       ],
       "grondtekst": [

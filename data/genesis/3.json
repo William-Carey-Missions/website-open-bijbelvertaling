@@ -1787,7 +1787,7 @@
           "marker": "9",
           "type": "explanatory",
           "text1637": "Hebr. niet stervende sterven. and. niet sekerlick sterven.",
-          "text2026": "Hebreeuws: stervende sterven. Anders: zeker sterven.",
+          "text2026": "Hebreeuws: niet stervende sterven. Anders: niet zeker sterven.",
           "textSV1888": "9 den dood niet sterven: Hebr. niet stervende sterven. Anders, niet zekerlijk sterven.",
           "noteDiff": [
             {
@@ -3154,10 +3154,13 @@
           }
         },
         {
-          "tekst": "verstandig te maken",
+          "tekst": "verstandig",
           "voorkomen": 1,
           "strongs": [
             "H7919"
+          ],
+          "morfologie": [
+            "HR/Vhc"
           ],
           "bronwoorden": [
             "לְ/הַשְׂכִּ֔יל"
@@ -3168,13 +3171,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:6",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -3713,9 +3720,12 @@
         },
         {
           "tekst": "zij",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H1992"
+          ],
+          "morfologie": [
+            "HPp3mp"
           ],
           "bronwoorden": [
             "הֵ֑ם"
@@ -3726,13 +3736,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:7",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               3
             ]
@@ -3769,52 +3783,39 @@
           "tekst": "vijgeboombladeren",
           "voorkomen": 1,
           "strongs": [
-            "H5929"
-          ],
-          "bronwoorden": [
-            "עֲלֵ֣ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 3:7",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "samen",
-          "voorkomen": 1,
-          "strongs": [
+            "H5929",
             "H8384"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcfsa"
+          ],
           "bronwoorden": [
+            "עֲלֵ֣ה",
             "תְאֵנָ֔ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:7",
+            "grondindices": [
+              8,
+              9
+            ],
             "bronindices": [
+              9,
               8
             ]
           }
@@ -4104,8 +4105,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "stem",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -4116,21 +4122,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:8",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               3
             ]
-          },
-          "anker": "stem",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; in de Nederlandse vertaling niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "stem",
@@ -4945,8 +4951,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "stem",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -4957,21 +4968,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:10",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               4
             ]
-          },
-          "anker": "stem",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; in de Nederlandse vertaling niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "stem",
@@ -5623,13 +5634,13 @@
           }
         },
         {
-          "tekst": "gegeten",
+          "tekst": "eten",
           "voorkomen": 1,
           "strongs": [
             "H398"
           ],
           "bronwoorden": [
-            "אֲכָל"
+            "אָכָֽלְתָּ"
           ],
           "transliteraties": [
             ""
@@ -5645,7 +5656,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:11",
             "bronindices": [
-              6
+              12
             ]
           }
         },
@@ -5677,13 +5688,13 @@
           }
         },
         {
-          "tekst": "eten",
+          "tekst": "gegeten",
           "voorkomen": 1,
           "strongs": [
             "H398"
           ],
           "bronwoorden": [
-            "אָכָֽלְתָּ"
+            "אֲכָל"
           ],
           "transliteraties": [
             ""
@@ -5699,7 +5710,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:11",
             "bronindices": [
-              12
+              6
             ]
           }
         }
@@ -7544,7 +7555,7 @@
           "marker": "27",
           "type": "explanatory",
           "text1637": "Dit zaet is eygentlick alleen de Heere Christus, de eenichgeboren Sone Godes, die uyt de Vrouwe eene maecht zijnde door de werckinge van Godes Geest inde volheyt des tijts moeste geboren worden, om door de verdienste sijnes doots, ende de kracht sijnes Geestes, den Duyvel al sijn gewelt te benemen, ende onder sijne, ende sijner Gemeynte voeten te vertreden. Siet Psalm 110.1. ende Iohan. 12.31. Rom. 16.20. Hebr. 2.14. ende 1.Iohan. 3.8. Dit is de eerste Euangelische belofte des levens, gestelt tegen de eerste voorgaende aensegginge des doots.",
-          "text2026": "Dit zaad is eigenlijk alleen JAHWEH Christus, de eniggeboren Zoon van God, die uit de vrouw — een maagd zijnde — door de kracht van de Heilige Geest mens is geworden om de duivel zijn macht te ontnemen en hen die hij gevangen hield te verlossen. Gal. 4:4. Jes. 7:14. Luk. 1:31, 35.",
+          "text2026": "Dit zaad is eigenlijk alleen de Heere Christus, de eniggeboren Zoon van God, die uit de vrouw — een maagd zijnde — door de kracht van de Heilige Geest mens is geworden om de duivel zijn macht te ontnemen en hen die hij gevangen hield te verlossen. Gal. 4:4. Jes. 7:14. Luk. 1:31, 35.",
           "textSV1888": "27 haar zaad: Dit zaad is eigenlijk alleen de Heere Christus, de eniggeboren Zoon Gods die uit de vrouw, ene maagd zijnde door de werking van Gods Geest, in de volheid des tijds moest geboren worden, om door de verdienste zijns doods en de kracht zijns Geestes den duivel al zijn geweld te benemen, en onder zijne en zijner gemeente voeten te vertreden. Zie Ps. 110:1; Joh. 12:31; Rom. 16:20; Hebr. 2:14; 1 Joh. 3:8. Dit is de eerste Evangelische belofte des levens, gesteld tegen de eerst voorgaande aanzegging des doods. Psalmen 110:1: Een psalm van David. De HEERE heeft tot mijn Heere gesproken: Zit aan Mijn rechterhand, totdat Ik Uw vijanden gezet zal hebben tot een voetbank Uwer voeten. Johannes 12:31: Nu is het oordeel dezer wereld; nu zal de overste dezer wereld buiten geworpen worden. Romeinen 16:20: En de God des vredes zal den satan haast onder uw voeten verpletteren. De genade van onzen Heere Jezus Christus zij met ulieden. Amen. Hebreeën 2:14: Overmits dan de kinderen des vleses en bloeds deelachtig zijn, zo is Hij ook desgelijks derzelve deelachtig geworden, opdat Hij door den dood te niet doen zou dengene, die het geweld des doods had, dat is, den duivel; 1 Johannes 3:8: Die de zonde doet, is uit den duivel; want de duivel zondigt van den beginne. Hiertoe is de Zoon van God geopenbaard, opdat Hij de werken des duivels verbreken zou.",
           "noteDiff": [
             {
@@ -8075,9 +8086,12 @@
         },
         {
           "tekst": "u",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "H859"
+          ],
+          "morfologie": [
+            "HC/Pp2ms"
           ],
           "bronwoorden": [
             "וְ/אַתָּ֖ה"
@@ -8088,13 +8102,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:15",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -8196,7 +8214,7 @@
           "marker": "31",
           "type": "explanatory",
           "text1637": "Hebr. Sonen, welck woort in de H. Schrifture veel gebruyckt wort voor kinderen, dat is, voor sonen ende dochteren. Alsoo Exod. 22.24. Psalm 128.6.",
-          "text2026": "Hebreeuws: zonen (בֵּן), welk woord in de Heilige Schrift veelvuldig gebruikt wordt voor kinderen, dat wil zeggen: voor zonen en dochters. Zo ook in Ex. 21:4, 5.",
+          "text2026": "Hebreeuws: zonen (בֵּן), welk woord in de Heilige Schrift veelvuldig gebruikt wordt voor kinderen, dat wil zeggen: voor zonen en dochters. Zo ook in Ex. 22:24, Ps. 128:6.",
           "textSV1888": "Hebr. zonen, welk woord in de Heilige Schrift veel gebruikt wordt voor kinderen, dat is, voor zonen en dochters ; alzo Exod. 22:24; Ps. 128:6. Exodus 22:24: En Mijn toorn zal ontsteken, en Ik zal ulieden met het zwaard doden; en uw vrouwen zullen weduwen, en uw kinderen zullen wezen worden. Psalmen 128:6: En gij zult uw kindskinderen zien. Vrede over Israël!",
           "noteDiff": [
             {
@@ -9910,8 +9928,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "kruid",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -9922,21 +9945,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:18",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]
-          },
-          "anker": "kruid",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; in de Nederlandse vertaling niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "kruid",
@@ -10670,7 +10693,7 @@
           "marker": "41",
           "type": "explanatory",
           "text1637": "Hebr. alles levenden, D. aller menschen.",
-          "text2026": "Hebreeuws: alles levenden, dat wil zeggen: alle mensen moeder.",
+          "text2026": "Hebreeuws: alles levenden, dat wil zeggen: van alle mensen.",
           "textSV1888": "41 aller levenden: Hebr. alles levenden, dat is, aller mensen.",
           "noteDiff": [
             {
@@ -12442,8 +12465,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "aardbodem",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -12454,21 +12482,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:23",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "aardbodem",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; in de Nederlandse vertaling niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "aardbodem",
@@ -12501,26 +12529,40 @@
           "tekst": "waaruit",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H8033"
+          ],
+          "morfologie": [
+            "HTr",
+            "HR/D"
           ],
           "bronwoorden": [
-            "אֲשֶׁ֥ר"
+            "אֲשֶׁ֥ר",
+            "מִ/שָּֽׁם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 3:23",
+            "grondindices": [
+              8,
+              10
+            ],
             "bronindices": [
-              8
+              8,
+              10
             ]
           }
         },
@@ -12550,37 +12592,6 @@
               9
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "מִ/שָּֽׁם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 3:23",
-            "bronindices": [
-              10
-            ]
-          },
-          "anker": "waaruit",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het locatieve woord is in de Nederlandse woordgroep niet afzonderlijk weergegeven."
         }
       ]
     },

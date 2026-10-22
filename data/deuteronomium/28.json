@@ -10005,7 +10005,7 @@
           "marker": "20",
           "type": "explanatory",
           "text1637": "Dattet in lange tijt niet regene. Siet 1.Sam. c. 1. vers 10. 1.Reg. 17.18. And. sweert.",
-          "text2026": "Dat het lange tijd niet regent. Zie 1 Samuël 1:10 en 1 Koningen 17:18. Anderen: zwaard.",
+          "text2026": "Dat het lange tijd niet regent. Zie 1 Koningen 17:1, 7 en Haggai 1:10-11. Anders: zwaard.",
           "textSV1888": "Dat het in langen tijd niet regent. Zie 1 Kon. 17:1, 17:7; Hagg. 1:10, 1:11. Anders, zwaard. 1 Koningen 17:1: En Elia, de Thisbiet, van de inwoneren van Gilead, zeide tot Achab: Zo waarachtig als de HEERE, de God Israëls, leeft, voor Wiens aangezicht ik sta, indien deze jaren dauw of regen zijn zal, tenzij dan naar mijn woord! 1 Koningen 17:7: En het geschiedde ten einde van vele dagen, dat de beek uitdroogde; want geen regen was in het land geweest. Haggai 1:10: Daarom onthouden zich de hemelen over u, dat er geen dauw is, en het land onthoudt zijn vruchten. Haggai 1:11: Want Ik heb een droogte geroepen over het land, en over de bergen, en over het koren, en over den most, en over de olie, en over hetgeen de aardbodem zou voortbrengen; ook over de mensen, en over de beesten, en over allen arbeid der handen."
         },
         {
@@ -29455,10 +29455,13 @@
           }
         },
         {
-          "tekst": "weinige",
+          "tekst": "weinig",
           "voorkomen": 1,
           "strongs": [
             "H4592"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "מְעָ֔ט"
@@ -29469,13 +29472,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 28:62",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               7
             ]
@@ -32625,11 +32632,15 @@
           }
         },
         {
-          "tekst": "Was het maar",
+          "tekst": "maar",
           "voorkomen": 1,
           "strongs": [
             "H4310",
             "H5414"
+          ],
+          "morfologie": [
+            "HTi",
+            "HVqi3ms"
           ],
           "bronwoorden": [
             "מִֽי",
@@ -32643,19 +32654,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 28:67",
+            "grondindices": [
+              2,
+              3
+            ],
             "bronindices": [
               2,
               3
             ]
-          },
-          "toelichting": "De wensformule mi jitteen ('wie geeft, och of') is met 'Was het maar' weergegeven; beide grondwoorden staan daarom in één koppeling."
+          }
         },
         {
           "tekst": "avond",
@@ -32739,11 +32754,15 @@
           }
         },
         {
-          "tekst": "Was het maar",
+          "tekst": "maar",
           "voorkomen": 2,
           "strongs": [
             "H4310",
             "H5414"
+          ],
+          "morfologie": [
+            "HTi",
+            "HVqi3ms"
           ],
           "bronwoorden": [
             "מִֽי",
@@ -32757,19 +32776,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 28:67",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
               7,
               8
             ]
-          },
-          "toelichting": "De wensformule mi jitteen ('wie geeft, och of') is met 'Was het maar' weergegeven; beide grondwoorden staan daarom in één koppeling."
+          }
         },
         {
           "tekst": "morgen",
@@ -33012,7 +33035,7 @@
           "marker": "75",
           "type": "explanatory",
           "text1637": "Ofte dat [lant] te weten, van Egypten. Siet bov. cap. 17.16. als oft de HEERE seyde: ick sal u weder derwaerts voeren, van waer ick u wechgevoert hadde, met belofte van eeuwige vryheyt, op conditie van gehoorsaemheyt. Siet Ierem. cap. 44. ende Hos. 8.13. ende 9.6.",
-          "text2026": "Of: dat land, namelijk Egypte. Zie boven, hoofdstuk 17:16. Als JAHWEH zei: ik zal u terugvoeren waarvandaan ik u weggevoerd had, met de belofte van eeuwige vrijheid, op voorwaarde van gehoorzaamheid. Zie Jeremia 44 en Hosea 8:13 en 9:6.",
+          "text2026": "Of: dat land, namelijk Egypte. Zie boven, hoofdstuk 17:16. Alsof JAHWEH zei: ik zal u terugvoeren waarvandaan ik u weggevoerd had, met de belofte van eeuwige vrijheid, op voorwaarde van gehoorzaamheid. Zie Jeremia 44 en Hosea 8:13 en 9:6.",
           "textSV1888": "75 dien niet meer zien: Of, dat [land], te weten van Egypte. Zie boven, Deut. 17:16, alsof de HEERE zeide: Ik zal u weder derwaarts voeren, vanwaar Ik u weggevoerd had, met belofte van eeuwige vrijheid op conditie van gehoorzaamheid. Zie Jer. 44, en Hos. 8:13, en Hos. 8:6. Deuteronomium 17:16: Maar hij zal voor zich de paarden niet vermenigvuldigen, en het volk niet doen wederkeren naar Egypte, om paarden te vermenigvuldigen; terwijl de HEERE ulieden gezegd heeft: Gij zult voortaan niet wederkeren door dezen weg. Hosea 8:13: Aangaande de offeranden Mijner gaven, zij offeren vlees, en eten het, maar de HEERE heeft aan hen geen welgevallen. Nu zal Hij hunner ongerechtigheid gedenken, en hun zonden bezoeken; zij zullen weder in Egypte keren. Hosea 8:6: Want dat is ook uit Israël; een werkmeester heeft het gemaakt, en het is geen God, maar het zal tot stukken worden, het kalf van Samaria."
         },
         {

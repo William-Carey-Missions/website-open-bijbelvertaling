@@ -243,10 +243,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָה֙"
@@ -257,13 +260,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:1",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -559,21 +566,21 @@
           "type": "explanatory",
           "textSV1888": "hand vol grijpen zal: Hebreeuws, de volheid zijner vuist vuisten. Alzo onder, Lev. 5:12 . Leviticus 5:12 : En hij zal dat tot den priester brengen, en de priester zal daarvan zijn hand vol, der gedachtenis deszelven, grijpen, en dat aansteken op het altaar, op de vuurofferen des HEEREN; het is een zondoffer.",
           "text1637": "Hebr. de volheyt sijnes vuysts vuysten. Alsoo ond. 5.12.",
-          "text2026": "hand vol grijpen zal: Hebreeuws, de volheid zijn vuist vuisten. Zo onder, Lev. 5:12 . Leviticus 5:12 : En hij zal dat tot de priester brengen, en de priester zal daarvan zijn hand vol, van de gedachtenis dezelfde, grijpen, en dat aansteken op het altaar, op de vuurofferen van JAHWEH; het is een zondoffer."
+          "text2026": "hand vol grijpen zal: Hebreeuws, de volheid van zijn vuist vuisten. Zo onder, Lev. 5:12 . Leviticus 5:12 : En hij zal dat tot de priester brengen, en de priester zal daarvan zijn hand vol, van de gedachtenis dezelfde, grijpen, en dat aansteken op het altaar, op de vuurofferen van JAHWEH; het is een zondoffer."
         },
         {
           "marker": "6",
           "type": "explanatory",
           "textSV1888": "deszelfs meelbloem: Versta, des spijsoffers meelbloem. Dat is, meelbloem tot het spijsoffer behorende.",
           "text1637": "Verstaet des spijsoffers meel-bloeme. d. meelbloeme tot het spijsoffer behoorende.",
-          "text2026": "daarvan meelbloem: Versta, van het spijsoffer meelbloem. Dat is, meelbloem tot het spijsoffer behorende."
+          "text2026": "zijn meelbloem: Versta, de meelbloem van het spijsoffer. Dat is, meelbloem tot het spijsoffer behorende."
         },
         {
           "marker": "7",
           "type": "explanatory",
           "textSV1888": "met al deszelfs wierook: Of, boven. Alzo onder, Lev. 3:4 , 3:10 , en Lev. 4:9 , enz. Dat is, samen met al den wierook des spijsoffers. Leviticus 3:4 : Dan zal hij beide de nieren, en het vet, hetwelk daaraan is, dat aan de weekdarmen is; en het net over de lever, met de nieren, zal hij afnemen. Leviticus 3:10 : Ook beide de nieren, en het vet, dat daaraan is, dat aan de weekdarmen is; en het net over de lever met de nieren, zal hij afnemen. Leviticus 4:9 : Daartoe de twee nieren, en het vet, dat daaraan is, dat aan de weekdarmen is, en het net over de lever, met de nieren, zal hij afnemen;",
           "text1637": "Ofte, boven. Alsoo ond. cap. 3. vers 4, 10. ende 4.9, etc. dat is, t'samen met den gantschen wieroock des spijsoffers.",
-          "text2026": "met al daarvan wierook: Of, boven. Zo onder, Lev. 3:4 , 3:10 , en Lev. 4:9 , enz. Dat is, samen met al de wierook van het spijsoffer. Leviticus 3:4 : Dan zal hij beide de nieren, en het vet, dat daaraan is, dat aan de weekdarmen is; en het net over de lever, met de nieren, zal hij afnemen. Leviticus 3:10 : Ook beide de nieren, en het vet, dat daaraan is, dat aan de weekdarmen is; en het net over de lever met de nieren, zal hij afnemen. Leviticus 4:9 : Daartoe de twee nieren, en het vet, dat daaraan is, dat aan de weekdarmen is, en het net over de lever, met de nieren, zal hij afnemen;"
+          "text2026": "met al zijn wierook: Of, boven. Zo onder, Lev. 3:4 , 3:10 , en Lev. 4:9 , enz. Dat is, samen met al de wierook van het spijsoffer. Leviticus 3:4 : Dan zal hij beide de nieren, en het vet, dat daaraan is, dat aan de weekdarmen is; en het net over de lever, met de nieren, zal hij afnemen. Leviticus 3:10 : Ook beide de nieren, en het vet, dat daaraan is, dat aan de weekdarmen is; en het net over de lever met de nieren, zal hij afnemen. Leviticus 4:9 : Daartoe de twee nieren, en het vet, dat daaraan is, dat aan de weekdarmen is, en het net over de lever, met de nieren, zal hij afnemen;"
         },
         {
           "marker": "b",
@@ -587,7 +594,7 @@
           "type": "explanatory",
           "textSV1888": "deszelfs gedenkoffer aansteken op het altaar: Een reukwerk, zo genoemd, omdat het God indachtig maakte [menselijker wijze gesproken] de beloften, die Hij den vromen Israëlieten gegeven had, en de gebeden, die zij tot hem deden; welke bij een reukwerk dat opklimt vergeleken worden; Ps. 141:2 ; Hand. 10:4 ; Openb. 8:3 , 8:4 . Psalmen 141:2 : Mijn gebed worde gesteld als reukwerk voor Uw aangezicht, de opheffing mijner handen als het avondoffer. Handelingen 10:4 : En hij, de ogen op hem houdende, en zeer bevreesd geworden zijnde, zeide: Wat is het Heere? En hij zeide tot hem: Uw gebeden en uw aalmoezen zijn tot gedachtenis opgekomen voor God. Openbaring 8:3 : En er kwam een andere engel, en stond aan het altaar, hebbende een gouden wierookvat; en hem werd veel reukwerks gegeven, opdat hij het met de gebeden aller heiligen zou leggen op het gouden altaar, dat voor den troon is. Openbaring 8:4 : En de rook des reukwerks, met de gebeden der heiligen, ging op van de hand des engels voor God.",
           "text1637": "Een reuckwerck soo genoemt, om dat het Godt indachtich maeckte (menschelicker wijse gesproken) de beloften, die hy den vroomen Israëliten gegeven hadde, ende de gebeden, die sy tot hem deden; dewelcke by een reuckwerck dat opklimt, vergeleken worden, Psal. 141.2. Actor. 10.4. Apocal. 8.3, 4.",
-          "text2026": "daarvan gedenkoffer aansteken op het altaar: Een reukwerk, zo genoemd, omdat het God indachtig maakte [menselijker wijze gesproken] de beloften, die Hij de vromen Israëlieten gegeven had, en de gebeden, die zij tot hem deden; welke bij een reukwerk dat opklimt vergeleken worden; Ps. 141:2 ; Hand. 10:4 ; Openb. 8:3 , 8:4 . Psalmen 141:2 : Mijn gebed worde gesteld als reukwerk voor Uw aangezicht, de opheffing mijner handen als het avondoffer. Handelingen 10:4 : En hij, de ogen op hem houdende, en zeer bevreesd geworden zijnde, zei: Wat is het Heer? En hij zei tot hem: Uw gebeden en uw aalmoezen zijn tot gedachtenis opgekomen voor God. Openbaring 8:3 : En er kwam een andere engel, en stond aan het altaar, hebbende een gouden wierookvat; en hem werd veel reukwerks gegeven, opdat hij het met de gebeden alle heiligen zou leggen op het goude altaar, dat voor de troon is. Openbaring 8:4 : En de rook van het reukwerk, met de gebeden van de heiligen, ging op van de hand van de engel voor God."
+          "text2026": "zijn gedenkoffer aansteken op het altaar: Een reukwerk, zo genoemd, omdat het God indachtig maakte [menselijker wijze gesproken] de beloften, die Hij de vrome Israëlieten gegeven had, en de gebeden, die zij tot hem deden; welke bij een reukwerk dat opklimt vergeleken worden; Ps. 141:2 ; Hand. 10:4 ; Openb. 8:3 , 8:4 . Psalmen 141:2 : Mijn gebed worde gesteld als reukwerk voor Uw aangezicht, de opheffing mijner handen als het avondoffer. Handelingen 10:4 : En hij, de ogen op hem houdende, en zeer bevreesd geworden zijnde, zei: Wat is het Heer? En hij zei tot hem: Uw gebeden en uw aalmoezen zijn tot gedachtenis opgekomen voor God. Openbaring 8:3 : En er kwam een andere engel, en stond aan het altaar, hebbende een gouden wierookvat; en hem werd veel reukwerks gegeven, opdat hij het met de gebeden van alle heiligen zou leggen op het gouden altaar, dat voor de troon is. Openbaring 8:4 : En de rook van het reukwerk, met de gebeden van de heiligen, ging op van de hand van de engel voor God."
         }
       ],
       "grondtekst": [
@@ -1398,7 +1405,7 @@
           "type": "explanatory",
           "textSV1888": "een heiligheid der heiligheden: Dat is, een zeer heilig ding, of van zeer grote en voortreffelijke heiligheid. Alzo Exod. 30:36 , en onder, vers 10 , en Lev. 24:9 , enz. Het is een manier van spreken, betekenende de vergroting en de verheffing desgenen, van wien gesproken wordt. Alzo wordt God genoemd de God der Goden, en de Heere der heren; Ps. 136:2 , 136:3 . Het lied van Salomo, het lied der liederen, Hoogl. 1:1 . Vergelijk de aantekeningen Gen. 9:25 . Exodus 30:36 : En gij zult van hetzelve heel klein pulver stoten, en gij zult daarvan leggen voor de getuigenis in de tent der samenkomst, waarheen Ik tot u komen zal; het zal ulieden heiligheid der heiligheden zijn. Leviticus 2:10 : En wat overblijft van het spijsoffer, zal voor Aäron en zijn zonen zijn; het is een heiligheid der heiligheden van de vuurofferen des HEEREN. Leviticus 24:9 : En het zal voor Aäron en zijn zonen zijn, die dat in de heilige plaats zullen eten; want het is voor hem een heiligheid der heiligheden uit de vuurofferen des HEEREN, een eeuwige inzetting. Psalmen 136:2 : Looft den God der goden; want Zijn goedertierenheid is in der eeuwigheid. Psalmen 136:3 : Looft den Heere der heren; want Zijn goedertierenheid is in der eeuwigheid. Hooglied 1:1 : Het Hooglied, hetwelk van Salomo is. Genesis 9:25 : En hij zeide: Vervloekt zij Kanaän; een knecht der knechten zij hij zijn broederen!",
           "text1637": "D. een seer heylich dinck, ofte van seer groote, ende overtreffelicke heylicheyt. Alsoo 30.36. ende ond. Exo. 10. ende 24.9. etc. 'T is eene maniere van spreken, beteeckenende de vergrootinge, ende verheffinge des genen daer van gesproken wort. Alsoo wort Godt genaemt, de Godt der Goden, ende de Heere der Heeren, Psal. 136.2, 3. Het liet Salomons, het liet der lieden, Cant. 1.1. Verg. de aent. Gen. 9. op 't vers 25.",
-          "text2026": "een heiligheid van de heiligheden: Dat is, een zeer heilig ding, of van zeer grote en voortreffelijke heiligheid. Zo Ex. 30:36 , en onder, vers 10 , en Lev. 24:9 , enz. Het is een manier van spreken, betekenende de vergroting en de verheffing van degene, van wie gesproken wordt. Zo wordt God genoemd de God van de Goden, en de Heer van de heren; Ps. 136:2 , 136:3 . Het lied van Salomo, het lied van de liederen, Hoogl. 1:1 . Vergelijk de aantekeningen Gen. 9:25 . Exodus 30:36 : En u zult van hetzelfde heel klein pulver stoten, en u zult daarvan leggen voor de getuigenis in de tent van de samenkomst, waarheen Ik tot u komen zal; het zal u heiligheid van de heiligheden zijn. Leviticus 2:10 : En wat overblijft van het spijsoffer, zal voor Aäron en zijn zonen zijn; het is een heiligheid van de heiligheden van het vuurofferen van JAHWEH. Leviticus 24:9 : En het zal voor Aäron en zijn zonen zijn, die dat in de heilige plaats zullen eten; want het is voor hem een heiligheid van de heiligheden uit de vuurofferen van JAHWEH, een eeuwige inzetting. Psalmen 136:2 : Looft de God van de goden; want Zijn goedertierenheid is in eeuwigheid. Psalmen 136:3 : Looft de Heer van de heren; want Zijn goedertierenheid is in eeuwigheid. Hooglied 1:1 : Het Hooglied, dat van Salomo is. Genesis 9:25 : En hij zei: Vervloekt zij Kanaän; een knecht van de knechten zij hij zijn broers!"
+          "text2026": "een heiligheid van de heiligheden: Dat is, een zeer heilig ding, of van zeer grote en voortreffelijke heiligheid. Zo Ex. 30:36 , en onder, vers 10 , en Lev. 24:9 , enz. Het is een manier van spreken, betekenende de vergroting en de verheffing van degene, van wie gesproken wordt. Zo wordt God genoemd de God van de Goden, en de Heer van de heren; Ps. 136:2 , 136:3 . Het lied van Salomo, het lied van de liederen, Hoogl. 1:1 . Vergelijk de aantekeningen Gen. 9:25 . Exodus 30:36 : En u zult van hetzelfde heel klein pulver stoten, en u zult daarvan leggen voor de getuigenis in de tent van de samenkomst, waarheen Ik tot u komen zal; het zal u heiligheid van de heiligheden zijn. Leviticus 2:10 : En wat overblijft van het spijsoffer, zal voor Aäron en zijn zonen zijn; het is een heiligheid van de heiligheden van de vuurofferen van JAHWEH. Leviticus 24:9 : En het zal voor Aäron en zijn zonen zijn, die dat in de heilige plaats zullen eten; want het is voor hem een heiligheid van de heiligheden uit de vuurofferen van JAHWEH, een eeuwige inzetting. Psalmen 136:2 : Looft de God van de goden; want Zijn goedertierenheid is in eeuwigheid. Psalmen 136:3 : Looft de Heer van de heren; want Zijn goedertierenheid is in eeuwigheid. Hooglied 1:1 : Het Hooglied, dat van Salomo is. Genesis 9:25 : En hij zei: Vervloekt zij Kanaän; een knecht van de knechten zij hij zijn broers!"
         }
       ],
       "grondtekst": [
@@ -1524,10 +1531,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֔ה"
@@ -1538,13 +1548,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:3",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -1932,10 +1946,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֖ה"
@@ -1946,13 +1963,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:4",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -2363,10 +2384,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֥ה"
@@ -2377,13 +2401,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:5",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -2833,10 +2861,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֖ה"
@@ -2847,13 +2878,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:6",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]
@@ -2899,7 +2934,7 @@
           "type": "explanatory",
           "textSV1888": "des ketels is: Anders, pan; dat is van hetgeen wat in den ketel gezoden of in de pan gebakken is.",
           "text1637": "And. Panne: D. van het gene dat inde ketel gesoden, ofte inde panne gefrijt is.",
-          "text2026": "van de ketels is: Anders, pan; dat is van wat wat in de ketel gezoden of in de pan gebakken is."
+          "text2026": "van de ketel is: Anders, pan; dat is van wat in de ketel gezoden of in de pan gebakken is."
         }
       ],
       "grondtekst": [
@@ -2983,10 +3018,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֥ת"
@@ -2997,13 +3035,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:7",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -3279,8 +3321,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -3291,27 +3338,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:8",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֗ה"
@@ -3322,13 +3372,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:8",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               3
             ]
@@ -3617,14 +3671,14 @@
           "type": "explanatory",
           "textSV1888": "deszelfs gedenkoffer opnemen: Zie boven, vers 2 . Leviticus 2:2 : En hij zal het brengen tot de zonen van Aäron, de priesters, een van welke daarvan zijn hand vol grijpen zal uit deszelfs meelbloem, en uit deszelfs olie, met al deszelfs wierook; en de priester zal deszelfs gedenkoffer aansteken op het altaar; het is een vuuroffer, tot een liefelijken reuk den HEERE.",
           "text1637": "Siet bov. op het vers 2.",
-          "text2026": "daarvan gedenkoffer opnemen: Zie boven, vers 2 . Leviticus 2:2 : En hij zal het brengen tot de zonen van Aäron, de priesters, een van welke daarvan zijn hand vol grijpen zal uit daarvan meelbloem, en uit daarvan olie, met al daarvan wierook; en de priester zal daarvan gedenkoffer aansteken op het altaar; het is een vuuroffer, tot een liefelijken reuk JAHWEH."
+          "text2026": "zijn gedenkoffer opnemen: Zie boven, vers 2 . Leviticus 2:2 : En hij zal het brengen tot de zonen van Aäron, de priesters, een van welke daarvan zijn hand vol grijpen zal uit zijn meelbloem, en uit zijn olie, met al zijn wierook; en de priester zal zijn gedenkoffer aansteken op het altaar; het is een vuuroffer, tot een liefelijken reuk voor JAHWEH."
         },
         {
           "marker": "15",
           "type": "explanatory",
           "textSV1888": "tot een liefelijken reuk den HEERE: Zie Gen. 8:21 , en boven, Lev. 1:9 . Genesis 8:21 : En de HEERE rook dien liefelijken reuk, en de HEERE zeide in Zijn hart: Ik zal voortaan den aardbodem niet meer vervloeken om des mensen wil; want het gedichtsel van 's mensen hart is boos van zijn jeugd aan; en Ik zal voortaan niet meer al het levende slaan, gelijk als Ik gedaan heb. Leviticus 1:9 : Doch zijn ingewand, en zijn schenkelen zal men met water wassen; en de priester zal dat alles aansteken op het altaar; het is een brandoffer, een vuuroffer, tot een liefelijken reuk den HEERE.",
           "text1637": "Siet Gen. 8. op't vers 21. ende bov. 1. op't vers 9.",
-          "text2026": "tot een liefelijken reuk JAHWEH: Zie Gen. 8:21 , en boven, Lev. 1:9 . Genesis 8:21 : En JAHWEH rook die liefelijken reuk, en JAHWEH zei in Zijn hart: Ik zal voortaan de aardbodem niet meer vervloeken vanwege de mensen; want het maaksel van 's mensen hart is boos van zijn jeugd aan; en Ik zal voortaan niet meer al het levende slaan, gelijk als Ik gedaan heb. Leviticus 1:9 : Maar zijn ingewand, en zijn schenkelen zal men met water groeien; en de priester zal dat alles aansteken op het altaar; het is een brandoffer, een vuuroffer, tot een liefelijken reuk JAHWEH."
+          "text2026": "tot een liefelijken reuk JAHWEH: Zie Gen. 8:21 , en boven, Lev. 1:9 . Genesis 8:21 : En JAHWEH rook die liefelijke reuk, en JAHWEH zei in Zijn hart: Ik zal voortaan de aardbodem niet meer vervloeken vanwege de mensen; want het maaksel van 's mensen hart is boos van zijn jeugd aan; en Ik zal voortaan niet meer al het levende slaan, gelijk als Ik gedaan heb. Leviticus 1:9 : Maar zijn ingewand, en zijn schenkelen zal men met water wassen; en de priester zal dat alles aansteken op het altaar; het is een brandoffer, een vuuroffer, tot een liefelijken reuk voor JAHWEH."
         }
       ],
       "grondtekst": [
@@ -3792,10 +3846,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָה֙"
@@ -3806,13 +3863,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:9",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               4
             ]
@@ -4051,7 +4112,7 @@
           "type": "explanatory",
           "textSV1888": "heiligheid der heiligheden: Zie boven, vers 3 . Leviticus 2:3 : Wat nu overblijft van het spijsoffer, zal voor Aäron en zijn zonen zijn; het is een heiligheid der heiligheden van de vuurofferen des HEEREN.",
           "text1637": "Siet bov. op 't vers 3.",
-          "text2026": "heiligheid van de heiligheden: Zie boven, vers 3 . Leviticus 2:3 : Wat nu overblijft van het spijsoffer, zal voor Aäron en zijn zonen zijn; het is een heiligheid van de heiligheden van het vuurofferen van JAHWEH."
+          "text2026": "heiligheid van de heiligheden: Zie boven, vers 3 . Leviticus 2:3 : Wat nu overblijft van het spijsoffer, zal voor Aäron en zijn zonen zijn; het is een heiligheid van de heiligheden van de vuurofferen van JAHWEH."
         }
       ],
       "grondtekst": [
@@ -4177,10 +4238,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֔ה"
@@ -4191,13 +4255,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:10",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -4378,7 +4446,7 @@
           "type": "explanatory",
           "textSV1888": "Versta dit van de vrijwillige offeranden. Want in de dankoffers geldt deze wet niet, onder Lev. 7:13 , noch in de offeranden der eerstelingen, onder, Lev. 23:17 , en hier in vers 12 . Leviticus 7:13 : Benevens de koeken zal hij tot zijn offerande gedesemd brood offeren, met het lofoffer zijns dankoffers. Leviticus 23:17 : Gijlieden zult uit uw woningen twee beweegbroden brengen, zij zullen van twee tienden meelbloem zijn, gedesemd zullen zij gebakken worden; het zijn de eerstelingen den HEERE. Leviticus 2:12 : De offeranden der eerstelingen zult gij den HEERE offeren; maar op het altaar zullen zij niet komen tot een liefelijken reuk.",
           "text1637": "Verstaet dit, van de vrywillige offerhanden. Want inde danckofferen en gelt dese wet niet. ond. 7.13. nochte in de offerhanden der eerstelingen, ond. 23.17. ende hier in 't volgende vers.",
-          "text2026": "Versta dit van de vrijwillige offeranden. Want in de dankoffers geldt deze wet niet, onder Lev. 7:13 , noch in de offeranden van de eerstelingen, onder, Lev. 23:17 , en hier in vers 12 . Leviticus 7:13 : Naast de koeken zal hij tot zijn offerande gedesemd brood offeren, met het lofoffer zijn dankoffers. Leviticus 23:17 : Gijlieden zult uit uw woningen twee beweegbroden brengen, zij zullen van twee tienden meelbloem zijn, gedesemd zullen zij gebakken worden; het zijn de eerstelingen JAHWEH. Leviticus 2:12 : De offeranden van de eerstelingen zult u JAHWEH offeren; maar op het altaar zullen zij niet komen tot een liefelijken reuk."
+          "text2026": "Versta dit van de vrijwillige offeranden. Want in de dankoffers geldt deze wet niet, onder Lev. 7:13 , noch in de offeranden van de eerstelingen, onder, Lev. 23:17 , en hier in vers 12 . Leviticus 7:13 : Naast de koeken zal hij tot zijn offerande gedesemd brood offeren, met het lofoffer van zijn dankoffer. Leviticus 23:17 : Gijlieden zult uit uw woningen twee beweegbroden brengen, zij zullen van twee tienden meelbloem zijn, gedesemd zullen zij gebakken worden; het zijn de eerstelingen voor JAHWEH. Leviticus 2:12 : De offeranden van de eerstelingen zult u JAHWEH offeren; maar op het altaar zullen zij niet komen tot een liefelijken reuk."
         },
         {
           "marker": "18",
@@ -4510,34 +4578,51 @@
           "tekst": "Geen",
           "voorkomen": 1,
           "strongs": [
-            "H3605"
+            "H3605",
+            "H3808"
+          ],
+          "morfologie": [
+            "HNcmsc",
+            "HTn"
           ],
           "bronwoorden": [
-            "כָּל"
+            "כָּל",
+            "לֹ֥א"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:11",
+            "grondindices": [
+              0,
+              5
+            ],
             "bronindices": [
-              0
+              0,
+              1
             ]
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֗ה"
@@ -4548,13 +4633,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:11",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -4638,33 +4727,6 @@
             "referentie": "LEV 2:11",
             "bronindices": [
               5
-            ]
-          }
-        },
-        {
-          "tekst": "Geen",
-          "voorkomen": 1,
-          "strongs": [
-            "H3808"
-          ],
-          "bronwoorden": [
-            "לֹ֥א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
-            "referentie": "LEV 2:11",
-            "bronindices": [
-              1
             ]
           }
         },
@@ -4753,26 +4815,40 @@
           "tekst": "geen",
           "voorkomen": 2,
           "strongs": [
-            "H3605"
+            "H3605",
+            "H3808"
+          ],
+          "morfologie": [
+            "HNcmsc",
+            "HTn"
           ],
           "bronwoorden": [
-            "כָל"
+            "כָל",
+            "לֹֽא"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:11",
+            "grondindices": [
+              9,
+              13
+            ],
             "bronindices": [
-              12
+              12,
+              9
             ]
           }
         },
@@ -4854,33 +4930,6 @@
             "referentie": "LEV 2:11",
             "bronindices": [
               15
-            ]
-          }
-        },
-        {
-          "tekst": "geen",
-          "voorkomen": 2,
-          "strongs": [
-            "H3808"
-          ],
-          "bronwoorden": [
-            "לֹֽא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
-            "referentie": "LEV 2:11",
-            "bronindices": [
-              9
             ]
           }
         },
@@ -5005,7 +5054,7 @@
           "type": "explanatory",
           "textSV1888": "De offeranden der eerstelingen: Zie onder, Lev. 23:17 . Leviticus 23:17 : Gijlieden zult uit uw woningen twee beweegbroden brengen, zij zullen van twee tienden meelbloem zijn, gedesemd zullen zij gebakken worden; het zijn de eerstelingen den HEERE.",
           "text1637": "Siet ond. 23.17.",
-          "text2026": "De offeranden van de eerstelingen: Zie onder, Lev. 23:17 . Leviticus 23:17 : Gijlieden zult uit uw woningen twee beweegbroden brengen, zij zullen van twee tienden meelbloem zijn, gedesemd zullen zij gebakken worden; het zijn de eerstelingen JAHWEH."
+          "text2026": "De offeranden van de eerstelingen: Zie onder, Lev. 23:17 . Leviticus 23:17 : Gijlieden zult uit uw woningen twee beweegbroden brengen, zij zullen van twee tienden meelbloem zijn, gedesemd zullen zij gebakken worden; het zijn de eerstelingen voor JAHWEH."
         },
         {
           "marker": "20",
@@ -5602,10 +5651,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2ms"
           ],
           "bronwoorden": [
             "מִנְחָתְ/ךָ֮"
@@ -5616,13 +5668,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:13",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               3
             ]
@@ -5845,10 +5901,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 2,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2ms"
           ],
           "bronwoorden": [
             "מִנְחָתֶ֑/ךָ"
@@ -5859,13 +5918,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:13",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -6185,10 +6248,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֥ת"
@@ -6199,13 +6265,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:14",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -6430,8 +6500,13 @@
         {
           "tekst": "",
           "voorkomen": 2,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֵ֖ת"
@@ -6442,27 +6517,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:14",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 2,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֥ת"
@@ -6473,13 +6551,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:14",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -6740,10 +6822,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֖ה"
@@ -6754,13 +6839,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 2:15",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]
@@ -6806,7 +6895,7 @@
           "type": "explanatory",
           "textSV1888": "Zie boven, vers 2 . Leviticus 2:2 : En hij zal het brengen tot de zonen van Aäron, de priesters, een van welke daarvan zijn hand vol grijpen zal uit deszelfs meelbloem, en uit deszelfs olie, met al deszelfs wierook; en de priester zal deszelfs gedenkoffer aansteken op het altaar; het is een vuuroffer, tot een liefelijken reuk den HEERE.",
           "text1637": "Siet bov. op het vers 2.",
-          "text2026": "Zie boven, vers 2 . Leviticus 2:2 : En hij zal het brengen tot de zonen van Aäron, de priesters, een van welke daarvan zijn hand vol grijpen zal uit daarvan meelbloem, en uit daarvan olie, met al daarvan wierook; en de priester zal daarvan gedenkoffer aansteken op het altaar; het is een vuuroffer, tot een liefelijken reuk JAHWEH."
+          "text2026": "Zie boven, vers 2 . Leviticus 2:2 : En hij zal het brengen tot de zonen van Aäron, de priesters, een van welke daarvan zijn hand vol grijpen zal uit zijn meelbloem, en uit zijn olie, met al zijn wierook; en de priester zal zijn gedenkoffer aansteken op het altaar; het is een vuuroffer, tot een liefelijken reuk voor JAHWEH."
         }
       ],
       "grondtekst": [

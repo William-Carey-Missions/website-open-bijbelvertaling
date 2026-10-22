@@ -12,7 +12,7 @@
           "type": "explanatory",
           "textSV1888": "Versta, Gods huis, of zijne kerk, zo strijdende op aarde, als in den hemel triomferende, afgebeeld door den tabernakel en den berg Zion. Zie Ps. 2:6 . Psalmen 2:6 : Ik toch heb Mijn Koning gezalfd over Sion, den berg Mijner heiligheid.",
           "text1637": "Verstaet Godes huys, ofte sijne kercke, soo strijdende op aerden, als in den hemel triumpherende, afgebeeldt door den Tabernakel, ende den berch Zion. Siet Psal. 2. op vers 6.",
-          "text2026": "Versta, Gods huis, of zijn kerk, zo strijdende op aarde, als in de hemel triomferende, afgebeeld door de tabernakel en de berg Zion. Zie Ps. 2:6 . Psalmen 2:6 : Ik toch heb Mijn Koning gezalfd over Sion, de berg Mijn heiligheid."
+          "text2026": "Versta, Gods huis, of zijn kerk, zo strijdende op aarde, als in de hemel triomferende, afgebeeld door de tabernakel en de berg Zion. Zie Ps. 2:6 . Psalmen 2:6 : Ik toch heb Mijn Koning gezalfd over Sion, de berg van Mijn heiligheid."
         }
       ],
       "grondtekst": [
@@ -1237,10 +1237,15 @@
           }
         },
         {
-          "tekst": "maar",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "degenen",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֶת"
@@ -1251,18 +1256,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 15:4",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "toelichting": "וְאֶת, voegwoord met lijdend-voorwerpteken; het voegwoord is in het Nederlands 'maar' geworden en het voorwerpteken blijft onvertaald."
+          }
         },
         {
           "tekst": "vrezen",

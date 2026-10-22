@@ -679,7 +679,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, roemde hen en wenste hun den zegen des Heeren, omdat zij vanzelf, zonder het lot te verwachten, aanboden te Jeruzalem te wonen; dewijl deze stad als hunner aller moeder en behoudenis was, en zonder kloeke en hartige inwoners tegen der vijanden list en geweld niet kon bewaard worden, en die bewaard zijnde, hadden de andere plaatsen, waar de vijanden niet op zagen, geen nood.",
           "text1637": "D. roemdese ende wenschte hen den segen des Heeren, om datse van selfs, sonder het lot te verwachten, aenboden te Ierusalem te woonen: dewijle dese stadt als harer aller moeder ende behoudenisse was, ende sonder kloecke ende hertige inwoonders tegen der vyanden list ende gewelt niet konde bewaert worden, ende die bewaert zijnde, hadden de andere plaetsen, daer de vyanden niet op en sagen, geenen noot.",
-          "text2026": "Dat is, roemde hen en wenste hun de zegen van JAHWEH, omdat zij vanzelf, zonder het lot te verwachten, aanboden te Jeruzalem te wonen; omdat deze stad als hun alle moeder en behoudenis was, en zonder kloeke en hartige inwoners tegen van de vijanden list en geweld niet kon bewaard worden, en die bewaard zijnde, hadden de andere plaatsen, waar de vijanden niet op zagen, geen nood."
+          "text2026": "Dat is, roemde hen en wenste hun de zegen van JAHWEH, omdat zij vanzelf, zonder het lot te verwachten, aanboden te Jeruzalem te wonen; omdat deze stad als hun aller moeder en behoudenis was, en zonder kloeke en hartige inwoners tegen de list en het geweld van de vijanden niet kon bewaard worden, en die bewaard zijnde, hadden de andere plaatsen, waar de vijanden niet op zagen, geen nood."
         }
       ],
       "grondtekst": [
@@ -1138,10 +1138,13 @@
           }
         },
         {
-          "tekst": "landschap",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
             "H4082"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מְּדִינָ֔ה"
@@ -1152,13 +1155,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:3",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -4184,10 +4191,13 @@
           }
         },
         {
-          "tekst": "opziener",
+          "tekst": "opzichter",
           "voorkomen": 1,
           "strongs": [
             "H6496"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "פָּקִ֣יד"
@@ -4198,13 +4208,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:9",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -6427,10 +6441,13 @@
           }
         },
         {
-          "tekst": "dappere",
+          "tekst": "helden",
           "voorkomen": 1,
           "strongs": [
             "H1368"
+          ],
+          "morfologie": [
+            "HAampc"
           ],
           "bronwoorden": [
             "גִּבּ֣וֹרֵי"
@@ -6441,23 +6458,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:14",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               4
             ]
           }
         },
         {
-          "tekst": "helden",
+          "tekst": "dappere",
           "voorkomen": 1,
           "strongs": [
             "H2428"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "חַ֔יִל"
@@ -6468,13 +6492,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:14",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               5
             ]
@@ -6562,10 +6590,13 @@
           }
         },
         {
-          "tekst": "opziener",
+          "tekst": "opzichter",
           "voorkomen": 1,
           "strongs": [
             "H6496"
+          ],
+          "morfologie": [
+            "HC/Ncmsa"
           ],
           "bronwoorden": [
             "וּ/פָקִ֣יד"
@@ -6576,23 +6607,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               9
             ]
           }
         },
         {
-          "tekst": "",
+          "tekst": "over",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
           ],
           "bronwoorden": [
             "עֲלֵי/הֶ֔ם"
@@ -6603,21 +6641,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:14",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               10
             ]
-          },
-          "anker": "opziener",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "עֲלֵיהֶם ('over hen') gaat op in 'opziener over hen'."
+          }
         },
         {
           "tekst": "Zabdiël",
@@ -8690,7 +8728,7 @@
           "type": "explanatory",
           "textSV1888": "Zie vers 3 . Nehemia 11:3 : En dit zijn de hoofden van het landschap, die te Jeruzalem woonden; (maar in de steden van Juda woonden, een iegelijk op zijn bezitting, in hun steden, Israël, de priesters, en de Levieten, en de Nethinim, en de kinderen der knechten van Salomo).",
           "text1637": "Siet op vers 3.",
-          "text2026": "Zie vers 3 . Nehemia 11:3 : En dit zijn de hoofden van het landschap, die te Jeruzalem woonden; (maar in de steden van Juda woonden, een iedereen op zijn bezitting, in hun steden, Israël, de priesters, en de Levieten, en de tempelknechten, en de kinderen van de knechten van Salomo)."
+          "text2026": "Zie vers 3 . Nehemia 11:3 : En dit zijn de hoofden van het landschap, die te Jeruzalem woonden; (maar in de steden van Juda woonden, een ieder op zijn bezitting, in hun steden, Israël, de priesters, en de Levieten, en de tempelknechten, en de kinderen van de knechten van Salomo)."
         },
         {
           "marker": "18",
@@ -9014,7 +9052,7 @@
           "type": "explanatory",
           "textSV1888": "Gelijk boven, Neh. 3:26 . Nehemia 3:26 : De Nethinim nu, die in Ofel woonden, tot tegenover de Waterpoort aan het oosten, en den uitstekenden toren.",
           "text1637": "Als bov. 3.26.",
-          "text2026": "Gelijk boven, Neh. 3:26 . Nehemia 3:26 : De tempelknechten nu, die in Ofel woonden, tot tegenover de Waterpoort aan het oosten, en de uitstekenden toren."
+          "text2026": "Gelijk boven, Neh. 3:26 . Nehemia 3:26 : De tempelknechten nu, die in Ofel woonden, tot tegenover de Waterpoort aan het oosten, en de uitstekende toren."
         }
       ],
       "grondtekst": [
@@ -9404,10 +9442,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "opziener",
+          "tekst": "opzichter",
           "voorkomen": 1,
           "strongs": [
             "H6496"
+          ],
+          "morfologie": [
+            "HC/Ncmsc"
           ],
           "bronwoorden": [
             "וּ/פְקִ֤יד"
@@ -9418,13 +9459,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:22",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -9929,7 +9974,7 @@
           "type": "explanatory",
           "textSV1888": "zeker onderhoud: Hebreeuws, מְשֹׁרְרִ֖ים, vastigheid, getrouwheid, zekerheid; [gelijk boven, Neh. 9:38 ], dat is hier, zekere rente, of een gewis onderhoud uit des konings schathuis. Anders, een vaste rente voor de zangers. Hetwelk zij alzo verstaan, dat hun van den koning was toevertrouwd geld van zijn commissaris te ontvangen en uit te geven tot dagelijkse behoeften van den godsdienst. Zie Ezra 6:8 , 6:9 , en Ezra 7:20 , 7:21 , 7:22 . Nehemia 9:38 : En in dit alles maken wij een vast verbond en schrijven het; en onze vorsten, onze Levieten en onze priesteren zullen het verzegelen. Ezra 6:8 : Ook wordt van mij bevel gegeven, wat gijlieden doen zult aan de oudsten dezer Joden, om dit huis Gods te bouwen; te weten, dat uit des konings goederen, van den cijns aan gene zijde der rivier, de onkosten dezen mannen spoediglijk gegeven worden, opdat men hen niet belette. Ezra 6:9 : En wat nodig is, als jonge runderen, en rammen, en lammeren, tot brandofferen aan den God des hemels, tarwe, zout, wijn en olie, naar het zeggen der priesteren, die te Jeruzalem zijn, dat het hun dag bij dag gegeven worde, dat er geen feil zij; Ezra 7:20 : Het overige nu, dat van node zal zijn voor het huis uws Gods, dat u voorvallen zal uit te geven, zult gij geven uit het schathuis des konings. Ezra 7:21 : En van mij, mij, koning Arthahsasta, wordt bevel gegeven aan alle schatmeesters, die aan gene zijde der rivier zijt, dat alles, wat Ezra, de priester, de schriftgeleerde der wet van den God des hemels, van u zal begeren, spoediglijk gedaan worde; Ezra 7:22 : Tot honderd talenten zilvers toe, en tot honderd kor tarwe, en tot honderd bath wijn, en tot honderd bath olie, en zout zonder voorschrift.",
           "text1637": "Hebr. vasticheyt, getrouwicheyt, sekerheyt: (als bov. 9.38.) dat is hier, sekere rente, oft, een gewis onderhout, uyt des Conincks Schat-huys. And. een vaste rente voor de Sangers. ’twelck sy alsoo verstaen, dat hen van den Coninck was toevertrouwt, gelt van sijnen Commissaris te ontfangen ende uyt te geven tot dagelijcxe behoeften des Godtsdiensts. Siet Ezr. 6.8, 9. ende 7.20, 21, 22.",
-          "text2026": "zeker onderhoud: Hebreeuws, מְשֹׁרְרִ֖ים, vastheid, getrouwheid, zekerheid; [gelijk boven, Neh. 9:38 ], dat is hier, zekere rente, of een gewis onderhoud uit van de koning schathuis. Anders, een vaste rente voor de zangers. Dat zij zo verstaan, dat hun van de koning was toevertrouwd geld van zijn commissaris te ontvangen en uit te geven tot dagelijkse behoeften van de godsdienst. Zie Ezra 6:8 , 6:9 , en Ezra 7:20 , 7:21 , 7:22 . Nehemia 9:38 : En in dit alles maken wij een vast verbond en schrijven het; en onze vorsten, onze Levieten en onze priesters zullen het verzegelen. Ezra 6:8 : Ook wordt van mij bevel gegeven, wat u doen zult aan de oudsten van deze Joden, om dit huis van God te bouwen; te weten, dat uit van de koning goederen, van de cijn aan de overzijde van de rivier, de onkosten deze mannen spoediglijk gegeven worden, opdat men hen niet belette. Ezra 6:9 : En wat nodig is, als jonge runderen, en rammen, en lammeren, tot brandofferen aan de God van de hemel, tarwe, zout, wijn en olie, naar het zeggen van de priesters, die te Jeruzalem zijn, dat het hun dag bij dag gegeven worde, dat er geen fout zij; Ezra 7:20 : Het overige nu, dat nodig zal zijn voor het huis uw Gods, dat u voorvallen zal uit te geven, zult u geven uit het schathuis van de koning. Ezra 7:21 : En van mij, mij, koning Arthahsasta, wordt bevel gegeven aan alle schatmeesters, die aan de overzijde van de rivier zijt, dat alles, wat Ezra, de priester, de schriftgeleerde van de wet van de God van de hemel, van u zal begeren, spoediglijk gedaan worde; Ezra 7:22 : Tot honderd talenten zilvers toe, en tot honderd kor tarwe, en tot honderd bath wijn, en tot honderd bath olie, en zout zonder voorschrift."
+          "text2026": "zeker onderhoud: Hebreeuws, מְשֹׁרְרִ֖ים, vastheid, getrouwheid, zekerheid; [gelijk boven, Neh. 9:38 ], dat is hier, zekere rente, of een gewis onderhoud uit het schathuis van de koning. Anders, een vaste rente voor de zangers. Dat zij zo verstaan, dat hun van de koning was toevertrouwd geld van zijn commissaris te ontvangen en uit te geven tot dagelijkse behoeften van de godsdienst. Zie Ezra 6:8 , 6:9 , en Ezra 7:20 , 7:21 , 7:22 . Nehemia 9:38 : En in dit alles maken wij een vast verbond en schrijven het; en onze vorsten, onze Levieten en onze priesters zullen het verzegelen. Ezra 6:8 : Ook wordt van mij bevel gegeven, wat u doen zult aan de oudsten van deze Joden, om dit huis van God te bouwen; te weten, dat uit de goederen van de koning, van de cijns aan de overzijde van de rivier, de onkosten aan deze mannen spoediglijk gegeven worden, opdat men hen niet belette. Ezra 6:9 : En wat nodig is, als jonge runderen, en rammen, en lammeren, tot brandofferen aan de God van de hemel, tarwe, zout, wijn en olie, naar het zeggen van de priesters, die te Jeruzalem zijn, dat het hun dag bij dag gegeven worde, dat er geen fout zij; Ezra 7:20 : Het overige nu, dat nodig zal zijn voor het huis van uw God, dat u voorvallen zal uit te geven, zult u geven uit het schathuis van de koning. Ezra 7:21 : En van mij, mij, koning Arthahsasta, wordt bevel gegeven aan alle schatmeesters, die aan de overzijde van de rivier zijt, dat alles, wat Ezra, de priester, de schriftgeleerde van de wet van de God van de hemel, van u zal begeren, spoediglijk gedaan worde; Ezra 7:22 : Tot honderd talenten zilvers toe, en tot honderd kor tarwe, en tot honderd bath wijn, en tot honderd bath olie, en zout zonder voorschrift."
         }
       ],
       "grondtekst": [
@@ -10077,10 +10122,13 @@
           }
         },
         {
-          "tekst": "van",
-          "voorkomen": 2,
+          "tekst": "hen",
+          "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
           ],
           "bronwoorden": [
             "עֲלֵי/הֶ֑ם"
@@ -10091,18 +10139,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 11:23",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "toelichting": "עֲלֵיהֶם ('over hen') hoort bij 'van hen', het tweede 'van'."
+          }
         },
         {
           "tekst": "onderhoud",
@@ -10282,14 +10333,14 @@
           "type": "explanatory",
           "textSV1888": "aan des konings hand: Dat is, des konings commissaris, vergelijk 1 Kron. 18:17 . 1 Kronieken 18:17 : En Benaja, de zoon van Jojada, was over de Krethi en Plethi; maar de zonen van David waren de eersten aan de hand des konings.",
           "text1637": "D. des Conincx Commissaris. Vergel. 1.Chron. 18.17.",
-          "text2026": "aan de hand van de koning: Dat is, de commissaris van de koning, vergelijk 1 Kron. 18:17 . 1 Kronieken 18:17 : En Benaja, de zoon van Jojada, was over de Krethi en Plethi; maar de zonen van David waren de eerste aan de hand van de koning."
+          "text2026": "aan de hand van de koning: Dat is, de commissaris van de koning, vergelijk 1 Kron. 18:17 . 1 Kronieken 18:17 : En Benaja, de zoon van Jojada, was over de Krethi en Plethi; maar de zonen van David waren de eersten aan de hand van de koning."
         },
         {
           "marker": "23",
           "type": "explanatory",
           "textSV1888": "in alle zaken: Of, in allen woord tot het volk, of des volks; dat is, in hetgeen het volk van des konings wege was voor te dragen, of het volk met den koning te doen had; idem, des konings inkomen te vorderen en volgens zijn last te doen besteden. Zie Ezra 6:8 . Ezra 6:8 : Ook wordt van mij bevel gegeven, wat gijlieden doen zult aan de oudsten dezer Joden, om dit huis Gods te bouwen; te weten, dat uit des konings goederen, van den cijns aan gene zijde der rivier, de onkosten dezen mannen spoediglijk gegeven worden, opdat men hen niet belette.",
           "text1637": "Ofte, in allen woorde tot den volcke, ofte, des volcks. dat is, in ’t gene den volcke van des Conincks wegen was voor te dragen, ofte, het volck met den Coninck te doen hadde, item des Conincx inkomen te vorderen, ende volgens sijnen last te doen besteden. Siet Ezr. 6.8.",
-          "text2026": "in alle zaken: Of, in allen woord tot het volk, of van het volk; dat is, in wat het volk van de koning wege was voor te dragen, of het volk met de koning te doen had; idem, van de koning inkomen te vorderen en volgens zijn last te doen besteden. Zie Ezra 6:8 . Ezra 6:8 : Ook wordt van mij bevel gegeven, wat u doen zult aan de oudsten van deze Joden, om dit huis van God te bouwen; te weten, dat uit van de koning goederen, van de cijn aan de overzijde van de rivier, de onkosten deze mannen spoediglijk gegeven worden, opdat men hen niet belette."
+          "text2026": "in alle zaken: Of, in allen woord tot het volk, of van het volk; dat is, in wat het volk vanwege de koning was voor te dragen, of het volk met de koning te doen had; idem, het inkomen van de koning te vorderen en volgens zijn last te doen besteden. Zie Ezra 6:8 . Ezra 6:8 : Ook wordt van mij bevel gegeven, wat u doen zult aan de oudsten van deze Joden, om dit huis van God te bouwen; te weten, dat uit de goederen van de koning, van de cijns aan de overzijde van de rivier, de onkosten aan deze mannen spoediglijk gegeven worden, opdat men hen niet belette."
         }
       ],
       "grondtekst": [

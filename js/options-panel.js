@@ -88,42 +88,13 @@ const OptionsPanel = {
         if (!body || body.dataset.categoriesBuilt === 'true') return;
 
         const definitions = [
-            {
-                key: 'bronnen', label: 'Vertalingen, talen & kanttekeningen',
-                selectors: [
-                    '#opt-teksteditie', '#toggle-book-intro', '#toggle-chapter-intro',
-                    '#toggle-strongs', '[data-toggle-col="diff"]',
-                    '[data-parallel-editie]',
-                    '[data-toggle-col="1637"]', '[data-toggle-col="margin1637"]',
-                    '[data-optie="kolomLayout"]', '[data-toggle-col="noteDiff"]',
-                    '[data-toggle-col="hebrew"]', '#toggle-hs-vers', '#toggle-contextmarkeringen',
-                ],
-            },
-            {
-                key: 'leestekst', label: 'Leestekst',
-                selectors: [
-                    '#toggle-citaten', '#toggle-doorlopend',
-                    '#toggle-versnummers', '#toggle-hoofdstuknummers',
-                    '#toggle-lettertype-alternatief', '[data-optie="thema"]',
-                    '#opt-regelafstand', '#toggle-pericopen', '#options-zoom', '#toggle-dyslexia',
-                ],
-            },
-            {
-                key: 'theologie', label: 'Theologie',
-                selectors: [
-                    '#opt-boekvolgorde', '[data-option-summary="godsnaam"]',
-                    '[data-option-summary="heereNT"]',
-                    '[data-option-summary="otSheol"]', '[data-option-summary="jezusNaam"]',
-                    '[data-option-summary="arabischeNamen"]',
-                    '[data-option-summary="maatstelsel"]', '[data-option-summary="getalweergave"]',
-                    '[data-option-summary="tijdrekening"]', '#toggle-apocriefe-boeken',
-                    '#toggle-ethiopische-boeken',
-                ],
-            },
-            {
-                key: 'voorlezen', label: 'Voorlezen',
-                selectors: ['[name="opt-stem"]', '#opt-audio-speed'],
-            },
+            { key: 'leestekst', label: 'Leestekst', selectors: [
+                '#toggle-book-intro', '#toggle-chapter-intro', '#toggle-citaten', '#toggle-doorlopend',
+                '#toggle-versnummers', '#toggle-hoofdstuknummers', '#toggle-lettertype-alternatief',
+                '[data-optie="thema"]', '#opt-regelafstand', '#toggle-pericopen', '#options-zoom', '#toggle-dyslexia'
+            ] },
+            { key: 'navigatie', label: 'Navigatie', selectors: ['#opt-boekvolgorde', '#toggle-apocriefe-boeken'] },
+            { key: 'voorlezen', label: 'Voorlezen', selectors: ['[name="opt-stem"]', '#opt-audio-speed'] },
         ];
 
         const originalPanels = Array.from(body.querySelectorAll('.options-tabpanel'));

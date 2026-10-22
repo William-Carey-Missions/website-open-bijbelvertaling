@@ -514,7 +514,7 @@
           "marker": "3",
           "type": "explanatory",
           "text1637": "Het Hebr. woort dat heyl ofte behoudenisse beteeckent, heeft hier een letter meer als ordinaris, het welcke sommige houden te strecken tot vermeerderinge, ofte uytbreydinge, ende settent over, gantsch geen heyl.",
-          "text2026": "Het Hebreeuws, יְֽשׁוּעָתָ: woord dat heyl of behoudenis betekend, heeft hier een letter meer als ordinaris, het welke sommige houden te strekken tot vermeerdering, of uitbreyding, en settent over, geheel geen heyl.",
+          "text2026": "Het Hebreeuwse woord יְֽשׁוּעָתָ, dat heyl of behoudenis betekend, heeft hier een letter meer als ordinaris, het welke sommige houden te strekken tot vermeerdering, of uitbreyding, en settent over, geheel geen heyl.",
           "textSV1888": "3 geen heil: Het Hebreeuwse woord יְֽשׁוּעָתָ, dat heil of behoudenis betekent, heeft hier een letter meer dan gewoonlijk, hetwelk sommigen houden te strekken tot vermeerdering, of uitbreiding, en zetten het over, gans geen heil."
         },
         {
@@ -1917,7 +1917,7 @@
           "marker": "10",
           "type": "explanatory",
           "text1637": "Menschelick van Godt gesproken: gelijckmen tot menschen, die stil sitten, ende de hant niet aen’t werck slaen, pleecht te seggen, Staet op, aenvaert het werck: Alsoo bidt David, dat Godt het werck sijner verlossinge by der hant neme.",
-          "text2026": "Menselijk van God gesproken: gelijckmen tot mensen, die stil zitten, en de hant niet aan’t werk slaan, pleecht te zeggen, Staat op, aenvaart het werk: Zo ook bidt David, dat God het werk zijn verlossing bij van de hant neme.",
+          "text2026": "Menselijk van God gesproken: gelijckmen tot mensen, die stil zitten, en de hant niet aan’t werk slaan, pleecht te zeggen, Staat op, aenvaart het werk: Zo ook bidt David, dat God het werk zijn verlossing bij de hant neme.",
           "textSV1888": "10 Sta op: Menselijk van God gesproken; gelijk men tot mensen, die stilzitten en de hand niet aan het werk slaan, pleegt te zeggen: Staat op, aanvaardt het werk. Alzo bidt David dat God het werk zijner verlossing bij de hand neme."
         },
         {
@@ -2288,10 +2288,13 @@
           }
         },
         {
-          "tekst": "kinnebakken",
+          "tekst": "kaak",
           "voorkomen": 1,
           "strongs": [
             "H3895"
+          ],
+          "morfologie": [
+            "HNcbsa"
           ],
           "bronwoorden": [
             "לֶ֑חִי"
@@ -2302,42 +2305,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 3:7",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
-            ]
-          }
-        },
-        {
-          "tekst": "verbroken",
-          "voorkomen": 1,
-          "strongs": [
-            "H7665"
-          ],
-          "bronwoorden": [
-            "שִׁבַּֽרְתָּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
-            "referentie": "PSA 3:7",
-            "bronindices": [
-              10
             ]
           }
         },
@@ -2392,6 +2372,33 @@
             "referentie": "PSA 3:7",
             "bronindices": [
               12
+            ]
+          }
+        },
+        {
+          "tekst": "verbroken",
+          "voorkomen": 1,
+          "strongs": [
+            "H7665"
+          ],
+          "bronwoorden": [
+            "שִׁבַּֽרְתָּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
+            "referentie": "PSA 3:7",
+            "bronindices": [
+              10
             ]
           }
         }

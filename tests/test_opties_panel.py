@@ -238,6 +238,7 @@ class OptionsPanelBrowserTests(unittest.TestCase):
             "grondtalen.png", "oudste-handschrift.png", "onderwerptags.png",
             "strong-nummers.png",
             "apocriefe-boeken.png", "ethiopische-boeken.png",
+            "spoor.png",
         }
         page = self.open_reader()
         try:
@@ -339,7 +340,8 @@ class OptionsPanelBrowserTests(unittest.TestCase):
             typography = verse.evaluate(
                 "el => ({font: getComputedStyle(el).fontFamily, line: parseFloat(getComputedStyle(el).lineHeight)})"
             )
-            self.assertIn("Fira Sans", typography["font"])
+            # Ontwerp 2026: het alternatieve (schreefloze) lettertype is IBM Plex Sans.
+            self.assertIn("IBM Plex Sans", typography["font"])
             self.assertGreater(typography["line"], 32)
             page.wait_for_function(
                 """() => {
@@ -388,7 +390,7 @@ class OptionsPanelBrowserTests(unittest.TestCase):
             )
             self.assertEqual(
                 godsnaam_values,
-                ["ov", "klassiek", "jehovah", "jhwh"],
+                ["ov", "klassiek", "jehovah", "yehovah", "jhwh", "yhwh"],
             )
             self.assertEqual(
                 set(column_values),
@@ -428,6 +430,31 @@ class OptionsPanelBrowserTests(unittest.TestCase):
                 "window.Opties && window.Opties.state.godsnaam === 'klassiek'"
             )
             self.assertTrue(klassiek.is_checked())
+        finally:
+            page.close()
+
+    def test_godsnaam_yehovah_vervangt_de_naam_in_de_leestekst(self):
+        page = self.open_reader(location="genesis/2")
+        try:
+            page.wait_for_function(
+                "window.Opties && window.Opties.state && window.Opties.state.godsnaam"
+            )
+            vers = page.locator('.verse-row[data-verse="4"] .col-2026')
+            vers.wait_for(state="visible", timeout=15_000)
+            self.assertIn("God JAHWEH", vers.inner_text())
+
+            page.locator("#topnav-weergave").click()
+            theology = page.locator('details[data-options-category="theologie"]')
+            godsnaam = theology.locator('[data-option-summary="godsnaam"]')
+            godsnaam.locator(":scope > summary").click()
+            godsnaam.locator('[data-optie="godsnaam"][value="yehovah"]').check()
+            page.wait_for_function(
+                "document.querySelector('.verse-row[data-verse=\"4\"] .col-2026')"
+                ".innerText.includes('Yehováh')"
+            )
+
+            self.assertIn("God Yehováh", vers.inner_text())
+            self.assertNotIn("JAHWEH", vers.inner_text())
         finally:
             page.close()
 

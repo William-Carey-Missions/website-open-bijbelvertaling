@@ -588,7 +588,7 @@
           "type": "explanatory",
           "textSV1888": "des morgens: Want Sauls trawanten meenden hem des morgens te doden, vers 11 . Anders, tot morgen, want middelertijd had Jonathan voorgenomen met Saul voor David ten beste te spreken, en te vernemen of Saul nog volhardde in zijn boos voornemen. 1 Samuël 19:11 : Maar Saul zond boden heen tot Davids huis, dat zij hem bewaarden, en dat zij hem des morgens doodden. Dit gaf Michal, zijn huisvrouw, David te kennen, zeggende: Indien gij uw ziel dezen nacht niet behoedt, zo zult gij morgen gedood worden.",
           "text1637": "Want Sauls trauwanten meynden hem smorgens te dooden, vers 11. And. tot morgen, want midler tijt hadde Ionathan voorgenomen met Saul voor David ten besten te spreken, ende te vernemen of Saul noch volhardde in sijn boos voornemen.",
-          "text2026": "van de morgen: Want Sauls trawanten meenden hem van de morgen te doden, vers 11 . Anders, tot morgen, want middelertijd had Jonathan voorgenomen met Saul voor David ten beste te spreken, en te vernemen of Saul nog volhardde in zijn boos voornemen. 1 Samuël 19:11 : Maar Saul zond boden heen tot Davids huis, dat zij hem bewaarden, en dat zij hem van de morgen doodden. Dit gaf Michal, zijn huisvrouw, David te kennen, zeggende: Als u uw ziel deze nacht niet behoedt, zo zult u morgen gedood worden."
+          "text2026": "'s morgens: Want Sauls trawanten meenden hem 's morgens te doden, vers 11 . Anders, tot morgen, want middelertijd had Jonathan voorgenomen met Saul voor David ten beste te spreken, en te vernemen of Saul nog volhardde in zijn boos voornemen. 1 Samuël 19:11 : Maar Saul zond boden heen tot Davids huis, dat zij hem bewaarden, en dat zij hem 's morgens doodden. Dit gaf Michal, zijn huisvrouw, David te kennen, zeggende: Als u uw ziel deze nacht niet behoedt, zo zult u morgen gedood worden."
         }
       ],
       "grondtekst": [
@@ -1448,10 +1448,13 @@
           }
         },
         {
-          "tekst": "zijn",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H8033"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
             "שָׁ֔ם"
@@ -1462,18 +1465,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:3",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
-          },
-          "toelichting": "שָׁם ('daar') gaat op in 'waar u zult zijn'; het anker staat op 'zijn'."
+          }
         },
         {
           "tekst": "ik",
@@ -5240,33 +5246,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Saul",
-          "voorkomen": 1,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "שָׁא֜וּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "zocht",
           "voorkomen": 1,
           "strongs": [
@@ -5294,6 +5273,33 @@
           }
         },
         {
+          "tekst": "Saul",
+          "voorkomen": 1,
+          "strongs": [
+            "H7586"
+          ],
+          "bronwoorden": [
+            "שָׁא֜וּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
           "tekst": "spitten",
           "voorkomen": 1,
           "strongs": [
@@ -5317,6 +5323,33 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               2
+            ]
+          }
+        },
+        {
+          "tekst": "speer",
+          "voorkomen": 1,
+          "strongs": [
+            "H2595"
+          ],
+          "bronwoorden": [
+            "בַּֽ/חֲנִית֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "bronindices": [
+              5
             ]
           }
         },
@@ -5371,60 +5404,6 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               4
-            ]
-          }
-        },
-        {
-          "tekst": "speer",
-          "voorkomen": 1,
-          "strongs": [
-            "H2595"
-          ],
-          "bronwoorden": [
-            "בַּֽ/חֲנִית֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "David",
-          "voorkomen": 2,
-          "strongs": [
-            "H1732"
-          ],
-          "bronwoorden": [
-            "וְ/דָוִ֛ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              6
             ]
           }
         },
@@ -5510,33 +5489,6 @@
           }
         },
         {
-          "tekst": "speer",
-          "voorkomen": 2,
-          "strongs": [
-            "H2595"
-          ],
-          "bronwoorden": [
-            "הַ/חֲנִ֖ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "sloeg",
           "voorkomen": 1,
           "strongs": [
@@ -5566,11 +5518,47 @@
         {
           "tekst": "",
           "voorkomen": 2,
+          "anker": "speer",
+          "plaats": "voor",
           "strongs": [
             "H853"
           ],
+          "morfologie": [
+            "HTo"
+          ],
           "bronwoorden": [
             "אֶֽת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
+          "tekst": "speer",
+          "voorkomen": 2,
+          "strongs": [
+            "H2595"
+          ],
+          "bronwoorden": [
+            "הַ/חֲנִ֖ית"
           ],
           "transliteraties": [
             ""
@@ -5586,13 +5574,9 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:10",
             "bronindices": [
-              12
+              10
             ]
-          },
-          "anker": "wand",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "wand",
@@ -5618,6 +5602,33 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               13
+            ]
+          }
+        },
+        {
+          "tekst": "David",
+          "voorkomen": 2,
+          "strongs": [
+            "H1732"
+          ],
+          "bronwoorden": [
+            "וְ/דָוִ֛ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -5676,33 +5687,6 @@
           }
         },
         {
-          "tekst": "die",
-          "voorkomen": 1,
-          "strongs": [
-            "H1931"
-          ],
-          "bronwoorden": [
-            "הֽוּא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "nacht",
           "voorkomen": 1,
           "strongs": [
@@ -5728,6 +5712,40 @@
               17
             ]
           }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 2,
+          "strongs": [
+            "H1931"
+          ],
+          "morfologie": [
+            "HPp3ms"
+          ],
+          "bronwoorden": [
+            "הֽוּא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "grondindices": [
+              17
+            ],
+            "bronindices": [
+              16
+            ]
+          }
         }
       ]
     },
@@ -5742,7 +5760,7 @@
           "type": "explanatory",
           "textSV1888": "Zie boven, vers 2 . 1 Samuël 19:2 : En Jonathan verkondigde het David, zeggende: Mijn vader Saul zoekt u te doden; nu dan, wacht u toch des morgens, en blijf in het verborgene, en versteek u.",
           "text1637": "Siet bov. vers 2.",
-          "text2026": "Zie boven, vers 2 . 1 Samuël 19:2 : En Jonathan verkondigde het David, zeggende: Mijn vader Saul zoekt u te doden; nu dan, wacht u toch van de morgen, en blijf in het verborgene, en versteek u."
+          "text2026": "Zie boven, vers 2 . 1 Samuël 19:2 : En Jonathan verkondigde het David, zeggende: Mijn vader Saul zoekt u te doden; nu dan, wacht u toch 's morgens, en blijf in het verborgene, en versteek u."
         },
         {
           "marker": "11",
@@ -7662,7 +7680,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, te bezoeken, kwanswijs, alsof zij hem uit vriendschap in zijn ziekte kwamen bezoeken. Doch voornamelijk om te zien, of hij in der waarheid ziek was, of dat hij zich ziek hield, en in alle geval hem mede te nemen.",
           "text1637": "D. te besoecken, quansuys, als of sy hem uyt vrientschap in sijn sieckte quamen visiteren. Doch principalick om te sien, of hy in der waerheyt sieck was, of dat hy den sieckaert maeckte, ende in allen gevalle hem mede te nemen.",
-          "text2026": "Dat is, te bezoeken, kwanswijs, alsof zij hem uit vriendschap in zijn ziekte kwamen bezoeken. Maar voornamelijk om te zien, of hij in van de waarheid ziek was, of dat hij zich ziek hield, en in alle geval hem mee te nemen."
+          "text2026": "Dat is, te bezoeken, kwanswijs, alsof zij hem uit vriendschap in zijn ziekte kwamen bezoeken. Maar voornamelijk om te zien, of hij in waarheid ziek was, of dat hij zich ziek hield, en in alle geval hem mee te nemen."
         }
       ],
       "grondtekst": [
@@ -9134,7 +9152,7 @@
           "type": "explanatory",
           "textSV1888": "hij kwam tot Samuël: Te weten, om raad te vragen wat hij doen zou, en ook vermoedende dat hij daar vrijer dan ergens anders wezen zou in het gezelschap van Samuël en de andere profeten, die zelf te Gibea, onaangezien de Filistijnen aldaar hun garnizoen hadden, vrij waren, 1 Sam. 10:10 . 1 Samuël 10:10 : Toen zij daar aan den heuvel kwamen, zie, zo kwam hem een hoop profeten tegemoet; en de Geest des HEEREN werd vaardig over hem, en hij profeteerde in het midden van hen.",
           "text1637": "T.w. om raet te vragen wat hy doen soude, ende oock vermoedende, dat hy daer vryer als ergens anders wesen soude in’t geselschap van Samuel, ende d’ander Propheten, die selfs te Gibea, onaengesien de Philistijnen aldaer haer garnisoen hadden, vry waren, 1.Sam. 10.10.",
-          "text2026": "hij kwam tot Samuël: Te weten, om raad te vragen wat hij doen zou, en ook vermoedende dat hij daar vrijer dan ergens anders wezen zou in het gezelschap van Samuël en de andere profeten, die zelf te Gibeä, onaangezien de Filistijnen daar hun garnizoen hadden, vrij waren, 1 Sam. 10:10 . 1 Samuël 10:10 : Toen zij daar aan de heuvel kwamen, zie, zo kwam hem één hoop profeten tegemoet; en de Geest van JAHWEH kwam met kracht over hem, en hij profeteerde in het midden van hen."
+          "text2026": "hij kwam tot Samuël: Te weten, om raad te vragen wat hij doen zou, en ook vermoedende dat hij daar vrijer dan ergens anders wezen zou in het gezelschap van Samuël en de andere profeten, die zelf te Gibeä, onaangezien de Filistijnen daar hun garnizoen hadden, vrij waren, 1 Sam. 10:10 . 1 Samuël 10:10 : Toen zij daar aan de heuvel kwamen, zie, zo kwam hem een hoop profeten tegemoet; en de Geest van JAHWEH kwam met kracht over hem, en hij profeteerde in het midden van hen."
         },
         {
           "marker": "20",
@@ -10033,7 +10051,7 @@
           "type": "explanatory",
           "textSV1888": "profeteerden ook: Dat is, zij stelden zich aan gelijk de profeten deden als zij profeteerden. Zie boven, 1 Sam. 18:10 . Het schijnt dat deze boden van Saul zo van zin veranderd zijn geworden dat zij, hun wapenen afleggende, niet verder dachten de handen aan David te slaan, daar zij nochtans om uitgezonden waren. 1 Samuël 18:10 : En het geschiedde des anderen daags, dat de boze geest Gods over Saul vaardig werd, en hij profeteerde midden in het huis, en David speelde op snarenspel met zijn hand, als van dag tot dag; Saul nu had een spies in zijn hand.",
           "text1637": "D. Sy stelden haer aen gelijck de Propheten deden als sy propheteren, siet bov. cap. 18.10. Het schijnt dat dese boden Sauls soo van sinne zijn verandert geworden, dat sy hare wapenen af-leggende, niet verder en gedachten de handen aen David te slaen, daer sy nochtans om uyt-gesonden waren.",
-          "text2026": "profeteerden ook: Dat is, zij stelden zich aan gelijk de profeten deden als zij profeteerden. Zie boven, 1 Sam. 18:10 . Het schijnt dat deze boden van Saul zo van zin veranderd zijn geworden dat zij, hun wapenen afleggende, niet verder dachten de handen aan David te slaan, daar zij nochtans om uitgezonden waren. 1 Samuël 18:10 : En het geschiedde van de anderen daags, dat de boze geest van God met kracht over Saul kwam, en hij profeteerde midden in het huis, en David speelde op snarenspel met zijn hand, als van dag tot dag; Saul nu had een spies in zijn hand."
+          "text2026": "profeteerden ook: Dat is, zij stelden zich aan gelijk de profeten deden als zij profeteerden. Zie boven, 1 Sam. 18:10 . Het schijnt dat deze boden van Saul zo van zin veranderd zijn geworden dat zij, hun wapenen afleggende, niet verder dachten de handen aan David te slaan, daar zij nochtans om uitgezonden waren. 1 Samuël 18:10 : En het geschiedde de volgende dag, dat de boze geest van God met kracht over Saul kwam, en hij profeteerde midden in het huis, en David speelde op snarenspel met zijn hand, als van dag tot dag; Saul nu had een spies in zijn hand."
         }
       ],
       "grondtekst": [
@@ -12113,13 +12131,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "voortgaande",
+          "tekst": "ging",
           "voorkomen": 1,
           "strongs": [
-            "H1980"
+            "H3212"
           ],
           "bronwoorden": [
-            "הָלוֹךְ֙"
+            "וַ/יֵּ֣לֶךְ"
           ],
           "transliteraties": [
             ""
@@ -12135,9 +12153,12 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:23",
             "bronindices": [
-              0
+              11
             ]
-          }
+          },
+          "gids_strongs": [
+            "H1980"
+          ]
         },
         {
           "tekst": "daarheen",
@@ -12245,60 +12266,6 @@
             "referentie": "1SA 19:23",
             "bronindices": [
               4
-            ]
-          }
-        },
-        {
-          "tekst": "Geest",
-          "voorkomen": 1,
-          "strongs": [
-            "H7307"
-          ],
-          "bronwoorden": [
-            "ר֣וּחַ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:23",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "God",
-          "voorkomen": 1,
-          "strongs": [
-            "H430"
-          ],
-          "bronwoorden": [
-            "אֱלֹהִ֗ים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:23",
-            "bronindices": [
-              6
             ]
           }
         },
@@ -12412,13 +12379,13 @@
           "toelichting": "גַּם הוּא ('ook hij') is in de Statenvertaling met 'dezelfde … ook' weergegeven; הוּא draagt 'dezelfde'."
         },
         {
-          "tekst": "ging",
+          "tekst": "Geest",
           "voorkomen": 1,
           "strongs": [
-            "H3212"
+            "H7307"
           ],
           "bronwoorden": [
-            "וַ/יֵּ֣לֶךְ"
+            "ר֣וּחַ"
           ],
           "transliteraties": [
             ""
@@ -12434,21 +12401,18 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:23",
             "bronindices": [
-              11
+              5
             ]
-          },
-          "gids_strongs": [
-            "H1980"
-          ]
+          }
         },
         {
-          "tekst": "al",
+          "tekst": "God",
           "voorkomen": 1,
           "strongs": [
-            "H3212"
+            "H430"
           ],
           "bronwoorden": [
-            "וַ/יֵּ֤לֶךְ"
+            "אֱלֹהִ֗ים"
           ],
           "transliteraties": [
             ""
@@ -12464,13 +12428,50 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:23",
             "bronindices": [
-              12
+              6
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "voortgaande",
+          "voorkomen": 1,
+          "strongs": [
+            "H3212",
             "H1980"
           ],
-          "toelichting": "וַיֵּלֶךְ הָלוֹךְ ('hij ging al voortgaande') is over 'al voortgaande' verdeeld."
+          "morfologie": [
+            "HC/Vqw3ms",
+            "HVqa"
+          ],
+          "bronwoorden": [
+            "וַ/יֵּ֤לֶךְ",
+            "הָלוֹךְ֙"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:23",
+            "grondindices": [
+              11,
+              12
+            ],
+            "bronindices": [
+              11,
+              0
+            ]
+          }
         },
         {
           "tekst": "profeteerde",
@@ -12627,14 +12628,14 @@
           "type": "explanatory",
           "textSV1888": "Versta, dat hij gelijk als in een verrukking van zinnen is gevallen, gelijk zulks somtijds den profeten is wedervaren. Zie Num. 24:4 . Of, hij viel neder, gelijk de anderen in het bidden zich tegen de aarde strekkende, zich alzo tezamen voor den Heere verootmoedigende. Numeri 24:4 : De hoorder der redenen Gods spreekt, die het gezicht des Almachtigen ziet; die verrukt wordt, en wien de ogen ontdekt worden!",
           "text1637": "Verst. dat hy gelijck als in een verruckinge van sinnen is gevallen, gelijck sulcx somtijts den Propheten is wedervaren. Siet Num. 24.4. ofte, hy viel neder, gelijck de andere, in het bidden haer tegen d’aerde streckende, haer alsoo t’samen voor den Heere verootmoedigende.",
-          "text2026": "Versta, dat hij gelijk als in een verrukking van zinnen is gevallen, gelijk dat somtijds de profeten is wedervaren. Zie Num. 24:4 . Of, hij viel neder, gelijk de anderen in het bidden zich tegen de aarde strekkende, zich zo tezamen voor de Heer verootmoedigende. Numeri 24:4 : De hoorder van de redenen Gods spreekt, die het gezicht van de Almachtigen ziet; die verrukt wordt, en wie de ogen ontdekt worden!"
+          "text2026": "Versta, dat hij gelijk als in een verrukking van zinnen is gevallen, gelijk dat somtijds de profeten is wedervaren. Zie Num. 24:4 . Of, hij viel neder, gelijk de anderen in het bidden zich tegen de aarde strekkende, zich zo tezamen voor de Heer verootmoedigende. Numeri 24:4 : De hoorder van de redenen Gods spreekt, die het gezicht van de Almachtige ziet; die verrukt wordt, en wie de ogen ontdekt worden!"
         },
         {
           "marker": "29",
           "type": "explanatory",
           "textSV1888": "Of, naakt. Versta dit alzo, dat hij zich ontbloot heeft van zijn koninklijk, of opperkleed, of van zijn krijgsmanskleed. Zie dergelijk Jes. 20:2 ; Micha 1:8 . Jesaja 20:2 : Ter zelfder tijd sprak de HEERE, door den dienst van Jesaja, den zoon van Amoz, zeggende: Ga heen, en ontbind den zak van uw lendenen, en doe uw schoenen van uw voeten. En hij deed alzo, gaande naakt en barrevoets. Micha 1:8 : Hierom zal ik misbaar bedrijven en huilen; ik zal beroofd en naakt gaan; ik zal misbaar maken als de draken, en treuren als de jonge struisen.",
           "text1637": "Of naeckt. Verstaet dit alsoo, dat hy sich ontblootet heeft van sijn Conincklick, of opper-kleet, ofte van sijn krijchs-mans kleet, siet dergelijcke Ies. 20.2. Mich. 1.8.",
-          "text2026": "Of, naakt. Versta dit zo, dat hij zich ontbloot heeft van zijn koninklijk, of opperkleed, of van zijn krijgsmanskleed. Zie dergelijk Jes. 20:2 ; Micha 1:8 . Jesaja 20:2 : Ter zelfder tijd sprak JAHWEH, door de dienst van Jesaja, de zoon van Amoz, zeggende: Ga heen, en ontbind de zak van uw lendenen, en doe uw schoenen van uw voeten. En hij deed zo, gaande naakt en barrevoets. Micha 1:8 : Hierom zal ik luid weeklagen bedrijven en huilen; ik zal beroofd en naakt gaan; ik zal luid weeklagen maken als de draken, en treuren als de jonge struisen."
+          "text2026": "Of, naakt. Versta dit zo, dat hij zich ontbloot heeft van zijn koninklijk, of opperkleed, of van zijn krijgsmanskleed. Zie dergelijk Jes. 20:2 ; Micha 1:8 . Jesaja 20:2 : Ter zelfder tijd sprak JAHWEH, door de dienst van Jesaja, de zoon van Amoz, zeggende: Ga heen, en ontbind de zak van uw lendenen, en doe uw schoenen van uw voeten. En hij deed zo, gaande naakt en barrevoets. Micha 1:8 : Hierom zal ik luid weeklagen en huilen; ik zal beroofd en naakt gaan; ik zal luid weeklagen als de draken, en treuren als de jonge struisen."
         },
         {
           "marker": "30",

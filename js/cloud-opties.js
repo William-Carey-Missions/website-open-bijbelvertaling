@@ -73,6 +73,7 @@ const CloudOpties = {
                 const merged = { ...Opties.DEFAULTS };
                 for (const k of Object.keys(cloudState)) merged[k] = cloudState[k];
                 Opties.state = merged;
+                Opties.enforceReaderOptions();
                 try { localStorage.setItem(Opties.STORAGE_KEY, JSON.stringify(Opties.state)); } catch (e) {}
                 this.lastPushedJSON = JSON.stringify(Opties.state);
                 this._applyAll();

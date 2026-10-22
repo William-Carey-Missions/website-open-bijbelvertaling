@@ -8,14 +8,13 @@ def read(name: str) -> str:
     return (ROOT / name).read_text(encoding="utf-8")
 
 
-def test_wiki_loads_global_options_host_without_reader_redirect():
-    wiki = read("wiki.html")
+def test_topnav_loads_global_options_host_without_reader_redirect():
+    # De wiki-shell (die de opties naar zijn frame doorgaf) bestaat sinds de
+    # splitsing niet meer op de OV; elke pagina laadt de host via de topnav.
     topnav = read("js/topnav.js")
 
     assert 'js/global-options-host.js' in topnav
     assert 'index.html?opties=1' not in topnav
-    assert 'postMessage' in wiki
-    assert 'ov:opties-gewijzigd' in wiki
 
 
 def test_reader_has_no_floating_or_mobile_options_opener():

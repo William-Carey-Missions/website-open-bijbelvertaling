@@ -5,13 +5,14 @@ const Opties = {
     STORAGE_KEY: 'sv2026_vertaalopties',
 
     DEFAULTS: {
-        godsnaam: 'ov',          // 'ov' (JAHWEH) | 'klassiek' (HEERE) | 'jehovah' (Jehovah) | 'jhwh' (יהוה)
-        godsnaamOPV: 'heere',    // Open Parafrase Vertaling: 'heere' (zoals geschreven) | 'jahweh' | 'jehovah' | 'jhwh'
+        godsnaam: 'klassiek',          // 'ov' (JAHWEH) | 'klassiek' (HEERE) | 'jehovah' (Jehovah) | 'yehovah' (Yehováh) | 'jhwh' (יהוה) | 'yhwh' (YHWH)
+        godsnaamOPV: 'heere',    // Open Parafrase Weergave: 'heere' (zoals geschreven) | 'jahweh' | 'jehovah' | 'yehovah' | 'jhwh' | 'yhwh'
         heereNT: 'heere',        // NT-aanspreektitel (Kurios): 'heere' (OSV) | 'here' (Heere → Here)
         kolomLayout: 'naast',    // 'naast' (parallelle kolom) | 'eronder' (nieuwe regel onder OV2026)
         boekvolgorde: 'canoniek',// 'canoniek' | 'tenach' | 'chronologisch' | 'auteur' | 'lengte'
         versnummers: 'aan',      // 'aan' | 'uit'
         citaten: 'aan',          // 'aan' | 'uit' — citaatmarkering en sprekerkleuren
+        spoor: 'aan',            // 'aan' | 'uit' — het spoor: woorden die afwijken van SV1888 gestippeld onderstrepen
         otSheol: 'dodenrijk',    // 'dodenrijk' (OT-context, modern) | 'hel' (SV-traditioneel)
         thema: 'auto',           // 'auto' (systeem) | 'licht' | 'donker'
         arabischeNamen: 'uit',   // 'uit' (Nederlandse namen) | 'aan' (Musa, Ibrahim, Isa …) — alleen OV-tekst
@@ -34,6 +35,15 @@ const Opties = {
 
     state: {},
 
+    enforceReaderOptions() {
+        Object.assign(this.state, {
+            godsnaam: 'klassiek', heereNT: 'heere', otSheol: 'dodenrijk',
+            arabischeNamen: 'uit', jezusNaam: 'nl', maatstelsel: 'metrisch',
+            getalweergave: 'woorden', tijdrekening: 'bijbels', spoor: 'uit',
+            geoMarkeren: 'uit', strongs: 'uit', ethiopischeBoeken: 'uit', teksteditie: 'nl-ov', parallelEdities: [],
+        });
+    },
+
     // Vervang-paren voor Arabische namen ([regex, translit]); lui geladen uit data/namen-arabisch.json
     _arNamen: null,
     _geoData: {},            // per boek: { namen:{naam:{type}}, verzen:{"ch:vs":[substrings]} }
@@ -54,6 +64,8 @@ const Opties = {
         } catch (e) {
             this.state = { ...defaults };
         }
+        this.enforceReaderOptions();
+        if (!['canoniek', 'tenach', 'chronologisch', 'auteur', 'lengte', 'katholiek', 'orthodox'].includes(this.state.boekvolgorde)) this.state.boekvolgorde = 'canoniek';
         // Een geldige URL-keuze heeft in deze tab voorrang op de opslag.
         if (typeof TekstEditie !== 'undefined') this.state.teksteditie = TekstEditie.code();
         // Een oudere versie bewaarde citaatopmaak onder een losse sleutel.
@@ -87,17 +99,12 @@ const Opties = {
         // Arabische namen lui laden (en, indien al ingeschakeld, hoofdstuk herrenderen).
         // De geodata van de Tora is alleen nodig voor Tekstverbanden; die komt pas
         // als de optie aan staat of aangezet wordt.
-        this.ready = Promise.all([
-            this.loadArabischeNamen(),
-            this.state.geoMarkeren === 'aan' ? this.loadGeoData() : Promise.resolve(),
-            this.loadEenheden(),
-            this.loadTijden(),
-        ]);
+        this.ready = this.loadEenheden();
 
-        // Klik op een gemarkeerde geografische locatie -> geografie-pagina (later: kaart/geodata)
+        // Klik op een gemarkeerde geografische locatie -> geografie-pagina op Open Gods Woord
         document.addEventListener('click', function (e) {
             var geo = e.target.closest && e.target.closest('.geo-locatie');
-            if (geo) { window.location.href = 'geografie.html'; }
+            if (geo) { window.location.href = KASites.url('ogw', 'geografie.html'); }
         });
 
         // Versnummers-checkbox (in 'Pagina & leeshulp') synchroniseren met state
@@ -255,6 +262,7 @@ const Opties = {
     },
 
     save() {
+        this.enforceReaderOptions();
         localStorage.setItem(this.STORAGE_KEY, JSON.stringify(this.state));
         window.dispatchEvent(new CustomEvent('ov:opties-gewijzigd', {
             detail: { state: { ...this.state } }
@@ -267,6 +275,7 @@ const Opties = {
      * en blijven van HTML-tags af.
      */
     transformOV(html, testament) {
+        this.enforceReaderOptions();
         if (!html) return html;
         let out = html;
 
@@ -312,10 +321,22 @@ const Opties = {
                 [/\bGod JAHWEH\b/g, 'God Jehovah'],
                 [/\bJAHWEH\b/g, 'Jehovah'],
             ]);
+        } else if (this.state.godsnaam === 'yehovah') {
+            out = this._replaceOutsideTags(out, [
+                [/\bGod JAHWEH\b/g, 'God Yehováh'],
+                [/\bJAHWEH\b/g, 'Yehováh'],
+            ]);
         } else if (this.state.godsnaam === 'jhwh') {
             out = this._replaceOutsideTags(out, [
                 [/\bGod JAHWEH\b/g, 'God יהוה'],
                 [/\bJAHWEH\b/g, 'יהוה'],
+            ]);
+        } else if (this.state.godsnaam === 'yhwh') {
+            // De vier medeklinkers in Latijnse letters: de naam zonder klinkers,
+            // zoals de Hebreeuwse tekst hem schrijft.
+            out = this._replaceOutsideTags(out, [
+                [/\bGod JAHWEH\b/g, 'God YHWH'],
+                [/\bJAHWEH\b/g, 'YHWH'],
             ]);
         }
         // 'ov': geen transformatie
@@ -646,7 +667,7 @@ const Opties = {
     },
 
     /**
-     * De Godsnaam in de Open Parafrase Vertaling. Die tekst schrijft HEERE, dus
+     * De Godsnaam in de Open Parafrase Weergave. Die tekst schrijft HEERE, dus
      * dit werkt andersom dan transformOV: HEERE is de bron, JAHWEH de keuze.
      * Een eigen optie, omdat de OPV een andere standaard heeft dan de OV.
      *
@@ -656,7 +677,7 @@ const Opties = {
      */
     transformOPV(html) {
         if (!html) return html;
-        const naam = { jahweh: 'JAHWEH', jehovah: 'Jehovah', jhwh: 'יהוה' }[this.state.godsnaamOPV];
+        const naam = { jahweh: 'JAHWEH', jehovah: 'Jehovah', yehovah: 'Yehováh', jhwh: 'יהוה', yhwh: 'YHWH' }[this.state.godsnaamOPV];
         if (!naam) return html;
         return this._replaceOutsideTags(html, [
             [/\b(?:[Dd]e|DE) HEERE\b/g, naam],

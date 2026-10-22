@@ -9,10 +9,15 @@ Output formaat (compact):
     [{"b": "genesis", "c": 1, "v": 1, "t": "In de beginne schiep God de hemel en de aarde."}, ...]
 
 Korte keys (b/c/v/t) houden de bestandsgrootte beperkt.
+
+Met --editie CODE (bijv. nl-opv) komt de tekst uit de leeseditie in
+data/vertalingen/CODE/{boek}/{nr}.json (veld verzen[].tekst). Zo zoekt de
+site van de Open Parafrase Weergave in de parafrase en niet in de OV.
 """
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import sys
@@ -86,7 +91,26 @@ def iter_chapters(book_id: str):
         yield ch.get("number"), ch
 
 
+def iter_edition_verses(code: str, book_id: str):
+    """Yield (hoofdstuk, vers, tekst) uit data/vertalingen/{code}/{boek}/."""
+    book_dir = DATA_DIR / "vertalingen" / code / book_id
+    if not book_dir.is_dir():
+        return
+    files = sorted((fp for fp in book_dir.glob("*.json") if fp.stem.isdigit()),
+                   key=lambda fp: int(fp.stem))
+    for fp in files:
+        with fp.open("r", encoding="utf-8") as f:
+            chapter = json.load(f)
+        for verse in chapter.get("verzen", []) or []:
+            yield int(fp.stem), verse.get("nummer"), verse.get("tekst") or ""
+
+
 def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument("--editie", default="nl-ov",
+                        help="nl-ov (standaard) of een code uit data/vertalingen/")
+    editie = parser.parse_args().editie
+
     if not BOOKS_JSON.exists():
         print(f"books.json niet gevonden: {BOOKS_JSON}", file=sys.stderr)
         return 1
@@ -101,6 +125,18 @@ def main() -> int:
     for book in books:
         book_id = book["id"]
         added_for_book = 0
+        if editie != "nl-ov":
+            for ch_num, v_num, tekst in iter_edition_verses(editie, book_id):
+                text = strip_html(tekst)
+                if v_num is None or not text:
+                    continue
+                entries.append({"b": book_id, "c": ch_num, "v": v_num, "t": text})
+                added_for_book += 1
+            if added_for_book == 0:
+                skipped_books.append(book_id)
+            else:
+                book_count += 1
+            continue
         for ch_num, chapter in iter_chapters(book_id):
             if ch_num is None:
                 continue

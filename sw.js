@@ -8,9 +8,9 @@
  * Versionering: bump VERSION bij elke deploy om alle caches te vernieuwen.
  */
 
-const VERSION = 'v0.59.6';
+const VERSION = 'v0.60.0';
 // New reader modules must not be mixed with HTML from before verification.
-const CACHE_VERSION = `${VERSION}-verification-v13`;
+const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1-ontwerp1`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `data-${CACHE_VERSION}`;
 const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
@@ -19,16 +19,19 @@ const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
 const PRECACHE_URLS = [
     '/',
     '/index.html',
+    '/llms.txt',
+    '/LLM.txt',
+    '/css/publication.css',
+    '/images/branding/open-vertaling-logo-light.svg',
     '/js/theme.js',
     '/js/auth-bootstrap.js',
     '/js/firebase-config.js',
     '/js/auth.js',
     '/js/iframe-navigation.js',
-    '/js/doc-sidebar.js',
-    '/css/doc-sidebar.css',
     '/css/style.css',
     '/js/storage.js',
     '/js/i18n.js',
+    '/js/reader-policy.js',
     '/js/teksteditie.js',
     '/js/data-loader.js',
     '/js/verification.js',
@@ -40,49 +43,42 @@ const PRECACHE_URLS = [
     '/css/corrections.css',
     '/css/collaboration.css',
     '/js/chapter-renderer.js',
-    '/js/lees-renderer.js',
     '/css/verification.css',
     '/js/citatie-uit.js',
     '/js/assets.js',
     '/js/book-orders.js',
     '/js/navigation.js',
     // Lokale fonts — pre-cachen zodat ze ook in slechte verbinding-situaties direct aanwezig zijn
-    '/fonts/allura-400.woff2',
-    '/fonts/fira-sans-400.woff2',
-    '/fonts/fira-sans-500.woff2',
-    '/fonts/fira-sans-600.woff2',
-    '/fonts/fira-sans-700.woff2',
-    '/fonts/eb-garamond-400.woff2',
-    '/fonts/eb-garamond-400-italic.woff2',
-    '/fonts/eb-garamond-500.woff2',
-    '/fonts/eb-garamond-600.woff2',
-    '/fonts/eb-garamond-700.woff2',
+    // Ontwerp 2026: Source Serif 4 (Bijbeltekst), IBM Plex Sans/Mono (interface).
+    // Alleen de latin-subsets; latin-ext laadt de browser pas als een tekst
+    // die tekens nodig heeft. Fira Sans en EB Garamond zijn geen hoofdletter
+    // meer en worden niet meer vooraf opgehaald.
+    '/fonts/source-serif-4-latin-normal.woff2',
+    '/fonts/source-serif-4-latin-italic.woff2',
+    '/fonts/ibm-plex-sans-latin-400.woff2',
+    '/fonts/ibm-plex-sans-latin-500.woff2',
+    '/fonts/ibm-plex-sans-latin-600.woff2',
+    '/fonts/ibm-plex-mono-latin-500.woff2',
     '/fonts/noto-serif-hebrew.woff2',
     '/css/fonts.css',
+    '/css/ontwerp.css',
+    '/js/startscherm.js',
     '/js/sidebar.js',
     '/js/app.js',
     '/js/opties.js',
     '/js/optie-maten.js',
-    '/js/begrippen.js',
     '/js/references.js',
     '/js/verwijzing-popup.js',
-    '/js/noot-grondwoorden.js',
     '/css/verwijzing-popup.css',
-    '/js/lexicon.js',
-    '/js/woordnummers.js',
     '/js/editor.js',
     '/js/export.js',
-    '/js/column-resize.js',
-    '/js/column-reorder.js',
-    '/js/kolom-chips.js',
     '/js/verse-select.js',
     '/js/highlight.js',
     '/js/tags.js',
     '/js/search.js',
     '/js/cloud-opties.js',
-    '/js/stats-inject.js',
+    '/js/sites.js',
     '/data/books.json',
-    '/data/vertalingen/manifest.json',
     '/i18n/nl.json',
     '/data/stats.json',
 ];

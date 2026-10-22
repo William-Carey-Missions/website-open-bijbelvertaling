@@ -59,7 +59,7 @@ window.OV_AUDIO = {
     label(v) { return this.labels[v || this.getVoice()]; },
     src(bookId, chapter) { return window.OV_ASSETS.url(`audio/${bookId}/${chapter}-${this.getVoice()}.mp3`); },
     // De opnames lezen de Open Vertaling voor. Staat er een andere teksteditie in
-    // beeld, zoals de Open Parafrase Vertaling, dan hoort de opname niet bij de tekst.
+    // beeld, zoals de Open Parafrase Weergave, dan hoort de opname niet bij de tekst.
     available(bookId, chapter) {
         const editie = (window.TekstEditie && typeof window.TekstEditie.code === 'function') ? window.TekstEditie.code() : 'nl-ov';
         if (editie !== 'nl-ov') return false;

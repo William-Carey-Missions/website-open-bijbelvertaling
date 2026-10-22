@@ -59,6 +59,9 @@ def verstekst(vers):
     ruw = vers.get("text2026_html") or vers.get("text2026") or vers.get("textHerzien") or ""
     ruw = re.sub(r"<sup[^>]*>.*?</sup>", "", ruw)      # kanttekening-markers
     ruw = re.sub(r"<[^>]+>", "", ruw)                   # overige opmaak
+    ruw = ruw.replace("God JAHWEH", "de HEERE God")
+    ruw = re.sub(r"\bJAHWEH\b", "de HEERE", ruw)
+    ruw = re.sub(r"\bde de HEERE\b", "de HEERE", ruw)
     return re.sub(r"\s+", " ", ruw).strip()
 
 

@@ -156,6 +156,22 @@ class CollaborationStoreTests(unittest.TestCase):
     def tearDown(self):
         self.directory.cleanup()
 
+    def test_database_context_closes_connections_after_commit_and_rollback(self):
+        import sqlite3
+        with self.store._connect() as db:
+            db.execute("CREATE TABLE connection_probe (value TEXT)")
+            db.execute("INSERT INTO connection_probe VALUES ('committed')")
+        with self.assertRaises(sqlite3.ProgrammingError):
+            db.execute("SELECT 1")
+        with self.assertRaisesRegex(RuntimeError, "rollback"):
+            with self.store._connect() as failed:
+                failed.execute("INSERT INTO connection_probe VALUES ('rolled back')")
+                raise RuntimeError("rollback")
+        with self.assertRaises(sqlite3.ProgrammingError):
+            failed.execute("SELECT 1")
+        with self.store._connect() as check:
+            self.assertEqual([row[0] for row in check.execute("SELECT value FROM connection_probe")], ["committed"])
+
     def test_bootstrap_accounts_are_administrators_and_reviewers(self):
         self.assertEqual(self.admin["roles"], ["administrator", "reviewer"])
         self.assertEqual(self.maarten["roles"], ["administrator", "reviewer"])

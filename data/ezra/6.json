@@ -26,7 +26,7 @@
           "type": "explanatory",
           "textSV1888": "Zie boven, Ezra 5:17 . Ezra 5:17 : Zo het dan nu den koning goeddunkt, laat er gezocht worden in het schathuis des konings aldaar, dat te Babel is, of het zij, dat een bevel van den koning Kores gegeven zij, om dit huis Gods te Jeruzalem te bouwen; en dat men des konings believen hiervan tot ons zende.",
           "text1637": "Siet bov. cap. 5. op vers 17.",
-          "text2026": "Zie boven, Ezra 5:17 . Ezra 5:17 : Zo het dan nu de koning goeddunkt, laat er gezocht worden in het schathuis van de koning daar, dat te Babel is, of het zij, dat een bevel van de koning Kores gegeven zij, om dit huis van God te Jeruzalem te bouwen; en dat men het believen van de koning hiervan tot ons zend."
+          "text2026": "Zie boven, Ezra 5:17 . Ezra 5:17 : Zo het dan nu de koning goeddunkt, laat er gezocht worden in het schathuis van de koning daar, dat te Babel is, of het zij, dat een bevel van de koning Kores gegeven zij, om dit huis van God te Jeruzalem te bouwen; en dat men het believen van de koning hiervan tot ons zendt."
         },
         {
           "marker": "4",
@@ -455,7 +455,7 @@
           "type": "explanatory",
           "textSV1888": "Dit houden sommigen voor Ecbatana, waar de koningen van Medië des zomers hun hof hielden, waarvan zij menen dat deze plaats den naam van Achmetha gekregen heeft, gelijk hun hof des winters gehouden werd te Seleucia, aan de rivier Tigris. Anders, in een koffer, of kast.",
           "text1637": "Dit houden sommige voor Ecbatana, alwaer de Coningen van Meden des somers haer hof hielden, waer van sy meynen dese plaetse den naem van Achmetha gecregen te hebben, gelijck haer hof des winters gehouden wert te Seleucia, aen de riviere Tygris. And. in een koffer, ofte, kasse.",
-          "text2026": "Dit houden sommigen voor Ecbatana, waar de koningen van Medië van de zomers hun hof hielden, waarvan zij menen dat deze plaats de naam van Achmetha gekregen heeft, gelijk hun hof van de winters gehouden werd te Seleucia, aan de rivier Tigris. Anders, in een koffer, of kast."
+          "text2026": "Dit houden sommigen voor Ecbatana, waar de koningen van Medië 's zomers hun hof hielden, waarvan zij menen dat deze plaats de naam van Achmetha gekregen heeft, gelijk hun hof 's winters gehouden werd te Seleucia, aan de rivier Tigris. Anders, in een koffer, of kast."
         },
         {
           "marker": "6",
@@ -469,7 +469,7 @@
           "type": "explanatory",
           "textSV1888": "Dit schijnt het opschrift geweest te zijn van de volgende memorie, of gedenkcedel.",
           "text1637": "Dit schijnt het opschrift geweest te zijn van de volgende memorie, ofte het gedenck-cedel.",
-          "text2026": "Dit schijnt het opschrift geweest te zijn van de volgende memorie, of gebedsriemen."
+          "text2026": "Dit schijnt het opschrift geweest te zijn van de volgende memorie, of gedenkcedel."
         }
       ],
       "grondtekst": [
@@ -686,10 +686,13 @@
           }
         },
         {
-          "tekst": "landschap",
+          "tekst": "gewest",
           "voorkomen": 1,
           "strongs": [
             "H4083"
+          ],
+          "morfologie": [
+            "ANcfsd/Td"
           ],
           "bronwoorden": [
             "מְדִינְתָּ֖/ה"
@@ -700,13 +703,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B12569D5200F912C87C58A990D10CF68B0B914C871CA8F718D90A64F7F867923",
             "referentie": "EZR 6:2",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               6
             ]
@@ -5854,10 +5861,15 @@
           }
         },
         {
-          "tekst": "dat",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "gegeven",
+          "plaats": "voor",
           "strongs": [
             "H1934"
+          ],
+          "morfologie": [
+            "AVqi3ms"
           ],
           "bronwoorden": [
             "לֶהֱוֵ֨א"
@@ -5868,18 +5880,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B12569D5200F912C87C58A990D10CF68B0B914C871CA8F718D90A64F7F867923",
             "referentie": "EZR 6:9",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
-          },
-          "toelichting": "Het hulpwerkwoord לֶהֱוֵא ('het zij') is in 'dat het … gegeven worde' opgegaan; 'dat' draagt het lemma."
+          }
         },
         {
           "tekst": "gegeven",
@@ -7071,10 +7086,13 @@
           }
         },
         {
-          "tekst": "drekhoop",
+          "tekst": "mesthoop",
           "voorkomen": 1,
           "strongs": [
             "H5122"
+          ],
+          "morfologie": [
+            "ANcfsa"
           ],
           "bronwoorden": [
             "נְוָל֥וּ"
@@ -7085,13 +7103,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B12569D5200F912C87C58A990D10CF68B0B914C871CA8F718D90A64F7F867923",
             "referentie": "EZR 6:11",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               19
             ]
@@ -9863,7 +9885,7 @@
           "type": "explanatory",
           "textSV1888": "Vergelijk Exod. 40 ; Num. 7:10 ; 1 Kon. 8:63 ; Neh. 12:27 . Numeri 7:10 : En de oversten offerden ter inwijding des altaars, op den dag als hetzelve gezalfd werd; de oversten dan offerden hun offeranden voor het altaar. 1 Koningen 8:63 : En Salomo offerde ten dankoffer, dat hij den HEERE offerde, twee en twintig duizend runderen, en honderd en twintig duizend schapen. Alzo hebben zij het huis des HEEREN ingewijd, de koning en al de kinderen Israëls. Nehemia 12:27 : In de inwijding nu van Jeruzalems muur, zochten zij de Levieten uit al hun plaatsen, dat zij hen te Jeruzalem brachten, om de inwijding te doen met vreugde, en met dankzeggingen, en met gezang, cimbalen, luiten, en met harpen.",
           "text1637": "Vergel. Exo. 40. Numer. 7. op vers 16. 1.Reg. 8.63. Neh. 12. op vers 27.",
-          "text2026": "Vergelijk Ex. 40 ; Num. 7:10 ; 1 Kon. 8:63 ; Neh. 12:27 . Numeri 7:10 : En de oversten offerden ter inwijding van het altaar, op de dag als hetzelfde gezalfd werd; de oversten dan offerden hun offeranden voor het altaar. 1 Koningen 8:63 : En Salomo offerde ten dankoffer, dat hij JAHWEH offerde, twee en twintig duizend runderen, en honderd en twintig duizend schapen. Zo hebben zij het huis van JAHWEH ingewijd, de koning en al de kinderen van Israël. Nehemia 12:27 : In de inwijding nu van Jeruzalems muur, zochten zij de Levieten uit al hun plaatsen, dat zij hen te Jeruzalem brachten, om de inwijding te doen met vreugde, en met dankzeggingen, en met gezang, cimbalen, luiten, en met harpen."
+          "text2026": "Vergelijk Ex. 40 ; Num. 7:10 ; 1 Kon. 8:63 ; Neh. 12:27 . Numeri 7:10 : En de oversten offerden ter inwijding van het altaar, op de dag als het gezalfd werd; de oversten dan offerden hun offeranden voor het altaar. 1 Koningen 8:63 : En Salomo offerde ten dankoffer, dat hij JAHWEH offerde, twee en twintig duizend runderen, en honderd en twintig duizend schapen. Zo hebben zij het huis van JAHWEH ingewijd, de koning en al de kinderen van Israël. Nehemia 12:27 : In de inwijding nu van Jeruzalems muur, zochten zij de Levieten uit al hun plaatsen, dat zij hen te Jeruzalem brachten, om de inwijding te doen met vreugde, en met dankzeggingen, en met gezang, cimbalen, luiten, en met harpen."
         }
       ],
       "grondtekst": [
@@ -12327,7 +12349,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is hier, van harte te dienen en in zijn wegen te wandelen.",
           "text1637": "D. hier, van herten te dienen, ende in sijne wegen te wandelen.",
-          "text2026": "Dat is hier, van hart te dienen en in zijn wegen te wandelen."
+          "text2026": "Dat is hier, van harte te dienen en in zijn wegen te wandelen."
         }
       ],
       "grondtekst": [

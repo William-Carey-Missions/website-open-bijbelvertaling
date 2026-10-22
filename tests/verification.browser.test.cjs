@@ -39,7 +39,7 @@ test('management pages apply the saved or system theme before opening display se
 });
 
 test('the shared theme toggle changes once before and after loading display settings', async () => {
-    for (const file of ['beoordelingen.html', 'over-ov.html', 'wiki.html#statistieken', 'index.html#genesis/1']) {
+    for (const file of ['beoordelingen.html', 'over-ov.html', 'statistieken.html', 'index.html#genesis/1']) {
         const page = await pageAs('admin');
         await page.emulateMedia({ colorScheme: 'light' });
         await page.addInitScript(() => {
@@ -75,7 +75,7 @@ test('the standalone reader also applies the shared theme without loading the op
     await page.close();
 });
 
-test('cloud and wiki updates apply the same shared theme', async () => {
+test('cloud and documentation pages apply the same shared theme', async () => {
     const page = await pageAs('admin');
     await page.emulateMedia({ colorScheme: 'light' });
     await page.goto(base + '/index.html#genesis/1');
@@ -86,15 +86,15 @@ test('cloud and wiki updates apply the same shared theme', async () => {
         CloudOpties._applyAll();
     });
     assert.equal(await page.locator('html').getAttribute('data-theme'), 'donker');
-    await page.goto(base + '/wiki.html#statistieken');
-    const frame = page.frameLocator('iframe');
-    await frame.locator('h1').waitFor();
+    // Sinds de splitsing geen wiki-frame meer: de documentatiepagina zelf.
+    await page.goto(base + '/statistieken.html');
+    await page.locator('h1').waitFor();
     await page.locator('#topnav-theme-toggle').click();
-    await frame.locator('html[data-theme="donker"]').waitFor();
+    await page.locator('html[data-theme="donker"]').waitFor();
     await page.locator('#topnav-weergave').click();
     await page.locator('#sidebar-right[open]').waitFor();
     await page.locator('#sidebar-right [data-optie="thema"]').selectOption('licht');
-    await frame.locator('html[data-theme="licht"]').waitFor();
+    await page.locator('html[data-theme="licht"]').waitFor();
     await page.close();
 });
 

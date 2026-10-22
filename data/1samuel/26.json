@@ -2000,7 +2000,7 @@
           "type": "explanatory",
           "textSV1888": "in den wagenburg: Zie de aantekeningen boven, 1 Sam. 17:20 . 1 Samuël 17:20 : Toen maakte zich David des morgens vroeg op, en hij liet de schapen bij den hoeder, en hij nam het op, en ging henen, gelijk als Isaï hem bevolen had; en hij kwam aan den wagenburg, als het heir in slagorde uittoog, en men ten strijde riep.",
           "text1637": "Siet d’aenteeck. bov. cap. 17.20.",
-          "text2026": "in de wagenburg: Zie de aantekeningen boven, 1 Sam. 17:20 . 1 Samuël 17:20 : Toen maakte zich David van de morgen vroeg op, en hij liet de schapen bij de hoeder, en hij nam het op, en ging heen, gelijk als Isaï hem bevolen had; en hij kwam aan de wagenburg, als het legermacht in slagorde uittrok, en men ten strijde riep."
+          "text2026": "in de wagenburg: Zie de aantekeningen boven, 1 Sam. 17:20 . 1 Samuël 17:20 : Toen maakte zich David 's morgens vroeg op, en hij liet de schapen bij de hoeder, en hij nam het op, en ging heen, gelijk als Isaï hem bevolen had; en hij kwam aan de wagenburg, als de legermacht in slagorde uittrok, en men ten strijde riep."
         },
         {
           "marker": "4",
@@ -3787,7 +3787,7 @@
           "type": "explanatory",
           "textSV1888": "het volk des nachts: Te weten, in het leger van Saul.",
           "text1637": "T.w. in het leger Sauls.",
-          "text2026": "het volk van de nacht: Te weten, in het leger van Saul."
+          "text2026": "het volk 's nachts: Te weten, in het leger van Saul."
         }
       ],
       "grondtekst": [
@@ -6832,6 +6832,33 @@
       ],
       "woordnummers": [
         {
+          "tekst": "nam",
+          "voorkomen": 1,
+          "strongs": [
+            "H3947"
+          ],
+          "bronwoorden": [
+            "וַ/יִּקַּח֩"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:12",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
           "tekst": "David",
           "voorkomen": 1,
           "strongs": [
@@ -6888,33 +6915,6 @@
           "plaats": "voor",
           "status": "niet_afzonderlijk_weergegeven",
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
-        },
-        {
-          "tekst": "nam",
-          "voorkomen": 1,
-          "strongs": [
-            "H3947"
-          ],
-          "bronwoorden": [
-            "וַ/יִּקַּח֩"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:12",
-            "bronindices": [
-              2
-            ]
-          }
         },
         {
           "tekst": "speer",
@@ -7446,10 +7446,13 @@
           }
         },
         {
-          "tekst": "hen",
+          "tekst": "op",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
           ],
           "bronwoorden": [
             "עֲלֵי/הֶֽם"
@@ -7460,13 +7463,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 26:12",
+            "grondindices": [
+              24
+            ],
             "bronindices": [
               23
             ]
@@ -11394,14 +11401,14 @@
           "type": "explanatory",
           "textSV1888": "in het erfdeel des HEEREN: Dat is, bij het volk des Heeren, dat hem zo lief is als enig mens zijn erfgoed wezen kan.",
           "text1637": "D. by ’t volck des Heeren, dat hem soo lief is als eenigen mensche sijn erf-goet wesen kan.",
-          "text2026": "in het erfdeel van JAHWEH: Dat is, bij het volk van de Heern, dat hem zo lief is als enig mens zijn erfgoed wezen kan."
+          "text2026": "in het erfdeel van JAHWEH: Dat is, bij het volk van de Heer, dat hem zo lief is als enig mens zijn erfgoed wezen kan."
         },
         {
           "marker": "30",
           "type": "explanatory",
           "textSV1888": "Ga heen: Dat is, zij bewegen mij, zoveel in hen is, van den waren godsdienst af te vallen tot de afgoderij der heidenen.",
           "text1637": "D. sy bewegen my, so veel als in hen is, van den waren Godts-dienst af te vallen tot de Afgoderye der Heydenen.",
-          "text2026": "Ga heen: Dat is, zij bewegen mij, zoveel in hen is, van de waren godsdienst af te vallen tot de afgoderij van de heidenen."
+          "text2026": "Ga heen: Dat is, zij bewegen mij, zoveel in hen is, van de ware godsdienst af te vallen tot de afgoderij van de heidenen."
         }
       ],
       "grondtekst": [
@@ -11635,6 +11642,33 @@
           }
         },
         {
+          "tekst": "hore",
+          "voorkomen": 1,
+          "strongs": [
+            "H8085"
+          ],
+          "bronwoorden": [
+            "יִֽשְׁמַֽע"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:19",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
           "tekst": "toch",
           "voorkomen": 1,
           "strongs": [
@@ -11745,33 +11779,6 @@
           "plaats": "voor",
           "status": "niet_afzonderlijk_weergegeven",
           "toelichting": "Het lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
-        },
-        {
-          "tekst": "hore",
-          "voorkomen": 1,
-          "strongs": [
-            "H8085"
-          ],
-          "bronwoorden": [
-            "יִֽשְׁמַֽע"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:19",
-            "bronindices": [
-              5
-            ]
-          }
         },
         {
           "tekst": "woorden",
@@ -11936,10 +11943,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֔ה"
@@ -11950,13 +11960,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 26:19",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               12
             ]
@@ -12023,33 +12037,6 @@
           "toelichting": "בְּנֵי הָאָדָם ('zonen van de mens') is in het Nederlands één samenstelling."
         },
         {
-          "tekst": "zij",
-          "voorkomen": 1,
-          "strongs": [
-            "H1992"
-          ],
-          "bronwoorden": [
-            "הֵם֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:19",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "vervloekt",
           "voorkomen": 1,
           "strongs": [
@@ -12073,6 +12060,33 @@
             "referentie": "1SA 26:19",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "zij",
+          "voorkomen": 1,
+          "strongs": [
+            "H1992"
+          ],
+          "bronwoorden": [
+            "הֵם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:19",
+            "bronindices": [
+              16
             ]
           }
         },
@@ -12158,33 +12172,6 @@
           }
         },
         {
-          "tekst": "vandaag",
-          "voorkomen": 1,
-          "strongs": [
-            "H3117"
-          ],
-          "bronwoorden": [
-            "הַ/יּ֗וֹם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:19",
-            "bronindices": [
-              21
-            ]
-          }
-        },
-        {
           "tekst": "verstoten",
           "voorkomen": 1,
           "strongs": [
@@ -12208,6 +12195,33 @@
             "referentie": "1SA 26:19",
             "bronindices": [
               22
+            ]
+          }
+        },
+        {
+          "tekst": "vandaag",
+          "voorkomen": 1,
+          "strongs": [
+            "H3117"
+          ],
+          "bronwoorden": [
+            "הַ/יּ֗וֹם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:19",
+            "bronindices": [
+              21
             ]
           }
         },
@@ -12377,33 +12391,6 @@
           }
         },
         {
-          "tekst": "andere",
-          "voorkomen": 1,
-          "strongs": [
-            "H312"
-          ],
-          "bronwoorden": [
-            "אֲחֵרִֽים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:19",
-            "bronindices": [
-              29
-            ]
-          }
-        },
-        {
           "tekst": "goden",
           "voorkomen": 1,
           "strongs": [
@@ -12429,6 +12416,33 @@
               30
             ]
           }
+        },
+        {
+          "tekst": "andere",
+          "voorkomen": 1,
+          "strongs": [
+            "H312"
+          ],
+          "bronwoorden": [
+            "אֲחֵרִֽים"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:19",
+            "bronindices": [
+              29
+            ]
+          }
         }
       ]
     },
@@ -12450,7 +12464,7 @@
           "type": "explanatory",
           "textSV1888": "van voor het aangezicht des HEEREN: Dat is, de Heere zie het en straffe het. Anders, voor het aangezicht des Heeren.",
           "text1637": "D. de Heere sie het, ende straffe het. And. voor het aengesichte des Heeren.",
-          "text2026": "van voor het aangezicht van JAHWEH: Dat is, de Heer zie het en straffe het. Anders, voor het aangezicht van de Heern."
+          "text2026": "van voor het aangezicht van JAHWEH: Dat is, de Heer zie het en straffe het. Anders, voor het aangezicht van de Heer."
         },
         {
           "marker": "a",
@@ -12638,33 +12652,6 @@
           }
         },
         {
-          "tekst": "bloed",
-          "voorkomen": 1,
-          "strongs": [
-            "H1818"
-          ],
-          "bronwoorden": [
-            "דָּֽמִ/י֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:20",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
           "tekst": "valle",
           "voorkomen": 1,
           "strongs": [
@@ -12688,6 +12675,33 @@
             "referentie": "1SA 26:20",
             "bronindices": [
               3
+            ]
+          }
+        },
+        {
+          "tekst": "bloed",
+          "voorkomen": 1,
+          "strongs": [
+            "H1818"
+          ],
+          "bronwoorden": [
+            "דָּֽמִ/י֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:20",
+            "bronindices": [
+              2
             ]
           }
         },
@@ -12719,10 +12733,13 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "voor",
           "voorkomen": 1,
           "strongs": [
             "H5048"
+          ],
+          "morfologie": [
+            "HR/R"
           ],
           "bronwoorden": [
             "מִ/נֶּ֖גֶד"
@@ -12733,13 +12750,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 26:20",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -12827,6 +12848,33 @@
           }
         },
         {
+          "tekst": "uitgegaan",
+          "voorkomen": 1,
+          "strongs": [
+            "H3318"
+          ],
+          "bronwoorden": [
+            "יָצָ֞א"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:20",
+            "bronindices": [
+              11
+            ]
+          }
+        },
+        {
           "tekst": "koning",
           "voorkomen": 1,
           "strongs": [
@@ -12877,33 +12925,6 @@
             "referentie": "1SA 26:20",
             "bronindices": [
               10
-            ]
-          }
-        },
-        {
-          "tekst": "uitgegaan",
-          "voorkomen": 1,
-          "strongs": [
-            "H3318"
-          ],
-          "bronwoorden": [
-            "יָצָ֞א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:20",
-            "bronindices": [
-              11
             ]
           }
         },
@@ -12966,33 +12987,6 @@
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "enige",
-          "voorkomen": 1,
-          "strongs": [
-            "H259"
-          ],
-          "bronwoorden": [
-            "אֶחָ֔ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 26:20",
-            "bronindices": [
-              14
-            ]
-          }
-        },
-        {
           "tekst": "vlo",
           "voorkomen": 1,
           "strongs": [
@@ -13016,6 +13010,33 @@
             "referentie": "1SA 26:20",
             "bronindices": [
               15
+            ]
+          }
+        },
+        {
+          "tekst": "enige",
+          "voorkomen": 1,
+          "strongs": [
+            "H259"
+          ],
+          "bronwoorden": [
+            "אֶחָ֔ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 26:20",
+            "bronindices": [
+              14
             ]
           }
         },
@@ -14254,14 +14275,14 @@
           "type": "explanatory",
           "textSV1888": "gerechtigheid en zijn getrouwheid: Dat is, naardat een iegelijk oprechtelijk gehandeld en trouw en geloof gehouden heeft.",
           "text1637": "D. nae dat een yegelick oprechtelick gehandelt ende trouwe ende geloove gehouden heeft.",
-          "text2026": "gerechtigheid en zijn getrouwheid: Dat is, naardat een iedereen oprecht gehandeld en trouw en geloof gehouden heeft."
+          "text2026": "gerechtigheid en zijn getrouwheid: Dat is, naardat iedereen oprecht gehandeld en trouw en geloof gehouden heeft."
         },
         {
           "marker": "35",
           "type": "explanatory",
           "textSV1888": "aan den gezalfde des HEEREN: Dat is, aan u, die de gezalfde des Heeren zijt.",
           "text1637": "D. aen u, die de gesalfde des Heeren zijt.",
-          "text2026": "aan de gezalfde van JAHWEH: Dat is, aan u, die de gezalfde van de Heern bent."
+          "text2026": "aan de gezalfde van JAHWEH: Dat is, aan u, die de gezalfde van de Heer bent."
         }
       ],
       "grondtekst": [
@@ -15416,7 +15437,7 @@
           "type": "explanatory",
           "textSV1888": "gij zult ook gewisselijk: Dat is, zij zult uwen vijand te machtig vallen, en gij zult hen overweldigen. Anderen nemen het in dezen zin: Ga zo voort in al uw zaken met gerechtigheid en trouw, gelijk gij tegen mij doet, en twijfel niet, gij zult de overhand behouden en tot de koninklijke waardigheid komen.",
           "text1637": "D. ghy sult uwe vyanden te machtich vallen, ende ghy sultse overweldigen. andere nemen het in desen sin, Gaet so voort in alle uwe saken met gerechticheyt ende trouwe, gelijck ghy tegen my doet, ende en twijffelt niet, ghy sult de over-hant behouden, ende tot de Conincklijcke weerdicheyt komen.",
-          "text2026": "u zult ook gewisselijk: Dat is, zij zult uw vijand te machtig vallen, en u zult hen overweldigen. Anderen nemen het in deze zin: Ga zo voort in al uw zaken met gerechtigheid en trouw, gelijk u tegen mij doet, en twijfel niet, u zult de overhand behouden en tot de koninklijke waardigheid komen."
+          "text2026": "u zult ook gewisselijk: Dat is, u zult uw vijand te machtig vallen, en u zult hen overweldigen. Anderen nemen het in deze zin: Ga zo voort in al uw zaken met gerechtigheid en trouw, gelijk u tegen mij doet, en twijfel niet, u zult de overhand behouden en tot de koninklijke waardigheid komen."
         }
       ],
       "grondtekst": [

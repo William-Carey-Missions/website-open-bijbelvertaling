@@ -3220,7 +3220,7 @@
           "marker": "11",
           "type": "explanatory",
           "text1637": "D. doe men den wijn op-gebracht hadde, ofte, vrolick by den wijn begon te worden. Men pleegt, soo sommige schrijven, by de Persen alsdan eerst den wijn op de tafel te brengen, alsmen het bancket ende vruchten op-bracht: want anders droncken sy water: des Conincks dranck was gesoden water uyt de riviere Choaspe.",
-          "text2026": "Dat wil zeggen: toen men de wijn had opgediend, of men vrolijk bij de wijn begon te worden. Men placht, zo sommigen schrijven, bij de Perzen dan pas wijn op tafel te brengen wanneer men het banket en het fruit opdroeg. Des konings drank was gekookt water uit de rivier Choaspe.",
+          "text2026": "Dat wil zeggen: toen men de wijn had opgediend, of men vrolijk bij de wijn begon te worden. Men placht, zo sommigen schrijven, bij de Perzen dan pas wijn op tafel te brengen wanneer men het banket en het fruit opdroeg, want anders dronken zij water. Des konings drank was gekookt water uit de rivier Choaspe.",
           "textSV1888": "11 op den maaltijd: Dat is, toen men den wijn opgebracht had, of vrolijk bij den wijn begon te worden. Men pleegt, zo sommigen schrijven, bij de Perzen alsdan eerst den wijn op de tafel te brengen, als men het banket en de vruchten opbracht; want anders dronken zij water; des konings drank was gekookt water uit de rivier Choaspe."
         }
       ],
@@ -7742,38 +7742,75 @@
           "voorkomen": 1,
           "strongs": [
             "H3605",
-            "H6256",
-            "H834"
+            "H6256"
+          ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcbsa"
           ],
           "bronwoorden": [
             "בְּ/כָל",
-            "עֵ֗ת",
-            "אֲשֶׁ֨ר"
+            "עֵ֗ת"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 5:13",
-            "bronindices": [
-              4,
+            "grondindices": [
               5,
               6
+            ],
+            "bronindices": [
+              4,
+              5
             ]
-          },
-          "toelichting": "Eén Nederlands woord dekt de woordgroep בְּכָל־עֵת אֲשֶׁר ('al de tijd dat', H3605, H6256 en H834)."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H834"
+          ],
+          "morfologie": [
+            "HTr"
+          ],
+          "bronwoorden": [
+            "אֲשֶׁ֨ר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
+            "referentie": "EST 5:13",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              6
+            ]
+          }
         },
         {
           "tekst": "ik",
@@ -8007,7 +8044,7 @@
           "marker": "24",
           "type": "explanatory",
           "text1637": "Hebr. een hout. ende soo in’t volgende.",
-          "text2026": "Hebreeuws: een hout. En zo ook in het vervolgende.",
+          "text2026": "Hebreeuws: een hout. En zo ook in het volgende.",
           "textSV1888": "24 een galg: Hebreeuws, גָּבֹ֣הַּ, een hout; en zo in het volgende."
         },
         {
@@ -8952,10 +8989,13 @@
           }
         },
         {
-          "tekst": "maken",
+          "tekst": "deed",
           "voorkomen": 1,
           "strongs": [
             "H6213"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יַּ֥עַשׂ"
@@ -8966,13 +9006,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4AADEBDD0232F757CC13E79E346F980A57F46865C3A4D6D9EFFB922B1636B074",
             "referentie": "EST 5:14",
+            "grondindices": [
+              28
+            ],
             "bronindices": [
               28
             ]

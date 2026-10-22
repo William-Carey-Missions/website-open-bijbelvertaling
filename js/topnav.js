@@ -19,8 +19,79 @@
         return;
     }
 
+    /* Adressen van de zustersites (OGW voor wiki en achtergrond). Pagina's
+       die ze al bij het laden nodig hebben, laden sites.js zelf vooraan. */
+    if (!window.KASites && !document.querySelector('script[src$="sites.js"]')) {
+        var sitesScript = document.createElement('script');
+        sitesScript.src = 'js/sites.js';
+        document.head.appendChild(sitesScript);
+    }
+
     var nav = document.getElementById('topnav');
     if (!nav) return;
+
+    /* === Zustersites: gelijk in de drie sites (OV, OGW, OPV) ===============
+       Eén strook boven de navigatie, met de drie sites in dezelfde volgorde en
+       de eigen site goud onderstreept. Dit blok staat letterlijk gelijk in
+       js/topnav.js van de Open Vertaling, Open Gods Woord en de Open Parafrase
+       Weergave, met zijn eigen opmaak en lettertype; pas het in alle drie tegelijk
+       aan. Lokaal vult sites.js (KASites.vulLinks) de adressen met de poorten. */
+    var ZUSTERSITES = [
+        ['ov', 'https://openvertaling.nl/', 'data-ov-href', 'Open Vertaling'],
+        ['ogw', 'https://opengodsword.com/', 'data-ogw-href', 'Open Gods Woord'],
+        ['opv', 'https://open-parafrase-weergave.nl/', 'data-opv-href', 'Open Parafrase Weergave']
+    ];
+    var ZUSTERSTIJL = [
+        '.ka-fam { display: flex; align-items: center; justify-content: space-between; gap: 6px 14px;',
+        '    padding: 5px 30px; min-height: 28px; background: var(--navy-deep, #0d2131); color: #c9d3db;',
+        '    font: 400 12px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;',
+        '    letter-spacing: .02em; position: relative; z-index: 301; }',
+        '.ka-fam-label { opacity: .78; }',
+        '.ka-fam-links { display: flex; flex-wrap: wrap; align-items: center; gap: 2px 4px; }',
+        '.ka-fam-links a { color: #c9d3db; text-decoration: none; padding: 2px 6px; border-radius: 4px; border: 0; }',
+        '.ka-fam-links a:hover { color: #fff; background: rgba(255,255,255,.07); }',
+        '.ka-fam-links a[aria-current] { color: #fff; font-weight: 600;',
+        '    box-shadow: inset 0 -2px 0 var(--gold, #cba449); border-radius: 0; }',
+        ':root[data-theme="donker"] .ka-fam-links a { color: #c9d3db !important; }',
+        ':root[data-theme="donker"] .ka-fam-links a[aria-current] { color: #fff !important; }',
+        '.ka-fam-sep { opacity: .45; }',
+        '.ov-ingebed .ka-fam { display: none; }',
+        ':root[lang="ar"] .ka-fam { letter-spacing: 0; text-transform: none; }',
+        ':root[dir="rtl"] .ka-fam-links { direction: ltr; }',
+        '@media (max-width: 768px) {',
+        '    .ka-fam { padding: 3px 8px; justify-content: center; font-size: 11px; letter-spacing: 0; }',
+        '    .ka-fam-links { flex-wrap: nowrap; white-space: nowrap; gap: 0 2px; }',
+        '    .ka-fam-links a { padding: 2px 3px; }',
+        '    .ka-fam-label { display: none; }',
+        '    .ogw-lezer .ka-fam { display: none; }',
+        '}'
+    ].join('\n');
+
+    function familiestrook(huidig) {
+        if (!document.getElementById('ka-fam-stijl')) {
+            var stijl = document.createElement('style');
+            stijl.id = 'ka-fam-stijl';
+            stijl.textContent = ZUSTERSTIJL;
+            document.head.appendChild(stijl);
+        }
+        var strook = document.createElement('div');
+        strook.className = 'ka-fam';
+        strook.id = 'ka-fam';
+        strook.setAttribute('role', 'navigation');
+        strook.setAttribute('aria-label', 'Zustersites van de kleine ark');
+        strook.innerHTML =
+            '<span class="ka-fam-label">Familie van de kleine ark</span>' +
+            '<span class="ka-fam-links" translate="no" dir="ltr">' +
+            ZUSTERSITES.map(function (site) {
+                return site[0] === huidig
+                    ? '<a href="index.html" aria-current="page">' + site[3] + '</a>'
+                    : '<a href="' + site[1] + '" ' + site[2] + '="">' + site[3] + '</a>';
+            }).join('<span class="ka-fam-sep" aria-hidden="true">·</span>') +
+            '</span>';
+        if (window.KASites) window.KASites.vulLinks(strook);
+        return strook;
+    }
+    /* === einde zustersites ================================================= */
 
     if (!document.querySelector('script[src$="global-options-host.js"]')) {
         var hostScript = document.createElement('script');
@@ -42,17 +113,17 @@
         return;
     }
 
+    nav.insertAdjacentElement('beforebegin', familiestrook('ov'));
+
     nav.innerHTML =
         '<div class="topnav-brand">' +
-            '<a class="topnav-brand-link" href="index.html#johannes/1" aria-label="Open Vertaling — naar de leestekst">' +
-                '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg" alt="Open Vertaling">' +
+            '<a class="topnav-brand-link" href="index.html" aria-label="Open Vertaling — naar de startpagina">' +
+                '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg" alt="Open Vertaling" width="200" height="60" fetchpriority="high">' +
             '</a>' +
-            '<span class="topnav-version"><a href="changelog.html" id="topnav-versie" style="color:#cba449;text-decoration:none;">…</a></span>' +
         '</div>' +
         '<div class="topnav-links" id="topnav-links">' +
-            '<a href="over-ov.html">Over OV</a>' +
+            '<a href="/over-ov.html">Over ons</a>' +
             '<a href="index.html#johannes/1">Tekst</a>' +
-            '<a href="wiki.html">Wiki</a>' +
             '<button class="topnav-mobile-weergave" id="topnav-mobile-weergave" type="button" aria-label="Weergave openen" aria-controls="sidebar-right" aria-expanded="false">Weergave</button>' +
         '</div>' +
         '<input type="search" id="topnav-search-input" class="topnav-search-input" placeholder="Zoek in Gods Woord… (Ctrl+K)" autocomplete="off" aria-label="Zoeken in Gods Woord" onkeydown="if(event.key===\'Enter\'){var q=this.value.trim();if(q){location.href=\'index.html?q=\'+encodeURIComponent(q);}}">' +
@@ -61,6 +132,17 @@
         '<span id="topnav-auth-home" hidden></span>' +
         '<div id="auth-slot" class="topnav-auth"></div>' +
         '<button class="topnav-hamburger" id="topnav-hamburger" onclick="document.getElementById(\'topnav-links\').classList.toggle(\'open\');this.classList.toggle(\'open\')" title="Menu" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>';
+
+    var footer = document.createElement('footer');
+    footer.className = 'ka-footer';
+    footer.id = 'ka-footer';
+    footer.innerHTML = '<div class="ka-footer-in"><div><strong>Open Vertaling</strong>' +
+        '<p>Een herziening van de Statenvertaling. Vrij te gebruiken onder CC0.</p></div>' +
+        '<nav aria-label="Lezen"><a href="index.html#johannes/1">Bijbel</a><a href="downloads.html">Downloads</a></nav>' +
+        '<nav aria-label="Over ons"><a href="https://williamcareymissions.nl/over-ons" target="_blank" rel="noopener">William Carey Missions</a></nav></div>';
+    function plaatsFooter() { if (!footer.isConnected) document.body.appendChild(footer); }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', plaatsFooter);
+    else plaatsFooter();
 
     // Gebruik overal exact hetzelfde auth-element. Op mobiel staat het in het
     // hamburgermenu; op grotere schermen keert het terug naar de hoofdbalk.
@@ -105,37 +187,11 @@
         window.OVTheme.toggle();
     });
 
-    /* Het versienummer stond hier hardgecodeerd en liep daardoor achter: bij
-       v0.28.0 wees de balk nog naar v0.26.0. Nu komt hij uit data/stats.json,
-       dat build_stats.py bij elke uitgave bijwerkt — zo kan hij niet meer
-       verouderen. Mislukt het ophalen (offline, eerste bezoek zonder cache),
-       dan blijft het beletselteken staan; een verkeerd nummer tonen is erger
-       dan geen nummer. */
-    (function () {
-        var el = document.getElementById('topnav-versie');
-        if (!el) return;
-        fetch('data/stats.json')
-            .then(function (r) { return r.ok ? r.json() : null; })
-            .then(function (s) { if (s && s.version) el.textContent = s.version; })
-            .catch(function () { /* stil: de balk werkt ook zonder nummer */ });
-    })();
-
-
     var page = (location.pathname.split('/').pop() || 'index.html');
-    var wikiPages = {
-        'onderwerpen.html': true,
-        'downloads.html': true,
-        'lexicon.html': true,
-        'lexicon-viewer.html': true
-    };
-    var links = nav.querySelectorAll('.topnav-links a');
-    for (var i = 0; i < links.length; i++) {
-        var href = links[i].getAttribute('href') || '';
-        var file = href.split('#')[0].split('?')[0];
-        if (file === page || (file === 'wiki.html' && wikiPages[page])) {
-            links[i].classList.add('active');
-        }
-    }
+    nav.querySelectorAll('.topnav-links a').forEach(function (link) {
+        const href = link.getAttribute('href') || '';
+        if (href.split('#')[0] === page) link.classList.add('active');
+    });
 
     // Mobiele zoomregeling (zweefknop −/+) — self-contained, op elke pagina.
     if (!document.querySelector('script[src$="zoom.js"]')) {

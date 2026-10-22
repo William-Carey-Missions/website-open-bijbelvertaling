@@ -440,7 +440,7 @@
           "type": "explanatory",
           "textSV1888": "Abinadab, en Malchisua: Hij wordt 1 Sam. 14:49 Isvi genoemd. 1 Samuël 14:49 : De zonen van Saul nu waren: Jonathan, en Isvi, en Malchi-sua; en de namen zijner twee dochteren waren deze: de naam der eerstgeborene was Merab, en de naam der kleinste Michal.",
           "text1637": "Hy wort 1.Sam. 14.49. Ischai genoemt.",
-          "text2026": "Abinadab, en Malchisua: Hij wordt 1 Sam. 14:49 Isvi genoemd. 1 Samuël 14:49 : De zonen van Saul nu waren: Jonathan, en Isvi, en Malchi-sua; en de namen zijn twee dochters waren deze: de naam van de eerstgeborene was Merab, en de naam van de kleinste Michal."
+          "text2026": "Abinadab, en Malchisua: Hij wordt 1 Sam. 14:49 Isvi genoemd. 1 Samuël 14:49 : De zonen van Saul nu waren: Jonathan, en Isvi, en Malchi-sua; en de namen van zijn twee dochters waren deze: de naam van de eerstgeborene was Merab, en de naam van de kleinste Michal."
         }
       ],
       "grondtekst": [
@@ -535,6 +535,34 @@
       "text1637_html": "Ende de Philistijnen hielden dicht op Saul, ende sijne sonen, ende de Philistijnen sloege<i>n</i> Ionathan, ende <sup class=\"note-marker\" data-note=\"3\">3</sup> Abinadab, ende Malchi-Sua, de sonen Sauls.",
       "woordnummers": [
         {
+          "tekst": "dicht",
+          "voorkomen": 1,
+          "strongs": [
+            "H1692"
+          ],
+          "bronwoorden": [
+            "וַ/יַּדְבְּק֣וּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 31:2",
+            "bronindices": [
+              2
+            ]
+          },
+          "toelichting": "דָּבַק ('aanhangen, dicht op iemand zitten') is met 'hielden dicht op' weergegeven; het anker staat op 'dicht'."
+        },
+        {
           "tekst": "Filistijnen",
           "voorkomen": 1,
           "strongs": [
@@ -591,34 +619,6 @@
           "plaats": "voor",
           "status": "niet_afzonderlijk_weergegeven",
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
-        },
-        {
-          "tekst": "dicht",
-          "voorkomen": 1,
-          "strongs": [
-            "H1692"
-          ],
-          "bronwoorden": [
-            "וַ/יַּדְבְּק֣וּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 31:2",
-            "bronindices": [
-              2
-            ]
-          },
-          "toelichting": "דָּבַק ('aanhangen, dicht op iemand zitten') is met 'hielden dicht op' weergegeven; het anker staat op 'dicht'."
         },
         {
           "tekst": "Saul",
@@ -791,60 +791,6 @@
           "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "Saul",
-          "voorkomen": 2,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "שָׁאֽוּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 31:2",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "zonen",
-          "voorkomen": 2,
-          "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בְּנֵ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 31:2",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "Jonathan",
           "voorkomen": 1,
           "strongs": [
@@ -992,6 +938,60 @@
             ]
           },
           "toelichting": "De naam מַלְכִּי שׁוּעַ bestaat in de grondtekst uit twee woorden met hetzelfde Strongnummer H4444."
+        },
+        {
+          "tekst": "zonen",
+          "voorkomen": 2,
+          "strongs": [
+            "H1121"
+          ],
+          "bronwoorden": [
+            "בְּנֵ֥י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 31:2",
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "Saul",
+          "voorkomen": 2,
+          "strongs": [
+            "H7586"
+          ],
+          "bronwoorden": [
+            "שָׁאֽוּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 31:2",
+            "bronindices": [
+              9
+            ]
+          }
         }
       ]
     },
@@ -1400,7 +1400,7 @@
           "type": "explanatory",
           "textSV1888": "met mij den spot drijven: Te weten, wanneer zij, mij gevangen krijgende, mij allen schimp en hoon zouden aandoen, en zouden mij dan nog eindelijk een smadelijken dood doen sterven. De Filistijnen, Saul niet levend kunnen krijgen, hebben zijn dood lichaam veel smaadheid aangedaan, onder vers 9 , 31:10 . 1 Samuël 31:9 : En zij hieuwen zijn hoofd af, en zij togen zijn wapenen uit, en zij zonden ze in der Filistijnen land rondom, om te boodschappen in het huis hunner afgoden, en onder het volk. 1 Samuël 31:10 : En zij leiden zijn wapenen in het huis van Astharoth; en zijn lichaam hechtten zij aan den muur te Beth-san.",
           "text1637": "T.w. wanneer sy my gevangen krygende, my allen schimp ende hoon souden aen doen, ende souden my dan noch eyndelick een smadelicke doot doen sterven. De Philistijnen niet cunnende Saul levendich krygen, hebben sijn doode lichaem veel smaetheyt aengedaen, onder versen 9, 10.",
-          "text2026": "met mij de spot drijven: Te weten, wanneer zij, mij gevangen krijgende, mij allen schimp en hoon zouden aandoen, en zouden mij dan nog eindelijk een smadelijken dood doen sterven. De Filistijnen, Saul niet levend kunnen krijgen, hebben zijn dood lichaam veel smaadheid aangedaan, onder vers 9 , 31:10 . 1 Samuël 31:9 : En zij hieuwen zijn hoofd af, en zij togen zijn wapenen uit, en zij zonden ze in het land van de Filistijnen rondom, om te boodschappen in het huis hun afgoden, en onder het volk. 1 Samuël 31:10 : En zij leiden zijn wapenen in het huis van Astharoth; en zijn lichaam hechtten zij aan de muur te Beth-san."
+          "text2026": "met mij de spot drijven: Te weten, wanneer zij, mij gevangen krijgende, mij allen schimp en hoon zouden aandoen, en zouden mij dan nog eindelijk een smadelijken dood doen sterven. De Filistijnen, Saul niet levend kunnen krijgen, hebben zijn dood lichaam veel smaadheid aangedaan, onder vers 9 , 31:10 . 1 Samuël 31:9 : En zij hieuwen zijn hoofd af, en zij togen zijn wapenen uit, en zij zonden ze in het land van de Filistijnen rondom, om te boodschappen in het huis van hun afgoden, en onder het volk. 1 Samuël 31:10 : En zij leiden zijn wapenen in het huis van Astharoth; en zijn lichaam hechtten zij aan de muur te Beth-san."
         },
         {
           "marker": "7",
@@ -5011,7 +5011,7 @@
           "type": "explanatory",
           "textSV1888": "zij aan den muur: Te weten, in de straat, die bij den stadsmuur was, gelijk af te nemen is uit 2 Sam. 21:12 . 2 Samuël 21:12 : Zo ging David henen, en nam de beenderen van Saul, en de beenderen van Jonathan, zijn zoon, van de burgeren van Jabes in Gilead, die dezelve gestolen hadden van de straat Beth-san, alwaar de Filistijnen ze hadden opgehangen, ten dage als de Filistijnen Saul sloegen op Gilboa.",
           "text1637": "T.w. in de strate die by der Stadts-muer was, gelijck af te nemen is uyt 2.Sam. 21.12.",
-          "text2026": "zij aan de muur: Te weten, in de straat, die bij de stadsmuur was, gelijk af te nemen is uit 2 Sam. 21:12 . 2 Samuël 21:12 : Zo ging David heen, en nam de beenderen van Saul, en de beenderen van Jonathan, zijn zoon, van de burgeren van Jabes in Gilead, die dezelfde gestolen hadden van de straat Beth-san, alwaar de Filistijnen ze hadden opgehangen, op de dag als de Filistijnen Saul sloegen op Gilboa."
+          "text2026": "zij aan de muur: Te weten, in de straat, die bij de stadsmuur was, gelijk af te nemen is uit 2 Sam. 21:12 . 2 Samuël 21:12 : Zo ging David heen, en nam de beenderen van Saul, en de beenderen van Jonathan, zijn zoon, van de burgeren van Jabes in Gilead, die ze gestolen hadden van de straat Beth-san, alwaar de Filistijnen ze hadden opgehangen, op de dag als de Filistijnen Saul sloegen op Gilboa."
         },
         {
           "marker": "17",
@@ -5408,7 +5408,7 @@
           "type": "explanatory",
           "textSV1888": "de inwoners van Jabes: Dit deden de burgers van Jabes tot een teken van dankbaarheid, omdat zij door Saul waren ontzet en verlost geworden van de harde belegging van den koning Nahas, 1 Sam. 11:11 . 1 Samuël 11:11 : Het geschiedde nu des anderen daags, dat Saul het volk stelde in drie hopen, en zij kwamen in het midden des legers, in de morgenwake, en zij sloegen Ammon, totdat de dag heet werd; en het geschiedde, dat de overigen alzo verstrooid werden, dat er onder hen geen twee te zamen bleven.",
           "text1637": "Dit deden de burgers van Iabes tot een teecken van danckbaerheyt, om datse van Saul waren ontsett ende verlost geworden van de harde belegeringe des Conincks Nahas, 1.Sam. 11.11.",
-          "text2026": "de inwoners van Jabes: Dit deden de burgers van Jabes tot een teken van dankbaarheid, omdat zij door Saul waren ontzet en verlost geworden van de harde belegging van de koning Nahas, 1 Sam. 11:11 . 1 Samuël 11:11 : Het geschiedde nu van de anderen daags, dat Saul het volk stelde in drie hopen, en zij kwamen in het midden van de leger, in de morgenwake, en zij sloegen Ammon, totdat de dag heet werd; en het geschiedde, dat de overigen zo verstrooid werden, dat er onder hen geen twee te zamen bleven."
+          "text2026": "de inwoners van Jabes: Dit deden de burgers van Jabes tot een teken van dankbaarheid, omdat zij door Saul waren ontzet en verlost geworden van de harde belegging van de koning Nahas, 1 Sam. 11:11 . 1 Samuël 11:11 : Het geschiedde nu van de anderen daags, dat Saul het volk stelde in drie hopen, en zij kwamen in het midden van het leger, in de morgenwake, en zij sloegen Ammon, totdat de dag heet werd; en het geschiedde, dat de overigen zo verstrooid werden, dat er onder hen geen twee te zamen bleven."
         }
       ],
       "grondtekst": [
@@ -5755,7 +5755,7 @@
           "type": "explanatory",
           "textSV1888": "brandden ze aldaar: Alzo deze lichamen enige dagen waren onbegraven geweest en in de zon gehangen hadden, zo waren zij buiten alle twijfel verdorven en stinkende geworden, alzo dat men ze met balsemen niet zou hebben kunnen bewaren. Daarom hebben zij het vlees verbrand en de beenderen begraven, verhoedende alzo dat die dode lichamen meer gehoond en beschimpt, en ook weder opgegraven konden worden. Vergelijk Amos 6:10 , met de aantekeningen. Anders, zij brandden bij, of over hen; te weten, enige specerijen, hetwelk ziet op de manier eertijds gebruikt aan der koningen lichamen. Zie 2 Kron. 16:14 ; Jer. 34:5 . Amos 6:10 : En de naaste vriend zal een iegelijk van die opnemen, of die hem verbrandt, om de beenderen uit het huis uit te brengen, en zal zeggen tot dien, die binnen de zijden van het huis is: Zijn er nog meer bij u? En hij zal zeggen: Niemand. Dan zal hij zeggen: Zwijg! want zij waren niet om des HEEREN Naam te vermelden. 2 Kronieken 16:14 : En zij begroeven hem in zijn graf, dat hij voor zich gegraven had in de stad Davids, en leiden hem op het bed, hetwelk hij gevuld had met specerijen, en dat van verscheidene soorten, naar apothekerskunst toebereid; en zij brandden over hem een gans grote branding. Jeremia 34:5 : Gij zult sterven in vrede, en naar de brandingen van uw vaderen, de vorige koningen, die voor u geweest zijn, alzo zullen zij over u branden, en u beklagen, zeggende: Och heer! want Ik heb het woord gesproken, spreekt de HEERE.",
           "text1637": "Also dese lichamen eenige dagen waren onbegraven geweest, ende in de sonne gehangen hadden, so warense buyten allen twijffel, verdorven ende stinckende geworden, alsoo dat mense met balsemen niet en soude hebben kunnen bewaren: Daerom hebben sy het vleesch verbrandt, ende de beenderen begraven, verhoedende alsoo, dat die doode lichamen niet meer gehoont noch beschimpt, noch oock weder opgegraven konden worden. Vergel. Amos. 6.10. met d’aenteeck. And. sy brandden by, ofte, over hen. T.w. eenige speceryen het welcke siet op de maniere eertijts gebruyckt aen der Coningen lichamen. Siet 2.Chron. 16.14. Ierem. 34.5.",
-          "text2026": "brandden ze daar: Zo deze lichamen enige dagen waren onbegraven geweest en in de zon gehangen hadden, zo waren zij buiten alle twijfel verdorven en stinkende geworden, zo dat men ze met balsemen niet zou hebben kunnen bewaren. Daarom hebben zij het vlees verbrand en de beenderen begraven, verhoedende zo dat die dode lichamen meer gehoond en beschimpt, en ook weer opgegraven konden worden. Vergelijk Amos 6:10 , met de aantekeningen. Anders, zij brandden bij, of over hen; te weten, enige specerijen, dat ziet op de manier eertijds gebruikt aan van de koningen lichamen. Zie 2 Kron. 16:14 ; Jer. 34:5 . Amos 6:10 : En de naaste vriend zal een iedereen van die opnemen, of die hem verbrandt, om de beenderen uit het huis uit te brengen, en zal zeggen tot die, die binnen de zijden van het huis is: Zijn er nog meer bij u? En hij zal zeggen: Niemand. Dan zal hij zeggen: Zwijg! want zij waren niet om van JAHWEH Naam te vermelden. 2 Kronieken 16:14 : En zij begroeven hem in zijn graf, dat hij voor zich gegraven had in de stad van David, en leiden hem op het bed, dat hij gevuld had met specerijen, en dat van verscheidene soorten, naar apothekerskunst toebereid; en zij brandden over hem een geheel grote branding. Jeremia 34:5 : U zult sterven in vrede, en naar de brandingen van uw vaderen, de vorige koningen, die voor u geweest zijn, zo zullen zij over u branden, en u beklagen, zeggende: Och heer! want Ik heb het woord gesproken, spreekt JAHWEH."
+          "text2026": "brandden ze daar: Zo deze lichamen enige dagen waren onbegraven geweest en in de zon gehangen hadden, zo waren zij buiten alle twijfel verdorven en stinkende geworden, zo dat men ze met balsemen niet zou hebben kunnen bewaren. Daarom hebben zij het vlees verbrand en de beenderen begraven, verhoedende zo dat die dode lichamen meer gehoond en beschimpt, en ook weer opgegraven konden worden. Vergelijk Amos 6:10 , met de aantekeningen. Anders, zij brandden bij, of over hen; te weten, enige specerijen, dat ziet op de manier eertijds gebruikt aan de lichamen van de koningen. Zie 2 Kron. 16:14 ; Jer. 34:5 . Amos 6:10 : En de naaste vriend zal een ieder van die opnemen, of die hem verbrandt, om de beenderen uit het huis uit te brengen, en zal zeggen tot die, die binnen de zijden van het huis is: Zijn er nog meer bij u? En hij zal zeggen: Niemand. Dan zal hij zeggen: Zwijg! want zij waren niet om de Naam van JAHWEH te vermelden. 2 Kronieken 16:14 : En zij begroeven hem in zijn graf, dat hij voor zich gegraven had in de stad van David, en leiden hem op het bed, dat hij gevuld had met specerijen, en dat van verscheidene soorten, naar apothekerskunst toebereid; en zij brandden over hem een zeer grote branding. Jeremia 34:5 : U zult sterven in vrede, en naar de brandingen van uw vaderen, de vorige koningen, die voor u geweest zijn, zo zullen zij over u branden, en u beklagen, zeggende: Och heer! want Ik heb het woord gesproken, spreekt JAHWEH."
         }
       ],
       "grondtekst": [
@@ -6515,14 +6515,14 @@
           "type": "explanatory",
           "textSV1888": "onder het geboomte te Jabes: Zie 1 Kron. 10:12 . 1 Kronieken 10:12 : Zo maakten zich alle strijdbare mannen op, en zij namen het lichaam van Saul, en de lichamen zijner zonen, en zij brachten ze te Jabes; en zij begroeven hun beenderen onder een eikenboom te Jabes, en zij vastten zeven dagen.",
           "text1637": "Siet 1.Chron. 10.12.",
-          "text2026": "onder het geboomte te Jabes: Zie 1 Kron. 10:12 . 1 Kronieken 10:12 : Zo maakten zich alle strijdbare mannen op, en zij namen het lichaam van Saul, en de lichamen zijn zonen, en zij brachten ze te Jabes; en zij begroeven hun beenderen onder een eikenboom te Jabes, en zij vastten zeven dagen."
+          "text2026": "onder het geboomte te Jabes: Zie 1 Kron. 10:12 . 1 Kronieken 10:12 : Zo maakten zich alle strijdbare mannen op, en zij namen het lichaam van Saul, en de lichamen van zijn zonen, en zij brachten ze te Jabes; en zij begroeven hun beenderen onder een eikenboom te Jabes, en zij vastten zeven dagen."
         },
         {
           "marker": "21",
           "type": "explanatory",
           "textSV1888": "zij vastten zeven dagen: Versta, dagelijks tot op den avond; zie 1 Kron. 10:12 . Alzo bewijzende hun droefenis over Saul en zijn zonen. 1 Kronieken 10:12 : Zo maakten zich alle strijdbare mannen op, en zij namen het lichaam van Saul, en de lichamen zijner zonen, en zij brachten ze te Jabes; en zij begroeven hun beenderen onder een eikenboom te Jabes, en zij vastten zeven dagen.",
           "text1637": "Verst. dagelicx tot op den avont. Siet 1.Chron. 10. op vers 12. Alsoo bewijsende hare droeffenisse over Saul ende sijne sonen.",
-          "text2026": "zij vastten zeven dagen: Versta, dagelijks tot op de avond; zie 1 Kron. 10:12 . Zo bewijzende hun droefenis over Saul en zijn zonen. 1 Kronieken 10:12 : Zo maakten zich alle strijdbare mannen op, en zij namen het lichaam van Saul, en de lichamen zijn zonen, en zij brachten ze te Jabes; en zij begroeven hun beenderen onder een eikenboom te Jabes, en zij vastten zeven dagen."
+          "text2026": "zij vastten zeven dagen: Versta, dagelijks tot op de avond; zie 1 Kron. 10:12 . Zo bewijzende hun droefenis over Saul en zijn zonen. 1 Kronieken 10:12 : Zo maakten zich alle strijdbare mannen op, en zij namen het lichaam van Saul, en de lichamen van zijn zonen, en zij brachten ze te Jabes; en zij begroeven hun beenderen onder een eikenboom te Jabes, en zij vastten zeven dagen."
         }
       ],
       "grondtekst": [

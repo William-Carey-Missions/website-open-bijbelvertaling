@@ -26,7 +26,7 @@
           "type": "explanatory",
           "textSV1888": "3 in God den Vader: Dat is, den naam van God den Vader en van Jezus Christus belijden. Zie Joh. 17:3 of, die door de kracht Gods des Vaders in Christus is geroepen. Waardoor de ware gemeente wordt onderscheiden van heidenen en joden. Johannes 17:3: En dit is het eeuwige leven, dat zij U kennen, den enigen waarachtigen God, en Jezus Christus, Dien Gij gezonden hebt.",
           "text1637": "D. die den name Godts des Vaders ende Iesu Christi belijden. Siet Ioan. 17.3. of, die door de kracht Godes des Vaders in Christo is geroepen: Waer door de ware Gemeynte wordt onderscheyden van Heydenen ende Ioden.",
-          "text2026": "3 in God de Vader: Dat is, de naam van God de Vader en van Jezus Christus belijden. Zie Joh. 17:3 of, die door de kracht van God van de Vader in Christus is geroepen. Waardoor de ware gemeente wordt onderscheiden van heidenen en joden. Johannes 17:3: En dit is het eeuwige leven, dat zij U kennen, de enige waarachtige God, en Jezus Christus, Die U gezonden hebt."
+          "text2026": "3 in God de Vader: Dat is, de naam van God de Vader en van Jezus Christus belijden. Zie Joh. 17:3 of, die door de kracht van God de Vader in Christus is geroepen. Waardoor de ware gemeente wordt onderscheiden van heidenen en joden. Johannes 17:3: En dit is het eeuwige leven, dat zij U kennen, de enige waarachtige God, en Jezus Christus, Die U gezonden hebt."
         },
         {
           "marker": "4",
@@ -1382,28 +1382,43 @@
           "tekst": "denken",
           "voorkomen": 1,
           "strongs": [
-            "G3417"
+            "G3417",
+            "G4160"
+          ],
+          "lemma_strongs": [
+            "G3417",
+            "G4160"
+          ],
+          "morfologie": [
+            "N-ASF",
+            "V-PMP-NPM"
           ],
           "bronwoorden": [
-            "μνειαν"
+            "μνειαν",
+            "ποιουμενοι"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 1:2",
-            "bronindices": [
-              8
-            ],
             "grondindices": [
+              7,
+              9
+            ],
+            "bronindices": [
+              8,
               7
             ]
           }
@@ -1438,36 +1453,6 @@
           "gids_strongs": []
         },
         {
-          "tekst": "denken",
-          "voorkomen": 1,
-          "strongs": [
-            "G4160"
-          ],
-          "bronwoorden": [
-            "ποιουμενοι"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
-            "referentie": "1TH 1:2",
-            "bronindices": [
-              7
-            ],
-            "grondindices": [
-              9
-            ]
-          }
-        },
-        {
           "tekst": "in",
           "voorkomen": 1,
           "strongs": [
@@ -1498,10 +1483,18 @@
           }
         },
         {
-          "tekst": "onze",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "onze",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GPF"
           ],
           "bronwoorden": [
             "των"
@@ -1512,17 +1505,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 1:2",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -2514,10 +2508,18 @@
           }
         },
         {
-          "tekst": "onze",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -2528,18 +2530,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 1:3",
-            "bronindices": [
-              4
-            ],
             "grondindices": [
               23
+            ],
+            "bronindices": [
+              4
             ]
           }
         },
@@ -3015,7 +3018,7 @@
           "type": "explanatory",
           "textSV1888": "12 in den Heiligen Geest: Dat is, ingevingen des Heiligen Geestes, waarmede de gelovigen begaafd werden, gelijk te zien is Hand. 19:6, of, door de inwendige werkingen des Heiligen Geestes in hunnen harten waardoor het geloof in het is gewrocht Hand. 16:14. Handelingen 19:6: En als Paulus hun de handen opgelegd had, kwam de Heilige Geest op hen; en zij spraken met vreemde talen, en profeteerden. Handelingen 16:14: En een zekere vrouw, met name Lydia, een purperverkoopster, van de stad Thyatira, die God diende, hoorde ons; welker hart de Heere heeft geopend, dat zij acht nam op hetgeen van Paulus gesproken werd.",
           "text1637": "D. in gaven des H. Gheests, daer mede de geloovige begaeft wierden, gelijck te sien is Actor. 19.6. ofte, door de inwendighe werckinghen des Heyligen Geests in hare herten, waer door het geloove in haer is ghewrocht. Act. 16.14.",
-          "text2026": "12 in de Heilige Geest: Dat is, ingevingen van de Heilige Geest, waarmee de gelovigen begaafd werden, gelijk te zien is Hand. 19:6, of, door de inwendige werkingen van de Heilige Geest in hun harten waardoor het geloof in het is gewrocht Hand. 16:14. Handelingen 19:6: En als Paulus hun de handen opgelegd had, kwam de Heilige Geest op hen; en zij spraken met vreemde talen, en profeteerden. Handelingen 16:14: En een zekere vrouw, met name Lydia, een purperverkoopster, van de stad Thyatira, die God diende, hoorde ons; van wie hart de Heer heeft geopend, dat zij acht nam op wat van Paulus gesproken werd."
+          "text2026": "12 in de Heilige Geest: Dat is, ingevingen van de Heilige Geest, waarmee de gelovigen begaafd werden, gelijk te zien is Hand. 19:6, of, door de inwendige werkingen van de Heilige Geest in hun harten waardoor het geloof in het is gewrocht Hand. 16:14. Handelingen 19:6: En als Paulus hun de handen opgelegd had, kwam de Heilige Geest op hen; en zij spraken met vreemde talen, en profeteerden. Handelingen 16:14: En een zekere vrouw, met name Lydia, een purperverkoopster, van de stad Thyatira, die God diende, hoorde ons; van wie het hart de Heer heeft geopend, dat zij acht nam op wat van Paulus gesproken werd."
         },
         {
           "marker": "13",
@@ -6767,7 +6770,7 @@
           "type": "explanatory",
           "textSV1888": "23 zij zelven: Namelijk de gelovigen, die uit andere landen of gemeenten tot ons komen. Zie vers 7. 1 Thessalonicensen 1:7: Alzo dat gij voorbeelden geworden zijt al den gelovigen in Macedonië en Achaje.",
           "text1637": "Namelick, de geloovighe die uyt andere landen ofte Gemeynten tot ons komen, Siet vers 27.",
-          "text2026": "23 zij zelven: Namelijk de gelovigen, die uit andere landen of gemeenten tot ons komen. Zie vers 7. 1 Thessalonicensen 1:7: Zo dat u voorbeelden geworden bent al de gelovigen in Macedonië en Achaje."
+          "text2026": "23 zij zelven: Namelijk de gelovigen, die uit andere landen of gemeenten tot ons komen. Zie vers 7. 1 Thessalonicensen 1:7: Zo dat u voorbeelden geworden bent voor al de gelovigen in Macedonië en Achaje."
         },
         {
           "marker": "24",
@@ -6788,7 +6791,7 @@
           "type": "explanatory",
           "textSV1888": "26 den levenden: Door den eersten titel wordt God van de stomme beelden en andere levenloze schepselen, die de heidenen dienden, onderscheiden; door den anderen titel van de versierde goden, die uit de mensen of andere levende schepselen van hen tot afgoden waren opgeworpen.",
           "text1637": "Door den eersten tytel wordt Godt van de stomme beelden ende andere leefloose schepselen, die de Heydenen dienden, onderscheyden: door den anderen tytel van de versierde Goden, die uyt de menschen, ofte andere levendighe creatueren, van haer tot afgoden waren opgeworpen.",
-          "text2026": "26 de levenden: Door de eerste titel wordt God van de stomme beelden en andere levenloze schepselen, die de heidenen dienden, onderscheiden; door de anderen titel van de versierde goden, die uit de mensen of andere levende schepselen van hen tot afgoden waren opgeworpen."
+          "text2026": "26 de levenden: Door de eerste titel wordt God van de stomme beelden en andere levenloze schepselen, die de heidenen dienden, onderscheiden; door de andere titel van de versierde goden, die uit de mensen of andere levende schepselen van hen tot afgoden waren opgeworpen."
         }
       ],
       "grondtekst": [

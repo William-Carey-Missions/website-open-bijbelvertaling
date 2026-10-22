@@ -1527,12 +1527,12 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G3588"
           ],
           "bronwoorden": [
-            "ο"
+            "του"
           ],
           "transliteraties": [
             ""
@@ -1548,10 +1548,10 @@
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:3",
             "bronindices": [
-              7
+              13
             ],
             "grondindices": [
-              7
+              13
             ]
           }
         },
@@ -1707,12 +1707,12 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G3588"
           ],
           "bronwoorden": [
-            "του"
+            "τα"
           ],
           "transliteraties": [
             ""
@@ -1728,10 +1728,10 @@
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:3",
             "bronindices": [
-              13
+              17
             ],
             "grondindices": [
-              13
+              17
             ]
           }
         },
@@ -1827,12 +1827,12 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 3,
+          "voorkomen": 4,
           "strongs": [
             "G3588"
           ],
           "bronwoorden": [
-            "τα"
+            "των"
           ],
           "transliteraties": [
             ""
@@ -1848,10 +1848,10 @@
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:3",
             "bronindices": [
-              17
+              20
             ],
             "grondindices": [
-              17
+              20
             ]
           }
         },
@@ -1917,9 +1917,15 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 4,
+          "voorkomen": 5,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GPM"
           ],
           "bronwoorden": [
             "των"
@@ -1930,17 +1936,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:3",
-            "bronindices": [
+            "grondindices": [
               20
             ],
-            "grondindices": [
+            "bronindices": [
               20
             ]
           }
@@ -3427,8 +3434,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -3439,24 +3454,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:6",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -9114,7 +9126,7 @@
           "type": "explanatory",
           "textSV1888": "Namelijk uit aller naam; alzo Christus hun allen gevraagd had; waarom ook het antwoord van Christus hoewel het tot Petrus geschiedt, tot allen behoort.",
           "text1637": "N. uyt aller name: alsoo Christus haer alle gevraecht hadde. Daerom oock de antwoorde Christi, hoewelse tot Petrum geschiet, tot allen gehoort.",
-          "text2026": "Namelijk uit aller naam; zo Christus hun allen gevraagd had; waarom ook het antwoord van Christus hoewel het tot Petrus geschiedt, tot allen behoort."
+          "text2026": "Namelijk uit aller naam; omdat Christus hun allen gevraagd had; waarom ook het antwoord van Christus hoewel het tot Petrus geschiedt, tot allen behoort."
         },
         {
           "marker": "13",
@@ -9703,7 +9715,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, Jonas' zoon: want het woord Bar betekent in de Chaldeeuwse spraak een zoon.",
           "text1637": "D. Ionas sone. Want het woort Bar in de Chaldeeusche sprake een Soon beteeckent.",
-          "text2026": "Dat is, Jona' zoon: want het woord Bar betekent in de Chaldeeuwse spraak een zoon."
+          "text2026": "Dat is, Jona's zoon: want het woord Bar betekent in de Chaldeeuwse spraak een zoon."
         },
         {
           "marker": "15",
@@ -10713,7 +10725,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, steen of steenrots; namelijk op deze uwe belijdenis, die gij van mij doet. Of, op mij dien gij beleden hebt. Want Christus is alleen het fondament zijner gemeente, 1 Kor. 3:11 , hoewel ook Petrus en ook de andere apostelen ten aanzien van hunne leer, fondamenten der gemeente kunnen genaamd worden, gelijk te zien is Openb. 21:19 . 1 Korinthiërs 3:11 : Want niemand kan een ander fondament leggen, dan hetgeen gelegd is, hetwelk is Jezus Christus. Openbaring 21:19 : En de fondamenten van den muur der stad waren met allerlei kostelijk gesteente versierd. Het eerste fondament was Jaspis, het tweede Saffier, het derde Chalcedon, het vierde Smaragd.",
           "text1637": "D. steen, ofte steenrotze. Namelick op dese uwe belijdenisse, die ghy van my doet. ofte, op my die ghy beleden hebt. Want Christus is alleen het fondament sijner Gemeynte, 1.Cor. 3.11. hoewel oock Petrus, ende oock d’andere Apostelen, ten aensien van hare leere, fondamenten der Gemeynte konnen genaemt worden: gelijck te sien is, Apoc. 21.19.",
-          "text2026": "Dat is, steen of steenrots; namelijk op deze uwe belijdenis, die u van mij doet. Of, op mij die u beleden hebt. Want Christus is alleen het fondament zijn gemeente, 1 Kor. 3:11 , hoewel ook Petrus en ook de andere apostelen ten aanzien van hunne leer, fondamenten van de gemeente kunnen genaamd worden, gelijk te zien is Openb. 21:19 . 1 Korinthiërs 3:11 : Want niemand kan een ander fondament leggen, dan wat gelegd is, dat is Jezus Christus. Openbaring 21:19 : En de fondamenten van de muur van de stad waren met allerlei kostelijk gesteente versierd. Het eerste fondament was Jaspis, het tweede Saffier, het derde Chalcedon, het vierde Smaragd."
+          "text2026": "Dat is, steen of steenrots; namelijk op deze uwe belijdenis, die u van mij doet. Of, op mij die u beleden hebt. Want Christus is alleen het fondament van zijn gemeente, 1 Kor. 3:11 , hoewel ook Petrus en ook de andere apostelen ten aanzien van hunne leer, fondamenten van de gemeente kunnen genaamd worden, gelijk te zien is Openb. 21:19 . 1 Korinthiërs 3:11 : Want niemand kan een ander fondament leggen, dan wat gelegd is, dat is Jezus Christus. Openbaring 21:19 : En de fondamenten van de muur van de stad waren met allerlei kostelijk gesteente versierd. Het eerste fondament was Jaspis, het tweede Saffier, het derde Chalcedon, het vierde Smaragd."
         },
         {
           "marker": "o",
@@ -10727,7 +10739,7 @@
           "type": "explanatory",
           "textSV1888": "poorten der hel: Dat is, noch de listigheid noch het geweld des duivels en zijner instrumenten. Want eertijds waren de raadhuizen en sterkten der steden in de poorten: Gen. 22:17 . Genesis 22:17 : Voorzeker zal Ik u grotelijks zegenen, en uw zaad zeer vermenigvuldigen, als de sterren des hemels, en als het zand, dat aan den oever der zee is; en uw zaad zal de poort zijner vijanden erfelijk bezitten.",
           "text1637": "D. noch de listicheyt noch het gewelt des Duyvels ende sijner instrumenten. Want eertijts de raedt-huysen ende sterckten der steden inde poorten waren. Gen. 22.17.",
-          "text2026": "poorten van de hel: Dat is, noch de listigheid noch het geweld van de duivel en zijn instrumenten. Want eertijds waren de raadhuizen en sterkten van de steden in de poorten: Gen. 22:17 . Genesis 22:17 : Voorzeker zal Ik u grotelijks zegenen, en uw zaad zeer vermenigvuldigen, als de sterren van de hemel, en als het zand, dat aan de oever van de zee is; en uw zaad zal de poort zijn vijanden erfelijk bezitten."
+          "text2026": "poorten van de hel: Dat is, noch de listigheid noch het geweld van de duivel en zijn instrumenten. Want eertijds waren de raadhuizen en sterkten van de steden in de poorten: Gen. 22:17 . Genesis 22:17 : Voorzeker zal Ik u grotelijks zegenen, en uw zaad zeer vermenigvuldigen, als de sterren van de hemel, en als het zand, dat aan de oever van de zee is; en uw zaad zal de poort van zijn vijanden erfelijk bezitten."
         }
       ],
       "grondtekst": [
@@ -11613,7 +11625,7 @@
           "type": "explanatory",
           "textSV1888": "sleutelen van het koninkrijk der hemelen: Dat is, een geestelijke macht, om van Gods wege en in Christus naam te verkondigen den gelovigen en boetvaardigen vergeving hunner zonden, en dat zij deel hebben aan het rijk Gods, en hetzelve door de heilige sacramenten aan hen te verzegelen. En daarentegen, de ongelovigen en onboetvaardigen, dat zij geen deel hebben aan de vergeving der zonden en het rijk Gods, en daarom hen van het gebruik dezer sacramenten te weren en uit te sluiten: welke macht de gemeente, Matth. 18:18 , en al den apostelen, Joh. 20:21 , ook gegeven wordt. Zie 2 Kor. 10:8 . Mattheüs 18:18 : Voorwaar zeg Ik u: Al wat gij op de aarde binden zult, zal in den hemel gebonden wezen; en al wat gij op de aarde ontbinden zult, zal in den hemel ontbonden wezen. Johannes 20:21 : Jezus dan zeide wederom tot hen: Vrede zij ulieden, gelijkerwijs Mij de Vader gezonden heeft, zende Ik ook ulieden. 2 Korinthiërs 10:8 : Want indien ik ook iets overvloediger zou roemen van onze macht, welke de Heere ons gegeven heeft tot stichting, en niet tot uw nederwerping, zo zal ik niet beschaamd worden;",
           "text1637": "D. een geestelicke macht om van Godes wege, ende in Christi name, te verkondigen den geloovigen ende boetveerdigen vergevinge harer sonden, ende datse veel hebben aen het rijcke Godts, ende ’t selve door de H. Sacramenten aen haer te verzegelen. Ende daerentegen den ongeloovigen ende onboetveerdigen, datse geen deel en hebben aende vergevinge der sonden ende ’trijcke Godts, ende volgens dien haer van het gebruyck der selve Sacramenten te weeren, ende van de gemeynschap der geloovige uyt te sluyten: Welcke macht de Gemeynte Mat. 18.18. ende alle den Apostelen, Ioan. 20. vers 21. oock gegeven wort. Siet 2.Cor. 10.8.",
-          "text2026": "sleutelen van het koninkrijk van de hemelen: Dat is, een geestelijke macht, om van Gods wege en in Christus naam te verkondigen de gelovigen en boetvaardigen vergeving hun zonden, en dat zij deel hebben aan het rijk Gods, en hetzelfde door de heilige sacramenten aan hen te verzegelen. En daarentegen, de ongelovigen en onboetvaardigen, dat zij geen deel hebben aan de vergeving van de zonden en het rijk Gods, en daarom hen van het gebruik van deze sacramenten te weren en uit te sluiten: welke macht de gemeente, Matt. 18:18 , en al de apostelen, Joh. 20:21 , ook gegeven wordt. Zie 2 Kor. 10:8 . Mattheüs 18:18 : Voorwaar zeg Ik u: Al wat u op de aarde binden zult, zal in de hemel gebonden wezen; en al wat u op de aarde ontbinden zult, zal in de hemel ontbonden wezen. Johannes 20:21 : Jezus dan zei opnieuw tot hen: Vrede zij u, zoals Mij de Vader gezonden heeft, zend Ik ook u. 2 Korinthiërs 10:8 : Want als ik ook iets overvloediger zou roemen van onze macht, welke de Heer ons gegeven heeft tot stichting, en niet tot uw nederwerping, zo zal ik niet beschaamd worden;"
+          "text2026": "sleutelen van het koninkrijk van de hemelen: Dat is, een geestelijke macht, om van Gods wege en in Christus naam te verkondigen de gelovigen en boetvaardigen vergeving van hun zonden, en dat zij deel hebben aan het rijk Gods, en hetzelfde door de heilige sacramenten aan hen te verzegelen. En daarentegen, de ongelovigen en onboetvaardigen, dat zij geen deel hebben aan de vergeving van de zonden en het rijk Gods, en daarom hen van het gebruik van deze sacramenten te weren en uit te sluiten: welke macht de gemeente, Matt. 18:18 , en al de apostelen, Joh. 20:21 , ook gegeven wordt. Zie 2 Kor. 10:8 . Mattheüs 18:18 : Voorwaar zeg Ik u: Al wat u op de aarde binden zult, zal in de hemel gebonden wezen; en al wat u op de aarde ontbinden zult, zal in de hemel ontbonden wezen. Johannes 20:21 : Jezus dan zei opnieuw tot hen: Vrede zij u, zoals Mij de Vader gezonden heeft, zend Ik ook u. 2 Korinthiërs 10:8 : Want als ik ook iets overvloediger zou roemen van onze macht, welke de Heer ons gegeven heeft tot stichting, en niet tot uw nederwerping, zo zal ik niet beschaamd worden;"
         },
         {
           "marker": "19",
@@ -13392,7 +13404,7 @@
           "type": "explanatory",
           "textSV1888": "moest heengaan: Namelijk, omdat zulks van God besloten, Hand. 2:23 , van de profeten voorzegd, Luk. 24:26 , 24:27 , en tot verzoening der zonden nodig was, Hebr. 9:23 . Handelingen 2:23 : Dezen, door den bepaalden raad en voorkennis Gods overgegeven zijnde, hebt gij genomen, en door de handen der onrechtvaardigen aan het kruis gehecht en gedood; Lukas 24:26 : Moest de Christus niet deze dingen lijden, en alzo in Zijn heerlijkheid ingaan? Lukas 24:27 : En begonnen hebbende van Mozes en van al de profeten, legde Hij hun uit, in al de Schriften, hetgeen van Hem geschreven was. Hebreeën 9:23 : Zo was het dan noodzaak, dat wel de voorbeeldingen der dingen, die in de hemelen zijn, door deze dingen gereinigd werden, maar de hemelse dingen zelve door betere offeranden dan deze.",
           "text1637": "N. om dat sulcks van Godt besloten Actor. 2.23.van de Propheten voorseght, Luce 24.26, 27. ende tot versoeninge der sonden noodich was. Hebr. 9.23.",
-          "text2026": "moest heengaan: Namelijk, omdat zulks van God besloten, Hand. 2:23 , van de profeten voorzegd, Luk. 24:26 , 24:27 , en tot verzoening van de zonden nodig was, Hebr. 9:23 . Handelingen 2:23 : Deze, door de bepaalden raad en voorkennis Gods overgegeven zijnde, hebt u genomen, en door de handen van de onrechtvaardigen aan het kruis gehecht en gedood; Lukas 24:26 : Moest de Christus niet deze dingen lijden, en zo in Zijn heerlijkheid ingaan? Lukas 24:27 : En begonnen hebbende van Mozes en van al de profeten, legde Hij hun uit, in al de Schriften, wat van Hem geschreven was. Hebreeën 9:23 : Zo was het dan noodzaak, dat wel de voorbeeldingen van de dingen, die in de hemelen zijn, door deze dingen gereinigd werden, maar de hemelse dingen zelve door betere offeranden dan deze."
+          "text2026": "moest heengaan: Namelijk, omdat zulks van God besloten, Hand. 2:23 , van de profeten voorzegd, Luk. 24:26 , 24:27 , en tot verzoening van de zonden nodig was, Hebr. 9:23 . Handelingen 2:23 : Deze, door de bepaalde raad en voorkennis Gods overgegeven zijnde, hebt u genomen, en door de handen van de onrechtvaardigen aan het kruis gehecht en gedood; Lukas 24:26 : Moest de Christus niet deze dingen lijden, en zo in Zijn heerlijkheid ingaan? Lukas 24:27 : En begonnen hebbende van Mozes en van al de profeten, legde Hij hun uit, in al de Schriften, wat van Hem geschreven was. Hebreeën 9:23 : Zo was het dan noodzaak, dat wel de voorbeeldingen van de dingen, die in de hemelen zijn, door deze dingen gereinigd werden, maar de hemelse dingen zelve door betere offeranden dan deze."
         },
         {
           "marker": "22",
@@ -18273,8 +18285,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "ziel",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASF"
           ],
           "bronwoorden": [
             "την"
@@ -18285,24 +18305,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:26",
-            "bronindices": [
-              9
-            ],
             "grondindices": [
               9
+            ],
+            "bronindices": [
+              9
             ]
-          },
-          "anker": "en",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "en",
@@ -18575,10 +18592,18 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "",
           "voorkomen": 2,
+          "anker": "ziel",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSF"
           ],
           "bronwoorden": [
             "της"
@@ -18589,17 +18614,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:26",
-            "bronindices": [
+            "grondindices": [
               19
             ],
-            "grondindices": [
+            "bronindices": [
               19
             ]
           }
@@ -19182,10 +19208,18 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "Vader",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -19196,17 +19230,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "F08D5413823AC2D527993AFEF251EACB19B88B63E20BE18CCFC0A965C83BD160",
             "referentie": "MAT 16:27",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -19666,7 +19701,7 @@
           "type": "explanatory",
           "textSV1888": "zien komen in zijn koninkrijk: Dit kan verstaan worden òf van zijn verrijzenis en hemelvaart, òf van de zendig des Heiligen Geestes en de verbreiding des Evangelies onder de heidenen, of ook van zijne verheerlijking op den berg, waarvan gesproken wordt in het begin van het volgende hoofdstuk.",
           "text1637": "Dit kan verstaen worden, ofte van sijne verrijsenisse ende hemel-vaert, ofte van de sendinge des H. Geests ende verbreydinge des Euangeliums onder de heydenen, ofte oock van sijne verklaringe op den berch, daer van gesproocken wort in’t begin des volgenden Capittels.",
-          "text2026": "zien komen in zijn koninkrijk: Dit kan verstaan worden òf van zijn verrijzenis en hemelvaart, òf van de zendig van de Heiligen Geestes en de verbreiding van het Evangelie onder de heidenen, of ook van zijne verheerlijking op de berg, waarvan gesproken wordt in het begin van het volgende hoofdstuk."
+          "text2026": "zien komen in zijn koninkrijk: Dit kan verstaan worden òf van zijn verrijzenis en hemelvaart, òf van de zending van de Heilige Geest en de verbreiding van het Evangelie onder de heidenen, of ook van zijne verheerlijking op de berg, waarvan gesproken wordt in het begin van het volgende hoofdstuk."
         }
       ],
       "grondtekst": [

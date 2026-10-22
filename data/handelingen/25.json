@@ -1877,42 +1877,80 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Festus",
+          "plaats": "voor",
           "strongs": [
-            "G3588",
-            "G3303"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
-            "ο",
-            "μεν"
+            "ο"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
             "referentie": "ACT 25:4",
-            "bronindices": [
-              0,
-              1
-            ],
             "grondindices": [
-              0,
-              1
+              0
+            ],
+            "bronindices": [
+              0
             ]
-          },
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
           "anker": "Maar",
           "plaats": "voor",
+          "strongs": [
+            "G3303"
+          ],
+          "lemma_strongs": [
+            "G3303"
+          ],
+          "morfologie": [
+            "PRT"
+          ],
+          "bronwoorden": [
+            "μεν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
           "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
+            "referentie": "ACT 25:4",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              1
+            ]
+          }
         },
         {
           "tekst": "Maar",
@@ -4012,10 +4050,16 @@
           }
         },
         {
-          "tekst": "rondom",
+          "tekst": "stonden",
           "voorkomen": 1,
           "strongs": [
             "G4026"
+          ],
+          "lemma_strongs": [
+            "G4026"
+          ],
+          "morfologie": [
+            "V-2AAI-3P"
           ],
           "bronwoorden": [
             "περιεστησαν"
@@ -4026,17 +4070,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
             "referentie": "ACT 25:7",
-            "bronindices": [
+            "grondindices": [
               3
             ],
-            "grondindices": [
+            "bronindices": [
               3
             ]
           }
@@ -6116,7 +6161,7 @@
           "type": "explanatory",
           "textSV1888": "des keizers: Namelijk wiens stadhouder gij zijt.",
           "text1637": "N. wiens Stadthouder ghy zijt.",
-          "text2026": "van de keizers: Namelijk wiens stadhouder u bent."
+          "text2026": "van de keizer: Namelijk wiens stadhouder u bent."
         },
         {
           "marker": "14",
@@ -7926,10 +7971,16 @@
           }
         },
         {
-          "tekst": "uit gunst overgeven",
+          "tekst": "overgeven",
           "voorkomen": 1,
           "strongs": [
             "G5483"
+          ],
+          "lemma_strongs": [
+            "G5483"
+          ],
+          "morfologie": [
+            "V-ADN"
           ],
           "bronwoorden": [
             "χαρισασθαι"
@@ -7940,17 +7991,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
             "referentie": "ACT 25:11",
-            "bronindices": [
+            "grondindices": [
               25
             ],
-            "grondindices": [
+            "bronindices": [
               25
             ]
           }
@@ -11891,10 +11943,16 @@
       ],
       "woordnummers": [
         {
-          "tekst": "gezamenlijk",
+          "tekst": "gekomen",
           "voorkomen": 1,
           "strongs": [
             "G4905"
+          ],
+          "lemma_strongs": [
+            "G4905"
+          ],
+          "morfologie": [
+            "V-2AAP-GPM"
           ],
           "bronwoorden": [
             "συνελθοντων"
@@ -11905,17 +11963,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
             "referentie": "ACT 25:17",
-            "bronindices": [
+            "grondindices": [
               0
             ],
-            "grondindices": [
+            "bronindices": [
               0
             ]
           }
@@ -12845,7 +12904,7 @@
           "type": "explanatory",
           "textSV1888": "Of, bijgeloof alzo noemt deze heiden den Joodsen godsdienst uit verachting, en dat in tegenwoordigheid van Agrippa en zijne zuster, die Joden waren, maar alles gewoon te verdragen, om deze Romeinse stadhouders niet te mishagen.",
           "text1637": "Ofte, Superstitie, also noemt dese Heyden de Ioodsche Religie, uyt verachtinge, ende dat in tegenwoordigheyt van Agrippa ende sijne suster, die Ioden waren, maer alles gewent te verdragen om dese Roomsche Stadthouders niet te mishagen.",
-          "text2026": "Of, bijgeloof zo noemt deze heiden de Joodsen godsdienst uit verachting, en dat in aanwezigheid van Agrippa en zijn zuster, die Joden waren, maar alles gewoon te verdragen, om deze Romeinse stadhouders niet te mishagen."
+          "text2026": "Of, bijgeloof zo noemt deze heiden de Joodse godsdienst uit verachting, en dat in aanwezigheid van Agrippa en zijn zuster, die Joden waren, maar alles gewoon te verdragen, om deze Romeinse stadhouders niet te mishagen."
         }
       ],
       "grondtekst": [
@@ -14289,7 +14348,7 @@
           "type": "explanatory",
           "textSV1888": "des keizers: Grieks Sebaston; voor hetwelk de Latijnen gebruiken het woord Augustus, betekent eigenlijk een, wien de voornaamste eer toekomt; en het woord Sebas, waar dit van komt, wordt veel genomen voor goddelijke eer, welke de heidenen hunnen keizers ook aandeden, of ook voor hetgeen goddelijke eer aangedaan wordt. Zie Hand. 17:23 , en Hand. 27:1 . Handelingen 17:23 : Want de stad doorgaande, en aanschouwende uw heiligdommen, heb ik ook een altaar gevonden, op hetwelk een opschrift stond: DEN ONBEKENDEN GOD. Dezen dan, Dien gij niet kennende dient, verkondig ik ulieden. Handelingen 27:1 : En als het besloten was, dat wij naar Italië zouden afvaren, leverden zij Paulus en enige andere gevangenen, over aan een hoofdman over honderd, met name Julius van de keizerlijke bende.",
           "text1637": "Gr. Sebastou, voor 't welck de Latynen gebruycken het woort Augustus, beteeckent eygentlick eenen die de voornaemste eere toekomt: ende het woort Sebas, daer dit van komt, wordt vele genomen voor Goddelicke eere, welcke de Heydenen hare Keysers oock aendeden, ofte oock voor het gene, dat Goddelicke eere aengedaen wort. Siet Actor. 17.23. ende 27.1.",
-          "text2026": "van de keizers: Grieks Sebaston; voor dat de Latijnen gebruiken het woord Augustus, betekent eigenlijk een, wie de voornaamste eer toekomt; en het woord Sebas, waar dit van komt, wordt veel genomen voor goddelijke eer, welke de heidenen hun keizers ook aandeden, of ook voor wat goddelijke eer aangedaan wordt. Zie Hand. 17:23 , en Hand. 27:1 . Handelingen 17:23 : Want de stad doorgaande, en aanschouwende uw heiligdommen, heb ik ook een altaar gevonden, op dat een opschrift stond: DEN ONBEKENDEN GOD. Deze dan, Die u niet kennende dient, verkondig ik u. Handelingen 27:1 : En als het besloten was, dat wij naar Italië zouden afvaren, leverden zij Paulus en enige andere gevangenen, over aan een hoofdman over honderd, met name Julius van de keizerlijke bende."
+          "text2026": "van de keizer: Grieks Sebaston; voor dat de Latijnen gebruiken het woord Augustus, betekent eigenlijk een, wie de voornaamste eer toekomt; en het woord Sebas, waar dit van komt, wordt veel genomen voor goddelijke eer, welke de heidenen hun keizers ook aandeden, of ook voor wat goddelijke eer aangedaan wordt. Zie Hand. 17:23 , en Hand. 27:1 . Handelingen 17:23 : Want de stad doorgaande, en aanschouwende uw heiligdommen, heb ik ook een altaar gevonden, op dat een opschrift stond: DEN ONBEKENDEN GOD. Deze dan, Die u niet kennende dient, verkondig ik u. Handelingen 27:1 : En als het besloten was, dat wij naar Italië zouden afvaren, leverden zij Paulus en enige andere gevangenen, over aan een hoofdman over honderd, met name Julius van de keizerlijke bende."
         }
       ],
       "grondtekst": [
@@ -14438,8 +14497,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Paulus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -14450,24 +14517,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
             "referentie": "ACT 25:21",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -16691,10 +16755,16 @@
           }
         },
         {
-          "tekst": "de",
-          "voorkomen": 3,
+          "tekst": "die",
+          "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DPM"
           ],
           "bronwoorden": [
             "τοις"
@@ -16705,17 +16775,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "12F2EA809CAB449D23F6440F5A5AE49EAB6D8C75CEE7D6F52259495767BA2D86",
             "referentie": "ACT 25:23",
-            "bronindices": [
+            "grondindices": [
               23
             ],
-            "grondindices": [
+            "bronindices": [
               23
             ]
           }

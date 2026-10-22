@@ -12,7 +12,7 @@
           "type": "explanatory",
           "textSV1888": "besloten was: Namelijk van Festus en zijnen Raad; Hand. 25:12 . Handelingen 25:12 : Toen antwoordde Festus, als hij met den raad gesproken had: Hebt gij u op den keizer beroepen? Gij zult tot den keizer gaan.",
           "text1637": "Nam. van Festo, ende sijnen Raedt, Actor. 25.12.",
-          "text2026": "besloten was: Namelijk van Festus en zijn Raad; Hand. 25:12 . Handelingen 25:12 : Toen antwoordde Festus, als hij met de raad gesproken had: Hebt u u op de keizer beroepen? U zult tot de keizer gaan."
+          "text2026": "besloten was: Namelijk van Festus en zijn Raad; Hand. 25:12 . Handelingen 25:12 : Toen antwoordde Festus, als hij met de raad gesproken had: Hebt u zich op de keizer beroepen? U zult tot de keizer gaan."
         },
         {
           "marker": "2",
@@ -33,7 +33,7 @@
           "type": "explanatory",
           "textSV1888": "Van dit woord zie Hand. 10:1 . Deze Julius wordt gezegd een hoofdman van deze bende te zijn, omdat hij over een compagnie bevel had, die onder des keizers garde behoorde, die daarom hiertoe schijnt verkoren te zijn, opdat de gevangenen onder zijn opzicht te beter bewaard en in des keizers handen geleverd zouden worden. Handelingen 10:1 : En er was een zeker man te Cesarea, met name Cornelius, een hoofdman over honderd, uit de bende, genaamd de Italiaanse;",
           "text1637": "Van dit woordt siet Actor. 10.1. Dese Iulius wordt geseght een Hooftman van dese bende te zijn, om dat hy over een compagnie bevel hadde, die onder des Keysers garde behoorde, die daerom hier toe oock schijnt vercoren te zijn, op dat de gevangene onder zijn opsicht te beter bewaert, ende in des Keysers handen gelevert souden worden.",
-          "text2026": "Van dit woord zie Hand. 10:1 . Deze Julius wordt gezegd een hoofdman van deze bende te zijn, omdat hij over een compagnie bevel had, die onder van de keizers garde behoorde, die daarom hiertoe schijnt gekozen te zijn, opdat de gevangenen onder zijn opzicht te beter bewaard en in van de keizers handen geleverd zouden worden. Handelingen 10:1 : En er was een zeker man te Cesarea, met name Cornelius, een hoofdman over honderd, uit de bende, genaamd de Italiaanse;"
+          "text2026": "Van dit woord zie Hand. 10:1 . Deze Julius wordt gezegd een hoofdman van deze bende te zijn, omdat hij over een compagnie bevel had, die onder de garde van de keizer behoorde, die daarom hiertoe schijnt gekozen te zijn, opdat de gevangenen onder zijn opzicht te beter bewaard en in de handen van de keizer geleverd zouden worden. Handelingen 10:1 : En er was een zeker man te Cesarea, met name Cornelius, een hoofdman over honderd, uit de bende, genaamd de Italiaanse;"
         }
       ],
       "grondtekst": [
@@ -852,7 +852,7 @@
           "type": "explanatory",
           "textSV1888": "Namelijk Klein-Azië, in hetwelk Mysië ook gelegen was.",
           "text1637": "Namel. kleyn Asien, in het welck Misien oock gelegen was.",
-          "text2026": "Namelijk Klein-Azië, in dat Mysië ook gelegen was."
+          "text2026": "Namelijk Klein-Azië, waarin Mysië ook gelegen was."
         },
         {
           "marker": "7",
@@ -1332,10 +1332,16 @@
           }
         },
         {
-          "tekst": "voeren wij af",
+          "tekst": "voeren",
           "voorkomen": 1,
           "strongs": [
             "G321"
+          ],
+          "lemma_strongs": [
+            "G321"
+          ],
+          "morfologie": [
+            "V-API-1P"
           ],
           "bronwoorden": [
             "ανηχθημεν"
@@ -1346,17 +1352,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:2",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -1554,7 +1561,7 @@
           "type": "explanatory",
           "textSV1888": "Ene stad in Fenicië, waarvan zie Matth. 11:21 ; Hand. 12:20 . Mattheüs 11:21 : Wee u, Chorazin! wee u Bethsaida! want zo in Tyrus en Sidon de krachten waren geschied, die in u geschied zijn, zij zouden zich eertijds in zak en as bekeerd hebben. Handelingen 12:20 : En Herodes had in den zin tegen de Tyriërs en Sidoniërs te krijgen; maar zij kwamen eendrachtelijk tot hem, en Blastus, die des konings kamerling was, overreed hebbende, begeerden vrede, omdat hun land gespijzigd werd van des konings land.",
           "text1637": "Een stadt in Phenicien: waer van siet Matth. 11.21. Actor. 12.20.",
-          "text2026": "Ene stad in Fenicië, waarvan zie Matt. 11:21 ; Hand. 12:20 . Mattheüs 11:21 : Wee u, Chorazin! wee u Bethsaida! want zo in Tyrus en Sidon de krachten waren geschied, die in u geschied zijn, zij zouden zich eertijds in zak en as bekeerd hebben. Handelingen 12:20 : En Herodes had in de zin tegen de Tyriërs en Sidoniërs te krijgen; maar zij kwamen eendrachtelijk tot hem, en Blastus, die van de koning kamerling was, overreed hebbende, begeerden vrede, omdat hun land gevoed werd van de koning land."
+          "text2026": "Ene stad in Fenicië, waarvan zie Matt. 11:21 ; Hand. 12:20 . Mattheüs 11:21 : Wee u, Chorazin! wee u Bethsaida! want zo in Tyrus en Sidon de krachten waren geschied, die in u geschied zijn, zij zouden zich eertijds in zak en as bekeerd hebben. Handelingen 12:20 : En Herodes had in de zin tegen de Tyriërs en Sidoniërs te krijgen; maar zij kwamen eendrachtelijk tot hem, en Blastus, die de kamerling van de koning was, overreed hebbende, begeerden vrede, omdat hun land gevoed werd van het land van de koning."
         },
         {
           "marker": "b",
@@ -2164,10 +2171,16 @@
           }
         },
         {
-          "tekst": "de",
-          "voorkomen": 2,
+          "tekst": "vrienden",
+          "voorkomen": 1,
           "strongs": [
             "G5384"
+          ],
+          "lemma_strongs": [
+            "G5384"
+          ],
+          "morfologie": [
+            "A-APM"
           ],
           "bronwoorden": [
             "φιλους"
@@ -2178,17 +2191,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:3",
-            "bronindices": [
+            "grondindices": [
               15
             ],
-            "grondindices": [
+            "bronindices": [
               15
             ]
           }
@@ -2556,37 +2570,75 @@
           }
         },
         {
-          "tekst": "de",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
             "G3588"
           ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
+          ],
           "bronwoorden": [
-            "το",
-            "τους"
+            "το"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:4",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              6,
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "de",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-APM"
+          ],
+          "bronwoorden": [
+            "τους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
+            "referentie": "ACT 27:4",
+            "grondindices": [
               7
             ],
-            "grondindices": [
-              6,
+            "bronindices": [
               7
             ]
           }
@@ -3380,10 +3432,16 @@
       ],
       "woordnummers": [
         {
-          "tekst": "En",
+          "tekst": "daar",
           "voorkomen": 1,
           "strongs": [
             "G2546"
+          ],
+          "lemma_strongs": [
+            "G2546"
+          ],
+          "morfologie": [
+            "ADV-K"
           ],
           "bronwoorden": [
             "κακει"
@@ -3394,17 +3452,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:6",
-            "bronindices": [
+            "grondindices": [
               0
             ],
-            "grondindices": [
+            "bronindices": [
               0
             ]
           }
@@ -3684,10 +3743,16 @@
           }
         },
         {
-          "tekst": "deed",
+          "tekst": "overgaan",
           "voorkomen": 1,
           "strongs": [
             "G1688"
+          ],
+          "lemma_strongs": [
+            "G1688"
+          ],
+          "morfologie": [
+            "V-AAI-3S"
           ],
           "bronwoorden": [
             "ενεβιβασεν"
@@ -3698,17 +3763,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:6",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -4623,7 +4689,7 @@
           "type": "explanatory",
           "textSV1888": "Of Goedehavens, heden nog Boniporto genaamd, ene stad in Kreta, van de bekwaamheid harer haven alzo geheten.",
           "text1637": "Ofte, goede havens, heden noch Boniporto genaemt, een stadt in Creta, van de bequaemheyt harer haven also geheeten.",
-          "text2026": "Of Goedehavens, heden nog Boniporto genaamd, ene stad in Kreta, van de bekwaamheid haar haven zo geheten."
+          "text2026": "Of Goedehavens, heden nog Boniporto genaamd, ene stad in Kreta, van de bekwaamheid van haar haven zo geheten."
         },
         {
           "marker": "22",
@@ -5226,7 +5292,7 @@
           "type": "explanatory",
           "textSV1888": "de vasten: Namelijk de jaarlijkse vasten der Joden, op welke de verzoening des gehelen volks door den hogepriester in het heilige der heiligen geschiedde, gelijk te zien is Lev. 16:29 , en Lev. 23:27 , welke dag was de tiende der zevende maand, die ten dele met onzen September, ten dele met onzen October overeenkwamen; zodat de tiende dag kwam omtrent het begin van October, na welke maand de zee bij de ouden niet werd bevaren tot het begin van Maart toe, om de kortheid der dagen en de stormen, die tussen dien tijd veel zijn. Zie Veget de re milit. lib. 4, cap. 39. Hetwelk dan gene gemeenschap heeft met de vastentijden, die sommigen hedendaags houden, die lang na der apostelen tijden in de oude kerk niet bekend zijn geweest. Leviticus 16:29 : En dit zal voor u tot een eeuwige inzetting zijn: gij zult in de zevende maand, op den tienden der maand, uw zielen verootmoedigen, en geen werk doen, inboorling noch vreemdeling, die in het midden van u als vreemdeling verkeert. Leviticus 23:27 : Doch op den tienden dezer zevende maand zal de verzoendag zijn, een heilige samenroeping zult gij hebben; dan zult gij uw zielen verootmoedigen, en zult den HEERE een vuuroffer offeren.",
           "text1637": "N. de jaerlicksche vasten der Ioden, op welcke de versoeninge des geheelen volcks door den Hoogen-priester in het Heylige der heyligen geschiedde, gelijck te sien is, Levit. 16.29. ende 23.27. welcke dagh was de tiende der sevender maent, die ten deele met onsen September, ten deele met onsen October over een quam: soo dat den tienden dagh quam ontrent het begin van October, nae welcke maent de zee by de oude niet en wiert bevaren, tot het beginsel van Martius toe, om de kortheydt der dagen ende de tempeesten, die tusschen dien tijt veel zijn. Siet Veget. de re milit. lib. 4. cap. 39. het welck dan geen gemeynschap en heeft met de vastentijden die sommige hedens-daeghs houden, die lange na der Apostelen tijden in de oude Kercke niet bekent en zijn geweest.",
-          "text2026": "de vasten: Namelijk de jaarlijkse vasten van de Joden, op welke de verzoening van de heel volks door de hogepriester in het heilige van de heiligen geschiedde, gelijk te zien is Lev. 16:29 , en Lev. 23:27 , welke dag was de tiende van de zevende maand, die ten dele met onze September, ten dele met onze October overeenkwamen; zodat de tiende dag kwam omtrent het begin van October, na welke maand de zee bij de ouden niet werd bevaren tot het begin van Maart toe, om de kortheid van de dagen en de stormen, die tussen die tijd veel zijn. Zie Veget de re milit. lib. 4, cap. 39. Dat dan gene gemeenschap heeft met de vastentijden, die sommigen hedendaags houden, die lang na van de apostelen tijden in de oude kerk niet bekend zijn geweest. Leviticus 16:29 : En dit zal voor u tot een eeuwige inzetting zijn: u zult in de zevende maand, op de tienden van de maand, uw zielen verootmoedigen, en geen werk doen, inboorling noch vreemdeling, die in het midden van u als vreemdeling verkeert. Leviticus 23:27 : Maar op de tienden van deze zevende maand zal de verzoendag zijn, een heilige samenroeping zult u hebben; dan zult u uw zielen verootmoedigen, en zult JAHWEH een vuuroffer offeren."
+          "text2026": "de vasten: Namelijk de jaarlijkse vasten van de Joden, op welke de verzoening van het hele volk door de hogepriester in het heilige van de heiligen geschiedde, gelijk te zien is Lev. 16:29 , en Lev. 23:27 , welke dag was de tiende van de zevende maand, die ten dele met onze September, ten dele met onze October overeenkwamen; zodat de tiende dag kwam omtrent het begin van October, na welke maand de zee bij de ouden niet werd bevaren tot het begin van Maart toe, om de kortheid van de dagen en de stormen, die tussen die tijd veel zijn. Zie Veget de re milit. lib. 4, cap. 39. Dat dan gene gemeenschap heeft met de vastentijden, die sommigen hedendaags houden, die lang na de tijden van de apostelen in de oude kerk niet bekend zijn geweest. Leviticus 16:29 : En dit zal voor u tot een eeuwige inzetting zijn: u zult in de zevende maand, op de tiende van de maand, uw zielen verootmoedigen, en geen werk doen, inboorling noch vreemdeling, die in het midden van u als vreemdeling verkeert. Leviticus 23:27 : Maar op de tiende van deze zevende maand zal de verzoendag zijn, een heilige samenroeping zult u hebben; dan zult u uw zielen verootmoedigen, en zult JAHWEH een vuuroffer offeren."
         }
       ],
       "grondtekst": [
@@ -8170,10 +8236,16 @@
           }
         },
         {
-          "tekst": "of zij enigszins",
+          "tekst": "enigszins",
           "voorkomen": 1,
           "strongs": [
             "G1513"
+          ],
+          "lemma_strongs": [
+            "G1513"
+          ],
+          "morfologie": [
+            "COND"
           ],
           "bronwoorden": [
             "ειπως"
@@ -8184,17 +8256,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:12",
-            "bronindices": [
+            "grondindices": [
               13
             ],
-            "grondindices": [
+            "bronindices": [
               13
             ]
           }
@@ -8901,10 +8974,16 @@
           }
         },
         {
-          "tekst": "verkregen te hebben",
+          "tekst": "verkregen",
           "voorkomen": 1,
           "strongs": [
             "G2902"
+          ],
+          "lemma_strongs": [
+            "G2902"
+          ],
+          "morfologie": [
+            "V-RAN"
           ],
           "bronwoorden": [
             "κεκρατηκεναι"
@@ -8915,17 +8994,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:13",
-            "bronindices": [
+            "grondindices": [
               6
             ],
-            "grondindices": [
+            "bronindices": [
               6
             ]
           }
@@ -9958,10 +10038,16 @@
           }
         },
         {
-          "tekst": "gaven wij het op",
+          "tekst": "gaven",
           "voorkomen": 1,
           "strongs": [
             "G1929"
+          ],
+          "lemma_strongs": [
+            "G1929"
+          ],
+          "morfologie": [
+            "V-2AAP-NPM"
           ],
           "bronwoorden": [
             "επιδοντες"
@@ -9972,17 +10058,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:15",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -11191,10 +11278,16 @@
           }
         },
         {
-          "tekst": "dreven zo heen",
+          "tekst": "dreven",
           "voorkomen": 1,
           "strongs": [
             "G5342"
+          ],
+          "lemma_strongs": [
+            "G5342"
+          ],
+          "morfologie": [
+            "V-IPI-3P"
           ],
           "bronwoorden": [
             "εφεροντο"
@@ -11205,17 +11298,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:17",
-            "bronindices": [
+            "grondindices": [
               18
             ],
-            "grondindices": [
+            "bronindices": [
               18
             ]
           }
@@ -11721,10 +11815,16 @@
           }
         },
         {
-          "tekst": "met onze eigen handen",
+          "tekst": "handen",
           "voorkomen": 1,
           "strongs": [
             "G849"
+          ],
+          "lemma_strongs": [
+            "G849"
+          ],
+          "morfologie": [
+            "A-NPM"
           ],
           "bronwoorden": [
             "αυτοχειρες"
@@ -11735,17 +11835,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:19",
-            "bronindices": [
+            "grondindices": [
               3
             ],
-            "grondindices": [
+            "bronindices": [
               3
             ]
           }
@@ -11784,29 +11885,44 @@
           "tekst": "scheepsgereedschap",
           "voorkomen": 1,
           "strongs": [
-            "G4631"
+            "G4631",
+            "G4143"
+          ],
+          "lemma_strongs": [
+            "G4631",
+            "G4143"
+          ],
+          "morfologie": [
+            "N-ASF",
+            "N-GSN"
           ],
           "bronwoorden": [
-            "σκευην"
+            "σκευην",
+            "πλοιου"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:19",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
-              5
+              5,
+              7
+            ],
+            "bronindices": [
+              5,
+              7
             ]
           }
         },
@@ -11845,40 +11961,16 @@
           "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
         },
         {
-          "tekst": "scheepsgereedschap",
-          "voorkomen": 1,
-          "strongs": [
-            "G4143"
-          ],
-          "bronwoorden": [
-            "πλοιου"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "lokale-tr-grondtekst",
-            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
-            "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
-            "referentie": "ACT 27:19",
-            "bronindices": [
-              7
-            ],
-            "grondindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "wierpen wij",
+          "tekst": "wierpen",
           "voorkomen": 1,
           "strongs": [
             "G4496"
+          ],
+          "lemma_strongs": [
+            "G4496"
+          ],
+          "morfologie": [
+            "V-AAI-1P"
           ],
           "bronwoorden": [
             "ερριψαμεν"
@@ -11889,17 +11981,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:19",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -12603,10 +12696,18 @@
           }
         },
         {
-          "tekst": "te worden",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "behouden",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSN"
           ],
           "bronwoorden": [
             "του"
@@ -12617,17 +12718,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:20",
-            "bronindices": [
+            "grondindices": [
               18
             ],
-            "grondindices": [
+            "bronindices": [
               18
             ]
           }
@@ -13077,10 +13179,16 @@
           }
         },
         {
-          "tekst": "stond Paulus op",
+          "tekst": "stond",
           "voorkomen": 1,
           "strongs": [
             "G2476"
+          ],
+          "lemma_strongs": [
+            "G2476"
+          ],
+          "morfologie": [
+            "V-APP-NSM"
           ],
           "bronwoorden": [
             "σταθεις"
@@ -13091,17 +13199,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:21",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }
@@ -13501,10 +13610,16 @@
           }
         },
         {
-          "tekst": "afgevaren te zijn",
+          "tekst": "afgevaren",
           "voorkomen": 1,
           "strongs": [
             "G321"
+          ],
+          "lemma_strongs": [
+            "G321"
+          ],
+          "morfologie": [
+            "V-PPN"
           ],
           "bronwoorden": [
             "αναγεσθαι"
@@ -13515,17 +13630,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:21",
-            "bronindices": [
+            "grondindices": [
               19
             ],
-            "grondindices": [
+            "bronindices": [
               19
             ]
           }
@@ -13625,10 +13741,16 @@
           }
         },
         {
-          "tekst": "verhoed te hebben",
+          "tekst": "verhoed",
           "voorkomen": 1,
           "strongs": [
             "G2770"
+          ],
+          "lemma_strongs": [
+            "G2770"
+          ],
+          "morfologie": [
+            "V-AAN"
           ],
           "bronwoorden": [
             "κερδησαι"
@@ -13639,17 +13761,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:21",
-            "bronindices": [
+            "grondindices": [
               23
             ],
-            "grondindices": [
+            "bronindices": [
               23
             ]
           }
@@ -14122,10 +14245,16 @@
           }
         },
         {
-          "tekst": "vol moed te zijn",
+          "tekst": "vol moed",
           "voorkomen": 1,
           "strongs": [
             "G2114"
+          ],
+          "lemma_strongs": [
+            "G2114"
+          ],
+          "morfologie": [
+            "V-PAN"
           ],
           "bronwoorden": [
             "ευθυμειν"
@@ -14136,17 +14265,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:22",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -14242,10 +14372,16 @@
           }
         },
         {
-          "tekst": "iemands",
+          "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
             "G3762"
+          ],
+          "lemma_strongs": [
+            "G3762"
+          ],
+          "morfologie": [
+            "A-NSF-N"
           ],
           "bronwoorden": [
             "ουδεμια"
@@ -14256,17 +14392,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:22",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -14670,10 +14807,16 @@
           }
         },
         {
-          "tekst": "deze",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSF"
           ],
           "bronwoorden": [
             "τη"
@@ -14684,17 +14827,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:23",
-            "bronindices": [
+            "grondindices": [
               3
             ],
-            "grondindices": [
+            "bronindices": [
               3
             ]
           }
@@ -14730,10 +14874,16 @@
           }
         },
         {
-          "tekst": "zelfde",
+          "tekst": "deze",
           "voorkomen": 1,
           "strongs": [
             "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-DSF"
           ],
           "bronwoorden": [
             "ταυτη"
@@ -14744,17 +14894,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:23",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }
@@ -15884,10 +16035,16 @@
           }
         },
         {
-          "tekst": "bent vol moed",
+          "tekst": "vol moed",
           "voorkomen": 1,
           "strongs": [
             "G2114"
+          ],
+          "lemma_strongs": [
+            "G2114"
+          ],
+          "morfologie": [
+            "V-PAM-2P"
           ],
           "bronwoorden": [
             "ευθυμειτε"
@@ -15898,17 +16055,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:25",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
+            "bronindices": [
               1
             ]
           }
@@ -16154,42 +16312,84 @@
           }
         },
         {
-          "tekst": "zoals",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "zoals",
+          "plaats": "voor",
           "strongs": [
-            "G2596",
-            "G3739",
-            "G5158"
+            "G2596"
+          ],
+          "lemma_strongs": [
+            "G2596"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "καθ",
-            "ον",
-            "τροπον"
+            "καθ"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:25",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
-              10,
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "zoals",
+          "voorkomen": 1,
+          "strongs": [
+            "G3739",
+            "G5158"
+          ],
+          "lemma_strongs": [
+            "G3739",
+            "G5158"
+          ],
+          "morfologie": [
+            "R-ASM",
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "ον",
+            "τροπον"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
+            "referentie": "ACT 27:25",
+            "grondindices": [
               11,
               12
             ],
-            "grondindices": [
-              10,
+            "bronindices": [
               11,
               12
             ]
@@ -17502,10 +17702,16 @@
           }
         },
         {
-          "tekst": "dieplood uitgeworpen hebbende",
+          "tekst": "dieplood",
           "voorkomen": 1,
           "strongs": [
             "G1001"
+          ],
+          "lemma_strongs": [
+            "G1001"
+          ],
+          "morfologie": [
+            "V-AAP-NPM"
           ],
           "bronwoorden": [
             "βολισαντες"
@@ -17516,17 +17722,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:28",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
+            "bronindices": [
               1
             ]
           }
@@ -17772,10 +17979,16 @@
           }
         },
         {
-          "tekst": "dieplood uit",
-          "voorkomen": 1,
+          "tekst": "dieplood",
+          "voorkomen": 2,
           "strongs": [
             "G1001"
+          ],
+          "lemma_strongs": [
+            "G1001"
+          ],
+          "morfologie": [
+            "V-AAP-NPM"
           ],
           "bronwoorden": [
             "βολισαντες"
@@ -17786,17 +17999,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:28",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -22471,10 +22685,16 @@
           }
         },
         {
-          "tekst": "in aller aanwezigheid",
+          "tekst": "aanwezigheid",
           "voorkomen": 1,
           "strongs": [
             "G1799"
+          ],
+          "lemma_strongs": [
+            "G1799"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "ενωπιον"
@@ -22485,17 +22705,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:35",
-            "bronindices": [
+            "grondindices": [
               9
             ],
-            "grondindices": [
+            "bronindices": [
               9
             ]
           }
@@ -28275,10 +28496,16 @@
           }
         },
         {
-          "tekst": "enige stukken",
+          "tekst": "enige",
           "voorkomen": 1,
           "strongs": [
             "G5100"
+          ],
+          "lemma_strongs": [
+            "G5100"
+          ],
+          "morfologie": [
+            "X-GPN"
           ],
           "bronwoorden": [
             "τινων"
@@ -28289,17 +28516,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:44",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -28489,10 +28717,16 @@
           }
         },
         {
-          "tekst": "is het gebeurd",
+          "tekst": "gebeurd",
           "voorkomen": 1,
           "strongs": [
             "G1096"
+          ],
+          "lemma_strongs": [
+            "G1096"
+          ],
+          "morfologie": [
+            "V-2ADI-3S"
           ],
           "bronwoorden": [
             "εγενετο"
@@ -28503,17 +28737,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "794A3B491867EB70BE420E8326899F4E0DE234160AE2E892DFD32F7581486532",
             "referentie": "ACT 27:44",
-            "bronindices": [
+            "grondindices": [
               17
             ],
-            "grondindices": [
+            "bronindices": [
               17
             ]
           }

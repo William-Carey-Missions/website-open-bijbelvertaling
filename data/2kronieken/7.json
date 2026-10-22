@@ -2716,7 +2716,7 @@
           "type": "explanatory",
           "textSV1888": "hun wachten: Te weten, naar de verdeling hunner beurten, die zij tevoren in de inwijding des tempels niet hadden kunnen onderhouden; boven, 2 Kron. 5:11 . 2 Kronieken 5:11 : En het geschiedde, als de priesters uit het heilige uitgingen; (want al de priesters, die gevonden werden, hadden zich geheiligd, zonder de verdelingen te houden;",
           "text1637": "T.w. nae de deelinge harer beurten, diese te vooren in de inwyinge des Tempels niet en hadden konnen onderhouden, bov. 5.11.",
-          "text2026": "hun wachten: Te weten, naar de verdeling hun beurten, die zij tevoren in de inwijding van de tempel niet hadden kunnen onderhouden; boven, 2 Kron. 5:11 . 2 Kronieken 5:11 : En het geschiedde, als de priesters uit het heilige uitgingen; (want al de priesters, die gevonden werden, hadden zich geheiligd, zonder de verdelingen te houden;"
+          "text2026": "hun wachten: Te weten, naar de verdeling van hun beurten, die zij tevoren in de inwijding van de tempel niet hadden kunnen onderhouden; boven, 2 Kron. 5:11 . 2 Kronieken 5:11 : En het geschiedde, als de priesters uit het heilige uitgingen; (want al de priesters, die gevonden werden, hadden zich geheiligd, zonder de verdelingen te houden;"
         },
         {
           "marker": "7",
@@ -3631,7 +3631,7 @@
           "type": "explanatory",
           "textSV1888": "het vette: Versta, der dankoffers. Zie 1 Kon. 8:64 . 1 Koningen 8:64 : Ten zelfden dage heiligde de koning het middelste des voorhofs, dat voor het huis des HEEREN was, omdat hij aldaar het brandoffer en het spijsoffer bereid had, mitsgaders het vet der dankofferen; want het koperen altaar, dat voor het aangezicht des HEEREN was, was te klein, om de brandofferen, en de spijsofferen, en het vet der dankofferen te vatten.",
           "text1637": "Verst. der danck-offeren. Siet 1.Reg. 8.64.",
-          "text2026": "het vette: Versta, van het dankoffer. Zie 1 Kon. 8:64 . 1 Koningen 8:64 : Ten zelfden dage heiligde de koning het middelste van het voorhof, dat voor het huis van JAHWEH was, omdat hij daar het brandoffer en het spijsoffer bereid had, en ook het vet van de dankofferen; want het koperen altaar, dat voor het aangezicht van JAHWEH was, was te klein, om de brandofferen, en de spijsofferen, en het vet van de dankofferen te vatten."
+          "text2026": "het vette: Versta, van de dankoffers. Zie 1 Kon. 8:64 . 1 Koningen 8:64 : Ten zelfden dage heiligde de koning het middelste van het voorhof, dat voor het huis van JAHWEH was, omdat hij daar het brandoffer en het spijsoffer bereid had, en ook het vet van de dankofferen; want het koperen altaar, dat voor het aangezicht van JAHWEH was, was te klein, om de brandofferen, en de spijsofferen, en het vet van de dankofferen te vatten."
         }
       ],
       "grondtekst": [
@@ -4571,8 +4571,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֶת"
@@ -4583,27 +4588,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 7:7",
+            "grondindices": [
+              27
+            ],
             "bronindices": [
               27
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdend-voorwerpteken וְאֶת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֖ה"
@@ -4614,13 +4622,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 7:7",
+            "grondindices": [
+              28
+            ],
             "bronindices": [
               26
             ]
@@ -5363,7 +5375,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, een vierdag, op welken alle dagelijks werk verboden was. Zie Lev. 23:36 . Deze dag wordt genoemd de grote dag van het feest, Joh. 7:37 . Leviticus 23:36 : Zeven dagen zult gij den HEERE vuurofferen offeren; op den achtsten dag zult gij een heilige samenroeping hebben, en zult den HEERE vuuroffer offeren; het is een verbodsdag; gij zult geen dienstwerk doen. Johannes 7:37 : En op den laatsten dag, zijnde de grote dag van het feest, stond Jezus en riep, zeggende: Zo iemand dorst, die kome tot Mij en drinke.",
           "text1637": "Dat is, eenen vyer-dach, op den welcken alle dagelicks werck verboden was. Siet Levitic. 23. op vers 36. dese dach wort genaemt de groote dach van het feest. Ioan. 7.37.",
-          "text2026": "Dat is, een vierdag, op welke alle dagelijks werk verboden was. Zie Lev. 23:36 . Deze dag wordt genoemd de grote dag van het feest, Joh. 7:37 . Leviticus 23:36 : Zeven dagen zult u JAHWEH vuurofferen offeren; op de achtsten dag zult u een heilige samenroeping hebben, en zult JAHWEH vuuroffer offeren; het is een verbodsdag; u zult geen dienstwerk doen. Johannes 7:37 : En op de laatsten dag, zijnde de grote dag van het feest, stond Jezus en riep, zeggende: Zo iemand dorst, die kome tot Mij en drinke."
+          "text2026": "Dat is, een vierdag, op welke alle dagelijks werk verboden was. Zie Lev. 23:36 . Deze dag wordt genoemd de grote dag van het feest, Joh. 7:37 . Leviticus 23:36 : Zeven dagen zult u JAHWEH vuurofferen offeren; op de achtste dag zult u een heilige samenroeping hebben, en zult JAHWEH vuuroffer offeren; het is een verbodsdag; u zult geen dienstwerk doen. Johannes 7:37 : En op de laatste dag, zijnde de grote dag van het feest, stond Jezus en riep, zeggende: Zo iemand dorst, die kome tot Mij en drinke."
         },
         {
           "marker": "b",
@@ -5835,7 +5847,7 @@
           "type": "explanatory",
           "textSV1888": "dag der zevende maand: De dag na den verbodsdag. Want dit feest begon met den vijftienden dag der zevende maand, en eindigde met den twee en twintigsten derzelfde maand, Lev. 23:34 . Leviticus 23:34 : Spreek tot de kinderen Israëls, zeggende: Op den vijftienden dag van deze zevende maand zal het feest der loofhutten zeven dagen den HEERE zijn.",
           "text1637": "De dach na den verbots-dach. want dit feest begon met den vijftienden dach der sevender maent, ende eyndichde met den 22 der selver maent, Lev. 23,34.",
-          "text2026": "dag van de zevende maand: De dag na de verbodsdag. Want dit feest begon met de vijftienden dag van de zevende maand, en eindigde met de twee en twintigsten derzelfde maand, Lev (לֵב). 23:34 . Leviticus 23:34 : Spreek tot de kinderen van Israël, zeggende: Op de vijftienden dag van deze zevende maand zal het feest van de loofhutten zeven dagen JAHWEH zijn."
+          "text2026": "dag van de zevende maand: De dag na de verbodsdag. Want dit feest begon met de vijftiende dag van de zevende maand, en eindigde met de twee en twintigste derzelfde maand, Lev. 23:34 . Leviticus 23:34 : Spreek tot de kinderen van Israël, zeggende: Op de vijftiende dag van deze zevende maand zal het feest van de loofhutten zeven dagen JAHWEH zijn."
         },
         {
           "marker": "c",
@@ -7258,7 +7270,7 @@
           "type": "explanatory",
           "textSV1888": "des nachts: Te weten, in den droom. Vergelijk 1 Kon. 3:5 , en 1 Kon. 9:2 . Zie van zulk een goddelijke verschijning Gen. 20:2 , en Gen. 28:12 , mitsgaders de aantekening. 1 Koningen 3:5 : Te Gibeon verscheen de HEERE aan Salomo in een droom des nachts en God zeide: Begeer wat Ik u geven zal. 1 Koningen 9:2 : Dat de HEERE ten anderen male aan Salomo verscheen, gelijk als Hij hem in Gibeon verschenen was. Genesis 20:2 : Als nu Abraham van Sara, zijn huisvrouw, gezegd had: Zij is mijn zuster, zo zond Abimelech, de koning van Gerar, en nam Sara weg. Genesis 28:12 : En hij droomde; en ziet, een ladder was gesteld op de aarde, welker opperste aan den hemel raakte; en ziet, de engelen Gods klommen daarbij op en neder.",
           "text1637": "T.w. in den droom, Vergel. 1.Reg. 3.5. ende 9.2. Siet van sulcke goddelicke verschijninge Gen. 20.3. ende 28.12. mitsgaders de aenteeck.",
-          "text2026": "van de nacht: Te weten, in de droom. Vergelijk 1 Kon. 3:5 , en 1 Kon. 9:2 . Zie van zulk een goddelijke verschijning Gen. 20:2 , en Gen. 28:12 , en ook de aantekening. 1 Koningen 3:5 : Te Gibeon verscheen JAHWEH aan Salomo in een droom van de nacht en God zei: Begeer wat Ik u geven zal. 1 Koningen 9:2 : Dat JAHWEH ten anderen male aan Salomo verscheen, gelijk als Hij hem in Gibeon verschenen was. Genesis 20:2 : Als nu Abraham van Sara, zijn huisvrouw, gezegd had: Zij is mijn zus, zo zond Abimelech, de koning van Gerar, en nam Sara weg. Genesis 28:12 : En hij droomde; en ziet, een ladder was gesteld op de aarde, van wie opperste aan de hemel raakte; en ziet, de engelen van God klommen daarbij op en neder."
+          "text2026": "van de nacht: Te weten, in de droom. Vergelijk 1 Kon. 3:5 , en 1 Kon. 9:2 . Zie van zulk een goddelijke verschijning Gen. 20:2 , en Gen. 28:12 , en ook de aantekening. 1 Koningen 3:5 : Te Gibeon verscheen JAHWEH aan Salomo in een droom van de nacht en God zei: Begeer wat Ik u geven zal. 1 Koningen 9:2 : Dat JAHWEH ten anderen male aan Salomo verscheen, gelijk als Hij hem in Gibeon verschenen was. Genesis 20:2 : Als nu Abraham van Sara, zijn huisvrouw, gezegd had: Zij is mijn zus, zo zond Abimelech, de koning van Gerar, en nam Sara weg. Genesis 28:12 : En hij droomde; en ziet, een ladder was gesteld op de aarde, waarvan het opperste aan de hemel raakte; en ziet, de engelen van God klommen daarbij op en neder."
         }
       ],
       "grondtekst": [
@@ -8310,14 +8322,14 @@
           "type": "explanatory",
           "textSV1888": "over dewelken: Dat is, die van Mij hun naam hebben, of naar Mij genaamd worden; want de vromen worden Gods kinderen, des Heeren erfdeel en zijn eigendom genaamd. Dezelfde manier van spreken is Deut. 28:10 ; Amos 9:12 . Deuteronomium 28:10 : En alle volken der aarde zullen zien, dat de Naam des HEEREN over u genoemd is, en zij zullen voor u vrezen. Amos 9:12 : Opdat zij erfelijk bezitten het overblijfsel van Edom, en al de heidenen, die naar Mijn Naam genoemd worden, spreekt de HEERE, Die dit doet.",
           "text1637": "D. die van my haren name hebben, ofte, nae my genaemt worden. want de vrome worden Godes kinderen, des Heeren erfdeel, ende sijn eygendom genaemt. de selve maniere van spreken is, Deuter. 26.10. Amos 9.12.",
-          "text2026": "over wie: Dat is, die van Mij hun naam hebben, of naar Mij genaamd worden; want de vromen worden Gods kinderen, van JAHWEH erfdeel en zijn eigendom genaamd. Dezelfde manier van spreken is Deut. 28:10 ; Amos 9:12 . Deuteronomium 28:10 : En alle volken van de aarde zullen zien, dat de Naam van JAHWEH over u genoemd is, en zij zullen voor u vrezen. Amos 9:12 : Opdat zij erfelijk bezitten het overblijfsel van Edom, en al de heidenen, die naar Mijn Naam genoemd worden, spreekt JAHWEH, Die dit doet."
+          "text2026": "over wie: Dat is, die van Mij hun naam hebben, of naar Mij genaamd worden; want de vromen worden Gods kinderen, het erfdeel van JAHWEH en zijn eigendom genaamd. Dezelfde manier van spreken is Deut. 28:10 ; Amos 9:12 . Deuteronomium 28:10 : En alle volken van de aarde zullen zien, dat de Naam van JAHWEH over u genoemd is, en zij zullen voor u vrezen. Amos 9:12 : Opdat zij erfelijk bezitten het overblijfsel van Edom, en al de heidenen, die naar Mijn Naam genoemd worden, spreekt JAHWEH, Die dit doet."
         },
         {
           "marker": "26",
           "type": "explanatory",
           "textSV1888": "Mijn aangezicht: Het aangezicht des Heeren te zoeken, is hem te leren kennen, alzo Hij zich geopenbaard heeft in zijn Woord, zijne werken en tekenen zijner genade, onder welke in het Oude Testament ook geweest is de ark des verbonds. Zie Ps. 24:6 , en Ps. 27:8 . Psalmen 24:6 : Dat is het geslacht dergenen, die naar Hem vragen, die Uw aangezicht zoeken, dat is Jakob! Sela. Psalmen 27:8 : Mijn hart zegt tot U: Gij zegt: Zoek Mijn aangezicht; ik zoek Uw aangezicht, o HEERE!",
           "text1637": "Het aengesichte des Heeren te soecken, is hem te leeren kennen, alsoo hy hem geopenbaert heeft in sijn woort, sijne wercken, ende teeckenen sijner genade, onder de welcke in 't Oude Testament oock geweest is de Arke des verbondts. Siet Psal. 24.6. ende 27.8.",
-          "text2026": "Mijn aangezicht: Het aangezicht van JAHWEH te zoeken, is hem te leren kennen, zo Hij zich geopenbaard heeft in zijn Woord, zijn werken en tekenen zijn genade, onder welke in het Oude Testament ook geweest is de ark van het verbond. Zie Ps. 24:6 , en Ps. 27:8 . Psalmen 24:6 : Dat is het geslacht dergenen, die naar Hem vragen, die Uw aangezicht zoeken, dat is Jakob! Sela. Psalmen 27:8 : Mijn hart zegt tot U: U zegt: Zoek Mijn aangezicht; ik zoek Uw aangezicht, o JAHWEH!"
+          "text2026": "Mijn aangezicht: Het aangezicht van JAHWEH te zoeken, is hem te leren kennen, zo Hij zich geopenbaard heeft in zijn Woord, zijn werken en tekenen van zijn genade, onder welke in het Oude Testament ook geweest is de ark van het verbond. Zie Ps. 24:6 , en Ps. 27:8 . Psalmen 24:6 : Dat is het geslacht dergenen, die naar Hem vragen, die Uw aangezicht zoeken, dat is Jakob! Sela. Psalmen 27:8 : Mijn hart zegt tot U: U zegt: Zoek Mijn aangezicht; ik zoek Uw aangezicht, o JAHWEH!"
         },
         {
           "marker": "27",
@@ -8835,39 +8847,72 @@
           }
         },
         {
-          "tekst": "hemel",
+          "tekst": "uit",
           "voorkomen": 1,
           "strongs": [
-            "H4480",
-            "H8064"
+            "H4480"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
-            "מִן",
-            "הַ/שָּׁמַ֔יִם"
+            "מִן"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 7:14",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "hemel",
+          "voorkomen": 1,
+          "strongs": [
+            "H8064"
+          ],
+          "morfologie": [
+            "HTd/Ncmpa"
+          ],
+          "bronwoorden": [
+            "הַ/שָּׁמַ֔יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 7:14",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "gids_strongs": [
-            "H8064"
-          ],
-          "toelichting": "De gids voegt מִן ('uit') samen met 'heaven'; beide grondtokens zijn aan dat ene gidstoken gekoppeld en 'hemel' is het anker."
+          }
         },
         {
           "tekst": "vergeven",

@@ -29,7 +29,7 @@
           "marker": "3",
           "type": "explanatory",
           "text1637": "Het wort daer voor gehouden, dat desen Amoz zy geweest de broeder Uziae des Conincks in Iuda.",
-          "text2026": "Er wordt voor gehouden dat deze Amoz de broer was van Uzzia, de koning van Juda.",
+          "text2026": "Het wordt ervoor gehouden dat deze Amoz de broer was van Uzzia, de koning van Juda.",
           "textSV1888": "Van deze vier koningen is te lezen in het tweede boek der Koningen van het 15e tot het 21e hoofdstuk."
         },
         {
@@ -2218,7 +2218,7 @@
           "marker": "20",
           "type": "explanatory",
           "text1637": "Hebr. het gantsche hooft is in cranckheyt. D. soo wel het geestelicke, als het wereltlicke Regiment is in eenen elendigen ende bedroefden staet, ende daer en is noch hulpe, noch raet ter beterschap te vinden.",
-          "text2026": "Hebreeuws: het hele hoofd is in ziekte (רֹאשׁ). Dat wil zeggen: zowel het geestelijke als het wereldlijke bestuur is in een ellendige en bedroefde staat, en er is nog hulp nog raad voor verbetering te vinden."
+          "text2026": "Hebreeuws: het hele hoofd is in ziekte (רֹאשׁ). Dat wil zeggen: zowel het geestelijke als het wereldlijke bestuur is in een ellendige en bedroefde staat, en er is noch hulp noch raad voor verbetering te vinden."
         }
       ],
       "textHerzien": "",
@@ -2650,7 +2650,7 @@
           "marker": "23",
           "type": "explanatory",
           "text1637": "Het hebreeusch woort beteckent sulck een teecken, of strieme, of lijckstee, als sich het bloet ergens verheft of vertoont van wegen eenen slach of stoot.",
-          "text2026": "Het Hebreeuwse woord betekend zo'n teken, striem of bloeduitstorting als wanneer het bloed zich ergens verheft of vertoont wegens een slag of stoot.",
+          "text2026": "Het Hebreeuwse woord betekent zo'n teken, striem of bloeduitstorting als wanneer het bloed zich ergens verheft of vertoont wegens een slag of stoot.",
           "textSV1888": "Of vochtige plaag, kwetsuur; dat is, verrotte kwetsuren, of zweren die vervuilen, of verzweren, of kwetsuren vol etter."
         },
         {
@@ -2980,59 +2980,42 @@
           "tekst": "etterbuilen",
           "voorkomen": 1,
           "strongs": [
-            "H4347"
-          ],
-          "bronwoorden": [
-            "וּ/מַכָּ֣ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 1:6",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H4347",
             "H2961"
           ],
+          "morfologie": [
+            "HC/Ncfsa",
+            "HAafsa"
+          ],
           "bronwoorden": [
+            "וּ/מַכָּ֣ה",
             "טְרִיָּ֑ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:6",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               8
             ]
-          },
-          "anker": "etterbuilen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "טְרִיָּה ('vers, etterend') zit in de Nederlandse samenstelling 'etterbuilen'; de lezer matcht hele woorden, dus staat de koppeling na dat woord."
+          }
         },
         {
           "tekst": "niet",
@@ -4169,10 +4152,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Zo",
+          "tekst": "Zo niet",
           "voorkomen": 1,
           "strongs": [
             "H3884"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "לוּלֵי֙"
@@ -4183,18 +4169,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:9",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
-          },
-          "toelichting": "לוּלֵי ('ware het niet dat') is als 'Zo niet' weergegeven; 'Zo' draagt de koppeling."
+          }
         },
         {
           "tekst": "JAHWEH",
@@ -4305,10 +4294,13 @@
           }
         },
         {
-          "tekst": "weinig",
+          "tekst": "klein",
           "voorkomen": 1,
           "strongs": [
             "H4592"
+          ],
+          "morfologie": [
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
             "כִּ/מְעָ֑ט"
@@ -4319,13 +4311,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:9",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               4
             ]
@@ -4465,7 +4461,7 @@
           "marker": "37",
           "type": "explanatory",
           "text1637": "D. Ghy volck van Iuda, die in boosheyt den Gomorriten zijt gelijck geworden.",
-          "text2026": "Dat wil zeggen: u volk van Juda, dat in boosheid gelijk aan de Gomorrieten bent geworden."
+          "text2026": "Dat wil zeggen: u volk van Juda, die in boosheid gelijk aan de Gomorrieten bent geworden."
         }
       ],
       "textHerzien": "",
@@ -5067,10 +5063,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqi3ms"
           ],
           "bronwoorden": [
             "יֹאמַ֣ר"
@@ -5081,13 +5080,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:11",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               3
             ]
@@ -5121,10 +5124,13 @@
           }
         },
         {
-          "tekst": "zat",
+          "tekst": "verzadigd",
           "voorkomen": 1,
           "strongs": [
             "H7646"
+          ],
+          "morfologie": [
+            "HVqp1cs"
           ],
           "bronwoorden": [
             "שָׂבַ֛עְתִּי"
@@ -5135,13 +5141,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:11",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
@@ -5444,7 +5454,7 @@
           "marker": "42",
           "type": "explanatory",
           "text1637": "D. de voorhoven mijnes huyses, of Tempels, die twee waren, een der Priesteren, ende een des volcx, 2.Chro. 4.9. so dat de prophete hier soo wel de Priesters bestraft, als het volck.",
-          "text2026": "Dat wil zeggen: de voorhoven van mijn huis of tempel, die er twee waren: één van de priester en één van het volk, 2 Kronieken 4:9. Zodat de profeet hier zowel de priesters als het volk berispt."
+          "text2026": "Dat wil zeggen: de voorhoven van mijn huis of tempel, die er twee waren: één van de priesters en één van het volk, 2 Kronieken 4:9. Zodat de profeet hier zowel de priesters als het volk berispt."
         }
       ],
       "textHerzien": "",
@@ -6948,36 +6958,69 @@
           "tekst": "ogen",
           "voorkomen": 1,
           "strongs": [
-            "H5869",
-            "H4480"
+            "H5869"
+          ],
+          "morfologie": [
+            "HNcbdc/Sp1cs"
           ],
           "bronwoorden": [
-            "עֵינַ/י֙",
-            "מִ/כֶּ֔ם"
+            "עֵינַ/י֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:15",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "gids_strongs": [
-            "H5869"
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 2,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "מִכֶּם ('van u') heeft in de uitlijngids geen eigen token; het grondwoord is bij עֵינַי gevoegd, zodat 'ogen' beide nummers draagt. MorphHB blijft leidend."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֔ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
+            "referentie": "ISA 1:15",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              4
+            ]
+          }
         },
         {
           "tekst": "ook",
@@ -7234,7 +7277,7 @@
           "marker": "55",
           "type": "explanatory",
           "text1637": "Hy siet op de ceremonien der wasschingen ende reynigingen, die in de wet bevolen waren, daer onder mede verstaende de geestelicke wasschingen ende suyveringen des herten.",
-          "text2026": "Hij wijst op de ceremonies van de wassingen en reinigingen die in de wet geboden waren, waarbij hij ook de geestelijke wasssingen en zuiveringen van het hart bedoelt."
+          "text2026": "Hij wijst op de ceremonies van de wassingen en reinigingen die in de wet geboden waren, waarbij hij ook de geestelijke wassingen en zuiveringen van het hart bedoelt."
         },
         {
           "marker": "i",
@@ -7574,7 +7617,7 @@
           "marker": "56",
           "type": "explanatory",
           "text1637": "D. beneersticht u om te weten wat recht en wel gedaen is, ende doet dat.",
-          "text2026": "Dat wil zeggen: beijver u te weten wat recht en goed is, en toen dat.",
+          "text2026": "Dat wil zeggen: beijver u te weten wat recht en goed is, en doe dat.",
           "textSV1888": "Dat is, verdedigt de zaak der weduwen voor het gericht."
         },
         {
@@ -7836,10 +7879,13 @@
           }
         },
         {
-          "tekst": "doe",
-          "voorkomen": 1,
+          "tekst": "recht",
+          "voorkomen": 2,
           "strongs": [
             "H8199"
+          ],
+          "morfologie": [
+            "HVqv2mp"
           ],
           "bronwoorden": [
             "שִׁפְט֣וּ"
@@ -7850,18 +7896,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:17",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "toelichting": "שִׁפְטוּ ('richt') is als 'doe ... recht' weergegeven; 'doe' draagt de koppeling, omdat 'recht' al aan מִשְׁפָּט toebehoort."
+          }
         },
         {
           "tekst": "wees",
@@ -8641,10 +8690,13 @@
           }
         },
         {
-          "tekst": "willig",
+          "tekst": "gewillig",
           "voorkomen": 1,
           "strongs": [
             "H14"
+          ],
+          "morfologie": [
+            "HVqi2mp"
           ],
           "bronwoorden": [
             "תֹּאב֖וּ"
@@ -8655,13 +8707,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:19",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -9173,7 +9229,7 @@
           "marker": "73",
           "type": "explanatory",
           "text1637": "Of, moordenaers, Dat is, ongerechtige woeckeraers, gewelt-doenders, onderdruckers der armen, ende diergelijcke.",
-          "text2026": "Of: moordenaars, dat wil zeggen: onrechtvaardige woekerars, geweldplegers, onderdrukkers van de armen en dergelijken."
+          "text2026": "Of: moordenaars, dat wil zeggen: onrechtvaardige woekeraars, geweldplegers, onderdrukkers van de armen en dergelijken."
         }
       ],
       "textHerzien": "",
@@ -9805,7 +9861,7 @@
           "marker": "76",
           "type": "explanatory",
           "text1637": "D. sy laten haer met geschencken omkoopen, om het recht te verdraeyen.",
-          "text2026": "Dat wil zeggen: zij laten zich met geschenken omkooptom het recht te verdraaien.",
+          "text2026": "Dat wil zeggen: zij laten zich met geschenken omkopen om het recht te verdraaien.",
           "textSV1888": "76 komt voor hen: Of, al komt zij voor hunne vierschaar, zij willen haar niet horen, of ze nemen het niet ter harte, zij helpen haar niet tot haar recht; maar veel meer helpen zij haar onderdrukken."
         },
         {
@@ -9818,7 +9874,7 @@
           "marker": "77",
           "type": "explanatory",
           "text1637": "Of, al komt sy voor hare vierschare, sy en willense niet hooren, of, sy en nemense niet ter herten, sy en helpense niet tot haer recht: maer veel meer helpen syse onderdrucken.",
-          "text2026": "Of: al komt zij voor hun rechterstoel, zij willen haar niet horen, of: zij nemen haar niet ter hart, zij helpen haar niet aan haar recht — maar helpen haar veeleer onderdrukken."
+          "text2026": "Of: al komt zij voor hun rechterstoel, zij willen haar niet horen, of: zij nemen haar niet ter harte, zij helpen haar niet aan haar recht — maar helpen haar veeleer onderdrukken."
         }
       ],
       "textHerzien": "",
@@ -10408,7 +10464,7 @@
           "marker": "78",
           "type": "explanatory",
           "text1637": "D. ick sal wrake nemen van de Israëliten mijne tegenpartyders ende vyanden. And. Ick sal my troosten door mijne vyanden. De sin is: Mijne vyanden de Chaldeen, ende andre Coningen der heydenen, sullen wrake doen ende straffen mijn volck van Israël, 't welck dus vyantlick tegens my rebelleert. so dat troosten hier soo veel soude bedieden, als door wrake sich gerust stellen. 't is eene menschelicke wijse van spreken. siet Deu. 28.63. wat de Heere daer seyt.",
-          "text2026": "Dat wil zeggen: ik zal wraak nemen op de Israëlieten, mijn tegenstanders en vijanden. Anders: ik zal mij troosten door mijn vijanden. De betekenis is: mijn vijanden, de Chaldeeën en andere koningen van de volkeren, zullen mijn volk van Israël straffen, dat zo vijandig tegen mij rebelleert — zodat 'troosten' hier zoveel betekend als door wraak tot rust komen. Dit is een menselijke spreekwijze. Zie wat JAHWEH in Deuteronomium 28:63 zegt.",
+          "text2026": "Dat wil zeggen: ik zal wraak nemen op de Israëlieten, mijn tegenstanders en vijanden. Anders: ik zal mij troosten door mijn vijanden. De betekenis is: mijn vijanden, de Chaldeeën en andere koningen van de volkeren, zullen mijn volk van Israël straffen, dat zo vijandig tegen mij rebelleert — zodat 'troosten' hier zoveel betekent als door wraak tot rust komen. Dit is een menselijke spreekwijze. Zie wat JAHWEH in Deuteronomium 28:63 zegt.",
           "textSV1888": "78 van Mijn vijanden: Te weten, de boze Joden, die God daarom zijne vijanden noemt, omdat zij van Hem afgeweken en wederspannig tegen Hem geworden waren. Anders: door mijne vijanden; te weten de Chaldeën, gelijk straks tevoren."
         },
         {
@@ -10869,7 +10925,7 @@
           "marker": "82",
           "type": "explanatory",
           "text1637": "Tin beteekent hier hypocrisie. want gelijck tin het silver seer gelijck is, alsoo schijnt de hypocrisie godsalicheyt te zijn.",
-          "text2026": "Tin betekend hier hypocrisie; want zoals tin erg op zilver lijkt, zo lijkt huichelarij op godsvrucht."
+          "text2026": "Tin betekent hier hypocrisie; want zoals tin erg op zilver lijkt, zo lijkt huichelarij op godsvrucht."
         }
       ],
       "textHerzien": "",
@@ -11404,10 +11460,13 @@
           }
         },
         {
-          "tekst": "beginne",
+          "tekst": "begin",
           "voorkomen": 1,
           "strongs": [
             "H8462"
+          ],
+          "morfologie": [
+            "HR/Rd/Ncfsa"
           ],
           "bronwoorden": [
             "כְּ/בַ/תְּחִלָּ֑ה"
@@ -11418,13 +11477,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 1:26",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -12827,7 +12890,7 @@
           "marker": "101",
           "type": "explanatory",
           "text1637": "Ofte, Hiede, werck, spijt, snuyte: Dit is 't gene dat uyt het vlas gehekelt wort, dwelck seer snellick van 't vyer verteert wort.",
-          "text2026": "Of: heede, werk, sprot, snuiter — dit is wat uit het vlas gehekeld wordt, dat door het vuur zeer snel verteerd wordt.",
+          "text2026": "Of: heede, werk, spijt, snuit — dit is wat uit het vlas gehekeld wordt, dat door het vuur zeer snel verteerd wordt.",
           "textSV1888": "Dat is, die het beeld gemaakt heeft of, die het heeft laten maken, om het te eren."
         },
         {

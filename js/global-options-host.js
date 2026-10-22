@@ -40,7 +40,6 @@
             laadScript('js/optie-maten.js', function () { return !!global.OptieMaten; })
                 .then(function () { return laadScript('js/opties.js', function () { return !!global.Opties; }); }),
             laadScript('js/tekstweergave.js', function () { return !!global.OVTekstweergave; }),
-            laadScript('embed.js', function () { return !!global.OSV; }),
             laadScript('js/options-panel.js', function () { return !!global.OptionsPanel; })
         ]).then(function () {
             return plaatsDialoog();
@@ -59,6 +58,7 @@
         if (!event.data || event.data.type !== 'ov:opties-gewijzigd') return;
         if (event.data.state && global.Opties) {
             global.Opties.state = { ...global.Opties.DEFAULTS, ...event.data.state };
+            global.Opties.enforceReaderOptions();
             global.Opties.applyVerseNumbersClass();
             global.Opties.applyCitationsClass();
             global.Opties.applyReaderStyleClasses();

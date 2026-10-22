@@ -19,7 +19,7 @@
           "type": "explanatory",
           "textSV1888": "de vuuroffers des HEEREN: Zie Lev. 1:9 . Leviticus 1:9 : Doch zijn ingewand, en zijn schenkelen zal men met water wassen; en de priester zal dat alles aansteken op het altaar; het is een brandoffer, een vuuroffer, tot een liefelijken reuk den HEERE.",
           "text1637": "Siet Levit. cap. 1. op vers 9.",
-          "text2026": "de vuuroffers van JAHWEH: Zie Lev. 1:9 . Leviticus 1:9 : Maar zijn ingewand, en zijn schenkelen zal men met water groeien; en de priester zal dat alles aansteken op het altaar; het is een brandoffer, een vuuroffer, tot een liefelijken reuk JAHWEH."
+          "text2026": "de vuuroffers van JAHWEH: Zie Lev. 1:9 . Leviticus 1:9 : Maar zijn ingewand, en zijn schenkelen zal men met water wassen; en de priester zal dat alles aansteken op het altaar; het is een brandoffer, een vuuroffer, tot een liefelijken reuk voor JAHWEH."
         }
       ],
       "grondtekst": [
@@ -1471,10 +1471,13 @@
           }
         },
         {
-          "tekst": "kinnebakken",
+          "tekst": "kaken",
           "voorkomen": 1,
           "strongs": [
             "H3895"
+          ],
+          "morfologie": [
+            "HC/Td/Ncbda"
           ],
           "bronwoorden": [
             "וְ/הַ/לְּחָיַ֖יִם"
@@ -1485,13 +1488,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 18:3",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -2973,7 +2980,7 @@
           "type": "explanatory",
           "textSV1888": "En hij dienen zal: Of, zo zal hij moge dienen. En in vers 8 : gelijken deel zullen zij eten. Deuteronomium 18:8 : Zo zullen zij een gelijk deel eten, boven zijn verkoping bij de vaderen.",
           "text1637": "Ofte: so sal hy [mogen] dienen. ende in’t volgende vers. gelijcken deel sullen sy eten.",
-          "text2026": "En hij dienen zal: Of, zo zal hij mag dienen. En in vers 8 : gelijken deel zullen zij eten. Deuteronomium 18:8 : Zo zullen zij een gelijk deel eten, boven zijn verkoping bij de vaderen."
+          "text2026": "En hij dienen zal: Of, zo zal hij mogen dienen. En in vers 8 : gelijken deel zullen zij eten. Deuteronomium 18:8 : Zo zullen zij een gelijk deel eten, boven zijn verkoping bij de vaderen."
         }
       ],
       "grondtekst": [
@@ -3381,7 +3388,7 @@
           "type": "explanatory",
           "textSV1888": "boven zijn verkoping: Of, boven eens ieders verkopingen; dat is, boven hetgeen zij hebben en behouden zullen van den prijs hunner verkochte goederen, die zij zullen mogen wederkopen en lossen. Zie Lev. 25:32 , 25:33 . Leviticus 25:32 : Aangaande de steden der Levieten, en de huizen der steden hunner bezitting; de Levieten zullen een eeuwige lossing hebben. Leviticus 25:33 : En als men onder de Levieten lossing zal gedaan hebben, zo zal de koop van het huis en van de stad zijner bezitting in het jubeljaar uitgaan; want de huizen van de steden der Levieten zijn hun bezitting in het midden van de kinderen Israëls.",
           "text1637": "Ofte, boven eens yederen verkoopingen: dat is, boven ’t gene sy hebben ende behouden sullen vanden prijs harer verkochte goederen, die sy sullen mogen weder koopen ende lossen. Siet Levit. 25.32, 33.",
-          "text2026": "boven zijn verkoping: Of, boven van een ieder verkopingen; dat is, boven wat zij hebben en behouden zullen van de prijs hun verkochte goederen, die zij zullen mogen wederkopen en lossen. Zie Lev. 25:32 , 25:33 . Leviticus 25:32 : Aangaande de steden van de Levieten, en de huizen van de steden hun bezitting; de Levieten zullen een eeuwige lossing hebben. Leviticus 25:33 : En als men onder de Levieten lossing zal gedaan hebben, zo zal de koop van het huis en van de stad zijn bezitting in het jubeljaar uitgaan; want de huizen van de steden van de Levieten zijn hun bezitting in het midden van de kinderen van Israël."
+          "text2026": "boven zijn verkoping: Of, boven de verkopingen van een ieder; dat is, boven wat zij hebben en behouden zullen van de prijs van hun verkochte goederen, die zij zullen mogen wederkopen en lossen. Zie Lev. 25:32 , 25:33 . Leviticus 25:32 : Aangaande de steden van de Levieten, en de huizen van de steden van hun bezitting; de Levieten zullen een eeuwige lossing hebben. Leviticus 25:33 : En als men onder de Levieten lossing zal gedaan hebben, zo zal de koop van het huis en van de stad van zijn bezitting in het jubeljaar uitgaan; want de huizen van de steden van de Levieten zijn hun bezitting in het midden van de kinderen van Israël."
         },
         {
           "marker": "8",
@@ -5852,8 +5859,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "die",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אוֹתָ֔/ם"
@@ -5864,21 +5876,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 18:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "erven",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "naar",
@@ -6208,7 +6220,7 @@
           "type": "explanatory",
           "textSV1888": "als mij: Niettegenstaande de eeuwige Godheid, onbevlekte mensheid en het zaligmakende ambt onzes Heeren Jezus Christus, mag Hij evenwel met Mozes worden vergeleken in de volgende zaken: I. Gelijk Mozes een waarachtig mens was, uit het zaad van Abraham, alzo ook Christus. II. Gelijk Mozes Gods volk gevoerd heeft uit de lichamelijke slavernij van Egypte, alzo heeft Christus zijn volk verlost uit de geestelijke slavernij. III. Gelijk Mozes stond tussen God en het volk in het verbond der wet, Gal. 3:19 , alzo is Christus de enige Middelaar tussen God en zijn volk in het verbond der genade. IV. Gelijk Mozes getrouw was in het ganse huis Gods, Hebr. 3:2 , alzo Christus bovenal, in zijn gemeente te bezorgen, enz. V. Mozes was een groot profeet en leraar des volks; Christus is het hoofd aller profeten, door wiens geest Mozes en de andere gesproken hebben, 1 Petr. 1:11 . Doch dat hier de andere profeten niet verstaan worden, blijkt Deut. 34:10 , waar gezegd wordt dat geen profeet in Israël is opgestaan gelijk Mozes. Galaten 3:19 : Waartoe is dan de wet? Zij is om der overtredingen wil daarbij gesteld, totdat het zaad zou gekomen zijn, dien het beloofd was; en zij is door de engelen besteld in de hand des Middelaars. Hebreeën 3:2 : Die getrouw is Dengene, Die Hem gesteld heeft, gelijk ook Mozes in geheel zijn huis was. 1 Petrus 1:11 : Onderzoekende, op welken of hoedanigen tijd de Geest van Christus, Die in hen was, beduidde en te voren getuigde, het lijden, dat op Christus komen zou, en de heerlijkheid daarna volgende. Deuteronomium 34:10 : En er stond geen profeet meer op in Israël, gelijk Mozes, dien de HEERE gekend had, van aangezicht tot aangezicht,",
           "text1637": "Niet tegenstaende de eeuwige Godtheyt, onbevleckte menscheyt, ende het salichmakende ampt onses Heeren Iesu Christi, mach hy evenwel met Mose worden vergeleken in de volgende saken.1. Gelijck Mose een waerachtich mensche was, uyt den zade Abrahams, also oock Christus.2. Gelijck Mose Godts volck gevoert heeft uyt de lichamelicke slavernie van Egypten, alsoo heeft Christus sijn volck verlost uyt de geestelicke slavernye.3. Gelijck Mose stont tusschen Godt ende het volck in ’t verbont der wet, Galat. 3.19. alsoo is Christus de eenige Middelaer tusschen Godt ende sijn volck in ’t verbont der genade.4. Gelijck Mose getrouw was in den gantschen huyse Godts. Hebr. 3.2. alsoo Christus boven al, in sijne gemeynte te besorgen, etc.5. Mose was een groot Propheet ende Leeraer des volcx: Christus is het hooft aller Propheten, door wiens geest Mose ende d’andere gesproken hebben. 1.Pet. 1.11. Doch dat hier de ander Propheten niet verstaen worden, blijckt Deut. 34.10. alwaer geseyt wort dat geen Propheet in Israël is opgestaen gelijck Mose.",
-          "text2026": "als mij: Niettegenstaande de eeuwige Godheid, onbevlekte mensheid en het zaligmakende ambt onzes Heern Jezus Christus, mag Hij evenwel met Mozes worden vergeleken in de volgende zaken: I. Gelijk Mozes een waarachtig mens was, uit het zaad van Abraham, zo ook Christus. II. Gelijk Mozes Gods volk gevoerd heeft uit de lichamelijke slavernij van Egypte, zo heeft Christus zijn volk verlost uit de geestelijke slavernij. III. Gelijk Mozes stond tussen God en het volk in het verbond van de wet, Gal. 3:19 , zo is Christus de enige Middelaar tussen God en zijn volk in het verbond van de genade. IV. Gelijk Mozes getrouw was in het gehele huis van God, Hebr. 3:2 , zo Christus bovenal, in zijn gemeente te bezorgen, enz. V. Mozes was een groot profeet en leraar van het volk; Christus is het hoofd aller profeten, door wiens geest Mozes en de andere gesproken hebben, 1 Petr. 1:11 . Maar dat hier de andere profeten niet verstaan worden, blijkt Deut. 34:10 , waar gezegd wordt dat geen profeet in Israël is opgestaan gelijk Mozes. Galaten 3:19 : Waartoe is dan de wet? Zij is vanwege de overtredingen daarbij gesteld, totdat het zaad zou gekomen zijn, die het beloofd was; en zij is door de engelen besteld in de hand van de Middelaars. Hebreeën 3:2 : Die getrouw is Dengene, Die Hem gesteld heeft, gelijk ook Mozes in geheel zijn huis was. 1 Petrus 1:11 : Onderzoekende, op welke of hoedanigen tijd de Geest van Christus, Die in hen was, beduidde en te voren getuigde, het lijden, dat op Christus komen zou, en de heerlijkheid daarna volgende. Deuteronomium 34:10 : En er stond geen profeet meer op in Israël, gelijk Mozes, die JAHWEH gekend had, van aangezicht tot aangezicht,"
+          "text2026": "als mij: Niettegenstaande de eeuwige Godheid, onbevlekte mensheid en het zaligmakende ambt van onze Heer Jezus Christus, mag Hij evenwel met Mozes worden vergeleken in de volgende zaken: I. Gelijk Mozes een waarachtig mens was, uit het zaad van Abraham, zo ook Christus. II. Gelijk Mozes Gods volk gevoerd heeft uit de lichamelijke slavernij van Egypte, zo heeft Christus zijn volk verlost uit de geestelijke slavernij. III. Gelijk Mozes stond tussen God en het volk in het verbond van de wet, Gal. 3:19 , zo is Christus de enige Middelaar tussen God en zijn volk in het verbond van de genade. IV. Gelijk Mozes getrouw was in het gehele huis van God, Hebr. 3:2 , zo Christus bovenal, in zijn gemeente te bezorgen, enz. V. Mozes was een groot profeet en leraar van het volk; Christus is het hoofd aller profeten, door wiens geest Mozes en de andere gesproken hebben, 1 Petr. 1:11 . Maar dat hier de andere profeten niet verstaan worden, blijkt Deut. 34:10 , waar gezegd wordt dat geen profeet in Israël is opgestaan gelijk Mozes. Galaten 3:19 : Waartoe is dan de wet? Zij is vanwege de overtredingen daarbij gesteld, totdat het zaad zou gekomen zijn, die het beloofd was; en zij is door de engelen besteld in de hand van de Middelaar. Hebreeën 3:2 : Die getrouw is Dengene, Die Hem gesteld heeft, gelijk ook Mozes in geheel zijn huis was. 1 Petrus 1:11 : Onderzoekende, op welke of hoedanigen tijd de Geest van Christus, Die in hen was, beduidde en te voren getuigde, het lijden, dat op Christus komen zou, en de heerlijkheid daarna volgende. Deuteronomium 34:10 : En er stond geen profeet meer op in Israël, gelijk Mozes, die JAHWEH gekend had, van aangezicht tot aangezicht,"
         }
       ],
       "grondtekst": [
@@ -7434,7 +7446,7 @@
           "type": "explanatory",
           "textSV1888": "Het is goed: Hebreeuws, zij hebben goed gemaakt, of, wel gedaan, wat zij gesproken hebben: gelijk boven, Deut. 5:28 . Deuteronomium 5:28 : Als nu de HEERE de stem uwer woorden hoorde, toen gij tot mij spraakt, zo zeide de HEERE tot mij: Ik heb gehoord de stem der woorden van dit volk, die zij tot u gesproken hebben; het is altemaal goed, dat zij gesproken hebben.",
           "text1637": "Hebr. sy hebben goet gemaeckt, ofte, wel gedaen, dat sy gesproken hebben: als bov. cap. 5.28.",
-          "text2026": "Het is goed: Hebreeuws, zij hebben goed gemaakt, of, wel gedaan, wat zij gesproken hebben: gelijk boven, Deut. 5:28 . Deuteronomium 5:28 : Als nu JAHWEH de stem uw woorden hoorde, toen u tot mij spraakt, zo zei JAHWEH tot mij: Ik heb gehoord de stem van de woorden van dit volk, die zij tot u gesproken hebben; het is allemaal goed, dat zij gesproken hebben."
+          "text2026": "Het is goed: Hebreeuws, zij hebben goed gemaakt, of, wel gedaan, wat zij gesproken hebben: gelijk boven, Deut. 5:28 . Deuteronomium 5:28 : Als nu JAHWEH de stem van uw woorden hoorde, toen u tot mij spraakt, zo zei JAHWEH tot mij: Ik heb gehoord de stem van de woorden van dit volk, die zij tot u gesproken hebben; het is allemaal goed, dat zij gesproken hebben."
         }
       ],
       "grondtekst": [
@@ -7655,7 +7667,7 @@
           "type": "explanatory",
           "textSV1888": "mond geven: Vergelijk deze manier van spreken met Exod. 4:15 ; onder, Deut. 31:19 ; 2 Sam. 14:3 ; Ps. 40:4 ; Jer. 1:9 , en Jer. 5:14 , hoewel er een groot onderscheid is tussen dit werk van God aan Jezus Christus persoon en den dienst zijner knechten, of het doen van andere mensen. Exodus 4:15 : Gij dan zult tot hem spreken, en de woorden in zijn mond leggen; en Ik zal met uw mond, en met zijn mond zijn; en Ik zal ulieden leren, wat gij doen zult. Deuteronomium 31:19 : En nu, schrijft ulieden dit lied, en leert het den kinderen Israëls; legt het in hun mond; opdat dit lied Mij ten getuige zij tegen de kinderen Israëls. 2 Samuël 14:3 : En ga in tot den koning, en spreek tot hem naar dit woord. En Joab leide de woorden in haar mond. Psalmen 40:4 : En Hij heeft een nieuw lied in mijn mond gegeven, een lofzang onzen Gode; velen zullen het zien, en vrezen, en op den HEERE vertrouwen. Jeremia 1:9 : En de HEERE stak Zijn hand uit, en roerde mijn mond aan; en de HEERE zeide tot mij: Zie, Ik geef Mijn woorden in uw mond. Jeremia 5:14 : Daarom zegt de HEERE, de God der heirscharen, alzo, omdat gijlieden dit woord spreekt: Ziet, Ik zal Mijn woorden in uw mond tot vuur maken, en dit volk tot hout, en het zal hen verteren.",
           "text1637": "Verg. dese maniere van spreken met Exod. 4.15. ende ond. 31.19. 2.Sam. 14.3. Psal. 40.4. Ier. 1.9. ende 5.14. hoewel der een groot onderscheyt is tusschen dit werck Godes aen Iesu Christi persoon, ende den dienst sijner knechten, ofte het doen van andere menschen.",
-          "text2026": "mond geven: Vergelijk deze manier van spreken met Ex. 4:15 ; onder, Deut. 31:19 ; 2 Sam. 14:3 ; Ps. 40:4 ; Jer. 1:9 , en Jer. 5:14 , hoewel er een groot onderscheid is tussen dit werk van God aan Jezus Christus persoon en de dienst zijn knechten, of het doen van andere mensen. Exodus 4:15 : U dan zult tot hem spreken, en de woorden in zijn mond leggen; en Ik zal met uw mond, en met zijn mond zijn; en Ik zal u leren, wat u doen zult. Deuteronomium 31:19 : En nu, schrijft u dit lied, en leert het de kinderen van Israël; legt het in hun mond; opdat dit lied Mij ten getuige zij tegen de kinderen van Israël. 2 Samuël 14:3 : En ga in tot de koning, en spreek tot hem naar dit woord. En Joab legde de woorden in haar mond. Psalmen 40:4 : En Hij heeft een nieuw lied in mijn mond gegeven, een lofzang onze voor God; velen zullen het zien, en vrezen, en op JAHWEH vertrouwen. Jeremia 1:9 : En JAHWEH stak Zijn hand uit, en roerde mijn mond aan; en JAHWEH zei tot mij: Zie, Ik geef Mijn woorden in uw mond. Jeremia 5:14 : Daarom zegt JAHWEH, de God van de legermachten, zo, omdat u dit woord spreekt: Ziet, Ik zal Mijn woorden in uw mond tot vuur maken, en dit volk tot hout, en het zal hen verteren."
+          "text2026": "mond geven: Vergelijk deze manier van spreken met Ex. 4:15 ; onder, Deut. 31:19 ; 2 Sam. 14:3 ; Ps. 40:4 ; Jer. 1:9 , en Jer. 5:14 , hoewel er een groot onderscheid is tussen dit werk van God aan Jezus Christus persoon en de dienst van zijn knechten, of het doen van andere mensen. Exodus 4:15 : U dan zult tot hem spreken, en de woorden in zijn mond leggen; en Ik zal met uw mond, en met zijn mond zijn; en Ik zal u leren, wat u doen zult. Deuteronomium 31:19 : En nu, schrijft u dit lied, en leert het de kinderen van Israël; legt het in hun mond; opdat dit lied Mij ten getuige zij tegen de kinderen van Israël. 2 Samuël 14:3 : En ga in tot de koning, en spreek tot hem naar dit woord. En Joab legde de woorden in haar mond. Psalmen 40:4 : En Hij heeft een nieuw lied in mijn mond gegeven, een lofzang voor onze God; velen zullen het zien, en vrezen, en op JAHWEH vertrouwen. Jeremia 1:9 : En JAHWEH stak Zijn hand uit, en roerde mijn mond aan; en JAHWEH zei tot mij: Zie, Ik geef Mijn woorden in uw mond. Jeremia 5:14 : Daarom zegt JAHWEH, de God van de legermachten, zo, omdat u dit woord spreekt: Ziet, Ik zal Mijn woorden in uw mond tot vuur maken, en dit volk tot hout, en het zal hen verteren."
         },
         {
           "marker": "g",

@@ -31,9 +31,11 @@
             var raw = localStorage.getItem('sv2026_audioChunkOpts');
             if (raw) { var o = JSON.parse(raw); for (var k in o) if (o[k] !== undefined) s[k] = o[k]; }
         } catch (e) {}
+        s.divineName = 'heere';
         return s;
     }
     function saveSettings(s) {
+        s.divineName = 'heere';
         try { localStorage.setItem('sv2026_audioChunkOpts', JSON.stringify(s)); } catch (e) {}
     }
 

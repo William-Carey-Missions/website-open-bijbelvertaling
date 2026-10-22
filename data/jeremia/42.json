@@ -522,7 +522,7 @@
           "type": "explanatory",
           "textSV1888": "Zie van deze manier van spreken boven Jer. 36:7. De zin is: Laat onze ootmoedige bede voor u gelden, plaats bij u hebben, verwerp ze niet; vergelijk ook onder vers 9. Jeremia 36:7: Misschien zal hunlieder smeking voor des HEEREN aangezicht nedervallen, en zij zullen zich bekeren, een iegelijk van zijn bozen weg; want groot is de toorn en de grimmigheid, die de HEERE tegen dit volk heeft uitgesproken. Jeremia 42:9: En hij zeide tot hen: Zo zegt de HEERE, de God Israëls, tot Welken gij mij gezonden hebt, om uw smeking voor Zijn aangezicht neder te werpen:",
           "text1637": "Siet van dese maniere van spreken bov. 36. op vers 7. de sin is, Laet onse ootmoedige bede voor u gelden, plaetse by u hebben, verwerptse niet. Verg. oock ond. vers 9.",
-          "text2026": "Zie van deze manier van spreken boven Jer. 36:7. De zin is: Laat onze ootmoedige bede voor u gelden, plaats bij u hebben, verwerp ze niet; vergelijk ook onder vers 9. Jeremia 36:7: Misschien zal hunlieder smeking voor de aangezicht van JAHWEH nedervallen, en zij zullen zich bekeren, een iedereen van zijn bozen weg; want groot is de toorn en de grimmigheid, die JAHWEH tegen dit volk heeft uitgesproken. Jeremia 42:9: En hij zei tot hen: Zo zegt JAHWEH, de God van Israël, tot Welke u mij gezonden hebt, om uw smeking voor Zijn aangezicht neder te werpen:"
+          "text2026": "Zie van deze manier van spreken boven Jer. 36:7. De zin is: Laat onze ootmoedige bede voor u gelden, plaats bij u hebben, verwerp ze niet; vergelijk ook onder vers 9. Jeremia 36:7: Misschien zal hunlieder smeking voor het aangezicht van JAHWEH nedervallen, en zij zullen zich bekeren, een ieder van zijn bozen weg; want groot is de toorn en de grimmigheid, die JAHWEH tegen dit volk heeft uitgesproken. Jeremia 42:9: En hij zei tot hen: Zo zegt JAHWEH, de God van Israël, tot Welke u mij gezonden hebt, om uw smeking voor Zijn aangezicht neder te werpen:"
         }
       ],
       "grondtekst": [
@@ -873,10 +873,13 @@
           }
         },
         {
-          "tekst": "voor uw aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp2ms"
           ],
           "bronwoorden": [
             "לְ/פָנֶ֔י/ךָ"
@@ -887,13 +890,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:2",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -1335,10 +1342,15 @@
           }
         },
         {
-          "tekst": "ons",
+          "tekst": "",
           "voorkomen": 2,
+          "anker": "ons",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp1cp"
           ],
           "bronwoorden": [
             "אֹתָֽ/נוּ"
@@ -1349,13 +1361,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:2",
+            "grondindices": [
+              24
+            ],
             "bronindices": [
               23
             ]
@@ -1777,7 +1793,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, wel verstaan; zie Gen. 11:7, in de aantekening, of, ik hoor; dat is, ik ben bereid uwe begeerte te voldoen. Genesis 11:7: Kom aan, laat Ons nedervaren, en laat Ons hun spraak aldaar verwarren, opdat iegelijk de spraak zijns naasten niet hore.",
           "text1637": "D. wel verstaen: Siet Gen. 11.7. in d’aenteeck. ofte, ick hoore, D. ick ben bereyt uwe begeerte te voldoen.",
-          "text2026": "Dat is, wel verstaan; zie Gen. 11:7, in de aantekening, of, ik hoor; dat is, ik ben bereid uwe begeerte te voldoen. Genesis 11:7: Kom aan, laat Ons nedervaren, en laat Ons hun spraak daar verwarren, opdat iedereen de spraak zijn naasten niet hore."
+          "text2026": "Dat is, wel verstaan; zie Gen. 11:7, in de aantekening, of, ik hoor; dat is, ik ben bereid uwe begeerte te voldoen. Genesis 11:7: Kom aan, laat Ons nedervaren, en laat Ons hun spraak daar verwarren, opdat iedereen de spraak van zijn naaste niet hore."
         }
       ],
       "grondtekst": [
@@ -2953,10 +2969,13 @@
           }
         },
         {
-          "tekst": "gewis",
+          "tekst": "zeker",
           "voorkomen": 1,
           "strongs": [
             "H539"
+          ],
+          "morfologie": [
+            "HC/VNsmsa"
           ],
           "bronwoorden": [
             "וְ/נֶאֱמָ֑ן"
@@ -2967,13 +2986,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:5",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               7
             ]
@@ -3797,52 +3820,39 @@
           "tekst": "opdat",
           "voorkomen": 1,
           "strongs": [
-            "H4616"
-          ],
-          "bronwoorden": [
-            "לְמַ֨עַן֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
-            "referentie": "JER 42:6",
-            "bronindices": [
-              13
-            ]
-          }
-        },
-        {
-          "tekst": "het",
-          "voorkomen": 1,
-          "strongs": [
+            "H4616",
             "H834"
           ],
+          "morfologie": [
+            "HR",
+            "HTr"
+          ],
           "bronwoorden": [
+            "לְמַ֨עַן֙",
             "אֲשֶׁ֣ר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:6",
+            "grondindices": [
+              13,
+              14
+            ],
             "bronindices": [
+              13,
               14
             ]
           }
@@ -5309,10 +5319,13 @@
           }
         },
         {
-          "tekst": "neer te werpen",
+          "tekst": "werpen",
           "voorkomen": 1,
           "strongs": [
             "H5307"
+          ],
+          "morfologie": [
+            "HR/Vhc"
           ],
           "bronwoorden": [
             "לְ/הַפִּ֥יל"
@@ -5323,13 +5336,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:9",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -5363,10 +5380,13 @@
           }
         },
         {
-          "tekst": "voor Zijn aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp3ms"
           ],
           "bronwoorden": [
             "לְ/פָנָֽי/ו"
@@ -5377,13 +5397,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:9",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -5423,7 +5447,7 @@
           "type": "explanatory",
           "textSV1888": "9 bouwen en niet afbreken: Zie Ps. 28:5. Psalmen 28:5: Omdat zij niet letten op de daden des HEEREN, noch op het werk Zijner handen, zo zal Hij hen afbreken en zal hen niet bouwen.",
           "text1637": "Siet Psal. 28. op vers 5.",
-          "text2026": "9 bouwen en niet afbreken: Zie Ps. 28:5. Psalmen 28:5: Omdat zij niet letten op de daden van JAHWEH, noch op het werk Zijn handen, zo zal Hij hen afbreken en zal hen niet bouwen."
+          "text2026": "9 bouwen en niet afbreken: Zie Ps. 28:5. Psalmen 28:5: Omdat zij niet letten op de daden van JAHWEH, noch op het werk van Zijn handen, zo zal Hij hen afbreken en zal hen niet bouwen."
         },
         {
           "marker": "b",
@@ -6264,10 +6288,13 @@
           }
         },
         {
-          "tekst": "voor het aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc"
           ],
           "bronwoorden": [
             "מִ/פְּנֵי֙"
@@ -6278,13 +6305,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:11",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -6426,10 +6457,13 @@
           }
         },
         {
-          "tekst": "voor hem",
-          "voorkomen": 1,
+          "tekst": "voor",
+          "voorkomen": 2,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp3ms"
           ],
           "bronwoorden": [
             "מִ/פָּנָ֑י/ו"
@@ -6440,13 +6474,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:11",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -6816,7 +6854,7 @@
           "type": "explanatory",
           "textSV1888": "12 barmhartigheid geven: Te weten voor het aangezicht van den koning van Babel; zie dezelfde manier van spreken Gen. 43:14, en vergelijk 1 Kon. 8:50; Ezra 7:28; Neh. 1:11; Ps. 106:46; Dan. 1:9. Genesis 43:14: En God, de Almachtige, geve u barmhartigheid voor het aangezicht van dien man, dat hij uw anderen broeder en Benjamin met u late gaan! En mij aangaande, als ik van kinderen beroofd ben, zo ben ik beroofd! 1 Koningen 8:50: En vergeef aan Uw volk, dat zij tegen U gezondigd zullen hebben, en al hun overtredingen, waarmede zij tegen U zullen overtreden hebben; en geef hun barmhartigheid voor het aangezicht dergenen, die ze gevangen houden, opdat zij zich hunner ontfermen; Ezra 7:28: En heeft tot mij weldadigheid geneigd, voor het aangezicht des konings en zijner raadsheren, en aller geweldige vorsten des konings! Zo heb ik mij gesterkt, naar de hand des HEEREN, mijns Gods, over mij, en de hoofden uit Israël vergaderd, om met mij op te trekken. Nehemia 1:11: Och, HEERE, laat toch Uw oor opmerkende zijn op het gebed Uws knechts, en op het gebed Uwer knechten, die lust hebben Uw Naam te vrezen; en doe het toch Uw knecht heden wel gelukken, en geef hem barmhartigheid voor het aangezicht dezes mans. Ik nu was des konings schenker. Psalmen 106:46: Dies gaf Hij hun barmhartigheid voor het aangezicht van allen, die hen gevangen hadden. Daniël 1:9: En God gaf Daniël genade en barmhartigheid voor het aangezicht van den overste der kamerlingen.",
           "text1637": "T.w. voor het aengesichte des Conincx van Babel. siet de selve maniere van spreken, Gen. 43.14. ende vergel. Nehe. 1.11. Psal. 106.46. Dan. 1.9. ende 1.Reg. 8.50. Ezr. 7.28.",
-          "text2026": "12 barmhartigheid geven: Te weten voor het aangezicht van de koning van Babel; zie dezelfde manier van spreken Gen. 43:14, en vergelijk 1 Kon. 8:50; Ezra 7:28; Neh. 1:11; Ps. 106:46; Dan. 1:9. Genesis 43:14: En God, de Almachtige, geve u barmhartigheid voor het aangezicht van die man, dat hij uw anderen broer en Benjamin met u late gaan! En mij aangaande, als ik van kinderen beroofd ben, zo ben ik beroofd! 1 Koningen 8:50: En vergeef aan Uw volk, dat zij tegen U gezondigd zullen hebben, en al hun overtredingen, waarmee zij tegen U zullen overtreden hebben; en geef hun barmhartigheid voor het aangezicht dergenen, die ze gevangen houden, opdat zij zich hun ontfermen; Ezra 7:28: En heeft tot mij weldadigheid geneigd, voor het aangezicht van de koning en zijn raadsheren, en aller geweldige vorsten van de koning! Zo heb ik mij gesterkt, naar de hand van JAHWEH, mijn Gods, over mij, en de hoofden uit Israël vergaderd, om met mij op te trekken. Nehemia 1:11: Och, JAHWEH, laat toch Uw oor opmerkende zijn op het gebed Uws knechts, en op het gebed van Uw knechten, die lust hebben Uw Naam te vrezen; en doe het toch Uw knecht heden wel gelukken, en geef hem barmhartigheid voor het aangezicht van deze mans. Ik nu was van de koning schenker. Psalmen 106:46: Daarom gaf Hij hun barmhartigheid voor het aangezicht van allen, die hen gevangen hadden. Daniël 1:9: En God gaf Daniël genade en barmhartigheid voor het aangezicht van de overste van de kamerlingen."
+          "text2026": "12 barmhartigheid geven: Te weten voor het aangezicht van de koning van Babel; zie dezelfde manier van spreken Gen. 43:14, en vergelijk 1 Kon. 8:50; Ezra 7:28; Neh. 1:11; Ps. 106:46; Dan. 1:9. Genesis 43:14: En God, de Almachtige, geve u barmhartigheid voor het aangezicht van die man, dat hij uw anderen broer en Benjamin met u late gaan! En mij aangaande, als ik van kinderen beroofd ben, zo ben ik beroofd! 1 Koningen 8:50: En vergeef aan Uw volk, dat zij tegen U gezondigd zullen hebben, en al hun overtredingen, waarmee zij tegen U zullen overtreden hebben; en geef hun barmhartigheid voor het aangezicht dergenen, die ze gevangen houden, opdat zij zich over hen ontfermen; Ezra 7:28: En heeft tot mij weldadigheid geneigd, voor het aangezicht van de koning en van zijn raadsheren, en aller geweldige vorsten van de koning! Zo heb ik mij gesterkt, naar de hand van JAHWEH, mijn God, over mij, en de hoofden uit Israël vergaderd, om met mij op te trekken. Nehemia 1:11: Och, JAHWEH, laat toch Uw oor opmerkende zijn op het gebed Uws knechts, en op het gebed van Uw knechten, die lust hebben Uw Naam te vrezen; en doe het toch Uw knecht heden wel gelukken, en geef hem barmhartigheid voor het aangezicht van deze man. Ik nu was de schenker van de koning. Psalmen 106:46: Daarom gaf Hij hun barmhartigheid voor het aangezicht van allen, die hen gevangen hadden. Daniël 1:9: En God gaf Daniël genade en barmhartigheid voor het aangezicht van de overste van de kamerlingen."
         },
         {
           "marker": "13",
@@ -7206,10 +7244,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Maar",
+          "tekst": "zo",
           "voorkomen": 1,
           "strongs": [
             "H518"
+          ],
+          "morfologie": [
+            "HC/C"
           ],
           "bronwoorden": [
             "וְ/אִם"
@@ -7220,13 +7261,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:13",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -8168,7 +8213,7 @@
           "type": "explanatory",
           "textSV1888": "15 ganselijk uw aangezichten zult stellen: Hebreeuws, stellende zult stellen; dat is, uwe ogen ten enenmale op Egypte slaan, ganselijk en vastelijk gezind zult zijn derwaarts te gaan; alzo dikwijls in het volgende; vergelijk 1 Kon. 2:15. 1 Koningen 2:15: Hij zeide dan: Gij weet, dat het koninkrijk mijn was, en het ganse Israël zijn aangezicht op mij gezet had, dat ik koning zijn zou; hoewel het koninkrijk omgewend en mijns broeders geworden is; want het is van den HEERE hem geworden.",
           "text1637": "Hebr. stellende sult stellen. D. uwe oogen t’eenemael op Egypten slaen, ganschlick ende vastelick gesint sult zijn derwaerts te gaen. alsoo dickwijls in’t volgende. Verg. 1.Reg. 2. op vers 15.",
-          "text2026": "15 ganselijk uw aangezichten zult stellen: Hebreeuws, stellende zult stellen; dat is, uwe ogen ten enenmale op Egypte slaan, ganselijk en vastelijk gezind zult zijn daarheen te gaan; telkens in het volgende; vergelijk 1 Kon. 2:15. 1 Koningen 2:15: Hij zei dan: U weet, dat het koninkrijk van Mij was, en het gehele Israël zijn aangezicht op mij gezet had, dat ik koning zijn zou; hoewel het koninkrijk omgewend en mijn broers geworden is; want het is van JAHWEH hem geworden."
+          "text2026": "15 ganselijk uw aangezichten zult stellen: Hebreeuws, stellende zult stellen; dat is, uwe ogen ten enenmale op Egypte slaan, ganselijk en vastelijk gezind zult zijn daarheen te gaan; telkens in het volgende; vergelijk 1 Kon. 2:15. 1 Koningen 2:15: Hij zei dan: U weet, dat het koninkrijk van mij was, en het gehele Israël zijn aangezicht op mij gezet had, dat ik koning zijn zou; hoewel het koninkrijk omgewend en van mijn broer geworden is; want het is van JAHWEH hem geworden."
         }
       ],
       "grondtekst": [
@@ -9701,7 +9746,7 @@
           "type": "explanatory",
           "textSV1888": "17 niemand hebben: Hebreeuws, geen overige noch ontkomene hebben. Versta, behalve enige weinigen, Jer. 44:14, 44:28. Jeremia 44:14: Zodat het overblijfsel van Juda, die in Egypteland gekomen zijn, om aldaar als vreemdelingen te verkeren, geen zal hebben, die ontkome, of overblijve; te weten om weder te keren in het land van Juda, waarnaar hun ziel verlangt weder te keren, om aldaar te wonen; maar zij zullen er niet wederkeren, behalve die ontkomen zullen. Jeremia 44:28: Maar die van het zwaard ontkomen, zullen uit Egypteland wederkeren in het land van Juda, weinig in getal; en het ganse overblijfsel van Juda, die in Egypteland gekomen zijn, om aldaar als vreemdelingen te verkeren, zullen weten, wiens woord bestaan zal, het Mijn of het hunne.",
           "text1637": "Hebr. geenen overigen noch ontkomenen hebben. verst. behalven eenige weynige cap. 44.14, 28.",
-          "text2026": "17 niemand hebben: Hebreeuws, geen overige noch ontkomene hebben. Versta, behalve enige weinigen, Jer. 44:14, 44:28. Jeremia 44:14: Zodat het overblijfsel van Juda, die in Egypteland gekomen zijn, om daar als vreemdelingen te verkeren, geen zal hebben, die ontkome, of overblijve; te weten om weer te keren in het land van Juda, waarnaar hun ziel verlangt weer te keren, om daar te wonen; maar zij zullen er niet terugkeren, behalve die ontkomen zullen. Jeremia 44:28: Maar die van het zwaard ontkomen, zullen uit Egypteland terugkeren in het land van Juda, weinig in getal; en het gehele overblijfsel van Juda, die in Egypteland gekomen zijn, om daar als vreemdelingen te verkeren, zullen weten, wiens woord bestaan zal, het Mijn of het hun."
+          "text2026": "17 niemand hebben: Hebreeuws, geen overige noch ontkomene hebben. Versta, behalve enige weinigen, Jer. 44:14, 44:28. Jeremia 44:14: Zodat het overblijfsel van Juda, die in Egypteland gekomen zijn, om daar als vreemdelingen te verkeren, geen zal hebben, die ontkome, of overblijve; te weten om weer te keren in het land van Juda, waarnaar hun ziel verlangt weer te keren, om daar te wonen; maar zij zullen er niet terugkeren, behalve die ontkomen zullen. Jeremia 44:28: Maar die van het zwaard ontkomen, zullen uit Egypteland terugkeren in het land van Juda, weinig in getal; en het gehele overblijfsel van Juda, die in Egypteland gekomen zijn, om daar als vreemdelingen te verkeren, zullen weten, wiens woord bestaan zal, het Mijn of het hunne."
         },
         {
           "marker": "18",
@@ -10439,10 +10484,13 @@
           }
         },
         {
-          "tekst": "die",
-          "voorkomen": 2,
+          "tekst": "dat",
+          "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אֲשֶׁ֥ר"
@@ -10453,13 +10501,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:17",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               21
             ]
@@ -11851,10 +11903,13 @@
           }
         },
         {
-          "tekst": "tegen u",
+          "tekst": "tegen",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
           ],
           "bronwoorden": [
             "עֲלֵי/כֶם֙"
@@ -11865,13 +11920,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:19",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -12013,37 +12072,72 @@
           }
         },
         {
-          "tekst": "weet zeker",
+          "tekst": "zeker",
           "voorkomen": 1,
           "strongs": [
-            "H3045",
             "H3045"
           ],
+          "morfologie": [
+            "HVqa"
+          ],
           "bronwoorden": [
-            "יָדֹ֨עַ֙",
-            "תֵּֽדְע֔וּ"
+            "יָדֹ֨עַ֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 42:19",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
-              8,
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "weet",
+          "voorkomen": 1,
+          "strongs": [
+            "H3045"
+          ],
+          "morfologie": [
+            "HVqi2mp"
+          ],
+          "bronwoorden": [
+            "תֵּֽדְע֔וּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 42:19",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
               9
             ]
-          },
-          "toelichting": "De infinitivus-absolutusconstructie versterkt het weten tot zekerheid."
+          }
         },
         {
           "tekst": "dat",
@@ -12969,7 +13063,7 @@
           "type": "explanatory",
           "textSV1888": "25 noch naar al hetgeen: Of, noch iets van hetgeen waarom Hij, enz. Nu hadden zij, boven vers 5, het tegendeel met een sterken eed beloofd. Jeremia 42:5: Toen zeiden zij tot Jeremia: De HEERE zij tussen ons tot een waarachtig en gewis Getuige: indien wij niet naar alle woord, met hetwelk u de HEERE, uw God, tot ons zal zenden, alzo zullen doen!",
           "text1637": "Ofte, nochte yets van’t gene daerom hy, etc. nu hadden sy bov. vers 5. het contrarie met eenen stercken eedt belooft.",
-          "text2026": "25 noch naar alles: Of, noch iets van wat waarom Hij, enz. Nu hadden zij, boven vers 5, het tegendeel met een sterken eed beloofd. Jeremia 42:5: Toen zeiden zij tot Jeremia: JAHWEH zij tussen ons tot een waarachtig en gewis Getuige: als wij niet naar alle woord, met dat u JAHWEH, uw God, tot ons zal zenden, zo zullen doen!"
+          "text2026": "25 noch naar alles: Of, noch iets van hetgeen waarom Hij, enz. Nu hadden zij, boven vers 5, het tegendeel met een sterken eed beloofd. Jeremia 42:5: Toen zeiden zij tot Jeremia: JAHWEH zij tussen ons tot een waarachtig en gewis Getuige: als wij niet naar alle woord, waarmee u JAHWEH, uw God, tot ons zal zenden, zo zullen doen!"
         }
       ],
       "grondtekst": [

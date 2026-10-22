@@ -26,7 +26,7 @@
           "type": "explanatory",
           "textSV1888": "zult gij verwoest: Te weten vooreerst uw leger door den engel; daarna bijzelf door uwe zonen, zie 2 Kon. 19:35 , enz., eindelijk uwe stad Ninevé door de Chaldeën. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel des HEEREN uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich des morgens vroeg opmaakten, ziet, die allen waren dode lichamen.",
           "text1637": "T.w. voor eerst u heyr door den Engel: Daer na ghy selfs door uwe sonen, Siet 2.Reg. 19.35. etc. eyndelick uwe stadt Nineve door de Chaldeen.",
-          "text2026": "zult u verwoest: Te weten vooreerst uw leger door de engel; daarna bijzelf door uwe zonen, zie 2 Kon. 19:35 , enz., eindelijk uwe stad Ninevé door de Chaldeën. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich van de morgen vroeg opmaakten, ziet, die allen waren dode lichamen."
+          "text2026": "zult u verwoest: Te weten vooreerst uw leger door de engel; daarna bijzelf door uwe zonen, zie 2 Kon. 19:35 , enz., eindelijk uwe stad Ninevé door de Chaldeën. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich 's morgens vroeg opmaakten, ziet, die allen waren dode lichamen."
         },
         {
           "marker": "4",
@@ -499,10 +499,13 @@
           }
         },
         {
-          "tekst": "trouweloos handelen",
+          "tekst": "handelen",
           "voorkomen": 1,
           "strongs": [
             "H898"
+          ],
+          "morfologie": [
+            "HR/Vqc"
           ],
           "bronwoorden": [
             "לִ/בְגֹּ֖ד"
@@ -513,15 +516,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 33:1",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
-              12
+              13
             ]
           }
         },
@@ -580,14 +587,14 @@
           "type": "explanatory",
           "textSV1888": "hun arm: Te weten der vrome Joden arm. De zin is: wees een voorvechter en beschermer van uw volk, tegen de Assyriërs.",
           "text1637": "T.w. der vroomer Ioden arm. De sin is, Weest uwes volcx voorvechter ende beschermer, tegen de Assyriers.",
-          "text2026": "hun arm: Te weten van de vrome Joden arm. De zin is: wees een voorvechter en beschermer van uw volk, tegen de Assyriërs."
+          "text2026": "hun arm: Te weten de arm van de vrome Joden. De zin is: wees een voorvechter en beschermer van uw volk, tegen de Assyriërs."
         },
         {
           "marker": "8",
           "type": "explanatory",
           "textSV1888": "allen morgen: Hebreeuws, in de morgenstonden; dat is allen morgen, steeds, altoos, gelijk Ps. 90:14 ; zie de aantekening Ps. 73:14 ; of, als zij U ten tijde van het morgenoffer aanroepen. Psalmen 90:14 : Verzadig ons in den morgenstond met Uw goedertierenheid, zo zullen wij juichen, en verblijd zijn in al onze dagen. Psalmen 73:14 : Dewijl ik den gansen dag geplaagd ben, en mijn straffing is er alle morgens.",
           "text1637": "Hebr. in de morgenstonden, D. alle morgen, steets, altoos, als Psal. 90.14. Siet de aent. Psal. 73. op vers 14. Of, Als sy u ter tijt des morgen-offers aenroepen.",
-          "text2026": "elke morgen: Hebreeuws, in de morgenstonden; dat is elke morgen, steeds, altijd, gelijk Ps. 90:14 ; zie de aantekening Ps. 73:14 ; of, als zij U ten tijde van het morgenoffer aanroepen. Psalmen 90:14 : Verzadig ons in de morgenstond met Uw goedertierenheid, zo zullen wij juichen, en verblijd zijn in al onze dagen. Psalmen 73:14 : Omdat ik de gansen dag geplaagd ben, en mijn straffing is er elke morgen."
+          "text2026": "elke morgen: Hebreeuws, in de morgenstonden; dat is elke morgen, steeds, altijd, gelijk Ps. 90:14 ; zie de aantekening Ps. 73:14 ; of, als zij U ten tijde van het morgenoffer aanroepen. Psalmen 90:14 : Verzadig ons in de morgenstond met Uw goedertierenheid, zo zullen wij juichen, en verblijd zijn in al onze dagen. Psalmen 73:14 : Omdat ik de ganse dag geplaagd ben, en mijn straffing is er elke morgen."
         }
       ],
       "grondtekst": [
@@ -952,14 +959,14 @@
           "type": "explanatory",
           "textSV1888": "Van het geluid: Te weten als de engel hen zal overvallen. Zie 2 Kon. 19:35 . 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel des HEEREN uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich des morgens vroeg opmaakten, ziet, die allen waren dode lichamen.",
           "text1637": "T.w. als de Engel haer sal overvallen. siet 2.Reg. 19.35.",
-          "text2026": "Van het geluid: Te weten als de engel hen zal overvallen. Zie 2 Kon. 19:35 . 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich van de morgen vroeg opmaakten, ziet, die allen waren dode lichamen."
+          "text2026": "Van het geluid: Te weten als de engel hen zal overvallen. Zie 2 Kon. 19:35 . 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich 's morgens vroeg opmaakten, ziet, die allen waren dode lichamen."
         },
         {
           "marker": "10",
           "type": "explanatory",
           "textSV1888": "de volken: Te weten het krijgsvolk in het heir van den koning van Assyrië, bestaande uit verscheidene volken en natiën.",
           "text1637": "Te weten het krijchsvolck in het heyr des Conincks van Assyrien, bestaende uyt verscheydene volckeren ende Natien.",
-          "text2026": "de volken: Te weten het krijgsvolk in het legermacht van de koning van Assyrië, bestaande uit verscheidene volken en natiën."
+          "text2026": "de volken: Te weten het krijgsvolk in de legermacht van de koning van Assyrië, bestaande uit verscheidene volken en natiën."
         },
         {
           "marker": "11",
@@ -1077,10 +1084,13 @@
           }
         },
         {
-          "tekst": "wegvlieden",
+          "tekst": "wegvluchten",
           "voorkomen": 1,
           "strongs": [
             "H5074"
+          ],
+          "morfologie": [
+            "HVqp3cp"
           ],
           "bronwoorden": [
             "נָדְד֖וּ"
@@ -1091,13 +1101,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 33:3",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
@@ -1224,7 +1238,7 @@
           "type": "explanatory",
           "textSV1888": "Dan zal: Ene aanspraak tot de Assyriërs. De zin is: Gij, Assyriërs, zult van den engel des Heeren verslagen en dan van de Joden beroofd worden.",
           "text1637": "Een aensprake tot de Assyriers. De sin is, Ghy Assyriers sult van den Engel des Heeren verslagen, ende dan van de Ioden berooft worden.",
-          "text2026": "Dan zal: Ene aanspraak tot de Assyriërs. De zin is: U, Assyriërs, zult van de engel van de Heern verslagen en dan van de Joden beroofd worden."
+          "text2026": "Dan zal: Ene aanspraak tot de Assyriërs. De zin is: U, Assyriërs, zult van de engel van de Heer verslagen en dan van de Joden beroofd worden."
         },
         {
           "marker": "13",
@@ -1425,10 +1439,13 @@
           }
         },
         {
-          "tekst": "ginds en weer huppelen",
+          "tekst": "huppelen",
           "voorkomen": 2,
           "strongs": [
             "H4944"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "כְּ/מַשַּׁ֥ק"
@@ -1439,18 +1456,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 33:4",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
-          },
-          "toelichting": "כְּ/מַשַּׁ֥ק hoort bij 'gelijk de sprinkhanen ginds en weer huppelen'; dat is het tweede voorkomen van deze woordgroep in dit vers."
+          }
         },
         {
           "tekst": "sprinkhanen",
@@ -1480,10 +1500,13 @@
           }
         },
         {
-          "tekst": "ginds en weer huppelen",
+          "tekst": "huppelen",
           "voorkomen": 1,
           "strongs": [
             "H8264"
+          ],
+          "morfologie": [
+            "HVqrmsa"
           ],
           "bronwoorden": [
             "שׁוֹקֵ֥ק"
@@ -1494,13 +1517,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 33:4",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -1843,7 +1870,7 @@
           "type": "explanatory",
           "textSV1888": "de vastigheid: Hier wendt de profeet zijne rede tot den koning Hizkia. Anderen verstaan dat het ene aanspraak is aan de kerk Gods; alsof de profeet zeide: Wat de kerk zal doen vaststaan, zal zijn de kennis van de goedertierenheid en gunst des Heeren.",
           "text1637": "Hier wendt de Prophete sijne reden tot den Coninck Hizkia. Andre verstaen, dat het eene aensprake is aen de kercke Godes. Als of de Prophete seyde, Dat de kercke sal doen vaste staen, sal zijn de kennisse van de goedertierenheyt ende gunste des Heeren.",
-          "text2026": "de vastheid: Hier wendt de profeet zijn rede tot de koning Hizkia. Anderen verstaan dat het ene aanspraak is aan de kerk van God; alsof de profeet zei: Wat de kerk zal doen vaststaan, zal zijn de kennis van de goedertierenheid en gunst van de Heern."
+          "text2026": "de vastheid: Hier wendt de profeet zijn rede tot de koning Hizkia. Anderen verstaan dat het ene aanspraak is aan de kerk van God; alsof de profeet zei: Wat de kerk zal doen vaststaan, zal zijn de kennis van de goedertierenheid en gunst van de Heer."
         },
         {
           "marker": "19",
@@ -1857,7 +1884,7 @@
           "type": "explanatory",
           "textSV1888": "de sterkte: Of, [uw] heilzame sterkte, of de sterkte des veelvoudigen heils.",
           "text1637": "Of, [uwe] heylsame sterckte, of, de sterckte des veelvoudigen heyls.",
-          "text2026": "de sterkte: Of, [uw] heilzame sterkte, of de sterkte van de veelvoudigen heils."
+          "text2026": "de sterkte: Of, [uw] heilzame sterkte, of de sterkte van het veelvoudige heil."
         },
         {
           "marker": "21",
@@ -1878,7 +1905,7 @@
           "type": "explanatory",
           "textSV1888": "zijn schat: Te weten van den koning Hizkia. Alsof hij zeide: Omdat hij den Heere vreest, zo zal Hij hem zegenen met rijkdom. Zie 2 Kon. 20:13 , en 2 Kron. 32:27 , 32:28 , 32:29 . Anders, zijnen, of haren; te weten der kerk Gods. Indien men deze woorden op den koning Hizkia duidt, zo wijzen zij tegelijk aan, welke en hoedanig de wijsheid van den koning Hizkia geweest is, waarvan te lezen is 2 Kon. 19:1 , 19:14 , en 2 Kon. 18:4 , 18:5 , 18:6 . 2 Koningen 20:13 : En Hizkia hoorde naar hen, en hij toonde hun zijn ganse schathuis, het zilver, en het goud, en de specerijen, en de beste olie, en zijn wapenhuis, en al wat gevonden werd in zijn schatten; er was geen ding in zijn huis, noch in zijn ganse heerschappij, dat hij hun niet toonde. 2 Kronieken 32:27 : Jehizkia nu had zeer veel rijkdom en eer; en hij maakte zich schatkameren voor zilver en voor goud, en voor kostelijk gesteente, en voor specerijen, en voor schilden, en voor alle begeerlijk gereedschap; 2 Kronieken 32:28 : Ook schathuizen voor de inkomsten van koren, en most, en olie; en stallen voor allerlei beesten, en kooien voor de kudden. 2 Kronieken 32:29 : Daartoe had hij zich steden gemaakt, mitsgaders bezitting van schapen en runderen in menigte; want God gaf hem zeer grote have. 2 Koningen 19:1 : En het geschiedde, als de koning Hizkia dat hoorde, zo scheurde hij zijn klederen, en bedekte zich met een zak, en ging in het huis des HEEREN. 2 Koningen 19:14 : Als nu Hizkia de brieven uit der boden hand ontvangen, en die gelezen had, ging hij op in het huis des HEEREN, en Hizkia breidde die uit voor het aangezicht des HEEREN. 2 Koningen 18:4 : Hij nam de hoogten weg, en brak de opgerichte beelden, en roeide de bossen uit; en hij verbrijzelde de koperen slang, die Mozes gemaakt had, omdat de kinderen Israëls tot die dagen toe haar gerookt hadden; en hij noemde haar Nehustan. 2 Koningen 18:5 : Hij betrouwde op den HEERE, den God Israëls, zodat na hem zijns gelijke niet was onder alle koningen van Juda, noch die voor hem geweest waren. 2 Koningen 18:6 : Want hij kleefde den HEERE aan; hij week niet van Hem na te volgen, en hij hield Zijn geboden, die de HEERE aan Mozes geboden had.",
           "text1637": "",
-          "text2026": "zijn schat: Te weten van de koning Hizkia. Alsof hij zei: Omdat hij de Heer vreest, zo zal Hij hem zegenen met rijkdom. Zie 2 Kon. 20:13 , en 2 Kron. 32:27 , 32:28 , 32:29 . Anders, zijn, of haar; te weten van de kerk van God. Als men deze woorden op de koning Hizkia duidt, zo wijzen zij tegelijk aan, welke en hoedanig de wijsheid van de koning Hizkia geweest is, waarvan te lezen is 2 Kon. 19:1 , 19:14 , en 2 Kon. 18:4 , 18:5 , 18:6 . 2 Koningen 20:13 : En Hizkia hoorde naar hen, en hij toonde hun zijn gehele schathuis, het zilver, en het goud, en de specerijen, en de beste olie, en zijn wapenhuis, en al wat gevonden werd in zijn schatten; er was geen ding in zijn huis, noch in zijn gehele heerschappij, dat hij hun niet toonde. 2 Kronieken 32:27 : Jehizkia nu had zeer veel rijkdom en eer; en hij maakte zich schatkameren voor zilver en voor goud, en voor kostelijk gesteente, en voor specerijen, en voor schilden, en voor alle begeerlijk gereedschap; 2 Kronieken 32:28 : Ook schathuizen voor de inkomsten van koren, en most, en olie; en stallen voor allerlei beesten, en kooien voor de kudden. 2 Kronieken 32:29 : Daartoe had hij zich steden gemaakt, en ook bezitting van schapen en runderen in menigte; want God gaf hem zeer grote bezittingen. 2 Koningen 19:1 : En het geschiedde, als de koning Hizkia dat hoorde, zo scheurde hij zijn kleren, en bedekte zich met een zak, en ging in het huis van JAHWEH. 2 Koningen 19:14 : Als nu Hizkia de brieven uit van de boden hand ontvangen, en die gelezen had, ging hij op in het huis van JAHWEH, en Hizkia breidde die uit voor het aangezicht van JAHWEH. 2 Koningen 18:4 : Hij nam de hoogten weg, en brak de opgerichte beelden, en roeide de bossen uit; en hij verbrijzelde de koperen slang, die Mozes gemaakt had, omdat de kinderen van Israël tot die dagen toe haar gerookt hadden; en hij noemde haar Nehustan. 2 Koningen 18:5 : Hij betrouwde op JAHWEH, de God van Israël, zodat na hem zijn gelijke niet was onder alle koningen van Juda, noch die voor hem geweest waren. 2 Koningen 18:6 : Want hij kleefde JAHWEH aan; hij week niet van Hem na te volgen, en hij hield Zijn geboden, die JAHWEH aan Mozes geboden had."
+          "text2026": "zijn schat: Te weten van de koning Hizkia. Alsof hij zei: Omdat hij de Heer vreest, zo zal Hij hem zegenen met rijkdom. Zie 2 Kon. 20:13 , en 2 Kron. 32:27 , 32:28 , 32:29 . Anders, zijn, of haar; te weten van de kerk van God. Als men deze woorden op de koning Hizkia duidt, zo wijzen zij tegelijk aan, welke en hoedanig de wijsheid van de koning Hizkia geweest is, waarvan te lezen is 2 Kon. 19:1 , 19:14 , en 2 Kon. 18:4 , 18:5 , 18:6 . 2 Koningen 20:13 : En Hizkia hoorde naar hen, en hij toonde hun zijn gehele schathuis, het zilver, en het goud, en de specerijen, en de beste olie, en zijn wapenhuis, en al wat gevonden werd in zijn schatten; er was geen ding in zijn huis, noch in zijn gehele heerschappij, dat hij hun niet toonde. 2 Kronieken 32:27 : Jehizkia nu had zeer veel rijkdom en eer; en hij maakte zich schatkameren voor zilver en voor goud, en voor kostelijk gesteente, en voor specerijen, en voor schilden, en voor alle begeerlijk gereedschap; 2 Kronieken 32:28 : Ook schathuizen voor de inkomsten van koren, en most, en olie; en stallen voor allerlei beesten, en kooien voor de kudden. 2 Kronieken 32:29 : Daartoe had hij zich steden gemaakt, en ook bezitting van schapen en runderen in menigte; want God gaf hem zeer grote bezittingen. 2 Koningen 19:1 : En het geschiedde, als de koning Hizkia dat hoorde, zo scheurde hij zijn kleren, en bedekte zich met een zak, en ging in het huis van JAHWEH. 2 Koningen 19:14 : Als nu Hizkia de brieven uit de hand van de boden ontvangen, en die gelezen had, ging hij op in het huis van JAHWEH, en Hizkia breidde die uit voor het aangezicht van JAHWEH. 2 Koningen 18:4 : Hij nam de hoogten weg, en brak de opgerichte beelden, en roeide de bossen uit; en hij verbrijzelde de koperen slang, die Mozes gemaakt had, omdat de kinderen van Israël tot die dagen toe haar gerookt hadden; en hij noemde haar Nehustan. 2 Koningen 18:5 : Hij betrouwde op JAHWEH, de God van Israël, zodat na hem zijn gelijke niet was onder alle koningen van Juda, noch die voor hem geweest waren. 2 Koningen 18:6 : Want hij kleefde JAHWEH aan; hij week niet van Hem na te volgen, en hij hield Zijn geboden, die JAHWEH aan Mozes geboden had."
         }
       ],
       "grondtekst": [
@@ -2273,21 +2300,21 @@
           "type": "explanatory",
           "textSV1888": "Te weten van Sanherib en zijne vorsten. Zie onder Jes. 36:13 , enz. en Jes. 37:10 , enz. Jesaja 36:13 : Alzo stond Rabsake, en riep met luider stem in het Joods, en zeide: Hoort de woorden des groten konings, des konings van Assyrië! Jesaja 37:10 : Zo zult gijlieden spreken tot Hizkia, den koning van Juda, zeggende: Laat u uw God niet bedriegen, op Welken gij vertrouwt, zeggende: Jeruzalem zal in de hand des konings van Assyrië niet gegeven worden.",
           "text1637": "Of Ambassadeurs, Gesanten. T.w. die, welcke Sanherib aen den Coninck Hizkiam, ende de inwoonders van Ierusalem gesonden heeft, 2.Reg. 18. versen 17, 18, etc.",
-          "text2026": "Te weten van Sanherib en zijn vorsten. Zie onder Jes. 36:13 , enz. en Jes. 37:10 , enz. Jesaja 36:13 : Zo stond Rabsake, en riep met luide stem in het Joods, en zei: Hoort de woorden van de grote konings, van de koning van Assyrië! Jesaja 37:10 : Zo zult u spreken tot Hizkia, de koning van Juda, zeggende: Laat u uw God niet bedriegen, op Welke u vertrouwt, zeggende: Jeruzalem zal in de hand van de koning van Assyrië niet gegeven worden."
+          "text2026": "Te weten van Sanherib en zijn vorsten. Zie onder Jes. 36:13 , enz. en Jes. 37:10 , enz. Jesaja 36:13 : Zo stond Rabsake, en riep met luide stem in het Joods, en zei: Hoort de woorden van de grote koning, van de koning van Assyrië! Jesaja 37:10 : Zo zult u spreken tot Hizkia, de koning van Juda, zeggende: Laat u uw God niet bedriegen, op Welke u vertrouwt, zeggende: Jeruzalem zal in de hand van de koning van Assyrië niet gegeven worden."
         },
         {
           "marker": "25",
           "type": "explanatory",
           "textSV1888": "Of, ambassadeurs, gezanten; te weten die, welken Sanherib aan den koning Hizkia en de inwoners van Jeruzalem gezonden heeft; 2 Kon. 18:17 , 18:18 . 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot den koning Hizkia, met een zwaar heir naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij den watergang des oppersten vijvers, welke is bij den hogen weg van het veld des vollers. 2 Koningen 18:18 : En zij riepen tot den koning; zo ging tot hen uit Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier.",
           "text1637": "T.w. buyten de stadt van Ierusalem, als te lesen is, 2.Reg. 18. vers 17, 18, etc.",
-          "text2026": "Of, ambassadeurs, gezanten; te weten die, welke Sanherib aan de koning Hizkia en de inwoners van Jeruzalem gezonden heeft; 2 Kon. 18:17 , 18:18 . 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot de koning Hizkia, met een zwaar legermacht naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij de watergang van de oppersten vijvers, welke is bij de hogen weg van het veld van de voller. 2 Koningen 18:18 : En zij riepen tot de koning; zo ging tot hen uit Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier."
+          "text2026": "Of, ambassadeurs, gezanten; te weten die, welke Sanherib aan de koning Hizkia en de inwoners van Jeruzalem gezonden heeft; 2 Kon. 18:17 , 18:18 . 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot de koning Hizkia, met een zware legermacht naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij de watergang van de opperste vijver, welke is bij de hoge weg van het veld van de voller. 2 Koningen 18:18 : En zij riepen tot de koning; zo ging tot hen uit Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier."
         },
         {
           "marker": "26",
           "type": "explanatory",
           "textSV1888": "daar buiten: Te weten buiten de stad Jeruzalem, gelijk te lezen is 2 Kon. 18:17 , 18:18 , enz. 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot den koning Hizkia, met een zwaar heir naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij den watergang des oppersten vijvers, welke is bij den hogen weg van het veld des vollers. 2 Koningen 18:18 : En zij riepen tot den koning; zo ging tot hen uit Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier.",
           "text1637": "T.w. die mannen die Hizkia hadde gesonden aen Sanherib, om hem den vrede af te bidden. 2.Reg. 18.14.",
-          "text2026": "daar buiten: Te weten buiten de stad Jeruzalem, gelijk te lezen is 2 Kon. 18:17 , 18:18 , enz. 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot de koning Hizkia, met een zwaar legermacht naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij de watergang van de oppersten vijvers, welke is bij de hogen weg van het veld van de voller. 2 Koningen 18:18 : En zij riepen tot de koning; zo ging tot hen uit Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier."
+          "text2026": "daar buiten: Te weten buiten de stad Jeruzalem, gelijk te lezen is 2 Kon. 18:17 , 18:18 , enz. 2 Koningen 18:17 : Evenwel zond de koning van Assyrië Tartan, en Rabsaris, en Rabsake, van Lachis tot de koning Hizkia, met een zware legermacht naar Jeruzalem; en zij togen op, en kwamen naar Jeruzalem. En als zij optogen en gekomen waren, bleven zij staan bij de watergang van de opperste vijver, welke is bij de hoge weg van het veld van de voller. 2 Koningen 18:18 : En zij riepen tot de koning; zo ging tot hen uit Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier."
         },
         {
           "marker": "27",
@@ -3053,14 +3080,14 @@
           "type": "explanatory",
           "textSV1888": "In Basan was goede weide. Zie Deut. 32:14 ; Ps. 22:13 . Dit gebergte lag niet in den stam van Juda, maar in den halven stam van Manasse; Joz. 13:30 . Deuteronomium 32:14 : Boter van koeien, en melk van klein vee, met het vet der lammeren en der rammen, die in Bazan weiden, en der bokken, met het vette der nieren van tarwe; en het druivenbloed, reinen wijn, hebt gij gedronken. Psalmen 22:13 : Vele varren hebben mij omsingeld, sterke stieren van Basan hebben mij omringd. Jozua 13:30 : Zodat hun landpale was van Mahanaim af, het ganse Bazan, het ganse koninkrijk van Og, den koning van Bazan, en al de vlekken van Jaïr, die in Bazan zijn, zestig steden.",
           "text1637": "Hier was oock goet weyde-lant. Siet 1.Sam. 25.2.",
-          "text2026": "In Basan was goede weide. Zie Deut. 32:14 ; Ps. 22:13 . Dit gebergte lag niet in de stam van Juda, maar in de halven stam van Manasse; Joz. 13:30 . Deuteronomium 32:14 : Boter van koeien, en melk van klein vee, met het vet van de lammeren en van de rammen, die in Bazan weiden, en van de bokken, met het vette van de nieren van tarwe; en het druivenbloed, reinen wijn, hebt u gedronken. Psalmen 22:13 : Vele varren hebben mij omsingeld, sterke stieren van Basan hebben mij omringd. Jozua 13:30 : Zodat hun landpale was van Mahanaim af, het gehele Bazan, het gehele koninkrijk van Og, de koning van Bazan, en al de vlekken van Jaïr, die in Bazan zijn, zestig steden."
+          "text2026": "In Basan was goede weide. Zie Deut. 32:14 ; Ps. 22:13 . Dit gebergte lag niet in de stam van Juda, maar in de halve stam van Manasse; Joz. 13:30 . Deuteronomium 32:14 : Boter van koeien, en melk van klein vee, met het vet van de lammeren en van de rammen, die in Bazan weiden, en van de bokken, met het vette van de nieren van tarwe; en het druivenbloed, reinen wijn, hebt u gedronken. Psalmen 22:13 : Vele varren hebben mij omsingeld, sterke stieren van Basan hebben mij omringd. Jozua 13:30 : Zodat hun landpale was van Mahanaim af, het gehele Bazan, het gehele koninkrijk van Og, de koning van Bazan, en al de vlekken van Jaïr, die in Bazan zijn, zestig steden."
         },
         {
           "marker": "39",
           "type": "explanatory",
           "textSV1888": "Hier was ook goed weideland. Zie 1 Sam. 25:2 . 1 Samuël 25:2 : En er was een man te Maon, en zijn bedrijf was te Karmel; en die man was zeer groot, en hij had drie duizend schapen, en duizend geiten; en hij was in het scheren zijner schapen te Karmel.",
           "text1637": "Of, werpen af. T.w. hare vruchten. And. rucchelt, D. roept als een esel, dat is, schreyt schrickelick, namelick om dat de beesten, die daer plechten te weyden, nu verdreven ende gerooft waren.",
-          "text2026": "Hier was ook goed weideland. Zie 1 Sam. 25:2 . 1 Samuël 25:2 : En er was een man te Maon, en zijn bedrijf was te Karmel; en die man was zeer groot, en hij had drie duizend schapen, en duizend geiten; en hij was in het scheren zijn schapen te Karmel."
+          "text2026": "Hier was ook goed weideland. Zie 1 Sam. 25:2 . 1 Samuël 25:2 : En er was een man te Maon, en zijn bedrijf was te Karmel; en die man was zeer groot, en hij had drie duizend schapen, en duizend geiten; en hij was in het scheren van zijn schapen te Karmel."
         },
         {
           "marker": "40",
@@ -4044,7 +4071,7 @@
           "type": "explanatory",
           "textSV1888": "de volken: Te weten het krijgsvolk in het leger van de Assyriërs zal verdelgd worden gelijk de kalk in den kalkoven gebrand word; zie 2 Kon. 19:35 . Anders: zullen in kalkovens gelegd worden, namelijk om tot kalk verbrand te worden. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel des HEEREN uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich des morgens vroeg opmaakten, ziet, die allen waren dode lichamen.",
           "text1637": "",
-          "text2026": "de volken: Te weten het krijgsvolk in het leger van de Assyriërs zal verdelgd worden gelijk de kalk in de kalkoven gebrand word; zie 2 Kon. 19:35 . Anders: zullen in kalkovens gelegd worden, namelijk om tot kalk verbrand te worden. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich van de morgen vroeg opmaakten, ziet, die allen waren dode lichamen."
+          "text2026": "de volken: Te weten het krijgsvolk in het leger van de Assyriërs zal verdelgd worden gelijk de kalk in de kalkoven gebrand wordt; zie 2 Kon. 19:35 . Anders: zullen in kalkovens gelegd worden, namelijk om tot kalk verbrand te worden. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich 's morgens vroeg opmaakten, ziet, die allen waren dode lichamen."
         }
       ],
       "grondtekst": [
@@ -4329,7 +4356,7 @@
           "type": "explanatory",
           "textSV1888": "Dit is ene voorrede op hetgeen hier volgt, namelijk ene vermaning aan de vreemde natiën, dat zij den waren God zouden eren vanwege het vernielen der Assyriërs.",
           "text1637": "T.w. Hoe wonderbaerlick dat ick de Assyriers door eenen Engel verdelcht hebbe.",
-          "text2026": "Dit is ene voorrede op wat hier volgt, namelijk ene vermaning aan de vreemde natiën, dat zij de waren God zouden eren vanwege het vernielen van de Assyriërs."
+          "text2026": "Dit is ene voorrede op wat hier volgt, namelijk ene vermaning aan de vreemde natiën, dat zij de ware God zouden eren vanwege het vernielen van de Assyriërs."
         },
         {
           "marker": "48",
@@ -4625,7 +4652,7 @@
           "type": "explanatory",
           "textSV1888": "zijn verschrikt: Te weten als Ik hen door de Assyriërs bezocht heb, die zich niet verschrikten als Ik hen door den profeet Jesaja gedreigd heb; zie 2 Kon. 18:37 ; en 2 Kon. 19:14 . 2 Koningen 18:37 : Toen kwam Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier, tot Hizkia, met gescheurde klederen; en zij gaven hem de woorden van Rabsake te kennen. 2 Koningen 19:14 : Als nu Hizkia de brieven uit der boden hand ontvangen, en die gelezen had, ging hij op in het huis des HEEREN, en Hizkia breidde die uit voor het aangezicht des HEEREN.",
           "text1637": "D. by Godt, als hy vertoornt is. siet Deut. 4.24. ende 9.3. Heb. 12.29. sommige nemen dese woorden als gesproken zijnde van den Prophete. Verg. Psal. 15.1.",
-          "text2026": "zijn verschrikt: Te weten als Ik hen door de Assyriërs bezocht heb, die zich niet verschrikten als Ik hen door de profeet Jesaja gedreigd heb; zie 2 Kon. 18:37 ; en 2 Kon. 19:14 . 2 Koningen 18:37 : Toen kwam Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier, tot Hizkia, met gescheurde kleren; en zij gaven hem de woorden van Rabsake te kennen. 2 Koningen 19:14 : Als nu Hizkia de brieven uit van de boden hand ontvangen, en die gelezen had, ging hij op in het huis van JAHWEH, en Hizkia breidde die uit voor het aangezicht van JAHWEH."
+          "text2026": "zijn verschrikt: Te weten als Ik hen door de Assyriërs bezocht heb, die zich niet verschrikten als Ik hen door de profeet Jesaja gedreigd heb; zie 2 Kon. 18:37 ; en 2 Kon. 19:14 . 2 Koningen 18:37 : Toen kwam Eljakim, de zoon van Hilkia, de hofmeester, en Sebna, de schrijver, en Joah, de zoon van Asaf, de kanselier, tot Hizkia, met gescheurde kleren; en zij gaven hem de woorden van Rabsake te kennen. 2 Koningen 19:14 : Als nu Hizkia de brieven uit de hand van de boden ontvangen, en die gelezen had, ging hij op in het huis van JAHWEH, en Hizkia breidde die uit voor het aangezicht van JAHWEH."
         },
         {
           "marker": "53",
@@ -5133,7 +5160,7 @@
           "type": "explanatory",
           "textSV1888": "het gewin: Dat is het onrechtvaardig gewin, hetwelk men neemt om zijnen naaste te helpen onderdrukken.",
           "text1637": "T.w. die hem, als Richter, gegeven worden, om een goede sake quaet te maken.",
-          "text2026": "het winst: Dat is het onrechtvaardig winst, dat men neemt om zijn naaste te helpen onderdrukken."
+          "text2026": "de winst: Dat is de onrechtvaardige winst, dat men neemt om zijn naaste te helpen onderdrukken."
         },
         {
           "marker": "56",
@@ -5147,7 +5174,7 @@
           "type": "explanatory",
           "textSV1888": "dat hij geen bloedschulden hore: Dat is, dat hij de raadslagen van onschuldig bloedvergieten niet bijwone; zie Ps. 51:16 . Psalmen 51:16 : Verlos mij van bloedschulden, o God, Gij, God mijns heils! zo zal mijn tong Uw gerechtigheid vrolijk roemen.",
           "text1637": "T.w. met lust, ende met een behagen. siet Psal. 22. op vers 18.",
-          "text2026": "dat hij geen bloedschulden hore: Dat is, dat hij de raadslagen van onschuldig bloedvergieten niet bijwone; zie Ps. 51:16 . Psalmen 51:16 : Verlos mij van bloedschulden, o God, U, God mijn heils! zo zal mijn tong Uw gerechtigheid vrolijk roemen."
+          "text2026": "dat hij geen bloedschulden hore: Dat is, dat hij de raadslagen van onschuldig bloedvergieten niet bijwone; zie Ps. 51:16 . Psalmen 51:16 : Verlos mij van bloedschulden, o God, U, God van mijn heil! zo zal mijn tong Uw gerechtigheid vrolijk roemen."
         },
         {
           "marker": "58",
@@ -5352,10 +5379,13 @@
           }
         },
         {
-          "tekst": "billijkheden",
+          "tekst": "eerlijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H4339"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "מֵֽישָׁרִ֑ים"
@@ -5366,13 +5396,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 33:15",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -5796,7 +5830,7 @@
           "type": "explanatory",
           "textSV1888": "in de hoogten wonen: Dat is, zeker en vast, buiten gevaar, onder de beschutting des Allerhoogsten. Vergelijk Ps. 91:1 . Psalmen 91:1 : Die in de schuilplaats des Allerhoogsten is gezeten, die zal vernachten in de schaduw des Almachtigen.",
           "text1637": "D. het broot 't welck hy behoeft, of wenscht te hebben. De sin is, hem en sal niet ontbreken.",
-          "text2026": "in de hoogten wonen: Dat is, zeker en vast, buiten gevaar, onder de beschutting van de Allerhoogste. Vergelijk Ps. 91:1 . Psalmen 91:1 : Die in de schuilplaats van de Allerhoogste is gezeten, die zal overnachten in de schaduw van de Almachtigen."
+          "text2026": "in de hoogten wonen: Dat is, zeker en vast, buiten gevaar, onder de beschutting van de Allerhoogste. Vergelijk Ps. 91:1 . Psalmen 91:1 : Die in de schuilplaats van de Allerhoogste is gezeten, die zal overnachten in de schaduw van de Almachtige."
         },
         {
           "marker": "60",
@@ -6169,7 +6203,7 @@
           "type": "explanatory",
           "textSV1888": "Uw ogen: Hier spreekt de profeet hen aan, die hij vers 15 beschreven heeft, te weten de godzaligen onder de Joden. Jesaja 33:15 : Die in gerechtigheden wandelt, en die billijkheden spreekt; die het gewin der onderdrukkingen verwerpt; die zijn handen uitschudt, dat zij geen geschenken behouden; die zijn oor stopt, dat hij geen bloedschulden hore, en zijn ogen toesluit; dat hij het kwade niet aanzie;",
           "text1637": "Eenige verstaen hier den Coninck Hizkia, andere den Heere Christum.",
-          "text2026": "Uw ogen: Hier spreekt de profeet hen aan, die hij vers 15 beschreven heeft, te weten de godzaligen onder de Joden. Jesaja 33:15 : Die in gerechtigheden wandelt, en die billijkheden spreekt; die het winst van de onderdrukkingen verwerpt; die zijn handen uitschudt, dat zij geen geschenken behouden; die zijn oor stopt, dat hij geen bloedschulden hore, en zijn ogen toesluit; dat hij het kwade niet aanzie;"
+          "text2026": "Uw ogen: Hier spreekt de profeet hen aan, die hij vers 15 beschreven heeft, te weten de godzaligen onder de Joden. Jesaja 33:15 : Die in gerechtigheden wandelt, en die billijkheden spreekt; die de winst van de onderdrukkingen verwerpt; die zijn handen uitschudt, dat zij geen geschenken behouden; die zijn oor stopt, dat hij geen bloedschulden hore, en zijn ogen toesluit; dat hij het kwade niet aanzie;"
         },
         {
           "marker": "63",
@@ -6856,28 +6890,28 @@
           "type": "explanatory",
           "textSV1888": "niet meer : Want de engel des Heeren zal hen ten dele verslaan, ten dele op de vlucht jagen; zie 2 Kon. 19:35 , 19:36 . 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel des HEEREN uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich des morgens vroeg opmaakten, ziet, die allen waren dode lichamen. 2 Koningen 19:36 : Zo vertrok Sanherib, de koning van Assyrië, en toog henen, en keerde weder; en hij bleef te Nineve.",
           "text1637": "Of, wreet volck, of, Barbaris volck. Hebr. gesterckte, verhardde volck. siet Iud. 14. op vers 14. ende Psal. 114.1. Deut. 28.50.",
-          "text2026": "niet meer : Want de engel van de Heern zal hen ten dele verslaan, ten dele op de vlucht jagen; zie 2 Kon. 19:35 , 19:36 . 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich van de morgen vroeg opmaakten, ziet, die allen waren dode lichamen. 2 Koningen 19:36 : Zo vertrok Sanherib, de koning van Assyrië, en toog heen, en keerde weer; en hij bleef te Nineve."
+          "text2026": "niet meer : Want de engel van de Heer zal hen ten dele verslaan, ten dele op de vlucht jagen; zie 2 Kon. 19:35 , 19:36 . 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich 's morgens vroeg opmaakten, ziet, die allen waren dode lichamen. 2 Koningen 19:36 : Zo vertrok Sanherib, de koning van Assyrië, en toog heen, en keerde weer; en hij bleef te Nineve."
         },
         {
           "marker": "73",
           "type": "explanatory",
           "textSV1888": "dat stuurse volk: Of, wreed volk, of barbaars volk. Hebreeuws, gesterkt, verhard volk. Zie Deut. 28:50 ; Richt. 14:4 , en Ps. 114:1 . Deuteronomium 28:50 : Een volk, stijf van aangezicht, dat het aangezicht des ouden niet zal aannemen, noch den jonge genadig zijn. Richteren 14:4 : Zijn vader nu en zijn moeder wisten niet, dat dit van den HEERE was, dat hij gelegenheid zocht van de Filistijnen; want de Filistijnen heersten te dier tijd over Israël. Psalmen 114:1 : Toen Israël uit Egypte toog, het huis Jakobs van een volk, dat een vreemde taal had;",
           "text1637": "Hebr. van lippe, als Gen. 11.1. D. een volck dat een onbekende sprake heeft.",
-          "text2026": "dat stuurse volk: Of, wreed volk, of barbaars volk. Hebreeuws, gesterkt, verhard volk (עַם). Zie Deut. 28:50 ; Richt. 14:4 , en Ps. 114:1 . Deuteronomium 28:50 : Een volk, stijf van aangezicht, dat het aangezicht van de ouden niet zal aannemen, noch de jonge genadig zijn. Richteren 14:4 : Zijn vader nu en zijn moeder wisten niet, dat dit van JAHWEH was, dat hij gelegenheid zocht van de Filistijnen; want de Filistijnen heersten in die tijd over Israël. Psalmen 114:1 : Toen Israël uit Egypte toog, het huis van Jakob van een volk, dat een vreemde taal had;"
+          "text2026": "dat stuurse volk: Of, wreed volk, of barbaars volk. Hebreeuws, gesterkt, verhard volk (עַם). Zie Deut. 28:50 ; Richt. 14:4 , en Ps. 114:1 . Deuteronomium 28:50 : Een volk, stijf van aangezicht, dat het aangezicht van de oude niet zal aannemen, noch de jonge genadig zijn. Richteren 14:4 : Zijn vader nu en zijn moeder wisten niet, dat dit van JAHWEH was, dat hij gelegenheid zocht van de Filistijnen; want de Filistijnen heersten in die tijd over Israël. Psalmen 114:1 : Toen Israël uit Egypte toog, het huis van Jakob van een volk, dat een vreemde taal had;"
         },
         {
           "marker": "74",
           "type": "explanatory",
           "textSV1888": "van spraak: Hebreeuws, van lip, gelijk Gen. 11:1 ; dat is, een volk, dat een onbekende spraak heeft. Genesis 11:1 : En de ganse aarde was van enerlei spraak en enerlei woorden.",
           "text1637": "D. verstaen en kan. Siet Gen. 11.7.",
-          "text2026": "van spraak: Hebreeuws, van lip, gelijk Gen (שָׂפָה). 11:1 ; dat is, een volk, dat een onbekende spraak heeft. Genesis 11:1 : En de gehele aarde was van enerlei spraak en enerlei woorden."
+          "text2026": "van spraak: Hebreeuws, van lip (שָׂפָה), gelijk Gen. 11:1 ; dat is, een volk, dat een onbekende spraak heeft. Genesis 11:1 : En de gehele aarde was van enerlei spraak en enerlei woorden."
         },
         {
           "marker": "75",
           "type": "explanatory",
           "textSV1888": "horen kan: Dat is, verstaan kan; zie Gen. 11:7 . Genesis 11:7 : Kom aan, laat Ons nedervaren, en laat Ons hun spraak aldaar verwarren, opdat iegelijk de spraak zijns naasten niet hore.",
           "text1637": "Siet Ies. 28. op vers 11. And. van stamelende tonge.",
-          "text2026": "horen kan: Dat is, verstaan kan; zie Gen. 11:7 . Genesis 11:7 : Kom aan, laat Ons nedervaren, en laat Ons hun spraak daar verwarren, opdat iedereen de spraak zijn naasten niet hore."
+          "text2026": "horen kan: Dat is, verstaan kan; zie Gen. 11:7 . Genesis 11:7 : Kom aan, laat Ons nedervaren, en laat Ons hun spraak daar verwarren, opdat iedereen de spraak van zijn naaste niet hore."
         },
         {
           "marker": "76",

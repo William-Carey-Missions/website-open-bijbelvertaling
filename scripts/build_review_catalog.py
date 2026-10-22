@@ -35,9 +35,12 @@ def build_catalog(root: Path = ROOT) -> dict:
         historical_subjects.extend(history["subjects"])
     for item in historical_subjects:
         item['metadata'] = {'components': historical_components[(item['type'], item['id'], item['revision'])]}
-    geography = json.loads(
-        (data / "geografie-runtime.geojson").read_text(encoding="utf-8")
-    )
+    # De kaart en de plaatsen staan sinds de splitsing op Open Gods Woord.
+    # Daar bestaat dit bestand en komen de plaatsen in de catalogus; op de
+    # OV-site ontbreekt het en bevat de catalogus alleen tekstonderwerpen.
+    geography_path = data / "geografie-runtime.geojson"
+    geography = (json.loads(geography_path.read_text(encoding="utf-8"))
+                 if geography_path.exists() else None)
 
     book_ids = [book["id"] for book in books]
     if len(book_ids) != len(set(book_ids)):
@@ -81,32 +84,33 @@ def build_catalog(root: Path = ROOT) -> dict:
                                  "components": component_metadata('text-verse', verse)},
                 })
 
-    features = geography.get("features")
-    geography_hash = hashlib.sha256((data / "geografie-runtime.geojson").read_bytes()).hexdigest()
-    if not isinstance(features, list):
-        raise ValueError("geografie-runtime.geojson moet features bevatten")
-    for feature in features:
-        if not isinstance(feature, dict) or not isinstance(feature.get("properties"), dict):
-            raise ValueError("ieder geografisch punt moet properties hebben")
-        properties = feature["properties"]
-        subject_id = properties.get("id")
-        if not subject_id:
-            raise ValueError("Geografisch punt zonder stabiele id")
-        subject = {
-            "type": "location",
-            "id": subject_id,
-            "revision": canonical_hash(location_review_payload(feature)),
-            "label": properties.get("naam") or subject_id,
-            "href": f"plaats.html?plaats={subject_id}",
-            "source": "data/geografie-runtime.geojson",
-            "metadata": {
-                "sourceHash": geography_hash,
-                "components": component_metadata('location', location_review_payload(feature)),
-                "certainty": properties.get("zekerheid", "onzeker"),
-                "sourceDataset": (properties.get("bron") or {}).get("dataset"),
-            },
-        }
-        subjects.append(subject)
+    if geography is not None:
+        features = geography.get("features")
+        geography_hash = hashlib.sha256(geography_path.read_bytes()).hexdigest()
+        if not isinstance(features, list):
+            raise ValueError("geografie-runtime.geojson moet features bevatten")
+        for feature in features:
+            if not isinstance(feature, dict) or not isinstance(feature.get("properties"), dict):
+                raise ValueError("ieder geografisch punt moet properties hebben")
+            properties = feature["properties"]
+            subject_id = properties.get("id")
+            if not subject_id:
+                raise ValueError("Geografisch punt zonder stabiele id")
+            subject = {
+                "type": "location",
+                "id": subject_id,
+                "revision": canonical_hash(location_review_payload(feature)),
+                "label": properties.get("naam") or subject_id,
+                "href": f"plaats.html?plaats={subject_id}",
+                "source": "data/geografie-runtime.geojson",
+                "metadata": {
+                    "sourceHash": geography_hash,
+                    "components": component_metadata('location', location_review_payload(feature)),
+                    "certainty": properties.get("zekerheid", "onzeker"),
+                    "sourceDataset": (properties.get("bron") or {}).get("dataset"),
+                },
+            }
+            subjects.append(subject)
 
     subject_keys = [(item["type"], item["id"]) for item in subjects]
     if len(subject_keys) != len(set(subject_keys)):

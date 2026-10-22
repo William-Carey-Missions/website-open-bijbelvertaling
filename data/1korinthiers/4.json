@@ -549,52 +549,64 @@
       ],
       "woordnummers": [
         {
-          "tekst": "En",
-          "voorkomen": 1,
-          "strongs": [
-            "G3739",
-            "G1161"
-          ],
-          "bronwoorden": [
-            "ο",
-            "δε"
-          ],
-          "transliteraties": [
-            "",
-            ""
-          ],
-          "glossen": [
-            "",
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
-            "referentie": "1CO 4:2",
-            "bronindices": [
-              0
-            ],
-            "grondindices": [
-              0,
-              1
-            ]
-          },
-          "gids_strongs": [
-            "G5602"
-          ],
-          "toelichting": "De lokale TR schrijft ο δέ als twee tokens waar de gids één afwijkend openingswoord gebruikt."
-        },
-        {
           "tekst": "verder",
           "voorkomen": 1,
           "strongs": [
+            "G3739",
             "G3063"
           ],
+          "lemma_strongs": [
+            "G3739",
+            "G3062"
+          ],
+          "morfologie": [
+            "R-ASN",
+            "A-ASN"
+          ],
           "bronwoorden": [
+            "ο",
             "λοιπον"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
+            "referentie": "1CO 4:2",
+            "grondindices": [
+              0,
+              2
+            ],
+            "bronindices": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "En",
+          "voorkomen": 1,
+          "strongs": [
+            "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "δε"
           ],
           "transliteraties": [
             ""
@@ -602,18 +614,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:2",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
-              2
+            "bronindices": [
+              1
             ]
           }
         },
@@ -870,7 +883,7 @@
           "type": "explanatory",
           "textSV1888": "3 een menselijk oordeel: Gr. een menselijken dag; ene manier van spreken genomen van de gewone gerichten, in welke op zekere gezette dagen vierschaar wordt gehouden, om te oordelen hetgeen voorvalt. Niet dat de ene profeet ook van den ander niet zou mogen oordelen, want het tegendeel beveelt hij 1 Kor. 14:29; maar hij spreekt van zulk een oordeel, als in de volgende woorden zal aangetekend worden. En Paulus ziet hier inzonderheid op den uitersten dag, wanneer alles zal geoordeeld worden naar behoren; Matth. 25:14, enz.; Luk. 19:12. 1 Korinthiërs 14:29: En dat twee of drie profeten spreken, en dat de anderen oordelen. Mattheüs 25:14: Want het is gelijk een mens, die buiten 's lands reizende, zijn dienstknechten riep, en gaf hun zijn goederen over. Lukas 19:12: Hij zeide dan: Een zeker welgeboren man reisde in een ver gelegen land, om voor zichzelven een koninkrijk te ontvangen, en dan weder te keren.",
           "text1637": "Gr. eenen menschelicken dagh: een maniere van spreken genomen van de ordinarise gerichten, in welcke op sekere gesette dagen vier-schare wort gehouden om te oordeelen ’tgene voorvalt. Niet dat d’een Propheet oock van d’ander niet en soude mogen oordeelen, want het tegendeel beveelt hy 1.Corinth. 14.29. maer hy spreeckt van sulck een oordeel als in de volgende woorden sal aengeteeckent worden. Ende siet hier Paulus insonderheyt op den uytersten dagh, wanneer alles sal geoordeelt worden nae behooren. Matth. 25.14, etc. Luc. 19.12.",
-          "text2026": "3 een menselijk oordeel: Gr. een menselijken dag; ene manier van spreken genomen van de gewone gerichten, in welke op zekere vastgestelde dagen vierschaar wordt gehouden, om te oordelen wat voorvalt. Niet dat de ene profeet ook van de ander niet zou mogen oordelen, want het tegendeel beveelt hij 1 Kor. 14:29; maar hij spreekt van zulk een oordeel, als in de volgende woorden zal aangetekend worden. En Paulus ziet hier in het bijzonder op de uitersten dag, wanneer alles zal geoordeeld worden naar behoren; Matt. 25:14, enz.; Luk. 19:12. 1 Korinthiërs 14:29: En dat twee of drie profeten spreken, en dat de anderen oordelen. Mattheüs 25:14: Want het is gelijk een mens, die buiten 's lands reizende, zijn dienaren riep, en gaf hun zijn goederen over. Lukas 19:12: Hij zei dan: Een zeker welgeboren man reisde in een ver gelegen land, om voor zichzelf een koninkrijk te ontvangen, en dan weer te keren."
+          "text2026": "3 een menselijk oordeel: Gr. een menselijken dag; ene manier van spreken genomen van de gewone gerichten, in welke op zekere vastgestelde dagen vierschaar wordt gehouden, om te oordelen wat voorvalt. Niet dat de ene profeet ook van de ander niet zou mogen oordelen, want het tegendeel beveelt hij 1 Kor. 14:29; maar hij spreekt van zulk een oordeel, als in de volgende woorden zal aangetekend worden. En Paulus ziet hier in het bijzonder op de uiterste dag, wanneer alles zal geoordeeld worden naar behoren; Matt. 25:14, enz.; Luk. 19:12. 1 Korinthiërs 14:29: En dat twee of drie profeten spreken, en dat de anderen oordelen. Mattheüs 25:14: Want het is gelijk een mens, die buiten 's lands reizende, zijn dienaren riep, en gaf hun zijn goederen over. Lukas 19:12: Hij zei dan: Een zeker welgeboren man reisde in een ver gelegen land, om voor zichzelf een koninkrijk te ontvangen, en dan weer te keren."
         },
         {
           "marker": "4",
@@ -1101,10 +1114,16 @@
           }
         },
         {
-          "tekst": "het minste",
+          "tekst": "minste",
           "voorkomen": 1,
           "strongs": [
             "G1646"
+          ],
+          "lemma_strongs": [
+            "G1646"
+          ],
+          "morfologie": [
+            "A-ASN-S"
           ],
           "bronwoorden": [
             "ελαχιστον"
@@ -1115,18 +1134,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:3",
-            "bronindices": [
-              2
-            ],
             "grondindices": [
               3
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -1547,7 +1567,7 @@
           "type": "explanatory",
           "textSV1888": "7 die mij oordeelt: Namelijk als opperste rechter, niet alleen in de uitwendige zaak mijner bediening, maar ook mijner consciëntie, waarvan de Heere Christus alleen de rechter is, die daarvan metterdaad ten uitersten dage zal richten, gelijk het volgende vers vers 5 verklaart. 1 Korinthiërs 4:5: Zo dan oordeelt niets voor den tijd, totdat de Heere zal gekomen zijn, Welke ook in het licht zal brengen, hetgeen in de duisternis verborgen is, en openbaren de raadslagen der harten; en als dan zal een iegelijk lof hebben van God.",
           "text1637": "Namel. als opperste rechter, niet alleen in de uytwendige sake mijner bedieninge, maer oock mijner conscientie, waer van de Heere Christus alleen de Rechter is, die daer van metter daet ten uytersten dage sal rechten, gelijck het volgende vers verklaert.",
-          "text2026": "7 die mij oordeelt: Namelijk als opperste rechter, niet alleen in de uitwendige zaak mijner bediening, maar ook mijner consciëntie, waarvan de Heer Christus alleen de rechter is, die daarvan metterdaad ten uitersten dage zal richten, gelijk het volgende vers vers 5 verklaart. 1 Korinthiërs 4:5: Zo dan oordeelt niets voor de tijd, totdat de Heer zal gekomen zijn, Welke ook in het licht zal brengen, wat in de duisternis verborgen is, en openbaren de raadslagen van de harten; en als dan zal een iedereen lof hebben van God."
+          "text2026": "7 die mij oordeelt: Namelijk als opperste rechter, niet alleen in de uitwendige zaak mijner bediening, maar ook mijner consciëntie, waarvan de Heer Christus alleen de rechter is, die daarvan metterdaad ten uitersten dage zal richten, gelijk het volgende vers vers 5 verklaart. 1 Korinthiërs 4:5: Zo dan oordeelt niets voor de tijd, totdat de Heer zal gekomen zijn, Welke ook in het licht zal brengen, wat in de duisternis verborgen is, en openbaren de raadslagen van de harten; en als dan zal een ieder lof hebben van God."
         },
         {
           "marker": "c",
@@ -2111,7 +2131,7 @@
           "type": "explanatory",
           "textSV1888": "11 lof hebben van God: Dat is, niet alleen een openbare getuigenis van zijn weldoen, maar ook beloning; Rom. 2:6; 2 Kor. 5:10. Romeinen 2:6: Welke een iegelijk vergelden zal naar zijn werken; 2 Korinthiërs 5:10: Want wij allen moeten geopenbaard worden voor den rechterstoel van Christus, opdat een iegelijk wegdrage, hetgeen door het lichaam geschiedt, naardat hij gedaan heeft, hetzij goed, hetzij kwaad.",
           "text1637": "Dat is, niet alleen een openbare getuygenisse van sijn weldoen, maer oock belooninge Rom. 2.6. 2.Corint. 5.10.",
-          "text2026": "11 lof hebben van God: Dat is, niet alleen een openbare getuigenis van zijn weldoen, maar ook beloning; Rom. 2:6; 2 Kor. 5:10. Romeinen 2:6: Welke een iedereen vergelden zal naar zijn werken; 2 Korinthiërs 5:10: Want wij allen moeten geopenbaard worden voor de rechterstoel van Christus, opdat een iedereen wegdrage, wat door het lichaam geschiedt, naardat hij gedaan heeft, hetzij goed, hetzij kwaad."
+          "text2026": "11 lof hebben van God: Dat is, niet alleen een openbare getuigenis van zijn weldoen, maar ook beloning; Rom. 2:6; 2 Kor. 5:10. Romeinen 2:6: Welke een ieder vergelden zal naar zijn werken; 2 Korinthiërs 5:10: Want wij allen moeten geopenbaard worden voor de rechterstoel van Christus, opdat een ieder wegdrage, wat door het lichaam geschiedt, naardat hij gedaan heeft, hetzij goed, hetzij kwaad."
         },
         {
           "marker": "8",
@@ -2470,10 +2490,16 @@
           }
         },
         {
-          "tekst": "de tijd",
+          "tekst": "tijd",
           "voorkomen": 1,
           "strongs": [
             "G2540"
+          ],
+          "lemma_strongs": [
+            "G2540"
+          ],
+          "morfologie": [
+            "N-GSM"
           ],
           "bronwoorden": [
             "καιρου"
@@ -2484,18 +2510,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:5",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
               3
+            ],
+            "bronindices": [
+              5
             ]
           }
         },
@@ -3139,6 +3166,12 @@
           "strongs": [
             "G3588"
           ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
+          ],
           "bronwoorden": [
             "ο"
           ],
@@ -3148,24 +3181,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:5",
-            "bronindices": [
-              28
-            ],
             "grondindices": [
               26
+            ],
+            "bronindices": [
+              28
             ]
-          },
-          "anker": "ieder",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Griekse lidwoord bij lof heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
           "tekst": "lof",
@@ -3364,7 +3394,7 @@
           "type": "explanatory",
           "textSV1888": "12 deze dingen: Sommigen verstaan daardoor hetgeen de apostel van de gebreken en opgeblazenheid van enige leraars hiervoren gezegd heeft, en dat hij dezelve in zijn en Apollos' persoon zou bestraft hebben, zonder hunne namen uit te drukken, om hen te sparen; maar alzo hiervoren vele dingen in den persoon van Paulus, Cefas en Apollos gezegd zijn, die op zulke leraars niet kunnen passen, en ook Paulus niet gewoon is der zodaniger gebreken op zich te nemen, om die te sparen, maar veel meer zijn voorbeeld tegen zodanigen te stellen om de gemeente voor hen te waarschuwen; zo wordt dit wel zo gevoegelijk verstaan van de gebreken der gemeente zelve, die zodanig onderscheid onder de getrouwe leraars en apostelen maakten, waardoor deze verdeeldheden werden veroorzaakt, zonder dat al de leraars daarvan de schuld hadden; en verklaart dat hij in zijner en Apollos' persoon hun had getoond waarvoor zij de leraars, wie zij ook waren, moesten houden, namelijk alleen als dienaars van Christus, die hen tot Christus wezen, en tot de rechte enigheid in Christus, en niet tot zichzelven, om een bijzonderen aanhang te maken.",
           "text1637": "Sommige verstaen daer door het gene den Apostel van de gebreken ende opgeblasenheydt eeniger leeraren hier voren geseght heeft, ende dat hy de selve in sijnen ende Apollos persoon soude bestraft hebben sonder hare namen uyt te drucken, om de selve te sparen: maer alsoo hier voren vele dingen in den persoon Pauli, Cephe, ende Apollos geseght zijn, die op sulcke Leeraers niet en konnen passen, ende oock Paulus niet gewent en is der soodaniger gebreken over hem te nemen, om die te sparen, maer veel meer sijn exempel tegen soodanige te stellen, om de Gemeynte voor haer te waerschouwen, soo wort dit wel soo gevoeghlick verstaen van de gebreken der Gemeynte selve, die soodanigh onderscheyt onder de getrouwe Leeraers ende Apostelen maeckten, waer door dese verdeeltheden wierden veroorsaeckt, sonder dat alle de Leeraren daer van de schult hadden: ende verklaert dat hy in sijnen ende Apollos persoon haer hadde getoont, waer voor sy de Leeraren, wie sy oock waren, moesten houden, namelick alleen als Dienaers Christi, die haer tot Christum wesen, ende tot de rechte eenigheyt in Christo, ende niet tot haer selven, om eenen bysonderen aenhanck te maken.",
-          "text2026": "12 deze dingen: Sommigen verstaan daardoor wat de apostel van de gebreken en opgeblazenheid van enige leraars hiervoren gezegd heeft, en dat hij dezelfde in zijn en Apollos' persoon zou bestraft hebben, zonder hun namen uit te drukken, om hen te sparen; maar zo hiervoren vele dingen in de persoon van Paulus, Cefas en Apollos gezegd zijn, die op zulke leraars niet kunnen passen, en ook Paulus niet gewoon is van de zodaniger gebreken op zich te nemen, om die te sparen, maar veel meer zijn voorbeeld tegen zodanigen te stellen om de gemeente voor hen te waarschuwen; zo wordt dit wel zo gevoegelijk verstaan van de gebreken van de gemeente zelve, die zodanig onderscheid onder de getrouwe leraars en apostelen maakten, waardoor deze verdeeldheden werden veroorzaakt, zonder dat al de leraars daarvan de schuld hadden; en verklaart dat hij in zijn en Apollos' persoon hun had getoond waarvoor zij de leraars, wie zij ook waren, moesten houden, namelijk alleen als dienaren van Christus, die hen tot Christus wezen, en tot de rechte enigheid in Christus, en niet tot zichzelf, om een bijzonderen aanhang te maken."
+          "text2026": "12 deze dingen: Sommigen verstaan daardoor wat de apostel van de gebreken en opgeblazenheid van enige leraars hiervoren gezegd heeft, en dat hij die in zijn en Apollos' persoon zou bestraft hebben, zonder hun namen uit te drukken, om hen te sparen; maar zo hiervoren vele dingen in de persoon van Paulus, Cefas en Apollos gezegd zijn, die op zulke leraars niet kunnen passen, en ook Paulus niet gewoon is zodanige gebreken op zich te nemen, om die te sparen, maar veel meer zijn voorbeeld tegen zodanigen te stellen om de gemeente voor hen te waarschuwen; zo wordt dit wel zo gevoegelijk verstaan van de gebreken van de gemeente zelve, die zodanig onderscheid onder de getrouwe leraars en apostelen maakten, waardoor deze verdeeldheden werden veroorzaakt, zonder dat al de leraars daarvan de schuld hadden; en verklaart dat hij in zijn en Apollos' persoon hun had getoond waarvoor zij de leraars, wie zij ook waren, moesten houden, namelijk alleen als dienaren van Christus, die hen tot Christus wezen, en tot de rechte enigheid in Christus, en niet tot zichzelf, om een bijzonderen aanhang te maken."
         },
         {
           "marker": "13",
@@ -5962,7 +5992,7 @@
           "type": "explanatory",
           "textSV1888": "24 ten toon heeft gesteld: Of, tevoorschijn gebracht. Paulus ziet hier op de gewoonte der heidenen, die de misdadigers in de openbare schouwplaatsen tevoorschijn brachten, om hen tot vermaak van anderen den wilden beesten voor te werpen, of hen tegen deze beesten tot den dood toe te doen vechten. Hetwelk ook aan de Christenen bij hen dikwijls is geschied; 1 Kor. 15:32. 1 Korinthiërs 15:32: Zo ik, naar den mens, tegen de beesten gevochten heb te Efeze, wat nuttigheid is het mij, indien de doden niet opgewekt worden? Laat ons eten en drinken, want morgen sterven wij.",
           "text1637": "Ofte, te voorschijn gebracht. Paulus siet hier op de gewoonte der Heydenen, die de misdadige in de publijcke Schouw-plaetsen ten voorschijn brachten, om de selve tot vermaeck van andere de wilde beesten voor te werpen, ofte haer tegen de selve beesten tot der doot toe te doen vechten. het welck oock aende Christenen by haer dickwils is geschiet. 1.Cor. 15.32.",
-          "text2026": "24 ten toon heeft gesteld: Of, tevoorschijn gebracht. Paulus ziet hier op de gewoonte van de heidenen, die de misdadigers in de openbare schouwplaatsen tevoorschijn brachten, om hen tot vermaak van anderen de wilden beesten voor te werpen, of hen tegen deze beesten tot de dood toe te doen vechten. Dat ook aan de Christenen bij hen dikwijls is geschied; 1 Kor. 15:32. 1 Korinthiërs 15:32: Zo ik, naar de mens, tegen de beesten gevochten heb te Efeze, wat nuttigheid is het mij, als de doden niet opgewekt worden? Laat ons eten en drinken, want morgen sterven wij."
+          "text2026": "24 ten toon heeft gesteld: Of, tevoorschijn gebracht. Paulus ziet hier op de gewoonte van de heidenen, die de misdadigers in de openbare schouwplaatsen tevoorschijn brachten, om hen tot vermaak van anderen de wilde beesten voor te werpen, of hen tegen deze beesten tot de dood toe te doen vechten. Dat ook aan de Christenen bij hen dikwijls is geschied; 1 Kor. 15:32. 1 Korinthiërs 15:32: Zo ik, naar de mens, tegen de beesten gevochten heb te Efeze, wat nuttigheid is het mij, als de doden niet opgewekt worden? Laat ons eten en drinken, want morgen sterven wij."
         },
         {
           "marker": "25",
@@ -6595,9 +6625,15 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSM"
           ],
           "bronwoorden": [
             "τω"
@@ -6608,18 +6644,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:9",
-            "bronindices": [
-              14
-            ],
             "grondindices": [
               15
+            ],
+            "bronindices": [
+              14
             ]
           }
         },
@@ -11837,7 +11874,7 @@
           "type": "explanatory",
           "textSV1888": "40 maar de kracht: Namelijk die zij metterdaad bewijzen in geloof, liefde, en andere Christelijke deugden of gaven, die Gods Geest krachtig werkt; 1 Joh. 3:18. 1 Johannes 3:18: Mijn kinderkens, laat ons niet liefhebben met den woorde, noch met de tong, maar met de daad en waarheid.",
           "text1637": "N. die sy metter daet bewijsen in geloove, liefde, ende andere Christelicke deuchden ofte gaven, die Godts Geest krachtelick werckt. 1.Ioan. 3.18.",
-          "text2026": "40 maar de kracht: Namelijk die zij metterdaad bewijzen in geloof, liefde, en andere Christelijke deugden of gaven, die Gods Geest krachtig werkt; 1 Joh. 3:18. 1 Johannes 3:18: Mijn kinderen, laat ons niet liefhebben met de woorde, noch met de tong, maar met de daad en waarheid."
+          "text2026": "40 maar de kracht: Namelijk die zij metterdaad bewijzen in geloof, liefde, en andere Christelijke deugden of gaven, die Gods Geest krachtig werkt; 1 Joh. 3:18. 1 Johannes 3:18: Mijn kinderen, laat ons niet liefhebben met het woord, noch met de tong, maar met de daad en waarheid."
         },
         {
           "marker": "r",
@@ -12562,7 +12599,7 @@
           "type": "explanatory",
           "textSV1888": "41 het koninkrijk Gods: Dat is, de staat van een Christenmens, of kind Gods, in hetwelk God Zijn rijk opricht; Rom. 14:17. Romeinen 14:17: Want het Koninkrijk Gods is niet spijs en drank, maar rechtvaardigheid, en vrede, en blijdschap, door den Heiligen Geest.",
           "text1637": "D. de staet van een Christen-mensche, ofte kindt Godts, in het welcke Godt sijn rijck oprecht. Rom. 14.17.",
-          "text2026": "41 het koninkrijk van God: Dat is, de staat van een Christenmens, of kind van God, in dat God Zijn rijk opricht; Rom. 14:17. Romeinen 14:17: Want het Koninkrijk van God is niet voedsel en drank, maar rechtvaardigheid, en vrede, en blijdschap, door de Heilige Geest."
+          "text2026": "41 het koninkrijk van God: Dat is, de staat van een Christenmens, of kind van God, waarin God Zijn rijk opricht; Rom. 14:17. Romeinen 14:17: Want het Koninkrijk van God is niet voedsel en drank, maar rechtvaardigheid, en vrede, en blijdschap, door de Heilige Geest."
         },
         {
           "marker": "s",

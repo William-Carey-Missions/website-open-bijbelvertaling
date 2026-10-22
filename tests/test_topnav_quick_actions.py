@@ -65,14 +65,14 @@ class TopnavQuickActionsTests(unittest.TestCase):
         mobile = self.browser.new_page(viewport={"width": 390, "height": 844})
         desktop = self.browser.new_page(viewport={"width": 1280, "height": 800})
         try:
-            mobile.goto(f"{self.base_url}/wiki.html", wait_until="domcontentloaded")
+            mobile.goto(f"{self.base_url}/over-ov.html", wait_until="domcontentloaded")
             self.assertEqual(
                 mobile.locator("#topnav-links > #auth-slot").count(), 1
             )
             mobile.locator("#topnav-hamburger").click()
             self.assertTrue(mobile.locator("#auth-slot").is_visible())
 
-            desktop.goto(f"{self.base_url}/wiki.html", wait_until="domcontentloaded")
+            desktop.goto(f"{self.base_url}/over-ov.html", wait_until="domcontentloaded")
             self.assertEqual(
                 desktop.locator("#topnav > #auth-slot").count(), 1
             )

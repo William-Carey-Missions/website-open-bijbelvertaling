@@ -1,57 +1,10 @@
-# robots.txt — Open Vertaling (openvertaling.nl)
-# Een vrij beschikbare herziening van de Statenvertaling in hedendaags Nederlands.
-# Zoekmachines én AI-crawlers zijn welkom: deze inhoud mag vrij gevonden,
-# geïndexeerd, geciteerd en hergebruikt worden. De Bijbeltekst is vrij van
-# rechten (CC0), in alle 88 boeken; zie /llms.txt.
-
-# --- Algemene zoekmachines ---
 User-agent: *
 Allow: /
-# Interne werk-/reviewpagina's niet indexeren
-Disallow: /wijzigingen-review.html
-Disallow: /verouderde-woorden.html
-Disallow: /tekstkwaliteit.html
-Disallow: /mockup-leesversie.html
-Disallow: /technisch.html
-
-# --- AI-crawlers expliciet toegestaan (LLM-training & retrieval) ---
-User-agent: GPTBot
-Allow: /
-User-agent: OAI-SearchBot
-Allow: /
-User-agent: ChatGPT-User
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: Claude-Web
-Allow: /
-User-agent: anthropic-ai
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Perplexity-User
-Allow: /
-User-agent: Google-Extended
-Allow: /
-User-agent: Applebot-Extended
-Allow: /
-User-agent: Bytespider
-Allow: /
-User-agent: CCBot
-Allow: /
-User-agent: Amazonbot
-Allow: /
-User-agent: Meta-ExternalAgent
-Allow: /
-User-agent: cohere-ai
-Allow: /
-User-agent: Diffbot
-Allow: /
-User-agent: YouBot
-Allow: /
-User-agent: DuckAssistBot
-Allow: /
-User-agent: MistralAI-User
-Allow: /
+Disallow: /api/
+Disallow: /correcties.html
+Disallow: /gebruikers.html
+Disallow: /beoordelingen.html
+Disallow: /beoordelingsgeschiedenis.html
+Disallow: /herverificatie.html
 
 Sitemap: https://openvertaling.nl/sitemap.xml

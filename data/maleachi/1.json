@@ -225,10 +225,13 @@
           }
         },
         {
-          "tekst": "door",
+          "tekst": "dienst",
           "voorkomen": 1,
           "strongs": [
             "H3027"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "בְּ/יַ֖ד"
@@ -239,13 +242,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:1",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -305,7 +312,7 @@
           "type": "explanatory",
           "textSV1888": "Was niet Ezau Jakobs broeder: Dit is het antwoord des Heeren op de voorgaande vraag van het volk. Alsof Hij zeide: Is dat niet een klaar bewijs mijner liefde jegens ulieden, dat Ik uwen vader Jakob verkoren en zijnen broeder Ezau verworpen heb? Waarop gevolgd is, dat Ik u, en niet Edom, tot mijn volk heb aangenomen, en allerlei weldaden bewezen, en nu tegenwoordig uit Babel verlost.",
           "text1637": "Dit is de antwoorde des Heeren op de voor-gaende vrage des volcks. Als of hy seyde, Is dat niet een klaer bewijs mijner liefde tegen ulieden, dat ick uwen Vader Iacob verkoren, ende sijnen broeder Esau verworpen hebbe? waer op gevolcht is, dat ick u, ende niet Edom, tot mijn volck hebbe aengenomen, ende allerley weldaden bewesen, ende nu tegenwoordelick uyt Babel verlost.",
-          "text2026": "Was niet Ezau Jakobs broer: Dit is het antwoord van de Heern op de voorgaande vraag van het volk. Alsof Hij zei: Is dat niet een klaar bewijs mijner liefde tegenover u, dat Ik uw vader Jakob gekozen en zijn broer Ezau verworpen heb? Waarop gevolgd is, dat Ik u, en niet Edom, tot mijn volk heb aangenomen, en allerlei weldaden bewezen, en nu tegenwoordig uit Babel verlost."
+          "text2026": "Was niet Ezau Jakobs broer: Dit is het antwoord van de Heer op de voorgaande vraag van het volk. Alsof Hij zei: Is dat niet een klaar bewijs mijner liefde tegenover u, dat Ik uw vader Jakob gekozen en zijn broer Ezau verworpen heb? Waarop gevolgd is, dat Ik u, en niet Edom, tot mijn volk heb aangenomen, en allerlei weldaden bewezen, en nu tegenwoordig uit Babel verlost."
         },
         {
           "marker": "a",
@@ -431,37 +438,72 @@
       ],
       "woordnummers": [
         {
-          "tekst": "heb u liefgehad",
+          "tekst": "liefgehad",
           "voorkomen": 1,
           "strongs": [
-            "H157",
-            "H853"
+            "H157"
+          ],
+          "morfologie": [
+            "HVqp1cs"
           ],
           "bronwoorden": [
-            "אָהַ֤בְתִּי",
-            "אֶתְ/כֶם֙"
+            "אָהַ֤בְתִּי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:2",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
-              0,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp2mp"
+          ],
+          "bronwoorden": [
+            "אֶתְ/כֶם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
+            "referentie": "MAL 1:2",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
               1
             ]
-          },
-          "toelichting": "Werkwoord en pronominaal lijdend voorwerp vormen samen de Nederlandse woordgroep."
+          }
         },
         {
           "tekst": "zegt",
@@ -572,10 +614,13 @@
           }
         },
         {
-          "tekst": "hebt U ons liefgehad",
-          "voorkomen": 1,
+          "tekst": "liefgehad",
+          "voorkomen": 2,
           "strongs": [
             "H157"
+          ],
+          "morfologie": [
+            "HVqp2ms/Sp1cp"
           ],
           "bronwoorden": [
             "אֲהַבְתָּ֑/נוּ"
@@ -586,13 +631,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:2",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -707,10 +756,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -721,13 +773,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:2",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -2074,37 +2130,72 @@
           }
         },
         {
-          "tekst": "tot in eeuwigheid",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
-            "H5704",
-            "H5769"
+            "H5704"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
-            "עַד",
-            "עוֹלָֽם"
+            "עַד"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:4",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
-              22,
+              22
+            ]
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
+            "H5769"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "עוֹלָֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
+            "referentie": "MAL 1:4",
+            "grondindices": [
+              24
+            ],
+            "bronindices": [
               23
             ]
-          },
-          "toelichting": "Twee grond- en gidsrecords vormen samen de Nederlandse tijdsbepaling."
+          }
         }
       ]
     },
@@ -2126,7 +2217,7 @@
           "type": "explanatory",
           "textSV1888": "De HEERE zij groot gemaakt: Te weten, vanwege het verdelgen zijner vijanden.",
           "text1637": "T.w. van wegen het verdelgen sijner vyanden.",
-          "text2026": "JAHWEH zij groot gemaakt: Te weten, vanwege het verdelgen zijn vijanden."
+          "text2026": "JAHWEH zij groot gemaakt: Te weten, vanwege het verdelgen van zijn vijanden."
         },
         {
           "marker": "19",
@@ -2488,7 +2579,7 @@
           "type": "explanatory",
           "textSV1888": "o priesters: Hij bestraft de priesters, die toen leefde, bij name, omdat zij, die van ambtswege schuldig waren de zonden van het volk wel ernstiglijk te bestraffen, hetzelve met een kwaad voorbeeld voorgingen.",
           "text1637": "Hy bestraft de Priesters die doe leefden, by name, om dat sy, die van ampts wege schuldich waren de sonden des volcks wel eernstelick te bestraffen, het selve met een quaet exempel voor-gingen.",
-          "text2026": "o priesters: Hij bestraft de priesters, die toen leefde, bij name, omdat zij, die van ambtswege schuldig waren de zonden van het volk wel ernstiglijk te bestraffen, hetzelfde met een kwaad voorbeeld voorgingen."
+          "text2026": "o priesters: Hij bestraft de priesters, die toen leefden, bij name, omdat zij, die van ambtswege schuldig waren de zonden van het volk wel ernstiglijk te bestraffen, het met een kwaad voorbeeld voorgingen."
         },
         {
           "marker": "25",
@@ -2502,7 +2593,7 @@
           "type": "explanatory",
           "textSV1888": "Waarmede verachten wij Uw Naam: Deze snode priesters begingen niet alleen grove zonden, maar zij waren in dezelve zo verhard, dat zij ze nog niet willen bekennen.",
           "text1637": "Dese snoode priesters en begingen niet alleen grove sonden, maer sy waren in de selve soo verhart, dat syse noch niet en wouden bekennen.",
-          "text2026": "Waarmee verachten wij Uw Naam: Deze snode priesters begingen niet alleen grove zonden, maar zij waren in dezelfde zo verhard, dat zij ze nog niet willen bekennen."
+          "text2026": "Waarmee verachten wij Uw Naam: Deze snode priesters begingen niet alleen grove zonden, maar zij waren daarin zo verhard, dat zij ze nog niet willen bekennen."
         }
       ],
       "grondtekst": [
@@ -3089,13 +3180,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
           ],
           "bronwoorden": [
-            "אָמַ֣ר"
+            "וַ/אֲמַרְתֶּ֕ם"
           ],
           "transliteraties": [
             ""
@@ -3111,7 +3202,7 @@
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:6",
             "bronindices": [
-              15
+              21
             ]
           }
         },
@@ -3252,9 +3343,12 @@
         },
         {
           "tekst": "zegt",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HC/Vqq2mp"
           ],
           "bronwoorden": [
             "וַ/אֲמַרְתֶּ֕ם"
@@ -3265,13 +3359,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:6",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               21
             ]
@@ -3402,7 +3500,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, zodanige offeranden, die door de wet verboden zijn, Lev. 22:20 , enz., Deut. 15:21 ; waarvan Deut. 15:8 enige voorbeelden bij gebracht worden. Leviticus 22:20 : Gij zult niet offeren iets, waarin een gebrek is; want het zou niet aangenaam zijn voor u. Deuteronomium 15:21 : Doch als enig gebrek daaraan zal zijn, hetzij mank of blind, of enig kwaad gebrek, zo zult gij het den HEERE, uw God, niet offeren; Deuteronomium 15:8 : Maar gij zult hem uw hand mildelijk opendoen, en zult hem rijkelijk lenen, genoeg voor zijn gebrek, dat hem ontbreekt.",
           "text1637": "D. sodanige offerhanden, die door de wet verboden zijn, Levit. 22.20, etc. Deut. 15.21. waer van vers 8, eenige exempelen by-gebracht worden.",
-          "text2026": "Dat is, zodanige offeranden, die door de wet verboden zijn, Lev. 22:20 , enz., Deut. 15:21 ; waarvan Deut. 15:8 enige voorbeelden bij gebracht worden. Leviticus 22:20 : U zult niet offeren iets, waarin een gebrek is; want het zou niet aangenaam zijn voor u. Deuteronomium 15:21 : Maar als enig gebrek daaraan zal zijn, hetzij mank of blind, of enig kwaad gebrek, zo zult u JAHWEH, uw God, niet offeren; Deuteronomium 15:8 : Maar u zult hem uw hand mildelijk opendoen, en zult hem rijk lenen, genoeg voor zijn gebrek, dat hem ontbreekt."
+          "text2026": "Dat is, zodanige offeranden, die door de wet verboden zijn, Lev. 22:20 , enz., Deut. 15:21 ; waarvan Deut. 15:8 enige voorbeelden bij gebracht worden. Leviticus 22:20 : U zult niet offeren iets, waarin een gebrek is; want het zou niet aangenaam zijn voor u. Deuteronomium 15:21 : Maar als enig gebrek daaraan zal zijn, hetzij mank of blind, of enig kwaad gebrek, zo zult u het JAHWEH, uw God, niet offeren; Deuteronomium 15:8 : Maar u zult hem uw hand mildelijk opendoen, en zult hem rijk lenen, genoeg voor zijn gebrek, dat hem ontbreekt."
         },
         {
           "marker": "28",
@@ -3430,7 +3528,7 @@
           "type": "explanatory",
           "textSV1888": "Des HEEREN tafel: Dat is, des Heeren altaar. Zie de aantekening bij Ezech. 41:22 , en Ezech. 44:16 . Verg. 1 Kor. 10:21 . Ezechiël 41:22 : De hoogte des houten altaars was drie ellen, en zijn lengte twee ellen, en het had zijn hoeken; en zijn lengte en zijn wanden waren van hout. En hij sprak tot mij: Dit is de tafel, die voor des HEEREN aangezicht zal zijn. Ezechiël 44:16 : Die zullen in Mijn heiligdom ingaan, en die zullen tot Mijn tafel naderen om Mij te dienen, en zij zullen Mijn wacht waarnemen. 1 Korinthiërs 10:21 : Gij kunt den drinkbeker des Heeren niet drinken, en den drinkbeker der duivelen; gij kunt niet deelachtig zijn aan de tafel des Heeren, en aan de tafel der duivelen.",
           "text1637": "D. des Heeren altaer. Siet d'aent. Ezech. 41. op vers 22. ende c. 44.16. Vergel. 1.Cor. 10.21.",
-          "text2026": "Van JAHWEH tafel: Dat is, van de Heern altaar. Zie de aantekening bij Ez. 41:22 , en Ez. 44:16 . Verg. 1 Kor. 10:21 . Ezechiël 41:22 : De hoogte van de houten altaars was drie ellen, en zijn lengte twee ellen, en het had zijn hoeken; en zijn lengte en zijn wanden waren van hout. En hij sprak tot mij: Dit is de tafel, die voor de aangezicht van JAHWEH zal zijn. Ezechiël 44:16 : Die zullen in Mijn heiligdom ingaan, en die zullen tot Mijn tafel naderen om Mij te dienen, en zij zullen Mijn wacht waarnemen. 1 Korinthiërs 10:21 : U kunt de drinkbeker van de Heern niet drinken, en de drinkbeker van de duivelen; u kunt niet deelachtig zijn aan de tafel van de Heern, en aan de tafel van de duivelen."
+          "text2026": "De tafel van JAHWEH: Dat is, het altaar van de Heer. Zie de aantekening bij Ez. 41:22 , en Ez. 44:16 . Verg. 1 Kor. 10:21 . Ezechiël 41:22 : De hoogte van de houten altaars was drie ellen, en zijn lengte twee ellen, en het had zijn hoeken; en zijn lengte en zijn wanden waren van hout. En hij sprak tot mij: Dit is de tafel, die voor het aangezicht van JAHWEH zal zijn. Ezechiël 44:16 : Die zullen in Mijn heiligdom ingaan, en die zullen tot Mijn tafel naderen om Mij te dienen, en zij zullen Mijn wacht waarnemen. 1 Korinthiërs 10:21 : U kunt de drinkbeker van de Heer niet drinken, en de drinkbeker van de duivelen; u kunt niet deelachtig zijn aan de tafel van de Heer, en aan de tafel van de duivelen."
         },
         {
           "marker": "32",
@@ -4609,10 +4707,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "אָמַ֖ר"
@@ -4623,13 +4724,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:8",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               19
             ]
@@ -5094,9 +5199,12 @@
         },
         {
           "tekst": "uw",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H4480"
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
           ],
           "bronwoorden": [
             "מִ/כֶּם֙"
@@ -5107,17 +5215,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:9",
-            "bronindices": []
-          },
-          "gids_strongs": [],
-          "toelichting": "MorphHB voert H4480 voor מִכֶּם; de gids heeft voor dit grondtoken geen afzonderlijk Strongrecord."
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
+            ]
+          }
         },
         {
           "tekst": "aangezicht",
@@ -5147,10 +5259,13 @@
           }
         },
         {
-          "tekst": "zeg",
+          "tekst": "zegt",
           "voorkomen": 1,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "אָמַ֖ר"
@@ -5161,13 +5276,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:9",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               11
             ]
@@ -5254,7 +5373,7 @@
           "type": "explanatory",
           "textSV1888": "om niet toesluit: Alsof God zeide: Heb Ik ulieden uwen arbeid niet wel vergolden, als Ik u tieden gegeven heb, en nog andere voordelen en winsten, als de eerste vruchten en delen der offeranden, tot ulieder onderhoud? En evenwel zijt gij zo slof en onachtzaam in het waarnemen van uw dienst.",
           "text1637": "Als of Godt seyde, En hebbe ick ulieden uwen arbeydt niet wel vergolden, als ick u de tienden gegeven hebbe, ende noch andre voordeelen ende profyten, als de eerste vruchten, ende deelen der offerhanden, tot ulieder onderhout? Ende even wel zijt ghy soo slof ende onachtsaem in 't waer-nemen uwes dienstes.",
-          "text2026": "om niet toesluit: Alsof God zei: Heb Ik u uw arbeid niet wel vergolden, als Ik u tieden gegeven heb, en nog andere voordelen en winsten, als de eerste vruchten en delen van de offeranden, tot ulieder onderhoud? En evenwel bent u zo slof en onachtzaam in het waarnemen van uw dienst."
+          "text2026": "om niet toesluit: Alsof God zei: Heb Ik u uw arbeid niet wel vergolden, als Ik u de tienden gegeven heb, en nog andere voordelen en winsten, als de eerste vruchten en delen van de offeranden, tot ulieder onderhoud? En evenwel bent u zo slof en onachtzaam in het waarnemen van uw dienst."
         },
         {
           "marker": "46",
@@ -5275,7 +5394,7 @@
           "type": "explanatory",
           "textSV1888": "van uw hand niet aangenaam: Te weten, dewijl gij goddeloze, snode boeven zijt. Zie Jes. 1:11 ; Jer. 6:20 . Jesaja 1:11 : Waartoe zal Mij zijn de veelheid uwer slachtoffers? zegt de HEERE; Ik ben zat van de brandoffers der rammen, en het smeer der vette beesten, en heb geen lust aan het bloed der varren, noch der lammeren, noch der bokken. Jeremia 6:20 : Waartoe zal dan de wierook voor Mij uit Scheba komen, en de beste kalmus uit verren lande? Uw brandofferen zijn Mij niet behagelijk, en uw slachtofferen zijn Mij niet zoet.",
           "text1637": "T.w. dewijle ghy godloose, snoode boeven zijt. Siet Iesa. 1.11. Ierem 6.20.",
-          "text2026": "van uw hand niet aangenaam: Te weten, omdat u goddeloze, snode boeven zijt. Zie Jes. 1:11 ; Jer. 6:20 . Jesaja 1:11 : Waartoe zal Mij zijn de veelheid uw slachtoffers? zegt JAHWEH; Ik ben zat van het brandoffer van de rammen, en het smeer van de vette beesten, en heb geen lust aan het bloed van de varren, noch van de lammeren, noch van de bokken. Jeremia 6:20 : Waartoe zal dan de wierook voor Mij uit Scheba komen, en de beste kalmus uit ver land? Uw brandofferen zijn Mij niet behagelijk, en uw slachtofferen zijn Mij niet zoet."
+          "text2026": "van uw hand niet aangenaam: Te weten, omdat u goddeloze, snode boeven bent. Zie Jes. 1:11 ; Jer. 6:20 . Jesaja 1:11 : Waartoe zal Mij zijn de veelheid uw slachtoffers? zegt JAHWEH; Ik ben zat van het brandoffer van de rammen, en het smeer van de vette beesten, en heb geen lust aan het bloed van de varren, noch van de lammeren, noch van de bokken. Jeremia 6:20 : Waartoe zal dan de wierook voor Mij uit Scheba komen, en de beste kalmus uit ver land? Uw brandofferen zijn Mij niet behagelijk, en uw slachtofferen zijn Mij niet zoet."
         }
       ],
       "grondtekst": [
@@ -5758,10 +5877,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֖ה"
@@ -5772,13 +5894,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:10",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               15
             ]
@@ -5892,7 +6018,7 @@
           "type": "explanatory",
           "textSV1888": "reukwerk toegebracht: Dat is, men zal Mij den rechten godsdienst bewijzen; versta, den innerlijke offeranden, die door de ceremoniën van het Oude Testament, welke hier genoemd staan, afgebeeld werden. Verg. Zach. 14:16 , 14:20 . Zacharia 14:16 : En het zal geschieden, dat al de overgeblevenen van alle heidenen, die tegen Jeruzalem zullen gekomen zijn, die zullen van jaar tot jaar optrekken om aan te bidden den Koning, den HEERE der heirscharen, en om te vieren het feest der loofhutten. Zacharia 14:20 : Te dien dage zal op de bellen der paarden staan: De HEILIGHEID DES HEEREN. En de potten in het huis des HEEREN zullen zijn als de sprengbekkens voor het altaar;",
           "text1637": "D. men sal my den rechten Godts-dienst bewijsen: verstaet den innerlicken ende waren Godts-dienst, ende geestelicke offerhanden, die door de ceremonien des Ouden Testaments, welcke hier genoemt staen, afgebeeldet wierden. Vergel. Zachar. 14.16, 20.",
-          "text2026": "reukwerk toegebracht: Dat is, men zal Mij de rechte godsdienst bewijzen; versta, de innerlijke offeranden, die door de ceremoniën van het Oude Testament, welke hier genoemd staan, afgebeeld werden. Verg. Zach. 14:16 , 14:20 . Zacharia 14:16 : En het zal gebeuren, dat al de overgeblevenen van alle heidenen, die tegen Jeruzalem zullen gekomen zijn, die zullen van jaar tot jaar optrekken om aan te bidden de Koning, JAHWEH van de legermachten, en om te vieren het feest van de loofhutten. Zacharia 14:20 : Te die dage zal op de bellen van de paarden staan: De HEILIGHEID DES JAHWEH. En de potten in het huis van JAHWEH zullen zijn als de sprengbekkens voor het altaar;"
+          "text2026": "reukwerk toegebracht: Dat is, men zal Mij de rechte godsdienst bewijzen; versta, de innerlijke offeranden, die door de ceremoniën van het Oude Testament, welke hier genoemd staan, afgebeeld werden. Verg. Zach. 14:16 , 14:20 . Zacharia 14:16 : En het zal gebeuren, dat al de overgeblevenen van alle heidenen, die tegen Jeruzalem zullen gekomen zijn, die zullen van jaar tot jaar optrekken om aan te bidden de Koning, JAHWEH van de legermachten, en om te vieren het feest van de loofhutten. Zacharia 14:20 : Te die dage zal op de bellen van de paarden staan: De HEILIGHEID VAN JAHWEH. En de potten in het huis van JAHWEH zullen zijn als de sprengbekkens voor het altaar;"
         }
       ],
       "grondtekst": [
@@ -6390,10 +6516,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֣ה"
@@ -6404,13 +6533,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:11",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               12
             ]
@@ -6659,7 +6792,7 @@
           "type": "explanatory",
           "textSV1888": "Des HEEREN tafel is ontreinigd: Te weten, omdat zij van de Chaldeën is verstoord geworden; daarom gaven deze zijne priesters voor dat men aan het nieuwe altaar, dat in de plaats van het oude was opgericht, zo nauw niet verbonden was, noch schuldig was zo nauw te letten op de offeranden, of zij volmaakt of onvolmaakt, rein of onrein waren. Zie vers 7 . Maleachi 1:7 : Gij brengt op Mijn altaar verontreinigd brood, en zegt: Waarmede verontreinigen wij U? Daarmede, dat gij zegt: Des HEEREN tafel is verachtelijk.",
           "text1637": "T.w. om dat sy van de Chaldeen is verstoort geworden: daerom gaven dese fijne priesters voor, datmen aenden nieuwen altaer, die in de plaetse des ouden was opgericht, soo naeuwe niet verbonden en was, nochte schuldich en was soo naeuwe te letten op de offerhanden, of sy volmaeckt of onvolmaeckt, reyn of onreyn waren. siet bov. vers 7.",
-          "text2026": "Van JAHWEH tafel is ontreinigd: Te weten, omdat zij van de Chaldeën is verstoord geworden; daarom gaven deze zijn priesters voor dat men aan het nieuwe altaar, dat in de plaats van het oude was opgericht, zo nauw niet verbonden was, noch schuldig was zo nauw te letten op de offeranden, of zij volmaakt of onvolmaakt, rein of onrein waren. Zie vers 7 . Maleachi 1:7 : U brengt op Mijn altaar verontreinigd brood, en zegt: Waarmee verontreinigen wij U? Daarmee, dat u zegt: Van JAHWEH tafel is verachtelijk."
+          "text2026": "De tafel van JAHWEH is ontreinigd: Te weten, omdat zij van de Chaldeën is verstoord geworden; daarom gaven deze fijne priesters voor dat men aan het nieuwe altaar, dat in de plaats van het oude was opgericht, zo nauw niet verbonden was, noch schuldig was zo nauw te letten op de offeranden, of zij volmaakt of onvolmaakt, rein of onrein waren. Zie vers 7 . Maleachi 1:7 : U brengt op Mijn altaar verontreinigd brood, en zegt: Waarmee verontreinigen wij U? Daarmee, dat u zegt: De tafel van JAHWEH is verachtelijk."
         },
         {
           "marker": "54",
@@ -6673,7 +6806,7 @@
           "type": "explanatory",
           "textSV1888": "haar inkomen: Dat is, wat hun inkomen, dat is, offeranden die men daarop legt, aangaat dat is een verachtzame spijs.",
           "text1637": "D. wat haer inkomen, D. offerhanden diemen daer op lecht, aengaet, dat is eene verachtsame spijse.",
-          "text2026": "haar inkomen: Dat is, wat hun inkomen, dat is, offeranden die men daarop legt, betreft dat is een verachtzame voedsel."
+          "text2026": "haar inkomen: Dat is, wat hun inkomen, dat is, offeranden die men daarop legt, betreft dat is een verachtzaam voedsel."
         }
       ],
       "grondtekst": [
@@ -7100,7 +7233,7 @@
           "type": "explanatory",
           "textSV1888": "kreupel en krank is: Tegen het bevel des Heeren; Lev. 22:22 . Leviticus 22:22 : Het blinde, of gebrokene, of verlamde, of wratte, of droge schurftheid, of etterige schurftheid hebbende, deze zult gij den HEERE niet offeren, en daarvan zult gij den HEERE geen vuuroffer op het altaar geven.",
           "text1637": "Tegen het bevel des Heeren, Levit. 22.22.",
-          "text2026": "kreupel en ziek is: Tegen het bevel van de Heern; Lev. 22:22 . Leviticus 22:22 : Het blinde, of gebrokene, of verlamde, of wratte, of droge schurftheid, of etterige schurftheid hebbende, deze zult u JAHWEH niet offeren, en daarvan zult u JAHWEH geen vuuroffer op het altaar geven."
+          "text2026": "kreupel en ziek is: Tegen het bevel van de Heer; Lev. 22:22 . Leviticus 22:22 : Het blinde, of gebrokene, of verlamde, of wratte, of droge schurftheid, of etterige schurftheid hebbende, deze zult u JAHWEH niet offeren, en daarvan zult u JAHWEH geen vuuroffer op het altaar geven."
         },
         {
           "marker": "60",
@@ -7340,10 +7473,13 @@
           }
         },
         {
-          "tekst": "wat",
+          "tekst": "vermoeidheid",
           "voorkomen": 1,
           "strongs": [
             "H4972"
+          ],
+          "morfologie": [
+            "HTi/Ncfsa"
           ],
           "bronwoorden": [
             "מַ/תְּלָאָ֜ה"
@@ -7354,20 +7490,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
-          },
-          "gids_strongs": [
-            "H4100"
-          ]
+          }
         },
         {
           "tekst": "wegblazen",
@@ -7704,8 +7841,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -7716,27 +7858,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               16
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdendvoorwerpspartikel heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָ֑ה"
@@ -7747,13 +7892,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               9
             ]
@@ -7841,10 +7990,13 @@
           }
         },
         {
-          "tekst": "zeg",
-          "voorkomen": 1,
+          "tekst": "zegt",
+          "voorkomen": 3,
           "strongs": [
             "H559"
+          ],
+          "morfologie": [
+            "HVqp3ms"
           ],
           "bronwoorden": [
             "אָמַ֥ר"
@@ -7855,13 +8007,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "CF1C269D7EDB93C1E1FFC5975C86ED2E8AC230CBDDDE14B670FC4EDDA30D19C6",
             "referentie": "MAL 1:13",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               20
             ]
@@ -7907,7 +8063,7 @@
           "type": "explanatory",
           "textSV1888": "die een mannetje in zijn kudde heeft: Die de macht en middel hebbende om God ene offerande te doen, achtervolgens het bevel zijner wet, zulks nalaat uit gierigheid. Ten brandoffer moest men een mannetje brengen; Lev. 1:3 . Leviticus 1:3 : Indien zijn offerande een brandoffer van runderen is, zo zal hij een volkomen mannetje offeren; aan de deur van de tent der samenkomst zal hij dat offeren, naar zijn welgevallen, voor het aangezicht des HEEREN.",
           "text1637": "Die de macht en middel hebbende om Godt een offerhande te doen achtervolgens het bevel sijner Wet, sulcx na laet uyt giericheyt. Een brant-offer mostmen een manneken brengen. Lev. 1.3.",
-          "text2026": "die een mannetje in zijn kudde heeft: Die de macht en middel hebbende om God een offerande te doen, achtervolgens het bevel zijn wet, zulks nalaat uit gierigheid. Ten brandoffer moest men een mannetje brengen; Lev. 1:3 . Leviticus 1:3 : Als zijn offerande een brandoffer van runderen is, zo zal hij een volkomen mannetje offeren; aan de deur van de tent van de samenkomst zal hij dat offeren, naar zijn welgevallen, voor het aangezicht van JAHWEH."
+          "text2026": "die een mannetje in zijn kudde heeft: Die de macht en middel hebbende om God een offerande te doen, achtervolgens het bevel van zijn wet, zulks nalaat uit gierigheid. Ten brandoffer moest men een mannetje brengen; Lev. 1:3 . Leviticus 1:3 : Als zijn offerande een brandoffer van runderen is, zo zal hij een volkomen mannetje offeren; aan de deur van de tent van de samenkomst zal hij dat offeren, naar zijn welgevallen, voor het aangezicht van JAHWEH."
         },
         {
           "marker": "63",

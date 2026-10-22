@@ -661,38 +661,103 @@
           }
         },
         {
-          "tekst": "hofmeester",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "H834",
-            "H5921",
-            "H1004"
+            "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
-            "אֲשֶׁר",
-            "עַל",
-            "הַ/בַּ֜יִת"
+            "אֲשֶׁר"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:2",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              4,
-              5,
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H5921"
+          ],
+          "morfologie": [
+            "HR"
+          ],
+          "bronwoorden": [
+            "עַל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
+            "referentie": "ISA 37:2",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "hofmeester",
+          "voorkomen": 1,
+          "strongs": [
+            "H1004"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
+          ],
+          "bronwoorden": [
+            "הַ/בַּ֜יִת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
+            "referentie": "ISA 37:2",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
               3
             ]
           }
@@ -1251,10 +1316,13 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "אֵלָ֗י/ו"
@@ -1265,13 +1333,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:3",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -3044,10 +3116,13 @@
           }
         },
         {
-          "tekst": "hen",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
           ],
           "bronwoorden": [
             "אֲלֵי/הֶם֙"
@@ -3058,13 +3133,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:6",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -3624,7 +3703,7 @@
           "type": "explanatory",
           "textSV1888": "door het zwaard: Te weten door het zwaard zijner zonen. Zie onder vers 38 . Jesaja 37:38 : Het geschiedde nu, als hij in het huis van Nisroch, zijn god, zich nederboog, dat Adramelech en Sarezer, zijn zonen, hem met het zwaard versloegen; doch zij ontkwamen in het land van Ararat; en Esar-haddon, zijn zoon, werd koning in zijn plaats.",
           "text1637": "t.w. door 'tsweert sijner sonen. Siet ond. vers 38.",
-          "text2026": "door het zwaard: Te weten door het zwaard zijn zonen. Zie onder vers 38 . Jesaja 37:38 : Het geschiedde nu, als hij in het huis van Nisroch, zijn god, zich nederboog, dat Adramelech en Sarezer, zijn zonen, hem met het zwaard versloegen; maar zij ontkwamen in het land van Ararat; en Esar-haddon, zijn zoon, werd koning in zijn plaats."
+          "text2026": "door het zwaard: Te weten door het zwaard van zijn zonen. Zie onder vers 38 . Jesaja 37:38 : Het geschiedde nu, als hij in het huis van Nisroch, zijn god, zich nederboog, dat Adramelech en Sarezer, zijn zonen, hem met het zwaard versloegen; maar zij ontkwamen in het land van Ararat; en Esar-haddon, zijn zoon, werd koning in zijn plaats."
         }
       ],
       "grondtekst": [
@@ -4017,7 +4096,7 @@
           "type": "explanatory",
           "textSV1888": "Waar Rabsake den koning gelaten had, en vanwaar deze hem naar Jeruzalem gezonden had. Zie boven Jes. 36:2 . En zie van Lachis breder 2 Kon. 14:19 . Jesaja 36:2 : En de koning van Assyrië zond Rabsake van Lachis naar Jeruzalem tot den koning Hizkia, met een zwaar heir; en hij stond aan den watergang des oppersten vijvers, aan den hogen weg van het veld des vollers. 2 Koningen 14:19 : En zij maakten een verbintenis tegen hem te Jeruzalem, dat hij vluchtte naar Lachis; maar zij zonden hem na tot Lachis, en doodden hem aldaar.",
           "text1637": "Daer Rabsake den Coninck gelaten hadde, ende van daer hy hem nae Ierusalem gesonden hadde. siet bov. cap. 36. vers 2. Ende siet van Lachis breeder 2.Reg. 14.19.",
-          "text2026": "Waar Rabsake de koning gelaten had, en vanwaar deze hem naar Jeruzalem gezonden had. Zie boven Jes. 36:2 . En zie van Lachis breder 2 Kon. 14:19 . Jesaja 36:2 : En de koning van Assyrië zond Rabsake van Lachis naar Jeruzalem tot de koning Hizkia, met een zwaar legermacht; en hij stond aan de watergang van de oppersten vijvers, aan de hogen weg van het veld van de voller. 2 Koningen 14:19 : En zij maakten een verbintenis tegen hem te Jeruzalem, dat hij vluchtte naar Lachis; maar zij zonden hem na tot Lachis, en doodden hem daar."
+          "text2026": "Waar Rabsake de koning gelaten had, en vanwaar deze hem naar Jeruzalem gezonden had. Zie boven Jes. 36:2 . En zie van Lachis breder 2 Kon. 14:19 . Jesaja 36:2 : En de koning van Assyrië zond Rabsake van Lachis naar Jeruzalem tot de koning Hizkia, met een zware legermacht; en hij stond aan de watergang van de opperste vijver, aan de hoge weg van het veld van de voller. 2 Koningen 14:19 : En zij maakten een verbintenis tegen hem te Jeruzalem, dat hij vluchtte naar Lachis; maar zij zonden hem na tot Lachis, en doodden hem daar."
         }
       ],
       "grondtekst": [
@@ -4527,7 +4606,7 @@
           "type": "explanatory",
           "textSV1888": "En hun ook brieven medegevende, van denzelfden inhoud; zie vers 14 . Jesaja 37:14 : Als nu Hizkia de brieven uit der boden hand ontvangen, en die gelezen had, ging hij op in het huis des HEEREN; en Hizkia breidde die uit voor het aangezicht des HEEREN.",
           "text1637": "Ende haer oock brieven mede gevende van den selven inhout. siet vers 14.",
-          "text2026": "En hun ook brieven medegevende, van denzelfden inhoud; zie vers 14 . Jesaja 37:14 : Als nu Hizkia de brieven uit van de boden hand ontvangen, en die gelezen had, ging hij op in het huis van JAHWEH; en Hizkia breidde die uit voor het aangezicht van JAHWEH."
+          "text2026": "En hun ook brieven medegevende, van denzelfden inhoud; zie vers 14 . Jesaja 37:14 : Als nu Hizkia de brieven uit de hand van de boden ontvangen, en die gelezen had, ging hij op in het huis van JAHWEH; en Hizkia breidde die uit voor het aangezicht van JAHWEH."
         }
       ],
       "grondtekst": [
@@ -7731,7 +7810,7 @@
           "type": "explanatory",
           "textSV1888": "Zie Exod. 25:22 ; Num. 7:89 ; 2 Sam. 6:2 ; 2 Kon. 19:15 ; Ps. 80:2 , en de aantekening aldaar. Exodus 25:22 : En aldaar zal Ik bij u komen, en Ik zal met u spreken van boven het verzoendeksel af, van tussen de twee cherubim, die op de ark der getuigenis zijn zullen, alles, wat Ik u gebieden zal aan de kinderen Israëls. Numeri 7:89 : En als Mozes in de tent der samenkomst ging, om met Hem te spreken, zo hoorde hij een stem tot hem sprekende, van boven het verzoendeksel, hetwelk is op de ark der getuigenis, van tussen de twee cherubim. Alzo sprak Hij tot hem. 2 Samuël 6:2 : En David maakte zich op, en ging heen met al het volk, dat bij hem was, van Baälim-juda, om van daar op te brengen de ark Gods, bij dewelke de Naam wordt aangeroepen, de Naam van den HEERE der heirscharen, Die daarop woont tussen de cherubim. 2 Koningen 19:15 : En Hizkia bad voor het aangezicht des HEEREN, en zeide: O HEERE, God Israëls, Die tussen de cherubim woont! Gij zelf, Gij alleen zijt de God van alle koninkrijken der aarde, Gij hebt den hemel en de aarde gemaakt. Psalmen 80:2 : O Herder Israëls! neem ter ore, Die Jozef als schapen leiddet; Die tussen de cherubim zit, verschijn blinkende.",
           "text1637": "Siet Exod. 25.22. Num. 7.89. 2.Sam. 6.2. 2.Reg. 19.15. Psal. 80.2. ende de aent. aldaer.",
-          "text2026": "Zie Ex. 25:22 ; Num. 7:89 ; 2 Sam. 6:2 ; 2 Kon. 19:15 ; Ps. 80:2 , en de aantekening daar. Exodus 25:22 : En daar zal Ik bij u komen, en Ik zal met u spreken van boven het verzoendeksel af, van tussen de twee cherubim, die op de ark van het getuigenis zijn zullen, alles, wat Ik u gebieden zal aan de kinderen van Israël. Numeri 7:89 : En als Mozes in de tent van de samenkomst ging, om met Hem te spreken, zo hoorde hij een stem tot hem sprekende, van boven het verzoendeksel, dat is op de arkvan het getuigeniss, van tussen de twee cherubim. Zo sprak Hij tot hem. 2 Samuël 6:2 : En David maakte zich op, en ging heen met al het volk, dat bij hem was, van Baälim-juda, om van daar op te brengen de ark van God, bij die de Naam wordt aangeroepen, de Naam van JAHWEH van de legermachten, Die daarop woont tussen de cherubim. 2 Koningen 19:15 : En Hizkia bad voor het aangezicht van JAHWEH, en zei: O JAHWEH, God van Israël, Die tussen de cherubim woont! U zelf, U alleen bent de God van alle koninkrijken van de aarde, U hebt de hemel en de aarde gemaakt. Psalmen 80:2 : O Herder van Israël! neem ter ore, Die Jozef als schapen leidde; Die tussen de cherubim zit, verschijn blinkend."
+          "text2026": "Zie Ex. 25:22 ; Num. 7:89 ; 2 Sam. 6:2 ; 2 Kon. 19:15 ; Ps. 80:2 , en de aantekening daar. Exodus 25:22 : En daar zal Ik bij u komen, en Ik zal met u spreken van boven het verzoendeksel af, van tussen de twee cherubim, die op de ark van het getuigenis zijn zullen, alles, wat Ik u gebieden zal aan de kinderen van Israël. Numeri 7:89 : En als Mozes in de tent van de samenkomst ging, om met Hem te spreken, zo hoorde hij een stem tot hem sprekende, van boven het verzoendeksel, dat is op de ark van het getuigenis, van tussen de twee cherubim. Zo sprak Hij tot hem. 2 Samuël 6:2 : En David maakte zich op, en ging heen met al het volk, dat bij hem was, van Baälim-juda, om van daar op te brengen de ark van God, bij die de Naam wordt aangeroepen, de Naam van JAHWEH van de legermachten, Die daarop woont tussen de cherubim. 2 Koningen 19:15 : En Hizkia bad voor het aangezicht van JAHWEH, en zei: O JAHWEH, God van Israël, Die tussen de cherubim woont! U zelf, U alleen bent de God van alle koninkrijken van de aarde, U hebt de hemel en de aarde gemaakt. Psalmen 80:2 : O Herder van Israël! neem ter ore, Die Jozef als schapen leidde; Die tussen de cherubim zit, verschijn blinkend."
         }
       ],
       "grondtekst": [
@@ -10836,10 +10915,13 @@
           }
         },
         {
-          "tekst": "Mij",
-          "voorkomen": 1,
+          "tekst": "tot",
+          "voorkomen": 2,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֔/י"
@@ -10850,13 +10932,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:21",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -11232,10 +11318,13 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "over",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "עָלָ֑י/ו"
@@ -11246,13 +11335,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:22",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -12038,7 +12131,7 @@
           "type": "explanatory",
           "textSV1888": "uwer dienstknechten: 2 Kon. 19:23 staat: Uwer boden. 2 Koningen 19:23 : Door middel uwer boden hebt gij den HEERE gehoond, en gezegd: Ik heb met de menigte mijner wagenen beklommen de hoogten der bergen, de zijden van den Libanon; en ik zal zijn hoge cederbomen, en zijn uitgelezen dennebomen afhouwen; en zal komen in zijn uiterste herberg, in het woud zijns schonen velds.",
           "text1637": "2.Reg. 19.23. staet, uwer boden.",
-          "text2026": "uw dienaren: 2 Kon. 19:23 staat: Van Uw boden. 2 Koningen 19:23 : Door middel uw boden hebt u JAHWEH gehoond, en gezegd: Ik heb met de menigte mijn wagens beklommen de hoogten van de bergen, de zijden van de Libanon; en ik zal zijn hoge cederbomen, en zijn uitgelezen dennebomen afhouwen; en zal komen in zijn uiterste herberg, in het woud zijn schonen velds."
+          "text2026": "uw dienaren: 2 Kon. 19:23 staat: van uw boden. 2 Koningen 19:23 : Door middel van uw boden hebt u JAHWEH gehoond, en gezegd: Ik heb met de menigte van mijn wagens beklommen de hoogten van de bergen, de zijden van de Libanon; en ik zal zijn hoge cederbomen, en zijn uitgelezen dennebomen afhouwen; en zal komen in zijn uiterste herberg, in het woud van zijn schone veld."
         }
       ],
       "grondtekst": [
@@ -14458,10 +14551,13 @@
           }
         },
         {
-          "tekst": "Mij",
+          "tekst": "tegen",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלָֽ/י"
@@ -14472,13 +14568,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:28",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -14497,7 +14597,7 @@
           "type": "explanatory",
           "textSV1888": "Mijn haak in uw neus leggen: Een verbloemde rede, genomen van de vissers; te kennen gevende dat God de allerkwaadste en ongebondenste vijanden zijner kerk in den toom houden, besturen en bedwingen kan, dat zij hun boos voornemen niet kunnen uitvoeren.",
           "text1637": "Een verbloemde reden, genomen van de visschers, te kennen gevende, dat Godt de alderquaetste ende ongebondenste vyanden sijner kercke in den toom houden, stieren, ende bedwingen kan, dat sy haer boos voornemen niet en kunnen uytvoeren.",
-          "text2026": "Mijn haak in uw neus leggen: Een verbloemde rede, genomen van de vissers; te kennen gevende dat God de allerkwaadste en ongebondenste vijanden zijn kerk in de toom houden, besturen en bedwingen kan, dat zij hun boos voornemen niet kunnen uitvoeren."
+          "text2026": "Mijn haak in uw neus leggen: Een verbloemde rede, genomen van de vissers; te kennen gevende dat God de allerkwaadste en ongebondenste vijanden van zijn kerk in de toom houden, besturen en bedwingen kan, dat zij hun boos voornemen niet kunnen uitvoeren."
         }
       ],
       "grondtekst": [
@@ -14663,10 +14763,13 @@
           }
         },
         {
-          "tekst": "Mij",
+          "tekst": "tegen",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֔/י"
@@ -14677,13 +14780,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 37:29",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               3
             ]
@@ -15040,7 +15147,7 @@
           "type": "explanatory",
           "textSV1888": "wat daarvan: Dat is, de vruchten, die in dit jaar weder vanzelf wassen zullen. Hieruit nemen sommigen af dat dit een sabbat-of rustjaar geweest is, in hetwelk de Israëlieten het land niet bouwde. Zie Lev. 25:5 , 25:20 . Leviticus 25:5 : Wat van zelf van uw oogst zal gewassen zijn, zult gij niet inoogsten, en de druiven uwer afzondering zult gij niet afsnijden; het zal een jaar der ruste voor het land zijn. Leviticus 25:20 : En als gij zoudt zeggen: Wat zullen wij eten in het zevende jaar! Ziet, wij zullen niet zaaien, en onze inkomst niet inzamelen;",
           "text1637": "D. de vruchten, die in dit jaer weder van selfs wassen sullen. hier uyt nemen sommige af dat dit een Sabbath ofte een rust-jaer geweest is, in het welcke de Israëliten het lant niet en bouwden. Siet Levit. 25.5, 20.",
-          "text2026": "wat daarvan: Dat is, de vruchten, die in dit jaar weer vanzelf groeien zullen. Hieruit nemen sommigen af dat dit een sabbat-of rustjaar geweest is, in dat de Israëlieten het land niet bouwde. Zie Lev. 25:5 , 25:20 . Leviticus 25:5 : Wat van zelf van uw oogst zal gewassen zijn, zult u niet inoogsten, en de druiven uw afzondering zult u niet afsnijden; het zal een jaar van de ruste voor het land zijn. Leviticus 25:20 : En als u zoudt zeggen: Wat zullen wij eten in het zevende jaar! Ziet, wij zullen niet zaaien, en onze inkomst niet inzamelen;"
+          "text2026": "wat daarvan: Dat is, de vruchten, die in dit jaar weer vanzelf groeien zullen. Hieruit nemen sommigen af dat dit een sabbat-of rustjaar geweest is, waarin de Israëlieten het land niet bouwde. Zie Lev. 25:5 , 25:20 . Leviticus 25:5 : Wat van zelf van uw oogst zal gewassen zijn, zult u niet inoogsten, en de druiven van uw afzondering zult u niet afsnijden; het zal een jaar van de ruste voor het land zijn. Leviticus 25:20 : En als u zoudt zeggen: Wat zullen wij eten in het zevende jaar! Ziet, wij zullen niet zaaien, en onze inkomst niet inzamelen;"
         }
       ],
       "grondtekst": [
@@ -17531,7 +17638,7 @@
           "type": "explanatory",
           "textSV1888": "om Davids: Dat is, vanwege de belofte, die Ik David gedaan heb. Zie 1 Kon. 11:12 , 11:13 . 1 Koningen 11:12 : In uw dagen nochtans zal Ik dat niet doen, om uws vaders Davids wil, van de hand uws zoons zal Ik het scheuren. 1 Koningen 11:13 : Doch Ik zal het gehele koninkrijk niet afscheuren; een stam zal Ik uw zoon geven, om Mijns knechts Davids wil, en om Jeruzalems wil, dat Ik verkoren heb.",
           "text1637": "D. van wegen de belofte, die ick David gedaen hebbe. Siet 1.Reg. 11. op vers 12, 13.",
-          "text2026": "om Davids: Dat is, vanwege de belofte, die Ik David gedaan heb. Zie 1 Kon. 11:12 , 11:13 . 1 Koningen 11:12 : In uw dagen nochtans zal Ik dat niet doen, om uws vaders Davids wil, van de hand uws zoons zal Ik het scheuren. 1 Koningen 11:13 : Maar Ik zal het gehele koninkrijk niet afscheuren; een stam zal Ik uw zoon geven, om Mijn knechts Davids wil, en vanwege Jeruzalem, dat Ik gekozen heb."
+          "text2026": "om Davids: Dat is, vanwege de belofte, die Ik David gedaan heb. Zie 1 Kon. 11:12 , 11:13 . 1 Koningen 11:12 : In uw dagen nochtans zal Ik dat niet doen, om uws vaders Davids wil, van de hand uws zoons zal Ik het scheuren. 1 Koningen 11:13 : Maar Ik zal het gehele koninkrijk niet afscheuren; een stam zal Ik uw zoon geven, om Mijns knechts Davids wil, en vanwege Jeruzalem, dat Ik gekozen heb."
         }
       ],
       "grondtekst": [
@@ -17866,7 +17973,7 @@
           "type": "explanatory",
           "textSV1888": "in het leger: Zie 2 Kon. 19:35 , met de aantekening. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel des HEEREN uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich des morgens vroeg opmaakten, ziet, die allen waren dode lichamen.",
           "text1637": "Siet 2.Reg. 19.35. met d'aent.",
-          "text2026": "in het leger: Zie 2 Kon. 19:35 , met de aantekening. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich van de morgen vroeg opmaakten, ziet, die allen waren dode lichamen."
+          "text2026": "in het leger: Zie 2 Kon. 19:35 , met de aantekening. 2 Koningen 19:35 : Het geschiedde dan in dienzelven nacht, dat de Engel van JAHWEH uitvoer, en sloeg in het leger van Assyrië honderd vijf en tachtig duizend. En toen zij zich 's morgens vroeg opmaakten, ziet, die allen waren dode lichamen."
         },
         {
           "marker": "49",
@@ -18712,14 +18819,14 @@
           "type": "explanatory",
           "textSV1888": "hem met het zwaard versloegen: Te weten eer er vijf en vijftig dagen vervlogen waren, nadat zijn leger van den engel geslagen was, gelijk enigen afnemen uit Tob. 1:24 . Tobias (Tobit) 1:24 : En daar gingen geen vijfenvijftig dagen voorbij, dat twee van zijn zonen hem doodden, en zij vloden op de gebergten Ararat, en Achirdonus, zijn zoon, werd koning in zijn plaats. En hij zette Achiachar, de zoon van Anaël, mijn broeder, over al de rekeningen zijns vaders, en over al het bewind.",
           "text1637": "T.w. Eerder 55 dagen vervloten waren na dat sijn leger van den Engel geslagen was, als eenige afnemen uyt Tob. 1.24.",
-          "text2026": "hem met het zwaard versloegen: Te weten eer er vijf en vijftig dagen vervlogen waren, nadat zijn leger van de engel geslagen was, gelijk enige afnemen uit Tob. 1:24 . Tobias (Tobit) 1:24 : En daar gingen geen vijfenvijftig dagen voorbij, dat twee van zijn zonen hem doodden, en zij vloden op de gebergten Ararat, en Achirdonus, zijn zoon, werd koning in zijn plaats. En hij zette Achiachar, de zoon van Anaël, mijn broer, over al de rekeningen zijn vaders, en over al het bewind."
+          "text2026": "hem met het zwaard versloegen: Te weten eer er vijf en vijftig dagen vervlogen waren, nadat zijn leger van de engel geslagen was, gelijk enige afnemen uit Tob. 1:24 . Tobias (Tobit) 1:24 : En daar gingen geen vijfenvijftig dagen voorbij, dat twee van zijn zonen hem doodden, en zij vloden op de gebergten Ararat, en Achirdonus, zijn zoon, werd koning in zijn plaats. En hij zette Achiachar, de zoon van Anaël, mijn broer, over al de rekeningen van zijn vader, en over al het bewind."
         },
         {
           "marker": "52",
           "type": "explanatory",
           "textSV1888": "in het land van Ararat: Dat is, in groot Armenië. Zie Gen. 8:4 . Genesis 8:4 : En de ark rustte in de zevende maand, op den zeventienden dag der maand, op de bergen van Ararat.",
           "text1637": "D. in groot Armenien. siet Gen. 8.4.",
-          "text2026": "in het land van Ararat: Dat is, in groot Armenië. Zie Gen. 8:4 . Genesis 8:4 : En de ark rustte in de zevende maand, op de zeventienden dag van de maand, op de bergen van Ararat."
+          "text2026": "in het land van Ararat: Dat is, in groot Armenië. Zie Gen. 8:4 . Genesis 8:4 : En de ark rustte in de zevende maand, op de zeventiende dag van de maand, op de bergen van Ararat."
         },
         {
           "marker": "53",

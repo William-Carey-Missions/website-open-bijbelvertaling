@@ -12,7 +12,7 @@
           "type": "explanatory",
           "textSV1888": "1 deze bediening: Namelijk niet der letter, noch des doods, maar des geestes en levens, waarvan in het voorgaande hoofdstuk, 2 Kor. 3:6, enz. gesproken is. 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaars des Nieuwen Testaments, niet der letter, maar des Geestes; want de letter doodt, maar de Geest maakt levend.",
           "text1637": "N. niet der Letter, noch des doots, maer des geests ende levens, waer van in het voorgaende cap. vers 6, etc. gesproken is.",
-          "text2026": "1 deze bediening: Namelijk niet van de letter, noch van de dood, maar van de geest en leven, waarvan in het voorgaande hoofdstuk, 2 Kor. 3:6, enz. gesproken is. 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaren van de Nieuwen Testaments, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend."
+          "text2026": "1 deze bediening: Namelijk niet van de letter, noch van de dood, maar van de geest en van het leven, waarvan in het voorgaande hoofdstuk, 2 Kor. 3:6, enz. gesproken is. 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaren van het Nieuwe Testament, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend."
         },
         {
           "marker": "2",
@@ -167,43 +167,83 @@
           }
         },
         {
-          "tekst": "deze bediening",
+          "tekst": "bediening",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G1248",
-            "G3778"
+            "G1248"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1248"
+          ],
+          "morfologie": [
+            "T-ASF",
+            "N-ASF"
           ],
           "bronwoorden": [
             "την",
-            "διακονιαν",
-            "ταυτην"
+            "διακονιαν"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:1",
-            "bronindices": [
-              6,
-              7,
-              5
-            ],
             "grondindices": [
               3,
-              4,
+              4
+            ],
+            "bronindices": [
+              6,
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-ASF"
+          ],
+          "bronwoorden": [
+            "ταυτην"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:1",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
               5
             ]
           }
@@ -699,11 +739,19 @@
           }
         },
         {
-          "tekst": "van de schande",
+          "tekst": "de schande",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G152"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G152"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -717,18 +765,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:2",
-            "bronindices": [
+            "grondindices": [
               4,
               5
             ],
-            "grondindices": [
+            "bronindices": [
               4,
               5
             ]
@@ -1053,11 +1102,19 @@
           }
         },
         {
-          "tekst": "van de waarheid",
+          "tekst": "de waarheid",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G225"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G225"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -1071,18 +1128,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:2",
-            "bronindices": [
+            "grondindices": [
               19,
               20
             ],
-            "grondindices": [
+            "bronindices": [
               19,
               20
             ]
@@ -1209,46 +1267,90 @@
           }
         },
         {
-          "tekst": "gewetens van de mensen",
+          "tekst": "gewetens",
           "voorkomen": 1,
           "strongs": [
-            "G4893",
-            "G444"
+            "G4893"
+          ],
+          "lemma_strongs": [
+            "G4893"
+          ],
+          "morfologie": [
+            "N-ASF"
           ],
           "bronwoorden": [
-            "συνειδησιν",
-            "ανθρωπων"
+            "συνειδησιν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:2",
-            "bronindices": [
-              26,
+            "grondindices": [
               25
             ],
-            "grondindices": [
-              25,
+            "bronindices": [
               26
             ]
           }
         },
         {
-          "tekst": "in de aanwezigheid",
+          "tekst": "mensen",
+          "voorkomen": 1,
+          "strongs": [
+            "G444"
+          ],
+          "lemma_strongs": [
+            "G444"
+          ],
+          "morfologie": [
+            "N-GPM"
+          ],
+          "bronwoorden": [
+            "ανθρωπων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:2",
+            "grondindices": [
+              26
+            ],
+            "bronindices": [
+              25
+            ]
+          }
+        },
+        {
+          "tekst": "aanwezigheid",
           "voorkomen": 1,
           "strongs": [
             "G1799"
+          ],
+          "lemma_strongs": [
+            "G1799"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "ενωπιον"
@@ -1259,17 +1361,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:2",
-            "bronindices": [
+            "grondindices": [
               27
             ],
-            "grondindices": [
+            "bronindices": [
               27
             ]
           }
@@ -1575,86 +1678,195 @@
           }
         },
         {
-          "tekst": "ons Evangelie",
+          "tekst": "Evangelie",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2098",
-            "G1473"
+            "G2098"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2098"
+          ],
+          "morfologie": [
+            "T-NSN",
+            "N-NSN"
           ],
           "bronwoorden": [
             "το",
-            "ευαγγελιον",
-            "ημων"
+            "ευαγγελιον"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:3",
-            "bronindices": [
-              4,
-              5,
-              3
-            ],
             "grondindices": [
               5,
-              6,
-              7
+              6
+            ],
+            "bronindices": [
+              4,
+              5
             ]
           }
         },
         {
-          "tekst": "in degenen",
+          "tekst": "ons",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
-            "G3588",
-            "G622"
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
           ],
           "bronwoorden": [
-            "εν",
-            "τοις",
-            "απολλυμενοις"
+            "ημων"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:3",
-            "bronindices": [
-              10,
-              11,
-              12
-            ],
             "grondindices": [
-              8,
-              9,
+              7
+            ],
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:3",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
               10
+            ]
+          }
+        },
+        {
+          "tekst": "degenen",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DPM"
+          ],
+          "bronwoorden": [
+            "τοις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:3",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              11
+            ]
+          }
+        },
+        {
+          "tekst": "verloren gaan",
+          "voorkomen": 1,
+          "strongs": [
+            "G622"
+          ],
+          "lemma_strongs": [
+            "G622"
+          ],
+          "morfologie": [
+            "V-PEP-DPM"
+          ],
+          "bronwoorden": [
+            "απολλυμενοις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:3",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              12
             ]
           }
         },
@@ -1731,7 +1943,7 @@
           "type": "explanatory",
           "textSV1888": "10 het beeld Gods is: Namelijk niet alleen ten aanzien van Zijn goddelijke natuur, zijnde het eeuwige Woord en de wijsheid des Vaders, maar ook ten aanzien dat hij is God geopenbaard in het vlees, door wien Gods heerlijkheid, rechtvaardigheid, genade, wijsheid en macht ons in het Evangelie als in een spiegel worden uitgedrukt. Zie Kol. 1:15; Hebr. 1:3. Kolossensen 1:15: Dewelke het Beeld is des onzienlijken Gods, de Eerstgeborene aller kreaturen. Hebreeën 1:3: Dewelke, alzo Hij is het Afschijnsel Zijner heerlijkheid, en het uitgedrukte Beeld Zijner zelfstandigheid, en alle dingen draagt door het woord Zijner kracht, nadat Hij de reinigmaking onzer zonden door Zichzelven te weeg gebracht heeft, is gezeten aan de rechterhand der Majesteit in de hoogste hemelen;",
           "text1637": "N. niet alleen ten aensien van sijne Goddelicke natuere, zijnde het eeuwighe woordt ende wijsheyt des Vaders, maer oock ten aensien dat hy is Godt geopenbaert inden vleesche, door welcken Godts heerlickheyt, rechtveerdigheyt, genade, wijsheyt ende macht ons inden Euangelio als in eenen spiegel wordt uytghedruckt. Siet Col. 1.15. Hebr. 1.3.",
-          "text2026": "10 het beeld van God is: Namelijk niet alleen ten aanzien van Zijn goddelijke natuur, zijnde het eeuwige Woord en de wijsheid van de Vader, maar ook ten aanzien dat hij is God geopenbaard in het vlees, door wie Gods heerlijkheid, rechtvaardigheid, genade, wijsheid en macht ons in het Evangelie als in een spiegel worden uitgedrukt. Zie Kol. 1:15; Hebr. 1:3. Kolossenzen 1:15: Dewelke het Beeld is van de onzichtbare Gods, de Eerstgeborene alle kreaturen. Hebreeën 1:3: Dewelke, zo Hij is het Afschijnsel Zijn heerlijkheid, en het uitgedrukte Beeld Zijn zelfstandigheid, en alle dingen draagt door het woord Zijn kracht, nadat Hij de reinigmaking onze zonden door Zichzelven te weeg gebracht heeft, is gezeten aan de rechterhand van de Majesteit in de hoogste hemelen;"
+          "text2026": "10 het beeld van God is: Namelijk niet alleen ten aanzien van Zijn goddelijke natuur, zijnde het eeuwige Woord en de wijsheid van de Vader, maar ook ten aanzien dat hij is God geopenbaard in het vlees, door wie Gods heerlijkheid, rechtvaardigheid, genade, wijsheid en macht ons in het Evangelie als in een spiegel worden uitgedrukt. Zie Kol. 1:15; Hebr. 1:3. Kolossenzen 1:15: Dewelke het Beeld is van de onzichtbare God, de Eerstgeborene van alle kreaturen. Hebreeën 1:3: Dewelke, zo Hij is het Afschijnsel van Zijn heerlijkheid, en het uitgedrukte Beeld van Zijn zelfstandigheid, en alle dingen draagt door het woord van Zijn kracht, nadat Hij de reinigmaking van onze zonden door Zichzelven te weeg gebracht heeft, is gezeten aan de rechterhand van de Majesteit in de hoogste hemelen;"
         },
         {
           "marker": "8",
@@ -1976,38 +2188,76 @@
       ],
       "woordnummers": [
         {
-          "tekst": "In die",
+          "tekst": "In",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
-            "G3739"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "οις"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:4",
-            "bronindices": [
-              9,
-              10
-            ],
             "grondindices": [
-              0,
+              0
+            ],
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 1,
+          "strongs": [
+            "G3739"
+          ],
+          "lemma_strongs": [
+            "G3739"
+          ],
+          "morfologie": [
+            "R-DPM"
+          ],
+          "bronwoorden": [
+            "οις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:4",
+            "grondindices": [
               1
+            ],
+            "bronindices": [
+              10
             ]
           }
         },
@@ -2048,44 +2298,84 @@
           }
         },
         {
-          "tekst": "van deze eeuw",
+          "tekst": "eeuw",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G165",
-            "G3778"
+            "G165"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G165"
+          ],
+          "morfologie": [
+            "T-GSM",
+            "N-GSM"
           ],
           "bronwoorden": [
             "του",
-            "αιωνος",
-            "τουτου"
+            "αιωνος"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:4",
-            "bronindices": [
-              3,
-              4,
-              2
-            ],
             "grondindices": [
               4,
-              5,
+              5
+            ],
+            "bronindices": [
+              3,
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-GSM"
+          ],
+          "bronwoorden": [
+            "τουτου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:4",
+            "grondindices": [
               6
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -2196,40 +2486,80 @@
           "voorkomen": 1,
           "strongs": [
             "G1519",
-            "G3588",
-            "G3361"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G1519",
+            "G3588"
+          ],
+          "morfologie": [
+            "PREP",
+            "T-ASN"
           ],
           "bronwoorden": [
             "εις",
-            "το",
-            "μη"
+            "το"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:4",
-            "bronindices": [
-              12,
-              14,
-              13
-            ],
             "grondindices": [
               12,
-              13,
+              13
+            ],
+            "bronindices": [
+              12,
               14
+            ]
+          }
+        },
+        {
+          "tekst": "niet",
+          "voorkomen": 1,
+          "strongs": [
+            "G3361"
+          ],
+          "lemma_strongs": [
+            "G3361"
+          ],
+          "morfologie": [
+            "PRT-N"
+          ],
+          "bronwoorden": [
+            "μη"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:4",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              13
             ]
           }
         },
@@ -2329,11 +2659,19 @@
           }
         },
         {
-          "tekst": "van het Evangelie",
+          "tekst": "het Evangelie",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G2098"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2098"
+          ],
+          "morfologie": [
+            "T-GSN",
+            "N-GSN"
           ],
           "bronwoorden": [
             "του",
@@ -2347,29 +2685,38 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:4",
-            "bronindices": [
-              18,
-              19
-            ],
             "grondindices": [
               19,
               20
+            ],
+            "bronindices": [
+              18,
+              19
             ]
           }
         },
         {
-          "tekst": "van de heerlijkheid",
+          "tekst": "de heerlijkheid",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G1391"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1391"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -2383,20 +2730,21 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:4",
-            "bronindices": [
-              20,
-              21
-            ],
             "grondindices": [
               21,
               22
+            ],
+            "bronindices": [
+              20,
+              21
             ]
           }
         },
@@ -3042,38 +3390,76 @@
           }
         },
         {
-          "tekst": "om Jezus' wil",
+          "tekst": "om",
           "voorkomen": 1,
           "strongs": [
-            "G1223",
-            "G2424"
+            "G1223"
+          ],
+          "lemma_strongs": [
+            "G1223"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "δια",
-            "ιησουν"
+            "δια"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:5",
-            "bronindices": [
-              13,
+            "grondindices": [
               12
             ],
-            "grondindices": [
-              12,
+            "bronindices": [
               13
+            ]
+          }
+        },
+        {
+          "tekst": "Jezus",
+          "voorkomen": 2,
+          "strongs": [
+            "G2424"
+          ],
+          "lemma_strongs": [
+            "G2424"
+          ],
+          "morfologie": [
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "ιησουν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:5",
+            "grondindices": [
+              13
+            ],
+            "bronindices": [
+              12
             ]
           }
         }
@@ -3380,44 +3766,78 @@
           }
         },
         {
-          "tekst": "Die gezegd",
+          "tekst": "Die",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G3004"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
-            "ο",
-            "ειπων"
+            "ο"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "gezegd",
+          "voorkomen": 1,
+          "strongs": [
+            "G3004"
+          ],
+          "lemma_strongs": [
+            "G3004"
+          ],
+          "morfologie": [
+            "V-2AAP-NSM"
+          ],
+          "bronwoorden": [
+            "ειπων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:6",
+            "grondindices": [
               4
             ],
-            "grondindices": [
-              3,
+            "bronindices": [
               4
             ]
-          },
-          "gids_strongs": [
-            "G3588",
-            "G2036"
-          ]
+          }
         },
         {
           "tekst": "uit",
@@ -3540,10 +3960,16 @@
           }
         },
         {
-          "tekst": "Degene",
-          "voorkomen": 1,
+          "tekst": "Die",
+          "voorkomen": 2,
           "strongs": [
             "G3739"
+          ],
+          "lemma_strongs": [
+            "G3739"
+          ],
+          "morfologie": [
+            "R-NSM"
           ],
           "bronwoorden": [
             "ος"
@@ -3554,17 +3980,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
-            "bronindices": [
+            "grondindices": [
               9
             ],
-            "grondindices": [
+            "bronindices": [
               9
             ]
           }
@@ -3603,79 +4030,161 @@
           "tekst": "in",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
-            "G3588"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "ταις"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
-            "bronindices": [
-              11,
-              13
-            ],
             "grondindices": [
-              11,
-              12
+              11
+            ],
+            "bronindices": [
+              11
             ]
           }
         },
         {
-          "tekst": "onze harten",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G2588",
-            "G1473"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DPF"
           ],
           "bronwoorden": [
-            "καρδιαις",
-            "ημων"
+            "ταις"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
-            "bronindices": [
-              14,
+            "grondindices": [
               12
             ],
+            "bronindices": [
+              13
+            ]
+          }
+        },
+        {
+          "tekst": "harten",
+          "voorkomen": 1,
+          "strongs": [
+            "G2588"
+          ],
+          "lemma_strongs": [
+            "G2588"
+          ],
+          "morfologie": [
+            "N-DPF"
+          ],
+          "bronwoorden": [
+            "καρδιαις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:6",
             "grondindices": [
-              13,
+              13
+            ],
+            "bronindices": [
               14
             ]
           }
         },
         {
-          "tekst": "om te geven",
+          "tekst": "onze",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
+          ],
+          "bronwoorden": [
+            "ημων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:6",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
+          "tekst": "om",
           "voorkomen": 1,
           "strongs": [
             "G4314"
+          ],
+          "lemma_strongs": [
+            "G4314"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "προς"
@@ -3686,17 +4195,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
-            "bronindices": [
+            "grondindices": [
               15
             ],
-            "grondindices": [
+            "bronindices": [
               15
             ]
           }
@@ -3732,11 +4242,19 @@
           }
         },
         {
-          "tekst": "van de kennis",
+          "tekst": "de kennis",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G1108"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1108"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -3750,29 +4268,38 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
-            "bronindices": [
+            "grondindices": [
               17,
               18
             ],
-            "grondindices": [
+            "bronindices": [
               17,
               18
             ]
           }
         },
         {
-          "tekst": "van de heerlijkheid",
+          "tekst": "de heerlijkheid",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G1391"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1391"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -3786,18 +4313,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
-            "bronindices": [
+            "grondindices": [
               19,
               20
             ],
-            "grondindices": [
+            "bronindices": [
               19,
               20
             ]
@@ -3840,37 +4368,75 @@
           }
         },
         {
-          "tekst": "in het aangezicht",
-          "voorkomen": 1,
+          "tekst": "in",
+          "voorkomen": 2,
           "strongs": [
-            "G1722",
-            "G4383"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "προσωπω"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:6",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
-              23,
+              23
+            ]
+          }
+        },
+        {
+          "tekst": "het aangezicht",
+          "voorkomen": 1,
+          "strongs": [
+            "G4383"
+          ],
+          "lemma_strongs": [
+            "G4383"
+          ],
+          "morfologie": [
+            "N-DSN"
+          ],
+          "bronwoorden": [
+            "προσωπω"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:6",
+            "grondindices": [
               24
             ],
-            "grondindices": [
-              23,
+            "bronindices": [
               24
             ]
           }
@@ -3969,7 +4535,7 @@
           "type": "explanatory",
           "textSV1888": "18 zij van God, en niet uit ons: Dat is, Gode alleen toegeschreven mag worden, gelijk die alleen uit God is en niet uit ons. Zie 2 Kor. 3:5, 3:6. 2 Korinthiërs 3:5: Niet dat wij van onszelven bekwaam zijn iets te denken, als uit onszelven; maar onze bekwaamheid is uit God; 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaars des Nieuwen Testaments, niet der letter, maar des Geestes; want de letter doodt, maar de Geest maakt levend.",
           "text1637": "D. Gode alleen toe-geschreven mach worden, gelijck die alleen uyt Godt is, ende niet uyt ons. Siet 2.Corinth. 3. versen 5, 6.",
-          "text2026": "18 zij van God, en niet uit ons: Dat is, voor God alleen toegeschreven mag worden, gelijk die alleen uit God is en niet uit ons. Zie 2 Kor. 3:5, 3:6. 2 Korinthiërs 3:5: Niet dat wij van onszelven bekwaam zijn iets te denken, als uit onszelven; maar onze bekwaamheid is uit God; 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaren van de Nieuwen Testaments, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend."
+          "text2026": "18 zij van God, en niet uit ons: Dat is, aan God alleen toegeschreven mag worden, gelijk die alleen uit God is en niet uit ons. Zie 2 Kor. 3:5, 3:6. 2 Korinthiërs 3:5: Niet dat wij van onszelven bekwaam zijn iets te denken, als uit onszelven; maar onze bekwaamheid is uit God; 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaren van het Nieuwe Testament, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend."
         },
         {
           "marker": "h",
@@ -4190,44 +4756,84 @@
           }
         },
         {
-          "tekst": "deze schat",
+          "tekst": "schat",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2344",
-            "G3778"
+            "G2344"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2344"
+          ],
+          "morfologie": [
+            "T-ASM",
+            "N-ASM"
           ],
           "bronwoorden": [
             "τον",
-            "θησαυρον",
-            "τουτον"
+            "θησαυρον"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:7",
-            "bronindices": [
-              3,
-              4,
-              2
-            ],
             "grondindices": [
               2,
+              3
+            ],
+            "bronindices": [
               3,
               4
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-ASM"
+          ],
+          "bronwoorden": [
+            "τουτον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:7",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -4262,38 +4868,76 @@
           }
         },
         {
-          "tekst": "aarden kruiken",
+          "tekst": "aarden",
           "voorkomen": 1,
           "strongs": [
-            "G3749",
-            "G4632"
+            "G3749"
+          ],
+          "lemma_strongs": [
+            "G3749"
+          ],
+          "morfologie": [
+            "A-DPN"
           ],
           "bronwoorden": [
-            "οστρακινοις",
-            "σκευεσιν"
+            "οστρακινοις"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:7",
-            "bronindices": [
-              7,
+            "grondindices": [
               6
             ],
-            "grondindices": [
-              6,
+            "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "kruiken",
+          "voorkomen": 1,
+          "strongs": [
+            "G4632"
+          ],
+          "lemma_strongs": [
+            "G4632"
+          ],
+          "morfologie": [
+            "N-DPN"
+          ],
+          "bronwoorden": [
+            "σκευεσιν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:7",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              6
             ]
           }
         },
@@ -4364,11 +5008,19 @@
           }
         },
         {
-          "tekst": "van de kracht",
+          "tekst": "de kracht",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G1411"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1411"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -4382,18 +5034,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:7",
-            "bronindices": [
+            "grondindices": [
               11,
               12
             ],
-            "grondindices": [
+            "bronindices": [
               11,
               12
             ]
@@ -4526,37 +5179,75 @@
           }
         },
         {
-          "tekst": "uit ons",
+          "tekst": "uit",
           "voorkomen": 1,
           "strongs": [
-            "G1537",
-            "G1473"
+            "G1537"
+          ],
+          "lemma_strongs": [
+            "G1537"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εξ",
-            "ημων"
+            "εξ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:7",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
-              18,
+              18
+            ]
+          }
+        },
+        {
+          "tekst": "ons",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
+          ],
+          "bronwoorden": [
+            "ημων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:7",
+            "grondindices": [
               19
             ],
-            "grondindices": [
-              18,
+            "bronindices": [
               19
             ]
           }
@@ -4656,38 +5347,76 @@
       ],
       "woordnummers": [
         {
-          "tekst": "in alles",
+          "tekst": "in",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
-            "G3956"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "παντι"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:8",
-            "bronindices": [
-              1,
-              2
-            ],
             "grondindices": [
-              0,
+              0
+            ],
+            "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "alles",
+          "voorkomen": 1,
+          "strongs": [
+            "G3956"
+          ],
+          "lemma_strongs": [
+            "G3956"
+          ],
+          "morfologie": [
+            "A-DSN"
+          ],
+          "bronwoorden": [
+            "παντι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:8",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -5095,10 +5824,16 @@
           }
         },
         {
-          "tekst": "daarin verlaten",
+          "tekst": "verlaten",
           "voorkomen": 1,
           "strongs": [
             "G1459"
+          ],
+          "lemma_strongs": [
+            "G1459"
+          ],
+          "morfologie": [
+            "V-PPP-NPM"
           ],
           "bronwoorden": [
             "εγκαταλειπομενοι"
@@ -5109,17 +5844,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:9",
-            "bronindices": [
+            "grondindices": [
               3
             ],
-            "grondindices": [
+            "bronindices": [
               3
             ]
           }
@@ -5264,7 +6000,7 @@
           "type": "explanatory",
           "textSV1888": "21 het leven van Jezus: Dat is, de levendmakende kracht van Christus en Zijns Geestes, die zich in onze bediening alhier openbaart en hiernamaals tot onze verlossing ten volle zal openbaren, gelijk ook vers 12 verklaart. Zie Rom. 8:10, 8:11. 2 Korinthiërs 4:12: Zo dan, de dood werkt wel in ons, maar het leven in ulieden. Romeinen 8:10: En indien Christus in ulieden is, zo is wel het lichaam dood om der zonden wil; maar de geest is leven om der gerechtigheid wil. Romeinen 8:11: En indien de Geest Desgenen, Die Jezus uit de doden opgewekt heeft, in u woont, zo zal Hij, Die Christus uit de doden opgewekt heeft, ook uw sterfelijke lichamen levend maken, door Zijn Geest, Die in u woont.",
           "text1637": "D. de levendighmakende kracht Christi ende sijnes Geests, die haer in onse bedieninge alhier openbaert, ende hier namaels tot onser verlossinge ten vollen sal openbaren: gelijck oock het volgende vers verklaert. Siet Rom. 8. versen 10, 11",
-          "text2026": "21 het leven van Jezus: Dat is, de levendmakende kracht van Christus en Zijn Geest, die zich in onze bediening alhier openbaart en hiernamaals tot onze verlossing ten volle zal openbaren, gelijk ook vers 12 verklaart. Zie Rom. 8:10, 8:11. 2 Korinthiërs 4:12: Zo dan, de dood werkt wel in ons, maar het leven in u. Romeinen 8:10: En als Christus in u is, zo is wel het lichaam dood vanwege de zonden; maar de geest is leven vanwege de gerechtigheid. Romeinen 8:11: En als de Geest Van Degene, Die Jezus uit de doden opgewekt heeft, in u woont, zo zal Hij, Die Christus uit de doden opgewekt heeft, ook uw sterfelijke lichamen levend maken, door Zijn Geest, Die in u woont."
+          "text2026": "21 het leven van Jezus: Dat is, de levendmakende kracht van Christus en Zijn Geest, die zich in onze bediening alhier openbaart en hiernamaals tot onze verlossing ten volle zal openbaren, gelijk ook vers 12 verklaart. Zie Rom. 8:10, 8:11. 2 Korinthiërs 4:12: Zo dan, de dood werkt wel in ons, maar het leven in u. Romeinen 8:10: En als Christus in u is, zo is wel het lichaam dood vanwege de zonden; maar de geest is leven vanwege de gerechtigheid. Romeinen 8:11: En als de Geest van Degene, Die Jezus uit de doden opgewekt heeft, in u woont, zo zal Hij, Die Christus uit de doden opgewekt heeft, ook uw sterfelijke lichamen levend maken, door Zijn Geest, Die in u woont."
         },
         {
           "marker": "k",
@@ -5480,89 +6216,166 @@
           }
         },
         {
-          "tekst": "van de Heere Jezus",
+          "tekst": "de Heere",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2962",
-            "G2424"
+            "G2962"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2962"
+          ],
+          "morfologie": [
+            "T-GSM",
+            "N-GSM"
           ],
           "bronwoorden": [
             "του",
-            "κυριου",
-            "ιησου"
+            "κυριου"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:10",
-            "bronindices": [
-              5,
-              8
-            ],
             "grondindices": [
               3,
-              4,
-              5
+              4
+            ],
+            "bronindices": [
+              3,
+              4
             ]
-          },
-          "gids_strongs": [
-            "G3588",
-            "G2424"
-          ]
+          }
         },
         {
-          "tekst": "in het lichaam",
+          "tekst": "Jezus",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
+            "G2424"
+          ],
+          "lemma_strongs": [
+            "G2424"
+          ],
+          "morfologie": [
+            "N-GSM"
+          ],
+          "bronwoorden": [
+            "ιησου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:10",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:10",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "het lichaam",
+          "voorkomen": 1,
+          "strongs": [
             "G3588",
             "G4983"
           ],
+          "lemma_strongs": [
+            "G3588",
+            "G4983"
+          ],
+          "morfologie": [
+            "T-DSN",
+            "N-DSN"
+          ],
           "bronwoorden": [
-            "εν",
             "τω",
             "σωματι"
           ],
           "transliteraties": [
             "",
-            "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:10",
-            "bronindices": [
-              2,
-              7,
-              4
-            ],
             "grondindices": [
-              6,
               7,
               8
+            ],
+            "bronindices": [
+              7,
+              4
             ]
           }
         },
@@ -5732,71 +6545,147 @@
           "tekst": "in",
           "voorkomen": 2,
           "strongs": [
-            "G1722",
-            "G3588"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "τω"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:10",
-            "bronindices": [
-              16,
-              18
-            ],
             "grondindices": [
-              16,
-              17
+              16
+            ],
+            "bronindices": [
+              16
             ]
           }
         },
         {
-          "tekst": "ons lichaam",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G4983",
-            "G1473"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSN"
           ],
           "bronwoorden": [
-            "σωματι",
-            "ημων"
+            "τω"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:10",
-            "bronindices": [
-              19,
+            "grondindices": [
               17
             ],
+            "bronindices": [
+              18
+            ]
+          }
+        },
+        {
+          "tekst": "lichaam",
+          "voorkomen": 2,
+          "strongs": [
+            "G4983"
+          ],
+          "lemma_strongs": [
+            "G4983"
+          ],
+          "morfologie": [
+            "N-DSN"
+          ],
+          "bronwoorden": [
+            "σωματι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:10",
             "grondindices": [
-              18,
+              18
+            ],
+            "bronindices": [
               19
+            ]
+          }
+        },
+        {
+          "tekst": "ons",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
+          ],
+          "bronwoorden": [
+            "ημων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:10",
+            "grondindices": [
+              19
+            ],
+            "bronindices": [
+              17
             ]
           }
         },
@@ -6089,74 +6978,150 @@
           }
         },
         {
-          "tekst": "die leven",
+          "tekst": "die",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G2198"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NPM"
           ],
           "bronwoorden": [
-            "οι",
-            "ζωντες"
+            "οι"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:11",
-            "bronindices": [
-              2,
+            "grondindices": [
               3
             ],
-            "grondindices": [
-              3,
-              4
+            "bronindices": [
+              2
             ]
           }
         },
         {
-          "tekst": "in de dood",
+          "tekst": "leven",
           "voorkomen": 1,
           "strongs": [
-            "G1519",
-            "G2288"
+            "G2198"
+          ],
+          "lemma_strongs": [
+            "G2198"
+          ],
+          "morfologie": [
+            "V-PAP-NPM"
           ],
           "bronwoorden": [
-            "εις",
-            "θανατον"
+            "ζωντες"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:11",
-            "bronindices": [
-              6,
-              7
-            ],
             "grondindices": [
-              5,
+              4
+            ],
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "G1519"
+          ],
+          "lemma_strongs": [
+            "G1519"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:11",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
               6
+            ]
+          }
+        },
+        {
+          "tekst": "de dood",
+          "voorkomen": 1,
+          "strongs": [
+            "G2288"
+          ],
+          "lemma_strongs": [
+            "G2288"
+          ],
+          "morfologie": [
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "θανατον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:11",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              7
             ]
           }
         },
@@ -6191,38 +7156,76 @@
           }
         },
         {
-          "tekst": "om Jezus' wil",
+          "tekst": "om",
           "voorkomen": 1,
           "strongs": [
-            "G1223",
-            "G2424"
+            "G1223"
+          ],
+          "lemma_strongs": [
+            "G1223"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "δια",
-            "ιησουν"
+            "δια"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:11",
-            "bronindices": [
-              9,
+            "grondindices": [
               8
             ],
-            "grondindices": [
-              8,
+            "bronindices": [
               9
+            ]
+          }
+        },
+        {
+          "tekst": "Jezus",
+          "voorkomen": 1,
+          "strongs": [
+            "G2424"
+          ],
+          "lemma_strongs": [
+            "G2424"
+          ],
+          "morfologie": [
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "ιησουν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:11",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              8
             ]
           }
         },
@@ -6392,77 +7395,184 @@
           "tekst": "in",
           "voorkomen": 2,
           "strongs": [
-            "G1722",
-            "G3588"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "τη"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:11",
-            "bronindices": [
-              17,
-              20
-            ],
             "grondindices": [
-              17,
-              18
+              17
+            ],
+            "bronindices": [
+              17
             ]
           }
         },
         {
-          "tekst": "ons sterfelijk vlees",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G2349",
-            "G4561",
-            "G1473"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSF"
           ],
           "bronwoorden": [
-            "θνητη",
-            "σαρκι",
-            "ημων"
+            "τη"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:11",
-            "bronindices": [
-              19,
-              21,
+            "grondindices": [
               18
             ],
+            "bronindices": [
+              20
+            ]
+          }
+        },
+        {
+          "tekst": "sterfelijk",
+          "voorkomen": 1,
+          "strongs": [
+            "G2349"
+          ],
+          "lemma_strongs": [
+            "G2349"
+          ],
+          "morfologie": [
+            "A-DSF"
+          ],
+          "bronwoorden": [
+            "θνητη"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:11",
             "grondindices": [
-              19,
-              20,
+              19
+            ],
+            "bronindices": [
+              19
+            ]
+          }
+        },
+        {
+          "tekst": "vlees",
+          "voorkomen": 1,
+          "strongs": [
+            "G4561"
+          ],
+          "lemma_strongs": [
+            "G4561"
+          ],
+          "morfologie": [
+            "N-DSF"
+          ],
+          "bronwoorden": [
+            "σαρκι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:11",
+            "grondindices": [
+              20
+            ],
+            "bronindices": [
               21
+            ]
+          }
+        },
+        {
+          "tekst": "ons",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
+          ],
+          "bronwoorden": [
+            "ημων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:11",
+            "grondindices": [
+              21
+            ],
+            "bronindices": [
+              18
             ]
           }
         }
@@ -6609,78 +7719,153 @@
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G3303",
             "G2288"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2288"
+          ],
+          "morfologie": [
+            "T-NSM",
+            "N-NSM"
           ],
           "bronwoorden": [
             "ο",
-            "μεν",
             "θανατος"
           ],
           "transliteraties": [
             "",
-            "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:12",
-            "bronindices": [
-              1,
-              2
-            ],
             "grondindices": [
               1,
-              2,
+              3
+            ],
+            "bronindices": [
+              1,
               3
             ]
-          },
-          "gids_strongs": [
-            "G3588",
-            "G2288"
-          ]
+          }
         },
         {
-          "tekst": "in ons",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
-            "G1473"
+            "G3303"
+          ],
+          "lemma_strongs": [
+            "G3303"
+          ],
+          "morfologie": [
+            "PRT"
           ],
           "bronwoorden": [
-            "εν",
+            "μεν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:12",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:12",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "ons",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1DP"
+          ],
+          "bronwoorden": [
             "ημιν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:12",
-            "bronindices": [
-              4,
+            "grondindices": [
               5
             ],
-            "grondindices": [
-              4,
+            "bronindices": [
               5
             ]
           }
@@ -6716,15 +7901,23 @@
           }
         },
         {
-          "tekst": "maar",
+          "tekst": "het leven",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G1161"
+            "G2222"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2222"
+          ],
+          "morfologie": [
+            "T-NSF",
+            "N-NSF"
           ],
           "bronwoorden": [
             "η",
-            "δε"
+            "ζωη"
           ],
           "transliteraties": [
             "",
@@ -6734,31 +7927,38 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:12",
-            "bronindices": [
-              7,
-              6
-            ],
             "grondindices": [
+              7,
+              9
+            ],
+            "bronindices": [
               7,
               8
             ]
           }
         },
         {
-          "tekst": "het leven",
+          "tekst": "maar",
           "voorkomen": 1,
           "strongs": [
-            "G2222"
+            "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
-            "ζωη"
+            "δε"
           ],
           "transliteraties": [
             ""
@@ -6766,54 +7966,93 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:12",
-            "bronindices": [
+            "grondindices": [
               8
             ],
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 2,
+          "strongs": [
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "εν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:12",
             "grondindices": [
+              10
+            ],
+            "bronindices": [
               9
             ]
           }
         },
         {
-          "tekst": "in u",
+          "tekst": "u",
           "voorkomen": 1,
           "strongs": [
-            "G1722",
             "G4771"
           ],
+          "lemma_strongs": [
+            "G4771"
+          ],
+          "morfologie": [
+            "P-2DP"
+          ],
           "bronwoorden": [
-            "εν",
             "υμιν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:12",
-            "bronindices": [
-              9,
-              10
-            ],
             "grondindices": [
-              10,
               11
+            ],
+            "bronindices": [
+              10
             ]
           }
         }
@@ -6830,14 +8069,14 @@
           "type": "explanatory",
           "textSV1888": "24 denzelfden geest: Dat is, hetzelfde geloof door denzelfden Geest, die alle gelovigen, zo des Ouden als des Nieuwen Testaments, deelachtig zijn; 1 Petr. 1:11. 1 Petrus 1:11: Onderzoekende, op welken of hoedanigen tijd de Geest van Christus, Die in hen was, beduidde en te voren getuigde, het lijden, dat op Christus komen zou, en de heerlijkheid daarna volgende.",
           "text1637": "D. het selve geloove door den selven Geest, die alle geloovige soo des Ouden als des Nieuwen Testaments deelachtigh zijn. 1.Petr. 1.11.",
-          "text2026": "24 dezelfde geest: Dat is, hetzelfde geloof door dezelfde Geest, die alle gelovigen, zo van de Ouden als van de Nieuwen Testaments, deelachtig zijn; 1 Petr. 1:11. 1 Petrus 1:11: Onderzoekende, op welke of hoedanigen tijd de Geest van Christus, Die in hen was, beduidde en te voren getuigde, het lijden, dat op Christus komen zou, en de heerlijkheid daarna volgende."
+          "text2026": "24 dezelfde geest: Dat is, hetzelfde geloof door dezelfde Geest, die alle gelovigen, zo van het Oude als van het Nieuwe Testament, deelachtig zijn; 1 Petr. 1:11. 1 Petrus 1:11: Onderzoekende, op welke of hoedanigen tijd de Geest van Christus, Die in hen was, beduidde en te voren getuigde, het lijden, dat op Christus komen zou, en de heerlijkheid daarna volgende."
         },
         {
           "marker": "25",
           "type": "explanatory",
           "textSV1888": "25 Ik heb geloofd: Dit spreekt David Ps. 116:10, wanneer hij, in vele zwarigheden zijnde, zijn vertrouwen van zijne verlossing heeft betuigd, of wanneer hij, in vele zwarigheden zijnde, het betrouwen, dat hij op God ook in het toekomende had, voor een iegelijk heeft beleden. Psalmen 116:10: Ik heb geloofd, daarom sprak ik; ik ben zeer bedrukt geweest.",
           "text1637": "Dit spreeckt David Psal. 116.10. wanneer hy in vele swarigheden zijnde, sijn vertrouwen van sijne verlossinge heeft betuygt, ofte wanneer hy in vele swarigheden zijnde, het betrouwen dat hy op Godt oock in toekomende hadde voor een yegelick heeft beleden.",
-          "text2026": "25 Ik heb geloofd: Dit spreekt David Ps. 116:10, wanneer hij, in vele zwarigheden zijnde, zijn vertrouwen van zijn verlossing heeft betuigd, of wanneer hij, in vele zwarigheden zijnde, het betrouwen, dat hij op God ook in het toekomende had, voor een iedereen heeft beleden. Psalmen 116:10: Ik heb geloofd, daarom sprak ik; ik ben zeer bedrukt geweest."
+          "text2026": "25 Ik heb geloofd: Dit spreekt David Ps. 116:10, wanneer hij, in vele zwarigheden zijnde, zijn vertrouwen van zijn verlossing heeft betuigd, of wanneer hij, in vele zwarigheden zijnde, het betrouwen, dat hij op God ook in het toekomende had, voor iedereen heeft beleden. Psalmen 116:10: Ik heb geloofd, daarom sprak ik; ik ben zeer bedrukt geweest."
         },
         {
           "marker": "26",
@@ -7057,53 +8296,101 @@
           }
         },
         {
-          "tekst": "deze Geest",
+          "tekst": "Geest",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G846",
             "G4151"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G4151"
+          ],
+          "morfologie": [
+            "T-ASN",
+            "N-ASN"
           ],
           "bronwoorden": [
             "το",
-            "αυτο",
             "πνευμα"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:13",
-            "bronindices": [
-              2,
-              10,
-              11
-            ],
             "grondindices": [
               2,
-              3,
               4
+            ],
+            "bronindices": [
+              2,
+              11
             ]
           }
         },
         {
-          "tekst": "van het geloof",
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-ASN"
+          ],
+          "bronwoorden": [
+            "αυτο"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:13",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "het geloof",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G4102"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G4102"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
@@ -7117,62 +8404,103 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:13",
-            "bronindices": [
-              9,
-              13
-            ],
             "grondindices": [
               5,
               6
+            ],
+            "bronindices": [
+              9,
+              13
             ]
           }
         },
         {
-          "tekst": "zoals er geschreven is",
+          "tekst": "zoals",
           "voorkomen": 1,
           "strongs": [
-            "G2596",
+            "G2596"
+          ],
+          "lemma_strongs": [
+            "G2596"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "κατα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:13",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "geschreven is",
+          "voorkomen": 1,
+          "strongs": [
             "G3588",
             "G1125"
           ],
+          "lemma_strongs": [
+            "G3588",
+            "G1125"
+          ],
+          "morfologie": [
+            "T-ASN",
+            "V-RPP-ASN"
+          ],
           "bronwoorden": [
-            "κατα",
             "το",
             "γεγραμμενον"
           ],
           "transliteraties": [
             "",
-            "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:13",
-            "bronindices": [
-              1,
-              12,
-              3
-            ],
             "grondindices": [
-              7,
               8,
               9
+            ],
+            "bronindices": [
+              12,
+              3
             ]
           }
         },
@@ -7704,43 +9032,83 @@
           }
         },
         {
-          "tekst": "de Heere Jezus",
+          "tekst": "de Heere",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2962",
-            "G2424"
+            "G2962"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2962"
+          ],
+          "morfologie": [
+            "T-ASM",
+            "N-ASM"
           ],
           "bronwoorden": [
             "τον",
-            "κυριον",
-            "ιησουν"
+            "κυριον"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:14",
-            "bronindices": [
-              4,
-              5,
-              6
-            ],
             "grondindices": [
               4,
-              5,
+              5
+            ],
+            "bronindices": [
+              4,
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "Jezus",
+          "voorkomen": 1,
+          "strongs": [
+            "G2424"
+          ],
+          "lemma_strongs": [
+            "G2424"
+          ],
+          "morfologie": [
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "ιησουν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:14",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
               6
             ]
           }
@@ -7806,44 +9174,78 @@
           }
         },
         {
-          "tekst": "door Jezus",
+          "tekst": "door",
           "voorkomen": 1,
           "strongs": [
-            "G1223",
-            "G2424"
+            "G1223"
+          ],
+          "lemma_strongs": [
+            "G1223"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "δια",
-            "ιησου"
+            "δια"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:14",
-            "bronindices": [
-              10,
-              11
-            ],
             "grondindices": [
-              9,
+              9
+            ],
+            "bronindices": [
               10
             ]
-          },
-          "gids_strongs": [
-            "G4862",
+          }
+        },
+        {
+          "tekst": "Jezus",
+          "voorkomen": 2,
+          "strongs": [
             "G2424"
-          ]
+          ],
+          "lemma_strongs": [
+            "G2424"
+          ],
+          "morfologie": [
+            "N-GSM"
+          ],
+          "bronwoorden": [
+            "ιησου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:14",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              11
+            ]
+          }
         },
         {
           "tekst": "zal opwekken",
@@ -7936,37 +9338,75 @@
           }
         },
         {
-          "tekst": "met u",
+          "tekst": "met",
           "voorkomen": 1,
           "strongs": [
-            "G4862",
-            "G4771"
+            "G4862"
+          ],
+          "lemma_strongs": [
+            "G4862"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "συν",
-            "υμιν"
+            "συν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:14",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              14,
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "G4771"
+          ],
+          "lemma_strongs": [
+            "G4771"
+          ],
+          "morfologie": [
+            "P-2DP"
+          ],
+          "bronwoorden": [
+            "υμιν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:14",
+            "grondindices": [
               15
             ],
-            "grondindices": [
-              14,
+            "bronindices": [
               15
             ]
           }
@@ -8140,79 +9580,186 @@
       ],
       "woordnummers": [
         {
-          "tekst": "al deze dingen",
+          "tekst": "dingen",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G1063",
-            "G3956"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NPN"
           ],
           "bronwoorden": [
-            "τα",
-            "γαρ",
-            "παντα"
+            "τα"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:15",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
-              1,
-              0,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "Want",
+          "voorkomen": 1,
+          "strongs": [
+            "G1063"
+          ],
+          "lemma_strongs": [
+            "G1063"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "γαρ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:15",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "al",
+          "voorkomen": 1,
+          "strongs": [
+            "G3956"
+          ],
+          "lemma_strongs": [
+            "G3956"
+          ],
+          "morfologie": [
+            "A-NPN"
+          ],
+          "bronwoorden": [
+            "παντα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:15",
+            "grondindices": [
               2
             ],
-            "grondindices": [
-              0,
-              1,
+            "bronindices": [
               2
             ]
           }
         },
         {
-          "tekst": "om uwentwil",
+          "tekst": "om",
           "voorkomen": 1,
           "strongs": [
-            "G1223",
-            "G4771"
+            "G1223"
+          ],
+          "lemma_strongs": [
+            "G1223"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "δι",
-            "υμας"
+            "δι"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:15",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "uwentwil",
+          "voorkomen": 1,
+          "strongs": [
+            "G4771"
+          ],
+          "lemma_strongs": [
+            "G4771"
+          ],
+          "morfologie": [
+            "P-2AP"
+          ],
+          "bronwoorden": [
+            "υμας"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:15",
+            "grondindices": [
               4
             ],
-            "grondindices": [
-              3,
+            "bronindices": [
               4
             ]
           }
@@ -8848,44 +10395,113 @@
           }
         },
         {
-          "tekst": "onze uitwendige",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G1854",
-            "G1473"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
-            "ο",
-            "εξω",
-            "ημων"
+            "ο"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:16",
-            "bronindices": [
-              8,
-              7,
+            "grondindices": [
               6
             ],
-            "grondindices": [
-              6,
-              7,
+            "bronindices": [
               8
+            ]
+          }
+        },
+        {
+          "tekst": "uitwendige",
+          "voorkomen": 1,
+          "strongs": [
+            "G1854"
+          ],
+          "lemma_strongs": [
+            "G1854"
+          ],
+          "morfologie": [
+            "ADV"
+          ],
+          "bronwoorden": [
+            "εξω"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:16",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "onze",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
+          ],
+          "bronwoorden": [
+            "ημων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:16",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              6
             ]
           }
         },
@@ -9052,44 +10668,113 @@
           }
         },
         {
-          "tekst": "van dag tot dag",
+          "tekst": "dag",
           "voorkomen": 1,
           "strongs": [
-            "G2250",
-            "G2532",
             "G2250"
           ],
+          "lemma_strongs": [
+            "G2250"
+          ],
+          "morfologie": [
+            "N-DSF"
+          ],
           "bronwoorden": [
-            "ημερα",
-            "και",
             "ημερα"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:16",
-            "bronindices": [
-              16,
-              17,
-              18
-            ],
             "grondindices": [
-              15,
-              16,
+              15
+            ],
+            "bronindices": [
+              16
+            ]
+          }
+        },
+        {
+          "tekst": "tot",
+          "voorkomen": 1,
+          "strongs": [
+            "G2532"
+          ],
+          "lemma_strongs": [
+            "G2532"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "και"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:16",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "dag",
+          "voorkomen": 2,
+          "strongs": [
+            "G2250"
+          ],
+          "lemma_strongs": [
+            "G2250"
+          ],
+          "morfologie": [
+            "N-DSF"
+          ],
+          "bronwoorden": [
+            "ημερα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:16",
+            "grondindices": [
+              17
+            ],
+            "bronindices": [
+              18
             ]
           }
         }
@@ -9106,7 +10791,7 @@
           "type": "explanatory",
           "textSV1888": "32 lichte verdrukking: Gr. het licht, of de lichtigheid onzer verdrukking. Dit zegt de apostel niet, omdat de verdrukking in zichzelve licht is, maar omdat de Heere haar, door de versterking en troost Zijns Geestes, ons licht maakt. Zie Rom. 5:3, en Rom. 8:37. Romeinen 5:3: En niet alleenlijk dit, maar wij roemen ook in de verdrukkingen, wetende, dat de verdrukking lijdzaamheid werkt; Romeinen 8:37: Maar in dit alles zijn wij meer dan overwinnaars, door Hem, Die ons liefgehad heeft.",
           "text1637": "Gr. het lichte, ofte, de lichtigheyt onser verdruckinge. Dit seght den Apostel niet, om dat de verdruckinge in haer selven licht is, maer om datse de Heere door de versterckinge ende troost sijnes Geests, ons licht maeckt. Siet Rom. 5.2. ende 8.37.",
-          "text2026": "32 lichte verdrukking: Gr. het licht, of de lichtigheid onze verdrukking. Dit zegt de apostel niet, omdat de verdrukking in zichzelf licht is, maar omdat de Heer haar, door de versterking en troost Zijn Geest, ons licht maakt. Zie Rom. 5:3, en Rom. 8:37. Romeinen 5:3: En niet alleen dit, maar wij roemen ook in de verdrukkingen, wetende, dat de verdrukking volharding werkt; Romeinen 8:37: Maar in dit alles zijn wij meer dan overwinnaars, door Hem, Die ons liefgehad heeft."
+          "text2026": "32 lichte verdrukking: Gr. het licht, of de lichtigheid van onze verdrukking. Dit zegt de apostel niet, omdat de verdrukking in zichzelf licht is, maar omdat de Heer haar, door de versterking en troost van Zijn Geest, ons licht maakt. Zie Rom. 5:3, en Rom. 8:37. Romeinen 5:3: En niet alleen dit, maar wij roemen ook in de verdrukkingen, wetende, dat de verdrukking volharding werkt; Romeinen 8:37: Maar in dit alles zijn wij meer dan overwinnaars, door Hem, Die ons liefgehad heeft."
         },
         {
           "marker": "33",
@@ -9120,7 +10805,7 @@
           "type": "explanatory",
           "textSV1888": "34 werkt ons een gans: Dat is, brengt voort, niet uit enige verdienste, maar uit enkel genade, om Christus' wil; Rom. 8:17, 8:18. Gr. een eeuwig gewicht der heerlijkheid, naar uitnemendheid tot uitnemendheid. Romeinen 8:17: En indien wij kinderen zijn, zo zijn wij ook erfgenamen, erfgenamen van God, en mede-erfgenamen van Christus; zo wij anders met Hem lijden, opdat wij ook met Hem verheerlijkt worden. Romeinen 8:18: Want ik houde het daarvoor, dat het lijden dezes tegenwoordigen tijds niet is te waarderen tegen de heerlijkheid, die aan ons zal geopenbaard worden.",
           "text1637": "D. brenght voort, niet uyt eenige verdienste, maer uyt enckele genade, om Christi wille. Rom. 8. versen 17, 18. Gr. een eeuwigh gewichte der heerlickheyt, nae uytnementheyt tot uytnementheyt.",
-          "text2026": "34 werkt ons een geheel: Dat is, brengt voort, niet uit enige verdienste, maar uit enkel genade, om Christus' wil; Rom. 8:17, 8:18. Gr. een eeuwig gewicht van de heerlijkheid, naar uitnemendheid tot uitnemendheid. Romeinen 8:17: En als wij kinderen zijn, zo zijn wij ook erfgenamen, erfgenamen van God, en mee-erfgenamen van Christus; zo wij anders met Hem lijden, opdat wij ook met Hem verheerlijkt worden. Romeinen 8:18: Want ik houde het daarvoor, dat het lijden van deze tegenwoordigen tijds niet is te waarderen tegen de heerlijkheid, die aan ons zal geopenbaard worden."
+          "text2026": "34 werkt ons een geheel: Dat is, brengt voort, niet uit enige verdienste, maar uit enkel genade, om Christus' wil; Rom. 8:17, 8:18. Gr. een eeuwig gewicht van de heerlijkheid, naar uitnemendheid tot uitnemendheid. Romeinen 8:17: En als wij kinderen zijn, zo zijn wij ook erfgenamen, erfgenamen van God, en mee-erfgenamen van Christus; zo wij anders met Hem lijden, opdat wij ook met Hem verheerlijkt worden. Romeinen 8:18: Want ik houde het daarvoor, dat het lijden van deze tegenwoordige tijd niet is te waarderen tegen de heerlijkheid, die aan ons zal geopenbaard worden."
         },
         {
           "marker": "q",
@@ -9245,46 +10930,90 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Want",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G1063"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSN"
           ],
           "bronwoorden": [
-            "το",
-            "γαρ"
+            "το"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:17",
-            "bronindices": [
-              1,
+            "grondindices": [
               0
             ],
-            "grondindices": [
-              0,
+            "bronindices": [
               1
             ]
           }
         },
         {
-          "tekst": "zeer haast voorbij gaat",
+          "tekst": "Want",
+          "voorkomen": 1,
+          "strongs": [
+            "G1063"
+          ],
+          "lemma_strongs": [
+            "G1063"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "γαρ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:17",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "haast",
           "voorkomen": 1,
           "strongs": [
             "G3910"
+          ],
+          "lemma_strongs": [
+            "G3910"
+          ],
+          "morfologie": [
+            "ADV"
           ],
           "bronwoorden": [
             "παραυτικα"
@@ -9295,18 +11024,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:17",
-            "bronindices": [
-              4
-            ],
             "grondindices": [
               2
+            ],
+            "bronindices": [
+              4
             ]
           }
         },
@@ -9407,38 +11137,76 @@
           }
         },
         {
-          "tekst": "geheel zeer",
+          "tekst": "geheel",
           "voorkomen": 1,
           "strongs": [
-            "G2596",
-            "G5236"
+            "G2596"
+          ],
+          "lemma_strongs": [
+            "G2596"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "καθ",
-            "υπερβολην"
+            "καθ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:17",
-            "bronindices": [
-              12,
-              13
-            ],
             "grondindices": [
-              7,
+              7
+            ],
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
+          "tekst": "zeer",
+          "voorkomen": 2,
+          "strongs": [
+            "G5236"
+          ],
+          "lemma_strongs": [
+            "G5236"
+          ],
+          "morfologie": [
+            "N-ASF"
+          ],
+          "bronwoorden": [
+            "υπερβολην"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:17",
+            "grondindices": [
               8
+            ],
+            "bronindices": [
+              13
             ]
           }
         },
@@ -9648,7 +11416,7 @@
           "type": "explanatory",
           "textSV1888": "36 die men ziet, maar de dingen: Dat is, de wereldse eer of oneer, gemakken en ongemakken dezes levens, die wij dagelijks voor onze ogen zien.",
           "text1637": "D. de wereltsche eere ofte oneere, gemacken ende ongemacken deses levens, die wy dagelicks voor onse oogen sien.",
-          "text2026": "36 die men ziet, maar de dingen: Dat is, de wereldse eer of oneer, gemakken en ongemakken van deze leven, die wij dagelijks voor onze ogen zien."
+          "text2026": "36 die men ziet, maar de dingen: Dat is, de wereldse eer of oneer, gemakken en ongemakken van dit leven, die wij dagelijks voor onze ogen zien."
         },
         {
           "marker": "37",
@@ -9905,10 +11673,16 @@
           }
         },
         {
-          "tekst": "die men ziet",
+          "tekst": "ziet",
           "voorkomen": 1,
           "strongs": [
             "G991"
+          ],
+          "lemma_strongs": [
+            "G991"
+          ],
+          "morfologie": [
+            "V-PPP-APN"
           ],
           "bronwoorden": [
             "βλεπομενα"
@@ -9919,17 +11693,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:18",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -9995,82 +11770,164 @@
           }
         },
         {
-          "tekst": "die men niet ziet",
-          "voorkomen": 1,
+          "tekst": "niet",
+          "voorkomen": 2,
           "strongs": [
-            "G3361",
-            "G991"
+            "G3361"
+          ],
+          "lemma_strongs": [
+            "G3361"
+          ],
+          "morfologie": [
+            "PRT-N"
           ],
           "bronwoorden": [
-            "μη",
-            "βλεπομενα"
+            "μη"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:18",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
-              7,
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "ziet",
+          "voorkomen": 2,
+          "strongs": [
+            "G991"
+          ],
+          "lemma_strongs": [
+            "G991"
+          ],
+          "morfologie": [
+            "V-PPP-APN"
+          ],
+          "bronwoorden": [
+            "βλεπομενα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:18",
+            "grondindices": [
               8
             ],
-            "grondindices": [
-              7,
+            "bronindices": [
               8
             ]
           }
         },
         {
-          "tekst": "want de dingen",
-          "voorkomen": 1,
+          "tekst": "de dingen",
+          "voorkomen": 3,
           "strongs": [
-            "G3588",
-            "G1063"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NPN"
           ],
           "bronwoorden": [
-            "τα",
-            "γαρ"
+            "τα"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:18",
-            "bronindices": [
-              10,
+            "grondindices": [
               9
             ],
-            "grondindices": [
-              9,
+            "bronindices": [
               10
             ]
           }
         },
         {
-          "tekst": "die men ziet",
-          "voorkomen": 2,
+          "tekst": "want",
+          "voorkomen": 1,
+          "strongs": [
+            "G1063"
+          ],
+          "lemma_strongs": [
+            "G1063"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "γαρ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:18",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "ziet",
+          "voorkomen": 3,
           "strongs": [
             "G991"
+          ],
+          "lemma_strongs": [
+            "G991"
+          ],
+          "morfologie": [
+            "V-PPP-NPN"
           ],
           "bronwoorden": [
             "βλεπομενα"
@@ -10081,17 +11938,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:18",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -10127,73 +11985,149 @@
           }
         },
         {
-          "tekst": "maar de dingen",
-          "voorkomen": 2,
+          "tekst": "de dingen",
+          "voorkomen": 4,
           "strongs": [
-            "G3588",
-            "G1161"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NPN"
           ],
           "bronwoorden": [
-            "τα",
-            "δε"
+            "τα"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:18",
-            "bronindices": [
-              14,
+            "grondindices": [
               13
             ],
-            "grondindices": [
-              13,
+            "bronindices": [
               14
             ]
           }
         },
         {
-          "tekst": "die men niet ziet",
+          "tekst": "maar",
           "voorkomen": 2,
           "strongs": [
-            "G3361",
-            "G991"
+            "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
-            "μη",
-            "βλεπομενα"
+            "δε"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
             "referentie": "2CO 4:18",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              15,
+              13
+            ]
+          }
+        },
+        {
+          "tekst": "niet",
+          "voorkomen": 3,
+          "strongs": [
+            "G3361"
+          ],
+          "lemma_strongs": [
+            "G3361"
+          ],
+          "morfologie": [
+            "PRT-N"
+          ],
+          "bronwoorden": [
+            "μη"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:18",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "ziet",
+          "voorkomen": 4,
+          "strongs": [
+            "G991"
+          ],
+          "lemma_strongs": [
+            "G991"
+          ],
+          "morfologie": [
+            "V-PPP-NPN"
+          ],
+          "bronwoorden": [
+            "βλεπομενα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "23D82961D8924E4592FFEE2B62504E467A0E9E79725A72512C57127FBDDD1793",
+            "referentie": "2CO 4:18",
+            "grondindices": [
               16
             ],
-            "grondindices": [
-              15,
+            "bronindices": [
               16
             ]
           }

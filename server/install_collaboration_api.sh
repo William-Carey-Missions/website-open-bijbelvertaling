@@ -38,6 +38,18 @@ for file in "${MODULES[@]}"; do
     install -m 0644 "$SOURCE_DIR/$file" "/opt/openvertaling-collaboration/$file"
 done
 install -d -o openvertaling -g openvertaling -m 0700 /var/lib/openvertaling-collaboration
+# Bestaande databases kunnen door onderhoud onder root zijn aangemaakt.
+# De service moet ook de SQLite-journalbestanden kunnen bijwerken.
+for database_file in /var/lib/openvertaling-collaboration/collaboration.sqlite3{,-wal,-shm,-journal}; do
+    if [[ -L "$database_file" ]]; then
+        echo "Onverwachte database-symlink: $database_file" >&2
+        exit 1
+    fi
+    if [[ -f "$database_file" ]]; then
+        chown openvertaling:openvertaling "$database_file"
+        chmod 0600 "$database_file"
+    fi
+done
 chown -R --no-dereference openvertaling:openvertaling /var/lib/openvertaling-collaboration
 install -m 0644 "$SOURCE_DIR/openvertaling-collaboration.service" /etc/systemd/system/openvertaling-collaboration.service
 install -m 0644 "$SOURCE_DIR/openvertaling-collaboration.nginx" /etc/nginx/snippets/openvertaling-collaboration.conf
@@ -76,8 +88,12 @@ systemctl enable --now openvertaling-collaboration.service
 systemctl restart openvertaling-collaboration.service
 nginx -t
 systemctl reload nginx
-curl --fail --silent --show-error --retry 10 --retry-delay 1 --retry-connrefused \
-    --retry-max-time 30 http://127.0.0.1:8787/api/collaboration/health >/dev/null
+if ! curl --fail --silent --show-error --retry 10 --retry-delay 1 --retry-connrefused \
+    --retry-max-time 30 http://127.0.0.1:8787/api/collaboration/health >/dev/null; then
+    systemctl status openvertaling-collaboration.service --no-pager -l >&2 || true
+    journalctl -u openvertaling-collaboration.service -n 40 --no-pager >&2 || true
+    exit 1
+fi
 
 trap - ERR
 unlink -- "$SITE_BACKUP"

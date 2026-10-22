@@ -489,83 +489,43 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 20:2",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֥רֶץ",
             "מִצְרַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 20:2",
-            "bronindices": [
+            "grondindices": [
+              5,
               6
-            ]
-          }
-        },
-        {
-          "tekst": "uit",
-          "voorkomen": 2,
-          "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "מִ/בֵּ֥ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 20:2",
+            ],
             "bronindices": [
-              7
+              5,
+              6
             ]
           }
         },
@@ -573,25 +533,39 @@
           "tekst": "diensthuis",
           "voorkomen": 1,
           "strongs": [
+            "H1004",
             "H5650"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "מִ/בֵּ֥ית",
             "עֲבָדִֽים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 20:2",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
+              7,
               8
             ]
           }
@@ -1413,14 +1387,14 @@
           "marker": "9",
           "type": "explanatory",
           "text1637": "T.w. noch de afgoden selfs, noch oock my door de selve. als Exod. 32.4, 6. door het gouden Calf: ende daer na de tien stammen door de twee goudene Calveren. 1.Reg. 12.28.",
-          "text2026": "Namelijk nog de afgoden zelf, nog Mij door middel van hen. Zoals Exodus 32:4, 6, door het gouden kalf; en daarna de tien stammen door de twee gouden kalveren (1 Koningen 12:28).",
+          "text2026": "Namelijk noch de afgoden zelf, noch Mij door middel van hen. Zoals Exodus 32:4, 6, door het gouden kalf; en daarna de tien stammen door de twee gouden kalveren (1 Koningen 12:28).",
           "textSV1888": "9 hen dienen: Te weten, noch de afgoden zelf, noch ook Mij door dezelven, gelijk Exod. 32:4, 32:6, door het gouden kalf, en daarna de tien stammen door de twee gouden kalven, 1 Kon. 12:28. Exodus 32:4: En hij nam ze uit hun hand, en hij bewierp het met een griffie, en hij maakte een gegoten kalf daaruit. Toen zeiden zij: Dit zijn uw goden, Israël! die u uit Egypteland opgevoerd hebben. Exodus 32:6: En zij stonden des anderen daags vroeg op, en offerden brandoffer, en brachten dankoffer daartoe; en het volk zat neder om te eten en te drinken; daarna stonden zij op, om te spelen. 1 Koningen 12:28: Daarom hield de koning een raad, en maakte twee gouden kalveren; en hij zeide tot hen: Het is ulieden te veel om op te gaan naar Jeruzalem; zie uw goden, o Israël, die u uit Egypteland opgebracht hebben."
         },
         {
           "marker": "10",
           "type": "explanatory",
           "text1637": "Godt wort genoemt een man sijnes volcx Ier. 2.2. Hos. 2.19. afgoderye wort hoerdom genoemt, Deuter. 21.16. Iud. 2.17. Ierem. 3.9, 20. hierom wort Godes toorn over dese sonde genaemt jalousye.",
-          "text2026": "God wordt een man van Zijn volk genoemd (Jeremia 2:2. Hosea 2:19). Afgoderij wordt hoererij genoemd (Deuteronomium 21:16. Richteren 2:17. Jeremia 3:9, 20). Daarom wordt Gods toorn over deze zonde jaloezie genoemd.",
+          "text2026": "God wordt een man van Zijn volk genoemd (Jeremia 2:2. Hosea 2:19). Afgoderij wordt hoererij genoemd (Deuteronomium 31:16. Richteren 2:17. Jeremia 3:9, 20). Daarom wordt Gods toorn over deze zonde jaloezie genoemd.",
           "textSV1888": "10 een ijverig God: God wordt genoemd een man zijns volks, Jer. 2:2; Hos. 2:19; afgoderij wordt hoerdom genoemd, Deut. 31:16; Richt. 2:17; Jer. 3:9, 3:20; hierom wordt Gods toorn over deze zonde genoemd jaloezie. Jeremia 2:2: Ga en roep voor de oren van Jeruzalem, zeggende: Zo zegt de HEERE: Ik gedenk der weldadigheid uwer jeugd, der liefde uwer ondertrouw, toen gij Mij nawandeldet in de woestijn, in onbezaaid land. Hosea 2:19: (En Ik zal u Mij ondertrouwen in geloof; en gij zult den HEERE kennen. Deuteronomium 31:16: En de HEERE zeide tot Mozes: Zie, gij zult slapen met uw vaderen; en dit volk zal opstaan, en nahoereren de goden der vreemden van dat land, waar het naar toe gaat, in het midden van hetzelve; en het zal Mij verlaten en vernietigen Mijn verbond, dat Ik met hetzelve gemaakt heb. Richteren 2:17: Doch zij hoorden ook niet naar hun richteren, maar hoereerden andere goden na, en bogen zich voor die; haast weken zij af van den weg, dien hun vaders gewandeld hadden, horende de geboden des HEEREN; alzo deden zij niet. Jeremia 3:9: Ja, het geschiedde, vanwege het gerucht harer hoererij, dat zij het land ontheiligde; want zij bedreef overspel met steen en met hout. Jeremia 3:20: Waarlijk, gelijk een vrouw trouwelooslijk scheidt van haar vriend, alzo hebt gijlieden trouwelooslijk tegen Mij gehandeld, gij huis Israëls! spreekt de HEERE."
         },
         {
@@ -1434,7 +1408,7 @@
           "marker": "12",
           "type": "explanatory",
           "text1637": "Hebr. aen de derde ende aen de vierde.",
-          "text2026": "Hebreeuws: aan het derde en aan het vierde.",
+          "text2026": "Hebreeuws: aan de derde en aan de vierde.",
           "textSV1888": "12 aan het derde, en aan het vierde: Hebreeuws, aan de derde en aan de vierde."
         },
         {
@@ -5779,7 +5753,7 @@
           "marker": "21",
           "type": "explanatory",
           "text1637": "Door het woort naesten moetmen hier verstaen alle menschen, als Gen. 11.3. Esth. 1.19. Prov. 18.17. Siet Luc. 10.29, 30. ja selfs uwen vyant.",
-          "text2026": "Door het woord \"naaste\" moet men hier alle mensen verstaan, zoals in Genesis 11:3. Esther 1:19. Spreuken 18:17. Zie Lucas 10:29-30, ja zelfs uw vijand.",
+          "text2026": "Door het woord \"naaste\" moet men hier alle mensen verstaan, zoals in Genesis 11:3. Esther 1:19. Spreuken 18:17. Zie Lucas 10:29, 36, ja zelfs uw vijand.",
           "textSV1888": "Door het woord naasten moet men hier verstaan alle mensen, gelijk Gen. 11:3; Esth. 1:19; Spreuk. 18:17. Zie Luk. 10:29, 10:36, ja zelfs uw vijand. Genesis 11:3: En zij zeiden een ieder tot zijn naaste: Kom aan, laat ons tichelen strijken, en wel doorbranden! En de tichel was hun voor steen, en het lijm was hun voor leem. Esther 1:19: Indien het den koning goeddunkt, dat een koninklijk gebod van hem uitga, hetwelk geschreven worde in de wetten der Perzen en Meden, en dat men het niet overtrede: dat Vasthi niet inga voor het aangezicht van den koning Ahasveros, en de koning geve haar koninkrijk aan haar naaste, die beter is dan zij. Spreuken 18:17: Die de eerste is in zijn twistzaak, schijnt rechtvaardig te zijn; maar zijn naaste komt, en hij onderzoekt hem. Lukas 10:29: Maar hij, willende zichzelven rechtvaardigen, zeide tot Jezus: En wie is mijn naaste? Lukas 10:36: Wie dan van deze drie dunkt u de naaste geweest te zijn desgenen, die onder de moordenaars gevallen was?"
         }
       ],

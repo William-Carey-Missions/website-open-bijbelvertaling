@@ -2676,7 +2676,7 @@
           "type": "explanatory",
           "textSV1888": "dertien steden: Waarvan breder gesproken wordt onder, vers 27 , enz. Jozua 21:27 : En aan de kinderen van Gerson, van de huisgezinnen der Levieten, van den halven stam van Manasse, de vrijstad des doodslagers, Golan in Bazan, en haar voorsteden, en Beesthera en haar voorsteden: twee steden.",
           "text1637": "Waer van breeder gesproken wort ond. vers 27. etc.",
-          "text2026": "dertien steden: Waarvan breder gesproken wordt onder, vers 27 , enz. Jozua 21:27 : En aan de kinderen van Gerson, van de huisgezinnen van de Levieten, van de halven stam van Manasse, de vrijstad van het doodlager, Golan in Bazan, en haar voorsteden, en Beesthera en haar voorsteden: twee steden."
+          "text2026": "dertien steden: Waarvan breder gesproken wordt onder, vers 27 , enz. Jozua 21:27 : En aan de kinderen van Gerson, van de huisgezinnen van de Levieten, van de halve stam van Manasse, de vrijstad van de moordenaar, Golan in Bazan, en haar voorsteden, en Beesthera en haar voorsteden: twee steden."
         }
       ],
       "grondtekst": [
@@ -14728,9 +14728,12 @@
         },
         {
           "tekst": "van",
-          "voorkomen": 2,
+          "voorkomen": 4,
           "strongs": [
             "H854"
+          ],
+          "morfologie": [
+            "HR/R"
           ],
           "bronwoorden": [
             "מֵ/אֵת֙"
@@ -14741,13 +14744,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 21:34",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]

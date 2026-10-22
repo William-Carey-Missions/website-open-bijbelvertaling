@@ -132,43 +132,78 @@
       "text1637_html": "ENde ick, Broeders, en konde tot u niet spreken <sup class=\"note-marker\" data-note=\"1\">1</sup> als tot geestelicke, maer <sup class=\"note-marker\" data-note=\"2\">2</sup> als tot vleeschelicke, als tot <sup class=\"note-marker\" data-note=\"3\">3</sup> jonge kinderen in Christo.",
       "woordnummers": [
         {
-          "tekst": "En ik",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
-            "G2532",
-            "G1473"
+            "G2532"
+          ],
+          "lemma_strongs": [
+            "G2532"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
-            "και",
-            "εγω"
+            "και"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 3:1",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "ik",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1NS"
+          ],
+          "bronwoorden": [
+            "εγω"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
+            "referentie": "1CO 3:1",
+            "grondindices": [
               1
             ],
-            "grondindices": [
-              0,
+            "bronindices": [
               1
             ]
-          },
-          "gids_strongs": [
-            "G2504"
-          ],
-          "toelichting": "De lokale TR schrijft καὶ ἐγώ als twee tokens; de gids gebruikt de contractie κἀγώ."
+          }
         },
         {
           "tekst": "broeders",
@@ -613,7 +648,7 @@
           "type": "explanatory",
           "textSV1888": "5 vaste spijs: Dat is, de hogere verklaringen der Christelijke leer, die met hogere woorden en diepzinniger redenen worden voorgesteld. Zie breder Hebr. 5:12, enz. Hebreeën 5:12: Want gij, daar gij leraars behoordet te zijn vanwege den tijd, hebt wederom van node, dat men u lere, welke de eerste beginselen zijn der woorden Gods; en gij zijt geworden, als die melk van node hebben, en niet vaste spijze.",
           "text1637": "Dat is, de hoogere verklaringen der Christelicke Leere, die met hooger woorden, ende diepsinniger redenen worden voor-gestelt. Siet breeder Hebr. 5.12, etc.",
-          "text2026": "5 vaste voedsel: Dat is, de hogere verklaringen van de Christelijke leer, die met hogere woorden en diepzinniger redenen worden voorgesteld. Zie breder Hebr. 5:12, enz. Hebreeën 5:12: Want u, daar u leraars behoorde te zijn vanwege de tijd, hebt opnieuw nodig, dat men u lere, welke de eerste beginselen zijn van de woorden van God; en u bent geworden, als die melk nodig hebben, en niet vaste voedsel."
+          "text2026": "5 vaste voedsel: Dat is, de hogere verklaringen van de Christelijke leer, die met hogere woorden en diepzinniger redenen worden voorgesteld. Zie breder Hebr. 5:12, enz. Hebreeën 5:12: Want u, daar u leraars behoorde te zijn vanwege de tijd, hebt opnieuw nodig, dat men u lere, welke de eerste beginselen zijn van de woorden van God; en u bent geworden, als die melk nodig hebben, en niet vast voedsel."
         },
         {
           "marker": "a",
@@ -880,10 +915,16 @@
           }
         },
         {
-          "tekst": "vaste voedsel",
+          "tekst": "voedsel",
           "voorkomen": 1,
           "strongs": [
             "G1033"
+          ],
+          "lemma_strongs": [
+            "G1033"
+          ],
+          "morfologie": [
+            "N-ASN"
           ],
           "bronwoorden": [
             "βρωμα"
@@ -894,26 +935,33 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 3:2",
-            "bronindices": [
-              4
-            ],
             "grondindices": [
               5
+            ],
+            "bronindices": [
+              4
             ]
           }
         },
         {
-          "tekst": "toen nog niet",
+          "tekst": "nog niet",
           "voorkomen": 1,
           "strongs": [
             "G3768"
+          ],
+          "lemma_strongs": [
+            "G3768"
+          ],
+          "morfologie": [
+            "ADV-N"
           ],
           "bronwoorden": [
             "ουπω"
@@ -924,17 +972,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 3:2",
-            "bronindices": [
+            "grondindices": [
               6
             ],
-            "grondindices": [
+            "bronindices": [
               6
             ]
           }
@@ -2542,7 +2591,7 @@
           "type": "explanatory",
           "textSV1888": "9 een iegelijk: Namelijk Zijner dienaren, wien Hij Zijne gaven verscheidenlijk uitdeelt. Zie 1 Kor. 12:4, enz. 1 Korinthiërs 12:4: En er is verscheidenheid der gaven, doch het is dezelfde Geest;",
           "text1637": "Namel. sijner dienaren, die hy sijne gaven verscheydelick uytdeelt. siet 1.Cor. 12.4, etc.",
-          "text2026": "9 een iedereen: Namelijk Zijn dienaren, wie Hij Zijn gaven verscheidenlijk uitdeelt. Zie 1 Kor. 12:4, enz. 1 Korinthiërs 12:4: En er is verscheidenheid van de gaven, maar het is dezelfde Geest;"
+          "text2026": "9 ieder: Namelijk van Zijn dienaren, aan wie Hij Zijn gaven verscheidenlijk uitdeelt. Zie 1 Kor. 12:4, enz. 1 Korinthiërs 12:4: En er is verscheidenheid van de gaven, maar het is dezelfde Geest;"
         },
         {
           "marker": "d",
@@ -3258,7 +3307,7 @@
           "type": "explanatory",
           "textSV1888": "10 Ik heb geplant: Dat is, den eersten grond der gemeente door mijne predikatie gelegd, gelijk hierna verklaard wordt, vers 10. 1 Korinthiërs 3:10: Naar de genade Gods, die mij gegeven is, heb ik als een wijs bouwmeester het fondament gelegd; en een ander bouwt daarop. Maar een iegelijk zie toe, hoe hij daarop bouwe.",
           "text1637": "D. den eersten grondt der Gemeynte voor mijne predicatie geleght, gelijck hier nae verklaert wordt vers 10.",
-          "text2026": "10 Ik heb geplant: Dat is, de eerste grond van de gemeente door mijne predikatie gelegd, gelijk hierna verklaard wordt, vers 10. 1 Korinthiërs 3:10: Naar de genade van God, die mij gegeven is, heb ik als een wijs bouwmeester het fondament gelegd; en een ander bouwt daarop. Maar een iedereen zie toe, hoe hij daarop bouwe."
+          "text2026": "10 Ik heb geplant: Dat is, de eerste grond van de gemeente door mijne predikatie gelegd, gelijk hierna verklaard wordt, vers 10. 1 Korinthiërs 3:10: Naar de genade van God, die mij gegeven is, heb ik als een wijs bouwmeester het fondament gelegd; en een ander bouwt daarop. Maar ieder zie toe, hoe hij daarop bouwe."
         },
         {
           "marker": "11",
@@ -3494,10 +3543,18 @@
           }
         },
         {
-          "tekst": "de",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -3508,17 +3565,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 3:6",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }
@@ -3596,7 +3654,7 @@
           "type": "explanatory",
           "textSV1888": "Te achten of te roemen; hetwelk alzo niet is te verstaan, alsof Paulus de dienaars wilde geacht hebben [want 1 Kor. 4:1 zal hij het tegendeel zeggen]; maar omdat niemand zich op de gaven der dienaren, wie zij ook zijn, alzo moet vergapen, dat hij hun de eer zou geven, die den oppersten auteur van dit werk toekomt; alzo het God is die hen stelt, die hun bekwame gaven geeft, en door hun arbeid krachtig is in de harten der mensen; vers 5, en 1 Kor. 12:6; Gal. 3:5. 1 Korinthiërs 4:1: Alzo houde ons een ieder mens, als dienaars van Christus, en uitdelers der verborgenheden Gods. 1 Korinthiërs 3:5: Wie is dan Paulus, en wie is Apollos, anders dan dienaars, door welke gij geloofd hebt, en dat, gelijk de Heere aan een iegelijk gegeven heeft? 1 Korinthiërs 12:6: En er is verscheidenheid der werkingen, doch het is dezelfde God, Die alles in allen werkt. Galaten 3:5: Die u dan den Geest verleent, en krachten onder u werkt, doet Hij dat uit de werken der wet, of uit de prediking des geloofs?",
           "text1637": "Te achten ofte te roemen: het welck also niet en is te verstaen, als of Paulus de dienaers wilde veracht hebben (want 1.Corinth. 4.1. sal hy het tegendeel seggen) maer om dat niemant hem op de gaven der dienaren, wie sy oock zijn, alsoo en moet vergapen, dat hy haer de eere soude geven, die den oppersten autheur van dit werck toekomt: alsoo het Godt is die haer stelt, die haer bequame gaven geeft, ende door haren arbeyt krachtigh is in de herten der menschen. 1.Cor. 3.5. ende 12.6. Gal. 3.5.",
-          "text2026": "Te achten of te roemen; dat zo niet is te verstaan, alsof Paulus de dienaren wilde geacht hebben [want 1 Kor. 4:1 zal hij het tegendeel zeggen]; maar omdat niemand zich op de gaven van de dienaren, wie zij ook zijn, zo moet vergapen, dat hij hun de eer zou geven, die de oppersten auteur van dit werk toekomt; zo het God is die hen stelt, die hun bekwame gaven geeft, en door hun arbeid krachtig is in de harten van de mensen; vers 5, en 1 Kor. 12:6; Gal. 3:5. 1 Korinthiërs 4:1: Zo houde ons een ieder mens, als dienaren van Christus, en uitdelers van de verborgenheden Gods. 1 Korinthiërs 3:5: Wie is dan Paulus, en wie is Apollos, anders dan dienaren, door welke u geloofd hebt, en dat, gelijk de Heer aan een iedereen gegeven heeft? 1 Korinthiërs 12:6: En er is verscheidenheid van de werkingen, maar het is dezelfde God, Die alles in allen werkt. Galaten 3:5: Die u dan de Geest verleent, en krachten onder u werkt, doet Hij dat uit de werken van de wet, of uit de prediking van het geloof?"
+          "text2026": "Te achten of te roemen; dat zo niet is te verstaan, alsof Paulus de dienaren wilde geacht hebben [want 1 Kor. 4:1 zal hij het tegendeel zeggen]; maar omdat niemand zich op de gaven van de dienaren, wie zij ook zijn, zo moet vergapen, dat hij hun de eer zou geven, die de opperste auteur van dit werk toekomt; zo het God is die hen stelt, die hun bekwame gaven geeft, en door hun arbeid krachtig is in de harten van de mensen; vers 5, en 1 Kor. 12:6; Gal. 3:5. 1 Korinthiërs 4:1: Zo houde ons een ieder mens, als dienaren van Christus, en uitdelers van de verborgenheden Gods. 1 Korinthiërs 3:5: Wie is dan Paulus, en wie is Apollos, anders dan dienaren, door welke u geloofd hebt, en dat, gelijk de Heer aan ieder gegeven heeft? 1 Korinthiërs 12:6: En er is verscheidenheid van de werkingen, maar het is dezelfde God, Die alles in allen werkt. Galaten 3:5: Die u dan de Geest verleent, en krachten onder u werkt, doet Hij dat uit de werken van de wet, of uit de prediking van het geloof?"
         }
       ],
       "grondtekst": [
@@ -4750,7 +4808,7 @@
           "type": "explanatory",
           "textSV1888": "17 Gods medearbeiders: Namelijk die onder God aan den bouw der gemeente medearbeiden als werktuigen, die God heeft geliefd daartoe te gebruiken, hoewel het voornaamste werk van Hem komt en de bekwaamheid dezer werktuigen ook zelfs van Hem komt; 2 Kor. 3:5, 3:6. 2 Korinthiërs 3:5: Niet dat wij van onszelven bekwaam zijn iets te denken, als uit onszelven; maar onze bekwaamheid is uit God; 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaars des Nieuwen Testaments, niet der letter, maar des Geestes; want de letter doodt, maar de Geest maakt levend.",
           "text1637": "Namel. die onder Godt aen den bouw der Gemeynte mede arbeyden als instrumenten, die Godt heeft gelieft daer toe te gebruycken, hoe wel het voornaemste werck van hem komt, ende de bequaemheydt deser instrumenten oock selfs van hem komt. 2.Corinth. 3. versen 5, 6.",
-          "text2026": "17 Gods medearbeiders: Namelijk die onder God aan de bouw van de gemeente medearbeiden als werktuigen, die God heeft geliefd daartoe te gebruiken, hoewel het voornaamste werk van Hem komt en de bekwaamheid van deze werktuigen ook zelfs van Hem komt; 2 Kor. 3:5, 3:6. 2 Korinthiërs 3:5: Niet dat wij van onszelven bekwaam zijn iets te denken, als uit onszelven; maar onze bekwaamheid is uit God; 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaren van de Nieuwen Testaments, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend."
+          "text2026": "17 Gods medearbeiders: Namelijk die onder God aan de bouw van de gemeente medearbeiden als werktuigen, die God heeft geliefd daartoe te gebruiken, hoewel het voornaamste werk van Hem komt en de bekwaamheid van deze werktuigen ook zelfs van Hem komt; 2 Kor. 3:5, 3:6. 2 Korinthiërs 3:5: Niet dat wij van onszelven bekwaam zijn iets te denken, als uit onszelven; maar onze bekwaamheid is uit God; 2 Korinthiërs 3:6: Die ons ook bekwaam gemaakt heeft, om te zijn dienaren van het Nieuwe Testament, niet van de letter, maar van de Geest; want de letter doodt, maar de Geest maakt levend."
         },
         {
           "marker": "18",
@@ -5145,21 +5203,21 @@
           "type": "explanatory",
           "textSV1888": "22 het fondament: Namelijk benevens de andere apostelen in het eerste oprichten van de gemeente van Christus door de gehele wereld, en ik als de eerste die uwe gemeente heb opgericht; Rom. 15:20; Ef. 2:20; Openb. 21:14. Romeinen 15:20: En alzo zeer begerig geweest ben om het Evangelie te verkondigen, niet waar Christus genoemd was, opdat ik niet op eens anders fondament zou bouwen; Efeziërs 2:20: Gebouwd op het fondament der apostelen en profeten, waarvan Jezus Christus is de uiterste Hoeksteen; Openbaring 21:14: En de muur der stad had twaalf fondamenten, en in dezelve de namen der twaalf apostelen des Lams.",
           "text1637": "Namel. benevens de andere Apostelen in het eerste oprechten van de Gemeynte Christi door de gheheele wereldt: ende ick als de eerste die uwe Gemeynte hebbe op-gerecht. Rom. 15.20. Ephes. 2.20. Apoc. 21.14.",
-          "text2026": "22 het fondament: Namelijk naast de andere apostelen in het eerste oprichten van de gemeente van Christus door de gehele wereld, en ik als de eerste die uwe gemeente heb opgericht; Rom. 15:20; Ef. 2:20; Openb. 21:14. Romeinen 15:20: En zo zeer begerig geweest ben om het Evangelie te verkondigen, niet waar Christus genoemd was, opdat ik niet op van een ander fondament zou bouwen; Efeziërs 2:20: Gebouwd op het fondament van de apostelen en profeten, waarvan Jezus Christus is de uiterste Hoeksteen; Openbaring 21:14: En de muur van de stad had twaalf fondamenten, en in dezelfde de namen van de twaalf apostelen van het Lam."
+          "text2026": "22 het fondament: Namelijk naast de andere apostelen in het eerste oprichten van de gemeente van Christus door de gehele wereld, en ik als de eerste die uwe gemeente heb opgericht; Rom. 15:20; Ef. 2:20; Openb. 21:14. Romeinen 15:20: En zo zeer begerig geweest ben om het Evangelie te verkondigen, niet waar Christus genoemd was, opdat ik niet op het fondament van een ander zou bouwen; Efeziërs 2:20: Gebouwd op het fondament van de apostelen en profeten, waarvan Jezus Christus is de uiterste Hoeksteen; Openbaring 21:14: En de muur van de stad had twaalf fondamenten, en daarin de namen van de twaalf apostelen van het Lam."
         },
         {
           "marker": "23",
           "type": "explanatory",
           "textSV1888": "23 een ander bouwt daarop: Dit zegt hij van de gewone dienaren, die na de apostelen in de opgerichte gemeenten zijn geroepen en gesteld, en op der apostelen werk voortgingen; Rom. 15:20. Romeinen 15:20: En alzo zeer begerig geweest ben om het Evangelie te verkondigen, niet waar Christus genoemd was, opdat ik niet op eens anders fondament zou bouwen;",
           "text1637": "Dit seght hy van de ordinarise Dienaren die nae de Apostelen in de opgerechte Gemeynten zijn geroepen ende gestelt, ende op der Apostelen werck voort gingen. Rom. 15.20.",
-          "text2026": "23 een ander bouwt daarop: Dit zegt hij van de gewone dienaren, die na de apostelen in de opgerichte gemeenten zijn geroepen en gesteld, en op van de apostelen werk voortgingen; Rom. 15:20. Romeinen 15:20: En zo zeer begerig geweest ben om het Evangelie te verkondigen, niet waar Christus genoemd was, opdat ik niet op van een ander fondament zou bouwen;"
+          "text2026": "23 een ander bouwt daarop: Dit zegt hij van de gewone dienaren, die na de apostelen in de opgerichte gemeenten zijn geroepen en gesteld, en op het werk van de apostelen voortgingen; Rom. 15:20. Romeinen 15:20: En zo zeer begerig geweest ben om het Evangelie te verkondigen, niet waar Christus genoemd was, opdat ik niet op het fondament van een ander zou bouwen;"
         },
         {
           "marker": "24",
           "type": "explanatory",
           "textSV1888": "24 hoe hij daarop bouwe: Sommigen verstaan dit van de personen, die door de leraars op het fondament gebouwd worden, gelijk het woord werk alzo genoemd wordt; 1 Kor. 9:1. Doch alzo de apostel hier zegt een iegelijk zie toe, hoe hij daarop bouwt, en niet, wien hij daarop bouwt, zo wordt dit gemeenlijk en bekwamelijker verstaan, dat de apostel hier de leraars wil vermanen, dat zij toezien welke leer zij op het fondament, dat de apostelen gelegd hebben, voorstellen tot versterking en vermeerdering der opgerichte gemeenten. 1 Korinthiërs 9:1: Ben ik niet een apostel? Ben ik niet vrij? Heb ik niet Jezus Christus, onzen Heere, gezien? Zijt gijlieden niet mijn werk in den Heere?",
           "text1637": "Sommige verstaen dit vande persoonen die door de Leeraers op ’t fondament gebouwt worden, gelijck het woort werck alsoo genomen wort. 1.Corinth. 9.1. Doch alsoo den Apostel hier seght een yegelick sie toe hoe hy daer op bouwt, ende niet, wie hy daer op bouwt, so wort dit gemeynlick ende bequamelicker verstaen, dat de Apostel hier de Leeraers wil vermanen, datse toesien wat leere sy op het fondament, dat de Apostelen geleght hebben, voorstellen tot versterckinge ende vermeerderinge der opgerechtte Gemeynten.",
-          "text2026": "24 hoe hij daarop bouwe: Sommigen verstaan dit van de personen, die door de leraars op het fondament gebouwd worden, gelijk het woord werk zo genoemd wordt; 1 Kor. 9:1. Maar zo de apostel hier zegt een iedereen zie toe, hoe hij daarop bouwt, en niet, wie hij daarop bouwt, zo wordt dit gemeenlijk en bekwamelijker verstaan, dat de apostel hier de leraars wil vermanen, dat zij toezien welke leer zij op het fondament, dat de apostelen gelegd hebben, voorstellen tot versterking en vermeerdering van de opgerichte gemeenten. 1 Korinthiërs 9:1: Ben ik niet een apostel? Ben ik niet vrij? Heb ik niet Jezus Christus, onze Heer, gezien? Zijt u niet mijn werk in de Heer?"
+          "text2026": "24 hoe hij daarop bouwe: Sommigen verstaan dit van de personen, die door de leraars op het fondament gebouwd worden, gelijk het woord werk zo genoemd wordt; 1 Kor. 9:1. Maar zo de apostel hier zegt ieder zie toe, hoe hij daarop bouwt, en niet, wie hij daarop bouwt, zo wordt dit gemeenlijk en bekwamelijker verstaan, dat de apostel hier de leraars wil vermanen, dat zij toezien welke leer zij op het fondament, dat de apostelen gelegd hebben, voorstellen tot versterking en vermeerdering van de opgerichte gemeenten. 1 Korinthiërs 9:1: Ben ik niet een apostel? Ben ik niet vrij? Heb ik niet Jezus Christus, onze Heer, gezien? Bent u niet mijn werk in de Heer?"
         }
       ],
       "grondtekst": [
@@ -5965,7 +6023,7 @@
           "type": "explanatory",
           "textSV1888": "26 hetwelk is: Christus wordt het fondament der gemeente genoemd, òf ten aanzien van hem zelven, waar de zaligheid der gemeente op steunt, omdat Hij als waarachtig God en mens ons de zaligheid heeft verworven, en dezelve door Zijnen Geest toeëigent; Matth. 16:18; 1 Petr. 2:6, òf ten aanzien van de leer, waardoor wij tot Hem als den enigen Zaligmaker worden gewezen en gebracht, en door het geloof in Hem ontvangen gerechtigheid, heiligheid en het eeuwige leven. Op deze leer ziet de apostel hier, en verklaart dat wij in de leer des Evangelies tot niemand anders mogen worden gewezen om zaligheid te vinden, dan tot zijn persoon en verdiensten. Zie Joh. 14:6; Hand. 4:12; Ef. 2:20. Mattheüs 16:18: En Ik zeg u ook, dat gij zijt Petrus, en op deze petra zal Ik Mijn gemeente bouwen, en de poorten der hel zullen dezelve niet overweldigen. 1 Petrus 2:6: Daarom is ook vervat in de Schrift: Ziet, Ik leg in Sion een uitersten Hoeksteen, Die uitverkoren en dierbaar is; en: Die in Hem gelooft, zal niet beschaamd worden. Johannes 14:6: Jezus zeide tot hem: Ik ben de Weg, en de Waarheid, en het Leven. Niemand komt tot den Vader, dan door Mij. Handelingen 4:12: En de zaligheid is in geen Anderen; want er is ook onder den hemel geen andere Naam, Die onder de mensen gegeven is, door Welken wij moeten zalig worden. Efeziërs 2:20: Gebouwd op het fondament der apostelen en profeten, waarvan Jezus Christus is de uiterste Hoeksteen;",
           "text1637": "Christus wort het fondament der Gemeynte genaemt, ofte ten aensien van hem selve, daer de saligheydt der Gemeynte op steunt, om dat hy als waerachtigh Godt ende mensche ons de saligheydt heeft verworven, ende de selve door sijnen Geest toe-eygent. Matth. 16.18. 1.Petr. 2.6. ofte, ten aensien van de leere, daer door wy tot hem als den eenigen salighmaker worden gewesen ende gebracht, ende door het geloove in hem ontfangen gerechtigheyt, heyligheyt, ende het eeuwige leven. Op dese leere siet den Apostel alhier, ende verklaert dat wy in de leere des Euangeliums tot niemant anders en mogen worden gewesen, om saligheyt te vinden, dan tot sijnen persoon ende verdiensten. Siet Ioan. 14.6. Actor. 4.12. Ephes. 2.20.",
-          "text2026": "26 dat is: Christus wordt het fondament van de gemeente genoemd, òf ten aanzien van hem zelven, waar de zaligheid van de gemeente op steunt, omdat Hij als waarachtig God en mens ons de zaligheid heeft verworven, en dezelfde door Zijn Geest toeëigent; Matt. 16:18; 1 Petr. 2:6, òf ten aanzien van de leer, waardoor wij tot Hem als de enige Zaligmaker worden gewezen en gebracht, en door het geloof in Hem ontvangen gerechtigheid, heiligheid en het eeuwige leven. Op deze leer ziet de apostel hier, en verklaart dat wij in de leer van het Evangelie tot niemand anders mogen worden gewezen om zaligheid te vinden, dan tot zijn persoon en verdiensten. Zie Joh. 14:6; Hand. 4:12; Ef. 2:20. Mattheüs 16:18: En Ik zeg u ook, dat u bent Petrus, en op deze petra zal Ik Mijn gemeente bouwen, en de poorten van de hel zullen dezelfde niet overweldigen. 1 Petrus 2:6: Daarom is ook vervat in de Schrift: Ziet, Ik leg in Sion een uitersten Hoeksteen, Die uitverkoren en dierbaar is; en: Die in Hem gelooft, zal niet beschaamd worden. Johannes 14:6: Jezus zei tot hem: Ik ben de Weg, en de Waarheid, en het Leven. Niemand komt tot de Vader, dan door Mij. Handelingen 4:12: En de zaligheid is in geen Anderen; want er is ook onder de hemel geen andere Naam, Die onder de mensen gegeven is, door Welke wij moeten zalig worden. Efeziërs 2:20: Gebouwd op het fondament van de apostelen en profeten, waarvan Jezus Christus is de uiterste Hoeksteen;"
+          "text2026": "26 dat is: Christus wordt het fondament van de gemeente genoemd, òf ten aanzien van hem zelven, waar de zaligheid van de gemeente op steunt, omdat Hij als waarachtig God en mens ons de zaligheid heeft verworven, en die door Zijn Geest toeëigent; Matt. 16:18; 1 Petr. 2:6, òf ten aanzien van de leer, waardoor wij tot Hem als de enige Zaligmaker worden gewezen en gebracht, en door het geloof in Hem ontvangen gerechtigheid, heiligheid en het eeuwige leven. Op deze leer ziet de apostel hier, en verklaart dat wij in de leer van het Evangelie tot niemand anders mogen worden gewezen om zaligheid te vinden, dan tot zijn persoon en verdiensten. Zie Joh. 14:6; Hand. 4:12; Ef. 2:20. Mattheüs 16:18: En Ik zeg u ook, dat u bent Petrus, en op deze petra zal Ik Mijn gemeente bouwen, en de poorten van de hel zullen haar niet overweldigen. 1 Petrus 2:6: Daarom is ook vervat in de Schrift: Ziet, Ik leg in Sion een uitersten Hoeksteen, Die uitverkoren en dierbaar is; en: Die in Hem gelooft, zal niet beschaamd worden. Johannes 14:6: Jezus zei tot hem: Ik ben de Weg, en de Waarheid, en het Leven. Niemand komt tot de Vader, dan door Mij. Handelingen 4:12: En de zaligheid is in geen Anderen; want er is ook onder de hemel geen andere Naam, Die onder de mensen gegeven is, door Welke wij moeten zalig worden. Efeziërs 2:20: Gebouwd op het fondament van de apostelen en profeten, waarvan Jezus Christus is de uiterste Hoeksteen;"
         },
         {
           "marker": "i",
@@ -7137,7 +7195,7 @@
           "type": "explanatory",
           "textSV1888": "34 vuur ontdekt: Door dit vuur kan hier niet verstaan worden een vagevuur, waardoor de mensen na dit leven van hunne zonden zouden gevaagd of gereinigd worden, overmits door dit vuur, waar Paulus hier van spreekt, niet alleen het werk, dat vergaat of verbrand wordt, maar ook dat blijft en beloond wordt, zal beproefd worden; maar wordt verstaan òf van het vuur des Heiligen Geestes, die door het licht van Gods Woord den vasten arbeid en trouwe leringen der leraren mettertijd ontdekt in de gemeente Gods, en die de onnodige of zonderlinge leer onderscheidt en doet verdwijnen; niet anders dan het goud door het vuur van zijne onreinheden wordt gezuiverd; Ps. 12:7; Jer. 23:29. Of, het vuur van vervolging, zwarigheid en verzoeking, waardoor de oprechte leer gelijk als beproefd wordt, omdat zij alsdan ons een vasten troost geeft, hetwelk de andere niet doen kan; Jak. 1:2; 1 Petr. 1:6, 1:7. Psalmen 12:7: De redenen des HEEREN zijn reine redenen, zilver, gelouterd in een aarden smeltkroes, gezuiverd zevenmaal. Jeremia 23:29: Is Mijn woord niet alzo, als een vuur? spreekt de HEERE, en als een hamer, die een steenrots te morzel slaat? Jakobus 1:2: Acht het voor grote vreugde, mijn broeders, wanneer gij in velerlei verzoekingen valt; 1 Petrus 1:6: In welke gij u verheugt, nu een weinig tijds (zo het nodig is) bedroefd zijnde door menigerlei verzoekingen; 1 Petrus 1:7: Opdat de beproeving uws geloofs, die veel kostelijker is dan van het goud, hetwelk vergaat en door het vuur beproefd wordt, bevonden worde te zijn tot lof, en eer, en heerlijkheid, in de openbaring van Jezus Christus;",
           "text1637": "Door dit vyer en kan hier niet verstaen worden een Vagevyer, waer door de menschen nae dit leven van hare sonden souden gevaeght ofte gereynight worden, overmits door dit vyer, daer Paulus hier van spreeckt, niet alleen het werck dat vergaet ofte verbrant wordt, maer oock dat blijft ende beloont wort, sal beproeft worden: maer wort verstaen ofte van het vyer des H. Geests, die door het licht van Godts woordt den vasten arbeyt ende trouwe leeringen der Leeraren metter tijt ontdeckt in de Gemeynte Godts, ende die de onnoodige ofte curieuse leere onderscheydt, ende doet verdwijnen: niet anders dan het gout door het vyer van sijne onreynigheden wordt gesuyvert. Psal. 12.7. Ierem. 22.29. Ofte, het vyer van vervolginghe, swarigheyt, ende versoeckinge, waer door de oprechte Leere ghelijck als beproeft wort, om datse alsdan ons eenen vasten troost geeft, het welck de andere niet doen en kan. Iac. 1.2. 1.Petr. 1. versen 6, 7.",
-          "text2026": "34 vuur ontdekt: Door dit vuur kan hier niet verstaan worden een vagevuur, waardoor de mensen na dit leven van hun zonden zouden gevaagd of gereinigd worden, omdat door dit vuur, waar Paulus hier van spreekt, niet alleen het werk, dat vergaat of verbrand wordt, maar ook dat blijft en beloond wordt, zal beproefd worden; maar wordt verstaan òf van het vuur van de Heilige Geest, die door het licht van Gods Woord de vasten arbeid en trouwe leringen van de leraren mettertijd ontdekt in de gemeente van God, en die de onnodige of zonderlinge leer onderscheidt en doet verdwijnen; niet anders dan het goud door het vuur van zijn onreinheden wordt gezuiverd; Ps. 12:7; Jer. 23:29. Of, het vuur van vervolging, zwarigheid en verzoeking, waardoor de oprechte leer gelijk als beproefd wordt, omdat zij alsdan ons een vasten troost geeft, dat de andere niet doen kan; Jak. 1:2; 1 Petr. 1:6, 1:7. Psalmen 12:7: De redenen van JAHWEH zijn reine redenen, zilver, gelouterd in een aarden smeltkroes, gezuiverd zevenmaal. Jeremia 23:29: Is Mijn woord niet zo, als een vuur? spreekt JAHWEH, en als een hamer, die een steenrots te morzel slaat? Jakobus 1:2: Acht het voor grote vreugde, mijn broeders, wanneer u in velerlei verzoekingen valt; 1 Petrus 1:6: In welke u u verheugt, nu een weinig tijds (zo het nodig is) bedroefd zijnde door menigerlei verzoekingen; 1 Petrus 1:7: Opdat de beproeving uws geloof, die veel kostelijker is dan van het goud, dat vergaat en door het vuur beproefd wordt, bevonden worde te zijn tot lof, en eer, en heerlijkheid, in de openbaring van Jezus Christus;"
+          "text2026": "34 vuur ontdekt: Door dit vuur kan hier niet verstaan worden een vagevuur, waardoor de mensen na dit leven van hun zonden zouden gevaagd of gereinigd worden, omdat door dit vuur, waar Paulus hier van spreekt, niet alleen het werk, dat vergaat of verbrand wordt, maar ook dat blijft en beloond wordt, zal beproefd worden; maar wordt verstaan òf van het vuur van de Heilige Geest, die door het licht van Gods Woord de vaste arbeid en trouwe leringen van de leraren mettertijd ontdekt in de gemeente van God, en die de onnodige of zonderlinge leer onderscheidt en doet verdwijnen; niet anders dan het goud door het vuur van zijn onreinheden wordt gezuiverd; Ps. 12:7; Jer. 23:29. Of, het vuur van vervolging, zwarigheid en verzoeking, waardoor de oprechte leer gelijk als beproefd wordt, omdat zij alsdan ons een vasten troost geeft, dat de andere niet doen kan; Jak. 1:2; 1 Petr. 1:6, 1:7. Psalmen 12:7: De redenen van JAHWEH zijn reine redenen, zilver, gelouterd in een aarden smeltkroes, gezuiverd zevenmaal. Jeremia 23:29: Is Mijn woord niet zo, als een vuur? spreekt JAHWEH, en als een hamer, die een steenrots te morzel slaat? Jakobus 1:2: Acht het voor grote vreugde, mijn broeders, wanneer u in velerlei verzoekingen valt; 1 Petrus 1:6: In welke u zich verheugt, nu een weinig tijds (zo het nodig is) bedroefd zijnde door menigerlei verzoekingen; 1 Petrus 1:7: Opdat de beproeving van uw geloof, die veel kostelijker is dan van het goud, dat vergaat en door het vuur beproefd wordt, bevonden worde te zijn tot lof, en eer, en heerlijkheid, in de openbaring van Jezus Christus;"
         },
         {
           "marker": "k",
@@ -7991,7 +8049,7 @@
           "type": "explanatory",
           "textSV1888": "36 loon ontvangen: Namelijk ten uitersten dage, uit genade, ook in het bijzonder over dit zijn werk; Dan. 12:3; 1 Kor. 15:41, 15:42. Daniël 12:3: De leraars nu zullen blinken, als de glans des uitspansels, en die er velen rechtvaardigen, gelijk de sterren, altoos en eeuwiglijk. 1 Korinthiërs 15:41: Een andere is de heerlijkheid der zon, en een andere is de heerlijkheid der maan, en een andere is de heerlijkheid der sterren; want de ene ster verschilt in heerlijkheid van de andere ster. 1 Korinthiërs 15:42: Alzo zal ook de opstanding der doden zijn. Het lichaam wordt gezaaid in verderfelijkheid, het wordt opgewekt in onverderfelijkheid;",
           "text1637": "N. ten uytersten daghe, uyt genade, oock in’t bysonder over dit zijn werck. Dan. 12.3. 1.Cor. 15. versen 41, 42.",
-          "text2026": "36 loon ontvangen: Namelijk ten uitersten dage, uit genade, ook in het bijzonder over dit zijn werk; Dan. 12:3; 1 Kor. 15:41, 15:42. Daniël 12:3: De leraars nu zullen blinken, als de glans van de uitspansels, en die er velen rechtvaardigen, gelijk de sterren, altijd en eeuwig. 1 Korinthiërs 15:41: Een andere is de heerlijkheid van de zon, en een andere is de heerlijkheid van de maan, en een andere is de heerlijkheid van de sterren; want de ene ster verschilt in heerlijkheid van de andere ster. 1 Korinthiërs 15:42: Zo zal ook de opstanding van de doden zijn. Het lichaam wordt gezaaid in verderfelijkheid, het wordt opgewekt in onverderfelijkheid;"
+          "text2026": "36 loon ontvangen: Namelijk ten uitersten dage, uit genade, ook in het bijzonder over dit zijn werk; Dan. 12:3; 1 Kor. 15:41, 15:42. Daniël 12:3: De leraars nu zullen blinken, als de glans van het uitspansel, en die er velen rechtvaardigen, gelijk de sterren, altijd en eeuwig. 1 Korinthiërs 15:41: Een andere is de heerlijkheid van de zon, en een andere is de heerlijkheid van de maan, en een andere is de heerlijkheid van de sterren; want de ene ster verschilt in heerlijkheid van de andere ster. 1 Korinthiërs 15:42: Zo zal ook de opstanding van de doden zijn. Het lichaam wordt gezaaid in verderfelijkheid, het wordt opgewekt in onverderfelijkheid;"
         }
       ],
       "grondtekst": [
@@ -10308,7 +10366,7 @@
           "type": "explanatory",
           "textSV1888": "47 wijs moge worden: Namelijk in God en in de zaken zijner zaligheid.",
           "text1637": "N. in Gode ende inde saecken sijner salicheyt.",
-          "text2026": "47 wijs mag worden: Namelijk in God en in de zaken zijn zaligheid."
+          "text2026": "47 wijs mag worden: Namelijk in God en in de zaken van zijn zaligheid."
         },
         {
           "marker": "m",
@@ -11851,7 +11909,7 @@
           "type": "explanatory",
           "textSV1888": "49 der wijzen: Dat is, wereldwijzen, gelijk voren. De tekst Ps. 94:11, heeft mensen, namelijk die op hunne wijsheid steunen. Psalmen 94:11: De HEERE weet de gedachten des mensen, dat zij ijdelheid zijn.",
           "text1637": "D. werelt-wijse, als voren. De text Psal. 94.11. heeft menschen, namelick die op hare wijsheyt steunen.",
-          "text2026": "49 van de wijzen: Dat is, wereldwijzen, gelijk voren. De tekst Ps. 94:11, heeft mensen, namelijk die op hun wijsheid steunen. Psalmen 94:11: De JAHWEH weet de gedachten van de mensen, dat zij ijdelheid zijn."
+          "text2026": "49 van de wijzen: Dat is, wereldwijzen, gelijk voren. De tekst Ps. 94:11, heeft mensen, namelijk die op hun wijsheid steunen. Psalmen 94:11: JAHWEH weet de gedachten van de mensen, dat zij ijdelheid zijn."
         },
         {
           "marker": "50",
@@ -13358,7 +13416,7 @@
           "type": "explanatory",
           "textSV1888": "54 is Gods: Namelijk des Vaders welgeliefde Zoon en Gezant, om ons tot de eeuwige erve met Hem te brengen. Zie 1 Kor. 11:3, en 1 Kor. 15:27, 15:28. 1 Korinthiërs 11:3: Doch ik wil, dat gij weet, dat Christus het Hoofd is eens iegelijken mans, en de man het hoofd der vrouw, en God het Hoofd van Christus. 1 Korinthiërs 15:27: Want Hij heeft alle dingen Zijn voeten onderworpen. Doch wanneer Hij zegt, dat Hem alle dingen onderworpen zijn, zo is het openbaar, dat Hij uitgenomen wordt, Die Hem alle dingen onderworpen heeft. 1 Korinthiërs 15:28: En wanneer Hem alle dingen zullen onderworpen zijn, dan zal ook de Zoon Zelf onderworpen worden Dien, Die Hem alle dingen onderworpen heeft, opdat God zij alles in allen.",
           "text1637": "N. des Vaders wel-geliefde Sone, ende Gesante, om ons tot de eeuwige erve met hem te brengen. Siet 1.Corinth. 11.3. ende 15. versen 27, 28.",
-          "text2026": "54 is Gods: Namelijk van de Vader welgeliefde Zoon en Gezant, om ons tot de eeuwige erve met Hem te brengen. Zie 1 Kor. 11:3, en 1 Kor. 15:27, 15:28. 1 Korinthiërs 11:3: Maar ik wil, dat u weet, dat Christus het Hoofd is eens iegelijken mans, en de man het hoofd van de vrouw, en God het Hoofd van Christus. 1 Korinthiërs 15:27: Want Hij heeft alle dingen Zijn voeten onderworpen. Maar wanneer Hij zegt, dat Hem alle dingen onderworpen zijn, zo is het openbaar, dat Hij uitgenomen wordt, Die Hem alle dingen onderworpen heeft. 1 Korinthiërs 15:28: En wanneer Hem alle dingen zullen onderworpen zijn, dan zal ook de Zoon Zelf onderworpen worden Die, Die Hem alle dingen onderworpen heeft, opdat God zij alles in allen."
+          "text2026": "54 is Gods: Namelijk de welgeliefde Zoon en Gezant van de Vader, om ons tot de eeuwige erve met Hem te brengen. Zie 1 Kor. 11:3, en 1 Kor. 15:27, 15:28. 1 Korinthiërs 11:3: Maar ik wil, dat u weet, dat Christus het Hoofd is eens iegelijken mans, en de man het hoofd van de vrouw, en God het Hoofd van Christus. 1 Korinthiërs 15:27: Want Hij heeft alle dingen Zijn voeten onderworpen. Maar wanneer Hij zegt, dat Hem alle dingen onderworpen zijn, zo is het openbaar, dat Hij uitgenomen wordt, Die Hem alle dingen onderworpen heeft. 1 Korinthiërs 15:28: En wanneer Hem alle dingen zullen onderworpen zijn, dan zal ook de Zoon Zelf onderworpen worden Die, Die Hem alle dingen onderworpen heeft, opdat God zij alles in allen."
         }
       ],
       "grondtekst": [

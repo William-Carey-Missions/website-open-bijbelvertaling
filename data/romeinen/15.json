@@ -613,7 +613,7 @@
           "type": "explanatory",
           "textSV1888": "ten goede: Of, in het goede; dat is, in zaken die niet kwaad zijn of tot goed voordeel en zaligheid des naasten.",
           "text1637": "Ofte, in ’t goede. D. in saecken die niet quaet zijn: ofte tot goet, voordeel, ende salicheyt des naesten.",
-          "text2026": "ten goede: Of, in het goede; dat is, in zaken die niet kwaad zijn of tot goed voordeel en zaligheid van de naasten."
+          "text2026": "ten goede: Of, in het goede; dat is, in zaken die niet kwaad zijn of tot goed voordeel en zaligheid van de naaste."
         },
         {
           "marker": "11",
@@ -885,28 +885,43 @@
           "tekst": "ten",
           "voorkomen": 1,
           "strongs": [
-            "G1519"
+            "G1519",
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G1519",
+            "G3588"
+          ],
+          "morfologie": [
+            "PREP",
+            "T-ASN"
           ],
           "bronwoorden": [
-            "εις"
+            "εις",
+            "το"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:2",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
+              6,
+              7
+            ],
+            "bronindices": [
+              5,
               6
             ]
           }
@@ -915,35 +930,36 @@
           "tekst": "goede",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
             "G18"
           ],
+          "lemma_strongs": [
+            "G18"
+          ],
+          "morfologie": [
+            "A-ASN"
+          ],
           "bronwoorden": [
-            "το",
             "αγαθον"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:2",
-            "bronindices": [
-              6,
-              7
-            ],
             "grondindices": [
-              7,
               8
+            ],
+            "bronindices": [
+              7
             ]
           }
         },
@@ -1027,7 +1043,7 @@
           "type": "explanatory",
           "textSV1888": "Zichzelven niet behaagd: Dat is, niet gezocht zijn gemak, eer of voordeel; Matth. 20:28 . Mattheüs 20:28 : Gelijk de Zoon des mensen niet is gekomen om gediend te worden, maar om te dienen, en Zijn ziel te geven tot een rantsoen voor velen.",
           "text1637": "D. niet gesocht sijn gemack, eere, ofte profijt. Matth. 20.28.",
-          "text2026": "Zichzelven niet behaagd: Dat is, niet gezocht zijn gemak, eer of voordeel; Matt. 20:28 . Mattheüs 20:28 : Gelijk de Zoon van de mensen niet is gekomen om gediend te worden, maar om te dienen, en Zijn ziel te geven tot een rantsoen voor velen."
+          "text2026": "Zichzelven niet behaagd: Dat is, niet gezocht zijn gemak, eer of voordeel; Matt. 20:28 . Mattheüs 20:28 : Gelijk de Zoon des mensen niet is gekomen om gediend te worden, maar om te dienen, en Zijn ziel te geven tot een rantsoen voor velen."
         },
         {
           "marker": "14",
@@ -1055,7 +1071,7 @@
           "type": "explanatory",
           "textSV1888": "zijn op Mij gevallen: Dat is, heb Ik op mij genomen, of zijn mij opgelegd, om die te boeten. David spreekt hier als een voorbeeld van den Messias en van Hem profeterende, die onze zonden op Zich genomen heeft om voor dezelve te betalen; Jes. 53:4 , 53:5 ; 2 Kor. 5:21 . Dewijl dan daaruit blijkt dat Christus niet Zijn gemak en voordeel heeft gezocht, maar het onze, en zoveel om onzentwil gedaan heeft, zo behoren wij insgelijks te zoeken het beste van onzen naaste, en alles te doen wat tot zijne zaligheid dienstig is. Zie Filipp. 2:5 , 2:6 , 2:7 , 2:8 ; 1 Joh. 3:16 . Jesaja 53:4 : Waarlijk, Hij heeft onze krankheden op Zich genomen, en onze smarten heeft Hij gedragen; doch wij achtten Hem, dat Hij geplaagd, van God geslagen en verdrukt was. Jesaja 53:5 : Maar Hij is om onze overtredingen verwond, om onze ongerechtigheden is Hij verbrijzeld; de straf, die ons den vrede aanbrengt, was op Hem, en door Zijn striemen is ons genezing geworden. 2 Korinthiërs 5:21 : Want Dien, Die geen zonde gekend heeft, heeft Hij zonde voor ons gemaakt, opdat wij zouden worden rechtvaardigheid Gods in Hem. Filippensen 2:5 : Want dat gevoelen zij in u, hetwelk ook in Christus Jezus was; Filippensen 2:6 : Die in de gestaltenis Gods zijnde, geen roof geacht heeft Gode even gelijk te zijn; Filippensen 2:7 : Maar heeft Zichzelven vernietigd, de gestaltenis eens dienstknechts aangenomen hebbende, en is den mensen gelijk geworden; Filippensen 2:8 : En in gedaante gevonden als een mens, heeft Hij Zichzelven vernederd, gehoorzaam geworden zijnde tot den dood, ja, den dood des kruises. 1 Johannes 3:16 : Hieraan hebben wij de liefde gekend, dat Hij Zijn leven voor ons gesteld heeft; en wij zijn schuldig voor de broeders het leven te stellen.",
           "text1637": "D. hebbe ick op my genomen, ofte zijn my opgeleght, om die te boeten. David spreeckt hier als een voorbeelt van den Messias, ende van hem propheterende, die onse sonden op hem genomen heeft om voor de selve te betalen. Iesa. 53. versen 4, 5. 2.Cor. 5.21. Dewijle dan daer uyt blijckt dat Christus niet sijn gemack ende voordeel en heeft gesocht, maer het onse, ende so veel om onsent wille gedaen heeft, soo behooren wy insgelijcks te soecken ’t beste onses naesten, ende alles te doen dat tot sijne salicheyt dienstich is. Siet Phil. 2. versen 5, 6, 7, 8. 1.Ioan. 3.16.",
-          "text2026": "zijn op Mij gevallen: Dat is, heb Ik op mij genomen, of zijn mij opgelegd, om die te boeten. David spreekt hier als een voorbeeld van de Messias en van Hem profeterende, die onze zonden op Zich genomen heeft om voor dezelfde te betalen; Jes. 53:4 , 53:5 ; 2 Kor. 5:21 . Omdat dan daaruit blijkt dat Christus niet Zijn gemak en voordeel heeft gezocht, maar het onze, en zoveel om onzentwil gedaan heeft, zo behoren wij ook te zoeken het beste van onze naaste, en alles te doen wat tot zijn zaligheid dienstig is. Zie Fil. 2:5 , 2:6 , 2:7 , 2:8 ; 1 Joh. 3:16 . Jesaja 53:4 : Waarlijk, Hij heeft onze ziekten op Zich genomen, en onze smarten heeft Hij gedragen; maar wij achtten Hem, dat Hij geplaagd, van God geslagen en verdrukt was. Jesaja 53:5 : Maar Hij is om onze overtredingen verwond, om onze ongerechtigheden is Hij verbrijzeld; de straf, die ons de vrede aanbrengt, was op Hem, en door Zijn striemen is ons genezing geworden. 2 Korinthiërs 5:21 : Want Die, Die geen zonde gekend heeft, heeft Hij zonde voor ons gemaakt, opdat wij zouden worden rechtvaardigheid van God in Hem. Filippenzen 2:5 : Want dat gevoelen zij in u, dat ook in Christus Jezus was; Filippenzen 2:6 : Die in de gestalte van God zijnde, geen roof geacht heeft voor God even gelijk te zijn; Filippenzen 2:7 : Maar heeft Zichzelven vernietigd, de gestalte van een dienaar aangenomen hebbende, en is de mensen gelijk geworden; Filippenzen 2:8 : En in gedaante gevonden als een mens, heeft Hij Zichzelven vernederd, gehoorzaam geworden zijnde tot de dood, ja, de dood van het kruis. 1 Johannes 3:16 : Hieraan hebben wij de liefde gekend, dat Hij Zijn leven voor ons gesteld heeft; en wij zijn schuldig voor de broeders het leven te stellen."
+          "text2026": "zijn op Mij gevallen: Dat is, heb Ik op mij genomen, of zijn mij opgelegd, om die te boeten. David spreekt hier als een voorbeeld van de Messias en van Hem profeterende, die onze zonden op Zich genomen heeft om daarvoor te betalen; Jes. 53:4 , 53:5 ; 2 Kor. 5:21 . Omdat dan daaruit blijkt dat Christus niet Zijn gemak en voordeel heeft gezocht, maar het onze, en zoveel om onzentwil gedaan heeft, zo behoren wij ook te zoeken het beste van onze naaste, en alles te doen wat tot zijn zaligheid dienstig is. Zie Fil. 2:5 , 2:6 , 2:7 , 2:8 ; 1 Joh. 3:16 . Jesaja 53:4 : Waarlijk, Hij heeft onze ziekten op Zich genomen, en onze smarten heeft Hij gedragen; maar wij achtten Hem, dat Hij geplaagd, van God geslagen en verdrukt was. Jesaja 53:5 : Maar Hij is om onze overtredingen verwond, om onze ongerechtigheden is Hij verbrijzeld; de straf, die ons de vrede aanbrengt, was op Hem, en door Zijn striemen is ons genezing geworden. 2 Korinthiërs 5:21 : Want Die, Die geen zonde gekend heeft, heeft Hij zonde voor ons gemaakt, opdat wij zouden worden rechtvaardigheid van God in Hem. Filippenzen 2:5 : Want dat gevoelen zij in u, dat ook in Christus Jezus was; Filippenzen 2:6 : Die in de gestalte van God zijnde, geen roof geacht heeft voor God even gelijk te zijn; Filippenzen 2:7 : Maar heeft Zichzelven vernietigd, de gestalte van een dienaar aangenomen hebbende, en is de mensen gelijk geworden; Filippenzen 2:8 : En in gedaante gevonden als een mens, heeft Hij Zichzelven vernederd, gehoorzaam geworden zijnde tot de dood, ja, de dood van het kruis. 1 Johannes 3:16 : Hieraan hebben wij de liefde gekend, dat Hij Zijn leven voor ons gesteld heeft; en wij zijn schuldig voor de broeders het leven te stellen."
         }
       ],
       "grondtekst": [
@@ -1757,14 +1773,14 @@
           "type": "explanatory",
           "textSV1888": "te voren geschreven is: Namelijk in de Schriften des Ouden Testaments; hetwelk nu ook gezegd kan worden van de Schriften des Nieuwen.",
           "text1637": "N. in de Schriften des Ouden Testaments: ’t welck nu oock gesegt kan worden van de Schriften des Nieuwen.",
-          "text2026": "te voren geschreven is: Namelijk in de Schriften van de Ouden Testaments; dat nu ook gezegd kan worden van de Schriften van de Nieuwen."
+          "text2026": "te voren geschreven is: Namelijk in de Schriften van het Oude Testament; dat nu ook gezegd kan worden van de Schriften van het Nieuwe."
         },
         {
           "marker": "18",
           "type": "explanatory",
           "textSV1888": "lering te voren geschreven: Of, onderwijzing; namelijk in zaken, die onze eeuwige zaligheid aangaan. Zie Joh. 5:39 ; 2 Tim. 3:15 , 3:16 . Johannes 5:39 : Onderzoekt de Schriften; want gij meent in dezelve het eeuwige leven te hebben; en die zijn het, die van Mij getuigen. 2 Timotheüs 3:15 : En dat gij van kinds af de heilige Schriften geweten hebt, die u wijs kunnen maken tot zaligheid, door het geloof, hetwelk in Christus Jezus is. 2 Timotheüs 3:16 : Al de Schrift is van God ingegeven, en is nuttig tot lering, tot wederlegging, tot verbetering, tot onderwijzing, die in de rechtvaardigheid is;",
           "text1637": "Ofte, onderwijsinge, Nam. in saken die onse eeuwige salicheyt aengaen. siet Ioan. 5.39. 2.Tim. 3. versen 15, 16.",
-          "text2026": "lering te voren geschreven: Of, onderwijzing; namelijk in zaken, die onze eeuwige zaligheid aangaan. Zie Joh. 5:39 ; 2 Tim. 3:15 , 3:16 . Johannes 5:39 : Onderzoekt de Schriften; want u meent in dezelfde het eeuwige leven te hebben; en die zijn het, die van Mij getuigen. 2 Timotheüs 3:15 : En dat u van kinds af de heilige Schriften geweten hebt, die u wijs kunnen maken tot zaligheid, door het geloof, dat in Christus Jezus is. 2 Timotheüs 3:16 : Al de Schrift is van God ingegeven, en is nuttig tot lering, tot weerlegging, tot verbetering, tot onderwijzing, die in de rechtvaardigheid is;"
+          "text2026": "lering te voren geschreven: Of, onderwijzing; namelijk in zaken, die onze eeuwige zaligheid aangaan. Zie Joh. 5:39 ; 2 Tim. 3:15 , 3:16 . Johannes 5:39 : Onderzoekt de Schriften; want u meent daarin het eeuwige leven te hebben; en die zijn het, die van Mij getuigen. 2 Timotheüs 3:15 : En dat u van kinds af de heilige Schriften geweten hebt, die u wijs kunnen maken tot zaligheid, door het geloof, dat in Christus Jezus is. 2 Timotheüs 3:16 : Al de Schrift is van God ingegeven, en is nuttig tot lering, tot weerlegging, tot verbetering, tot onderwijzing, die in de rechtvaardigheid is;"
         },
         {
           "marker": "19",
@@ -2562,7 +2578,7 @@
           "type": "explanatory",
           "textSV1888": "der lijdzaamheid: Die dezelve in ons werkt, door het middel van de Heilige Schrift, vers 4 . Romeinen 15:4 : Want al wat te voren geschreven is, dat is tot onze lering te voren geschreven, opdat wij, door lijdzaamheid en vertroosting der Schriften, hoop hebben zouden.",
           "text1637": "Die de selve in ons werckt, door het middel van de H. Schriftuere. vers 4.",
-          "text2026": "van de volharding: Die dezelfde in ons werkt, door het middel van de Heilige Schrift, vers 4 . Romeinen 15:4 : Want al wat te voren geschreven is, dat is tot onze lering te voren geschreven, opdat wij, door volharding en vertroosting van de Schriften, hoop hebben zouden."
+          "text2026": "van de volharding: Die deze in ons werkt, door het middel van de Heilige Schrift, vers 4 . Romeinen 15:4 : Want al wat te voren geschreven is, dat is tot onze lering te voren geschreven, opdat wij, door volharding en vertroosting van de Schriften, hoop hebben zouden."
         },
         {
           "marker": "d",
@@ -3292,7 +3308,7 @@
           "type": "explanatory",
           "textSV1888": "en Vader van onzen Heere Jezus Christus: Dat is, God, die daar is de Vader onzes Heeren Jezus Christus; Ef. 1:3 , 1:17 . Efeziërs 1:3 : Gezegend zij de God en Vader van onzen Heere Jezus Christus, Die ons gezegend heeft met alle geestelijke zegening in den hemel in Christus. Efeziërs 1:17 : Opdat de God van onzen Heere Jezus Christus, de Vader der heerlijkheid, u geve den Geest der wijsheid en der openbaring in Zijn kennis;",
           "text1637": "D. Godt, die daer is de Vader onses Heeren Iesu Christi. Ephes. 1.3, 17.",
-          "text2026": "en Vader van onze Heer Jezus Christus: Dat is, God, die daar is de Vader onzes Heern Jezus Christus; Ef. 1:3 , 1:17 . Efeziërs 1:3 : Gezegend zij de God en Vader van onze Heer Jezus Christus, Die ons gezegend heeft met alle geestelijke zegening in de hemel in Christus. Efeziërs 1:17 : Opdat de God van onze Heer Jezus Christus, de Vader van de heerlijkheid, u geve de Geest van de wijsheid en van de openbaring in Zijn kennis;"
+          "text2026": "en Vader van onze Heer Jezus Christus: Dat is, God, die daar is de Vader onzes Heeren Jezus Christus; Ef. 1:3 , 1:17 . Efeziërs 1:3 : Gezegend zij de God en Vader van onze Heer Jezus Christus, Die ons gezegend heeft met alle geestelijke zegening in de hemel in Christus. Efeziërs 1:17 : Opdat de God van onze Heer Jezus Christus, de Vader van de heerlijkheid, u geve de Geest van de wijsheid en van de openbaring in Zijn kennis;"
         }
       ],
       "grondtekst": [
@@ -4398,7 +4414,7 @@
           "type": "explanatory",
           "textSV1888": "een dienaar geworden is: Dat is, der Joden, die besneden zijn, Rom. 4:12 , dien Hij, zijnde de Heere over allen, als een dienaar, den weg der zaligheid heeft verkondigd, en onder hen alleen zijn dienst bedient; Matth. 15:24 , en Matth. 20:28 . Romeinen 4:12 : En een vader der besnijdenis, dengenen namelijk, die niet alleen uit de besnijdenis zijn, maar die ook wandelen in de voetstappen des geloofs van onzen vader Abraham, hetwelk in de voorhuid was. Mattheüs 15:24 : Maar Hij, antwoordende, zeide: Ik ben niet gezonden, dan tot de verloren schapen van het huis Israëls. Mattheüs 20:28 : Gelijk de Zoon des mensen niet is gekomen om gediend te worden, maar om te dienen, en Zijn ziel te geven tot een rantsoen voor velen.",
           "text1637": "D. der Ioden, die besneden zijn. Rom. 4.12. dien hy, zijnde de Heere over alle, als een dienaer, den wegh der saligheyt heeft verkondight, ende onder haer alleen sijnen dienst bedient. Mat. 15.24. ende 20.28.",
-          "text2026": "een dienaar geworden is: Dat is, van de Joden, die besneden zijn, Rom. 4:12 , die Hij, zijnde de Heer over allen, als een dienaar, de weg van de zaligheid heeft verkondigd, en onder hen alleen zijn dienst bedient; Matt. 15:24 , en Matt. 20:28 . Romeinen 4:12 : En een vader van de besnijdenis, dengenen namelijk, die niet alleen uit de besnijdenis zijn, maar die ook wandelen in de voetstappen van het geloof van onze vader Abraham, dat in de voorhuid was. Mattheüs 15:24 : Maar Hij, antwoordende, zei: Ik ben niet gezonden, dan tot de verloren schapen van het huis van Israël. Mattheüs 20:28 : Gelijk de Zoon van de mensen niet is gekomen om gediend te worden, maar om te dienen, en Zijn ziel te geven tot een rantsoen voor velen."
+          "text2026": "een dienaar geworden is: Dat is, van de Joden, die besneden zijn, Rom. 4:12 , die Hij, zijnde de Heer over allen, als een dienaar, de weg van de zaligheid heeft verkondigd, en onder hen alleen zijn dienst bedient; Matt. 15:24 , en Matt. 20:28 . Romeinen 4:12 : En een vader van de besnijdenis, dengenen namelijk, die niet alleen uit de besnijdenis zijn, maar die ook wandelen in de voetstappen van het geloof van onze vader Abraham, dat in de voorhuid was. Mattheüs 15:24 : Maar Hij, antwoordende, zei: Ik ben niet gezonden, dan tot de verloren schapen van het huis van Israël. Mattheüs 20:28 : Gelijk de Zoon des mensen niet is gekomen om gediend te worden, maar om te dienen, en Zijn ziel te geven tot een rantsoen voor velen."
         },
         {
           "marker": "33",
@@ -4868,10 +4884,16 @@
           }
         },
         {
-          "tekst": "Hij",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
             "το"
@@ -4882,18 +4904,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:8",
-            "bronindices": [
-              10
-            ],
             "grondindices": [
               11
+            ],
+            "bronindices": [
+              10
             ]
           }
         },
@@ -5074,7 +5097,7 @@
           "type": "explanatory",
           "textSV1888": "Dat is, tot de kennis van den waren God en tot het geloof gebracht zijnde, Hem zouden danken, eren en dienen, en eindelijk Zijne heerlijkheid mede deelachtig worden.",
           "text1637": "D. tot de kennisse des waren Godts ende tot het geloove gebracht zijnde, hem souden dancken, eeren, ende dienen, ende eyndelick sijner heerlickheyt mede deelachtigh worden.",
-          "text2026": "Dat is, tot de kennis van de waren God en tot het geloof gebracht zijnde, Hem zouden danken, eren en dienen, en eindelijk Zijn heerlijkheid mee deelachtig worden."
+          "text2026": "Dat is, tot de kennis van de ware God en tot het geloof gebracht zijnde, Hem zouden danken, eren en dienen, en eindelijk Zijn heerlijkheid mee deelachtig worden."
         },
         {
           "marker": "38",
@@ -7441,7 +7464,7 @@
           "type": "explanatory",
           "textSV1888": "der hoop vervulle ulieden: Dat is, op wien men hopen moet; 1 Tim. 6:17 , en die de hoop in ons werkt door Zijne beloften en geest; 1 Petr. 1:3 . 1 Timotheüs 6:17 : Beveel den rijken in deze tegenwoordige wereld, dat zij niet hoogmoedig zijn, noch hun hoop stellen op de ongestadigheid des rijkdoms, maar op den levenden God, Die ons alle dingen rijkelijk verleent, om te genieten; 1 Petrus 1:3 : Geloofd zij de God en Vader van onzen Heere Jezus Christus, Die naar Zijn grote barmhartigheid ons heeft wedergeboren, tot een levende hoop, door de opstanding van Jezus Christus uit de doden.",
           "text1637": "D. op wien men hopen moet: 1.Timoth. 6.17. ende die de hope in ons werckt door sijne beloften ende Geest. 1.Petr. 1.3.",
-          "text2026": "van de hoop vervulle u: Dat is, op wie men hopen moet; 1 Tim. 6:17 , en die de hoop in ons werkt door Zijn beloften en geest; 1 Petr. 1:3 . 1 Timotheüs 6:17 : Beveel de rijken in deze tegenwoordige wereld, dat zij niet hoogmoedig zijn, noch hun hoop stellen op de ongestadigheid van de rijkdoms, maar op de levenden God, Die ons alle dingen rijk verleent, om te genieten; 1 Petrus 1:3 : Geloofd zij de God en Vader van onze Heer Jezus Christus, Die naar Zijn grote barmhartigheid ons heeft wedergeboren, tot een levende hoop, door de opstanding van Jezus Christus uit de doden."
+          "text2026": "van de hoop vervulle u: Dat is, op wie men hopen moet; 1 Tim. 6:17 , en die de hoop in ons werkt door Zijn beloften en geest; 1 Petr. 1:3 . 1 Timotheüs 6:17 : Beveel de rijken in deze tegenwoordige wereld, dat zij niet hoogmoedig zijn, noch hun hoop stellen op de ongestadigheid van de rijkdom, maar op de levende God, Die ons alle dingen rijk verleent, om te genieten; 1 Petrus 1:3 : Geloofd zij de God en Vader van onze Heer Jezus Christus, Die naar Zijn grote barmhartigheid ons heeft wedergeboren, tot een levende hoop, door de opstanding van Jezus Christus uit de doden."
         },
         {
           "marker": "40",
@@ -7462,7 +7485,7 @@
           "type": "explanatory",
           "textSV1888": "door de kracht des Heiligen Geestes: Grieks, in de kracht des Heiligen Geestes (ἅγιος); die nu deze geestelijke gaven en deugden door Zijne kracht in de mensen werkt; 1 Kor. 12:6 , 12:11 . 1 Korinthiërs 12:6 : En er is verscheidenheid der werkingen, doch het is dezelfde God, Die alles in allen werkt. 1 Korinthiërs 12:11 : Doch deze dingen alle werkt een en dezelfde Geest, delende aan een iegelijk in het bijzonder, gelijkerwijs Hij wil.",
           "text1637": "Gr. in de kracht des Heyligen Geests, die nu dese geestelicke gaven ende deugden door sijne kracht in de menschen werckt. 1.Corint. 12. versen 6, 11.",
-          "text2026": "door de kracht van de Heiligen Geestes: Grieks, in de kracht van de Heiligen Geestes (ἅγιος); die nu deze geestelijke gaven en deugden door Zijn kracht in de mensen werkt; 1 Kor. 12:6 , 12:11 . 1 Korinthiërs 12:6 : En er is verscheidenheid van de werkingen, maar het is dezelfde God, Die alles in allen werkt. 1 Korinthiërs 12:11 : Maar deze dingen alle werkt een en dezelfde Geest, delende aan een iedereen in het bijzonder, zoals Hij wil."
+          "text2026": "door de kracht van de Heilige Geest: Grieks, in de kracht van de Heilige Geest (ἅγιος); die nu deze geestelijke gaven en deugden door Zijn kracht in de mensen werkt; 1 Kor. 12:6 , 12:11 . 1 Korinthiërs 12:6 : En er is verscheidenheid van de werkingen, maar het is dezelfde God, Die alles in allen werkt. 1 Korinthiërs 12:11 : Maar deze dingen alle werkt een en dezelfde Geest, delende aan een iedereen in het bijzonder, zoals Hij wil."
         }
       ],
       "grondtekst": [
@@ -8132,10 +8155,16 @@
           "toelichting": "Het infinitief-lidwoord is niet afzonderlijk in de Nederlandse tekst weergegeven."
         },
         {
-          "tekst": "overvloedig mag zijn",
+          "tekst": "overvloedig",
           "voorkomen": 1,
           "strongs": [
             "G4052"
+          ],
+          "lemma_strongs": [
+            "G4052"
+          ],
+          "morfologie": [
+            "V-PAN"
           ],
           "bronwoorden": [
             "περισσευειν"
@@ -8146,18 +8175,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:13",
-            "bronindices": [
-              17
-            ],
             "grondindices": [
               16
+            ],
+            "bronindices": [
+              17
             ]
           }
         },
@@ -9295,14 +9325,14 @@
           "type": "explanatory",
           "textSV1888": "indachtig makende: Dat is, opdat gij op deze dingen, die gijzelf wel weet, en niet wel in het werk stelt, met ernst zoudt denken en dezelve betrachten.",
           "text1637": "D. op dat ghy op dese dingen, die ghy selve wel weet, ende niet wel in het werck en stelt, met ernst soudet dencken, ende de selve betrachten.",
-          "text2026": "indachtig makende: Dat is, opdat u op deze dingen, die gijzelf wel weet, en niet wel in het werk stelt, met ernst zoudt denken en dezelfde betrachten."
+          "text2026": "indachtig makende: Dat is, opdat u op deze dingen, die gijzelf wel weet, en niet wel in het werk stelt, met ernst zoudt denken en die betrachten."
         },
         {
           "marker": "50",
           "type": "explanatory",
           "textSV1888": "om de genade: Namelijk des apostelschaps, Rom. 1:5 , dat is, omdat ik van God daartoe gesteld en geroepen ben, en ik mij in mijn ambt getrouw moet kwijten; zie vers 16 . Of, door de genade. Romeinen 1:5 : (Door Welken wij hebben ontvangen genade en het apostelschap, tot gehoorzaamheid des geloofs onder al de heidenen, voor Zijn Naam; Romeinen 15:16 : Opdat ik een dienaar van Jezus Christus zij onder de heidenen, het Evangelie van God bedienende, opdat de offerande der heidenen aangenaam worde, geheiligd door den Heiligen Geest.",
           "text1637": "Namel. des Apostelschaps. Rom. 1.5. dat is, om dat ick van Godt daer toe gestelt ende beroepen ben, ende ick my in mijn ampt getrouwelick moet quijten. Siet het volgende vers Ofte, door de genade.",
-          "text2026": "om de genade: Namelijk van de apostelschaps, Rom. 1:5 , dat is, omdat ik van God daartoe gesteld en geroepen ben, en ik mij in mijn ambt getrouw moet kwijten; zie vers 16 . Of, door de genade. Romeinen 1:5 : (Door Welke wij hebben ontvangen genade en het apostelschap, tot gehoorzaamheid van het geloof onder al de heidenen, voor Zijn Naam; Romeinen 15:16 : Opdat ik een dienaar van Jezus Christus zij onder de heidenen, het Evangelie van God bedienende, opdat de offerande van de heidenen aangenaam worde, geheiligd door de Heilige Geest."
+          "text2026": "om de genade: Namelijk van het apostelschap, Rom. 1:5 , dat is, omdat ik van God daartoe gesteld en geroepen ben, en ik mij in mijn ambt getrouw moet kwijten; zie vers 16 . Of, door de genade. Romeinen 1:5 : (Door Welke wij hebben ontvangen genade en het apostelschap, tot gehoorzaamheid van het geloof onder al de heidenen, voor Zijn Naam; Romeinen 15:16 : Opdat ik een dienaar van Jezus Christus zij onder de heidenen, het Evangelie van God bedienende, opdat de offerande van de heidenen aangenaam worde, geheiligd door de Heilige Geest."
         }
       ],
       "grondtekst": [
@@ -9998,7 +10028,7 @@
           "type": "explanatory",
           "textSV1888": "een dienaar van Jezus Christus: Grieks, leitourgos (λειτουργὸν). Zie van dit woord Hand. 13:2 ; Rom. 13:6 ; Hebr. 8:2 . Handelingen 13:2 : En als zij den Heere dienden, en vastten, zeide de Heilige Geest: Zondert Mij af beiden Barnabas en Saulus tot het werk, waartoe Ik hen geroepen heb. Romeinen 13:6 : Want daarom betaalt gij ook schattingen; want zij zijn dienaars van God, in ditzelve geduriglijk bezig zijnde. Hebreeën 8:2 : Een Bedienaar des heiligdoms, en des waren tabernakels, welken de Heere heeft opgericht, en geen mens.",
           "text1637": "Gr. leitourgos. Siet van dit woort Actor. 13.2. Rom. 13.6. Hebr. 8.2.",
-          "text2026": "een dienaar van Jezus Christus: Grieks, leitourgos (λειτουργὸν). Zie van dit woord Hand. 13:2 ; Rom. 13:6 ; Hebr. 8:2 . Handelingen 13:2 : En als zij de Heer dienden, en vastten, zei de Heilige Geest: Zondert Mij af zowel Barnabas als Saulus tot het werk, waartoe Ik hen geroepen heb. Romeinen 13:6 : Want daarom betaalt u ook schattingen; want zij zijn dienaren van God, in ditzelve geduriglijk bezig zijnde. Hebreeën 8:2 : Een Dienaar van het heiligdom, en van de waren tabernakels, welke de Heer heeft opgericht, en geen mens."
+          "text2026": "een dienaar van Jezus Christus: Grieks, leitourgos (λειτουργὸν). Zie van dit woord Hand. 13:2 ; Rom. 13:6 ; Hebr. 8:2 . Handelingen 13:2 : En als zij de Heer dienden, en vastten, zei de Heilige Geest: Zondert Mij af zowel Barnabas als Saulus tot het werk, waartoe Ik hen geroepen heb. Romeinen 13:6 : Want daarom betaalt u ook schattingen; want zij zijn dienaren van God, in ditzelve geduriglijk bezig zijnde. Hebreeën 8:2 : Een Dienaar van het heiligdom, en van de ware tabernakel, welke de Heer heeft opgericht, en geen mens."
         },
         {
           "marker": "52",
@@ -10019,7 +10049,7 @@
           "type": "explanatory",
           "textSV1888": "Of, opofferende; dat is, als een heilig werk bedienende; gelijk der priesteren werk was.",
           "text1637": "Ofte, op-offerende, D. als een heyligh werck bedienende: gelijck der Priesteren werck was.",
-          "text2026": "Of, opofferende; dat is, als een heilig werk bedienende; gelijk van de priesters werk was."
+          "text2026": "Of, opofferende; dat is, als een heilig werk bedienende; gelijk het werk van de priesters was."
         },
         {
           "marker": "55",
@@ -12070,14 +12100,14 @@
           "type": "explanatory",
           "textSV1888": "de kracht van den Geest Gods: De krachtige werkingen des Heiligen Geestes in de harten der mensen.",
           "text1637": "De krachtige werckingen des heyligen Geests in de herten der menschen.",
-          "text2026": "de kracht van de Geest van God: De krachtige werkingen van de Heiligen Geestes in de harten van de mensen."
+          "text2026": "de kracht van de Geest van God: De krachtige werkingen van de Heilige Geest in de harten van de mensen."
         },
         {
           "marker": "67",
           "type": "explanatory",
           "textSV1888": "Dat is, in de omliggende landen, als namelijk in Arabië, Gal. 1:17 ; te Damaskus, Gal. 1:17 ; te Antiochië, Hand. 13:1 ; te Seleucië, Hand. 13:4 ; in Cyprus, Hand. 13:4 ; in Pamfylië, Hand. 13:13 ; in Pisidië, Hand. 13:14 ; in Lycaonië, Hand. 14:6 ; in Cilicië, Hand. 15:41 ; in Frygië, Hand. 16:6 ; in Galatië, Hand. 16:6 ; te Troas, Hand. 16:8 ; te Athene, Hand. 17:15 ; te Efeze, Hand. 19:1 ; in Achaja, Hand. 18:27 ; in Macedonië, Hand. 16:10 , en andere. Of, in het rond, van het ene land reizende in het andere, herwaarts en derwaarts. Galaten 1:17 : En ben niet wederom gegaan naar Jeruzalem, tot degenen, die voor mij apostelen waren; maar ik ging henen naar Arabië, en keerde wederom naar Damaskus. Galaten 1:17 : En ben niet wederom gegaan naar Jeruzalem, tot degenen, die voor mij apostelen waren; maar ik ging henen naar Arabië, en keerde wederom naar Damaskus. Handelingen 13:1 : En er waren te Antiochië, in de Gemeente, die daar was, enige profeten en leraars, namelijk Barnabas, en Simeon, genaamd Niger, en Lucius van Cyrene, en Manahen, die met Herodes den viervorst opgevoed was, en Saulus. Handelingen 13:4 : Dezen dan, uitgezonden zijnde van den Heiligen Geest, kwamen af tot Seleucië, en van daar scheepten zij af naar Cyprus. Handelingen 13:4 : Dezen dan, uitgezonden zijnde van den Heiligen Geest, kwamen af tot Seleucië, en van daar scheepten zij af naar Cyprus. Handelingen 13:13 : En Paulus, en die met hem waren, van Pafos afgevaren zijnde, kwamen te Perge, een stad in Pamfylië. Maar Johannes, van hen scheidende, keerde weder naar Jeruzalem. Handelingen 13:14 : En zij, van Perge het land doorgaande, kwamen te Antiochië, een stad in Pisidië; en gegaan zijnde in de synagoge op den dag des sabbats, zaten zij neder. Handelingen 14:6 : Zijn zij, alles overlegd hebbende, gevlucht naar de steden van Lykaonië, namelijk Lystre en Derbe, en het omliggende land; Handelingen 15:41 : En hij doorreisde Syrië en Cilicië, versterkende de Gemeenten. Handelingen 16:6 : En als zij Frygië, en het land van Galatië doorgereisd hadden, werden zij van den Heiligen Geest verhinderd het Woord in Azië te spreken. Handelingen 16:6 : En als zij Frygië, en het land van Galatië doorgereisd hadden, werden zij van den Heiligen Geest verhinderd het Woord in Azië te spreken. Handelingen 16:8 : En zij, Mysië voorbij gereisd zijnde, kwamen af tot Troas. Handelingen 17:15 : En die Paulus geleidden, brachten hem tot Athene toe; en als zij bevel gekregen hadden aan Silas en Timotheüs, dat zij op het spoedigste tot hem zouden komen, vertrokken zij. Handelingen 19:1 : En het geschiedde, terwijl Apollos te Korinthe was, dat Paulus, de bovenste delen des lands doorreisd hebbende, te Efeze kwam; en enige discipelen aldaar vindende, Handelingen 18:27 : En als hij wilde naar Achaje reizen, de broeders, hem vermaand hebbende, schreven aan de discipelen, dat zij hem ontvangen zouden; welke, daar gekomen zijnde, heeft veel toegebracht aan degenen, die geloofden door de genade. Handelingen 16:10 : Als hij nu dit gezicht gezien had, zo zochten wij terstond naar Macedonië te reizen, besluitende daaruit, dat ons de Heere geroepen had, om denzelven het Evangelie te verkondigen.",
           "text1637": "D. in de omliggende landen, als namelick in Arabien Gal. 1.17. tot Damascus, Gal. 1.17. tot Antiochien. Actor. 13.1. tot Seleucien. Actor 13.4. in Cypren. Actor. 13.4. in Pamphilien. Actor. 13.13. in Pisidien. Actor. 13.14. in Lycaonien. Actor. 14.6. in Cilicien. Actor. 15.41. in Phrygien. Actor 16.6. in Galatien. Actor 16.6. tot Troas. Actor 16.8. tot Athenen. Act. 17.15. tot Ephesen. Act. 19.1. in Achajen. Actor. 18.27. in Macedonien. Actor. 16.10. ende andere. Ofte, in ’t ronde, van het eene landt reysende in het ander, herwaerts ende derwaerts.",
-          "text2026": "Dat is, in de omliggende landen, als namelijk in Arabië, Gal. 1:17 ; in Damascus, Gal. 1:17 ; te Antiochië, Hand. 13:1 ; te Seleucië, Hand. 13:4 ; in Cyprus, Hand. 13:4 ; in Pamfylië, Hand. 13:13 ; in Pisidië, Hand. 13:14 ; in Lycaonië, Hand. 14:6 ; in Cilicië, Hand. 15:41 ; in Frygië, Hand. 16:6 ; in Galatië, Hand. 16:6 ; te Troas, Hand. 16:8 ; te Athene, Hand. 17:15 ; te Efeze, Hand. 19:1 ; in Achaja, Hand. 18:27 ; in Macedonië, Hand. 16:10 , en andere. Of, in het rond, van het ene land reizende in het andere, herwaarts en daarheen. Galaten 1:17 : En ben niet opnieuw gegaan naar Jeruzalem, tot degenen, die voor mij apostelen waren; maar ik ging heen naar Arabië, en keerde opnieuw naar Damascus. Galaten 1:17 : En ben niet opnieuw gegaan naar Jeruzalem, tot degenen, die voor mij apostelen waren; maar ik ging heen naar Arabië, en keerde opnieuw naar Damascus. Handelingen 13:1 : En er waren te Antiochië, in de Gemeente, die daar was, enige profeten en leraars, namelijk Barnabas, en Simeon, genaamd Niger, en Lucius van Cyrene, en Manahen, die met Herodes de viervorst opgevoed was, en Saulus. Handelingen 13:4 : Deze dan, uitgezonden zijnde van de Heilige Geest, kwamen af tot Seleucië, en van daar scheepten zij af naar Cyprus. Handelingen 13:4 : Deze dan, uitgezonden zijnde van de Heilige Geest, kwamen af tot Seleucië, en van daar scheepten zij af naar Cyprus. Handelingen 13:13 : En Paulus, en die met hem waren, van Pafos afgevaren zijnde, kwamen te Perge, een stad in Pamfylië. Maar Johannes, van hen scheidende, keerde weer naar Jeruzalem. Handelingen 13:14 : En zij, van Perge het land doorgaande, kwamen te Antiochië, een stad in Pisidië; en gegaan zijnde in de synagoge op de dag van de sabbats, zaten zij neder. Handelingen 14:6 : Zijn zij, alles overlegd hebbende, gevlucht naar de steden van Lykaonië, namelijk Lystre en Derbe, en het omliggende land; Handelingen 15:41 : En hij doorreisde Syrië en Cilicië, versterkende de Gemeenten. Handelingen 16:6 : En als zij Frygië, en het land van Galatië doorgereisd hadden, werden zij van de Heilige Geest verhinderd het Woord in Azië te spreken. Handelingen 16:6 : En als zij Frygië, en het land van Galatië doorgereisd hadden, werden zij van de Heilige Geest verhinderd het Woord in Azië te spreken. Handelingen 16:8 : En zij, Mysië voorbij gereisd zijnde, kwamen af tot Troas. Handelingen 17:15 : En die Paulus geleidden, brachten hem tot Athene toe; en als zij bevel gekregen hadden aan Silas en Timotheüs, dat zij op het spoedigste tot hem zouden komen, vertrokken zij. Handelingen 19:1 : En het geschiedde, terwijl Apollos te Korinthe was, dat Paulus, de bovenste delen van het land doorreisd hebbende, te Efeze kwam; en enige discipelen daar vindende, Handelingen 18:27 : En als hij wilde naar Achaje reizen, de broeders, hem vermaand hebbende, schreven aan de discipelen, dat zij hem ontvangen zouden; welke, daar gekomen zijnde, heeft veel toegebracht aan degenen, die geloofden door de genade. Handelingen 16:10 : Als hij nu dit gezicht gezien had, zo zochten wij meteen naar Macedonië te reizen, besluitende daaruit, dat ons de Heer geroepen had, om dezelfde het Evangelie te verkondigen."
+          "text2026": "Dat is, in de omliggende landen, als namelijk in Arabië, Gal. 1:17 ; in Damascus, Gal. 1:17 ; te Antiochië, Hand. 13:1 ; te Seleucië, Hand. 13:4 ; in Cyprus, Hand. 13:4 ; in Pamfylië, Hand. 13:13 ; in Pisidië, Hand. 13:14 ; in Lycaonië, Hand. 14:6 ; in Cilicië, Hand. 15:41 ; in Frygië, Hand. 16:6 ; in Galatië, Hand. 16:6 ; te Troas, Hand. 16:8 ; te Athene, Hand. 17:15 ; te Efeze, Hand. 19:1 ; in Achaja, Hand. 18:27 ; in Macedonië, Hand. 16:10 , en andere. Of, in het rond, van het ene land reizende in het andere, herwaarts en daarheen. Galaten 1:17 : En ben niet opnieuw gegaan naar Jeruzalem, tot degenen, die voor mij apostelen waren; maar ik ging heen naar Arabië, en keerde opnieuw naar Damascus. Galaten 1:17 : En ben niet opnieuw gegaan naar Jeruzalem, tot degenen, die voor mij apostelen waren; maar ik ging heen naar Arabië, en keerde opnieuw naar Damascus. Handelingen 13:1 : En er waren te Antiochië, in de Gemeente, die daar was, enige profeten en leraars, namelijk Barnabas, en Simeon, genaamd Niger, en Lucius van Cyrene, en Manahen, die met Herodes de viervorst opgevoed was, en Saulus. Handelingen 13:4 : Deze dan, uitgezonden zijnde van de Heilige Geest, kwamen af tot Seleucië, en van daar scheepten zij af naar Cyprus. Handelingen 13:4 : Deze dan, uitgezonden zijnde van de Heilige Geest, kwamen af tot Seleucië, en van daar scheepten zij af naar Cyprus. Handelingen 13:13 : En Paulus, en die met hem waren, van Pafos afgevaren zijnde, kwamen te Perge, een stad in Pamfylië. Maar Johannes, van hen scheidende, keerde weer naar Jeruzalem. Handelingen 13:14 : En zij, van Perge het land doorgaande, kwamen te Antiochië, een stad in Pisidië; en gegaan zijnde in de synagoge op de dag van de sabbat, zaten zij neder. Handelingen 14:6 : Zijn zij, alles overlegd hebbende, gevlucht naar de steden van Lykaonië, namelijk Lystre en Derbe, en het omliggende land; Handelingen 15:41 : En hij doorreisde Syrië en Cilicië, versterkende de Gemeenten. Handelingen 16:6 : En als zij Frygië, en het land van Galatië doorgereisd hadden, werden zij van de Heilige Geest verhinderd het Woord in Azië te spreken. Handelingen 16:6 : En als zij Frygië, en het land van Galatië doorgereisd hadden, werden zij van de Heilige Geest verhinderd het Woord in Azië te spreken. Handelingen 16:8 : En zij, Mysië voorbij gereisd zijnde, kwamen af tot Troas. Handelingen 17:15 : En die Paulus geleidden, brachten hem tot Athene toe; en als zij bevel gekregen hadden aan Silas en Timotheüs, dat zij op het spoedigste tot hem zouden komen, vertrokken zij. Handelingen 19:1 : En het geschiedde, terwijl Apollos te Korinthe was, dat Paulus, de bovenste delen van het land doorreisd hebbende, te Efeze kwam; en enige discipelen daar vindende, Handelingen 18:27 : En als hij wilde naar Achaje reizen, de broeders, hem vermaand hebbende, schreven aan de discipelen, dat zij hem ontvangen zouden; welke, daar gekomen zijnde, heeft veel toegebracht aan degenen, die geloofden door de genade. Handelingen 16:10 : Als hij nu dit gezicht gezien had, zo zochten wij meteen naar Macedonië te reizen, besluitende daaruit, dat ons de Heer geroepen had, om hun het Evangelie te verkondigen."
         },
         {
           "marker": "68",
@@ -13874,10 +13904,16 @@
           }
         },
         {
-          "tekst": "zullen het zien",
+          "tekst": "zien",
           "voorkomen": 1,
           "strongs": [
             "G3708"
+          ],
+          "lemma_strongs": [
+            "G3708"
+          ],
+          "morfologie": [
+            "V-FDI-3P"
           ],
           "bronwoorden": [
             "οψονται"
@@ -13888,17 +13924,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:21",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -14024,10 +14061,16 @@
           }
         },
         {
-          "tekst": "zullen het verstaan",
+          "tekst": "verstaan",
           "voorkomen": 1,
           "strongs": [
             "G4920"
+          ],
+          "lemma_strongs": [
+            "G4920"
+          ],
+          "morfologie": [
+            "V-FAI-3P"
           ],
           "bronwoorden": [
             "συνησουσιν"
@@ -14038,17 +14081,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:21",
-            "bronindices": [
+            "grondindices": [
               13
             ],
-            "grondindices": [
+            "bronindices": [
               13
             ]
           }
@@ -16011,62 +16055,47 @@
           }
         },
         {
-          "tekst": "van",
-          "voorkomen": 2,
-          "strongs": [
-            "G575"
-          ],
-          "bronwoorden": [
-            "απο"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
-            "referentie": "ROM 15:24",
-            "bronindices": [
-              16
-            ],
-            "grondindices": [
-              22
-            ]
-          }
-        },
-        {
           "tekst": "deels",
           "voorkomen": 1,
           "strongs": [
+            "G575",
             "G3313"
           ],
+          "lemma_strongs": [
+            "G575",
+            "G3313"
+          ],
+          "morfologie": [
+            "PREP",
+            "N-GSN"
+          ],
           "bronwoorden": [
+            "απο",
             "μερους"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 15:24",
-            "bronindices": [
-              17
-            ],
             "grondindices": [
+              22,
               23
+            ],
+            "bronindices": [
+              16,
+              17
             ]
           }
         },
@@ -17089,14 +17118,14 @@
           "type": "explanatory",
           "textSV1888": "hunner geestelijke goederen : Dat is, de leer des Evangelies van Christus, in welke alle schatten der geestelijke goederen verborgen zijn, welke goederen der Joden, of der gemeente te Jeruzalem genaamd worden, omdat Christus den Joden voornamelijk is beloofd, en omdat het Evangelie uit de gemeente van Jeruzalem door de gehele wereld onder de heidenen verbreid is; Jes. 2:3 ; Hand. 1:4 , 1:8 . Jesaja 2:3 : En vele volken zullen heengaan en zeggen: Komt, laat ons opgaan tot den berg des HEEREN, tot het huis van den God Jakobs, opdat Hij ons lere van Zijn wegen, en dat wij wandelen in Zijn paden; want uit Sion zal de wet uitgaan, en des HEEREN woord uit Jeruzalem. Handelingen 1:4 : En als Hij met hen vergaderd was, beval Hij hun, dat zij van Jeruzalem niet scheiden zouden, maar verwachten de belofte des Vaders, die gij, zeide Hij, van Mij gehoord hebt. Handelingen 1:8 : Maar gij zult ontvangen de kracht des Heiligen Geestes, Die over u komen zal; en gij zult Mijn getuigen zijn, zo te Jeruzalem, als in geheel Judea en Samaria, en tot aan het uiterste der aarde.",
           "text1637": "D. de leere des Euangeliums Christi, in welcke alle schatten der geestelicke goederen verborgen zijn: welcke der Ioden, ofte der Gemeynte te Ierusalem goederen genaemt worden, om dat Christus den Ioden voornamelick is belooft, ende om dat het Euangelium uyt de Gemeynte van Ierusalem door de geheele werelt onder de Heydenen verbreyt is. Iesa. 2.3. Act. 1. versen 4, 8.",
-          "text2026": "hun geestelijke goederen : Dat is, de leer van het Evangelie van Christus, in welke alle schatten van de geestelijke goederen verborgen zijn, welke goederen van de Joden, of van de gemeente te Jeruzalem genaamd worden, omdat Christus de Joden voornamelijk is beloofd, en omdat het Evangelie uit de gemeente van Jeruzalem door de gehele wereld onder de heidenen verbreid is; Jes. 2:3 ; Hand. 1:4 , 1:8 . Jesaja 2:3 : En vele volken zullen heengaan en zeggen: Komt, laat ons opgaan tot de berg van JAHWEH, tot het huis van de God van Jakob, opdat Hij ons lere van Zijn wegen, en dat wij wandelen in Zijn paden; want uit Sion zal de wet uitgaan, en van JAHWEH woord uit Jeruzalem. Handelingen 1:4 : En als Hij met hen vergaderd was, beval Hij hun, dat zij van Jeruzalem niet scheiden zouden, maar verwachten de belofte van de Vader, die u, zei Hij, van Mij gehoord hebt. Handelingen 1:8 : Maar u zult ontvangen de kracht van de Heiligen Geestes, Die over u komen zal; en u zult Mijn getuigen zijn, zo te Jeruzalem, als in geheel Judea en Samaria, en tot aan het uiterste van de aarde."
+          "text2026": "hun geestelijke goederen : Dat is, de leer van het Evangelie van Christus, in welke alle schatten van de geestelijke goederen verborgen zijn, welke goederen van de Joden, of van de gemeente te Jeruzalem genaamd worden, omdat Christus de Joden voornamelijk is beloofd, en omdat het Evangelie uit de gemeente van Jeruzalem door de gehele wereld onder de heidenen verbreid is; Jes. 2:3 ; Hand. 1:4 , 1:8 . Jesaja 2:3 : En vele volken zullen heengaan en zeggen: Komt, laat ons opgaan tot de berg van JAHWEH, tot het huis van de God van Jakob, opdat Hij ons lere van Zijn wegen, en dat wij wandelen in Zijn paden; want uit Sion zal de wet uitgaan, en het woord van JAHWEH uit Jeruzalem. Handelingen 1:4 : En als Hij met hen vergaderd was, beval Hij hun, dat zij van Jeruzalem niet scheiden zouden, maar verwachten de belofte van de Vader, die u, zei Hij, van Mij gehoord hebt. Handelingen 1:8 : Maar u zult ontvangen de kracht van de Heilige Geest, Die over u komen zal; en u zult Mijn getuigen zijn, zo te Jeruzalem, als in geheel Judea en Samaria, en tot aan het uiterste van de aarde."
         },
         {
           "marker": "93",
           "type": "explanatory",
           "textSV1888": "Dat is, door de grote weldaad van hen ontvangen verplicht, om hetzelve enigszins te vergelden. Zie 1 Kor. 9:11 ; Gal. 6:6 . 1 Korinthiërs 9:11 : Indien wij ulieden het geestelijke gezaaid hebben, is het een grote zaak, zo wij het uwe, dat lichamelijk is, maaien? Galaten 6:6 : En die onderwezen wordt in het Woord, dele mede van alle goederen dengene, die hem onderwijst.",
           "text1637": "D. door de groote weldaet van haer ontfangen verplicht, om het selve eenichsins te vergelden. siet 1.Cor. 9.11. Gal. 6.6.",
-          "text2026": "Dat is, door de grote weldaad van hen ontvangen verplicht, om hetzelfde enigszins te vergelden. Zie 1 Kor. 9:11 ; Gal. 6:6 . 1 Korinthiërs 9:11 : Als wij u het geestelijke gezaaid hebben, is het een grote zaak, zo wij het uwe, dat lichamelijk is, maaien? Galaten 6:6 : En die onderwezen wordt in het Woord, dele mee van alle goederen dengene, die hem onderwijst."
+          "text2026": "Dat is, door de grote weldaad van hen ontvangen verplicht, om dat enigszins te vergelden. Zie 1 Kor. 9:11 ; Gal. 6:6 . 1 Korinthiërs 9:11 : Als wij u het geestelijke gezaaid hebben, is het een grote zaak, zo wij het uwe, dat lichamelijk is, maaien? Galaten 6:6 : En die onderwezen wordt in het Woord, dele mee van alle goederen dengene, die hem onderwijst."
         },
         {
           "marker": "94",
@@ -18508,7 +18537,7 @@
           "type": "explanatory",
           "textSV1888": "met vollen zegen: Grieks, in volheid des zegens; dat is ik zal met mij brengen een volle, overvloedige zegening, om u te versterken door mijne predikatiën in de Christelijke leer, door welke ons de eeuwige zegening Gods verkondigd wordt.",
           "text1637": "Gr. in volheyt des segens. dat is, ick sal met my brengen een volle ofte overvloedige geestelicke segeninge, om u te verstercken door mijne predicatien in de Christelijcke leere, door welcke ons de eeuwige segeninghe Godts verkondight wordt.",
-          "text2026": "met vollen zegen: Grieks, in volheid van de zegens; dat is ik zal met mij brengen een volle, overvloedige zegening, om u te versterken door mijne predikatiën in de Christelijke leer, door welke ons de eeuwige zegening Gods verkondigd wordt."
+          "text2026": "met vollen zegen: Grieks, in volheid van de zegen; dat is ik zal met mij brengen een volle, overvloedige zegening, om u te versterken door mijne predikatiën in de Christelijke leer, door welke ons de eeuwige zegening Gods verkondigd wordt."
         }
       ],
       "grondtekst": [
@@ -20076,7 +20105,7 @@
           "type": "explanatory",
           "textSV1888": "van de ongehoorzamen in Judea: Namelijk die de leer des Evangelies verwerpen en tegenstaan, en mij om dezelve haten. Deze hebben den apostel te Jeruzalem gezocht te doden, doch hij is uit hunne handen verlost. Zie Hand. 21:27 , 21:33 . Dit wist Paulus tevoren dat hem wedervaren zou; Hand. 20:22 . Zie 2 Thess. 3:2 . Handelingen 21:27 : Als nu de zeven dagen zouden voleindigd worden, zagen hem de Joden van Azië in den tempel, en beroerden al het volk, en sloegen de handen aan hem, Handelingen 21:33 : Toen naderde de overste en greep hem, en beval, dat men hem met twee ketenen zou binden; en vraagde, wie hij was, en wat hij gedaan had. Handelingen 20:22 : En nu ziet, ik, gebonden zijnde door den Geest, reis naar Jeruzalem, niet wetende, wat mij daar ontmoeten zal; 2 Thessalonicensen 3:2 : En opdat wij mogen verlost worden van de ongeschikte en boze mensen; want het geloof is niet aller.",
           "text1637": "",
-          "text2026": "van de ongehoorzamen in Judea: Namelijk die de leer van het Evangelie verwerpen en tegenstaan, en mij om dezelfde haten. Deze hebben de apostel te Jeruzalem gezocht te doden, maar hij is uit hun handen verlost. Zie Hand. 21:27 , 21:33 . Dit wist Paulus tevoren dat hem wedervaren zou; Hand. 20:22 . Zie 2 Thess. 3:2 . Handelingen 21:27 : Als nu de zeven dagen zouden voltooid worden, zagen hem de Joden van Azië in de tempel, en beroerden al het volk, en sloegen de handen aan hem, Handelingen 21:33 : Toen naderde de overste en greep hem, en beval, dat men hem met twee ketenen zou binden; en vraagde, wie hij was, en wat hij gedaan had. Handelingen 20:22 : En nu ziet, ik, gebonden zijnde door de Geest, reis naar Jeruzalem, niet wetende, wat mij daar ontmoeten zal; 2 Thessalonicensen 3:2 : En opdat wij mogen verlost worden van de ongeschikte en boze mensen; want het geloof is niet aller."
+          "text2026": "van de ongehoorzamen in Judea: Namelijk die de leer van het Evangelie verwerpen en tegenstaan, en mij daarom haten. Deze hebben de apostel te Jeruzalem gezocht te doden, maar hij is uit hun handen verlost. Zie Hand. 21:27 , 21:33 . Dit wist Paulus tevoren dat hem wedervaren zou; Hand. 20:22 . Zie 2 Thess. 3:2 . Handelingen 21:27 : Als nu de zeven dagen zouden voltooid worden, zagen hem de Joden van Azië in de tempel, en beroerden al het volk, en sloegen de handen aan hem, Handelingen 21:33 : Toen naderde de overste en greep hem, en beval, dat men hem met twee ketenen zou binden; en vraagde, wie hij was, en wat hij gedaan had. Handelingen 20:22 : En nu ziet, ik, gebonden zijnde door de Geest, reis naar Jeruzalem, niet wetende, wat mij daar ontmoeten zal; 2 Thessalonicensen 3:2 : En opdat wij mogen verlost worden van de ongeschikte en boze mensen; want het geloof is niet aller."
         },
         {
           "marker": "108",
@@ -21332,7 +21361,7 @@
           "type": "explanatory",
           "textSV1888": "God des vredes zij met u allen: Dat is, die de auteur is van alle zegening, goed en voorspoed; en die wil dat onder Zijne kinderen altijd vrede gehouden worde; Rom. 16:20 ; 1 Kor. 14:33 ; 2 Kor. 13:11 , 13:13 ; Filipp. 4:9 ; 1 Thess. 5:23 ; 2 Thess. 3:16 ; Hebr. 13:20 . Romeinen 16:20 : En de God des vredes zal den satan haast onder uw voeten verpletteren. De genade van onzen Heere Jezus Christus zij met ulieden. Amen. 1 Korinthiërs 14:33 : Want God is geen God van verwarring, maar van vrede, gelijk in al de Gemeenten der heiligen. 2 Korinthiërs 13:11 : Voorts, broeders, zijt blijde, wordt volmaakt, zijt getroost, zijt eensgezind, leeft in vrede; en de God der liefde en des vredes zal met u zijn. 2 Korinthiërs 13:13 : De genade van den Heere Jezus Christus, en de liefde van God, en de gemeenschap des Heiligen Geestes, zij met u allen. Amen. Filippensen 4:9 : Hetgeen gij ook geleerd, en ontvangen, en gehoord, en in mij gezien hebt, doet dat; en de God des vredes zal met u zijn. 1 Thessalonicensen 5:23 : En de God des vredes Zelf heilige u geheel en al; en uw geheel oprechte geest, en ziel, en lichaam worde onberispelijk bewaard in de toekomst van onzen Heere Jezus Christus. 2 Thessalonicensen 3:16 : De Heere nu des vredes Zelf geve u vrede te allen tijd, in allerlei wijze. De Heere zij met u allen. Hebreeën 13:20 : De God nu des vredes, Die den grote Herder der schapen, door het bloed des eeuwigen testaments, uit de doden heeft wedergebracht, namelijk onze Heere Jezus Christus,",
           "text1637": "",
-          "text2026": "God van de vrede zij met u allen: Dat is, die de auteur is van alle zegening, goed en voorspoed; en die wil dat onder Zijn kinderen altijd vrede gehouden worde; Rom. 16:20 ; 1 Kor. 14:33 ; 2 Kor. 13:11 , 13:13 ; Fil. 4:9 ; 1 Thess. 5:23 ; 2 Thess. 3:16 ; Hebr. 13:20 . Romeinen 16:20 : En de God van de vrede zal de satan haast onder uw voeten verpletteren. De genade van onze Heer Jezus Christus zij met u. Amen. 1 Korinthiërs 14:33 : Want God is geen God van verwarring, maar van vrede, gelijk in al de Gemeenten van de heiligen. 2 Korinthiërs 13:11 : Verder, broeders, zijt blij, wordt volmaakt, zijt getroost, zijt eensgezind, leeft in vrede; en de God van de liefde en van de vrede zal met u zijn. 2 Korinthiërs 13:13 : De genade van de Heer Jezus Christus, en de liefde van God, en de gemeenschap van de Heiligen Geestes, zij met u allen. Amen. Filippenzen 4:9 : Wat u ook geleerd, en ontvangen, en gehoord, en in mij gezien hebt, doet dat; en de God van de vrede zal met u zijn. 1 Thessalonicensen 5:23 : En de God van de vrede Zelf heilige u geheel en al; en uw geheel oprechte geest, en ziel, en lichaam worde onberispelijk bewaard in de toekomst van onze Heer Jezus Christus. 2 Thessalonicensen 3:16 : De Heer nu van de vrede Zelf geve u vrede altijd, in allerlei wijze. De Heer zij met u allen. Hebreeën 13:20 : De God nu van de vrede, Die de grote Herder van de schapen, door het bloed van de eeuwigen testaments, uit de doden heeft wedergebracht, namelijk onze Heer Jezus Christus,"
+          "text2026": "God van de vrede zij met u allen: Dat is, die de auteur is van alle zegening, goed en voorspoed; en die wil dat onder Zijn kinderen altijd vrede gehouden worde; Rom. 16:20 ; 1 Kor. 14:33 ; 2 Kor. 13:11 , 13:13 ; Fil. 4:9 ; 1 Thess. 5:23 ; 2 Thess. 3:16 ; Hebr. 13:20 . Romeinen 16:20 : En de God van de vrede zal de satan haast onder uw voeten verpletteren. De genade van onze Heer Jezus Christus zij met u. Amen. 1 Korinthiërs 14:33 : Want God is geen God van verwarring, maar van vrede, gelijk in al de Gemeenten van de heiligen. 2 Korinthiërs 13:11 : Verder, broeders, zijt blij, wordt volmaakt, zijt getroost, zijt eensgezind, leeft in vrede; en de God van de liefde en van de vrede zal met u zijn. 2 Korinthiërs 13:13 : De genade van de Heer Jezus Christus, en de liefde van God, en de gemeenschap van de Heilige Geest, zij met u allen. Amen. Filippenzen 4:9 : Wat u ook geleerd, en ontvangen, en gehoord, en in mij gezien hebt, doet dat; en de God van de vrede zal met u zijn. 1 Thessalonicensen 5:23 : En de God van de vrede Zelf heilige u geheel en al; en uw geheel oprechte geest, en ziel, en lichaam worde onberispelijk bewaard in de toekomst van onze Heer Jezus Christus. 2 Thessalonicensen 3:16 : De Heer nu van de vrede Zelf geve u vrede altijd, in allerlei wijze. De Heer zij met u allen. Hebreeën 13:20 : De God nu van de vrede, Die de grote Herder van de schapen, door het bloed van het eeuwige testament, uit de doden heeft wedergebracht, namelijk onze Heer Jezus Christus,"
         }
       ],
       "grondtekst": [

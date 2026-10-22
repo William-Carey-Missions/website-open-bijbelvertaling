@@ -192,7 +192,7 @@
           "type": "explanatory",
           "textSV1888": "de vrijsteden: Hebreeuws, תְּנ֤וּ, steden des vertreks, of der inkorting. Het Hebreeuwse woord betekent samentrekking, of inkorten. Deze steden worden alzo genoemd, omdat diegenen, die vanwege den doodslag vluchtende waren, zich in dezelve moesten vertrekken en zich daar binnen houden.",
           "text1637": "Hebr. Steden des vertrecks, ofte der incortinge het Hebr. woort beteeckent t’samentrecken, ofte inkorten. Dese steden worden alsoo genoemt, om dat die gene, die van wegen den dootslach vluchtich waren, haer in de selve mosten vertrecken, ende haer daer binnen houden.",
-          "text2026": "de vrijsteden: Hebreeuws, תְּנ֤וּ, steden van de vertreks, of van de inkorting. Het Hebreeuwse woord betekent samentrekking, of inkorten. Deze steden worden zo genoemd, omdat diegenen, die vanwege de doodslag vluchtende waren, zich in dezelfde moesten vertrekken en zich daar binnen houden."
+          "text2026": "de vrijsteden: Hebreeuws, תְּנ֤וּ, steden van het vertrek, of van de inkorting. Het Hebreeuwse woord betekent samentrekking, of inkorten. Deze steden worden zo genoemd, omdat diegenen, die vanwege de doodslag vluchtende waren, zich daarin moesten vertrekken en zich daar binnen houden."
         },
         {
           "marker": "a",
@@ -671,7 +671,7 @@
           "type": "explanatory",
           "textSV1888": "een ziel: Dat is, een mens; ja het lichaam eens mensen, want de ziel des mensen kan niet gedood worden; voor ziel staat vers 5 zijn naaste. Jozua 20:5 : En als de bloedwreker hem najaagt, zo zullen zij den doodslager in zijn hand niet overgeven, dewijl hij zijn naaste niet met wetenschap verslagen heeft, en hem gisteren en eergisteren niet heeft gehaat.",
           "text1637": "D. eenen mensche; Ia het lichaem eenes menschen, want de ziele des menschen en kan niet gedoodt worden: voor ziele staet vers 5. sijnen naesten.",
-          "text2026": "een ziel: Dat is, een mens; ja het lichaam eens mensen, want de ziel van de mensen kan niet gedood worden; voor ziel staat vers 5 zijn naaste. Jozua 20:5 : En als de bloedwreker hem najaagt, zo zullen zij de moordenaar in zijn hand niet overgeven, omdat hij zijn naaste niet met wetenschap verslagen heeft, en hem gisteren en eergisteren niet heeft gehaat."
+          "text2026": "een ziel: Dat is, een mens; ja het lichaam eens mensen, want de ziel van de mens kan niet gedood worden; voor ziel staat vers 5 zijn naaste. Jozua 20:5 : En als de bloedwreker hem najaagt, zo zullen zij de moordenaar in zijn hand niet overgeven, omdat hij zijn naaste niet met wetenschap verslagen heeft, en hem gisteren en eergisteren niet heeft gehaat."
         },
         {
           "marker": "4",
@@ -685,7 +685,7 @@
           "type": "explanatory",
           "textSV1888": "voor den bloedwreker: Dat is, voor dien, die van den bloede des doodgeslagenen zijnde, recht en reden heeft om wraak er over te doen, of te eisen.",
           "text1637": "D. voor dien die van den bloede des doot-geslagenen zijnde, recht ende reden heeft om wrake daer over te doen, ofte te eysschen.",
-          "text2026": "voor de bloedwreker: Dat is, voor die, die van de bloede van de doodgeslagenen zijnde, recht en reden heeft om wraak er over te doen, of te eisen."
+          "text2026": "voor de bloedwreker: Dat is, voor die, die van de bloede van de doodgeslagene zijnde, recht en reden heeft om wraak er over te doen, of te eisen."
         }
       ],
       "grondtekst": [
@@ -2632,7 +2632,7 @@
           "type": "explanatory",
           "textSV1888": "totdat de hogepriester sterve: De zin dezer woorden is, dat de gevluchte, nadat hij was verhoord en vrijgesproken, evenwel in de vrijstad moest blijven tot den dood des hogepriesters, die in dien tijd leefde, als hij den doodslag begaan heeft.",
           "text1637": "De sin deser woorden is, dat de gevluchtte, na dat hy was verhoort, ende vrygesproken, evenwel in de Vry-stadt moeste blijven, tot de doot des Hoogen-priesters, die te dier tijt leefde, als hy den doot-slach begaen heeft.",
-          "text2026": "totdat de hogepriester sterve: De zin van deze woorden is, dat de gevluchte, nadat hij was verhoord en vrijgesproken, evenwel in de vrijstad moest blijven tot de dood van de hogepriesters, die in die tijd leefde, als hij de doodslag begaan heeft."
+          "text2026": "totdat de hogepriester sterve: De zin van deze woorden is, dat de gevluchte, nadat hij was verhoord en vrijgesproken, evenwel in de vrijstad moest blijven tot de dood van de hogepriester, die in die tijd leefde, als hij de doodslag begaan heeft."
         },
         {
           "marker": "14",
@@ -3505,26 +3505,40 @@
           "tekst": "vanwaar",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H8033"
+          ],
+          "morfologie": [
+            "HTr",
+            "HR/D"
           ],
           "bronwoorden": [
-            "אֲשֶׁר"
+            "אֲשֶׁר",
+            "מִ/שָּֽׁם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 20:6",
+            "grondindices": [
+              26,
+              28
+            ],
             "bronindices": [
-              26
+              26,
+              28
             ]
           }
         },
@@ -3552,33 +3566,6 @@
             "referentie": "JOS 20:6",
             "bronindices": [
               27
-            ]
-          }
-        },
-        {
-          "tekst": "is",
-          "voorkomen": 1,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "מִ/שָּֽׁם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
-            "referentie": "JOS 20:6",
-            "bronindices": [
-              28
             ]
           }
         }
@@ -5402,10 +5389,13 @@
           }
         },
         {
-          "tekst": "wie",
-          "voorkomen": 1,
+          "tekst": "al",
+          "voorkomen": 2,
           "strongs": [
             "H3605"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "כָּל"
@@ -5416,13 +5406,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 20:9",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               10
             ]

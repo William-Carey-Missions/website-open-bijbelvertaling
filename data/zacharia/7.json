@@ -515,7 +515,7 @@
           "marker": "3",
           "type": "explanatory",
           "text1637": "D. nae den Tempel, daer de Priesters ende Propheten waren, als af te nemen is uyt vers 3. And. Als Bethel, D. de kercke Godes, gesonden hadde Sarezer.",
-          "text2026": "Dat wil zeggen: na de Tempel, daar de Priesters en Profeten waren, als af te nemen is uit vers 3. Anders: Als Bethel, dat wil zeggen: de kerk van God, gezonden had Sarezer.",
+          "text2026": "Dat wil zeggen: naar de Tempel, daar de Priesters en Profeten waren, als af te nemen is uit vers 3. Anders: Als Bethel, dat wil zeggen: de kerk van God, gezonden had Sarezer.",
           "textSV1888": "3 naar het huis van God: Dat is, naar den tempel, wwar de priesters en profeten waren, gelijk af te leiden is uit vers 3. Anders: als Bethel; dat is, de kerk Gods, gezonden had Sarezer. Zacharia 7:3: Zeggende tot de priesters, die in het huis des HEEREN der heirscharen waren, en tot de profeten, zeggende: Moet ik wenen in de vijfde maand, mij afzonderende, gelijk als ik gedaan heb nu zo vele jaren?"
         },
         {
@@ -654,37 +654,72 @@
           }
         },
         {
-          "tekst": "huis van God",
+          "tekst": "huis",
           "voorkomen": 1,
           "strongs": [
-            "H1008",
             "H1008"
           ],
+          "morfologie": [
+            "HNp"
+          ],
           "bronwoorden": [
-            "בֵּֽית",
-            "אֵ֔ל"
+            "בֵּֽית"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 7:2",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              0,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "God",
+          "voorkomen": 1,
+          "strongs": [
+            "H1008"
+          ],
+          "morfologie": [
+            "HNp"
+          ],
+          "bronwoorden": [
+            "אֵ֔ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
+            "referentie": "ZEC 7:2",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               1
             ]
-          },
-          "toelichting": "בֵּית־אֵל is in MorphHB in twee tokens gesplitst die beide H1008 dragen; de Statenvertalingstraditie leest de naam als 'het huis van God'. De Nederlandse woordgroep draagt daarom beide grondwoorden."
+          }
         },
         {
           "tekst": "Sarezer",
@@ -1738,10 +1773,13 @@
           }
         },
         {
-          "tekst": "tot mij",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֥/י"
@@ -1752,13 +1790,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 7:4",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -1824,14 +1866,14 @@
           "marker": "14",
           "type": "explanatory",
           "text1637": "D. my te gevalle, also dat het my soude behaecht hebben? of, dat my daer mede eenige besondere eere ofte eenigen Godts-dienst soude aengedaen zijn? De sin is, dat de ware Godts-dienst niet eygentlick en bestae in ’t vasten, ofte in eten ende drincken, maer in het onderhouden der geboden Godes",
-          "text2026": "Dat wil zeggen: my te gevalle, zo ook dat het my zou behaecht hebben? of, dat my daar mee enige besondere eere of enige Gods-dienst zou aangedaan zijn? De betekenis is, dat de ware Gods-dienst niet eigenlijk en bestae in ’t vasten, of in eten en drinkken, maar in het onderhouden van de geboden van God",
+          "text2026": "Dat wil zeggen: my te gevalle, zo dat het my zou behaecht hebben? of, dat my daar mee enige besondere eere of enige Gods-dienst zou aangedaan zijn? De betekenis is, dat de ware Gods-dienst niet eigenlijk en bestae in ’t vasten, of in eten en drinkken, maar in het onderhouden van de geboden van God",
           "textSV1888": "14 Mij, Mij: Dat is, mij ten gevalle, alzo dat het mij zou behaagd hebben? of, dat mij daarmede enige bijzondere eer of enigen godsdienst zou aangedaan zijn? De zin is: dat de ware godsdienst niet eigenlijk bestaat in het vasten, of in eten en drinken, maar in het onderhouden der geboden Gods."
         },
         {
           "marker": "15",
           "type": "explanatory",
           "text1637": "Hebr. vastende gevast?",
-          "text2026": "Hebreeuws: vastende gevast?.",
+          "text2026": "Hebreeuws: vastende gevast?",
           "textSV1888": "15 enigszins gevast: Hebr. vastende gevast?"
         }
       ],
@@ -2833,7 +2875,7 @@
           "marker": "17",
           "type": "explanatory",
           "text1637": "Als of hy seyde, uwe vrage is licht te beantwoorden, leest het gene dat de Propheten hier te vooren meer-maels gepredickt hebben, so sult ghy daer vinden wat ick van ulieder vasten houde. Siet Iesa. c. 58. versen 3, 4. maer andre vertalen de woorden des texts aldus: [Soudt] ghy niet [behooren te doen] de woorden die de Heere uyt-geroepen heeft door, etc. Ofte aldus: [En hebt] ghy niet [gehoort] etc.",
-          "text2026": "Alsof hij zei, uw vrage is licht te beantwoorden, leest het degenen dat de Profeten hier tevoren meer-maals gepredickt hebben, so zult u daar vinden wat ik van ulieder vasten houde. Zie Jes. c. 58. versen 3, 4. maar andre vertalen de woorden van de texts zo: [Soudt] u niet [behooren te doen] de woorden die de Heer uit-geroepen heeft door, etc. Ofte zo: [En hebt] u niet [gehoort] etc.",
+          "text2026": "Alsof hij zei, uw vrage is licht te beantwoorden, leest hetgeen dat de Profeten hier tevoren meer-maals gepredickt hebben, so zult u daar vinden wat ik van ulieder vasten houde. Zie Jes. c. 58. versen 3, 4. maar andre vertalen de woorden van de text zo: [Soudt] u niet [behooren te doen] de woorden die de Heer uit-geroepen heeft door, etc. Ofte zo: [En hebt] u niet [gehoort] etc.",
           "textSV1888": "17 Zijn het niet de woorden: Alsof Hij zeide: Uw vraag is licht te beantwoorden, leest hetgeen de profeten hier tevoren meermalen gepredikt hebben, zo zult gij daar vinden wat Ik van ulieder vasten houd. Zie Jes. 58:3, 58:4; maar anderen vertalen de woorden van den tekst aldus: [Zoudt] gij niet [behoren te doen] de woorden die de Heere uitgeroepen heeft door enz., of aldus: [Hebt] gij niet [gehoord] enz. Jesaja 58:3: Zeggende: Waarom vasten wij, en Gij ziet het niet aan, waarom kwellen wij onze ziel, en Gij weet het niet? Ziet, ten dage, wanneer gijlieden vast, zo vindt gij uw lust, en gij eist gestrengelijk al uw arbeid. Jesaja 58:4: Ziet, tot twist en gekijf vast gijlieden, en om goddelooslijk met de vuist te slaan; vast niet gelijk heden, om uw stem te doen horen in de hoogte."
         },
         {
@@ -4689,7 +4731,7 @@
           "marker": "29",
           "type": "explanatory",
           "text1637": "D. sy en wouden des Heeren jock niet dragen, Hebr. sy gaven eene afwijckende schouder. Siet Neh. 9. op vers 29.",
-          "text2026": "Dat wil zeggen: zij en wouden van de Heer jok niet dragen, Hebreeuws: zij gaven een afwijkende schouder (כָתֵף). Zie Neh. 9. op vers 29.",
+          "text2026": "Dat wil zeggen: zij en wouden het juk van de Heer niet dragen, Hebreeuws: zij gaven een afwijkende schouder (כָתֵף). Zie Neh. 9. op vers 29.",
           "textSV1888": "29 togen hun schouder terug: Dat is, zij wilden des Heeren juk niet dragen. Hebr. zij gaven een afwijkenden schouder. Zie Neh. 9:29. Nehemia 9:29: En Gij hebt tegen hen betuigd, om hen te doen wederkeren tot Uw wet; maar zij hebben trotselijk gehandeld, en niet gehoord naar Uw geboden, en tegen Uw rechten, tegen dezelve hebben zij gezondigd, door dewelke een mens, die ze doet, leven zal; en zij hebben hun schouder teruggetogen, en hun nek verhard, en niet gehoord."
         },
         {
@@ -4995,7 +5037,7 @@
           "marker": "32",
           "type": "explanatory",
           "text1637": "D. gantsch hart ende wederspannich. Vergel. Ier. 48.4. Ezech. 11.19. ende 36.26. Hebr. als eenen duerachtigen [steen]. Siet de aenteeck. Ierem. 17. op vers 1.",
-          "text2026": "Dat wil zeggen: geheel hart en wederspannich. Vergelijk Jer. 48:4. Ez. 11:19. en 36:26. Hebreeuws: als een duerachtigen [steen]. Zie de aantekening Ierem. 17. op vers 1.",
+          "text2026": "Dat wil zeggen: geheel hard en wederspannich. Vergelijk Jer. 48:4. Ez. 11:19. en 36:26. Hebreeuws: als een duerachtigen [steen]. Zie de aantekening Ierem. 17. op vers 1.",
           "textSV1888": "32 als een diamant: Dat is, gans hard en wederspannig. Verg. Jes. 48:4; Ezech. 11:19, en Ezech. 36:26. Hebr. als een duurachtigen [steen]. Zie de aantekening bij Jer. 17:1. Jesaja 48:4: Omdat Ik wist, dat gij hard zijt, en uw nek een ijzeren zenuw is, en uw voorhoofd koper; Ezechiël 11:19: En Ik zal hun enerlei hart geven, en zal een nieuwen geest in het binnenste van u geven; en Ik zal het stenen hart uit hun vlees wegnemen, en zal hun een vlesen hart geven; Ezechiël 36:26: En Ik zal u een nieuw hart geven, en zal een nieuwen geest geven in het binnenste van u; en Ik zal het stenen hart uit uw vlees wegnemen, en zal u een vlesen hart geven. Jeremia 17:1: De zonde van Juda is geschreven met een ijzeren griffie, met de punt eens diamants; gegraven in de tafel van hunlieder hart, en aan de hoornen uwer altaren;"
         },
         {
@@ -6236,7 +6278,7 @@
           "marker": "38",
           "type": "explanatory",
           "text1637": "T.w. uwe Vaders. als bov. vers 11. And. also stelden sy het, etc.",
-          "text2026": "Namelijk uw Vaders. als hierboven, vers 11. Anders: zo ook stelden zij het, etc.",
+          "text2026": "Namelijk uw Vaders. als hierboven, vers 11. Anders: zo stelden zij het, etc.",
           "textSV1888": "38 zij stelden: Te weten, uwe vaders, gelijk in vers 11. Anders: alzo stelden zij het, enz. Zacharia 7:11: Maar zij weigerden op te merken, en togen hun schouder terug, en zij verzwaarden hun oren, opdat zij niet hoorden."
         },
         {
@@ -6593,10 +6635,13 @@
           ]
         },
         {
-          "tekst": "achter hen",
+          "tekst": "achter",
           "voorkomen": 1,
           "strongs": [
             "H310"
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
           ],
           "bronwoorden": [
             "אַֽחֲרֵי/הֶ֔ם"
@@ -6607,13 +6652,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 7:14",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]

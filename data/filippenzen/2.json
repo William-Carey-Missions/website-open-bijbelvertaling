@@ -799,7 +799,7 @@
           "type": "explanatory",
           "textSV1888": "vervult mijn blijdschap: Dat is, vermeerdert die hoe langer hoe meer met uwen Christelijken wandel.",
           "text1637": "Dat is, vermeerdert die soo langer soo meer met uwen Christelicken wandel.",
-          "text2026": "vervult mijn blijdschap: Dat is, vermeerdert die hoe langer hoe meer met uw Christelijken wandel."
+          "text2026": "vervult mijn blijdschap: Dat is, vermeerdert die hoe langer hoe meer met uw Christelijke wandel."
         },
         {
           "marker": "a",
@@ -1069,67 +1069,83 @@
           }
         },
         {
-          "tekst": "eensgezind",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G846"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
-            "το",
-            "αυτο"
+            "το"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
-              5,
-              6
-            ],
             "grondindices": [
-              5,
-              6
+              5
+            ],
+            "bronindices": [
+              5
             ]
           }
         },
         {
-          "tekst": "zijn",
+          "tekst": "eensgezind",
           "voorkomen": 1,
           "strongs": [
+            "G846",
             "G5426"
           ],
+          "lemma_strongs": [
+            "G846",
+            "G5426"
+          ],
+          "morfologie": [
+            "P-ASN",
+            "V-PAS-2P"
+          ],
           "bronwoorden": [
+            "αυτο",
             "φρονητε"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
+            "grondindices": [
+              6,
               7
             ],
-            "grondindices": [
+            "bronindices": [
+              6,
               7
             ]
           }
@@ -1231,10 +1247,16 @@
           }
         },
         {
-          "tekst": "één gemoed",
+          "tekst": "gemoed",
           "voorkomen": 1,
           "strongs": [
             "G4861"
+          ],
+          "lemma_strongs": [
+            "G4861"
+          ],
+          "morfologie": [
+            "A-NPM"
           ],
           "bronwoorden": [
             "συμψυχοι"
@@ -1245,27 +1267,36 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
+            "grondindices": [
               12
             ],
-            "grondindices": [
+            "bronindices": [
               12
             ]
           }
         },
         {
-          "tekst": "één gevoelen",
-          "voorkomen": 1,
+          "tekst": "één",
+          "voorkomen": 2,
           "strongs": [
             "G3588",
             "G1520"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1520"
+          ],
+          "morfologie": [
+            "T-ASN",
+            "A-ASN"
           ],
           "bronwoorden": [
             "το",
@@ -1279,28 +1310,35 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
-              14,
-              15
-            ],
             "grondindices": [
               13,
               14
+            ],
+            "bronindices": [
+              14,
+              15
             ]
           }
         },
         {
-          "tekst": "zijnde",
+          "tekst": "gevoelen",
           "voorkomen": 1,
           "strongs": [
             "G5426"
+          ],
+          "lemma_strongs": [
+            "G5426"
+          ],
+          "morfologie": [
+            "V-PAP-NPM"
           ],
           "bronwoorden": [
             "φρονουντες"
@@ -1311,18 +1349,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:2",
-            "bronindices": [
-              13
-            ],
             "grondindices": [
               15
+            ],
+            "bronindices": [
+              13
             ]
           }
         }
@@ -1815,7 +1854,7 @@
           "type": "explanatory",
           "textSV1888": "zie niet op: Namelijk voornamelijk, of, alleen. Want anderszins moet ook een Christen zijne huisgenoten verzorgen, 1 Tim. 5:8 . De apostel gebruikt hier een woord, hetwelk eigenlijk betekent te zien op iets als op een doelwit waar men naar schiet. 1 Timotheüs 5:8 : Doch zo iemand de zijnen, en voornamelijk zijn huisgenoten, niet verzorgt, die heeft het geloof verloochend, en is erger dan een ongelovige.",
           "text1637": "N. voornamelick, ofte, alleen. Want andersins moet oock een Christen sijne huysghenooten versorgen. 1.Timot. 5. vers 8. De Apostel ghebruyckt hier een woordt, ’t welck eyghentlick beteeckent te sien op yet als op een doel-wit daer men nae schiet.",
-          "text2026": "zie niet op: Namelijk voornamelijk, of, alleen. Want anders moet ook een Christen zijne huisgenoten verzorgen, 1 Tim. 5:8 . De apostel gebruikt hier een woord, dat eigenlijk betekent te zien op iets als op een doelwit waar men naar schiet. 1 Timotheüs 5:8 : Maar zo iemand de zijn, en voornamelijk zijn huisgenoten, niet verzorgt, die heeft het geloof verloochend, en is erger dan een ongelovige."
+          "text2026": "zie niet op: Namelijk voornamelijk, of, alleen. Want anders moet ook een Christen zijne huisgenoten verzorgen, 1 Tim. 5:8 . De apostel gebruikt hier een woord, dat eigenlijk betekent te zien op iets als op een doelwit waar men naar schiet. 1 Timotheüs 5:8 : Maar zo iemand de zijnen, en voornamelijk zijn huisgenoten, niet verzorgt, die heeft het geloof verloochend, en is erger dan een ongelovige."
         },
         {
           "marker": "14",
@@ -2582,7 +2621,7 @@
           "type": "explanatory",
           "textSV1888": "gestaltenis Gods: Grieks morphe; dat is, gedaante, of, gestaltenis, met welk woord hetzelve hier overgezet is, omdat daardoor hier betekend wordt, niet alleen een goddelijke majesteit en heerlijkheid, maar ook het goddelijke wezen zelf, overmits zonder hetzelve geen ware goddelijke majesteit en heerlijkheid kan wezen, en deze ook bij niemand kunnen zijn dan bij den waarachtigen God, Jes. 42:8 . En uit het volgende blijkt dat door dit woord hier ook het wezen Gods betekend wordt, gelijk gezegd wordt, vers 6 , dat hij Gode evengelijk was, en vers 7 , dat hij de gestaltenis van een dienstknecht heeft aangenomen; dat is, niet alleen een dienstbare en knechtelijke hoedanigheid, maar ook een ware menselijke natuur zelve met zodanige hoedanigheid bekleed. Zodat de woorden gestaltenis Gods te verstaan zijn van zijn wezen en staat, in welke hij geweest is van alle eeuwigheid, eer hij de menselijke natuur heeft aangenomen. Zie Joh. 1:1 , 1:14 , en Joh. 17:5 . Jesaja 42:8 : Ik ben de HEERE, dat is Mijn Naam; en Mijn eer zal Ik geen anderen geven, noch Mijn lof den gesneden beelden. Filippensen 2:6 : Die in de gestaltenis Gods zijnde, geen roof geacht heeft Gode even gelijk te zijn; Filippensen 2:7 : Maar heeft Zichzelven vernietigd, de gestaltenis eens dienstknechts aangenomen hebbende, en is den mensen gelijk geworden; Johannes 1:1 : In den beginne was het Woord, en het Woord was bij God, en het Woord was God. Johannes 1:14 : En het Woord is vlees geworden, en heeft onder ons gewoond (en wij hebben Zijn heerlijkheid aanschouwd, een heerlijkheid als des Eniggeborenen van den Vader), vol van genade en waarheid. Johannes 17:5 : En nu verheerlijk Mij, Gij Vader, bij Uzelven, met de heerlijkheid, die Ik bij U had, eer de wereld was.",
           "text1637": "Gr. morphe, dat is, gedaente, ofte, gestaltenisse, met welck woordt het selve hier overgeset is, om dat daer door hier beteeckent wort, niet alleen een Goddelicke Majesteyt ende heerlickheyt, maer oock het Godtlick wesen selve, overmits sonder het selve geen ware Godtlicke Majesteyt ende heerlickheyt en kan wesen, ende dese oock by niemant en connen zijn, als by den waerachtigen Godt. Iesa. 42.8. Ende blijckt uyt het volgende, dat door dit woordt hier oock het wesen Godts beteeckent wordt, als geseght wordt vers 6. dat hy Godt even gelijck was, ende vers 7 dat hy de gestaltenisse van een dienstknecht heeft aengenomen, dat is, niet alleen een dienstbare ende knechtelicke hoedanigheydt, maer oock een ware menschelicke natuere selve met soodanige hoedanigheydt bekleedt. Soo dat de woorden gestaltenisse Godts te verstaen zijn van sijn wesen ende staet, in welcke hy geweest is van alle eeuwigheydt, eer hy de menschelicke natuere heeft aengenomen. Siet Ioan. 1. versen 1, 14. ende 17.5.",
-          "text2026": "gestalte van God: Grieks morphe; dat is, gedaante, of, gestalte, met welk woord hetzelfde hier overgezet is, omdat daardoor hier betekend wordt, niet alleen een goddelijke majesteit en heerlijkheid, maar ook het goddelijke wezen zelf, omdat zonder hetzelfde geen ware goddelijke majesteit en heerlijkheid kan wezen, en deze ook bij niemand kunnen zijn dan bij de waarachtigen God, Jes. 42:8 . En uit het volgende blijkt dat door dit woord hier ook het wezen Gods betekend wordt, gelijk gezegd wordt, vers 6 , dat hij voor God gelijkenis was, en vers 7 , dat hij de gestalte van een dienaar heeft aangenomen; dat is, niet alleen een dienstbare en knechtelijke hoedanigheid, maar ook een ware menselijke natuur zelve met zodanige hoedanigheid bekleed. Zodat de woorden gestalte van God te verstaan zijn van zijn wezen en staat, in welke hij geweest is van alle eeuwigheid, voordat hij de menselijke natuur heeft aangenomen. Zie Joh. 1:1 , 1:14 , en Joh. 17:5 . Jesaja 42:8 : Ik ben JAHWEH, dat is Mijn Naam; en Mijn eer zal Ik geen anderen geven, noch Mijn lof de gesneden beelden. Filippensen 2:6 : Die in de gestalte van God zijnde, geen roof geacht heeft voor God even gelijk te zijn; Filippensen 2:7 : Maar heeft Zichzelf vernietigd, de gestalte van een dienaar aangenomen hebbende, en is de mensen gelijk geworden; Johannes 1:1 : In de beginne was het Woord, en het Woord was bij God, en het Woord was God. Johannes 1:14 : En het Woord is vlees geworden, en heeft onder ons gewoond (en wij hebben Zijn heerlijkheid aanschouwd, een heerlijkheid als van de Eniggeborenen van de Vader), vol van genade en waarheid. Johannes 17:5 : En nu verheerlijk Mij, U Vader, bij Uzelven, met de heerlijkheid, die Ik bij U had, voordat de wereld was."
+          "text2026": "gestalte van God: Grieks morphe; dat is, gedaante, of, gestalte, met welk woord hetzelfde hier overgezet is, omdat daardoor hier betekend wordt, niet alleen een goddelijke majesteit en heerlijkheid, maar ook het goddelijke wezen zelf, omdat zonder hetzelfde geen ware goddelijke majesteit en heerlijkheid kan wezen, en deze ook bij niemand kunnen zijn dan bij de waarachtige God, Jes. 42:8 . En uit het volgende blijkt dat door dit woord hier ook het wezen Gods betekend wordt, gelijk gezegd wordt, vers 6 , dat hij God evengelijk was, en vers 7 , dat hij de gestalte van een dienaar heeft aangenomen; dat is, niet alleen een dienstbare en knechtelijke hoedanigheid, maar ook een ware menselijke natuur zelve met zodanige hoedanigheid bekleed. Zodat de woorden gestalte van God te verstaan zijn van zijn wezen en staat, in welke hij geweest is van alle eeuwigheid, voordat hij de menselijke natuur heeft aangenomen. Zie Joh. 1:1 , 1:14 , en Joh. 17:5 . Jesaja 42:8 : Ik ben JAHWEH, dat is Mijn Naam; en Mijn eer zal Ik geen anderen geven, noch Mijn lof aan de gesneden beelden. Filippensen 2:6 : Die in de gestalte van God zijnde, geen roof geacht heeft voor God even gelijk te zijn; Filippensen 2:7 : Maar heeft Zichzelf vernietigd, de gestalte van een dienaar aangenomen hebbende, en is de mensen gelijk geworden; Johannes 1:1 : In de beginne was het Woord, en het Woord was bij God, en het Woord was God. Johannes 1:14 : En het Woord is vlees geworden, en heeft onder ons gewoond (en wij hebben Zijn heerlijkheid aanschouwd, een heerlijkheid als van de Eniggeborene van de Vader), vol van genade en waarheid. Johannes 17:5 : En nu verheerlijk Mij, U Vader, bij Uzelven, met de heerlijkheid, die Ik bij U had, voordat de wereld was."
         },
         {
           "marker": "18",
@@ -2596,7 +2635,7 @@
           "type": "explanatory",
           "textSV1888": "Gode even gelijk te zijn: Dat is, Gode Zijnen Vader naar Zijn goddelijk wezen, en dienvolgens ook in majesteit en heerlijkheid volkomen gelijk te zijn en te blijven, als zijnde één met den Vader. Zie Joh. 5:18 , 5:26 , en Joh. 10:20 , en Joh. 16:15 ; Hebr. 1:3 . Johannes 5:18 : Daarom zochten dan de Joden te meer Hem te doden, omdat Hij niet alleen den sabbat brak, maar ook zeide, dat God Zijn eigen Vader was, Zichzelven Gode evengelijk makende. Johannes 5:26 : Want gelijk de Vader het leven heeft in Zichzelven, alzo heeft Hij ook den Zoon gegeven, het leven te hebben in Zichzelven; Johannes 10:20 : En velen van hen zeiden: Hij heeft den duivel, en is uitzinnig; wat hoort gij Hem? Johannes 16:15 : Al wat de Vader heeft, is Mijn; daarom heb Ik gezegd, dat Hij het uit het Mijne zal nemen, en u verkondigen. Hebreeën 1:3 : Dewelke, alzo Hij is het Afschijnsel Zijner heerlijkheid, en het uitgedrukte Beeld Zijner zelfstandigheid, en alle dingen draagt door het woord Zijner kracht, nadat Hij de reinigmaking onzer zonden door Zichzelven te weeg gebracht heeft, is gezeten aan de rechterhand der Majesteit in de hoogste hemelen;",
           "text1637": "D. Gode sijnen Vader nae sijn Godtlijck wesen, ende volgens dien oock in Majesteyt ende heerlicheyt volkomelick gelijck te zijn ende te blijven, als zijnde een met den Vader. Siet Ioan. 5. versen 18, 26. ende 10.30. ende 16.15. Hebr. 1.3.",
-          "text2026": "voor God even gelijk te zijn: Dat is, voor God Zijn Vader naar Zijn goddelijk wezen, en dienvolgens ook in majesteit en heerlijkheid volkomen gelijk te zijn en te blijven, als zijnde één met de Vader. Zie Joh. 5:18 , 5:26 , en Joh. 10:20 , en Joh. 16:15 ; Hebr. 1:3 . Johannes 5:18 : Daarom zochten dan de Joden te meer Hem te doden, omdat Hij niet alleen de sabbat brak, maar ook zei, dat God Zijn eigen Vader was, Zichzelf voor God gelijkenis makende. Johannes 5:26 : Want gelijk de Vader het leven heeft in Zichzelf, zo heeft Hij ook de Zoon gegeven, het leven te hebben in Zichzelf; Johannes 10:20 : En velen van hen zeiden: Hij heeft de duivel, en is uitzinnig; wat hoort u Hem? Johannes 16:15 : Al wat de Vader heeft, is Mijn; daarom heb Ik gezegd, dat Hij het uit het Mijne zal nemen, en u verkondigen. Hebreeën 1:3 : Dewelke, zo Hij is het Afschijnsel Zijn heerlijkheid, en het uitgedrukte Beeld Zijn zelfstandigheid, en alle dingen draagt door het woord Zijn kracht, nadat Hij de reinigmaking onzer zonden door Zichzelf te weeg gebracht heeft, is gezeten aan de rechterhand van de Majesteit in de hoogste hemelen;"
+          "text2026": "voor God even gelijk te zijn: Dat is, God Zijn Vader naar Zijn goddelijk wezen, en dienvolgens ook in majesteit en heerlijkheid volkomen gelijk te zijn en te blijven, als zijnde één met de Vader. Zie Joh. 5:18 , 5:26 , en Joh. 10:20 , en Joh. 16:15 ; Hebr. 1:3 . Johannes 5:18 : Daarom zochten dan de Joden te meer Hem te doden, omdat Hij niet alleen de sabbat brak, maar ook zei, dat God Zijn eigen Vader was, Zichzelf God evengelijk makende. Johannes 5:26 : Want gelijk de Vader het leven heeft in Zichzelf, zo heeft Hij ook de Zoon gegeven, het leven te hebben in Zichzelf; Johannes 10:20 : En velen van hen zeiden: Hij heeft de duivel, en is uitzinnig; wat hoort u Hem? Johannes 16:15 : Al wat de Vader heeft, is Mijn; daarom heb Ik gezegd, dat Hij het uit het Mijne zal nemen, en u verkondigen. Hebreeën 1:3 : Dewelke, zo Hij is het Afschijnsel van Zijn heerlijkheid, en het uitgedrukte Beeld van Zijn zelfstandigheid, en alle dingen draagt door het woord van Zijn kracht, nadat Hij de reinigmaking onzer zonden door Zichzelf te weeg gebracht heeft, is gezeten aan de rechterhand van de Majesteit in de hoogste hemelen;"
         }
       ],
       "grondtekst": [
@@ -3052,7 +3091,7 @@
           "type": "explanatory",
           "textSV1888": "Grieks verijdeld; of ledig gemaakt; dat is, heeft het gebruik Zijner goddelijke heerlijkheid voor een tijd, om het werk onzer verlossing in den staat der nederigheid te volbrengen, gelijk als afgelegd, en Zich daarvan gelijk als ledig gemaakt, en in Zijn menselijke natuur verborgen gehouden, alleen enige kleine stralen derzelve door Zijne wonderwerken en anderszins, altemet latende schijnen, Joh. 1:14 , en Joh. 2:11 . In het volgende vers 8 wordt het verklaard met het woord vernederd. Johannes 1:14 : En het Woord is vlees geworden, en heeft onder ons gewoond (en wij hebben Zijn heerlijkheid aanschouwd, een heerlijkheid als des Eniggeborenen van den Vader), vol van genade en waarheid. Johannes 2:11 : Dit beginsel der tekenen heeft Jezus gedaan te Kana in Galilea, en heeft Zijn heerlijkheid geopenbaard; en Zijn discipelen geloofden in Hem. Filippensen 2:8 : En in gedaante gevonden als een mens, heeft Hij Zichzelven vernederd, gehoorzaam geworden zijnde tot den dood, ja, den dood des kruises.",
           "text1637": "Gr. verydelt: ofte, ledich gemaeckt. dat is, heeft het gebruyck sijner Godtlicker heerlickheydt voor eenen tijdt, om het werck onser verlossinge in den staet der nedrigheydt te volbrengen, gelijck als afgeleght, ende hem daer van gelijck als ledigh gemaeckt, ende in sijne menschelicke natuere verborgen gehouden, alleen eenige kleyne stralen der selve door sijne wonder-wercken ende andersins, al te met latende schijnen. Ioan. 1.14. ende 2.11. In het volgende 8 vers wort het verklaert met het woordt vernedert.",
-          "text2026": "Grieks verijdeld; of leeg gemaakt; dat is, heeft het gebruik Zijn goddelijke heerlijkheid voor een tijd, om het werk onzer verlossing in de staat van de nederigheid te volbrengen, gelijk als afgelegd, en Zich daarvan gelijk als leeg gemaakt, en in Zijn menselijke natuur verborgen gehouden, alleen enige kleine stralen derzelve door Zijne wonderwerken en anders, altemet latende schijnen, Joh. 1:14 , en Joh. 2:11 . In het volgende vers 8 wordt het verklaard met het woord vernederd. Johannes 1:14 : En het Woord is vlees geworden, en heeft onder ons gewoond (en wij hebben Zijn heerlijkheid aanschouwd, een heerlijkheid als van de Eniggeborenen van de Vader), vol van genade en waarheid. Johannes 2:11 : Dit begin van de tekenen heeft Jezus gedaan te Kana in Galilea, en heeft Zijn heerlijkheid geopenbaard; en Zijn discipelen geloofden in Hem. Filippensen 2:8 : En in gedaante gevonden als een mens, heeft Hij Zichzelf vernederd, gehoorzaam geworden zijnde tot de dood, ja, de dood van het kruis."
+          "text2026": "Grieks verijdeld; of leeg gemaakt; dat is, heeft het gebruik van Zijn goddelijke heerlijkheid voor een tijd, om het werk onzer verlossing in de staat van de nederigheid te volbrengen, gelijk als afgelegd, en Zich daarvan gelijk als leeg gemaakt, en in Zijn menselijke natuur verborgen gehouden, alleen enige kleine stralen derzelve door Zijne wonderwerken en anders, altemet latende schijnen, Joh. 1:14 , en Joh. 2:11 . In het volgende vers 8 wordt het verklaard met het woord vernederd. Johannes 1:14 : En het Woord is vlees geworden, en heeft onder ons gewoond (en wij hebben Zijn heerlijkheid aanschouwd, een heerlijkheid als van de Eniggeborene van de Vader), vol van genade en waarheid. Johannes 2:11 : Dit begin van de tekenen heeft Jezus gedaan te Kana in Galilea, en heeft Zijn heerlijkheid geopenbaard; en Zijn discipelen geloofden in Hem. Filippensen 2:8 : En in gedaante gevonden als een mens, heeft Hij Zichzelf vernederd, gehoorzaam geworden zijnde tot de dood, ja, de dood van het kruis."
         },
         {
           "marker": "g",
@@ -3066,7 +3105,7 @@
           "type": "explanatory",
           "textSV1888": "de gestaltenis: Dit wordt verklaard met de volgende woorden, namelijk dat Hij een ware menselijke natuur heeft aangenomen, en met dezelve een gans nederigen en verachten staat, als van een slaaf of dienstknecht, om alzo voor onze zonden te voldoen, en tot onze verlossing Zijn Vader te dienen. Zie Jes. 53:11 . Jesaja 53:11 : Om den arbeid Zijner ziel zal Hij het zien, en verzadigd worden; door Zijn kennis zal Mijn Knecht, de Rechtvaardige, velen rechtvaardig maken, want Hij zal hun ongerechtigheden dragen.",
           "text1637": "Dit wordt verklaert met de volgende woorden, namelick dat hy een ware menschelicke natuere heeft aengenomen, ende met de selve eenen gantsch nedrighen ende verachten staet, als van een slave ofte dienstknecht, om alsoo voor onse sonden te voldoen, ende tot onser verlossinge sijnen Vader te dienen. Siet Iesai. 53.11.",
-          "text2026": "de gestalte: Dit wordt verklaard met de volgende woorden, namelijk dat Hij een ware menselijke natuur heeft aangenomen, en met dezelfde een geheel nederigen en verachten staat, als van een slaaf of dienaar, om zo voor onze zonden te voldoen, en tot onze verlossing Zijn Vader te dienen. Zie Jes. 53:11 . Jesaja 53:11 : Om de arbeid Zijn ziel zal Hij het zien, en verzadigd worden; door Zijn kennis zal Mijn Knecht, de Rechtvaardige, velen rechtvaardig maken, want Hij zal hun ongerechtigheden dragen."
+          "text2026": "de gestalte: Dit wordt verklaard met de volgende woorden, namelijk dat Hij een ware menselijke natuur heeft aangenomen, en met dezelfde een geheel nederigen en verachten staat, als van een slaaf of dienaar, om zo voor onze zonden te voldoen, en tot onze verlossing Zijn Vader te dienen. Zie Jes. 53:11 . Jesaja 53:11 : Om de arbeid van Zijn ziel zal Hij het zien, en verzadigd worden; door Zijn kennis zal Mijn Knecht, de Rechtvaardige, velen rechtvaardig maken, want Hij zal hun ongerechtigheden dragen."
         },
         {
           "marker": "23",
@@ -3455,7 +3494,7 @@
           "type": "explanatory",
           "textSV1888": "in gedaante: Daardoor wordt verstaan hetzelfde dat tevoren genoemd is gestaltenis en gelijkmaking; gevoegd met den uitwendigen wandel onder de mensen.",
           "text1637": "Daer door wordt verstaen het selve dat te voren genoemt is gestaltenisse, ende gelijckmaeckinge. gevoeght met den uytwendigen wandel onder de menschen.",
-          "text2026": "in gedaante: Daardoor wordt verstaan hetzelfde dat tevoren genoemd is gestalte en gelijkmaking; gevoegd met de uitwendigen wandel onder de mensen."
+          "text2026": "in gedaante: Daardoor wordt verstaan hetzelfde dat tevoren genoemd is gestalte en gelijkmaking; gevoegd met de uitwendige wandel onder de mensen."
         },
         {
           "marker": "25",
@@ -3490,21 +3529,21 @@
           "type": "explanatory",
           "textSV1888": "gehoorzaam geworden: Namelijk Zich aan den wil Zijns Vaders in alles gewillig onderwerpende.",
           "text1637": "Namel. hem den wille sijns Vaders in alles gewillighlick onderwerpende.",
-          "text2026": "gehoorzaam geworden: Namelijk Zich aan de wil Zijn Vaders in alles gewillig onderwerpende."
+          "text2026": "gehoorzaam geworden: Namelijk Zich aan de wil van Zijn Vader in alles gewillig onderwerpende."
         },
         {
           "marker": "29",
           "type": "explanatory",
           "textSV1888": "tot den dood: Dat is, niet alleen in allerlei bevelen, maar ook in de zwaarste, om den dood te sterven; dien Hij anderszins niet onderworpen was, noch naar Zijn goddelijke natuur, die onsterflijk is, 1 Tim. 1:17 ; noch naar Zijn menselijke, overmits in dezelve gene zonde was, 1 Joh. 3:5 , en daarom de bezolding derzelve niet verdiend had, Rom. 6:23 . 1 Timotheüs 1:17 : Den Koning nu der eeuwen, den onverderfelijken, den onzienlijken, den alleen wijzen God, zij eer en heerlijkheid in alle eeuwigheid. Amen. 1 Johannes 3:5 : En gij weet, dat Hij geopenbaard is, opdat Hij onze zonden zou wegnemen; en geen zonde is in Hem. Romeinen 6:23 : Want de bezoldiging der zonde is de dood, maar de genadegift Gods is het eeuwige leven, door Jezus Christus, onzen Heere.",
           "text1637": "D. niet alleen in allerley bevelen, maer oock in de swaerste, om den doodt te sterven: die hy andersins niet onderworpen en was, noch na sijne Godtlicke natuere, die onsterflick is. 1.Timoth. 1.17. noch nae sijne menschelicke, overmits in de selve geen sonde en was, 1.Ioan. 3.5. ende daerom de besoldinge der selve niet verdient en hadde. Rom. 6.23.",
-          "text2026": "tot de dood: Dat is, niet alleen in allerlei bevelen, maar ook in de zwaarste, om de dood te sterven; die Hij anders niet onderworpen was, noch naar Zijn goddelijke natuur, die onsterflijk is, 1 Tim. 1:17 ; noch naar Zijn menselijke, omdat in dezelfde gene zonde was, 1 Joh. 3:5 , en daarom de bezolding derzelve niet verdiend had, Rom. 6:23 . 1 Timotheüs 1:17 : De Koning nu van de eeuwen, de onverderfelijken, de onzichtbare, de alleen wijzen God, zij eer en heerlijkheid in alle eeuwigheid. Amen. 1 Johannes 3:5 : En u weet, dat Hij geopenbaard is, opdat Hij onze zonden zou wegnemen; en geen zonde is in Hem. Romeinen 6:23 : Want de bezoldiging van de zonde is de dood, maar de genadegift Gods is het eeuwige leven, door Jezus Christus, onze Heer."
+          "text2026": "tot de dood: Dat is, niet alleen in allerlei bevelen, maar ook in de zwaarste, om de dood te sterven; die Hij anders niet onderworpen was, noch naar Zijn goddelijke natuur, die onsterflijk is, 1 Tim. 1:17 ; noch naar Zijn menselijke, omdat in dezelfde gene zonde was, 1 Joh. 3:5 , en daarom de bezolding derzelve niet verdiend had, Rom. 6:23 . 1 Timotheüs 1:17 : De Koning nu van de eeuwen, de onverderfelijke, de onzichtbare, de alleen wijze God, zij eer en heerlijkheid in alle eeuwigheid. Amen. 1 Johannes 3:5 : En u weet, dat Hij geopenbaard is, opdat Hij onze zonden zou wegnemen; en geen zonde is in Hem. Romeinen 6:23 : Want de bezoldiging van de zonde is de dood, maar de genadegift Gods is het eeuwige leven, door Jezus Christus, onze Heer."
         },
         {
           "marker": "30",
           "type": "explanatory",
           "textSV1888": "den dood des kruises: Dat is, den allerbittersten en allersmadelijksten dood, die ook van God vervloekt was, Deut. 21:23 . Onder deze uiterste trap van vernedering begrijpt de apostel alle andere, die dezelve voorgegaan zijn naar lichaam en naar ziel, en drukt deze uit om te beter de uiterste vernedering van Christus voor ogen te stellen, en de gelovigen daarmede tot nederigheid te vermanen. Deuteronomium 21:23 : Zo zal zijn dood lichaam aan het hout niet overnachten; maar gij zult het zekerlijk ten zelven dage begraven; want een opgehangene is Gode een vloek. Alzo zult gij uw land niet verontreinigen, dat u de HEERE, uw God, ten erve geeft.",
           "text1637": "Dat is, den allerbittersten, ende allersmadelicksten doodt, die oock van Godt vervloeckt was. Deuter 21.23. Onder desen uytersten trap van vernederinge begrijpt de Apostel alle andere die de selve voorgegaen zijn nae lichaem ende nae ziele, ende druckt desen uyt om te beter de uyterste vernederinge Christi voor ooghen te stellen, ende de geloovige daer mede tot nedrigheydt te vermanen.",
-          "text2026": "de dood van het kruis: Dat is, de allerbittersten en allersmadelijksten dood, die ook van God vervloekt was, Deut. 21:23 . Onder deze uiterste trap van vernedering begrijpt de apostel alle andere, die dezelfde voorgegaan zijn naar lichaam en naar ziel, en drukt deze uit om te beter de uiterste vernedering van Christus voor ogen te stellen, en de gelovigen daarmede tot nederigheid te vermanen. Deuteronomium 21:23 : Zo zal zijn dood lichaam aan het hout niet overnachten; maar u zult het zekerlijk ten zelven dage begraven; want een opgehangene is voor God een vloek. Zo zult u uw land niet verontreinigen, dat u JAHWEH, uw God, ten erve geeft."
+          "text2026": "de dood van het kruis: Dat is, de allerbitterste en allersmadelijkste dood, die ook van God vervloekt was, Deut. 21:23 . Onder deze uiterste trap van vernedering begrijpt de apostel alle andere, die dezelfde voorgegaan zijn naar lichaam en naar ziel, en drukt deze uit om te beter de uiterste vernedering van Christus voor ogen te stellen, en de gelovigen daarmede tot nederigheid te vermanen. Deuteronomium 21:23 : Zo zal zijn dood lichaam aan het hout niet overnachten; maar u zult het zekerlijk ten zelven dage begraven; want een opgehangene is voor God een vloek. Zo zult u uw land niet verontreinigen, dat u JAHWEH, uw God, ten erve geeft."
         }
       ],
       "grondtekst": [
@@ -4059,7 +4098,7 @@
           "type": "explanatory",
           "textSV1888": "Daarom heeft: Met dit woord daarom wordt niet aangewezen dat Christus met deze vernedering de volgende heerlijkheid voor Zichzelven zou verdiend hebben; want al wat Christus verdiend heeft, dat heeft Hij voor ons verdiend, Joh. 17:19 ; maar wijst alleen aan wat hierop gevolgd is, of betamelijk was te volgen. Zie dergelijke Hand. 20:26 ; Hebr. 3:7 ; 2 Petr. 1:10 . Johannes 17:19 : En Ik heilige Mijzelven voor hen, opdat ook zij geheiligd mogen zijn in waarheid. Handelingen 20:26 : Daarom betuig ik ulieden op dezen huidigen dag, dat ik rein ben van het bloed van u allen. Hebreeën 3:7 : Daarom, gelijk de Heilige Geest zegt: Heden, indien gij Zijn stem hoort, 2 Petrus 1:10 : Daarom, broeders, benaarstigt u te meer, om uw roeping en verkiezing vast te maken; want dat doende zult gij nimmermeer struikelen.",
           "text1637": "Met dit woordt daerom, en wordt niet aengewesen dat Christus met dese vernedringe de volgende heerlickheydt soude voor hem selven verdient hebben: want al wat Christus verdient heeft dat heeft hy voor ons verdient. Ioan. 17.19. Maer wijst alleen aen wat hier op gevolght is, ofte betamelick was te volgen. Siet diergelijck Actor. 20.26. Hebr. 3.7. 2.Petr. 1.10.",
-          "text2026": "Daarom heeft: Met dit woord daarom wordt niet aangewezen dat Christus met deze vernedering de volgende heerlijkheid voor Zichzelf zou verdiend hebben; want al wat Christus verdiend heeft, dat heeft Hij voor ons verdiend, Joh. 17:19 ; maar wijst alleen aan wat hierop gevolgd is, of passend was te volgen. Zie dergelijke Hand. 20:26 ; Hebr. 3:7 ; 2 Petr. 1:10 . Johannes 17:19 : En Ik heilige Mijzelf voor hen, opdat ook zij geheiligd mogen zijn in waarheid. Handelingen 20:26 : Daarom betuig ik u op deze huidigen dag, dat ik rein ben van het bloed van u allen. Hebreeën 3:7 : Daarom, gelijk de Heilige Geest zegt: Heden, als u Zijn stem hoort, 2 Petrus 1:10 : Daarom, broeders, benaarstigt u te meer, om uw roeping en verkiezing vast te maken; want dat doende zult u nimmermeer struikelen."
+          "text2026": "Daarom heeft: Met dit woord daarom wordt niet aangewezen dat Christus met deze vernedering de volgende heerlijkheid voor Zichzelf zou verdiend hebben; want al wat Christus verdiend heeft, dat heeft Hij voor ons verdiend, Joh. 17:19 ; maar wijst alleen aan wat hierop gevolgd is, of passend was te volgen. Zie dergelijke Hand. 20:26 ; Hebr. 3:7 ; 2 Petr. 1:10 . Johannes 17:19 : En Ik heilige Mijzelf voor hen, opdat ook zij geheiligd mogen zijn in waarheid. Handelingen 20:26 : Daarom betuig ik u op deze huidige dag, dat ik rein ben van het bloed van u allen. Hebreeën 3:7 : Daarom, gelijk de Heilige Geest zegt: Heden, als u Zijn stem hoort, 2 Petrus 1:10 : Daarom, broeders, benaarstigt u te meer, om uw roeping en verkiezing vast te maken; want dat doende zult u nimmermeer struikelen."
         },
         {
           "marker": "32",
@@ -4073,7 +4112,7 @@
           "type": "explanatory",
           "textSV1888": "uitermate verhoogd: Namelijk nadat Hij van de doden opgestaan en ten hemel opgevaren zijnde, ter rechterhand Gods gezet is in de hoogste heerlijkheid, Ef. 1:20 ; Hebr. 1:3 , welke Hij wel naar Zijn goddelijke natuur van eeuwigheid heeft gehad, Joh. 17:5 ; maar alzo hij het gebruik van die in den staat Zijner nederigheid gelijk als afgelegd had, zo heeft Hij hetzelve na Zijne hemelvaart wederom aangenomen en heerlijk vertoond, en Zijn menselijke natuur is naar lichaam en naar ziel met zo hoge heerlijkheid en gelukzaligheid versierd, als een schepsel ontvangen kan, verre tebovengaande alle heerlijkheid van engelen en andere mensen. Efeziërs 1:20 : Die Hij gewrocht heeft in Christus, als Hij Hem uit de doden heeft opgewekt; en heeft Hem gezet tot Zijn rechterhand in den hemel; Hebreeën 1:3 : Dewelke, alzo Hij is het Afschijnsel Zijner heerlijkheid, en het uitgedrukte Beeld Zijner zelfstandigheid, en alle dingen draagt door het woord Zijner kracht, nadat Hij de reinigmaking onzer zonden door Zichzelven te weeg gebracht heeft, is gezeten aan de rechterhand der Majesteit in de hoogste hemelen; Johannes 17:5 : En nu verheerlijk Mij, Gij Vader, bij Uzelven, met de heerlijkheid, die Ik bij U had, eer de wereld was.",
           "text1637": "Namel. nae dat hy van den dooden opgestaen ende ten Hemel opgevaren zijnde, ter rechter-handt Godts geset is in de hooghste heerlickheydt. Ephes. 1.20. Hebr. 1.3. welcke hy wel nae sijne Godtlicke natuere van eeuwigheydt heeft gehadt. Ioan. 17.5. maer alsoo hy het ghebruyck van dien in den staet sijner nedrigheydt gelijck als afgeleght hadde, soo heeft hy het selve nae sijne hemelvaert wederom aengenomen ende heerlick vertoont: ende sijne menschelicke natuere is nae lichaem ende nae ziele met soo hooge heerlickheydt ende gelucksaligheydt verciert, als een schepsel ontfangen kan, verre te boven gaende alle heerlickheydt van Engelen ende andere menschen.",
-          "text2026": "bovenmate verhoogd: Namelijk nadat Hij van de doden opgestaan en ten hemel opgevaren zijnde, ter rechterhand van God gezet is in de hoogste heerlijkheid, Ef. 1:20 ; Hebr. 1:3 , welke Hij wel naar Zijn goddelijke natuur van eeuwigheid heeft gehad, Joh. 17:5 ; maar zo hij het gebruik van die in de staat Zijn nederigheid gelijk als afgelegd had, zo heeft Hij hetzelfde na Zijne hemelvaart opnieuw aangenomen en heerlijk vertoond, en Zijn menselijke natuur is naar lichaam en naar ziel met zo hoge heerlijkheid en gelukzaligheid versierd, als een schepsel ontvangen kan, verre tebovengaande alle heerlijkheid van engelen en andere mensen. Efeziërs 1:20 : Die Hij gewrocht heeft in Christus, als Hij Hem uit de doden heeft opgewekt; en heeft Hem gezet tot Zijn rechterhand in de hemel; Hebreeën 1:3 : Dewelke, zo Hij is het Afschijnsel Zijn heerlijkheid, en het uitgedrukte Beeld Zijn zelfstandigheid, en alle dingen draagt door het woord Zijn kracht, nadat Hij de reinigmaking onzer zonden door Zichzelf te weeg gebracht heeft, is gezeten aan de rechterhand van de Majesteit in de hoogste hemelen; Johannes 17:5 : En nu verheerlijk Mij, U Vader, bij Uzelven, met de heerlijkheid, die Ik bij U had, voordat de wereld was."
+          "text2026": "bovenmate verhoogd: Namelijk nadat Hij van de doden opgestaan en ten hemel opgevaren zijnde, ter rechterhand van God gezet is in de hoogste heerlijkheid, Ef. 1:20 ; Hebr. 1:3 , welke Hij wel naar Zijn goddelijke natuur van eeuwigheid heeft gehad, Joh. 17:5 ; maar zo hij het gebruik van die in de staat van Zijn nederigheid gelijk als afgelegd had, zo heeft Hij hetzelfde na Zijne hemelvaart opnieuw aangenomen en heerlijk vertoond, en Zijn menselijke natuur is naar lichaam en naar ziel met zo hoge heerlijkheid en gelukzaligheid versierd, als een schepsel ontvangen kan, verre tebovengaande alle heerlijkheid van engelen en andere mensen. Efeziërs 1:20 : Die Hij gewrocht heeft in Christus, als Hij Hem uit de doden heeft opgewekt; en heeft Hem gezet tot Zijn rechterhand in de hemel; Hebreeën 1:3 : Dewelke, zo Hij is het Afschijnsel van Zijn heerlijkheid, en het uitgedrukte Beeld van Zijn zelfstandigheid, en alle dingen draagt door het woord van Zijn kracht, nadat Hij de reinigmaking onzer zonden door Zichzelf te weeg gebracht heeft, is gezeten aan de rechterhand van de Majesteit in de hoogste hemelen; Johannes 17:5 : En nu verheerlijk Mij, U Vader, bij Uzelven, met de heerlijkheid, die Ik bij U had, voordat de wereld was."
         },
         {
           "marker": "l",
@@ -4087,14 +4126,14 @@
           "type": "explanatory",
           "textSV1888": "een Naam: Daardoor wordt verstaan niet de blote naam, waardoor hij van andere mensen onderscheiden is; want dien heeft Hij ook in den staat Zijner nederheid gehad; noch ook alleen de vermaardheid van Zijnen persoon, maar de majesteit en heerlijkheid deszelven. Zie Ef. 1:21 . Efeziërs 1:21 : Verre boven alle overheid, en macht, en kracht, en heerschappij, en allen naam, die genaamd wordt, niet alleen in deze wereld, maar ook in de toekomende;",
           "text1637": "Daerdoor wordt verstaen niet de bloote naem, waer door hy van andere menschen onderscheyden is: want die heeft hy oock in den staet sijner nedrigheydt gehadt: noch oock alleen de vermaertheydt van sijnen persoon, maer de Majesteyt ende heerlickheydt des selven. Siet Ephes. 1.21.",
-          "text2026": "een Naam: Daardoor wordt verstaan niet de blote naam, waardoor hij van andere mensen onderscheiden is; want die heeft Hij ook in de staat Zijn nederheid gehad; noch ook alleen de vermaardheid van Zijn persoon, maar de majesteit en heerlijkheid dezelfde. Zie Ef. 1:21 . Efeziërs 1:21 : Verre boven alle overheid, en macht, en kracht, en heerschappij, en alle naam, die genaamd wordt, niet alleen in deze wereld, maar ook in de toekomende;"
+          "text2026": "een Naam: Daardoor wordt verstaan niet de blote naam, waardoor hij van andere mensen onderscheiden is; want die heeft Hij ook in de staat van Zijn nederheid gehad; noch ook alleen de vermaardheid van Zijn persoon, maar de majesteit en heerlijkheid daarvan. Zie Ef. 1:21 . Efeziërs 1:21 : Verre boven alle overheid, en macht, en kracht, en heerschappij, en alle naam, die genaamd wordt, niet alleen in deze wereld, maar ook in de toekomende;"
         },
         {
           "marker": "35",
           "type": "explanatory",
           "textSV1888": "Of, geschonken. Zie Filipp. 1:29 . Waarmede te kennen gegeven wordt dat deze verhoging geschied is naar des Vaders wil en believen. Filippensen 1:29 : Want u is uit genade gegeven in de zaak van Christus, niet alleen in Hem te geloven, maar ook voor Hem te lijden;",
           "text1637": "Ofte, geschoncken. Siet capit. 1.29. waer mede te kennen gegeven wordt, dat dese verhooginge geschiet is nae des Vaders wille ende believen.",
-          "text2026": "Of, geschonken. Zie Filipp. 1:29 . Waarmee te kennen gegeven wordt dat deze verhoging geschied is naar van de Vader wil en believen. Filippensen 1:29 : Want u is uit genade gegeven in de zaak van Christus, niet alleen in Hem te geloven, maar ook voor Hem te lijden;"
+          "text2026": "Of, geschonken. Zie Filipp. 1:29 . Waarmee te kennen gegeven wordt dat deze verhoging geschied is naar de wil en het believen van de Vader. Filippensen 1:29 : Want u is uit genade gegeven in de zaak van Christus, niet alleen in Hem te geloven, maar ook voor Hem te lijden;"
         },
         {
           "marker": "36",
@@ -4623,7 +4662,7 @@
           "type": "explanatory",
           "textSV1888": "buigen alle knie: Dat is, alle redegebruikende schepselen zich onderwerpen, zelfs ook Zijne vijanden tegen hunnen dank. De apostel ziet hier op hetgeen God zegt, Jes. 45:23 , en past dit hier op Jezus Christus toe, gelijk ook Rom. 14:11 . Deze woorden moeten dan niet eigenlijk verstaan worden, te weten, dat als de naam Jezus genoemd wordt, men de knieën zou moeten buigen, gelijk sommigen uit misverstand van deze plaats, niet zonder bijgeloof doen, want de engelen en boze geesten, van welke hier ook gesproken wordt, eigenlijk geen knieën hebben; maar bij gelijkenis van den uiterlijken eerbied, dien men koningen of prinsen daarmede betoont, onder welke men staat, wordt hier verstaan de onderwerping aller schepselen onder Christus, als den Heere der heren, en Koning der koningen, Openb. 19:16 , den overste der koningen der aarde, Openb. 1:5 , en den Heere overal, Hand. 10:36 . Jesaja 45:23 : Ik heb gezworen bij Mijzelven, er is een woord der gerechtigheid uit Mijn mond gegaan, en het zal niet wederkeren: dat Mij alle knie zal gebogen worden, alle tong Mij zal zweren. Romeinen 14:11 : Want er is geschreven: Ik leef, zegt de Heere; voor Mij zal alle knie zich buigen, en alle tong zal God belijden. Openbaring 19:16 : En Hij heeft op Zijn kleed en op Zijn dij dezen Naam geschreven: Koning der koningen, en Heere der heren. Openbaring 1:5 : En van Jezus Christus, Die de getrouwe Getuige is, de Eerstgeborene uit de doden, en de Overste der koningen der aarde. Hem, Die ons heeft liefgehad, en ons van onze zonden gewassen heeft in Zijn bloed. Handelingen 10:36 : Dit is het woord, dat Hij gezonden heeft den kinderen Israëls, verkondigende vrede door Jezus Christus; deze is een Heere van allen.",
           "text1637": "D. alle reden gebruyckende schepselen haer onderwerpen, selfs oock sijne vyanden teghen haren danck. De Apostel siet hier op het ghene Godt seght. Iesa. 45.23. ende past dat selve Iesu Christo hier toe, gelijck ooc Rom. 14.11. Dese woorden en moeten dan niet eyghentlick verstaen worden, te weten, dat als de name Iesus genaemt wordt, men de knyen soude moeten buygen, gelijck sommige uyt mis-verstandt van dese plaetse, niet sonder superstitie doen: want de Engelen ende boose geesten, van welcke hier oock gesproken wort, eygentlick geen knyen en hebben: maer by ghelijckenisse van de uyterlicke eerbiedinge, diemen Coningen ofte Princen daer mede betoont, onder welcke men staet, wordt hier verstaen de onderwerpinge aller schepselen onder Christum, als den Heere der Heeren, ende Coninck der Coningen. Apoc. 19.16. den Oversten der Coningen der aerde Apoc. 1.5. ende den Heere over al. Actor. 10.36.",
-          "text2026": "buigen alle knie: Dat is, alle redegebruikende schepselen zich onderwerpen, zelfs ook Zijne vijanden tegen hun dank. De apostel ziet hier op wat God zegt, Jes. 45:23 , en past dit hier op Jezus Christus toe, gelijk ook Rom. 14:11 . Deze woorden moeten dan niet eigenlijk verstaan worden, te weten, dat als de naam Jezus genoemd wordt, men de knieën zou moeten buigen, gelijk sommigen uit misverstand van deze plaats, niet zonder bijgeloof doen, want de engelen en boze geesten, van welke hier ook gesproken wordt, eigenlijk geen knieën hebben; maar bij gelijkenis van de uiterlijken eerbied, die men koningen of prinsen daarmede betoont, onder welke men staat, wordt hier verstaan de onderwerping alle schepselen onder Christus, als de Heer van de heren, en Koning van de koningen, Openb. 19:16 , de overste van de koningen van de aarde, Openb. 1:5 , en de Heer overal, Hand. 10:36 . Jesaja 45:23 : Ik heb gezworen bij Mijzelf, er is een woord van de gerechtigheid uit Mijn mond gegaan, en het zal niet terugkeren: dat Mij alle knie zal gebogen worden, alle tong Mij zal zweren. Romeinen 14:11 : Want er is geschreven: Ik leef, zegt de Heer; voor Mij zal alle knie zich buigen, en alle tong zal God belijden. Openbaring 19:16 : En Hij heeft op Zijn kleed en op Zijn dij deze Naam geschreven: Koning van de koningen, en Heer van de heren. Openbaring 1:5 : En van Jezus Christus, Die de getrouwe Getuige is, de Eerstgeborene uit de doden, en de Overste van de koningen van de aarde. Hem, Die ons heeft liefgehad, en ons van onze zonden gewassen heeft in Zijn bloed. Handelingen 10:36 : Dit is het woord, dat Hij gezonden heeft de kinderen van Israël, verkondigende vrede door Jezus Christus; deze is een Heer van allen."
+          "text2026": "buigen alle knie: Dat is, alle redegebruikende schepselen zich onderwerpen, zelfs ook Zijne vijanden tegen hun dank. De apostel ziet hier op wat God zegt, Jes. 45:23 , en past dit hier op Jezus Christus toe, gelijk ook Rom. 14:11 . Deze woorden moeten dan niet eigenlijk verstaan worden, te weten, dat als de naam Jezus genoemd wordt, men de knieën zou moeten buigen, gelijk sommigen uit misverstand van deze plaats, niet zonder bijgeloof doen, want de engelen en boze geesten, van welke hier ook gesproken wordt, eigenlijk geen knieën hebben; maar bij gelijkenis van de uiterlijke eerbied, die men koningen of prinsen daarmede betoont, onder welke men staat, wordt hier verstaan de onderwerping van alle schepselen onder Christus, als de Heer van de heren, en Koning van de koningen, Openb. 19:16 , de overste van de koningen van de aarde, Openb. 1:5 , en de Heer overal, Hand. 10:36 . Jesaja 45:23 : Ik heb gezworen bij Mijzelf, er is een woord van de gerechtigheid uit Mijn mond gegaan, en het zal niet terugkeren: dat Mij alle knie zal gebogen worden, alle tong Mij zal zweren. Romeinen 14:11 : Want er is geschreven: Ik leef, zegt de Heer; voor Mij zal alle knie zich buigen, en alle tong zal God belijden. Openbaring 19:16 : En Hij heeft op Zijn kleed en op Zijn dij deze Naam geschreven: Koning van de koningen, en Heer van de heren. Openbaring 1:5 : En van Jezus Christus, Die de getrouwe Getuige is, de Eerstgeborene uit de doden, en de Overste van de koningen van de aarde. Hem, Die ons heeft liefgehad, en ons van onze zonden gewassen heeft in Zijn bloed. Handelingen 10:36 : Dit is het woord, dat Hij gezonden heeft aan de kinderen van Israël, verkondigende vrede door Jezus Christus; deze is een Heer van allen."
         },
         {
           "marker": "40",
@@ -5134,7 +5173,7 @@
           "type": "explanatory",
           "textSV1888": "alle tong zou belijden: Namelijk van alle natiën en volken, en ook van alle redegebruikende schepselen, niet alleen der goeden maar ook der kwaden, dewelke, hoe zeer zij zich tegen Christus stellen, evenwel Hem, tegen hun dank, dikwijls hebben moeten belijden, Mark. 5:7 ; Hand. 16:17 ; en zullen in het laatste oordeel Hem moeten erkennen voor den Rechter der levenden en der doden, en voor den Heere, Matth. 7:22 . Marcus 5:7 : En met een grote stem roepende, zeide hij: Wat heb ik met U te doen, Jezus, Gij Zone Gods, des Allerhoogsten? Ik bezweer U bij God, dat Gij mij niet pijnigt! Handelingen 16:17 : Dezelve volgde Paulus en ons achterna, en riep, zeggende: Deze mensen zijn dienstknechten Gods des Allerhoogsten, die ons den weg der zaligheid verkondigen. Mattheüs 7:22 : Velen zullen te dien dage tot Mij zeggen: Heere, Heere! hebben wij niet in Uw Naam geprofeteerd, en in Uw Naam duivelen uitgeworpen, en in Uw Naam vele krachten gedaan?",
           "text1637": "N. van alle natien ende volcken, ende oock van alle reden-ghebruyckende schepselen, niet alleen der goede maer oock der quade, de welcke hoe seer sy haer tegen Christum stellen, evenwel hem tegen haren danck, dickwils hebben moeten belijden. Marc. 5.7. Act. 16. vers 17. ende sullen in het laetste oordeel hem moeten erkennen door den Rechter der levende ende der doode, ende voor den Heere. Matth. 7.22.",
-          "text2026": "alle tong zou belijden: Namelijk van alle natiën en volken, en ook van alle redegebruikende schepselen, niet alleen van de goeden maar ook van de kwaden, dewelke, hoe zeer zij zich tegen Christus stellen, evenwel Hem, tegen hun dank, dikwijls hebben moeten belijden, Mark. 5:7 ; Hand. 16:17 ; en zullen in het laatste oordeel Hem moeten erkennen voor de Rechter van de levenden en van de doden, en voor de Heer, Matt. 7:22 . Marcus 5:7 : En met een grote stem roepende, zei hij: Wat heb ik met U te doen, Jezus, U Zoon van God, van de Allerhoogste? Ik bezweer U bij God, dat U mij niet pijnigt! Handelingen 16:17 : Dezelfde volgde Paulus en ons achterna, en riep, zeggende: Deze mensen zijn dienaren van God van de Allerhoogste, die ons de weg van de zaligheid verkondigen. Mattheüs 7:22 : Velen zullen op die dag tot Mij zeggen: Heer, Heer! hebben wij niet in Uw Naam geprofeteerd, en in Uw Naam duivelen uitgeworpen, en in Uw Naam vele krachten gedaan?"
+          "text2026": "alle tong zou belijden: Namelijk van alle natiën en volken, en ook van alle redegebruikende schepselen, niet alleen van de goeden maar ook van de kwaden, dewelke, hoe zeer zij zich tegen Christus stellen, evenwel Hem, tegen hun dank, dikwijls hebben moeten belijden, Mark. 5:7 ; Hand. 16:17 ; en zullen in het laatste oordeel Hem moeten erkennen voor de Rechter van de levenden en van de doden, en voor de Heer, Matt. 7:22 . Marcus 5:7 : En met een grote stem roepende, zei hij: Wat heb ik met U te doen, Jezus, U Zoon van God, de Allerhoogste? Ik bezweer U bij God, dat U mij niet pijnigt! Handelingen 16:17 : Dezelfde volgde Paulus en ons achterna, en riep, zeggende: Deze mensen zijn dienaren van God, de Allerhoogste, die ons de weg van de zaligheid verkondigen. Mattheüs 7:22 : Velen zullen op die dag tot Mij zeggen: Heer, Heer! hebben wij niet in Uw Naam geprofeteerd, en in Uw Naam duivelen uitgeworpen, en in Uw Naam vele krachten gedaan?"
         },
         {
           "marker": "44",
@@ -6875,38 +6914,76 @@
           }
         },
         {
-          "tekst": "werkt",
+          "tekst": "Die",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G1754"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
-            "ο",
-            "ενεργων"
+            "ο"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 2:13",
-            "bronindices": [
-              3,
+            "grondindices": [
               4
             ],
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "werkt",
+          "voorkomen": 1,
+          "strongs": [
+            "G1754"
+          ],
+          "lemma_strongs": [
+            "G1754"
+          ],
+          "morfologie": [
+            "V-PAP-NSM"
+          ],
+          "bronwoorden": [
+            "ενεργων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
+            "referentie": "PHP 2:13",
             "grondindices": [
-              4,
               5
+            ],
+            "bronindices": [
+              4
             ]
           }
         },

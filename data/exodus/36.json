@@ -345,9 +345,12 @@
         },
         {
           "tekst": "die",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אֲשֶׁר֩"
@@ -358,13 +361,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:1",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               9
             ]
@@ -455,35 +462,69 @@
           "tekst": "verstand",
           "voorkomen": 1,
           "strongs": [
-            "H8394",
-            "H1992"
+            "H8394"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
-            "וּ/תְבוּנָה֙",
-            "בָּ/הֵ֔מָּה"
+            "וּ/תְבוּנָה֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:1",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
-              15
+              11
             ]
-          },
-          "gids_strongs": [
-            "H8394"
-          ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 2,
+          "strongs": [
+            "H1992"
+          ],
+          "morfologie": [
+            "HR/Pp3mp"
+          ],
+          "bronwoorden": [
+            "בָּ/הֵ֔מָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 36:1",
+            "grondindices": [
+              12
+            ],
+            "bronindices": [
+              12
+            ]
+          }
         },
         {
           "tekst": "weten",
@@ -4009,7 +4050,7 @@
           "type": "explanatory",
           "textSV1888": "Te weten, den kunstigen werkmeester.",
           "text1637": "T.w. den konstigen werck-meester.",
-          "text2026": "Te weten, de kunstigen werkmeester."
+          "text2026": "Te weten, de kunstige werkmeester."
         }
       ],
       "grondtekst": [
@@ -7925,59 +7966,42 @@
           "tekst": "elf",
           "voorkomen": 1,
           "strongs": [
-            "H6249"
-          ],
-          "bronwoorden": [
-            "עַשְׁתֵּֽי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 36:14",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 2,
-          "strongs": [
+            "H6249",
             "H6240"
           ],
+          "morfologie": [
+            "HAcbpc",
+            "HAcfsa"
+          ],
           "bronwoorden": [
+            "עַשְׁתֵּֽי",
             "עֶשְׂרֵ֥ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:14",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               7
             ]
-          },
-          "anker": "tentkleden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "tentkleden",
@@ -8498,59 +8522,42 @@
           "tekst": "elf",
           "voorkomen": 1,
           "strongs": [
-            "H6249"
-          ],
-          "bronwoorden": [
-            "לְ/עַשְׁתֵּ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 36:15",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H6249",
             "H6240"
           ],
+          "morfologie": [
+            "HR/Acbpc",
+            "HAcfsa"
+          ],
           "bronwoorden": [
+            "לְ/עַשְׁתֵּ֥י",
             "עֶשְׂרֵ֖ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:15",
+            "grondindices": [
+              12,
+              13
+            ],
             "bronindices": [
+              2,
               3
             ]
-          },
-          "anker": "tentkleden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "tentkleden",
@@ -10983,10 +10990,13 @@
           }
         },
         {
-          "tekst": "als sporten in een ladder gezet",
+          "tekst": "gezet",
           "voorkomen": 1,
           "strongs": [
             "H7947"
+          ],
+          "morfologie": [
+            "HVPsfpa"
           ],
           "bronwoorden": [
             "מְשֻׁלָּבֹ֔ת"
@@ -10997,13 +11007,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:22",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               2
             ]
@@ -13689,10 +13703,13 @@
           ]
         },
         {
-          "tekst": "van beneden",
+          "tekst": "beneden",
           "voorkomen": 1,
           "strongs": [
             "H4295"
+          ],
+          "morfologie": [
+            "HR/R/D"
           ],
           "bronwoorden": [
             "מִ/לְּ/מַטָּה֒"
@@ -13703,13 +13720,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:29",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -14344,59 +14365,42 @@
           "tekst": "zestien",
           "voorkomen": 1,
           "strongs": [
-            "H8337"
-          ],
-          "bronwoorden": [
-            "שִׁשָּׁ֥ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 36:30",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 2,
-          "strongs": [
+            "H8337",
             "H6240"
           ],
+          "morfologie": [
+            "HAcmsa",
+            "HAcmsa"
+          ],
           "bronwoorden": [
+            "שִׁשָּׁ֥ה",
             "עָשָׂ֖ר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:30",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              3,
               4
             ]
-          },
-          "anker": "voetstukken",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "voetstukken",
@@ -14482,64 +14486,45 @@
         {
           "tekst": "",
           "voorkomen": 1,
-          "strongs": [
-            "H8147"
-          ],
-          "bronwoorden": [
-            "שְׁנֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 36:30",
-            "bronindices": [
-              9
-            ]
-          },
           "anker": "onder",
           "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
           "strongs": [
+            "H8147",
             "H134"
           ],
+          "morfologie": [
+            "HAcmdc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "שְׁנֵ֣י",
             "אֲדָנִ֔ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:30",
+            "grondindices": [
+              10,
+              11
+            ],
             "bronindices": [
+              9,
               11
             ]
-          },
-          "anker": "onder",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "onder",
@@ -16958,10 +16943,13 @@
           }
         },
         {
-          "tekst": "sittim hout",
+          "tekst": "sittim",
           "voorkomen": 1,
           "strongs": [
             "H7848"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "שִׁטִּ֔ים"
@@ -16972,13 +16960,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 36:36",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               3
             ]
