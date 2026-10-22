@@ -23,7 +23,6 @@ const PRECACHE_URLS = [
     '/LLM.txt',
     '/css/publication.css',
     '/images/branding/open-vertaling-logo-light.svg',
-    '/images/branding/william-carey-missions.png',
     '/js/theme.js',
     '/js/auth-bootstrap.js',
     '/js/firebase-config.js',

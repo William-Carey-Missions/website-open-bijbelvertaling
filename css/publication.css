@@ -1,10 +1,5 @@
-/* William Carey Missions: compacte afzender rechts in de bovenbalk. */
-.topnav-wcm { display:flex; align-items:center; gap:8px; margin-left:auto; padding:4px 0 4px 12px; color:#fff; text-decoration:none; flex-shrink:0; }
-.topnav-wcm img { width:36px; height:36px; object-fit:contain; }
-.topnav-wcm span { font-size:11px; line-height:1.3; font-weight:600; }
-.topnav-wcm:focus-visible { outline:2px solid #cba449; outline-offset:4px; }
 .ka-footer-in { grid-template-columns:minmax(0,2fr) repeat(2,minmax(0,1fr)); }
-@media(max-width:768px) { .topnav-wcm { padding-left:4px; margin-left:0; } .topnav-wcm img {width:28px;height:28px;} .topnav-wcm span {display:none;} .ka-footer-in {grid-template-columns:1fr;} }
+@media(max-width:768px) { .ka-footer-in {grid-template-columns:1fr;} }
 
 #topnav .topnav-logo { height:56px; max-width:200px; }
 @media(max-width:768px){#topnav .topnav-logo{height:46px;max-width:156px;}}
