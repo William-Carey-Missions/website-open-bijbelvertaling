@@ -384,57 +384,42 @@
           "tekst": "Mensenkind",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶּן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 12:2",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "בֶּן אָדָם is in het Nederlands tot één woord samengetrokken; dit is het בֵּן-deel (H1121)."
-        },
-        {
-          "tekst": "Mensenkind",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H120"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "בֶּן",
             "אָדָ֕ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 12:2",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "midden",
@@ -7596,10 +7581,13 @@
           "toelichting": "De uitlijngids kiest H582 (אֱנוֹשׁ) waar MorphHB voor deze vorm van אִישׁ H376 geeft; MorphHB blijft leidend."
         },
         {
-          "tekst": "weinige",
+          "tekst": "weinig",
           "voorkomen": 1,
           "strongs": [
             "H4557"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "מִסְפָּ֔ר"
@@ -7610,13 +7598,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 12:16",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               1
             ]
@@ -7760,8 +7752,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "al",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -7772,21 +7769,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 12:16",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               11
             ]
-          },
-          "anker": "gruwelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "al",
@@ -7816,10 +7813,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp3mp"
           ],
           "bronwoorden": [
             "תּוֹעֲבֽוֹתֵי/הֶ֗ם"
@@ -7830,13 +7830,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 12:16",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               13
             ]
@@ -8335,57 +8339,42 @@
           "tekst": "Mensenkind",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶּן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 12:18",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "בֶּן אָדָם is in het Nederlands tot één woord samengetrokken; dit is het בֵּן-deel (H1121)."
-        },
-        {
-          "tekst": "Mensenkind",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H120"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "בֶּן",
             "אָדָ֕ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 12:18",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "brood",
@@ -8496,10 +8485,13 @@
           }
         },
         {
-          "tekst": "beroerte",
+          "tekst": "onrust",
           "voorkomen": 1,
           "strongs": [
             "H7269"
+          ],
+          "morfologie": [
+            "HR/Ncfsa"
           ],
           "bronwoorden": [
             "בְּ/רָגְזָ֥ה"
@@ -8510,13 +8502,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 12:18",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]

@@ -5484,6 +5484,33 @@
           }
         },
         {
+          "tekst": "aangezegd",
+          "voorkomen": 1,
+          "strongs": [
+            "H5046"
+          ],
+          "bronwoorden": [
+            "הֻגַּ֜ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "B2B53C79E6AA55EF4C31CA4F053B24A8DBA49A0F97335096E362B488F157ABE2",
+            "referentie": "RUT 2:11",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
           "tekst": "wel",
           "voorkomen": 1,
           "strongs": [
@@ -5510,33 +5537,6 @@
             ]
           },
           "toelichting": "De intensiverende infinitivus absolutus הֻגֵּד is met 'wel' weergegeven."
-        },
-        {
-          "tekst": "aangezegd",
-          "voorkomen": 1,
-          "strongs": [
-            "H5046"
-          ],
-          "bronwoorden": [
-            "הֻגַּ֜ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "B2B53C79E6AA55EF4C31CA4F053B24A8DBA49A0F97335096E362B488F157ABE2",
-            "referentie": "RUT 2:11",
-            "bronindices": [
-              4
-            ]
-          }
         },
         {
           "tekst": "alles",
@@ -6056,11 +6056,15 @@
           }
         },
         {
-          "tekst": "van te voren",
+          "tekst": "voren",
           "voorkomen": 1,
           "strongs": [
             "H8543",
             "H8032"
+          ],
+          "morfologie": [
+            "HD",
+            "HNcmsa"
           ],
           "bronwoorden": [
             "תְּמ֥וֹל",
@@ -6074,19 +6078,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B2B53C79E6AA55EF4C31CA4F053B24A8DBA49A0F97335096E362B488F157ABE2",
             "referentie": "RUT 2:11",
+            "grondindices": [
+              26,
+              27
+            ],
             "bronindices": [
               24,
               25
             ]
-          },
-          "toelichting": "תְּמוֹל שִׁלְשׁוֹם ('gisteren en eergisteren') is in het Nederlands één uitdrukking; H8543 en H8032 hangen daarom aan dezelfde woordgroep."
+          }
         }
       ]
     },
@@ -6610,10 +6618,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp3ms"
           ],
           "bronwoorden": [
             "כְּנָפָֽי/ו"
@@ -6624,13 +6635,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B2B53C79E6AA55EF4C31CA4F053B24A8DBA49A0F97335096E362B488F157ABE2",
             "referentie": "RUT 2:12",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               12
             ]

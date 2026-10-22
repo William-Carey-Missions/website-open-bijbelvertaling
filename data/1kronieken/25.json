@@ -4604,13 +4604,16 @@
       ],
       "woordnummers": [
         {
-          "tekst": "eerste",
+          "tekst": "ging",
           "voorkomen": 1,
           "strongs": [
-            "H7223"
+            "H3318"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
-            "הָ/רִאשׁ֛וֹן"
+            "וַ/יֵּצֵ֞א"
           ],
           "transliteraties": [
             ""
@@ -4618,15 +4621,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 25:9",
-            "bronindices": [
+            "grondindices": [
               0
+            ],
+            "bronindices": [
+              3
             ]
           }
         },
@@ -4658,13 +4665,13 @@
           }
         },
         {
-          "tekst": "uit",
+          "tekst": "eerste",
           "voorkomen": 1,
           "strongs": [
-            "H3318"
+            "H7223"
           ],
           "bronwoorden": [
-            "וַ/יֵּצֵ֞א"
+            "הָ/רִאשׁ֛וֹן"
           ],
           "transliteraties": [
             ""
@@ -4680,7 +4687,7 @@
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 25:9",
             "bronindices": [
-              3
+              0
             ]
           }
         },
@@ -4739,33 +4746,6 @@
           }
         },
         {
-          "tekst": "tweede",
-          "voorkomen": 1,
-          "strongs": [
-            "H8145"
-          ],
-          "bronwoorden": [
-            "הַ/שֵּׁנִ֔י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
-            "referentie": "1CH 25:9",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
           "tekst": "Gedalja",
           "voorkomen": 1,
           "strongs": [
@@ -4789,6 +4769,33 @@
             "referentie": "1CH 25:9",
             "bronindices": [
               6
+            ]
+          }
+        },
+        {
+          "tekst": "tweede",
+          "voorkomen": 1,
+          "strongs": [
+            "H8145"
+          ],
+          "bronwoorden": [
+            "הַ/שֵּׁנִ֔י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
+            "referentie": "1CH 25:9",
+            "bronindices": [
+              5
             ]
           }
         },

@@ -825,117 +825,83 @@
           "tekst": "zes",
           "voorkomen": 1,
           "strongs": [
+            "H8337",
             "H8337"
           ],
-          "bronwoorden": [
-            "שֵׁ֧שׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 6:2",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "vleugelen",
-          "voorkomen": 1,
-          "strongs": [
-            "H3671"
+          "morfologie": [
+            "HAcfsa",
+            "HAcfsa"
           ],
           "bronwoorden": [
-            "כְּנָפַ֛יִם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 6:2",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8337"
-          ],
-          "bronwoorden": [
+            "שֵׁ֧שׁ",
             "שֵׁ֥שׁ"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 6:2",
+            "grondindices": [
+              4,
+              6
+            ],
             "bronindices": [
+              4,
               6
             ]
-          },
-          "anker": "zes",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuws herhaalt שֵׁשׁ כְּנָפַיִם; het Nederlands geeft 'zes vleugelen' eenmaal weer, dus staat deze koppeling na het woord."
+          }
         },
         {
-          "tekst": "",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
+            "H3671",
             "H3671"
           ],
+          "morfologie": [
+            "HNcfda",
+            "HNcfda"
+          ],
           "bronwoorden": [
+            "כְּנָפַ֛יִם",
             "כְּנָפַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 6:2",
+            "grondindices": [
+              5,
+              7
+            ],
             "bronindices": [
+              5,
               7
             ]
-          },
-          "anker": "vleugelen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuws herhaalt שֵׁשׁ כְּנָפַיִם; het Nederlands geeft 'zes vleugelen' eenmaal weer, dus staat deze koppeling na het woord."
+          }
         },
         {
           "tekst": "ieder",
@@ -5562,6 +5528,9 @@
           "strongs": [
             "H834"
           ],
+          "morfologie": [
+            "HTr"
+          ],
           "bronwoorden": [
             "אֲשֶׁר֩"
           ],
@@ -5571,27 +5540,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 6:11",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "steden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "אֲשֶׁר staat in de bijzin 'עַד אֲשֶׁר אִם' en is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H518"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "אִם"
@@ -5602,21 +5574,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 6:11",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
-          },
-          "anker": "steden",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "אִם staat in de bijzin 'עַד אֲשֶׁר אִם' en is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "verwoest",

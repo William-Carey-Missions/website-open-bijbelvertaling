@@ -4024,10 +4024,13 @@
           "toelichting": "בְּנוֹת יַעֲנָה ('dochters van de struisvogel') wordt weergegeven met 'de jonge struisen'; בְּנוֹת (H1323) hoort bij 'jonge'."
         },
         {
-          "tekst": "struisen",
+          "tekst": "struisvogels",
           "voorkomen": 1,
           "strongs": [
             "H3284"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "יַעֲנָֽה"
@@ -4038,13 +4041,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
             "referentie": "MIC 1:8",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -4625,13 +4632,13 @@
       "phraseDiff": [],
       "woordnummers": [
         {
-          "tekst": "Verkondigt",
+          "tekst": "Gath",
           "voorkomen": 1,
           "strongs": [
-            "H5046"
+            "H1661"
           ],
           "bronwoorden": [
-            "תַּגִּ֔ידוּ"
+            "בְּ/גַת֙"
           ],
           "transliteraties": [
             ""
@@ -4647,7 +4654,7 @@
             "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
             "referentie": "MIC 1:10",
             "bronindices": [
-              1
+              2
             ]
           }
         },
@@ -4679,13 +4686,13 @@
           }
         },
         {
-          "tekst": "Gath",
+          "tekst": "Verkondigt",
           "voorkomen": 1,
           "strongs": [
-            "H1661"
+            "H5046"
           ],
           "bronwoorden": [
-            "בְּ/גַת֙"
+            "תַּגִּ֔ידוּ"
           ],
           "transliteraties": [
             ""
@@ -4701,7 +4708,7 @@
             "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
             "referentie": "MIC 1:10",
             "bronindices": [
-              2
+              1
             ]
           }
         },
@@ -4734,33 +4741,6 @@
           "toelichting": "בָּכוֹ is de infinitivus absolutus die het volgende תִּבְכּוּ versterkt; het Nederlands geeft die versterking weer met 'zo jammerlijk'."
         },
         {
-          "tekst": "weent",
-          "voorkomen": 1,
-          "strongs": [
-            "H1058"
-          ],
-          "bronwoorden": [
-            "תִּבְכּ֑וּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
-            "referentie": "MIC 1:10",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "niet",
           "voorkomen": 2,
           "strongs": [
@@ -4788,13 +4768,13 @@
           }
         },
         {
-          "tekst": "wentelt",
+          "tekst": "weent",
           "voorkomen": 1,
           "strongs": [
-            "H6428"
+            "H1058"
           ],
           "bronwoorden": [
-            "התפלשתי"
+            "תִּבְכּ֑וּ"
           ],
           "transliteraties": [
             ""
@@ -4810,34 +4790,7 @@
             "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
             "referentie": "MIC 1:10",
             "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "stof",
-          "voorkomen": 1,
-          "strongs": [
-            "H6083"
-          ],
-          "bronwoorden": [
-            "עָפָ֖ר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
-            "referentie": "MIC 1:10",
-            "bronindices": [
-              7
+              3
             ]
           }
         },
@@ -4892,6 +4845,60 @@
             "referentie": "MIC 1:10",
             "bronindices": [
               9
+            ]
+          }
+        },
+        {
+          "tekst": "stof",
+          "voorkomen": 1,
+          "strongs": [
+            "H6083"
+          ],
+          "bronwoorden": [
+            "עָפָ֖ר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
+            "referentie": "MIC 1:10",
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "wentelt",
+          "voorkomen": 1,
+          "strongs": [
+            "H6428"
+          ],
+          "bronwoorden": [
+            "התפלשתי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
+            "referentie": "MIC 1:10",
+            "bronindices": [
+              6
             ]
           }
         }
@@ -5178,60 +5185,6 @@
           }
         },
         {
-          "tekst": "inwoneres",
-          "voorkomen": 2,
-          "strongs": [
-            "H3427"
-          ],
-          "bronwoorden": [
-            "יוֹשֶׁ֣בֶת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
-            "referentie": "MIC 1:11",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "Zaanan",
-          "voorkomen": 1,
-          "strongs": [
-            "H6630"
-          ],
-          "bronwoorden": [
-            "צַֽאֲנָ֔ן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
-            "referentie": "MIC 1:11",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
@@ -5282,6 +5235,60 @@
             "referentie": "MIC 1:11",
             "bronindices": [
               8
+            ]
+          }
+        },
+        {
+          "tekst": "inwoneres",
+          "voorkomen": 2,
+          "strongs": [
+            "H3427"
+          ],
+          "bronwoorden": [
+            "יוֹשֶׁ֣בֶת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
+            "referentie": "MIC 1:11",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "Zaanan",
+          "voorkomen": 1,
+          "strongs": [
+            "H6630"
+          ],
+          "bronwoorden": [
+            "צַֽאֲנָ֔ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
+            "referentie": "MIC 1:11",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -5352,36 +5359,69 @@
           "tekst": "nemen",
           "voorkomen": 1,
           "strongs": [
-            "H3947",
-            "H4480"
+            "H3947"
+          ],
+          "morfologie": [
+            "HVqi3ms"
           ],
           "bronwoorden": [
-            "יִקַּ֥ח",
-            "מִ/כֶּ֖ם"
+            "יִקַּ֥ח"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
             "referentie": "MIC 1:11",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
-          },
-          "gids_strongs": [
-            "H3947"
+          }
+        },
+        {
+          "tekst": "van",
+          "voorkomen": 3,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "Het grondwoord מִכֶּם (H4480, 'van u') heeft geen eigen token in de uitlijngids; het is bij יִקַּח gevoegd zodat het traceerbaar blijft."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֖ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
+            "referentie": "MIC 1:11",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
         },
         {
           "tekst": "stand",
@@ -7115,10 +7155,13 @@
           }
         },
         {
-          "tekst": "Israëls",
+          "tekst": "Israël",
           "voorkomen": 1,
           "strongs": [
             "H3478"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "יִשְׂרָאֵֽל"
@@ -7129,13 +7172,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "4A780928FA12AC0E92505C62CEFD7AE46C08A7FDA2CA5F0A792CAFFFF8F7CC34",
             "referentie": "MIC 1:15",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               6
             ]

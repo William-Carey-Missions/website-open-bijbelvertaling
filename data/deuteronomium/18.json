@@ -1471,10 +1471,13 @@
           }
         },
         {
-          "tekst": "kinnebakken",
+          "tekst": "kaken",
           "voorkomen": 1,
           "strongs": [
             "H3895"
+          ],
+          "morfologie": [
+            "HC/Td/Ncbda"
           ],
           "bronwoorden": [
             "וְ/הַ/לְּחָיַ֖יִם"
@@ -1485,13 +1488,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 18:3",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -5852,8 +5859,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "die",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אוֹתָ֔/ם"
@@ -5864,21 +5876,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 18:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "erven",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "naar",

@@ -10288,47 +10288,79 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "Abel Beth-Maächa",
+          "tekst": "Abel",
           "voorkomen": 1,
           "strongs": [
-            "H62",
-            "H62",
             "H62"
           ],
+          "morfologie": [
+            "HNp"
+          ],
           "bronwoorden": [
-            "אָבֵ֣ל",
-            "בֵּֽית",
-            "מַעֲכָ֑ה"
+            "אָבֵ֣ל"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
             "referentie": "1KI 15:20",
+            "grondindices": [
+              21
+            ],
             "bronindices": [
-              20,
+              20
+            ]
+          }
+        },
+        {
+          "tekst": "Beth-Maächa",
+          "voorkomen": 1,
+          "strongs": [
+            "H62",
+            "H62"
+          ],
+          "morfologie": [
+            "HNp",
+            "HNp"
+          ],
+          "bronwoorden": [
+            "בֵּֽית",
+            "מַעֲכָ֑ה"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "1011A97602CBDC91EF91CA6FA9983D2EEAE0023E71FF5D871EC9477D052AA070",
+            "referentie": "1KI 15:20",
+            "grondindices": [
+              22,
+              23
+            ],
+            "bronindices": [
               21,
               22
             ]
-          },
-          "gids_strongs": [
-            "H59",
-            "H1038",
-            "H1038"
-          ],
-          "toelichting": "Eén Nederlandse plaatsnaam dekt de drie grondtokens אָבֵל בֵּית מַעֲכָה (driemaal H62)."
+          }
         },
         {
           "tekst": "",

@@ -4707,26 +4707,40 @@
           "tekst": "niets",
           "voorkomen": 1,
           "strongs": [
-            "H3808"
+            "H3808",
+            "H3605"
+          ],
+          "morfologie": [
+            "HTn",
+            "HNcmsa"
           ],
           "bronwoorden": [
-            "לֹֽא"
+            "לֹֽא",
+            "כֹּ֖ל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 8:9",
+            "grondindices": [
+              7,
+              9
+            ],
             "bronindices": [
-              7
+              7,
+              8
             ]
           }
         },
@@ -4756,37 +4770,6 @@
               6
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H3605"
-          ],
-          "bronwoorden": [
-            "כֹּ֖ל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 8:9",
-            "bronindices": [
-              8
-            ]
-          },
-          "anker": "ontbreken",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Kol is in de ontkenning 'niets' opgenomen en niet afzonderlijk vertaald."
         },
         {
           "tekst": "land",
@@ -6773,83 +6756,43 @@
           }
         },
         {
-          "tekst": "uit",
-          "voorkomen": 1,
-          "strongs": [
-            "H776"
-          ],
-          "bronwoorden": [
-            "מֵ/אֶ֥רֶץ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 8:14",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
           "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
+            "H776",
             "H4714"
           ],
+          "morfologie": [
+            "HR/Ncbsc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "מֵ/אֶ֥רֶץ",
             "מִצְרַ֖יִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 8:14",
-            "bronindices": [
+            "grondindices": [
+              7,
               8
-            ]
-          }
-        },
-        {
-          "tekst": "uit",
-          "voorkomen": 2,
-          "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "מִ/בֵּ֥ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 8:14",
+            ],
             "bronindices": [
-              9
+              7,
+              8
             ]
           }
         },
@@ -6857,25 +6800,39 @@
           "tekst": "diensthuis",
           "voorkomen": 1,
           "strongs": [
+            "H1004",
             "H5650"
           ],
+          "morfologie": [
+            "HR/Ncmsc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "מִ/בֵּ֥ית",
             "עֲבָדִֽים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 8:14",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
+              9,
               10
             ]
           }
@@ -9730,10 +9687,13 @@
           }
         },
         {
-          "tekst": "voor uw aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp2mp"
           ],
           "bronwoorden": [
             "מִ/פְּנֵי/כֶ֔ם"
@@ -9744,13 +9704,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 8:20",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]

@@ -952,10 +952,13 @@
           }
         },
         {
-          "tekst": "gekijf",
+          "tekst": "ruzie",
           "voorkomen": 1,
           "strongs": [
             "H4066"
+          ],
+          "morfologie": [
+            "HC/Ncmsa"
           ],
           "bronwoorden": [
             "וּ/מָד֖וֹן"
@@ -966,23 +969,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7554C5818F4E8C0605E2E7E24B3B2D19D96066D1C39A7001A4454A39A3422868",
             "referentie": "HAB 1:3",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
           }
         },
         {
-          "tekst": "neemt",
+          "tekst": "ontstaat",
           "voorkomen": 1,
           "strongs": [
             "H5375"
+          ],
+          "morfologie": [
+            "HVqi3ms"
           ],
           "bronwoorden": [
             "יִשָּֽׂא"
@@ -993,18 +1003,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7554C5818F4E8C0605E2E7E24B3B2D19D96066D1C39A7001A4454A39A3422868",
             "referentie": "HAB 1:3",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
-          },
-          "toelichting": "נָשָׂא H5375 'opnemen' is in het Nederlands de scheidbare werkwoordsvorm 'neemt ... op'; het anker ligt op het werkwoorddeel 'neemt'."
+          }
         }
       ]
     },
@@ -6570,39 +6583,72 @@
           }
         },
         {
-          "tekst": "want daardoor",
+          "tekst": "want",
           "voorkomen": 1,
           "strongs": [
-            "H3588",
-            "H1992"
+            "H3588"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
-            "כִּ֤י",
-            "בָ/הֵ֨מָּה֙"
+            "כִּ֤י"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7554C5818F4E8C0605E2E7E24B3B2D19D96066D1C39A7001A4454A39A3422868",
             "referentie": "HAB 1:16",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "gids_strongs": [
-            "H3588"
+          }
+        },
+        {
+          "tekst": "daardoor",
+          "voorkomen": 1,
+          "strongs": [
+            "H1992"
           ],
-          "toelichting": "בָהֵמָּה H1992 'daardoor, door hen' heeft in de uitlijngids geen eigen token; het is hier samengevoegd met כִּי H3588 tot de Nederlandse woordgroep 'want daardoor'. Zie de bronafwijking."
+          "morfologie": [
+            "HR/Pp3mp"
+          ],
+          "bronwoorden": [
+            "בָ/הֵ֨מָּה֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "7554C5818F4E8C0605E2E7E24B3B2D19D96066D1C39A7001A4454A39A3422868",
+            "referentie": "HAB 1:16",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         },
         {
           "tekst": "vet",

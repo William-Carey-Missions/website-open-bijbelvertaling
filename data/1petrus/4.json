@@ -2555,7 +2555,7 @@
           }
         },
         {
-          "tekst": "zich vreemd houden",
+          "tekst": "vreemd",
           "voorkomen": 1,
           "strongs": [
             "G3579"
@@ -2575,9 +2575,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5743"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -2586,6 +2583,9 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:4",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -3721,7 +3721,7 @@
           }
         },
         {
-          "tekst": "het Evangelie verkondigd geworden",
+          "tekst": "verkondigd",
           "voorkomen": 1,
           "strongs": [
             "G2097"
@@ -3741,9 +3741,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5681"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -3752,6 +3749,9 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:6",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -6583,7 +6583,7 @@
         },
         {
           "tekst": "als",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G5613"
           ],
@@ -6602,9 +6602,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -6613,6 +6610,9 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:11",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -6694,7 +6694,7 @@
         },
         {
           "tekst": "als",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G1487"
           ],
@@ -6713,9 +6713,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -6724,6 +6721,9 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:11",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -6805,7 +6805,7 @@
         },
         {
           "tekst": "als",
-          "voorkomen": 3,
+          "voorkomen": 4,
           "strongs": [
             "G5613"
           ],
@@ -6824,9 +6824,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -6835,6 +6832,9 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:11",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -7539,56 +7539,25 @@
           }
         },
         {
-          "tekst": "in alle eeuwigheid",
-          "voorkomen": 1,
+          "tekst": "in",
+          "voorkomen": 2,
           "strongs": [
-            "G1519",
-            "G3588",
-            "G165",
-            "G3588",
-            "G165"
+            "G1519"
           ],
           "lemma_strongs": [
-            "G1519",
-            "G3588",
-            "G165",
-            "G3588",
-            "G165"
+            "G1519"
           ],
           "morfologie": [
-            "PREP",
-            "T-APM",
-            "N-APM",
-            "T-GPM",
-            "N-GPM"
+            "PREP"
           ],
           "bronwoorden": [
-            "εις",
-            "τους",
-            "αιωνας",
-            "των",
-            "αιωνων"
+            "εις"
           ],
           "transliteraties": [
-            "",
-            "",
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
-            "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -7598,12 +7567,130 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:11",
+            "grondindices": [
+              32
+            ],
             "bronindices": [
-              32,
-              33,
+              32
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-APM"
+          ],
+          "bronwoorden": [
+            "τους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1PE.UTR",
+            "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
+            "referentie": "1PET 4:11",
+            "grondindices": [
+              33
+            ],
+            "bronindices": [
+              33
+            ]
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
+            "G165",
+            "G165"
+          ],
+          "lemma_strongs": [
+            "G165",
+            "G165"
+          ],
+          "morfologie": [
+            "N-APM",
+            "N-GPM"
+          ],
+          "bronwoorden": [
+            "αιωνας",
+            "αιωνων"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1PE.UTR",
+            "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
+            "referentie": "1PET 4:11",
+            "grondindices": [
               34,
-              35,
               36
+            ],
+            "bronindices": [
+              34,
+              36
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GPM"
+          ],
+          "bronwoorden": [
+            "των"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1PE.UTR",
+            "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
+            "referentie": "1PET 4:11",
+            "grondindices": [
+              35
+            ],
+            "bronindices": [
+              35
             ]
           }
         },
@@ -7894,7 +7981,7 @@
           }
         },
         {
-          "tekst": "de hitte van de verdrukking",
+          "tekst": "hitte",
           "voorkomen": 1,
           "strongs": [
             "G3588",
@@ -7920,10 +8007,6 @@
             "",
             ""
           ],
-          "tvm": [
-            null,
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -7932,6 +8015,10 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:12",
+            "grondindices": [
+              3,
+              6
+            ],
             "bronindices": [
               3,
               6
@@ -9847,35 +9934,25 @@
           }
         },
         {
-          "tekst": "Wat hen betreft",
+          "tekst": "betreft",
           "voorkomen": 1,
           "strongs": [
-            "G2596",
-            "G846"
+            "G2596"
           ],
           "lemma_strongs": [
-            "G2596",
-            "G846"
+            "G2596"
           ],
           "morfologie": [
-            "PREP",
-            "P-APM"
+            "PREP"
           ],
           "bronwoorden": [
-            "κατα",
-            "αυτους"
+            "κατα"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -9885,9 +9962,11 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:14",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
-              18,
-              20
+              18
             ]
           }
         },
@@ -9929,6 +10008,43 @@
           }
         },
         {
+          "tekst": "hen",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-APM"
+          ],
+          "bronwoorden": [
+            "αυτους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1PE.UTR",
+            "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
+            "referentie": "1PET 4:14",
+            "grondindices": [
+              20
+            ],
+            "bronindices": [
+              20
+            ]
+          }
+        },
+        {
           "tekst": "gelasterd",
           "voorkomen": 1,
           "strongs": [
@@ -9966,35 +10082,25 @@
           }
         },
         {
-          "tekst": "wat u betreft",
-          "voorkomen": 1,
+          "tekst": "betreft",
+          "voorkomen": 2,
           "strongs": [
-            "G2596",
-            "G4771"
+            "G2596"
           ],
           "lemma_strongs": [
-            "G2596",
-            "G4771"
+            "G2596"
           ],
           "morfologie": [
-            "PREP",
-            "P-2AP"
+            "PREP"
           ],
           "bronwoorden": [
-            "κατα",
-            "υμας"
+            "κατα"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -10004,9 +10110,11 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:14",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
-              22,
-              24
+              22
             ]
           }
         },
@@ -10044,6 +10152,43 @@
             "referentie": "1PET 4:14",
             "bronindices": [
               23
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 4,
+          "strongs": [
+            "G4771"
+          ],
+          "lemma_strongs": [
+            "G4771"
+          ],
+          "morfologie": [
+            "P-2AP"
+          ],
+          "bronwoorden": [
+            "υμας"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "1PE.UTR",
+            "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
+            "referentie": "1PET 4:14",
+            "grondindices": [
+              24
+            ],
+            "bronindices": [
+              24
             ]
           }
         },
@@ -10672,7 +10817,7 @@
           }
         },
         {
-          "tekst": "die zich met het doen van een ander bemoeit",
+          "tekst": "bemoeit",
           "voorkomen": 1,
           "strongs": [
             "G244"
@@ -10692,9 +10837,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -10703,6 +10845,9 @@
             "versie": "1PE.UTR",
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:15",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -11086,7 +11231,7 @@
           }
         },
         {
-          "tekst": "maar",
+          "tekst": "Maar",
           "voorkomen": 1,
           "strongs": [
             "G1161"
@@ -11118,7 +11263,7 @@
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:16",
             "bronindices": [
-              7
+              1
             ]
           }
         },
@@ -12592,7 +12737,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -12624,7 +12769,7 @@
             "sha256": "1D0E91F7F08C77DB05D4DDB7367105A4DF11B7936808E89BD27CE8A2F0AB1FC8",
             "referentie": "1PET 4:18",
             "bronindices": [
-              8
+              0
             ]
           }
         },

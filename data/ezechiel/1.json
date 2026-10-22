@@ -1873,57 +1873,42 @@
           "tekst": "stormwind",
           "voorkomen": 1,
           "strongs": [
-            "H7307"
-          ],
-          "bronwoorden": [
-            "ר֨וּחַ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:4",
-            "bronindices": [
-              2
-            ]
-          },
-          "toelichting": "רוּחַ סְעָרָה is in het Nederlands tot één woord 'stormwind' samengetrokken; H7307 is het 'wind'-deel."
-        },
-        {
-          "tekst": "stormwind",
-          "voorkomen": 1,
-          "strongs": [
+            "H7307",
             "H5591"
           ],
+          "morfologie": [
+            "HNcbsc",
+            "HNcfsa"
+          ],
           "bronwoorden": [
+            "ר֨וּחַ",
             "סְעָרָ֜ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:4",
+            "grondindices": [
+              2,
+              3
+            ],
             "bronindices": [
+              2,
               3
             ]
-          },
-          "toelichting": "H5591 (סְעָרָה, 'storm') is het tweede deel van hetzelfde Nederlandse woord 'stormwind'."
+          }
         },
         {
           "tekst": "kwam",
@@ -2197,37 +2182,13 @@
           }
         },
         {
-          "tekst": "vuur",
-          "voorkomen": 2,
-          "strongs": [
-            "H784"
-          ],
-          "bronwoorden": [
-            "הָ/אֵֽשׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:4",
-            "bronindices": [
-              14
-            ]
-          }
-        },
-        {
-          "tekst": "verf",
+          "tekst": "kleur",
           "voorkomen": 1,
           "strongs": [
             "H5869"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "כְּ/עֵ֥ין"
@@ -2238,24 +2199,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:4",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "toelichting": "'verf' is Statenvertaling-Nederlands voor 'aanblik, kleur'; H5869 betekent 'oog, aanzien'."
+          }
         },
         {
-          "tekst": "Hasmal",
+          "tekst": "metaal",
           "voorkomen": 1,
           "strongs": [
             "H2830"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "הַ/חַשְׁמַ֖ל"
@@ -2266,13 +2233,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:4",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -2302,6 +2273,33 @@
             "referentie": "EZK 1:4",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "vuur",
+          "voorkomen": 2,
+          "strongs": [
+            "H784"
+          ],
+          "bronwoorden": [
+            "הָ/אֵֽשׁ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 1:4",
+            "bronindices": [
+              14
             ]
           }
         }
@@ -2579,36 +2577,69 @@
           "tekst": "mens",
           "voorkomen": 1,
           "strongs": [
-            "H120",
-            "H2007"
+            "H120"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
-            "אָדָ֖ם",
-            "לָ/הֵֽנָּה"
+            "אָדָ֖ם"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:5",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
-              6
+              7
             ]
-          },
-          "gids_strongs": [
-            "H120"
+          }
+        },
+        {
+          "tekst": "zij",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
           ],
-          "toelichting": "לָ/הֵנָּה (H2007, 'aan hen') heeft in de uitlijngids geen eigen token; het is hier bij het buurwoord אָדָם gevoegd zodat het grondwoord traceerbaar blijft."
+          "morfologie": [
+            "HR/Pp3fp"
+          ],
+          "bronwoorden": [
+            "לָ/הֵֽנָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 1:5",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
+            ]
+          }
         }
       ]
     },
@@ -2812,10 +2843,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfda"
           ],
           "bronwoorden": [
             "כְּנָפַ֖יִם"
@@ -2826,13 +2860,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:6",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -3074,81 +3112,40 @@
           "tekst": "voetplanten",
           "voorkomen": 1,
           "strongs": [
-            "H3709"
-          ],
-          "bronwoorden": [
-            "וְ/כַ֣ף"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:7",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "voetplanten",
-          "voorkomen": 1,
-          "strongs": [
+            "H3709",
             "H7272"
           ],
+          "morfologie": [
+            "HC/Ncfsc",
+            "HNcfdc/Sp3mp"
+          ],
           "bronwoorden": [
+            "וְ/כַ֣ף",
             "רַגְלֵי/הֶ֗ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:7",
-            "bronindices": [
-              3
-            ]
-          },
-          "toelichting": "כַּף רַגְלֵיהֶם ('holte van hun voet') is in het Nederlands tot één woord 'voetplanten' samengetrokken; dit is het רֶגֶל-deel."
-        },
-        {
-          "tekst": "voetplanten",
-          "voorkomen": 2,
-          "strongs": [
-            "H3709"
-          ],
-          "bronwoorden": [
-            "כְּ/כַף֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:7",
-            "bronindices": [
+            "grondindices": [
+              3,
               4
+            ],
+            "bronindices": [
+              2,
+              3
             ]
           }
         },
@@ -3156,29 +3153,42 @@
           "tekst": "voetplanten",
           "voorkomen": 2,
           "strongs": [
+            "H3709",
             "H7272"
           ],
+          "morfologie": [
+            "HR/Ncfsc",
+            "HNcfsc"
+          ],
           "bronwoorden": [
+            "כְּ/כַף֙",
             "רֶ֣גֶל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:7",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              4,
               6
             ]
-          },
-          "toelichting": "כַּף רֶגֶל ('holte van de voet') is in het Nederlands tot één woord 'voetplanten' samengetrokken; dit is het רֶגֶל-deel."
+          }
         },
         {
           "tekst": "kalf",
@@ -3235,10 +3245,13 @@
           }
         },
         {
-          "tekst": "verf",
+          "tekst": "kleur",
           "voorkomen": 1,
           "strongs": [
             "H5869"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "כְּ/עֵ֖ין"
@@ -3249,18 +3262,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:7",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "'verf' is Statenvertaling-Nederlands voor 'aanblik, glans'; H5869 betekent 'oog, aanzien'."
+          }
         },
         {
           "tekst": "koper",
@@ -3413,57 +3429,42 @@
           "tekst": "mensenhanden",
           "voorkomen": 1,
           "strongs": [
-            "H3027"
-          ],
-          "bronwoorden": [
-            "ו/יד/ו"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:8",
-            "bronindices": [
-              6
-            ]
-          },
-          "toelichting": "ידו/אָדָם is in het Nederlands tot het samengestelde woord 'mensenhanden' samengetrokken; dit is het יָד-deel (H3027)."
-        },
-        {
-          "tekst": "mensenhanden",
-          "voorkomen": 1,
-          "strongs": [
+            "H3027",
             "H120"
           ],
+          "morfologie": [
+            "HC/Ncbdc/Sp3ms",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "ו/יד/ו",
             "אָדָ֗ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:8",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              6,
               5
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord 'mensenhanden'."
+          }
         },
         {
           "tekst": "onder",
@@ -3493,10 +3494,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3mp"
           ],
           "bronwoorden": [
             "כַּנְפֵי/הֶ֔ם"
@@ -3507,13 +3511,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:8",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               1
             ]
@@ -3628,10 +3636,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 2,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HC/Ncfdc/Sp3mp"
           ],
           "bronwoorden": [
             "וְ/כַנְפֵי/הֶ֖ם"
@@ -3642,13 +3653,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:8",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]
@@ -3829,33 +3844,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "vleugelen",
-          "voorkomen": 1,
-          "strongs": [
-            "H3671"
-          ],
-          "bronwoorden": [
-            "כַּנְפֵי/הֶ֑ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:9",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "samengevoegd",
           "voorkomen": 1,
           "strongs": [
@@ -3960,6 +3948,40 @@
             "referentie": "EZK 1:9",
             "bronindices": [
               3
+            ]
+          }
+        },
+        {
+          "tekst": "vleugels",
+          "voorkomen": 1,
+          "strongs": [
+            "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3mp"
+          ],
+          "bronwoorden": [
+            "כַּנְפֵי/הֶ֑ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 1:9",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              0
             ]
           }
         },
@@ -4950,10 +4972,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HC/Ncfdc/Sp3mp"
           ],
           "bronwoorden": [
             "וְ/כַנְפֵי/הֶ֥ם"
@@ -4964,13 +4989,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:11",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -7238,10 +7267,13 @@
           }
         },
         {
-          "tekst": "verf",
+          "tekst": "kleur",
           "voorkomen": 1,
           "strongs": [
             "H5869"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "כְּ/עֵ֣ין"
@@ -7252,18 +7284,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:16",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "toelichting": "'verf' is Statenvertaling-Nederlands voor 'aanblik, glans'; H5869 betekent 'oog, aanzien'."
+          }
         },
         {
           "tekst": "turkoois",
@@ -9994,10 +10029,13 @@
           }
         },
         {
-          "tekst": "verf",
+          "tekst": "kleur",
           "voorkomen": 1,
           "strongs": [
             "H5869"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "כְּ/עֵ֖ין"
@@ -10008,18 +10046,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:22",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               10
             ]
-          },
-          "toelichting": "'verf' is Statenvertaling-Nederlands voor 'aanblik, glans'; H5869 betekent 'oog, aanzien'."
+          }
         },
         {
           "tekst": "kristal",
@@ -10402,10 +10443,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3mp"
           ],
           "bronwoorden": [
             "כַּנְפֵי/הֶ֣ם"
@@ -10416,13 +10460,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:23",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -10594,36 +10642,69 @@
           "tekst": "bedekten",
           "voorkomen": 1,
           "strongs": [
-            "H3680",
-            "H2007"
+            "H3680"
+          ],
+          "morfologie": [
+            "HVprfpa"
           ],
           "bronwoorden": [
-            "מְכַסּוֹת֙",
-            "לָ/הֵ֔נָּה"
+            "מְכַסּוֹת֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:23",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "gids_strongs": [
-            "H3680"
+          }
+        },
+        {
+          "tekst": "herwaarts",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
           ],
-          "toelichting": "לָ/הֵנָּה (H2007, 'aan hen') heeft in de uitlijngids geen eigen token; het is bij het werkwoord מְכַסּוֹת gevoegd zodat het grondwoord traceerbaar blijft."
+          "morfologie": [
+            "HR/Pp3fp"
+          ],
+          "bronwoorden": [
+            "לָ/הֵ֔נָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 1:23",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
+            ]
+          }
         },
         {
           "tekst": "ieder",
@@ -10683,36 +10764,69 @@
           "tekst": "bedekten",
           "voorkomen": 2,
           "strongs": [
-            "H3680",
-            "H2007"
+            "H3680"
+          ],
+          "morfologie": [
+            "HVprfpa"
           ],
           "bronwoorden": [
-            "מְכַסּוֹת֙",
-            "לָ/הֵ֔נָּה"
+            "מְכַסּוֹת֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:23",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
-              12
+              13
             ]
-          },
-          "gids_strongs": [
-            "H3680"
+          }
+        },
+        {
+          "tekst": "daarheen",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
           ],
-          "toelichting": "Ook hier is לָ/הֵנָּה (H2007) bij het werkwoord מְכַסּוֹת gevoegd; de uitlijngids heeft er geen eigen token voor."
+          "morfologie": [
+            "HR/Pp3fp"
+          ],
+          "bronwoorden": [
+            "לָ/הֵ֔נָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 1:23",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
         },
         {
           "tekst": "",
@@ -11016,10 +11130,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3mp"
           ],
           "bronwoorden": [
             "כַּנְפֵי/הֶ֡ם"
@@ -11030,13 +11147,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:24",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               4
             ]
@@ -11370,10 +11491,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 2,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3fp"
           ],
           "bronwoorden": [
             "כַנְפֵי/הֶֽן"
@@ -11384,13 +11508,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:24",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -11736,10 +11864,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp3fp"
           ],
           "bronwoorden": [
             "כַנְפֵי/הֶֽן"
@@ -11750,13 +11881,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:25",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]
@@ -12083,57 +12218,42 @@
           "tekst": "saffiersteen",
           "voorkomen": 1,
           "strongs": [
-            "H68"
-          ],
-          "bronwoorden": [
-            "אֶֽבֶן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 1:26",
-            "bronindices": [
-              10
-            ]
-          },
-          "toelichting": "אֶבֶן סַפִּיר ('steen van saffier') is in het Nederlands tot één woord 'saffiersteen' samengetrokken; dit is het אֶבֶן-deel (H68)."
-        },
-        {
-          "tekst": "saffiersteen",
-          "voorkomen": 1,
-          "strongs": [
+            "H68",
             "H5601"
           ],
+          "morfologie": [
+            "HNcfsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "אֶֽבֶן",
             "סַפִּ֖יר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:26",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              10,
               9
             ]
-          },
-          "toelichting": "Dit is het סַפִּיר-deel (H5601) van hetzelfde Nederlandse woord 'saffiersteen'."
+          }
         },
         {
           "tekst": "gelijkenis",
@@ -12615,10 +12735,13 @@
           }
         },
         {
-          "tekst": "verf",
+          "tekst": "kleur",
           "voorkomen": 1,
           "strongs": [
             "H5869"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "כְּ/עֵ֣ין"
@@ -12629,24 +12752,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:27",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               4
             ]
-          },
-          "toelichting": "'verf' is Statenvertaling-Nederlands voor 'aanblik, glans'; H5869 betekent 'oog, aanzien'."
+          }
         },
         {
-          "tekst": "Hasmal",
+          "tekst": "metaal",
           "voorkomen": 1,
           "strongs": [
             "H2830"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "חַשְׁמַ֗ל"
@@ -12657,13 +12786,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 1:27",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               5
             ]

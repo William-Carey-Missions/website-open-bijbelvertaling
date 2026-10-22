@@ -159,10 +159,13 @@
           }
         },
         {
-          "tekst": "woelachtig",
+          "tekst": "onstuimig",
           "voorkomen": 1,
           "strongs": [
             "H1993"
+          ],
+          "morfologie": [
+            "HVqrmsa"
           ],
           "bronwoorden": [
             "הֹמֶ֣ה"
@@ -173,13 +176,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "DA05D196D5E4C03B7E77AD51BEF21956B6AD672F338D4D90983CE2E5854D8B81",
             "referentie": "PRO 20:1",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               3
             ]

@@ -397,10 +397,13 @@
           "toelichting": "MorphHB leest hier אֲדֹנָי (H136, 'mijn Heere'), niet het tetragram; de lopende tekst schrijft 'JAHWEH'. Het Strongnummer volgt MorphHB en het anker de vertaling (zie de reviewbeperking bij dit vers)."
         },
         {
-          "tekst": "bent",
-          "voorkomen": 1,
+          "tekst": "U",
+          "voorkomen": 2,
           "strongs": [
             "H859"
+          ],
+          "morfologie": [
+            "HPp2ms"
           ],
           "bronwoorden": [
             "אָ֑תָּה"
@@ -411,18 +414,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 16:2",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               2
             ]
-          },
-          "toelichting": "אָתָּה, 'u'; het anker staat op 'bent' omdat 'u' in dit vers meermaals voorkomt."
+          }
         },
         {
           "tekst": "goedheid",

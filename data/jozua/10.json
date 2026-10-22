@@ -7849,10 +7849,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "stond",
+          "tekst": "stil",
           "voorkomen": 1,
           "strongs": [
             "H1826"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יִּדֹּ֨ם"
@@ -7863,18 +7866,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 10:13",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "Het werkwoord damam ('stil worden') wordt met 'stond stil' weergegeven; het anker staat op 'stond'."
+          }
         },
         {
           "tekst": "zon",
@@ -11619,7 +11625,7 @@
           }
         },
         {
-          "tekst": "tot",
+          "tekst": "in",
           "voorkomen": 1,
           "strongs": [
             "H413"
@@ -11641,7 +11647,7 @@
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 10:21",
             "bronindices": [
-              4
+              6
             ]
           }
         },
@@ -11673,7 +11679,7 @@
           }
         },
         {
-          "tekst": "in",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
@@ -11695,7 +11701,7 @@
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 10:21",
             "bronindices": [
-              6
+              4
             ]
           }
         },
@@ -11784,26 +11790,40 @@
           "tekst": "niemand",
           "voorkomen": 1,
           "strongs": [
-            "H3808"
+            "H3808",
+            "H376"
+          ],
+          "morfologie": [
+            "HTn",
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
-            "לֹֽא"
+            "לֹֽא",
+            "לְ/אִ֖ישׁ"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 10:21",
+            "grondindices": [
+              9,
+              13
+            ],
             "bronindices": [
-              9
+              9,
+              12
             ]
           }
         },
@@ -11866,33 +11886,6 @@
             ]
           },
           "toelichting": "De woordgroep benee jisraeel ('kinderen van Israël') wordt met het ene woord 'Israëlieten' weergegeven; beide grondwoorden staan daarom in één koppeling."
-        },
-        {
-          "tekst": "tegen",
-          "voorkomen": 1,
-          "strongs": [
-            "H376"
-          ],
-          "bronwoorden": [
-            "לְ/אִ֖ישׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
-            "referentie": "JOS 10:21",
-            "bronindices": [
-              12
-            ]
-          }
         },
         {
           "tekst": "",
@@ -15454,10 +15447,13 @@
           }
         },
         {
-          "tekst": "zij",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqw3mp"
           ],
           "bronwoorden": [
             "וַ/יִּֽהְי֛וּ"
@@ -15468,13 +15464,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 10:26",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]

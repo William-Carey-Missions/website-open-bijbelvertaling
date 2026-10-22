@@ -3096,10 +3096,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2mp"
           ],
           "bronwoorden": [
             "תּוֹעֲבֹתֵי/כֶ֖ם"
@@ -3110,13 +3113,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 14:6",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               17
             ]

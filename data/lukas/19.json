@@ -1747,10 +1747,16 @@
           }
         },
         {
-          "tekst": "die weg",
+          "tekst": "die",
           "voorkomen": 1,
           "strongs": [
             "G1565"
+          ],
+          "lemma_strongs": [
+            "G1565"
+          ],
+          "morfologie": [
+            "D-GSF"
           ],
           "bronwoorden": [
             "εκεινης"
@@ -1761,17 +1767,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:4",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -3295,10 +3302,16 @@
           }
         },
         {
-          "tekst": "Hij",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G3754"
+          ],
+          "lemma_strongs": [
+            "G3754"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
             "οτι"
@@ -3309,17 +3322,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:7",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }
@@ -4627,37 +4641,75 @@
           }
         },
         {
-          "tekst": "Vandaag",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3754",
-            "G4594"
+            "G3754"
+          ],
+          "lemma_strongs": [
+            "G3754"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
-            "οτι",
-            "σημερον"
+            "οτι"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:9",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              6,
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "Vandaag",
+          "voorkomen": 1,
+          "strongs": [
+            "G4594"
+          ],
+          "lemma_strongs": [
+            "G4594"
+          ],
+          "morfologie": [
+            "ADV"
+          ],
+          "bronwoorden": [
+            "σημερον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:9",
+            "grondindices": [
               7
             ],
-            "grondindices": [
-              6,
+            "bronindices": [
               7
             ]
           }
@@ -4693,43 +4745,83 @@
           }
         },
         {
-          "tekst": "deze huize",
+          "tekst": "huize",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G3624",
-            "G3778"
+            "G3624"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G3624"
+          ],
+          "morfologie": [
+            "T-DSM",
+            "N-DSM"
           ],
           "bronwoorden": [
             "τω",
-            "οικω",
-            "τουτω"
+            "οικω"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:9",
-            "bronindices": [
-              9,
-              10,
-              11
-            ],
             "grondindices": [
               9,
-              10,
+              10
+            ],
+            "bronindices": [
+              9,
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-DSM"
+          ],
+          "bronwoorden": [
+            "τουτω"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:9",
+            "grondindices": [
+              11
+            ],
+            "bronindices": [
               11
             ]
           }
@@ -5279,37 +5371,75 @@
           }
         },
         {
-          "tekst": "dat verloren was",
+          "tekst": "dat",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G622"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
-            "το",
-            "απολωλος"
+            "το"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:10",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
-              9,
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "verloren was",
+          "voorkomen": 1,
+          "strongs": [
+            "G622"
+          ],
+          "lemma_strongs": [
+            "G622"
+          ],
+          "morfologie": [
+            "V-2RAP-ASN"
+          ],
+          "bronwoorden": [
+            "απολωλος"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:10",
+            "grondindices": [
               10
             ],
-            "grondindices": [
-              9,
+            "bronindices": [
               10
             ]
           }
@@ -5738,10 +5868,16 @@
           }
         },
         {
-          "tekst": "Hij",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
             "το"
@@ -5752,17 +5888,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:11",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -7471,44 +7608,47 @@
       "text1637_html": "Ende sijne burgers hateden hem, ende sonden hem gesanten na, seggende, Wy en willen niet dat dese over ons Coninck zy.",
       "woordnummers": [
         {
-          "tekst": "zijn burgers",
+          "tekst": "burgers",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G4177",
-            "G846"
+            "G4177"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G4177"
+          ],
+          "morfologie": [
+            "T-NPM",
+            "N-NPM"
           ],
           "bronwoorden": [
             "οι",
-            "πολιται",
-            "αυτου"
+            "πολιται"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:14",
-            "bronindices": [
-              0,
-              2,
-              3
-            ],
             "grondindices": [
               0,
-              2,
-              3
+              2
+            ],
+            "bronindices": [
+              0,
+              2
             ]
           }
         },
@@ -7539,6 +7679,43 @@
             ],
             "grondindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "zijn",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GSM"
+          ],
+          "bronwoorden": [
+            "αυτου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:14",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              3
             ]
           }
         },
@@ -8259,37 +8436,75 @@
           }
         },
         {
-          "tekst": "wederkwam",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G1880"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSN"
           ],
           "bronwoorden": [
-            "τω",
-            "επανελθειν"
+            "τω"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:15",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "wederkwam",
+          "voorkomen": 1,
+          "strongs": [
+            "G1880"
+          ],
+          "lemma_strongs": [
+            "G1880"
+          ],
+          "morfologie": [
+            "V-2AAN"
+          ],
+          "bronwoorden": [
+            "επανελθειν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:15",
+            "grondindices": [
               4
             ],
-            "grondindices": [
-              3,
+            "bronindices": [
               4
             ]
           }
@@ -8391,37 +8606,75 @@
           }
         },
         {
-          "tekst": "zei",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G2532",
-            "G3004"
+            "G2532"
+          ],
+          "lemma_strongs": [
+            "G2532"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
-            "και",
-            "ειπεν"
+            "και"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:15",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
-              9,
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "zei",
+          "voorkomen": 1,
+          "strongs": [
+            "G3004"
+          ],
+          "lemma_strongs": [
+            "G3004"
+          ],
+          "morfologie": [
+            "V-2AAI-3S"
+          ],
+          "bronwoorden": [
+            "ειπεν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:15",
+            "grondindices": [
               10
             ],
-            "grondindices": [
-              9,
+            "bronindices": [
               10
             ]
           }
@@ -8487,43 +8740,83 @@
           }
         },
         {
-          "tekst": "die dienaren",
+          "tekst": "dienaren",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G1401",
-            "G3778"
+            "G1401"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G1401"
+          ],
+          "morfologie": [
+            "T-APM",
+            "N-APM"
           ],
           "bronwoorden": [
             "τους",
-            "δουλους",
-            "τουτους"
+            "δουλους"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:15",
-            "bronindices": [
-              13,
-              14,
-              15
-            ],
             "grondindices": [
               13,
-              14,
+              14
+            ],
+            "bronindices": [
+              13,
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 1,
+          "strongs": [
+            "G3778"
+          ],
+          "lemma_strongs": [
+            "G3778"
+          ],
+          "morfologie": [
+            "D-APM"
+          ],
+          "bronwoorden": [
+            "τουτους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:15",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
               15
             ]
           }
@@ -8745,10 +9038,16 @@
           }
         },
         {
-          "tekst": "met handelen gewonnen had",
+          "tekst": "gewonnen had",
           "voorkomen": 1,
           "strongs": [
             "G1281"
+          ],
+          "lemma_strongs": [
+            "G1281"
+          ],
+          "morfologie": [
+            "V-ADI-3S"
           ],
           "bronwoorden": [
             "διεπραγματευσατο"
@@ -8759,17 +9058,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:15",
-            "bronindices": [
+            "grondindices": [
               24
             ],
-            "grondindices": [
+            "bronindices": [
               24
             ]
           }
@@ -12865,42 +13165,82 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Waarom",
+          "tekst": "dan",
           "voorkomen": 1,
           "strongs": [
-            "G2532",
-            "G1223",
-            "G5101"
+            "G2532"
+          ],
+          "lemma_strongs": [
+            "G2532"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
-            "και",
-            "δια",
-            "τι"
+            "και"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:23",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
-              0,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "Waarom",
+          "voorkomen": 1,
+          "strongs": [
+            "G1223",
+            "G5101"
+          ],
+          "lemma_strongs": [
+            "G1223",
+            "G5101"
+          ],
+          "morfologie": [
+            "PREP",
+            "I-ASN"
+          ],
+          "bronwoorden": [
+            "δια",
+            "τι"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:23",
+            "grondindices": [
               1,
               2
             ],
-            "grondindices": [
-              0,
+            "bronindices": [
               1,
               2
             ]
@@ -13615,37 +13955,75 @@
           }
         },
         {
-          "tekst": "van hem",
+          "tekst": "van",
           "voorkomen": 1,
           "strongs": [
-            "G575",
-            "G846"
+            "G575"
+          ],
+          "lemma_strongs": [
+            "G575"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "απ",
-            "αυτου"
+            "απ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:24",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
-              5,
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "hem",
+          "voorkomen": 2,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GSM"
+          ],
+          "bronwoorden": [
+            "αυτου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:24",
+            "grondindices": [
               6
             ],
-            "grondindices": [
-              5,
+            "bronindices": [
               6
             ]
           }
@@ -13777,10 +14155,16 @@
           }
         },
         {
-          "tekst": "die",
-          "voorkomen": 3,
+          "tekst": "de",
+          "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-APF"
           ],
           "bronwoorden": [
             "τας"
@@ -13791,17 +14175,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:24",
-            "bronindices": [
+            "grondindices": [
               12
             ],
-            "grondindices": [
+            "bronindices": [
               12
             ]
           }
@@ -15073,43 +15458,83 @@
           }
         },
         {
-          "tekst": "mijn vijanden",
+          "tekst": "vijanden",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2190",
-            "G1473"
+            "G2190"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2190"
+          ],
+          "morfologie": [
+            "T-APM",
+            "A-APM"
           ],
           "bronwoorden": [
             "τους",
-            "εχθρους",
-            "μου"
+            "εχθρους"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:27",
-            "bronindices": [
-              1,
-              2,
-              3
-            ],
             "grondindices": [
               1,
-              2,
+              2
+            ],
+            "bronindices": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "mijn",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GS"
+          ],
+          "bronwoorden": [
+            "μου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:27",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
               3
             ]
           }
@@ -15725,10 +16150,16 @@
           }
         },
         {
-          "tekst": "voor hen heen",
+          "tekst": "voor",
           "voorkomen": 1,
           "strongs": [
             "G1715"
+          ],
+          "lemma_strongs": [
+            "G1715"
+          ],
+          "morfologie": [
+            "ADV"
           ],
           "bronwoorden": [
             "εμπροσθεν"
@@ -15739,17 +16170,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:28",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -16132,10 +16564,16 @@
           }
         },
         {
-          "tekst": "gekomen was",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G1519"
+          ],
+          "lemma_strongs": [
+            "G1519"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "εις"
@@ -16146,17 +16584,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:29",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -16444,43 +16883,83 @@
           }
         },
         {
-          "tekst": "van Zijn discipelen",
+          "tekst": "discipelen",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G3101",
-            "G846"
+            "G3101"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G3101"
+          ],
+          "morfologie": [
+            "T-GPM",
+            "N-GPM"
           ],
           "bronwoorden": [
             "των",
-            "μαθητων",
-            "αυτου"
+            "μαθητων"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:29",
-            "bronindices": [
-              16,
-              17,
-              18
-            ],
             "grondindices": [
               16,
-              17,
+              17
+            ],
+            "bronindices": [
+              16,
+              17
+            ]
+          }
+        },
+        {
+          "tekst": "Zijn",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GSM"
+          ],
+          "bronwoorden": [
+            "αυτου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:29",
+            "grondindices": [
+              18
+            ],
+            "bronindices": [
               18
             ]
           }
@@ -16751,11 +17230,19 @@
           }
         },
         {
-          "tekst": "dat plaats",
+          "tekst": "plaats",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G2968"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2968"
+          ],
+          "morfologie": [
+            "T-ASF",
+            "N-ASF"
           ],
           "bronwoorden": [
             "την",
@@ -16769,18 +17256,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:30",
-            "bronindices": [
+            "grondindices": [
               3,
               5
             ],
-            "grondindices": [
+            "bronindices": [
               3,
               5
             ]
@@ -16817,37 +17305,75 @@
           }
         },
         {
-          "tekst": "in dat",
+          "tekst": "in",
           "voorkomen": 2,
           "strongs": [
-            "G1722",
-            "G3739"
+            "G1722"
+          ],
+          "lemma_strongs": [
+            "G1722"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "εν",
-            "η"
+            "εν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:30",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              6,
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "dat",
+          "voorkomen": 3,
+          "strongs": [
+            "G3739"
+          ],
+          "lemma_strongs": [
+            "G3739"
+          ],
+          "morfologie": [
+            "R-DSF"
+          ],
+          "bronwoorden": [
+            "η"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:30",
+            "grondindices": [
               7
             ],
-            "grondindices": [
-              6,
+            "bronindices": [
               7
             ]
           }
@@ -17573,9 +18099,15 @@
         },
         {
           "tekst": "zo",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G3779"
+          ],
+          "lemma_strongs": [
+            "G3779"
+          ],
+          "morfologie": [
+            "ADV"
           ],
           "bronwoorden": [
             "ουτως"
@@ -17586,17 +18118,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:31",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -17946,37 +18479,75 @@
           }
         },
         {
-          "tekst": "die uitgezonden waren",
+          "tekst": "die",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G649"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NPM"
           ],
           "bronwoorden": [
-            "οι",
-            "απεσταλμενοι"
+            "οι"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:32",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
-              2,
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "uitgezonden waren",
+          "voorkomen": 1,
+          "strongs": [
+            "G649"
+          ],
+          "lemma_strongs": [
+            "G649"
+          ],
+          "morfologie": [
+            "V-RPP-NPM"
+          ],
+          "bronwoorden": [
+            "απεσταλμενοι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:32",
+            "grondindices": [
               3
             ],
-            "grondindices": [
-              2,
+            "bronindices": [
               3
             ]
           }
@@ -18409,10 +18980,16 @@
           }
         },
         {
-          "tekst": "van hetzelfde",
+          "tekst": "hetzelfde",
           "voorkomen": 1,
           "strongs": [
             "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GSM"
           ],
           "bronwoorden": [
             "αυτου"
@@ -18423,17 +19000,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:33",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }
@@ -20204,38 +20782,39 @@
           }
         },
         {
-          "tekst": "van de",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
             "G3588"
           ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSN"
+          ],
           "bronwoorden": [
-            "του",
-            "των"
+            "του"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:37",
-            "bronindices": [
-              7,
-              9
-            ],
             "grondindices": [
-              7,
-              9
+              7
+            ],
+            "bronindices": [
+              7
             ]
           }
         },
@@ -20272,6 +20851,43 @@
             "grondindices": [
               8,
               10
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GPF"
+          ],
+          "bronwoorden": [
+            "των"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:37",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              9
             ]
           }
         },
@@ -20372,11 +20988,19 @@
           }
         },
         {
-          "tekst": "van de discipelen",
+          "tekst": "discipelen",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G3101"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G3101"
+          ],
+          "morfologie": [
+            "T-GPM",
+            "N-GPM"
           ],
           "bronwoorden": [
             "των",
@@ -20390,18 +21014,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:37",
-            "bronindices": [
+            "grondindices": [
               15,
               16
             ],
-            "grondindices": [
+            "bronindices": [
               15,
               16
             ]
@@ -21465,11 +22090,19 @@
           }
         },
         {
-          "tekst": "van de Farizeën",
+          "tekst": "Farizeën",
           "voorkomen": 1,
           "strongs": [
             "G3588",
             "G5330"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G5330"
+          ],
+          "morfologie": [
+            "T-GPM",
+            "N-GPM"
           ],
           "bronwoorden": [
             "των",
@@ -21483,18 +22116,19 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:39",
-            "bronindices": [
+            "grondindices": [
               2,
               3
             ],
-            "grondindices": [
+            "bronindices": [
               2,
               3
             ]
@@ -21597,37 +22231,75 @@
           }
         },
         {
-          "tekst": "tot Hem",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
-            "G4314",
-            "G846"
+            "G4314"
+          ],
+          "lemma_strongs": [
+            "G4314"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
-            "προς",
-            "αυτον"
+            "προς"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:39",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
-              8,
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "Hem",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-ASM"
+          ],
+          "bronwoorden": [
+            "αυτον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:39",
+            "grondindices": [
               9
             ],
-            "grondindices": [
-              8,
+            "bronindices": [
               9
             ]
           }
@@ -22769,10 +23441,16 @@
           }
         },
         {
-          "tekst": "Och",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G3754"
+          ],
+          "lemma_strongs": [
+            "G3754"
+          ],
+          "morfologie": [
+            "CONJ"
           ],
           "bronwoorden": [
             "οτι"
@@ -22783,17 +23461,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:42",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
+            "bronindices": [
               1
             ]
           }
@@ -26282,42 +26961,82 @@
           }
         },
         {
-          "tekst": "dagelijks",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G2596",
-            "G2250"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
-            "το",
-            "καθ",
-            "ημεραν"
+            "το"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
             "referentie": "LUK 19:47",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              3,
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "dagelijks",
+          "voorkomen": 1,
+          "strongs": [
+            "G2596",
+            "G2250"
+          ],
+          "lemma_strongs": [
+            "G2596",
+            "G2250"
+          ],
+          "morfologie": [
+            "PREP",
+            "N-ASF"
+          ],
+          "bronwoorden": [
+            "καθ",
+            "ημεραν"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "43873B1F60D143DD609503C65612C0DB2FB3C5454E4AD23C64B0B70703638799",
+            "referentie": "LUK 19:47",
+            "grondindices": [
               4,
               5
             ],
-            "grondindices": [
-              3,
+            "bronindices": [
               4,
               5
             ]

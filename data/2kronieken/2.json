@@ -756,10 +756,13 @@
           }
         },
         {
-          "tekst": "opzieners",
+          "tekst": "opzichters",
           "voorkomen": 1,
           "strongs": [
             "H5329"
+          ],
+          "morfologie": [
+            "HC/Vprmpa"
           ],
           "bronwoorden": [
             "וּ/מְנַצְּחִ֣ים"
@@ -770,13 +773,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 2:2",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               15
             ]
@@ -9542,10 +9549,13 @@
           }
         },
         {
-          "tekst": "nooddruft",
+          "tekst": "behoefte",
           "voorkomen": 1,
           "strongs": [
             "H6878"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2ms"
           ],
           "bronwoorden": [
             "צָרְכֶּ֔/ךָ"
@@ -9556,13 +9566,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 2:16",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -10428,38 +10442,15 @@
           "tekst": "duizend",
           "voorkomen": 1,
           "strongs": [
+            "H505",
             "H505"
           ],
-          "bronwoorden": [
-            "אֶ֔לֶף"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 2:17",
-            "bronindices": [
-              17
-            ]
-          }
-        },
-        {
-          "tekst": "drie",
-          "voorkomen": 1,
-          "strongs": [
-            "H7969",
-            "H505"
+          "morfologie": [
+            "HAcbsa",
+            "HAcbpa"
           ],
           "bronwoorden": [
-            "וּ/שְׁלֹ֥שֶׁת",
+            "אֶ֔לֶף",
             "אֲלָפִ֖ים"
           ],
           "transliteraties": [
@@ -10470,19 +10461,57 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 2:17",
+            "grondindices": [
+              17,
+              19
+            ],
             "bronindices": [
-              18,
+              17,
               19
             ]
-          },
-          "toelichting": "'drie' staat voor שְׁלֹשֶׁת אֲלָפִים (H7969 en H505); het bijbehorende 'duizend' is in de Nederlandse telwijze door het voorafgaande 'duizend' gedekt."
+          }
+        },
+        {
+          "tekst": "drie",
+          "voorkomen": 1,
+          "strongs": [
+            "H7969"
+          ],
+          "morfologie": [
+            "HC/Acmsc"
+          ],
+          "bronwoorden": [
+            "וּ/שְׁלֹ֥שֶׁת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 2:17",
+            "grondindices": [
+              18
+            ],
+            "bronindices": [
+              18
+            ]
+          }
         },
         {
           "tekst": "zeshonderd",
@@ -10959,10 +10988,13 @@
           "toelichting": "Eén Nederlands woord dekt שֵׁשׁ מֵאוֹת (H8337 en H3967)."
         },
         {
-          "tekst": "opzieners",
+          "tekst": "opzichters",
           "voorkomen": 1,
           "strongs": [
             "H5329"
+          ],
+          "morfologie": [
+            "HVprmpa"
           ],
           "bronwoorden": [
             "מְנַצְּחִ֖ים"
@@ -10973,13 +11005,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 2:18",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               12
             ]

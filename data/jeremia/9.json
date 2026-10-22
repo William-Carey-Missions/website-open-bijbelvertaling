@@ -4238,10 +4238,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -4252,13 +4255,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 9:9",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]
@@ -11751,56 +11758,42 @@
           "tekst": "Maar",
           "voorkomen": 1,
           "strongs": [
-            "H3588"
-          ],
-          "bronwoorden": [
-            "כִּ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
-            "referentie": "JER 9:24",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
-          "tekst": "Maar",
-          "voorkomen": 1,
-          "strongs": [
+            "H3588",
             "H518"
           ],
+          "morfologie": [
+            "HC",
+            "HC"
+          ],
           "bronwoorden": [
+            "כִּ֣י",
             "אִם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 9:24",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "כִּי אִם bestaat in MorphHB uit twee tokens (H3588 en H518); beide staan achter het ene Nederlandse woord 'Maar'."
+          }
         },
         {
           "tekst": "hierin",

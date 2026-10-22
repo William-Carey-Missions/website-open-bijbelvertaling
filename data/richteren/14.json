@@ -2671,37 +2671,72 @@
           }
         },
         {
-          "tekst": "jonge leeuw",
+          "tekst": "jonge",
           "voorkomen": 1,
           "strongs": [
-            "H3715",
-            "H738"
+            "H3715"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
-            "כְּפִ֣יר",
-            "אֲרָי֔וֹת"
+            "כְּפִ֣יר"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
             "referentie": "JDG 14:5",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
-              10,
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "leeuw",
+          "voorkomen": 1,
+          "strongs": [
+            "H738"
+          ],
+          "morfologie": [
+            "HNcmpa"
+          ],
+          "bronwoorden": [
+            "אֲרָי֔וֹת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
+            "referentie": "JDG 14:5",
+            "grondindices": [
+              11
+            ],
+            "bronindices": [
               11
             ]
-          },
-          "toelichting": "Eén Nederlandse uitdrukking dekt de twee grondwoorden כְּפִיר (H3715) en אֲרָיוֹת (H738)."
+          }
         },
         {
           "tekst": "brullende",
@@ -3108,56 +3143,42 @@
           "tekst": "niets",
           "voorkomen": 1,
           "strongs": [
-            "H3972"
-          ],
-          "bronwoorden": [
-            "וּ/מְא֖וּמָה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
-            "referentie": "JDG 14:6",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "er was",
-          "voorkomen": 1,
-          "strongs": [
+            "H3972",
             "H369"
           ],
+          "morfologie": [
+            "HC/Ncfsa",
+            "HTn"
+          ],
           "bronwoorden": [
+            "וּ/מְא֖וּמָה",
             "אֵ֣ין"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "89B478355FCDEEE966002C289AE67BB6D936E28327C93E4A188F6A21833460DD",
             "referentie": "JDG 14:6",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
+              5,
               6
             ]
-          },
-          "toelichting": "אֵין is het ontkennende 'er is niet'; de ontkenning zelf gaat in het Nederlands op in 'niets'."
+          }
         },
         {
           "tekst": "hand",

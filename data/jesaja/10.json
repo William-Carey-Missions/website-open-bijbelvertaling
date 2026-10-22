@@ -1379,10 +1379,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Dat",
+          "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
             "H1115"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "בִּלְתִּ֤י"
@@ -1393,13 +1396,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 10:4",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -3946,10 +3953,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Gelijk",
+          "tekst": "Zoals",
           "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HR/Tr"
           ],
           "bronwoorden": [
             "כַּ/אֲשֶׁר֙"
@@ -3960,13 +3970,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 10:10",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -4275,10 +4289,13 @@
           }
         },
         {
-          "tekst": "Gelijk",
+          "tekst": "Zoals",
           "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HR/Tr"
           ],
           "bronwoorden": [
             "כַּ/אֲשֶׁ֥ר"
@@ -4289,13 +4306,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 10:11",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               0
             ]
@@ -14273,10 +14294,13 @@
           }
         },
         {
-          "tekst": "dochter",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1004"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "בית"
@@ -14287,24 +14311,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 10:32",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
-          },
-          "toelichting": "MorphHB leest in de lopende tekst het ketiv בית (H1004, 'huis'); de Nederlandse tekst volgt de overgeleverde lezing 'dochter' (qere בַּת). Het Strongnummer volgt MorphHB."
+          }
         },
         {
-          "tekst": "Sion",
+          "tekst": "dochter",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "צִיּ֔וֹן"
@@ -14315,20 +14345,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 10:32",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
-          },
-          "gids_strongs": [
-            "H6726"
-          ]
+          }
         },
         {
           "tekst": "heuvel",

@@ -896,10 +896,15 @@
           }
         },
         {
-          "tekst": "met",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "ziel",
+          "plaats": "voor",
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַל"
@@ -910,13 +915,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 30:2",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]

@@ -524,38 +524,75 @@
           "voorkomen": 1,
           "strongs": [
             "H1167",
-            "H4874",
-            "H3027"
+            "H4874"
+          ],
+          "morfologie": [
+            "HNcmsa",
+            "HNcmsc"
           ],
           "bronwoorden": [
             "בַּ֨עַל֙",
-            "מַשֵּׁ֣ה",
-            "יָד֔/וֹ"
+            "מַשֵּׁ֣ה"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 15:2",
-            "bronindices": [
-              4,
+            "grondindices": [
               5,
               6
+            ],
+            "bronindices": [
+              4,
+              5
             ]
-          },
-          "toelichting": "De Hebreeuwse constructus-keten baal masjee jado ('heer van de lening van zijn hand') is met het ene woord 'schuldeiser' weergegeven; de drie grondwoorden staan daarom in één koppeling."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H3027"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp3ms"
+          ],
+          "bronwoorden": [
+            "יָד֔/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
+            "referentie": "DEU 15:2",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              6
+            ]
+          }
         },
         {
           "tekst": "die",

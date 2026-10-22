@@ -2315,10 +2315,13 @@
           }
         },
         {
-          "tekst": "gemaakt",
+          "tekst": "mesthoop",
           "voorkomen": 1,
           "strongs": [
             "H5122"
+          ],
+          "morfologie": [
+            "ANcfsa"
           ],
           "bronwoorden": [
             "נְוָלִ֥י"
@@ -2329,23 +2332,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:5",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               16
             ]
           }
         },
         {
-          "tekst": "mesthoop",
+          "tekst": "gemaakt",
           "voorkomen": 1,
           "strongs": [
             "H7761"
+          ],
+          "morfologie": [
+            "AVui3mp"
           ],
           "bronwoorden": [
             "יִתְּשָׂמֽוּן"
@@ -2356,13 +2366,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:5",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               15
             ]
@@ -5971,10 +5985,13 @@
           }
         },
         {
-          "tekst": "niemand",
+          "tekst": "anders",
           "voorkomen": 1,
           "strongs": [
             "H321"
+          ],
+          "morfologie": [
+            "AC/Aamsa"
           ],
           "bronwoorden": [
             "וְ/אָחֳרָן֙"
@@ -5985,24 +6002,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:11",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               6
             ]
-          },
-          "toelichting": "לָא ('niet') staat in 'er is niemand anders'; 'niemand' draagt H3809."
+          }
         },
         {
-          "tekst": "anders",
+          "tekst": "niemand",
           "voorkomen": 1,
           "strongs": [
             "H3809"
+          ],
+          "morfologie": [
+            "ATn"
           ],
           "bronwoorden": [
             "לָ֣א"
@@ -6013,13 +6036,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:11",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
@@ -9706,38 +9733,75 @@
           "voorkomen": 1,
           "strongs": [
             "H2376",
-            "H1768",
             "H3916"
+          ],
+          "morfologie": [
+            "AR/Ncmsd/Td",
+            "ANcmsd/Td"
           ],
           "bronwoorden": [
             "בְּ/חֶזְוָ֥/א",
-            "דִֽי",
             "לֵילְיָ֖/א"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:19",
+            "grondindices": [
+              2,
+              4
+            ],
             "bronindices": [
               7,
-              1,
               2
             ]
-          },
-          "toelichting": "חֶזְוָא דִי לֵילְיָא ('gezicht van de nacht', H2376, H1768 en H3916) is samengetrokken tot één Nederlands woord 'nachtgezicht'; dat woord draagt alle drie de nummers."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H1768"
+          ],
+          "morfologie": [
+            "ATr"
+          ],
+          "bronwoorden": [
+            "דִֽי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 2:19",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              1
+            ]
+          }
         },
         {
           "tekst": "geheim",
@@ -22616,38 +22680,75 @@
           "voorkomen": 1,
           "strongs": [
             "H2635",
-            "H1768",
             "H6353"
+          ],
+          "morfologie": [
+            "ANcmsa",
+            "ANcmsa"
           ],
           "bronwoorden": [
             "חֲסַ֤ף",
-            "דִּֽי",
             "פֶחָר֙"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:41",
+            "grondindices": [
+              5,
+              7
+            ],
             "bronindices": [
               7,
-              6,
               5
             ]
-          },
-          "toelichting": "חֲסַף דִּי פֶחָר ('leem van een pottenbakker', H2635, H1768 en H6353) is samengetrokken tot één Nederlands woord 'pottenbakkersleem'; dat woord draagt alle drie de nummers."
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H1768"
+          ],
+          "morfologie": [
+            "ATr"
+          ],
+          "bronwoorden": [
+            "דִּֽי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 2:41",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              6
+            ]
+          }
         },
         {
           "tekst": "dele",
@@ -24155,55 +24256,42 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "zoals",
           "voorkomen": 1,
           "strongs": [
-            "H1888"
-          ],
-          "bronwoorden": [
-            "הֵֽא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 2:43",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
-          "tekst": "als",
-          "voorkomen": 1,
-          "strongs": [
+            "H1888",
             "H1768"
           ],
+          "morfologie": [
+            "ATm",
+            "AC/C"
+          ],
           "bronwoorden": [
+            "הֵֽא",
             "כְ/דִ֣י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:43",
+            "grondindices": [
+              16,
+              17
+            ],
             "bronindices": [
+              16,
               17
             ]
           }
@@ -26175,9 +26263,12 @@
         },
         {
           "tekst": "zeker",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H540"
+          ],
+          "morfologie": [
+            "AC/Vhsmsa"
           ],
           "bronwoorden": [
             "וּ/מְהֵימַ֥ן"
@@ -26188,13 +26279,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 2:45",
+            "grondindices": [
+              28
+            ],
             "bronindices": [
               29
             ]

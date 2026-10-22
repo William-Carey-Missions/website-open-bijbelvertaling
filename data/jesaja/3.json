@@ -5770,10 +5770,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -5784,13 +5787,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 3:15",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -7444,59 +7451,42 @@
           "tekst": "reukballetjes",
           "voorkomen": 1,
           "strongs": [
-            "H1004"
-          ],
-          "bronwoorden": [
-            "וּ/בָתֵּ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 3:20",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H1004",
             "H5315"
           ],
+          "morfologie": [
+            "HC/Ncmpc",
+            "HTd/Ncbsa"
+          ],
           "bronwoorden": [
+            "וּ/בָתֵּ֥י",
             "הַ/נֶּ֖פֶשׁ"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 3:20",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              4,
               3
             ]
-          },
-          "anker": "reukballetjes",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "בָּתֵּי הַנֶּפֶשׁ ('huisjes van de ziel') is in het ene Nederlandse woord 'reukballetjes' samengevat; de lezer matcht hele woorden, dus staat de tweede koppeling na dat woord."
+          }
         },
         {
           "tekst": "oorringen",
@@ -7593,59 +7583,42 @@
           "tekst": "voorhoofdsierselen",
           "voorkomen": 1,
           "strongs": [
-            "H5141"
-          ],
-          "bronwoorden": [
-            "וְ/נִזְמֵ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 3:21",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H5141",
             "H639"
           ],
+          "morfologie": [
+            "HC/Ncmpc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "וְ/נִזְמֵ֥י",
             "הָ/אָֽף"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 3:21",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
+              2,
               1
             ]
-          },
-          "anker": "voorhoofdsierselen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "נִזְמֵי הָאָף ('neusringen') is in het ene Nederlandse woord 'voorhoofdsierselen' samengevat; de lezer matcht hele woorden, dus staat de tweede koppeling na dat woord."
+          }
         }
       ]
     },

@@ -7438,10 +7438,13 @@
           }
         },
         {
-          "tekst": "inzwelgen",
+          "tekst": "opslokken",
           "voorkomen": 1,
           "strongs": [
             "H3886"
+          ],
+          "morfologie": [
+            "HC/Vqq3cp"
           ],
           "bronwoorden": [
             "וְ/לָע֔וּ"
@@ -7452,13 +7455,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "84B96A968F1EADEB1740C5DB8A5673F1F5C73D8B84C408613730839CE6BAC06E",
             "referentie": "OBA 1:16",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]

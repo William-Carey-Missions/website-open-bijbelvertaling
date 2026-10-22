@@ -7317,29 +7317,44 @@
           "tekst": "geen",
           "voorkomen": 1,
           "strongs": [
-            "G3756"
+            "G3756",
+            "G5100"
+          ],
+          "lemma_strongs": [
+            "G3756",
+            "G5100"
+          ],
+          "morfologie": [
+            "PRT-N",
+            "X-GSN"
           ],
           "bronwoorden": [
-            "ουκ"
+            "ουκ",
+            "τινος"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 6:12",
-            "bronindices": [
-              12
-            ],
             "grondindices": [
-              11
+              11,
+              15
+            ],
+            "bronindices": [
+              12,
+              15
             ]
           }
         },
@@ -7404,10 +7419,16 @@
           }
         },
         {
-          "tekst": "van",
+          "tekst": "onder",
           "voorkomen": 1,
           "strongs": [
             "G5259"
+          ],
+          "lemma_strongs": [
+            "G5259"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "υπο"
@@ -7418,48 +7439,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 6:12",
-            "bronindices": [
-              14
-            ],
             "grondindices": [
               14
-            ]
-          }
-        },
-        {
-          "tekst": "geen",
-          "voorkomen": 1,
-          "strongs": [
-            "G5100"
-          ],
-          "bronwoorden": [
-            "τινος"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
-            "referentie": "1CO 6:12",
-            "bronindices": [
-              15
             ],
-            "grondindices": [
-              15
+            "bronindices": [
+              14
             ]
           }
         }

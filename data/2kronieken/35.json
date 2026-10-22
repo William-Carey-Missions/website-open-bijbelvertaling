@@ -5453,10 +5453,13 @@
           }
         },
         {
-          "tekst": "huiden",
+          "tekst": "trokken",
           "voorkomen": 1,
           "strongs": [
             "H6584"
+          ],
+          "morfologie": [
+            "HVhrmpa"
           ],
           "bronwoorden": [
             "מַפְשִׁיטִֽים"
@@ -5467,13 +5470,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 35:11",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -14496,10 +14503,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "in",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "עַל"
@@ -14510,21 +14520,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 35:27",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "boek",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het voorzetsel עַל is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "boek",

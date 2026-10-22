@@ -942,10 +942,13 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "zoals",
           "voorkomen": 2,
           "strongs": [
             "H3644"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "כָּמֹ֥/הוּ"
@@ -956,18 +959,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 40:9",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "toelichting": "כָּמֹהוּ ('gelijk Hij') draagt het tweede 'gelijk'."
+          }
         },
         {
           "tekst": "donderen",
@@ -3672,10 +3678,13 @@
           }
         },
         {
-          "tekst": "voeder",
+          "tekst": "voer",
           "voorkomen": 1,
           "strongs": [
             "H944"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "ב֭וּל"
@@ -3686,13 +3695,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 40:20",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               3
             ]
@@ -6463,60 +6476,45 @@
           "toelichting": "עוֹר (H5785) betekent 'huid'; de Statenvertaling-tekst leest hier 'zijn huis' en de Nederlandse tekst volgt die lezing."
         },
         {
-          "tekst": "visserskrauwel",
+          "tekst": "vissershaak",
           "voorkomen": 1,
           "strongs": [
-            "H6767"
-          ],
-          "bronwoorden": [
-            "וּ/בְ/צִלְצַ֖ל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
-            "referentie": "JOB 41:7",
-            "bronindices": [
-              5
-            ]
-          },
-          "toelichting": "צִלְצַל דָּגִים ('harpoen voor vissen') is met één Nederlands woord 'visserskrauwel' weergegeven; deze koppeling draagt צִלְצַל (H6767)."
-        },
-        {
-          "tekst": "visserskrauwel",
-          "voorkomen": 1,
-          "strongs": [
+            "H6767",
             "H1709"
           ],
+          "morfologie": [
+            "HC/R/Ncmsc",
+            "HNcmpa"
+          ],
           "bronwoorden": [
+            "וּ/בְ/צִלְצַ֖ל",
             "דָּגִ֣ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 41:7",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              5,
               4
             ]
-          },
-          "toelichting": "Tweede lid van hetzelfde Nederlandse woord 'visserskrauwel': דָּגִים (H1709)."
+          }
         },
         {
           "tekst": "hoofd",

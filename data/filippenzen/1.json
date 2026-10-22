@@ -3932,67 +3932,47 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 3,
-          "strongs": [
-            "G3588"
-          ],
-          "bronwoorden": [
-            "τη"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
-            "referentie": "PHP 1:7",
-            "bronindices": [
-              23,
-              24
-            ],
-            "grondindices": [
-              23
-            ]
-          },
-          "gids_strongs": [
-            "G1722",
-            "G3588"
-          ]
-        },
-        {
           "tekst": "verantwoording",
           "voorkomen": 1,
           "strongs": [
+            "G3588",
             "G627"
           ],
+          "lemma_strongs": [
+            "G3588",
+            "G627"
+          ],
+          "morfologie": [
+            "T-DSF",
+            "N-DSF"
+          ],
           "bronwoorden": [
+            "τη",
             "απολογια"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AA4B83FA5DEAAE7CD012AD92E02ED80DBB44CA78A783E828BC2B444414A172F9",
             "referentie": "PHP 1:7",
-            "bronindices": [
-              25
-            ],
             "grondindices": [
+              23,
               24
+            ],
+            "bronindices": [
+              23,
+              25
             ]
           }
         },

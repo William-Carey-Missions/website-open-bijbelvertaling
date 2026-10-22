@@ -3047,10 +3047,13 @@
           }
         },
         {
-          "tekst": "het",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
           "strongs": [
             "H1931"
+          ],
+          "morfologie": [
+            "HC/Pp3ms"
           ],
           "bronwoorden": [
             "וְ/ה֖וּא"
@@ -3061,13 +3064,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 11:7",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -3964,10 +3971,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "dat",
           "voorkomen": 1,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אֹתָ֥/ם"
@@ -3978,21 +3988,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 11:9",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "dat",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "eten",
@@ -8063,36 +8073,69 @@
           "tekst": "springen",
           "voorkomen": 1,
           "strongs": [
-            "H5425",
-            "H2004"
+            "H5425"
+          ],
+          "morfologie": [
+            "HR/Vpc"
           ],
           "bronwoorden": [
-            "לְ/נַתֵּ֥ר",
-            "בָּ/הֵ֖ן"
+            "לְ/נַתֵּ֥ר"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 11:21",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "gids_strongs": [
-            "H5425"
+          }
+        },
+        {
+          "tekst": "daarmee",
+          "voorkomen": 1,
+          "strongs": [
+            "H2004"
           ],
-          "toelichting": "De uitlijngids kent geen apart token voor בָּהֵן (H2004, 'daarmee'); dat grondwoord hangt daarom aan hetzelfde gidstoken als H5425. Het Nederlandse 'daarmee' geeft H2004 weer."
+          "morfologie": [
+            "HR/Sp3fp"
+          ],
+          "bronwoorden": [
+            "בָּ/הֵ֖ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
+            "referentie": "LEV 11:21",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
+              16
+            ]
+          }
         },
         {
           "tekst": "op",

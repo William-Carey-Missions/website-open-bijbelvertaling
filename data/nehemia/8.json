@@ -405,6 +405,9 @@
           "strongs": [
             "H834"
           ],
+          "morfologie": [
+            "HTr"
+          ],
           "bronwoorden": [
             "אֲשֶׁ֖ר"
           ],
@@ -414,21 +417,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 8:1",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
-          },
-          "anker": "straat",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het betrekkelijke אֲשֶׁר gaat op in 'de straat voor de Waterpoort'."
+          }
         },
         {
           "tekst": "voor",
@@ -1849,60 +1852,42 @@
           "tekst": "middag",
           "voorkomen": 1,
           "strongs": [
-            "H4276"
-          ],
-          "bronwoorden": [
-            "מַחֲצִ֣ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
-            "referentie": "NEH 8:3",
-            "bronindices": [
-              4
-            ]
-          },
-          "toelichting": "מַחֲצִית הַיּוֹם ('helft van de dag') is als 'de middag' vertaald; 'middag' draagt het lemma van מַחֲצִית."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H4276",
             "H3117"
           ],
+          "morfologie": [
+            "HNcfsc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "מַחֲצִ֣ית",
             "הַ/יּ֔וֹם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "7B354CB6DFECE05361D9A47E56403F871B89FADEDB5F5AF9717B6EF0D3682E3A",
             "referentie": "NEH 8:3",
+            "grondindices": [
+              11,
+              12
+            ],
             "bronindices": [
+              4,
               5
             ]
-          },
-          "anker": "middag",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "הַיּוֹם gaat op in het Nederlandse 'middag' (helft van de dag)."
+          }
         },
         {
           "tekst": "voor",

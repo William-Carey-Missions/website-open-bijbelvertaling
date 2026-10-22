@@ -5277,10 +5277,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֖ה"
@@ -5291,13 +5294,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 14:12",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -8333,38 +8340,71 @@
         },
         {
           "tekst": "hen",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
-            "H1992",
             "H1992"
           ],
+          "morfologie": [
+            "HR/Pp3mp"
+          ],
           "bronwoorden": [
-            "לָ/הֵ֔מָּה",
-            "הֵ֣מָּה"
+            "לָ/הֵ֔מָּה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 14:16",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              13
+              14
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "hen",
+          "voorkomen": 2,
+          "strongs": [
             "H1992"
           ],
-          "toelichting": "MorphHB leest hier twee tokens, לָ/הֵמָּה en הֵמָּה (beide H1992); de uitlijngids heeft er één token voor. Beide grondtokens zijn samengevoegd op het tweede 'hen' van dit vers."
+          "morfologie": [
+            "HPp3mp"
+          ],
+          "bronwoorden": [
+            "הֵ֣מָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 14:16",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
+              15
+            ]
+          }
         },
         {
           "tekst": "vrouwen",

@@ -1452,6 +1452,40 @@
           }
         },
         {
+          "tekst": "daaraan",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "לּ֣/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:4",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
           "tekst": "onder",
           "voorkomen": 1,
           "strongs": [
@@ -1696,9 +1730,12 @@
         },
         {
           "tekst": "zijn",
-          "voorkomen": 3,
+          "voorkomen": 4,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqq3ms"
           ],
           "bronwoorden": [
             "וְ/הָיָה֙"
@@ -1709,13 +1746,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:4",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               13
             ]
@@ -1806,35 +1847,69 @@
           "tekst": "het",
           "voorkomen": 1,
           "strongs": [
-            "H853",
-            "H1992"
+            "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
-            "אֹת֖/וֹ",
-            "בָּ/הֵֽמָּה"
+            "אֹת֖/וֹ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:4",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
-              17
+              18
             ]
-          },
-          "gids_strongs": [
-            "H853"
-          ]
+          }
+        },
+        {
+          "tekst": "daarmee",
+          "voorkomen": 1,
+          "strongs": [
+            "H1992"
+          ],
+          "morfologie": [
+            "HR/Pp3mp"
+          ],
+          "bronwoorden": [
+            "בָּ/הֵֽמָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:4",
+            "grondindices": [
+              19
+            ],
+            "bronindices": [
+              19
+            ]
+          }
         }
       ]
     },
@@ -2885,10 +2960,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "geurende",
           "voorkomen": 1,
           "strongs": [
             "H7004"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "קְטֹ֣רֶת"
@@ -2899,27 +2977,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:7",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
-          },
-          "anker": "geurende specerijen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
-          "tekst": "geurende specerijen",
+          "tekst": "specerijen",
           "voorkomen": 1,
           "strongs": [
             "H5561"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "סַמִּ֑ים"
@@ -2930,42 +3011,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:7",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               2
-            ]
-          }
-        },
-        {
-          "tekst": "elke",
-          "voorkomen": 1,
-          "strongs": [
-            "H1242"
-          ],
-          "bronwoorden": [
-            "בַּ/בֹּ֣קֶר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 30:7",
-            "bronindices": [
-              6
             ]
           }
         },
@@ -2993,6 +3051,33 @@
             "referentie": "EXO 30:7",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "elke",
+          "voorkomen": 1,
+          "strongs": [
+            "H1242"
+          ],
+          "bronwoorden": [
+            "בַּ/בֹּ֣קֶר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:7",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -3811,10 +3896,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֑ה"
@@ -3825,13 +3913,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:9",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -5403,6 +5495,40 @@
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:12",
+            "bronindices": [
+              16
+            ]
+          }
+        },
+        {
+          "tekst": "hen",
+          "voorkomen": 3,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
+          ],
+          "bronwoorden": [
+            "בָ/הֶ֛ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:12",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -9622,6 +9748,40 @@
           }
         },
         {
+          "tekst": "hun",
+          "voorkomen": 2,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
+          ],
+          "bronwoorden": [
+            "לָ/הֶ֧ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:21",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
           "tekst": "inzetting",
           "voorkomen": 1,
           "strongs": [
@@ -9672,6 +9832,40 @@
             "referentie": "EXO 30:21",
             "bronindices": [
               6
+            ]
+          }
+        },
+        {
+          "tekst": "hem",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "ל֥/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:21",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              9
             ]
           }
         },
@@ -10104,6 +10298,40 @@
           }
         },
         {
+          "tekst": "u",
+          "voorkomen": 2,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2ms"
+          ],
+          "bronwoorden": [
+            "לְ/ךָ֮"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:23",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
           "tekst": "specerijen",
           "voorkomen": 1,
           "strongs": [
@@ -10273,59 +10501,42 @@
           "tekst": "specerijkaneel",
           "voorkomen": 1,
           "strongs": [
-            "H7076"
-          ],
-          "bronwoorden": [
-            "וְ/קִנְּמָן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 30:23",
-            "bronindices": [
-              12
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H7076",
             "H1314"
           ],
+          "morfologie": [
+            "HC/Ncmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "וְ/קִנְּמָן",
             "בֶּ֥שֶׂם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:23",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
-              15
+              12,
+              11
             ]
-          },
-          "anker": "specerijkaneel",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "half zoveel",
@@ -10412,59 +10623,42 @@
           "tekst": "specerijkalmus",
           "voorkomen": 1,
           "strongs": [
-            "H7070"
-          ],
-          "bronwoorden": [
-            "וּ/קְנֵה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 30:23",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H7070",
             "H1314"
           ],
+          "morfologie": [
+            "HC/Ncmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "וּ/קְנֵה",
             "בֹ֖שֶׂם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:23",
+            "grondindices": [
+              14,
+              15
+            ],
             "bronindices": [
-              11
+              16,
+              15
             ]
-          },
-          "anker": "specerijkalmus",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "vijftig",
@@ -11372,6 +11566,40 @@
             "referentie": "EXO 30:26",
             "bronindices": [
               0
+            ]
+          }
+        },
+        {
+          "tekst": "daarmee",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "ב֖/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:26",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              1
             ]
           }
         },
@@ -12603,6 +12831,40 @@
           }
         },
         {
+          "tekst": "ze",
+          "voorkomen": 2,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
+          ],
+          "bronwoorden": [
+            "בָּ/הֶ֖ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:29",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
           "tekst": "heilig",
           "voorkomen": 1,
           "strongs": [
@@ -12929,6 +13191,40 @@
             "referentie": "EXO 30:30",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "Mij",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
+          ],
+          "bronwoorden": [
+            "לִֽ/י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:30",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
             ]
           }
         }
@@ -13298,6 +13594,40 @@
             "referentie": "EXO 30:31",
             "bronindices": [
               5
+            ]
+          }
+        },
+        {
+          "tekst": "Mij",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
+          ],
+          "bronwoorden": [
+            "לִ֖/י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:31",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
             ]
           }
         },
@@ -13783,6 +14113,40 @@
             "referentie": "EXO 30:32",
             "bronindices": [
               11
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 2,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "לָ/כֶֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:32",
+            "grondindices": [
+              13
+            ],
+            "bronindices": [
+              13
             ]
           }
         }
@@ -14432,6 +14796,40 @@
             "referentie": "EXO 30:34",
             "bronindices": [
               4
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2ms"
+          ],
+          "bronwoorden": [
+            "לְ/ךָ֣"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:34",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
             ]
           }
         },
@@ -15425,26 +15823,40 @@
           "tekst": "waarheen",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H8033"
+          ],
+          "morfologie": [
+            "HTr",
+            "HD/Sd"
           ],
           "bronwoorden": [
-            "אֲשֶׁ֛ר"
+            "אֲשֶׁ֛ר",
+            "שָׁ֑מָּ/ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:36",
+            "grondindices": [
+              9,
+              12
+            ],
             "bronindices": [
-              9
+              9,
+              11
             ]
           }
         },
@@ -15476,13 +15888,16 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
+          "tekst": "u",
+          "voorkomen": 3,
           "strongs": [
-            "H8033"
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2ms"
           ],
           "bronwoorden": [
-            "שָׁ֑מָּ/ה"
+            "לְ/ךָ֖"
           ],
           "transliteraties": [
             ""
@@ -15490,21 +15905,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 30:36",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
-          },
-          "anker": "heiligheid",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "heiligheid",
@@ -15584,6 +15999,40 @@
             "referentie": "EXO 30:36",
             "bronindices": [
               12
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 4,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "לָ/כֶֽם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:36",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
+              16
             ]
           }
         }
@@ -15861,6 +16310,40 @@
           }
         },
         {
+          "tekst": "uzelf",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "לָ/כֶ֑ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:37",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
           "tekst": "heiligheid",
           "voorkomen": 1,
           "strongs": [
@@ -15911,6 +16394,40 @@
             "referentie": "EXO 30:37",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 3,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2ms"
+          ],
+          "bronwoorden": [
+            "לְ/ךָ֖"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:37",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              9
             ]
           }
         },
@@ -16142,6 +16659,40 @@
             "referentie": "EXO 30:38",
             "bronindices": [
               4
+            ]
+          }
+        },
+        {
+          "tekst": "daaraan",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3fs"
+          ],
+          "bronwoorden": [
+            "בָּ֑/הּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 30:38",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
             ]
           }
         },

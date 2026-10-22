@@ -479,7 +479,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -511,7 +511,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:1",
             "bronindices": [
-              8
+              0
             ]
           }
         },
@@ -1575,7 +1575,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -1607,7 +1607,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:2",
             "bronindices": [
-              7
+              0
             ]
           }
         },
@@ -1649,7 +1649,7 @@
           }
         },
         {
-          "tekst": "de overwinning hadden",
+          "tekst": "overwinning",
           "voorkomen": 1,
           "strongs": [
             "G3528"
@@ -1669,9 +1669,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5723"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -1680,6 +1677,9 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:2",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -3059,7 +3059,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -3091,7 +3091,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:3",
             "bronindices": [
-              8
+              0
             ]
           }
         },
@@ -4497,7 +4497,7 @@
           }
         },
         {
-          "tekst": "want",
+          "tekst": "Want",
           "voorkomen": 1,
           "strongs": [
             "G3754"
@@ -4529,7 +4529,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:4",
             "bronindices": [
-              14
+              11
             ]
           }
         },
@@ -5261,7 +5261,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -5293,7 +5293,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:5",
             "bronindices": [
-              4
+              0
             ]
           }
         },
@@ -5857,42 +5857,31 @@
           }
         },
         {
-          "tekst": "de zeven engelen",
+          "tekst": "engelen",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2033",
             "G32"
           ],
           "lemma_strongs": [
             "G3588",
-            "G2033",
             "G32"
           ],
           "morfologie": [
             "T-NPM",
-            "A-NUI",
             "N-NPM"
           ],
           "bronwoorden": [
             "οι",
-            "επτα",
             "αγγελοι"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -5902,10 +5891,50 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:6",
+            "grondindices": [
+              2,
+              4
+            ],
             "bronindices": [
               2,
-              3,
               4
+            ]
+          }
+        },
+        {
+          "tekst": "zeven",
+          "voorkomen": 1,
+          "strongs": [
+            "G2033"
+          ],
+          "lemma_strongs": [
+            "G2033"
+          ],
+          "morfologie": [
+            "A-NUI"
+          ],
+          "bronwoorden": [
+            "επτα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:6",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              3
             ]
           }
         },
@@ -5947,42 +5976,31 @@
           }
         },
         {
-          "tekst": "de zeven plagen",
+          "tekst": "plagen",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2033",
             "G4127"
           ],
           "lemma_strongs": [
             "G3588",
-            "G2033",
             "G4127"
           ],
           "morfologie": [
             "T-APF",
-            "A-NUI",
             "N-APF"
           ],
           "bronwoorden": [
             "τας",
-            "επτα",
             "πληγας"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -5992,10 +6010,50 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:6",
+            "grondindices": [
+              6,
+              8
+            ],
             "bronindices": [
               6,
-              7,
               8
+            ]
+          }
+        },
+        {
+          "tekst": "zeven",
+          "voorkomen": 2,
+          "strongs": [
+            "G2033"
+          ],
+          "lemma_strongs": [
+            "G2033"
+          ],
+          "morfologie": [
+            "A-NUI"
+          ],
+          "bronwoorden": [
+            "επτα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:6",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
             ]
           }
         },
@@ -6193,7 +6251,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -6225,7 +6283,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:6",
             "bronindices": [
-              15
+              0
             ]
           }
         },
@@ -6821,42 +6879,31 @@
           }
         },
         {
-          "tekst": "de vier dieren",
+          "tekst": "dieren",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G5064",
             "G2226"
           ],
           "lemma_strongs": [
             "G3588",
-            "G5064",
             "G2226"
           ],
           "morfologie": [
             "T-GPN",
-            "A-GPN",
             "N-GPN"
           ],
           "bronwoorden": [
             "των",
-            "τεσσαρων",
             "ζωων"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -6866,10 +6913,50 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:7",
+            "grondindices": [
+              3,
+              5
+            ],
             "bronindices": [
               3,
-              4,
               5
+            ]
+          }
+        },
+        {
+          "tekst": "vier",
+          "voorkomen": 1,
+          "strongs": [
+            "G5064"
+          ],
+          "lemma_strongs": [
+            "G5064"
+          ],
+          "morfologie": [
+            "A-GPN"
+          ],
+          "bronwoorden": [
+            "τεσσαρων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:7",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              4
             ]
           }
         },
@@ -6911,42 +6998,31 @@
           }
         },
         {
-          "tekst": "de zeven engelen",
+          "tekst": "engelen",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2033",
             "G32"
           ],
           "lemma_strongs": [
             "G3588",
-            "G2033",
             "G32"
           ],
           "morfologie": [
             "T-DPM",
-            "A-NUI",
             "N-DPM"
           ],
           "bronwoorden": [
             "τοις",
-            "επτα",
             "αγγελοις"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -6956,10 +7032,50 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:7",
+            "grondindices": [
+              7,
+              9
+            ],
             "bronindices": [
               7,
-              8,
               9
+            ]
+          }
+        },
+        {
+          "tekst": "zeven",
+          "voorkomen": 1,
+          "strongs": [
+            "G2033"
+          ],
+          "lemma_strongs": [
+            "G2033"
+          ],
+          "morfologie": [
+            "A-NUI"
+          ],
+          "bronwoorden": [
+            "επτα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:7",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
             ]
           }
         },
@@ -7313,49 +7429,68 @@
           }
         },
         {
-          "tekst": "alle eeuwigheid",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-APM"
+          ],
+          "bronwoorden": [
+            "τους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:7",
+            "grondindices": [
+              21
+            ],
+            "bronindices": [
+              21
+            ]
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
             "G165",
-            "G3588",
             "G165"
           ],
           "lemma_strongs": [
-            "G3588",
             "G165",
-            "G3588",
             "G165"
           ],
           "morfologie": [
-            "T-APM",
             "N-APM",
-            "T-GPM",
             "N-GPM"
           ],
           "bronwoorden": [
-            "τους",
             "αιωνας",
-            "των",
             "αιωνων"
           ],
           "transliteraties": [
-            "",
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -7365,11 +7500,50 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:7",
-            "bronindices": [
-              21,
+            "grondindices": [
               22,
-              23,
               24
+            ],
+            "bronindices": [
+              22,
+              24
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GPM"
+          ],
+          "bronwoorden": [
+            "των"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:7",
+            "grondindices": [
+              23
+            ],
+            "bronindices": [
+              23
             ]
           }
         }
@@ -7902,7 +8076,7 @@
           }
         },
         {
-          "tekst": "en",
+          "tekst": "En",
           "voorkomen": 1,
           "strongs": [
             "G2532"
@@ -7934,7 +8108,7 @@
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:8",
             "bronindices": [
-              10
+              0
             ]
           }
         },
@@ -8362,42 +8536,31 @@
           }
         },
         {
-          "tekst": "de zeven plagen",
+          "tekst": "plagen",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G2033",
             "G4127"
           ],
           "lemma_strongs": [
             "G3588",
-            "G2033",
             "G4127"
           ],
           "morfologie": [
             "T-NPF",
-            "A-NUI",
             "N-NPF"
           ],
           "bronwoorden": [
             "αι",
-            "επτα",
             "πληγαι"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -8407,50 +8570,36 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:8",
+            "grondindices": [
+              24,
+              26
+            ],
             "bronindices": [
               24,
-              25,
               26
             ]
           }
         },
         {
-          "tekst": "de zeven engelen",
+          "tekst": "zeven",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G2033",
-            "G32"
+            "G2033"
           ],
           "lemma_strongs": [
-            "G3588",
-            "G2033",
-            "G32"
+            "G2033"
           ],
           "morfologie": [
-            "T-GPM",
-            "A-NUI",
-            "N-GPM"
+            "A-NUI"
           ],
           "bronwoorden": [
-            "των",
-            "επτα",
-            "αγγελων"
+            "επτα"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -8460,10 +8609,93 @@
             "versie": "RE.UTR",
             "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
             "referentie": "REV 15:8",
+            "grondindices": [
+              25
+            ],
+            "bronindices": [
+              25
+            ]
+          }
+        },
+        {
+          "tekst": "engelen",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G32"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G32"
+          ],
+          "morfologie": [
+            "T-GPM",
+            "N-GPM"
+          ],
+          "bronwoorden": [
+            "των",
+            "αγγελων"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:8",
+            "grondindices": [
+              27,
+              29
+            ],
             "bronindices": [
               27,
-              28,
               29
+            ]
+          }
+        },
+        {
+          "tekst": "zeven",
+          "voorkomen": 2,
+          "strongs": [
+            "G2033"
+          ],
+          "lemma_strongs": [
+            "G2033"
+          ],
+          "morfologie": [
+            "A-NUI"
+          ],
+          "bronwoorden": [
+            "επτα"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "RE.UTR",
+            "sha256": "1C641BACA7E65947C583F5CD9723F0497E771EF819708F8817F803FAD39E6624",
+            "referentie": "REV 15:8",
+            "grondindices": [
+              28
+            ],
+            "bronindices": [
+              28
             ]
           }
         }

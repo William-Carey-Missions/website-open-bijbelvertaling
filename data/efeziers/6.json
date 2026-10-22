@@ -1494,10 +1494,16 @@
           }
         },
         {
-          "tekst": "toorn",
+          "tekst": "verwek",
           "voorkomen": 1,
           "strongs": [
             "G3949"
+          ],
+          "lemma_strongs": [
+            "G3949"
+          ],
+          "morfologie": [
+            "V-PAM-2P"
           ],
           "bronwoorden": [
             "παροργιζετε"
@@ -1508,17 +1514,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:4",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -5479,15 +5486,23 @@
           }
         },
         {
-          "tekst": "Zijn",
+          "tekst": "macht",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G846"
+            "G2479"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2479"
+          ],
+          "morfologie": [
+            "T-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
             "της",
-            "αυτου"
+            "ισχυος"
           ],
           "transliteraties": [
             "",
@@ -5497,31 +5512,38 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:10",
-            "bronindices": [
-              9,
-              8
-            ],
             "grondindices": [
               11,
-              13
+              12
+            ],
+            "bronindices": [
+              9,
+              11
             ]
           }
         },
         {
-          "tekst": "macht",
+          "tekst": "Zijn",
           "voorkomen": 1,
           "strongs": [
-            "G2479"
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GSM"
           ],
           "bronwoorden": [
-            "ισχυος"
+            "αυτου"
           ],
           "transliteraties": [
             ""
@@ -5529,18 +5551,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:10",
-            "bronindices": [
-              11
-            ],
             "grondindices": [
-              12
+              13
+            ],
+            "bronindices": [
+              8
             ]
           }
         }
@@ -12788,10 +12811,16 @@
           }
         },
         {
-          "tekst": "met",
+          "tekst": "doel",
           "voorkomen": 1,
           "strongs": [
             "G1519"
+          ],
+          "lemma_strongs": [
+            "G1519"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "εις"
@@ -12802,17 +12831,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:22",
-            "bronindices": [
+            "grondindices": [
               4
             ],
-            "grondindices": [
+            "bronindices": [
               4
             ]
           }
@@ -12821,58 +12851,43 @@
           "tekst": "datzelfde",
           "voorkomen": 1,
           "strongs": [
-            "G846"
-          ],
-          "bronwoorden": [
-            "αυτο"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
-            "referentie": "EPH 6:22",
-            "bronindices": [
-              5
-            ],
-            "grondindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "doel",
-          "voorkomen": 1,
-          "strongs": [
+            "G846",
             "G3778"
           ],
+          "lemma_strongs": [
+            "G846",
+            "G3778"
+          ],
+          "morfologie": [
+            "P-ASN",
+            "D-ASN"
+          ],
           "bronwoorden": [
+            "αυτο",
             "τουτο"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:22",
-            "bronindices": [
+            "grondindices": [
+              5,
               6
             ],
-            "grondindices": [
+            "bronindices": [
+              5,
               6
             ]
           }
@@ -13930,15 +13945,23 @@
           }
         },
         {
-          "tekst": "onze",
+          "tekst": "Heere",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G1473"
+            "G2962"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G2962"
+          ],
+          "morfologie": [
+            "T-ASM",
+            "N-ASM"
           ],
           "bronwoorden": [
             "τον",
-            "ημων"
+            "κυριον"
           ],
           "transliteraties": [
             "",
@@ -13948,31 +13971,38 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:24",
-            "bronindices": [
-              7,
-              6
-            ],
             "grondindices": [
               6,
+              7
+            ],
+            "bronindices": [
+              7,
               8
             ]
           }
         },
         {
-          "tekst": "Heere",
+          "tekst": "onze",
           "voorkomen": 1,
           "strongs": [
-            "G2962"
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
           ],
           "bronwoorden": [
-            "κυριον"
+            "ημων"
           ],
           "transliteraties": [
             ""
@@ -13980,18 +14010,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6FAE4C585DE1D229E8F9A2E01722C995B9CA96B10902BC1EB264E4144D9CDF7F",
             "referentie": "EPH 6:24",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
-              7
+            "bronindices": [
+              6
             ]
           }
         },

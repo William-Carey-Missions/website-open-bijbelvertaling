@@ -3075,10 +3075,13 @@
           }
         },
         {
-          "tekst": "plaats",
+          "tekst": "plekke",
           "voorkomen": 1,
           "strongs": [
             "H7675"
+          ],
+          "morfologie": [
+            "HRd/Ncfsa"
           ],
           "bronwoorden": [
             "בַּ/שָּֽׁבֶת"
@@ -3089,18 +3092,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 23:7",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "H7675 שֶׁבֶת ('zitplaats') is met 'op die plaats' weergegeven; het grondwoord draagt 'plaats'."
+          }
         }
       ]
     },
@@ -3653,57 +3659,42 @@
           "tekst": "achthonderd",
           "voorkomen": 1,
           "strongs": [
-            "H8083"
-          ],
-          "bronwoorden": [
-            "שְׁמֹנֶ֥ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
-            "referentie": "2SA 23:8",
-            "bronindices": [
-              14
-            ]
-          },
-          "toelichting": "שְׁמֹנֶה מֵאוֹת ('acht honderd') is in het Nederlands één woord 'achthonderd'; dit is het eerste grondwoord daarvan."
-        },
-        {
-          "tekst": "achthonderd",
-          "voorkomen": 1,
-          "strongs": [
+            "H8083",
             "H3967"
           ],
+          "morfologie": [
+            "HAcfsa",
+            "HAcbpa"
+          ],
           "bronwoorden": [
+            "שְׁמֹנֶ֥ה",
             "מֵא֛וֹת"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 23:8",
+            "grondindices": [
+              14,
+              15
+            ],
             "bronindices": [
+              14,
               15
             ]
-          },
-          "toelichting": "Zie de vorige koppeling: מֵאוֹת is het tweede grondwoord van 'achthonderd'."
+          }
         },
         {
           "tekst": "verslagen",
@@ -3736,57 +3727,42 @@
           "tekst": "eenmaal",
           "voorkomen": 1,
           "strongs": [
-            "H6471"
-          ],
-          "bronwoorden": [
-            "בְּ/פַ֥עַם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
-            "referentie": "2SA 23:8",
-            "bronindices": [
-              18
-            ]
-          },
-          "toelichting": "בְּפַעַם אחד ('in één keer') is in het Nederlands één woord 'eenmaal'; dit is het eerste grondwoord daarvan."
-        },
-        {
-          "tekst": "eenmaal",
-          "voorkomen": 1,
-          "strongs": [
+            "H6471",
             "H259"
           ],
+          "morfologie": [
+            "HR/Ncfsa",
+            "HAcmsa"
+          ],
           "bronwoorden": [
+            "בְּ/פַ֥עַם",
             "אחד"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 23:8",
+            "grondindices": [
+              17,
+              18
+            ],
             "bronindices": [
+              18,
               17
             ]
-          },
-          "toelichting": "Zie de vorige koppeling: het ketiv אחד (H259) is het tweede grondwoord van 'eenmaal'."
+          }
         }
       ]
     },
@@ -7796,34 +7772,69 @@
           "tekst": "Bethlehems",
           "voorkomen": 1,
           "strongs": [
-            "H1035",
             "H1035"
           ],
+          "morfologie": [
+            "HNp"
+          ],
           "bronwoorden": [
-            "בֵּֽית",
-            "לֶ֨חֶם֙"
+            "בֵּֽית"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 23:16",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
-              10,
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "Bethlehems",
+          "voorkomen": 1,
+          "strongs": [
+            "H1035"
+          ],
+          "morfologie": [
+            "HNp"
+          ],
+          "bronwoorden": [
+            "לֶ֨חֶם֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
+            "referentie": "2SA 23:16",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
               11
             ]
-          },
-          "toelichting": "בֵּית לֶחֶם vormt samen de naam 'Bethlehems' (MorphHB splitst de naam in twee tokens)."
+          }
         },
         {
           "tekst": "die",
@@ -8097,9 +8108,12 @@
         },
         {
           "tekst": "het",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אֹתָ֖/ם"
@@ -8110,18 +8124,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 23:16",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               20
             ]
-          },
-          "toelichting": "אֹתָם (lijdend-voorwerpteken met suffix) draagt het voorwerp 'het' in 'goot het uit'."
+          }
         },
         {
           "tekst": "JAHWEH",
@@ -10825,10 +10842,13 @@
           }
         },
         {
-          "tekst": "man",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אשר"
@@ -10839,18 +10859,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 23:21",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]
-          },
-          "toelichting": "Het ketiv אשר (H834) is in het qere als אִישׁ ('man') gelezen; de vertaling 'een man van aanzien' volgt het qere, daarom draagt dit token 'man'."
+          }
         },
         {
           "tekst": "aanzien",

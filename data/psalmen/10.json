@@ -719,34 +719,10 @@
           "tekst": "roemt",
           "voorkomen": 1,
           "strongs": [
-            "H7563"
-          ],
-          "bronwoorden": [
-            "רָ֭שָׁע"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
-            "referentie": "PSA 10:3",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
-          "tekst": "goddeloze",
-          "voorkomen": 1,
-          "strongs": [
             "H1984"
+          ],
+          "morfologie": [
+            "HVpp3ms"
           ],
           "bronwoorden": [
             "הִלֵּ֣ל"
@@ -757,15 +733,53 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 10:3",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
+            ]
+          }
+        },
+        {
+          "tekst": "goddeloze",
+          "voorkomen": 1,
+          "strongs": [
+            "H7563"
+          ],
+          "morfologie": [
+            "HAamsa"
+          ],
+          "bronwoorden": [
+            "רָ֭שָׁע"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
+            "referentie": "PSA 10:3",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              1
             ]
           }
         },
@@ -3234,10 +3248,13 @@
           "toelichting": "בַּעֲצוּמָיו, 'in zijn sterke (klauwen)'; het Nederlands geeft het weer met 'in zijn sterke poten'. Het anker staat op 'poten'."
         },
         {
-          "tekst": "hoop",
+          "tekst": "arme",
           "voorkomen": 1,
           "strongs": [
             "H2489"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "חלכאים"
@@ -3248,18 +3265,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 10:10",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               2
             ]
-          },
-          "toelichting": "MorphHB leest het ketiv חלכאים als één woord (H2489, 'de hulpelozen'); de Statenvertaling leest 'de arme hoop' (schare). Het qere splitst in חֵיל כָּאִים (H2426+H3512). Het nummer volgt het ketiv."
+          }
         }
       ]
     },

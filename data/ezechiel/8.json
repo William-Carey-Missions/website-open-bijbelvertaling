@@ -1198,10 +1198,13 @@
           }
         },
         {
-          "tekst": "verf",
+          "tekst": "kleur",
           "voorkomen": 1,
           "strongs": [
             "H5869"
+          ],
+          "morfologie": [
+            "HR/Ncbsc"
           ],
           "bronwoorden": [
             "כְּ/עֵ֥ין"
@@ -1212,23 +1215,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:2",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
           }
         },
         {
-          "tekst": "Hasmal",
+          "tekst": "glanzend metaal",
           "voorkomen": 1,
           "strongs": [
             "H2830"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa/Sh"
           ],
           "bronwoorden": [
             "הַ/חַשְׁמַֽלָ/ה"
@@ -1239,13 +1249,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:2",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -3669,57 +3683,42 @@
           "tekst": "Mensenkind",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶּן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 8:6",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "בֶּן אָדָם is in het Nederlands tot één woord samengetrokken; dit is het בֵּן-deel (H1121)."
-        },
-        {
-          "tekst": "Mensenkind",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H120"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "בֶּן",
             "אָדָ֕ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:6",
+            "grondindices": [
+              2,
+              3
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "ziet",
@@ -3809,10 +3808,13 @@
           "toelichting": "Het ketiv מ/הם draagt in MorphHB geen Strongnummer; de uitlijngids volgt het qere מָה (H4100) en telt dat als eigen token. Dat gidstoken is hier bij עֹשִׂים gevoegd; zie de bronafwijking."
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "תּוֹעֵב֨וֹת"
@@ -3823,13 +3825,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:6",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]
@@ -4160,10 +4166,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 2,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "תּוֹעֵב֖וֹת"
@@ -4174,13 +4183,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:6",
+            "grondindices": [
+              21
+            ],
             "bronindices": [
               22
             ]
@@ -5215,10 +5228,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "הַ/תּוֹעֵב֣וֹת"
@@ -5229,13 +5245,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:9",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               7
             ]
@@ -7757,10 +7777,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "תּוֹעֵב֥וֹת"
@@ -7771,13 +7794,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:13",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               9
             ]
@@ -8673,57 +8700,42 @@
           "tekst": "mensenkind",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 8:15",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "בֶּן אָדָם is in het Nederlands tot één woord samengetrokken; dit is het בֵּן-deel (H1121)."
-        },
-        {
-          "tekst": "mensenkind",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H120"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "בֶן",
             "אָדָ֑ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:15",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "nog",
@@ -8807,10 +8819,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "תּוֹעֵב֥וֹת"
@@ -8821,13 +8836,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:15",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]
@@ -10165,57 +10184,42 @@
           "tekst": "mensenkind",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 8:17",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "בֶּן אָדָם is in het Nederlands tot één woord samengetrokken; dit is het בֵּן-deel (H1121)."
-        },
-        {
-          "tekst": "mensenkind",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H120"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "בֶן",
             "אָדָם֒"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:17",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "lichter",
@@ -10328,8 +10332,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "deze",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -10340,27 +10349,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:17",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "anker": "gruwelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "הַ/תּוֹעֵב֖וֹת"
@@ -10371,13 +10383,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 8:17",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]

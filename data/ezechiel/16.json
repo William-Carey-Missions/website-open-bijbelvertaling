@@ -252,57 +252,42 @@
           "tekst": "Mensenkind",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶּן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 16:2",
-            "bronindices": [
-              0
-            ]
-          },
-          "toelichting": "בֶּן אָדָם is in het Nederlands tot één woord samengetrokken; dit is het בֵּן-deel (H1121)."
-        },
-        {
-          "tekst": "Mensenkind",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H120"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "בֶּן",
             "אָדָ֕ם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:2",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "toelichting": "Dit is het אָדָם-deel (H120) van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "bekend",
@@ -393,8 +378,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "haar",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -405,27 +395,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:2",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "gruwelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "haar gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp3fs"
           ],
           "bronwoorden": [
             "תּוֹעֲבֹתֶֽי/הָ"
@@ -436,13 +429,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:2",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -755,10 +752,13 @@
           }
         },
         {
-          "tekst": "Uw handelingen",
+          "tekst": "handelingen",
           "voorkomen": 1,
           "strongs": [
             "H4351"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "מְכֹרֹתַ֨יִ/ךְ֙"
@@ -769,23 +769,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:3",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
           }
         },
         {
-          "tekst": "uw afkomst",
+          "tekst": "afkomst",
           "voorkomen": 1,
           "strongs": [
             "H4138"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "וּ/מֹ֣לְדֹתַ֔יִ/ךְ"
@@ -796,13 +803,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:3",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -863,10 +874,13 @@
           }
         },
         {
-          "tekst": "uw vader",
+          "tekst": "vader",
           "voorkomen": 1,
           "strongs": [
             "H1"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "אָבִ֥י/ךְ"
@@ -877,13 +891,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:3",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -917,10 +935,13 @@
           }
         },
         {
-          "tekst": "uw moeder",
+          "tekst": "moeder",
           "voorkomen": 1,
           "strongs": [
             "H517"
+          ],
+          "morfologie": [
+            "HC/Ncfsc/Sp2fs"
           ],
           "bronwoorden": [
             "וְ/אִמֵּ֥/ךְ"
@@ -931,13 +952,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:3",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -1143,10 +1168,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "uw geboorte",
+          "tekst": "geboorte",
           "voorkomen": 1,
           "strongs": [
             "H4138"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "וּ/מוֹלְדוֹתַ֗יִ/ךְ"
@@ -1157,13 +1185,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:4",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               1
             ]
@@ -1306,10 +1338,13 @@
           }
         },
         {
-          "tekst": "uw navel",
+          "tekst": "navel",
           "voorkomen": 1,
           "strongs": [
             "H8270"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "שָׁרֵּ֔/ךְ"
@@ -1320,13 +1355,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:4",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               3
             ]
@@ -1441,13 +1480,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "gewreven",
           "voorkomen": 1,
           "strongs": [
             "H4414"
           ],
           "bronwoorden": [
-            "וְ/הָמְלֵ֨חַ֙"
+            "הֻמְלַ֔חַתְּ"
           ],
           "transliteraties": [
             ""
@@ -1463,13 +1502,9 @@
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:4",
             "bronindices": [
-              13
+              12
             ]
-          },
-          "anker": "gewreven",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit is de infinitivus absolutus die het volgende werkwoord versterkt; het Nederlands geeft die versterking met een bijwoordelijke wending weer en niet met een eigen woord."
+          }
         },
         {
           "tekst": "geen",
@@ -1499,13 +1534,13 @@
           }
         },
         {
-          "tekst": "gewreven",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H4414"
           ],
           "bronwoorden": [
-            "הֻמְלַ֔חַתְּ"
+            "וְ/הָמְלֵ֨חַ֙"
           ],
           "transliteraties": [
             ""
@@ -1521,9 +1556,13 @@
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:4",
             "bronindices": [
-              12
+              13
             ]
-          }
+          },
+          "anker": "gewreven",
+          "plaats": "voor",
+          "status": "niet_afzonderlijk_weergegeven",
+          "toelichting": "Dit is de infinitivus absolutus die het volgende werkwoord versterkt; het Nederlands geeft die versterking met een bijwoordelijke wending weer en niet met een eigen woord."
         },
         {
           "tekst": "",
@@ -1911,10 +1950,47 @@
           }
         },
         {
-          "tekst": "één",
+          "tekst": "u",
+          "voorkomen": 2,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp2fs"
+          ],
+          "bronwoorden": [
+            "לָ֛/ךְ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 16:5",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "een",
           "voorkomen": 1,
           "strongs": [
             "H259"
+          ],
+          "morfologie": [
+            "HAcfsa"
           ],
           "bronwoorden": [
             "אַחַ֥ת"
@@ -1925,23 +2001,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:5",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
           }
         },
         {
-          "tekst": "deze dingen",
+          "tekst": "deze",
           "voorkomen": 1,
           "strongs": [
             "H428"
+          ],
+          "morfologie": [
+            "HR/Pdxcp"
           ],
           "bronwoorden": [
             "מֵ/אֵ֖לֶּה"
@@ -1952,13 +2035,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:5",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               6
             ]
@@ -2154,10 +2241,13 @@
           }
         },
         {
-          "tekst": "uw ziel",
+          "tekst": "ziel",
           "voorkomen": 1,
           "strongs": [
             "H5315"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp2fs"
           ],
           "bronwoorden": [
             "נַפְשֵׁ֔/ךְ"
@@ -2168,13 +2258,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:5",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               13
             ]
@@ -2491,10 +2585,13 @@
           }
         },
         {
-          "tekst": "uw bloed",
+          "tekst": "bloed",
           "voorkomen": 1,
           "strongs": [
             "H1818"
+          ],
+          "morfologie": [
+            "HR/Ncmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/דָמָ֑יִ/ךְ"
@@ -2505,13 +2602,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:6",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -2545,10 +2646,13 @@
           }
         },
         {
-          "tekst": "uw bloed",
+          "tekst": "bloed",
           "voorkomen": 2,
           "strongs": [
             "H1818"
+          ],
+          "morfologie": [
+            "HR/Ncmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/דָמַ֣יִ/ךְ"
@@ -2559,13 +2663,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:6",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               5
             ]
@@ -2626,10 +2734,13 @@
           }
         },
         {
-          "tekst": "uw bloed",
+          "tekst": "bloed",
           "voorkomen": 3,
           "strongs": [
             "H1818"
+          ],
+          "morfologie": [
+            "HR/Ncmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/דָמַ֥יִ/ךְ"
@@ -2640,13 +2751,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:6",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               8
             ]
@@ -3062,10 +3177,13 @@
           }
         },
         {
-          "tekst": "uw borsten",
+          "tekst": "borsten",
           "voorkomen": 1,
           "strongs": [
             "H7699"
+          ],
+          "morfologie": [
+            "HNcmda"
           ],
           "bronwoorden": [
             "שָׁדַ֤יִם"
@@ -3076,13 +3194,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:7",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -3116,10 +3238,13 @@
           }
         },
         {
-          "tekst": "uw haar",
+          "tekst": "haar",
           "voorkomen": 1,
           "strongs": [
             "H8181"
+          ],
+          "morfologie": [
+            "HC/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "וּ/שְׂעָרֵ֣/ךְ"
@@ -3130,13 +3255,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:7",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -4126,10 +4255,13 @@
           }
         },
         {
-          "tekst": "uw bloed",
+          "tekst": "bloed",
           "voorkomen": 1,
           "strongs": [
             "H1818"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2fs"
           ],
           "bronwoorden": [
             "דָּמַ֖יִ/ךְ"
@@ -4140,13 +4272,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:9",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -4749,10 +4885,13 @@
           }
         },
         {
-          "tekst": "uw handen",
+          "tekst": "handen",
           "voorkomen": 1,
           "strongs": [
             "H3027"
+          ],
+          "morfologie": [
+            "HNcbdc/Sp2fs"
           ],
           "bronwoorden": [
             "יָדַ֔יִ/ךְ"
@@ -4763,13 +4902,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:11",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -4830,10 +4973,13 @@
           }
         },
         {
-          "tekst": "uw hals",
+          "tekst": "hals",
           "voorkomen": 1,
           "strongs": [
             "H1627"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "גְּרוֹנֵֽ/ךְ"
@@ -4844,13 +4990,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:11",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -5043,10 +5193,13 @@
           }
         },
         {
-          "tekst": "uw aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H639"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "אַפֵּ֔/ךְ"
@@ -5057,13 +5210,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:12",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -5124,10 +5281,13 @@
           }
         },
         {
-          "tekst": "uw oren",
+          "tekst": "oren",
           "voorkomen": 1,
           "strongs": [
             "H241"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp2fs"
           ],
           "bronwoorden": [
             "אָזְנָ֑יִ/ךְ"
@@ -5138,13 +5298,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:12",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -5205,10 +5369,13 @@
           }
         },
         {
-          "tekst": "uw hoofd",
+          "tekst": "hoofd",
           "voorkomen": 1,
           "strongs": [
             "H7218"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/רֹאשֵֽׁ/ךְ"
@@ -5219,13 +5386,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:12",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -5487,10 +5658,13 @@
           }
         },
         {
-          "tekst": "uw kleding",
+          "tekst": "kleding",
           "voorkomen": 1,
           "strongs": [
             "H4403"
+          ],
+          "morfologie": [
+            "HC/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "וּ/מַלְבּוּשֵׁ/ךְ֙"
@@ -5501,13 +5675,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:13",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -5730,6 +5908,33 @@
           }
         },
         {
+          "tekst": "zeer",
+          "voorkomen": 1,
+          "strongs": [
+            "H3966"
+          ],
+          "bronwoorden": [
+            "מְאֹ֔ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 16:13",
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
           "tekst": "geheel",
           "voorkomen": 1,
           "strongs": [
@@ -5756,33 +5961,6 @@
             ]
           },
           "toelichting": "בִּ/מְאֹד מְאֹד is een verdubbeling van hetzelfde woord die het Nederlands met 'geheel zeer' weergeeft; dit is het eerste lid."
-        },
-        {
-          "tekst": "zeer",
-          "voorkomen": 1,
-          "strongs": [
-            "H3966"
-          ],
-          "bronwoorden": [
-            "מְאֹ֔ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 16:13",
-            "bronindices": [
-              12
-            ]
-          }
         },
         {
           "tekst": "voorspoedig",
@@ -6031,10 +6209,13 @@
           }
         },
         {
-          "tekst": "uw schoonheid",
+          "tekst": "schoonheid",
           "voorkomen": 1,
           "strongs": [
             "H3308"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/יָפְיֵ֑/ךְ"
@@ -6045,13 +6226,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:14",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               3
             ]
@@ -6139,10 +6324,13 @@
           }
         },
         {
-          "tekst": "Mijn heerlijkheid",
+          "tekst": "heerlijkheid",
           "voorkomen": 1,
           "strongs": [
             "H1926"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp1cs"
           ],
           "bronwoorden": [
             "בַּֽ/הֲדָרִ/י֙"
@@ -6153,13 +6341,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:14",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               7
             ]
@@ -6472,10 +6664,13 @@
           }
         },
         {
-          "tekst": "uw schoonheid",
+          "tekst": "schoonheid",
           "voorkomen": 1,
           "strongs": [
             "H3308"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "בְ/יָפְיֵ֔/ךְ"
@@ -6486,13 +6681,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:15",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               3
             ]
@@ -6553,10 +6752,13 @@
           }
         },
         {
-          "tekst": "uw naam",
+          "tekst": "naam",
           "voorkomen": 1,
           "strongs": [
             "H8034"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "שְׁמֵ֑/ךְ"
@@ -6567,13 +6769,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:15",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               1
             ]
@@ -6638,10 +6844,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "תַּזְנוּתַ֛יִ/ךְ"
@@ -6652,13 +6861,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:15",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -6692,10 +6905,13 @@
           }
         },
         {
-          "tekst": "een ieder",
+          "tekst": "ieder",
           "voorkomen": 1,
           "strongs": [
             "H3605"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "כָּל"
@@ -6706,13 +6922,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:15",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -6742,6 +6962,40 @@
             "referentie": "EZK 16:15",
             "bronindices": [
               10
+            ]
+          }
+        },
+        {
+          "tekst": "hem",
+          "voorkomen": 1,
+          "strongs": [
+            ""
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "ל/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 16:15",
+            "grondindices": [
+              11
+            ],
+            "bronindices": [
+              11
             ]
           }
         },
@@ -6911,10 +7165,13 @@
           }
         },
         {
-          "tekst": "uw kleren",
+          "tekst": "kleren",
           "voorkomen": 1,
           "strongs": [
             "H899"
+          ],
+          "morfologie": [
+            "HR/Ncmpc/Sp2fs"
           ],
           "bronwoorden": [
             "מִ/בְּגָדַ֗יִ/ךְ"
@@ -6925,13 +7182,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:16",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -7382,10 +7643,13 @@
           }
         },
         {
-          "tekst": "uw sieraad",
+          "tekst": "sieraad",
           "voorkomen": 1,
           "strongs": [
             "H8597"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "תִפְאַרְתֵּ֗/ךְ"
@@ -7396,23 +7660,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:17",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
           }
         },
         {
-          "tekst": "Mijn goud",
+          "tekst": "goud",
           "voorkomen": 1,
           "strongs": [
             "H2091"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp1cs"
           ],
           "bronwoorden": [
             "מִ/זְּהָבִ֤/י"
@@ -7423,23 +7694,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:17",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
           }
         },
         {
-          "tekst": "Mijn zilver",
+          "tekst": "zilver",
           "voorkomen": 1,
           "strongs": [
             "H3701"
+          ],
+          "morfologie": [
+            "HC/R/Ncmsc/Sp1cs"
           ],
           "bronwoorden": [
             "וּ/מִ/כַּסְפִּ/י֙"
@@ -7450,13 +7728,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:17",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -7547,57 +7829,42 @@
           "tekst": "mansbeelden",
           "voorkomen": 1,
           "strongs": [
-            "H6754"
-          ],
-          "bronwoorden": [
-            "צַלְמֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
-            "referentie": "EZK 16:17",
-            "bronindices": [
-              9
-            ]
-          },
-          "toelichting": "צַלְמֵי זָכָר is in het Nederlands tot één woord samengetrokken; dit is het צֶלֶם-deel (H6754, 'beeld')."
-        },
-        {
-          "tekst": "mansbeelden",
-          "voorkomen": 1,
-          "strongs": [
+            "H6754",
             "H2145"
           ],
+          "morfologie": [
+            "HNcmpc",
+            "HAamsa"
+          ],
           "bronwoorden": [
+            "צַלְמֵ֣י",
             "זָכָ֑ר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:17",
+            "grondindices": [
+              10,
+              11
+            ],
             "bronindices": [
+              9,
               8
             ]
-          },
-          "toelichting": "Dit is het זָכָר-deel (H2145, 'mannelijk') van hetzelfde Nederlandse woord."
+          }
         },
         {
           "tekst": "gehoereerd",
@@ -7864,10 +8131,13 @@
           }
         },
         {
-          "tekst": "Mijn olie",
+          "tekst": "olie",
           "voorkomen": 1,
           "strongs": [
             "H8081"
+          ],
+          "morfologie": [
+            "HC/Ncmsc/Sp1cs"
           ],
           "bronwoorden": [
             "וְ/שַׁמְנִ/י֙"
@@ -7878,23 +8148,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:18",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               6
             ]
           }
         },
         {
-          "tekst": "Mijn reukwerk",
+          "tekst": "reukwerk",
           "voorkomen": 1,
           "strongs": [
             "H7004"
+          ],
+          "morfologie": [
+            "HC/Ncfsc/Sp1cs"
           ],
           "bronwoorden": [
             "וּ/קְטָרְתִּ֔/י"
@@ -7905,13 +8182,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:18",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]
@@ -8113,10 +8394,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Mijn brood",
+          "tekst": "brood",
           "voorkomen": 1,
           "strongs": [
             "H3899"
+          ],
+          "morfologie": [
+            "HC/Ncbsc/Sp1cs"
           ],
           "bronwoorden": [
             "וְ/לַחְמִ/י֩"
@@ -8127,13 +8411,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:19",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               4
             ]
@@ -8713,10 +9001,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw zonen",
+          "tekst": "zonen",
           "voorkomen": 1,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בָּנַ֤יִ/ךְ"
@@ -8727,13 +9018,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:20",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -8771,10 +9066,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw dochters",
+          "tekst": "dochters",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּנוֹתַ֨יִ/ךְ֙"
@@ -8785,13 +9083,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:20",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -8906,10 +9208,13 @@
           }
         },
         {
-          "tekst": "wat kleins",
+          "tekst": "kleins",
           "voorkomen": 1,
           "strongs": [
             "H4592"
+          ],
+          "morfologie": [
+            "HTi/Ncmsa"
           ],
           "bronwoorden": [
             "הַ/מְעַ֖ט"
@@ -8920,23 +9225,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:20",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               10
             ]
           }
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp2fs"
           ],
           "bronwoorden": [
             "מ/תזנת/ך"
@@ -8947,13 +9259,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:20",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               9
             ]
@@ -9101,10 +9417,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "Mijn kinderen",
+          "tekst": "kinderen",
           "voorkomen": 1,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp1cs"
           ],
           "bronwoorden": [
             "בָּנָ֑/י"
@@ -9115,13 +9434,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:21",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -9416,10 +9739,13 @@
           }
         },
         {
-          "tekst": "uw gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "תּוֹעֲבֹתַ֨יִ/ךְ֙"
@@ -9430,23 +9756,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:22",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
           }
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "וְ/תַזְנֻתַ֔יִ/ךְ"
@@ -9457,13 +9790,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:22",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -9582,10 +9919,13 @@
           }
         },
         {
-          "tekst": "uw jeugd",
+          "tekst": "jeugd",
           "voorkomen": 1,
           "strongs": [
             "H5271"
+          ],
+          "morfologie": [
+            "HNcbpc/Sp2fs"
           ],
           "bronwoorden": [
             "נְעוּרָ֑יִ/ךְ"
@@ -9596,13 +9936,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:22",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -9717,10 +10061,13 @@
           }
         },
         {
-          "tekst": "uw bloed",
+          "tekst": "bloed",
           "voorkomen": 1,
           "strongs": [
             "H1818"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/דָמֵ֖/ךְ"
@@ -9731,13 +10078,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:22",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -9927,10 +10278,13 @@
           }
         },
         {
-          "tekst": "uw boosheid",
+          "tekst": "boosheid",
           "voorkomen": 1,
           "strongs": [
             "H7451"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "רָעָתֵ֑/ךְ"
@@ -9941,13 +10295,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:23",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               8
             ]
@@ -10197,10 +10555,13 @@
           }
         },
         {
-          "tekst": "verwelfsel",
+          "tekst": "gewelf",
           "voorkomen": 1,
           "strongs": [
             "H1354"
+          ],
+          "morfologie": [
+            "HNcbsa"
           ],
           "bronwoorden": [
             "גֶּ֑ב"
@@ -10211,13 +10572,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:24",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
@@ -10600,10 +10965,13 @@
           }
         },
         {
-          "tekst": "uw hoge plaatsen",
+          "tekst": "hoge plaatsen",
           "voorkomen": 1,
           "strongs": [
             "H7413"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "רָֽמָתֵ֔/ךְ"
@@ -10614,13 +10982,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:25",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -10685,10 +11057,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw schoonheid",
+          "tekst": "schoonheid",
           "voorkomen": 1,
           "strongs": [
             "H3308"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "יָפְיֵ֔/ךְ"
@@ -10699,13 +11074,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:25",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               7
             ]
@@ -10770,10 +11149,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw benen",
+          "tekst": "benen",
           "voorkomen": 1,
           "strongs": [
             "H7272"
+          ],
+          "morfologie": [
+            "HNcfdc/Sp2fs"
           ],
           "bronwoorden": [
             "רַגְלַ֖יִ/ךְ"
@@ -10784,23 +11166,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:25",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               14
             ]
           }
         },
         {
-          "tekst": "een ieder",
+          "tekst": "ieder",
           "voorkomen": 1,
           "strongs": [
             "H3605"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "לְ/כָל"
@@ -10811,13 +11200,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:25",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               15
             ]
@@ -10909,10 +11302,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "תזנת/ך"
@@ -10923,13 +11319,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:25",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               10
             ]
@@ -11152,10 +11552,13 @@
           }
         },
         {
-          "tekst": "uw buren",
+          "tekst": "buren",
           "voorkomen": 1,
           "strongs": [
             "H7934"
+          ],
+          "morfologie": [
+            "HAampc/Sp2fs"
           ],
           "bronwoorden": [
             "שְׁכֵנַ֖יִ/ךְ"
@@ -11166,13 +11569,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:26",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -11291,10 +11698,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw hoererij",
+          "tekst": "hoererij",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "תַּזְנֻתֵ֖/ךְ"
@@ -11305,13 +11715,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:26",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -11553,10 +11967,13 @@
           }
         },
         {
-          "tekst": "Mijn hand",
+          "tekst": "hand",
           "voorkomen": 1,
           "strongs": [
             "H3027"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp1cs"
           ],
           "bronwoorden": [
             "יָדִ/י֙"
@@ -11567,13 +11984,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:27",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -11634,10 +12055,13 @@
           }
         },
         {
-          "tekst": "uw bescheiden deel",
+          "tekst": "deel",
           "voorkomen": 1,
           "strongs": [
             "H2706"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "חֻקֵּ֑/ךְ"
@@ -11648,13 +12072,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:27",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -12121,10 +12549,13 @@
           "toelichting": "מִ/בִּלְתִּי is het ontkennende partikel בִּלְתִּי met het voorzetsel מִן en drukt hier de reden uit; het Nederlands vat die reden in 'omdat' samen en legt de ontkenning in het bijvoeglijke 'onverzadelijk'."
         },
         {
-          "tekst": "onverzadelijk",
+          "tekst": "onverzadigbaar",
           "voorkomen": 1,
           "strongs": [
             "H7654"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "שָׂבְעָתֵ֑/ךְ"
@@ -12135,13 +12566,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:28",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               9
             ]
@@ -12408,10 +12843,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw hoererij",
+          "tekst": "hoererij",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "תַּזְנוּתֵ֛/ךְ"
@@ -12422,13 +12860,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:29",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -12816,10 +13258,13 @@
           }
         },
         {
-          "tekst": "uw hart",
+          "tekst": "hart",
           "voorkomen": 1,
           "strongs": [
             "H3826"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "לִבָּתֵ֔/ךְ"
@@ -12830,13 +13275,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:30",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -13011,10 +13460,13 @@
           }
         },
         {
-          "tekst": "deze dingen",
+          "tekst": "deze",
           "voorkomen": 1,
           "strongs": [
             "H428"
+          ],
+          "morfologie": [
+            "HPdxcp"
           ],
           "bronwoorden": [
             "אֵ֔לֶּה"
@@ -13025,13 +13477,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:30",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -13301,10 +13757,13 @@
           }
         },
         {
-          "tekst": "uw verwelfsel",
+          "tekst": "gewelf",
           "voorkomen": 1,
           "strongs": [
             "H1354"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp2fs"
           ],
           "bronwoorden": [
             "גַּבֵּ/ךְ֙"
@@ -13315,13 +13774,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:31",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -13409,10 +13872,13 @@
           }
         },
         {
-          "tekst": "uw hoge plaats",
+          "tekst": "hoge plaats",
           "voorkomen": 1,
           "strongs": [
             "H7413"
+          ],
+          "morfologie": [
+            "HC/Ncfsc/Sp2fs"
           ],
           "bronwoorden": [
             "וְ/רָמָתֵ֥/ךְ"
@@ -13423,13 +13889,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:31",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               6
             ]
@@ -13804,10 +14274,13 @@
           }
         },
         {
-          "tekst": "haar man",
+          "tekst": "man",
           "voorkomen": 1,
           "strongs": [
             "H376"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3fs"
           ],
           "bronwoorden": [
             "אִישָׁ֔/הּ"
@@ -13818,13 +14291,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:32",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               6
             ]
@@ -14263,10 +14740,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw loon",
-          "voorkomen": 1,
+          "tekst": "loon",
+          "voorkomen": 2,
           "strongs": [
             "H5083"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2fs"
           ],
           "bronwoorden": [
             "נְדָנַ֨יִ/ךְ֙"
@@ -14277,13 +14757,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:33",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -14317,10 +14801,13 @@
           }
         },
         {
-          "tekst": "uw boelen",
+          "tekst": "minnaars",
           "voorkomen": 1,
           "strongs": [
             "H157"
+          ],
+          "morfologie": [
+            "HVprmpc/Sp2fs"
           ],
           "bronwoorden": [
             "מְאַֽהֲבַ֔יִ/ךְ"
@@ -14331,13 +14818,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:33",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -14453,10 +14944,13 @@
           }
         },
         {
-          "tekst": "van rondom",
+          "tekst": "rondom",
           "voorkomen": 1,
           "strongs": [
             "H5439"
+          ],
+          "morfologie": [
+            "HR/Ncbsa"
           ],
           "bronwoorden": [
             "מִ/סָּבִ֖יב"
@@ -14467,23 +14961,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:33",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
           }
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HR/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/תַזְנוּתָֽיִ/ךְ"
@@ -14494,13 +14995,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:33",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
@@ -14768,10 +15273,13 @@
           }
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HR/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/תַזְנוּתַ֔יִ/ךְ"
@@ -14782,13 +15290,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:34",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               0
             ]
@@ -15589,10 +16101,13 @@
           }
         },
         {
-          "tekst": "uw vergif",
+          "tekst": "vergif",
           "voorkomen": 1,
           "strongs": [
             "H5178"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "נְחֻשְׁתֵּ/ךְ֙"
@@ -15603,13 +16118,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:36",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -15643,10 +16162,13 @@
           }
         },
         {
-          "tekst": "uw schaamte",
+          "tekst": "schaamte",
           "voorkomen": 1,
           "strongs": [
             "H6172"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "עֶרְוָתֵ֔/ךְ"
@@ -15657,23 +16179,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:36",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
           }
         },
         {
-          "tekst": "uw hoererijen",
+          "tekst": "hoererijen",
           "voorkomen": 1,
           "strongs": [
             "H8457"
+          ],
+          "morfologie": [
+            "HR/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/תַזְנוּתַ֖יִ/ךְ"
@@ -15684,13 +16213,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:36",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -15724,10 +16257,13 @@
           }
         },
         {
-          "tekst": "uw boelen",
+          "tekst": "minnaars",
           "voorkomen": 1,
           "strongs": [
             "H157"
+          ],
+          "morfologie": [
+            "HVprmpc/Sp2fs"
           ],
           "bronwoorden": [
             "מְאַהֲבָ֑יִ/ךְ"
@@ -15738,13 +16274,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:36",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
@@ -15832,10 +16372,13 @@
           }
         },
         {
-          "tekst": "uw gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "תוֹעֲבוֹתַ֔יִ/ךְ"
@@ -15846,13 +16389,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:36",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               14
             ]
@@ -15886,10 +16433,13 @@
           }
         },
         {
-          "tekst": "uw kinderen",
+          "tekst": "kinderen",
           "voorkomen": 1,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בָנַ֔יִ/ךְ"
@@ -15900,13 +16450,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:36",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
@@ -16319,10 +16873,13 @@
           }
         },
         {
-          "tekst": "uw boelen",
+          "tekst": "minnaars",
           "voorkomen": 1,
           "strongs": [
             "H157"
+          ],
+          "morfologie": [
+            "HVprmpc/Sp2fs"
           ],
           "bronwoorden": [
             "מְאַהֲבַ֨יִ/ךְ֙"
@@ -16333,13 +16890,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:37",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -16729,10 +17290,13 @@
           }
         },
         {
-          "tekst": "van rondom",
+          "tekst": "rondom",
           "voorkomen": 1,
           "strongs": [
             "H5439"
+          ],
+          "morfologie": [
+            "HR/Ncbsa"
           ],
           "bronwoorden": [
             "מִ/סָּבִ֗יב"
@@ -16743,13 +17307,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:37",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               20
             ]
@@ -16783,10 +17351,13 @@
           }
         },
         {
-          "tekst": "uw naaktheid",
+          "tekst": "naaktheid",
           "voorkomen": 1,
           "strongs": [
             "H6172"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "עֶרְוָתֵ/ךְ֙"
@@ -16797,13 +17368,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:37",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               22
             ]
@@ -17473,10 +18048,13 @@
           "toelichting": "אוֹתָ/ךְ is het lijdend-voorwerpteken met achtervoegsel 2fs en wordt hier met 'u' weergegeven."
         },
         {
-          "tekst": "hun hand",
+          "tekst": "hand",
           "voorkomen": 1,
           "strongs": [
             "H3027"
+          ],
+          "morfologie": [
+            "HR/Ncbsc/Sp3mp"
           ],
           "bronwoorden": [
             "בְּ/יָדָ֗/ם"
@@ -17487,13 +18065,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:39",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -17527,10 +18109,13 @@
           }
         },
         {
-          "tekst": "uw verwelfsel",
+          "tekst": "gewelf",
           "voorkomen": 1,
           "strongs": [
             "H1354"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp2fs"
           ],
           "bronwoorden": [
             "גַבֵּ/ךְ֙"
@@ -17541,13 +18126,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:39",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -17581,10 +18170,13 @@
           }
         },
         {
-          "tekst": "uw hoge plaatsen",
+          "tekst": "hoge plaatsen",
           "voorkomen": 1,
           "strongs": [
             "H7413"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "רָמֹתַ֔יִ/ךְ"
@@ -17595,13 +18187,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:39",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -17663,10 +18259,13 @@
           "toelichting": "אוֹתָ/ךְ is het lijdend-voorwerpteken met achtervoegsel 2fs en wordt hier met 'u' weergegeven."
         },
         {
-          "tekst": "uw kleren",
+          "tekst": "kleren",
           "voorkomen": 1,
           "strongs": [
             "H899"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּגָדַ֔יִ/ךְ"
@@ -17677,13 +18276,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:39",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -18099,10 +18702,13 @@
           }
         },
         {
-          "tekst": "hun zwaarden",
+          "tekst": "zwaarden",
           "voorkomen": 1,
           "strongs": [
             "H2719"
+          ],
+          "morfologie": [
+            "HR/Ncfpc/Sp3mp"
           ],
           "bronwoorden": [
             "בְּ/חַרְבוֹתָֽ/ם"
@@ -18113,13 +18719,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:40",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -18276,10 +18886,13 @@
           }
         },
         {
-          "tekst": "uw huizen",
+          "tekst": "huizen",
           "voorkomen": 1,
           "strongs": [
             "H1004"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2fs"
           ],
           "bronwoorden": [
             "בָתַּ֨יִ/ךְ֙"
@@ -18290,13 +18903,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:41",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -18772,10 +19389,13 @@
           }
         },
         {
-          "tekst": "Mijn woede",
+          "tekst": "woede",
           "voorkomen": 1,
           "strongs": [
             "H2534"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp1cs"
           ],
           "bronwoorden": [
             "חֲמָתִ/י֙"
@@ -18786,13 +19406,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:42",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -18826,10 +19450,13 @@
           }
         },
         {
-          "tekst": "Mijn ijver",
+          "tekst": "ijver",
           "voorkomen": 1,
           "strongs": [
             "H7068"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp1cs"
           ],
           "bronwoorden": [
             "קִנְאָתִ֖/י"
@@ -18840,13 +19467,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:42",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               2
             ]
@@ -19378,10 +20009,13 @@
           }
         },
         {
-          "tekst": "uw jeugd",
+          "tekst": "jeugd",
           "voorkomen": 1,
           "strongs": [
             "H5271"
+          ],
+          "morfologie": [
+            "HNcbpc/Sp2fs"
           ],
           "bronwoorden": [
             "נְעוּרַ֔יִ/ךְ"
@@ -19392,13 +20026,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:43",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -19567,10 +20205,13 @@
           }
         },
         {
-          "tekst": "uw weg",
+          "tekst": "weg",
           "voorkomen": 1,
           "strongs": [
             "H1870"
+          ],
+          "morfologie": [
+            "HNcbsc/Sp2fs"
           ],
           "bronwoorden": [
             "דַּרְכֵּ֣/ךְ"
@@ -19581,23 +20222,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:43",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               13
             ]
           }
         },
         {
-          "tekst": "uw hoofd",
+          "tekst": "hoofd",
           "voorkomen": 1,
           "strongs": [
             "H7218"
+          ],
+          "morfologie": [
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
             "בְּ/רֹ֣אשׁ"
@@ -19608,13 +20256,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:43",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
@@ -19897,10 +20549,13 @@
           }
         },
         {
-          "tekst": "uw gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "תּוֹעֲבֹתָֽיִ/ךְ"
@@ -19911,13 +20566,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:43",
+            "grondindices": [
+              26
+            ],
             "bronindices": [
               25
             ]
@@ -20020,10 +20679,13 @@
           }
         },
         {
-          "tekst": "een ieder",
+          "tekst": "ieder",
           "voorkomen": 1,
           "strongs": [
             "H3605"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "כָּל"
@@ -20034,13 +20696,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:44",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -20182,10 +20848,13 @@
           }
         },
         {
-          "tekst": "haar dochter",
+          "tekst": "dochter",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp3fs"
           ],
           "bronwoorden": [
             "בִּתָּֽ/הּ"
@@ -20196,13 +20865,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:44",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -20386,10 +21059,13 @@
           }
         },
         {
-          "tekst": "uw moeder",
+          "tekst": "moeder",
           "voorkomen": 1,
           "strongs": [
             "H517"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "אִמֵּ֣/ךְ"
@@ -20400,13 +21076,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -20467,10 +21147,13 @@
           }
         },
         {
-          "tekst": "haar man",
+          "tekst": "man",
           "voorkomen": 1,
           "strongs": [
             "H376"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp3fs"
           ],
           "bronwoorden": [
             "אִישָׁ֖/הּ"
@@ -20481,23 +21164,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
           }
         },
         {
-          "tekst": "haar kinderen",
+          "tekst": "kinderen",
           "voorkomen": 1,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HC/Ncmpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בָנֶ֑י/הָ"
@@ -20508,13 +21198,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -20548,10 +21242,13 @@
           }
         },
         {
-          "tekst": "uw zussen",
+          "tekst": "zussen",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "אֲחוֹתֵ֜/ךְ"
@@ -20562,15 +21259,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
-              8
+              7
             ]
           }
         },
@@ -20656,10 +21357,13 @@
           }
         },
         {
-          "tekst": "haar mannen",
+          "tekst": "mannen",
           "voorkomen": 1,
           "strongs": [
             "H376"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp3fp"
           ],
           "bronwoorden": [
             "אַנְשֵׁי/הֶ֣ן"
@@ -20670,27 +21374,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
-          },
-          "gids_strongs": [
-            "H582"
-          ],
-          "toelichting": "De uitlijngids kiest H582 (אֱנוֹשׁ) waar MorphHB voor deze vorm van אִישׁ H376 geeft; MorphHB blijft leidend."
+          }
         },
         {
-          "tekst": "haar kinderen",
+          "tekst": "kinderen",
           "voorkomen": 2,
           "strongs": [
             "H1121"
+          ],
+          "morfologie": [
+            "HC/Ncmpc/Sp3fp"
           ],
           "bronwoorden": [
             "וּ/בְנֵי/הֶ֔ן"
@@ -20701,23 +21408,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
           }
         },
         {
-          "tekst": "uw moeder",
+          "tekst": "moeder",
           "voorkomen": 2,
           "strongs": [
             "H517"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fp"
           ],
           "bronwoorden": [
             "אִמְּ/כֶ֣ן"
@@ -20728,13 +21442,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -20768,10 +21486,13 @@
           }
         },
         {
-          "tekst": "uw vader",
+          "tekst": "vader",
           "voorkomen": 1,
           "strongs": [
             "H1"
+          ],
+          "morfologie": [
+            "HC/Ncmsc/Sp2fp"
           ],
           "bronwoorden": [
             "וַ/אֲבִי/כֶ֖ן"
@@ -20782,13 +21503,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:45",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
@@ -21068,10 +21793,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶ֔י/הָ"
@@ -21082,13 +21810,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:46",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               5
             ]
@@ -21149,10 +21881,13 @@
           }
         },
         {
-          "tekst": "uw linkerhand",
+          "tekst": "linkerhand",
           "voorkomen": 1,
           "strongs": [
             "H8040"
+          ],
+          "morfologie": [
+            "HNcmsc/Sp2fs"
           ],
           "bronwoorden": [
             "שְׂמֹאולֵ֑/ךְ"
@@ -21163,13 +21898,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:46",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -21284,10 +22023,13 @@
           }
         },
         {
-          "tekst": "uw rechterhand",
+          "tekst": "rechterhand",
           "voorkomen": 1,
           "strongs": [
             "H3225"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp2fs"
           ],
           "bronwoorden": [
             "מִֽ/ימִינֵ֔/ךְ"
@@ -21298,13 +22040,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:46",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               14
             ]
@@ -21338,10 +22084,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 2,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶֽי/הָ"
@@ -21352,13 +22101,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:46",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               12
             ]
@@ -21514,10 +22267,13 @@
           }
         },
         {
-          "tekst": "haar wegen",
+          "tekst": "wegen",
           "voorkomen": 1,
           "strongs": [
             "H1870"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp3fp"
           ],
           "bronwoorden": [
             "בְ/דַרְכֵי/הֶן֙"
@@ -21528,13 +22284,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:47",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               4
             ]
@@ -21568,10 +22328,13 @@
           }
         },
         {
-          "tekst": "haar gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HC/R/Ncfpc/Sp3fp"
           ],
           "bronwoorden": [
             "וּ/בְ/תוֹעֲבֽוֹתֵי/הֶ֖ן"
@@ -21582,13 +22345,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:47",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               6
             ]
@@ -21622,10 +22389,13 @@
           }
         },
         {
-          "tekst": "wat gerings",
+          "tekst": "gerings",
           "voorkomen": 1,
           "strongs": [
             "H4592"
+          ],
+          "morfologie": [
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
             "כִּ/מְעַ֣ט"
@@ -21636,13 +22406,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:47",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               7
             ]
@@ -21676,39 +22450,72 @@
           }
         },
         {
-          "tekst": "meer verdorven dan zij",
+          "tekst": "verdorven",
           "voorkomen": 1,
           "strongs": [
-            "H7843",
-            "H2004"
+            "H7843"
+          ],
+          "morfologie": [
+            "HC/Vhw2fs"
           ],
           "bronwoorden": [
-            "וַ/תַּשְׁחִ֥תִי",
-            "מֵ/הֵ֖ן"
+            "וַ/תַּשְׁחִ֥תִי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:47",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
-              9
+              7
             ]
-          },
-          "gids_strongs": [
-            "H7843"
+          }
+        },
+        {
+          "tekst": "zij",
+          "voorkomen": 1,
+          "strongs": [
+            "H2004"
           ],
-          "toelichting": "De uitlijngids trekt het vergelijkende מֵהֵן/מֵהֵנָּה ('dan zij') samen met het voorafgaande woord tot één token, terwijl MorphHB het als een eigen woord met lemma H2004/H2007 telt. MorphHB blijft leidend: de koppeling dekt beide grondwoorden met de Nederlandse woordgroep die ze samen weergeeft."
+          "morfologie": [
+            "HR/Sp3fp"
+          ],
+          "bronwoorden": [
+            "מֵ/הֵ֖ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 16:47",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
+            ]
+          }
         },
         {
           "tekst": "al",
@@ -21738,10 +22545,13 @@
           }
         },
         {
-          "tekst": "uw wegen",
-          "voorkomen": 1,
+          "tekst": "wegen",
+          "voorkomen": 2,
           "strongs": [
             "H1870"
+          ],
+          "morfologie": [
+            "HNcbpc/Sp2fs"
           ],
           "bronwoorden": [
             "דְּרָכָֽיִ/ךְ"
@@ -21752,13 +22562,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:47",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               3
             ]
@@ -22107,10 +22921,13 @@
           }
         },
         {
-          "tekst": "uw zus",
+          "tekst": "zus",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "אֲחוֹתֵ֔/ךְ"
@@ -22121,13 +22938,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:48",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               5
             ]
@@ -22161,10 +22982,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶ֑י/הָ"
@@ -22175,13 +22999,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:48",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               8
             ]
@@ -22269,10 +23097,13 @@
           }
         },
         {
-          "tekst": "uw dochters",
-          "voorkomen": 1,
+          "tekst": "dochters",
+          "voorkomen": 2,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתָֽיִ/ךְ"
@@ -22283,13 +23114,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:48",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               13
             ]
@@ -22582,10 +23417,13 @@
           }
         },
         {
-          "tekst": "uw zus",
+          "tekst": "zus",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "אֲחוֹתֵ֑/ךְ"
@@ -22596,13 +23434,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:49",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               4
             ]
@@ -22771,10 +23613,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/R/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וְ/לִ/בְנוֹתֶ֔י/הָ"
@@ -22785,13 +23630,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:49",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               6
             ]
@@ -23097,10 +23946,13 @@
           }
         },
         {
-          "tekst": "Mijn aangezicht",
+          "tekst": "aangezicht",
           "voorkomen": 1,
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HR/Ncbpc/Sp1cs"
           ],
           "bronwoorden": [
             "לְ/פָנָ֑/י"
@@ -23111,13 +23963,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:50",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -23428,10 +24284,13 @@
           }
         },
         {
-          "tekst": "uw zonden",
+          "tekst": "zonden",
           "voorkomen": 1,
           "strongs": [
             "H2403"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "חַטֹּאתַ֖יִ/ךְ"
@@ -23442,13 +24301,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:51",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               4
             ]
@@ -23537,9 +24400,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "uw",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -23550,56 +24418,89 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:51",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "uw gruwelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "uw gruwelen meer dan zij",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
-            "H8441",
-            "H2007"
+            "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
-            "תּוֹעֲבוֹתַ֨יִ/ךְ֙",
-            "מֵ/הֵ֔נָּה"
+            "תּוֹעֲבוֹתַ֨יִ/ךְ֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:51",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
-          },
-          "gids_strongs": [
-            "H8441"
+          }
+        },
+        {
+          "tekst": "zij",
+          "voorkomen": 1,
+          "strongs": [
+            "H2007"
           ],
-          "toelichting": "De uitlijngids trekt het vergelijkende מֵהֵן/מֵהֵנָּה ('dan zij') samen met het voorafgaande woord tot één token, terwijl MorphHB het als een eigen woord met lemma H2004/H2007 telt. MorphHB blijft leidend: de koppeling dekt beide grondwoorden met de Nederlandse woordgroep die ze samen weergeeft."
+          "morfologie": [
+            "HR/Pp3fp"
+          ],
+          "bronwoorden": [
+            "מֵ/הֵ֔נָּה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 16:51",
+            "grondindices": [
+              8
+            ],
+            "bronindices": [
+              8
+            ]
+          }
         },
         {
           "tekst": "gerechtvaardigd",
@@ -23660,10 +24561,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw zussen",
+          "tekst": "zussen",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "אחות/ך"
@@ -23674,13 +24578,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:51",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               12
             ]
@@ -23714,10 +24622,13 @@
           }
         },
         {
-          "tekst": "uw gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 2,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "תּוֹעֲבוֹתַ֖יִ/ךְ"
@@ -23728,13 +24639,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:51",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               9
             ]
@@ -24054,10 +24969,13 @@
           }
         },
         {
-          "tekst": "uw schande",
+          "tekst": "schande",
           "voorkomen": 1,
           "strongs": [
             "H3639"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "כְלִמָּתֵ֗/ךְ"
@@ -24068,13 +24986,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:52",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -24135,10 +25057,13 @@
           }
         },
         {
-          "tekst": "uw zussen",
+          "tekst": "zussen",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp2fs"
           ],
           "bronwoorden": [
             "לַֽ/אֲחוֹתֵ֔/ךְ"
@@ -24149,23 +25074,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:52",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
           }
         },
         {
-          "tekst": "uw zonden",
+          "tekst": "zonden",
           "voorkomen": 1,
           "strongs": [
             "H2403"
+          ],
+          "morfologie": [
+            "HR/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/חַטֹּאתַ֛יִ/ךְ"
@@ -24176,13 +25108,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:52",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               9
             ]
@@ -24216,39 +25152,72 @@
           }
         },
         {
-          "tekst": "gruwelijker gemaakt hebt dan zij",
+          "tekst": "gruwelijker",
           "voorkomen": 1,
           "strongs": [
-            "H8581",
-            "H2004"
+            "H8581"
+          ],
+          "morfologie": [
+            "HVhp2fs"
           ],
           "bronwoorden": [
-            "הִתְעַ֥בְתְּ",
-            "מֵ/הֵ֖ן"
+            "הִתְעַ֥בְתְּ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:52",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
-              11
+              9
             ]
-          },
-          "gids_strongs": [
-            "H8581"
+          }
+        },
+        {
+          "tekst": "zij",
+          "voorkomen": 1,
+          "strongs": [
+            "H2004"
           ],
-          "toelichting": "De uitlijngids trekt het vergelijkende מֵהֵן/מֵהֵנָּה ('dan zij') samen met het voorafgaande woord tot één token, terwijl MorphHB het als een eigen woord met lemma H2004/H2007 telt. MorphHB blijft leidend: de koppeling dekt beide grondwoorden met de Nederlandse woordgroep die ze samen weergeeft."
+          "morfologie": [
+            "HR/Sp3fp"
+          ],
+          "bronwoorden": [
+            "מֵ/הֵ֖ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 16:52",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              10
+            ]
+          }
         },
         {
           "tekst": "rechtvaardiger",
@@ -24413,10 +25382,13 @@
           }
         },
         {
-          "tekst": "uw schande",
+          "tekst": "schande",
           "voorkomen": 2,
           "strongs": [
             "H3639"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "כְלִמָּתֵ֔/ךְ"
@@ -24427,13 +25399,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:52",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               16
             ]
@@ -24467,10 +25443,13 @@
           }
         },
         {
-          "tekst": "uw zussen",
+          "tekst": "zussen",
           "voorkomen": 2,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "אַחְיוֹתֵֽ/ךְ"
@@ -24481,13 +25460,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:52",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               17
             ]
@@ -24797,10 +25780,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶ֔י/הָ"
@@ -24811,13 +25797,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:53",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
@@ -24909,10 +25899,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 2,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶ֑י/הָ"
@@ -24923,13 +25916,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:53",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -24963,10 +25960,13 @@
           }
         },
         {
-          "tekst": "uw gevangenis",
+          "tekst": "gevangenis",
           "voorkomen": 1,
           "strongs": [
             "H7628"
+          ],
+          "morfologie": [
+            "HNcbpc/Sp2fs"
           ],
           "bronwoorden": [
             "שְׁבִיתַ֖יִ/ךְ"
@@ -24977,21 +25977,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:53",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
-          },
-          "gids_strongs": [
-            "H7622"
-          ],
-          "toelichting": "De uitlijngids kiest H7622 (שְׁבוּת) waar MorphHB voor deze vorm H7628 (שְׁבִית, 'gevangenschap') geeft; MorphHB blijft leidend."
+          }
         },
         {
           "tekst": "midden",
@@ -25166,10 +26166,13 @@
           }
         },
         {
-          "tekst": "uw schande",
+          "tekst": "schande",
           "voorkomen": 1,
           "strongs": [
             "H3639"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "כְלִמָּתֵ֔/ךְ"
@@ -25180,13 +26183,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:54",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -25491,10 +26498,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "uw zussen",
+          "tekst": "zussen",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "וַ/אֲחוֹתַ֗יִ/ךְ"
@@ -25505,13 +26515,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -25545,10 +26559,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 1,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶ֨י/הָ֙"
@@ -25559,13 +26576,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -25599,10 +26620,13 @@
           }
         },
         {
-          "tekst": "haar vorige staat",
+          "tekst": "staat",
           "voorkomen": 1,
           "strongs": [
             "H6927"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp3fp"
           ],
           "bronwoorden": [
             "לְ/קַדְמָתָ֔/ן"
@@ -25613,13 +26637,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               6
             ]
@@ -25653,10 +26681,13 @@
           }
         },
         {
-          "tekst": "haar dochters",
+          "tekst": "dochters",
           "voorkomen": 2,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp3fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתֶ֔י/הָ"
@@ -25667,13 +26698,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               4
             ]
@@ -25707,10 +26742,13 @@
           }
         },
         {
-          "tekst": "haar vorige staat",
+          "tekst": "staat",
           "voorkomen": 2,
           "strongs": [
             "H6927"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp3fp"
           ],
           "bronwoorden": [
             "לְ/קַדְמָתָ֑/ן"
@@ -25721,13 +26759,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               10
             ]
@@ -25761,10 +26803,13 @@
           }
         },
         {
-          "tekst": "uw dochters",
-          "voorkomen": 1,
+          "tekst": "dochters",
+          "voorkomen": 3,
           "strongs": [
             "H1323"
+          ],
+          "morfologie": [
+            "HC/Ncfpc/Sp2fs"
           ],
           "bronwoorden": [
             "וּ/בְנוֹתַ֔יִ/ךְ"
@@ -25775,13 +26820,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               8
             ]
@@ -25815,10 +26864,13 @@
           }
         },
         {
-          "tekst": "uw vorige staat",
-          "voorkomen": 1,
+          "tekst": "staat",
+          "voorkomen": 3,
           "strongs": [
             "H6927"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp2fp"
           ],
           "bronwoorden": [
             "לְ/קַדְמַתְ/כֶֽן"
@@ -25829,13 +26881,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:55",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -26004,10 +27060,13 @@
           }
         },
         {
-          "tekst": "uw zus",
+          "tekst": "zus",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "אֲחוֹתֵ֔/ךְ"
@@ -26018,13 +27077,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:56",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -26058,10 +27121,13 @@
           }
         },
         {
-          "tekst": "uw mond",
+          "tekst": "mond",
           "voorkomen": 1,
           "strongs": [
             "H6310"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "בְּ/פִ֑י/ךְ"
@@ -26072,13 +27138,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:56",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               2
             ]
@@ -26298,10 +27368,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Aleer",
+          "tekst": "Voordat",
           "voorkomen": 1,
           "strongs": [
             "H2962"
+          ],
+          "morfologie": [
+            "HR/D"
           ],
           "bronwoorden": [
             "בְּ/טֶרֶם֮"
@@ -26312,13 +27385,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:57",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -26352,10 +27429,13 @@
           }
         },
         {
-          "tekst": "uw boosheid",
+          "tekst": "boosheid",
           "voorkomen": 1,
           "strongs": [
             "H7451"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "רָעָתֵ/ךְ֒"
@@ -26366,13 +27446,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:57",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
@@ -26814,10 +27898,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw schandelijke daden",
+          "tekst": "daden",
           "voorkomen": 1,
           "strongs": [
             "H2154"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "זִמָּתֵ֥/ךְ"
@@ -26828,13 +27915,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:58",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               3
             ]
@@ -26842,9 +27933,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "uw",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To"
           ],
           "bronwoorden": [
             "וְ/אֶת"
@@ -26855,27 +27951,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:58",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               4
             ]
-          },
-          "anker": "uw gruwelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "uw gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "תּוֹעֲבוֹתַ֖יִ/ךְ"
@@ -26886,13 +27985,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:58",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               5
             ]
@@ -27716,10 +28819,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "Mijn verbond",
+          "tekst": "verbond",
           "voorkomen": 1,
           "strongs": [
             "H1285"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp1cs"
           ],
           "bronwoorden": [
             "בְּרִיתִ֛/י"
@@ -27730,13 +28836,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:60",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -27801,10 +28911,13 @@
           }
         },
         {
-          "tekst": "uw jeugd",
+          "tekst": "jeugd",
           "voorkomen": 1,
           "strongs": [
             "H5271"
+          ],
+          "morfologie": [
+            "HNcbpc/Sp2fs"
           ],
           "bronwoorden": [
             "נְעוּרָ֑יִ/ךְ"
@@ -27815,13 +28928,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:60",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]
@@ -28151,10 +29268,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw wegen",
+          "tekst": "wegen",
           "voorkomen": 1,
           "strongs": [
             "H1870"
+          ],
+          "morfologie": [
+            "HNcbpc/Sp2fs"
           ],
           "bronwoorden": [
             "דְּרָכַיִ/ךְ֮"
@@ -28165,13 +29285,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:61",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -28263,10 +29387,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "uw zussen",
+          "tekst": "zussen",
           "voorkomen": 1,
           "strongs": [
             "H269"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp2fs"
           ],
           "bronwoorden": [
             "אֲחוֹתַ֨יִ/ךְ֙"
@@ -28277,13 +29404,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:61",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               11
             ]
@@ -28534,10 +29665,13 @@
           }
         },
         {
-          "tekst": "uw verbond",
+          "tekst": "verbond",
           "voorkomen": 1,
           "strongs": [
             "H1285"
+          ],
+          "morfologie": [
+            "HR/Ncfsc/Sp2fs"
           ],
           "bronwoorden": [
             "מִ/בְּרִיתֵֽ/ךְ"
@@ -28548,13 +29682,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:61",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               16
             ]
@@ -28732,10 +29870,13 @@
           "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
         },
         {
-          "tekst": "Mijn verbond",
+          "tekst": "verbond",
           "voorkomen": 1,
           "strongs": [
             "H1285"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp1cs"
           ],
           "bronwoorden": [
             "בְּרִיתִ֖/י"
@@ -28746,13 +29887,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:62",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -29233,10 +30378,13 @@
           }
         },
         {
-          "tekst": "uw mond",
+          "tekst": "mond",
           "voorkomen": 1,
           "strongs": [
             "H6310"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "פֶּ֔ה"
@@ -29247,13 +30395,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:63",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               11
             ]
@@ -29287,10 +30439,13 @@
           }
         },
         {
-          "tekst": "uw schande",
+          "tekst": "schande",
           "voorkomen": 1,
           "strongs": [
             "H3639"
+          ],
+          "morfologie": [
+            "HNcfsc/Sp2fs"
           ],
           "bronwoorden": [
             "כְּלִמָּתֵ֑/ךְ"
@@ -29301,13 +30456,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 16:63",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               13
             ]

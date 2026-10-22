@@ -6424,36 +6424,69 @@
           "tekst": "veel",
           "voorkomen": 1,
           "strongs": [
-            "H3966",
-            "H4480"
+            "H3966"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
-            "מְאֹד֙",
-            "מִ/כֶּ֔ם"
+            "מְאֹד֙"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "B2B53C79E6AA55EF4C31CA4F053B24A8DBA49A0F97335096E362B488F157ABE2",
             "referentie": "RUT 1:13",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
-              14
+              15
             ]
-          },
-          "gids_strongs": [
-            "H3966"
+          }
+        },
+        {
+          "tekst": "dan",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "De uitlijngids kent geen apart token voor מִכֶּם (H4480, 'dan u'); dat grondwoord hangt daarom aan hetzelfde gidstoken als מְאֹד. Het Nederlandse 'dan u' geeft H4480 weer."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֔ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "B2B53C79E6AA55EF4C31CA4F053B24A8DBA49A0F97335096E362B488F157ABE2",
+            "referentie": "RUT 1:13",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
+              16
+            ]
+          }
         },
         {
           "tekst": "maar",

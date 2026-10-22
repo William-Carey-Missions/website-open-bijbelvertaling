@@ -7050,52 +7050,39 @@
           "tekst": "gerstemeel",
           "voorkomen": 1,
           "strongs": [
-            "H7058"
-          ],
-          "bronwoorden": [
-            "קֶ֣מַח"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 5:15",
-            "bronindices": [
-              13
-            ]
-          }
-        },
-        {
-          "tekst": "gerstemeel",
-          "voorkomen": 1,
-          "strongs": [
+            "H7058",
             "H8184"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcfpa"
+          ],
           "bronwoorden": [
+            "קֶ֣מַח",
             "שְׂעֹרִ֑ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:15",
+            "grondindices": [
+              12,
+              13
+            ],
             "bronindices": [
+              13,
               12
             ]
           }
@@ -7344,10 +7331,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֤ת"
@@ -7358,13 +7348,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:15",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
               24
             ]
@@ -7425,10 +7419,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 2,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֥ת"
@@ -7439,13 +7436,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:15",
+            "grondindices": [
+              26
+            ],
             "bronindices": [
               26
             ]
@@ -8906,8 +8907,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֵ֚ת"
@@ -8918,27 +8924,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:18",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֣ת"
@@ -8949,13 +8958,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:18",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -8989,10 +9002,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 2,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֥ת"
@@ -9003,13 +9019,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:18",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               17
             ]
@@ -12750,8 +12770,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֵ֖ת"
@@ -12762,27 +12787,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:25",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               3
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsc"
           ],
           "bronwoorden": [
             "מִנְחַ֣ת"
@@ -12793,13 +12821,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:25",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -12862,8 +12894,13 @@
         {
           "tekst": "",
           "voorkomen": 2,
+          "anker": "voedseloffer",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -12874,27 +12911,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:25",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
-          },
-          "anker": "spijsoffer",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 2,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָה֙"
@@ -12905,13 +12945,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:25",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -13260,10 +13304,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּנְחָה֙"
@@ -13274,13 +13321,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:26",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -15914,10 +15965,15 @@
           }
         },
         {
-          "tekst": "haar",
-          "voorkomen": 1,
+          "tekst": "",
+          "voorkomen": 2,
+          "anker": "ongerechtigheid",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -15928,13 +15984,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 5:31",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]

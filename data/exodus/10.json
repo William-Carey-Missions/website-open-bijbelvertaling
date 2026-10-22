@@ -824,10 +824,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "En opdat",
+          "tekst": "opdat",
           "voorkomen": 1,
           "strongs": [
             "H4616"
+          ],
+          "morfologie": [
+            "HC/R"
           ],
           "bronwoorden": [
             "וּ/לְמַ֡עַן"
@@ -838,13 +841,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:2",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -935,59 +942,42 @@
           "tekst": "kleinkinderen",
           "voorkomen": 1,
           "strongs": [
+            "H1121",
             "H1121"
           ],
-          "bronwoorden": [
-            "וּ/בֶן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 10:2",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H1121"
+          "morfologie": [
+            "HC/Ncmsc",
+            "HNcmsc/Sp2ms"
           ],
           "bronwoorden": [
+            "וּ/בֶן",
             "בִּנְ/ךָ֗"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:2",
+            "grondindices": [
+              4,
+              5
+            ],
             "bronindices": [
+              4,
               5
             ]
-          },
-          "anker": "kleinkinderen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "",
@@ -3195,10 +3185,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "uit",
           "voorkomen": 1,
           "strongs": [
             "H4480"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
             "מִן"
@@ -3209,21 +3202,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:5",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
               21
             ]
-          },
-          "anker": "veld",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "veld",
@@ -3743,33 +3736,6 @@
         },
         {
           "tekst": "vaders",
-          "voorkomen": 1,
-          "strongs": [
-            "H1"
-          ],
-          "bronwoorden": [
-            "וַ/אֲב֣וֹת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
-            "referentie": "EXO 10:6",
-            "bronindices": [
-              11
-            ]
-          }
-        },
-        {
-          "tekst": "vaders",
           "voorkomen": 2,
           "strongs": [
             "H1"
@@ -3792,6 +3758,40 @@
             "referentie": "EXO 10:6",
             "bronindices": [
               12
+            ]
+          }
+        },
+        {
+          "tekst": "vaders",
+          "voorkomen": 3,
+          "strongs": [
+            "H1"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2ms"
+          ],
+          "bronwoorden": [
+            "אֲבֹתֶ֔י/ךָ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
+            "referentie": "EXO 10:6",
+            "grondindices": [
+              13
+            ],
+            "bronindices": [
+              10
             ]
           }
         },
@@ -4467,10 +4467,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "strik",
           "voorkomen": 1,
           "strongs": [
             "H4170"
+          ],
+          "morfologie": [
+            "HR/Ncmsa"
           ],
           "bronwoorden": [
             "לְ/מוֹקֵ֔שׁ"
@@ -4481,21 +4484,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:7",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]
-          },
-          "anker": "laat",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "laat",
@@ -4779,10 +4782,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "verloren",
           "voorkomen": 1,
           "strongs": [
             "H6"
+          ],
+          "morfologie": [
+            "HVqp3fs"
           ],
           "bronwoorden": [
             "אָבְדָ֖ה"
@@ -4793,21 +4799,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:7",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               20
             ]
-          },
-          "anker": "Egypte",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "Egypte",
@@ -5857,10 +5863,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "feest",
           "voorkomen": 1,
           "strongs": [
             "H2282"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "חַג"
@@ -5871,21 +5880,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:9",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]
-          },
-          "anker": "JAHWEH",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "JAHWEH",
@@ -8212,8 +8221,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Egypteland",
+          "plaats": "voor",
           "strongs": [
             "H776"
+          ],
+          "morfologie": [
+            "HNcbsc"
           ],
           "bronwoorden": [
             "אֶ֣רֶץ"
@@ -8224,27 +8238,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:13",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "JAHWEH",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
-          "tekst": "",
+          "tekst": "Egypteland",
           "voorkomen": 1,
           "strongs": [
             "H4714"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "מִצְרַיִם֒"
@@ -8255,21 +8272,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:13",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "JAHWEH",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "JAHWEH",
@@ -8601,9 +8618,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "oostenwind",
+          "plaats": "voor",
           "strongs": [
             "H7307"
+          ],
+          "morfologie": [
+            "HC/Ncbsc"
           ],
           "bronwoorden": [
             "וְ/ר֨וּחַ֙"
@@ -8614,27 +8636,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:13",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               20
             ]
-          },
-          "anker": "opbracht",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
+          "tekst": "oostenwind",
+          "voorkomen": 2,
           "strongs": [
             "H6921"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "הַ/קָּדִ֔ים"
@@ -8645,21 +8670,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:13",
+            "grondindices": [
+              20
+            ],
             "bronindices": [
               19
             ]
-          },
-          "anker": "opbracht",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "opbracht",
@@ -8691,8 +8716,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "sprinkhanen",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -8703,27 +8733,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:13",
+            "grondindices": [
+              22
+            ],
             "bronindices": [
               22
             ]
-          },
-          "anker": "opbracht",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
-          "tekst": "",
+          "tekst": "sprinkhanen",
           "voorkomen": 1,
           "strongs": [
             "H697"
+          ],
+          "morfologie": [
+            "HTd/Ncmsa"
           ],
           "bronwoorden": [
             "הָ/אַרְבֶּֽה"
@@ -8734,21 +8767,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:13",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
               23
             ]
-          },
-          "anker": "opbracht",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         }
       ]
     },
@@ -9902,10 +9935,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "aten",
           "voorkomen": 1,
           "strongs": [
             "H398"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יֹּ֜אכַל"
@@ -9916,21 +9952,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 10:15",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
-          },
-          "anker": "al",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
+          }
         },
         {
           "tekst": "",

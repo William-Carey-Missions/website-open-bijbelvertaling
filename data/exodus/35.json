@@ -14374,10 +14374,13 @@
           "toelichting": "Dit grondwoord heeft geen zelfstandig Nederlands equivalent in dit vers."
         },
         {
-          "tekst": "in te zetten",
+          "tekst": "zetten",
           "voorkomen": 1,
           "strongs": [
             "H4390"
+          ],
+          "morfologie": [
+            "HR/Vpc"
           ],
           "bronwoorden": [
             "לְ/מַלֹּ֖את"
@@ -14388,13 +14391,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "6265C3913209A90FAEBCD5872350FF22D866453B0F26A323D56D49B13ECE3CCA",
             "referentie": "EXO 35:33",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]

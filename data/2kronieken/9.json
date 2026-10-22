@@ -6427,39 +6427,72 @@
           }
         },
         {
-          "tekst": "zoiets",
+          "tekst": "geweest",
           "voorkomen": 1,
           "strongs": [
-            "H7200",
-            "H1992"
+            "H7200"
+          ],
+          "morfologie": [
+            "HVNp3cp"
           ],
           "bronwoorden": [
-            "נִרְא֥וּ",
-            "כָ/הֵ֛ם"
+            "נִרְא֥וּ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 9:11",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "zoiets",
+          "voorkomen": 1,
+          "strongs": [
+            "H1992"
+          ],
+          "morfologie": [
+            "HR/Pp3mp"
+          ],
+          "bronwoorden": [
+            "כָ/הֵ֛ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 9:11",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "gids_strongs": [
-            "H7200"
-          ],
-          "toelichting": "נִרְאוּ כָהֵם ('zoals zij gezien') is als 'zoiets was geweest' weergegeven; de gids heeft geen token voor כָהֵם (H1992)."
+          }
         },
         {
           "tekst": "voren",

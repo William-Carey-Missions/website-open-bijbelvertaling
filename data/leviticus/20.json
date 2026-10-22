@@ -11686,29 +11686,42 @@
           "tekst": "waarheen",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H8033"
+          ],
+          "morfologie": [
+            "HTr",
+            "HD/Sd"
           ],
           "bronwoorden": [
-            "אֲשֶׁ֨ר"
+            "אֲשֶׁ֨ר",
+            "שָׁ֖מָּ/ה"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 20:22",
+            "grondindices": [
+              13,
+              17
+            ],
             "bronindices": [
-              10
+              10,
+              14
             ]
-          },
-          "toelichting": "Twee grondwoorden worden in het Nederlands door één samengesteld woord weergegeven; beide krijgen daarom hetzelfde ankerwoord."
+          }
         },
         {
           "tekst": "Ik",
@@ -11790,34 +11803,6 @@
               13
             ]
           }
-        },
-        {
-          "tekst": "waarheen",
-          "voorkomen": 1,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "שָׁ֖מָּ/ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
-            "referentie": "LEV 20:22",
-            "bronindices": [
-              14
-            ]
-          },
-          "toelichting": "Twee grondwoorden worden in het Nederlands door één samengesteld woord weergegeven; beide krijgen daarom hetzelfde ankerwoord."
         },
         {
           "tekst": "wonen",

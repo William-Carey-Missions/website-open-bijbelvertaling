@@ -617,42 +617,80 @@
           }
         },
         {
-          "tekst": "Israël",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "Israël",
+          "plaats": "voor",
           "strongs": [
-            "G3588",
-            "G2474"
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
-            "του",
-            "ισραηλ"
+            "του"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 10:1",
-            "bronindices": [
-              14
-            ],
             "grondindices": [
-              15,
+              15
+            ],
+            "bronindices": [
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "Israël",
+          "voorkomen": 1,
+          "strongs": [
+            "G2474"
+          ],
+          "lemma_strongs": [
+            "G2474"
+          ],
+          "morfologie": [
+            "N-PRI"
+          ],
+          "bronwoorden": [
+            "ισραηλ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
+            "referentie": "ROM 10:1",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
               16
             ]
-          },
-          "gids_strongs": [
-            "G846"
-          ]
+          }
         },
         {
           "tekst": "is",
@@ -3765,10 +3803,16 @@
           }
         },
         {
-          "tekst": "van boven afbrengen",
+          "tekst": "afbrengen",
           "voorkomen": 1,
           "strongs": [
             "G2609"
+          ],
+          "lemma_strongs": [
+            "G2609"
+          ],
+          "morfologie": [
+            "V-2AAN"
           ],
           "bronwoorden": [
             "καταγαγειν"
@@ -3779,18 +3823,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 10:6",
-            "bronindices": [
-              20
-            ],
             "grondindices": [
               21
+            ],
+            "bronindices": [
+              20
             ]
           }
         }
@@ -12015,10 +12060,16 @@
           }
         },
         {
-          "tekst": "door degenen",
+          "tekst": "door",
           "voorkomen": 1,
           "strongs": [
             "G1909"
+          ],
+          "lemma_strongs": [
+            "G1909"
+          ],
+          "morfologie": [
+            "PREP"
           ],
           "bronwoorden": [
             "επ"
@@ -12029,17 +12080,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "03E6B838F39595459FBC66D010309274D4210B8147B0530B59988DD2EB32A12B",
             "referentie": "ROM 10:19",
-            "bronindices": [
+            "grondindices": [
               12
             ],
-            "grondindices": [
+            "bronindices": [
               12
             ]
           }

@@ -7374,12 +7374,12 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G3588"
           ],
           "bronwoorden": [
-            "ταις"
+            "του"
           ],
           "transliteraties": [
             ""
@@ -7395,10 +7395,10 @@
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 4:12",
             "bronindices": [
-              12
+              24
             ],
             "grondindices": [
-              13
+              23
             ]
           }
         },
@@ -7676,10 +7676,18 @@
           }
         },
         {
-          "tekst": "de",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -7690,18 +7698,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 4:12",
-            "bronindices": [
-              24
-            ],
             "grondindices": [
               23
+            ],
+            "bronindices": [
+              24
             ]
           }
         },

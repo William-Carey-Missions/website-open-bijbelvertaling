@@ -5172,10 +5172,16 @@
           }
         },
         {
-          "tekst": "nieuwe mens",
+          "tekst": "nieuwe",
           "voorkomen": 1,
           "strongs": [
             "G3501"
+          ],
+          "lemma_strongs": [
+            "G3501"
+          ],
+          "morfologie": [
+            "A-ASM"
           ],
           "bronwoorden": [
             "νεον"
@@ -5186,17 +5192,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 3:10",
-            "bronindices": [
+            "grondindices": [
               3
             ],
-            "grondindices": [
+            "bronindices": [
               3
             ]
           }
@@ -10328,64 +10335,46 @@
           "tekst": "wat",
           "voorkomen": 1,
           "strongs": [
-            "G3739"
-          ],
-          "bronwoorden": [
-            "ο"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
-            "referentie": "COL 3:17",
-            "bronindices": [
-              2
-            ],
-            "grondindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "wat",
-          "voorkomen": 1,
-          "strongs": [
+            "G3739",
             "G5100"
           ],
+          "lemma_strongs": [
+            "G3739",
+            "G5100"
+          ],
+          "morfologie": [
+            "R-ASN",
+            "X-ASN"
+          ],
           "bronwoorden": [
+            "ο",
             "τι"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 3:17",
-            "bronindices": [
+            "grondindices": [
+              2,
               3
             ],
-            "grondindices": [
+            "bronindices": [
+              2,
               3
             ]
-          },
-          "gids_strongs": [
-            "G5101"
-          ]
+          }
         },
         {
           "tekst": "",
@@ -10784,10 +10773,18 @@
           }
         },
         {
-          "tekst": "de",
-          "voorkomen": 3,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSM"
           ],
           "bronwoorden": [
             "τω"
@@ -10798,17 +10795,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 3:17",
-            "bronindices": [
+            "grondindices": [
               17
             ],
-            "grondindices": [
+            "bronindices": [
               17
             ]
           }
@@ -14900,10 +14898,16 @@
           }
         },
         {
-          "tekst": "onrecht",
-          "voorkomen": 2,
+          "tekst": "gedaan heeft",
+          "voorkomen": 1,
           "strongs": [
             "G91"
+          ],
+          "lemma_strongs": [
+            "G91"
+          ],
+          "morfologie": [
+            "V-AAI-3S"
           ],
           "bronwoorden": [
             "ηδικησεν"
@@ -14914,17 +14918,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 3:25",
-            "bronindices": [
+            "grondindices": [
               5
             ],
-            "grondindices": [
+            "bronindices": [
               5
             ]
           }

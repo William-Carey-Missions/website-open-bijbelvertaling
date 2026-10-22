@@ -3505,26 +3505,40 @@
           "tekst": "vanwaar",
           "voorkomen": 1,
           "strongs": [
-            "H834"
+            "H834",
+            "H8033"
+          ],
+          "morfologie": [
+            "HTr",
+            "HR/D"
           ],
           "bronwoorden": [
-            "אֲשֶׁר"
+            "אֲשֶׁר",
+            "מִ/שָּֽׁם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 20:6",
+            "grondindices": [
+              26,
+              28
+            ],
             "bronindices": [
-              26
+              26,
+              28
             ]
           }
         },
@@ -3552,33 +3566,6 @@
             "referentie": "JOS 20:6",
             "bronindices": [
               27
-            ]
-          }
-        },
-        {
-          "tekst": "is",
-          "voorkomen": 1,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "מִ/שָּֽׁם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
-            "referentie": "JOS 20:6",
-            "bronindices": [
-              28
             ]
           }
         }
@@ -5402,10 +5389,13 @@
           }
         },
         {
-          "tekst": "wie",
-          "voorkomen": 1,
+          "tekst": "al",
+          "voorkomen": 2,
           "strongs": [
             "H3605"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "כָּל"
@@ -5416,13 +5406,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 20:9",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               10
             ]

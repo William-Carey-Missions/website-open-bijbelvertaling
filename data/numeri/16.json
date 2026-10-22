@@ -3187,35 +3187,69 @@
           "tekst": "doet",
           "voorkomen": 1,
           "strongs": [
-            "H5414",
-            "H2004"
+            "H5414"
+          ],
+          "morfologie": [
+            "HC/Vqv2mp"
           ],
           "bronwoorden": [
-            "וּ/תְנ֣וּ",
-            "בָ/הֵ֣ן"
+            "וּ/תְנ֣וּ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:7",
+            "grondindices": [
+              0
+            ],
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "daarin",
+          "voorkomen": 1,
+          "strongs": [
+            "H2004"
+          ],
+          "morfologie": [
+            "HR/Sp3fp"
+          ],
+          "bronwoorden": [
+            "בָ/הֵ֣ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
+            "referentie": "NUM 16:7",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "gids_strongs": [
-            "H5414"
-          ]
+          }
         },
         {
           "tekst": "vuur",
@@ -4125,35 +4159,69 @@
           "tekst": "weinig",
           "voorkomen": 1,
           "strongs": [
-            "H4592",
-            "H4480"
+            "H4592"
+          ],
+          "morfologie": [
+            "HTi/Ncmsa"
           ],
           "bronwoorden": [
-            "הַ/מְעַ֣ט",
-            "מִ/כֶּ֗ם"
+            "הַ/מְעַ֣ט"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:9",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
-          },
-          "gids_strongs": [
-            "H4592"
-          ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
+          ],
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֗ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
+            "referentie": "NUM 16:9",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              1
+            ]
+          }
         },
         {
           "tekst": "dat",
@@ -18086,10 +18154,13 @@
           }
         },
         {
-          "tekst": "ze",
+          "tekst": "daarvan",
           "voorkomen": 1,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3mp"
           ],
           "bronwoorden": [
             "אֹתָ֜/ם"
@@ -18100,13 +18171,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:38",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -18413,52 +18488,39 @@
           "tekst": "Israëlieten",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "לִ/בְנֵ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 16:38",
-            "bronindices": [
-              18
-            ]
-          }
-        },
-        {
-          "tekst": "Israëlieten",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H3478"
           ],
+          "morfologie": [
+            "HR/Ncmpc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "לִ/בְנֵ֥י",
             "יִשְׂרָאֵֽל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:38",
+            "grondindices": [
+              18,
+              19
+            ],
             "bronindices": [
+              18,
               19
             ]
           }
@@ -23712,52 +23774,39 @@
           "tekst": "veertien",
           "voorkomen": 1,
           "strongs": [
-            "H702"
-          ],
-          "bronwoorden": [
-            "אַרְבָּעָ֥ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 16:49",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "veertien",
-          "voorkomen": 1,
-          "strongs": [
+            "H702",
             "H6240"
           ],
+          "morfologie": [
+            "HAcmsa",
+            "HAcmsa"
+          ],
           "bronwoorden": [
+            "אַרְבָּעָ֥ה",
             "עָשָׂ֛ר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:49",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              3,
               4
             ]
           }
@@ -23793,61 +23842,51 @@
           "tekst": "zevenhonderd",
           "voorkomen": 1,
           "strongs": [
-            "H7651"
-          ],
-          "bronwoorden": [
-            "וּ/שְׁבַ֣ע"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 16:49",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "zevenhonderd",
-          "voorkomen": 1,
-          "strongs": [
+            "H7651",
             "H3967"
           ],
+          "morfologie": [
+            "HC/Acfsa",
+            "HAcbpa"
+          ],
           "bronwoorden": [
+            "וּ/שְׁבַ֣ע",
             "מֵא֑וֹת"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:49",
+            "grondindices": [
+              6,
+              7
+            ],
             "bronindices": [
+              6,
               7
             ]
           }
         },
         {
-          "tekst": "behalve",
+          "tekst": "afgezien",
           "voorkomen": 1,
           "strongs": [
             "H905"
+          ],
+          "morfologie": [
+            "HR/R/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/לְּ/בַ֥ד"
@@ -23858,13 +23897,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 16:49",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]

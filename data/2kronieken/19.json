@@ -3746,10 +3746,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Daartoe",
+          "tekst": "ook",
           "voorkomen": 1,
           "strongs": [
             "H1571"
+          ],
+          "morfologie": [
+            "HC/Ta"
           ],
           "bronwoorden": [
             "וְ/גַ֣ם"
@@ -3760,26 +3763,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 19:8",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
           }
         },
         {
-          "tekst": "Josafat",
+          "tekst": "Jeruzalem",
           "voorkomen": 1,
           "strongs": [
-            "H3092"
+            "H3389"
           ],
           "bronwoorden": [
-            "יְהוֹשָׁפָ֜ט"
+            "בִּ֠/ירוּשָׁלִַם"
           ],
           "transliteraties": [
             ""
@@ -3795,7 +3802,7 @@
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 19:8",
             "bronindices": [
-              1
+              3
             ]
           }
         },
@@ -3827,13 +3834,13 @@
           }
         },
         {
-          "tekst": "Jeruzalem",
+          "tekst": "Josafat",
           "voorkomen": 1,
           "strongs": [
-            "H3389"
+            "H3092"
           ],
           "bronwoorden": [
-            "בִּ֠/ירוּשָׁלִַם"
+            "יְהוֹשָׁפָ֜ט"
           ],
           "transliteraties": [
             ""
@@ -3849,7 +3856,7 @@
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 19:8",
             "bronindices": [
-              3
+              1
             ]
           }
         },
@@ -5284,37 +5291,12 @@
         },
         {
           "tekst": "zij",
-          "voorkomen": 1,
-          "strongs": [
-            "H7110"
-          ],
-          "bronwoorden": [
-            "קֶ֥צֶף"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 19:10",
-            "bronindices": [
-              21
-            ]
-          },
-          "toelichting": "וְהָיָה (H1961, 'en het zal zijn') hoort bij 'over u ... zij'."
-        },
-        {
-          "tekst": "boosheid",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqp3ms"
           ],
           "bronwoorden": [
             "וְ/הָֽיָה"
@@ -5325,15 +5307,53 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 19:10",
+            "grondindices": [
+              21
+            ],
             "bronindices": [
               22
+            ]
+          }
+        },
+        {
+          "tekst": "boosheid",
+          "voorkomen": 1,
+          "strongs": [
+            "H7110"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "קֶ֥צֶף"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 19:10",
+            "grondindices": [
+              22
+            ],
+            "bronindices": [
+              21
             ]
           }
         },
@@ -5420,36 +5440,12 @@
         },
         {
           "tekst": "zo",
-          "voorkomen": 1,
-          "strongs": [
-            "H6213"
-          ],
-          "bronwoorden": [
-            "תַעֲשׂ֖וּ/ן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 19:10",
-            "bronindices": [
-              26
-            ]
-          }
-        },
-        {
-          "tekst": "doe",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H3541"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
             "כֹּ֥ה"
@@ -5460,15 +5456,53 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 19:10",
+            "grondindices": [
+              26
+            ],
             "bronindices": [
               27
+            ]
+          }
+        },
+        {
+          "tekst": "doe",
+          "voorkomen": 1,
+          "strongs": [
+            "H6213"
+          ],
+          "morfologie": [
+            "HVqi2mp/Sn"
+          ],
+          "bronwoorden": [
+            "תַעֲשׂ֖וּ/ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 19:10",
+            "grondindices": [
+              27
+            ],
+            "bronindices": [
+              26
             ]
           }
         },

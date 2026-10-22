@@ -144,34 +144,69 @@
           "tekst": "na",
           "voorkomen": 1,
           "strongs": [
-            "H310",
-            "H3651"
+            "H310"
+          ],
+          "morfologie": [
+            "HR"
           ],
           "bronwoorden": [
-            "אַחֲרֵי",
-            "כֵ֔ן"
+            "אַחֲרֵי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 18:1",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              1,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "H3651"
+          ],
+          "morfologie": [
+            "HD"
+          ],
+          "bronwoorden": [
+            "כֵ֔ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
+            "referentie": "1CH 18:1",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               2
             ]
-          },
-          "toelichting": "אַחֲרֵי־כֵן ('daarna') bestaat uit twee grondwoorden; het Nederlands geeft ze samen als 'na deze' weer; 'na' draagt de koppeling."
+          }
         },
         {
           "tekst": "sloeg",

@@ -738,10 +738,13 @@
           }
         },
         {
-          "tekst": "Ammons",
+          "tekst": "Ammon",
           "voorkomen": 1,
           "strongs": [
             "H5983"
+          ],
+          "morfologie": [
+            "HNp"
           ],
           "bronwoorden": [
             "עַמּ֔וֹן"
@@ -752,13 +755,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 11:1",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               19
             ]
@@ -14060,10 +14067,13 @@
           }
         },
         {
-          "tekst": "anderen",
-          "voorkomen": 1,
+          "tekst": "deze",
+          "voorkomen": 2,
           "strongs": [
             "H2090"
+          ],
+          "morfologie": [
+            "HR/Pdxfs"
           ],
           "bronwoorden": [
             "כָ/זֹ֥ה"
@@ -14074,24 +14084,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 11:25",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               18
             ]
-          },
-          "toelichting": "כָזֹה וְכָזֶה ('zo en zo') is in de Statenvertaling 'zowel deze als anderen'; het eerste grondwoord is aan 'anderen' gekoppeld."
+          }
         },
         {
-          "tekst": "deze",
-          "voorkomen": 2,
+          "tekst": "anderen",
+          "voorkomen": 1,
           "strongs": [
             "H2088"
+          ],
+          "morfologie": [
+            "HC/R/Pdxms"
           ],
           "bronwoorden": [
             "וְ/כָ/זֶ֖ה"
@@ -14102,13 +14118,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "36E7A5D6BA7A8F78F3C45A1AC11EDD0243D0FFAABECFFA8476D198847EC0CEF9",
             "referentie": "2SA 11:25",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               9
             ]

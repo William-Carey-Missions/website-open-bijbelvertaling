@@ -934,6 +934,87 @@
       ],
       "woordnummers": [
         {
+          "tekst": "alle",
+          "voorkomen": 1,
+          "strongs": [
+            "H3605"
+          ],
+          "bronwoorden": [
+            "מִ/כֹּ֣ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:2",
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "vee",
+          "voorkomen": 1,
+          "strongs": [
+            "H929"
+          ],
+          "bronwoorden": [
+            "הַ/בְּהֵמָ֣ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:2",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "rein",
+          "voorkomen": 1,
+          "strongs": [
+            "H2889"
+          ],
+          "bronwoorden": [
+            "הַ/טְּהוֹרָ֗ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:2",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
           "tekst": "nemen",
           "voorkomen": 1,
           "strongs": [
@@ -1015,87 +1096,6 @@
           }
         },
         {
-          "tekst": "alle",
-          "voorkomen": 1,
-          "strongs": [
-            "H3605"
-          ],
-          "bronwoorden": [
-            "מִ/כֹּ֣ל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:2",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "rein",
-          "voorkomen": 1,
-          "strongs": [
-            "H2889"
-          ],
-          "bronwoorden": [
-            "הַ/טְּהוֹרָ֗ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:2",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "vee",
-          "voorkomen": 1,
-          "strongs": [
-            "H929"
-          ],
-          "bronwoorden": [
-            "הַ/בְּהֵמָ֣ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:2",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
           "tekst": "mannetje",
           "voorkomen": 1,
           "strongs": [
@@ -1123,10 +1123,13 @@
           }
         },
         {
-          "tekst": "zijn vrouwtje",
+          "tekst": "vrouwtje",
           "voorkomen": 1,
           "strongs": [
             "H802"
+          ],
+          "morfologie": [
+            "HC/Ncfsc/Sp3ms"
           ],
           "bronwoorden": [
             "וְ/אִשְׁתּ֑/וֹ"
@@ -1137,69 +1140,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:2",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               7
-            ]
-          }
-        },
-        {
-          "tekst": "is",
-          "voorkomen": 1,
-          "strongs": [
-            "H1931"
-          ],
-          "bronwoorden": [
-            "הִ֛וא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:2",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "twee",
-          "voorkomen": 1,
-          "strongs": [
-            "H8147"
-          ],
-          "bronwoorden": [
-            "שְׁנַ֖יִם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:2",
-            "bronindices": [
-              9
             ]
           }
         },
@@ -1227,6 +1180,33 @@
             "referentie": "GEN 7:2",
             "bronindices": [
               10
+            ]
+          }
+        },
+        {
+          "tekst": "vee",
+          "voorkomen": 2,
+          "strongs": [
+            "H929"
+          ],
+          "bronwoorden": [
+            "הַ/בְּהֵמָ֡ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:2",
+            "bronindices": [
+              14
             ]
           }
         },
@@ -1312,13 +1292,13 @@
           }
         },
         {
-          "tekst": "vee",
-          "voorkomen": 2,
+          "tekst": "is",
+          "voorkomen": 1,
           "strongs": [
-            "H929"
+            "H1931"
           ],
           "bronwoorden": [
-            "הַ/בְּהֵמָ֡ה"
+            "הִ֛וא"
           ],
           "transliteraties": [
             ""
@@ -1334,7 +1314,34 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:2",
             "bronindices": [
-              14
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "twee",
+          "voorkomen": 1,
+          "strongs": [
+            "H8147"
+          ],
+          "bronwoorden": [
+            "שְׁנַ֖יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:2",
+            "bronindices": [
+              9
             ]
           }
         },
@@ -1366,10 +1373,13 @@
           }
         },
         {
-          "tekst": "zijn vrouwtje",
+          "tekst": "vrouwtje",
           "voorkomen": 2,
           "strongs": [
             "H802"
+          ],
+          "morfologie": [
+            "HC/Ncfsc/Sp3ms"
           ],
           "bronwoorden": [
             "וְ/אִשְׁתּֽ/וֹ"
@@ -1380,13 +1390,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:2",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               16
             ]
@@ -2127,33 +2141,6 @@
           }
         },
         {
-          "tekst": "zeven",
-          "voorkomen": 1,
-          "strongs": [
-            "H7651"
-          ],
-          "bronwoorden": [
-            "שִׁבְעָ֗ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:4",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
           "tekst": "dagen",
           "voorkomen": 1,
           "strongs": [
@@ -2204,6 +2191,33 @@
             "referentie": "GEN 7:4",
             "bronindices": [
               3
+            ]
+          }
+        },
+        {
+          "tekst": "zeven",
+          "voorkomen": 1,
+          "strongs": [
+            "H7651"
+          ],
+          "bronwoorden": [
+            "שִׁבְעָ֗ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:4",
+            "bronindices": [
+              1
             ]
           }
         },
@@ -2453,8 +2467,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "al",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶֽת"
@@ -2465,102 +2484,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:4",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
-            ]
-          },
-          "anker": "vernietigen",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven"
-        },
-        {
-          "tekst": "van",
-          "voorkomen": 1,
-          "strongs": [
-            "H5921"
-          ],
-          "bronwoorden": [
-            "מֵ/עַ֖ל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:4",
-            "bronindices": [
-              14
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H6440"
-          ],
-          "bronwoorden": [
-            "פְּנֵ֥י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:4",
-            "bronindices": [
-              15
-            ]
-          },
-          "anker": "aardbodem",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven"
-        },
-        {
-          "tekst": "aardbodem",
-          "voorkomen": 1,
-          "strongs": [
-            "H127"
-          ],
-          "bronwoorden": [
-            "הָֽ/אֲדָמָֽה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:4",
-            "bronindices": [
-              16
             ]
           }
         },
@@ -2669,6 +2605,90 @@
             "referentie": "GEN 7:4",
             "bronindices": [
               20
+            ]
+          }
+        },
+        {
+          "tekst": "van",
+          "voorkomen": 1,
+          "strongs": [
+            "H5921"
+          ],
+          "bronwoorden": [
+            "מֵ/עַ֖ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:4",
+            "bronindices": [
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "H6440"
+          ],
+          "bronwoorden": [
+            "פְּנֵ֥י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:4",
+            "bronindices": [
+              15
+            ]
+          },
+          "anker": "aardbodem",
+          "plaats": "voor",
+          "status": "niet_afzonderlijk_weergegeven"
+        },
+        {
+          "tekst": "aardbodem",
+          "voorkomen": 1,
+          "strongs": [
+            "H127"
+          ],
+          "bronwoorden": [
+            "הָֽ/אֲדָמָֽה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:4",
+            "bronindices": [
+              16
             ]
           }
         }
@@ -3045,6 +3065,33 @@
           }
         },
         {
+          "tekst": "oud",
+          "voorkomen": 1,
+          "strongs": [
+            "H1121"
+          ],
+          "bronwoorden": [
+            "בֶּן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:6",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
           "tekst": "zeshonderd",
           "voorkomen": 1,
           "strongs": [
@@ -3104,33 +3151,6 @@
           }
         },
         {
-          "tekst": "oud",
-          "voorkomen": 1,
-          "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶּן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:6",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
           "tekst": "vloed",
           "voorkomen": 1,
           "strongs": [
@@ -3158,6 +3178,40 @@
           }
         },
         {
+          "tekst": "was",
+          "voorkomen": 2,
+          "strongs": [
+            "H1961"
+          ],
+          "morfologie": [
+            "HVqp3ms"
+          ],
+          "bronwoorden": [
+            "הָיָ֔ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:6",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
           "tekst": "wateren",
           "voorkomen": 1,
           "strongs": [
@@ -3181,33 +3235,6 @@
             "referentie": "GEN 7:6",
             "bronindices": [
               6
-            ]
-          }
-        },
-        {
-          "tekst": "was",
-          "voorkomen": 1,
-          "strongs": [
-            "H1961"
-          ],
-          "bronwoorden": [
-            "הָיָ֔ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:6",
-            "bronindices": [
-              7
             ]
           }
         },
@@ -3413,6 +3440,33 @@
       ],
       "woordnummers": [
         {
+          "tekst": "ging",
+          "voorkomen": 1,
+          "strongs": [
+            "H935"
+          ],
+          "bronwoorden": [
+            "וַ/יָּ֣בֹא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:7",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
           "tekst": "Noach",
           "voorkomen": 1,
           "strongs": [
@@ -3436,60 +3490,6 @@
             "referentie": "GEN 7:7",
             "bronindices": [
               0
-            ]
-          }
-        },
-        {
-          "tekst": "zijn huisvrouw",
-          "voorkomen": 1,
-          "strongs": [
-            "H802"
-          ],
-          "bronwoorden": [
-            "וְ/אִשְׁתּ֧/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:7",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
-          "tekst": "met hem",
-          "voorkomen": 1,
-          "strongs": [
-            "H854"
-          ],
-          "bronwoorden": [
-            "אִתּ֖/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:7",
-            "bronindices": [
-              2
             ]
           }
         },
@@ -3521,13 +3521,16 @@
           }
         },
         {
-          "tekst": "zonen",
-          "voorkomen": 2,
+          "tekst": "huisvrouw",
+          "voorkomen": 1,
           "strongs": [
-            "H1121"
+            "H802"
+          ],
+          "morfologie": [
+            "HC/Ncfsc/Sp3ms"
           ],
           "bronwoorden": [
-            "בָנָ֛י/ו"
+            "וְ/אִשְׁתּ֧/וֹ"
           ],
           "transliteraties": [
             ""
@@ -3535,15 +3538,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:7",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              4
+              1
             ]
           }
         },
@@ -3575,13 +3582,13 @@
           }
         },
         {
-          "tekst": "ging",
-          "voorkomen": 1,
+          "tekst": "zonen",
+          "voorkomen": 2,
           "strongs": [
-            "H935"
+            "H1121"
           ],
           "bronwoorden": [
-            "וַ/יָּ֣בֹא"
+            "בָנָ֛י/ו"
           ],
           "transliteraties": [
             ""
@@ -3597,7 +3604,41 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:7",
             "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "met",
+          "voorkomen": 1,
+          "strongs": [
+            "H854"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "אִתּ֖/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:7",
+            "grondindices": [
               6
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -4375,6 +4416,60 @@
       ],
       "woordnummers": [
         {
+          "tekst": "twee",
+          "voorkomen": 1,
+          "strongs": [
+            "H8147"
+          ],
+          "bronwoorden": [
+            "שְׁנַ֨יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:9",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "twee",
+          "voorkomen": 2,
+          "strongs": [
+            "H8147"
+          ],
+          "bronwoorden": [
+            "שְׁנַ֜יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:9",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
           "tekst": "Kwamen",
           "voorkomen": 1,
           "strongs": [
@@ -4510,60 +4605,6 @@
           }
         },
         {
-          "tekst": "twee",
-          "voorkomen": 1,
-          "strongs": [
-            "H8147"
-          ],
-          "bronwoorden": [
-            "שְׁנַ֨יִם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:9",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "twee",
-          "voorkomen": 2,
-          "strongs": [
-            "H8147"
-          ],
-          "bronwoorden": [
-            "שְׁנַ֜יִם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:9",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "mannetje",
           "voorkomen": 1,
           "strongs": [
@@ -4645,6 +4686,33 @@
           }
         },
         {
+          "tekst": "geboden",
+          "voorkomen": 1,
+          "strongs": [
+            "H6680"
+          ],
+          "bronwoorden": [
+            "צִוָּ֥ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:9",
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
           "tekst": "God",
           "voorkomen": 1,
           "strongs": [
@@ -4673,9 +4741,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "Noach",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -4686,45 +4759,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:9",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               11
-            ]
-          },
-          "anker": "God",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven"
-        },
-        {
-          "tekst": "geboden",
-          "voorkomen": 1,
-          "strongs": [
-            "H6680"
-          ],
-          "bronwoorden": [
-            "צִוָּ֥ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:9",
-            "bronindices": [
-              12
             ]
           }
         },
@@ -5454,6 +5501,33 @@
           }
         },
         {
+          "tekst": "leven",
+          "voorkomen": 1,
+          "strongs": [
+            "H2416"
+          ],
+          "bronwoorden": [
+            "לְ/חַיֵּי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:11",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
           "tekst": "Noach",
           "voorkomen": 1,
           "strongs": [
@@ -5481,13 +5555,13 @@
           }
         },
         {
-          "tekst": "leven",
+          "tekst": "maand",
           "voorkomen": 1,
           "strongs": [
-            "H2416"
+            "H2320"
           ],
           "bronwoorden": [
-            "לְ/חַיֵּי"
+            "בַּ/חֹ֨דֶשׁ֙"
           ],
           "transliteraties": [
             ""
@@ -5503,7 +5577,34 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:11",
             "bronindices": [
-              5
+              11
+            ]
+          }
+        },
+        {
+          "tekst": "tweede",
+          "voorkomen": 1,
+          "strongs": [
+            "H8145"
+          ],
+          "bronwoorden": [
+            "הַ/שֵּׁנִ֔י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:11",
+            "bronindices": [
+              10
             ]
           }
         },
@@ -5594,13 +5695,13 @@
           }
         },
         {
-          "tekst": "tweede",
-          "voorkomen": 1,
+          "tekst": "dag",
+          "voorkomen": 2,
           "strongs": [
-            "H8145"
+            "H3117"
           ],
           "bronwoorden": [
-            "הַ/שֵּׁנִ֔י"
+            "בַּ/יּ֣וֹם"
           ],
           "transliteraties": [
             ""
@@ -5616,34 +5717,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:11",
             "bronindices": [
-              10
-            ]
-          }
-        },
-        {
-          "tekst": "maand",
-          "voorkomen": 1,
-          "strongs": [
-            "H2320"
-          ],
-          "bronwoorden": [
-            "בַּ/חֹ֨דֶשׁ֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:11",
-            "bronindices": [
-              11
+              13
             ]
           }
         },
@@ -5675,13 +5749,13 @@
           }
         },
         {
-          "tekst": "dag",
-          "voorkomen": 2,
+          "tekst": "opengebroken",
+          "voorkomen": 1,
           "strongs": [
-            "H3117"
+            "H1234"
           ],
           "bronwoorden": [
-            "בַּ/יּ֣וֹם"
+            "נִבְקְעוּ֙"
           ],
           "transliteraties": [
             ""
@@ -5697,7 +5771,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:11",
             "bronindices": [
-              13
+              18
             ]
           }
         },
@@ -5756,33 +5830,6 @@
           }
         },
         {
-          "tekst": "grote",
-          "voorkomen": 1,
-          "strongs": [
-            "H7227"
-          ],
-          "bronwoorden": [
-            "רַבָּ֔ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:11",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "afgronds",
           "voorkomen": 1,
           "strongs": [
@@ -5810,13 +5857,13 @@
           }
         },
         {
-          "tekst": "opengebroken",
+          "tekst": "grote",
           "voorkomen": 1,
           "strongs": [
-            "H1234"
+            "H7227"
           ],
           "bronwoorden": [
-            "נִבְקְעוּ֙"
+            "רַבָּ֔ה"
           ],
           "transliteraties": [
             ""
@@ -5832,7 +5879,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:11",
             "bronindices": [
-              18
+              16
             ]
           }
         },
@@ -6467,33 +6514,6 @@
           }
         },
         {
-          "tekst": "Noach",
-          "voorkomen": 1,
-          "strongs": [
-            "H5146"
-          ],
-          "bronwoorden": [
-            "נֹ֔חַ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:13",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "ging",
           "voorkomen": 1,
           "strongs": [
@@ -6521,94 +6541,13 @@
           }
         },
         {
-          "tekst": "in",
-          "voorkomen": 1,
-          "strongs": [
-            "H413"
-          ],
-          "bronwoorden": [
-            "אֶל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:13",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "ark",
-          "voorkomen": 1,
-          "strongs": [
-            "H8392"
-          ],
-          "bronwoorden": [
-            "הַ/תֵּבָֽה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:13",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "zonen",
-          "voorkomen": 1,
-          "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בְּנֵי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:13",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "Noachs",
+          "tekst": "Noach",
           "voorkomen": 1,
           "strongs": [
             "H5146"
           ],
           "bronwoorden": [
-            "נֹ֑חַ"
+            "נֹ֔חַ"
           ],
           "transliteraties": [
             ""
@@ -6624,7 +6563,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:13",
             "bronindices": [
-              8
+              3
             ]
           }
         },
@@ -6710,13 +6649,13 @@
           }
         },
         {
-          "tekst": "Noachs",
-          "voorkomen": 2,
+          "tekst": "zonen",
+          "voorkomen": 1,
           "strongs": [
-            "H5146"
+            "H1121"
           ],
           "bronwoorden": [
-            "נֹ֗חַ"
+            "בְּנֵי"
           ],
           "transliteraties": [
             ""
@@ -6732,7 +6671,34 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:13",
             "bronindices": [
-              12
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "Noachs",
+          "voorkomen": 1,
+          "strongs": [
+            "H5146"
+          ],
+          "bronwoorden": [
+            "נֹ֑חַ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:13",
+            "bronindices": [
+              8
             ]
           }
         },
@@ -6760,6 +6726,33 @@
             "referentie": "GEN 7:13",
             "bronindices": [
               13
+            ]
+          }
+        },
+        {
+          "tekst": "Noachs",
+          "voorkomen": 2,
+          "strongs": [
+            "H5146"
+          ],
+          "bronwoorden": [
+            "נֹ֗חַ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:13",
+            "bronindices": [
+              12
             ]
           }
         },
@@ -6845,13 +6838,47 @@
           }
         },
         {
-          "tekst": "met hem",
+          "tekst": "met",
           "voorkomen": 1,
           "strongs": [
             "H854"
           ],
+          "morfologie": [
+            "HR/Sp3mp"
+          ],
           "bronwoorden": [
             "אִתָּ֖/ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:13",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
+              17
+            ]
+          }
+        },
+        {
+          "tekst": "in",
+          "voorkomen": 1,
+          "strongs": [
+            "H413"
+          ],
+          "bronwoorden": [
+            "אֶל"
           ],
           "transliteraties": [
             ""
@@ -6867,7 +6894,34 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:13",
             "bronindices": [
-              17
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "ark",
+          "voorkomen": 1,
+          "strongs": [
+            "H8392"
+          ],
+          "bronwoorden": [
+            "הַ/תֵּבָֽה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:13",
+            "bronindices": [
+              6
             ]
           }
         }
@@ -8253,33 +8307,6 @@
           }
         },
         {
-          "tekst": "kwamen",
-          "voorkomen": 2,
-          "strongs": [
-            "H935"
-          ],
-          "bronwoorden": [
-            "בָּ֔אוּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:16",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
           "tekst": "mannetje",
           "voorkomen": 1,
           "strongs": [
@@ -8388,6 +8415,33 @@
           }
         },
         {
+          "tekst": "kwamen",
+          "voorkomen": 2,
+          "strongs": [
+            "H935"
+          ],
+          "bronwoorden": [
+            "בָּ֔אוּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:16",
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
           "tekst": "zoals",
           "voorkomen": 1,
           "strongs": [
@@ -8411,33 +8465,6 @@
             "referentie": "GEN 7:16",
             "bronindices": [
               6
-            ]
-          }
-        },
-        {
-          "tekst": "God",
-          "voorkomen": 1,
-          "strongs": [
-            "H430"
-          ],
-          "bronwoorden": [
-            "אֱלֹהִ֑ים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:16",
-            "bronindices": [
-              7
             ]
           }
         },
@@ -8496,13 +8523,13 @@
           }
         },
         {
-          "tekst": "JAHWEH",
+          "tekst": "God",
           "voorkomen": 1,
           "strongs": [
-            "H3068"
+            "H430"
           ],
           "bronwoorden": [
-            "יְהוָ֖ה"
+            "אֱלֹהִ֑ים"
           ],
           "transliteraties": [
             ""
@@ -8518,34 +8545,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:16",
             "bronindices": [
-              10
-            ]
-          }
-        },
-        {
-          "tekst": "achter hem",
-          "voorkomen": 1,
-          "strongs": [
-            "H1157"
-          ],
-          "bronwoorden": [
-            "בַּֽעֲדֽ/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:16",
-            "bronindices": [
-              11
+              7
             ]
           }
         },
@@ -8573,6 +8573,67 @@
             "referentie": "GEN 7:16",
             "bronindices": [
               12
+            ]
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 1,
+          "strongs": [
+            "H3068"
+          ],
+          "bronwoorden": [
+            "יְהוָ֖ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:16",
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "achter",
+          "voorkomen": 1,
+          "strongs": [
+            "H1157"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "בַּֽעֲדֽ/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:16",
+            "grondindices": [
+              12
+            ],
+            "bronindices": [
+              11
             ]
           }
         }
@@ -8726,6 +8787,60 @@
       "textSV1888_html": "En die<sup class=\"note-marker\" data-note=\"29\">29</sup> vloed was<sup class=\"note-marker\" data-note=\"30\">30</sup> veertig dagen op de aarde, en de wateren vermeerderden, en hieven de ark op, zodat zij oprees boven de aarde.",
       "woordnummers": [
         {
+          "tekst": "was",
+          "voorkomen": 1,
+          "strongs": [
+            "H1961"
+          ],
+          "bronwoorden": [
+            "וַֽ/יְהִ֧י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:17",
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "vloed",
+          "voorkomen": 1,
+          "strongs": [
+            "H3999"
+          ],
+          "bronwoorden": [
+            "הַ/מַּבּ֛וּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:17",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
           "tekst": "veertig",
           "voorkomen": 1,
           "strongs": [
@@ -8776,60 +8891,6 @@
             "referentie": "GEN 7:17",
             "bronindices": [
               1
-            ]
-          }
-        },
-        {
-          "tekst": "vloed",
-          "voorkomen": 1,
-          "strongs": [
-            "H3999"
-          ],
-          "bronwoorden": [
-            "הַ/מַּבּ֛וּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:17",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "was",
-          "voorkomen": 1,
-          "strongs": [
-            "H1961"
-          ],
-          "bronwoorden": [
-            "וַֽ/יְהִ֧י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:17",
-            "bronindices": [
-              3
             ]
           }
         },
@@ -8888,33 +8949,6 @@
           }
         },
         {
-          "tekst": "wateren",
-          "voorkomen": 1,
-          "strongs": [
-            "H4325"
-          ],
-          "bronwoorden": [
-            "הַ/מַּ֗יִם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:17",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "vermeerderden",
           "voorkomen": 1,
           "strongs": [
@@ -8938,6 +8972,33 @@
             "referentie": "GEN 7:17",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "wateren",
+          "voorkomen": 1,
+          "strongs": [
+            "H4325"
+          ],
+          "bronwoorden": [
+            "הַ/מַּ֗יִם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:17",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -8971,8 +9032,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "ark",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -8983,20 +9049,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:17",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "anker": "hieven",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven"
+          }
         },
         {
           "tekst": "ark",
@@ -9200,6 +9267,40 @@
       "textSV1888_html": "En de wateren namen de overhand, en vermeerderden zeer op de aarde; en de ark ging<sup class=\"note-marker\" data-note=\"31\">31</sup> op de wateren.",
       "woordnummers": [
         {
+          "tekst": "overhand",
+          "voorkomen": 1,
+          "strongs": [
+            "H1396"
+          ],
+          "morfologie": [
+            "HC/Vqw3mp"
+          ],
+          "bronwoorden": [
+            "וַ/יִּגְבְּר֥וּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:18",
+            "grondindices": [
+              0
+            ],
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
           "tekst": "wateren",
           "voorkomen": 1,
           "strongs": [
@@ -9223,33 +9324,6 @@
             "referentie": "GEN 7:18",
             "bronindices": [
               0
-            ]
-          }
-        },
-        {
-          "tekst": "namen de overhand",
-          "voorkomen": 1,
-          "strongs": [
-            "H1396"
-          ],
-          "bronwoorden": [
-            "וַ/יִּגְבְּר֥וּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:18",
-            "bronindices": [
-              1
             ]
           }
         },
@@ -9447,9 +9521,14 @@
         },
         {
           "tekst": "",
-          "voorkomen": 1,
+          "voorkomen": 2,
+          "anker": "wateren",
+          "plaats": "voor",
           "strongs": [
             "H6440"
+          ],
+          "morfologie": [
+            "HNcbpc"
           ],
           "bronwoorden": [
             "פְּנֵ֥י"
@@ -9460,20 +9539,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:18",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "anker": "wateren",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven"
+          }
         },
         {
           "tekst": "wateren",
@@ -11456,6 +11536,69 @@
       ],
       "woordnummers": [
         {
+          "tekst": "vernietigd",
+          "voorkomen": 1,
+          "strongs": [
+            "H4229"
+          ],
+          "bronwoorden": [
+            "וַ/יִּ֜מַח"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:23",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "al",
+          "plaats": "voor",
+          "strongs": [
+            "H853"
+          ],
+          "morfologie": [
+            "HTo"
+          ],
+          "bronwoorden": [
+            "אֶֽת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:23",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
           "tekst": "al",
           "voorkomen": 1,
           "strongs": [
@@ -11621,63 +11764,6 @@
           }
         },
         {
-          "tekst": "vernietigd",
-          "voorkomen": 1,
-          "strongs": [
-            "H4229"
-          ],
-          "bronwoorden": [
-            "וַ/יִּ֜מַח"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:23",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H853"
-          ],
-          "bronwoorden": [
-            "אֶֽת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:23",
-            "bronindices": [
-              7
-            ]
-          },
-          "anker": "vernietigd",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven"
-        },
-        {
           "tekst": "mens",
           "voorkomen": 1,
           "strongs": [
@@ -11732,33 +11818,6 @@
           }
         },
         {
-          "tekst": "tot",
-          "voorkomen": 2,
-          "strongs": [
-            "H5704"
-          ],
-          "bronwoorden": [
-            "עַד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:23",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "vee",
           "voorkomen": 1,
           "strongs": [
@@ -11787,12 +11846,12 @@
         },
         {
           "tekst": "tot",
-          "voorkomen": 3,
+          "voorkomen": 2,
           "strongs": [
             "H5704"
           ],
           "bronwoorden": [
-            "וְ/עַד"
+            "עַד"
           ],
           "transliteraties": [
             ""
@@ -11808,7 +11867,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:23",
             "bronindices": [
-              12
+              10
             ]
           }
         },
@@ -11836,6 +11895,33 @@
             "referentie": "GEN 7:23",
             "bronindices": [
               13
+            ]
+          }
+        },
+        {
+          "tekst": "tot",
+          "voorkomen": 3,
+          "strongs": [
+            "H5704"
+          ],
+          "bronwoorden": [
+            "וְ/עַד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:23",
+            "bronindices": [
+              12
             ]
           }
         },
@@ -11975,6 +12061,33 @@
           }
         },
         {
+          "tekst": "bleef over",
+          "voorkomen": 1,
+          "strongs": [
+            "H7604"
+          ],
+          "bronwoorden": [
+            "וַ/יִשָּׁ֧אֶר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:23",
+            "bronindices": [
+              24
+            ]
+          }
+        },
+        {
           "tekst": "alleen",
           "voorkomen": 1,
           "strongs": [
@@ -12056,10 +12169,13 @@
           }
         },
         {
-          "tekst": "met hem",
+          "tekst": "met",
           "voorkomen": 1,
           "strongs": [
             "H854"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "אִתּ֖/וֹ"
@@ -12070,13 +12186,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 7:23",
+            "grondindices": [
+              23
+            ],
             "bronindices": [
               22
             ]
@@ -12106,33 +12226,6 @@
             "referentie": "GEN 7:23",
             "bronindices": [
               23
-            ]
-          }
-        },
-        {
-          "tekst": "bleef over",
-          "voorkomen": 1,
-          "strongs": [
-            "H7604"
-          ],
-          "bronwoorden": [
-            "וַ/יִשָּׁ֧אֶר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:23",
-            "bronindices": [
-              24
             ]
           }
         }
@@ -12218,6 +12311,40 @@
       "textSV1888_html": "En de wateren hadden de overhand boven de<sup class=\"note-marker\" data-note=\"38\">38</sup> aarde, honderd en vijftig dagen.",
       "woordnummers": [
         {
+          "tekst": "overhand",
+          "voorkomen": 1,
+          "strongs": [
+            "H1396"
+          ],
+          "morfologie": [
+            "HC/Vqw3mp"
+          ],
+          "bronwoorden": [
+            "וַ/יִּגְבְּר֥וּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:24",
+            "grondindices": [
+              0
+            ],
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
           "tekst": "wateren",
           "voorkomen": 1,
           "strongs": [
@@ -12241,33 +12368,6 @@
             "referentie": "GEN 7:24",
             "bronindices": [
               0
-            ]
-          }
-        },
-        {
-          "tekst": "hadden de overhand",
-          "voorkomen": 1,
-          "strongs": [
-            "H1396"
-          ],
-          "bronwoorden": [
-            "וַ/יִּגְבְּר֥וּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:24",
-            "bronindices": [
-              1
             ]
           }
         },
@@ -12326,33 +12426,6 @@
           }
         },
         {
-          "tekst": "honderd",
-          "voorkomen": 1,
-          "strongs": [
-            "H3967"
-          ],
-          "bronwoorden": [
-            "וּ/מְאַ֖ת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 7:24",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
           "tekst": "vijftig",
           "voorkomen": 1,
           "strongs": [
@@ -12376,6 +12449,33 @@
             "referentie": "GEN 7:24",
             "bronindices": [
               5
+            ]
+          }
+        },
+        {
+          "tekst": "honderd",
+          "voorkomen": 1,
+          "strongs": [
+            "H3967"
+          ],
+          "bronwoorden": [
+            "וּ/מְאַ֖ת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 7:24",
+            "bronindices": [
+              4
             ]
           }
         },

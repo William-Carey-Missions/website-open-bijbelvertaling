@@ -209,10 +209,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -223,13 +226,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 4:1",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               5
             ]
@@ -371,10 +378,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke",
           "voorkomen": 1,
           "strongs": [
             "H8251"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp2ms"
           ],
           "bronwoorden": [
             "שִׁקּוּצֶ֛י/ךָ"
@@ -385,13 +395,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 4:1",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -13251,39 +13265,72 @@
           "toelichting": "Het Nederlandse 'niemand' trekt אֵין (H369) en אִישׁ (H376) samen; het hele woord draagt beide nummers."
         },
         {
-          "tekst": "daarin woont",
+          "tekst": "woont",
           "voorkomen": 1,
           "strongs": [
-            "H3427",
-            "H2004"
+            "H3427"
+          ],
+          "morfologie": [
+            "HVqrmsa"
           ],
           "bronwoorden": [
-            "יוֹשֵׁ֥ב",
-            "בָּ/הֵ֖ן"
+            "יוֹשֵׁ֥ב"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 4:29",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
               15
             ]
-          },
-          "gids_strongs": [
-            "H3427"
+          }
+        },
+        {
+          "tekst": "daarin",
+          "voorkomen": 1,
+          "strongs": [
+            "H2004"
           ],
-          "toelichting": "De uitlijngids heeft geen token voor בָּהֵן (H2004); de Nederlandse woordgroep 'daarin woont' dekt zowel יוֹשֵׁב (H3427) als בָּהֵן (H2004)."
+          "morfologie": [
+            "HR/Sp3fp"
+          ],
+          "bronwoorden": [
+            "בָּ/הֵ֖ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 4:29",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
+              16
+            ]
+          }
         }
       ]
     },
@@ -13984,10 +14031,13 @@
           }
         },
         {
-          "tekst": "boelen",
+          "tekst": "minnaars",
           "voorkomen": 1,
           "strongs": [
             "H5689"
+          ],
+          "morfologie": [
+            "HVqrmpa"
           ],
           "bronwoorden": [
             "עֹגְבִ֖ים"
@@ -13998,13 +14048,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 4:30",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               17
             ]

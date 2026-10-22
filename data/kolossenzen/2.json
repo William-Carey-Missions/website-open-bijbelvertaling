@@ -1136,10 +1136,16 @@
           }
         },
         {
-          "tekst": "vertroost mogen worden",
+          "tekst": "vertroost",
           "voorkomen": 1,
           "strongs": [
             "G3870"
+          ],
+          "lemma_strongs": [
+            "G3870"
+          ],
+          "morfologie": [
+            "V-APS-3P"
           ],
           "bronwoorden": [
             "παρακληθωσιν"
@@ -1150,17 +1156,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 2:2",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
+            "bronindices": [
               1
             ]
           }
@@ -5365,10 +5372,16 @@
           "toelichting": "Dit TR-token is niet afzonderlijk in het Nederlands weergegeven."
         },
         {
-          "tekst": "een",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -5379,18 +5392,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 2:8",
-            "bronindices": [
-              4
-            ],
             "grondindices": [
               5
+            ],
+            "bronindices": [
+              4
             ]
           }
         },
@@ -15576,32 +15590,47 @@
           }
         },
         {
-          "tekst": "zijn",
+          "tekst": "hebben",
           "voorkomen": 1,
           "strongs": [
-            "G1510"
+            "G1510",
+            "G2192"
+          ],
+          "lemma_strongs": [
+            "G1510",
+            "G2192"
+          ],
+          "morfologie": [
+            "V-PAI-3S",
+            "V-PAP-NPN"
           ],
           "bronwoorden": [
-            "εστιν"
+            "εστιν",
+            "εχοντα"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
             "referentie": "COL 2:23",
-            "bronindices": [
-              12
-            ],
             "grondindices": [
-              1
+              1,
+              4
+            ],
+            "bronindices": [
+              12,
+              2
             ]
           }
         },
@@ -15662,36 +15691,6 @@
             ],
             "grondindices": [
               3
-            ]
-          }
-        },
-        {
-          "tekst": "hebben",
-          "voorkomen": 1,
-          "strongs": [
-            "G2192"
-          ],
-          "bronwoorden": [
-            "εχοντα"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "55E93B76B56DE00A5BBFF47EDD687D7F535B08E83ED07EE9A8E6D095215011D3",
-            "referentie": "COL 2:23",
-            "bronindices": [
-              2
-            ],
-            "grondindices": [
-              4
             ]
           }
         },

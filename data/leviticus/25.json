@@ -5406,10 +5406,13 @@
           }
         },
         {
-          "tekst": "is",
+          "tekst": "dat",
           "voorkomen": 1,
           "strongs": [
             "H1931"
+          ],
+          "morfologie": [
+            "HPp3fs"
           ],
           "bronwoorden": [
             "הִ֔וא"
@@ -5420,13 +5423,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 25:12",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
@@ -13394,10 +13401,13 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
+          "tekst": "dat",
+          "voorkomen": 5,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹת֖/וֹ"
@@ -13408,21 +13418,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 25:30",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               16
             ]
-          },
-          "anker": "gekocht",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "geslachten",
@@ -22565,10 +22575,13 @@
           }
         },
         {
-          "tekst": "weinige",
+          "tekst": "weinig",
           "voorkomen": 1,
           "strongs": [
             "H4592"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "מְעַ֞ט"
@@ -22579,13 +22592,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 25:52",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -22676,57 +22693,42 @@
           "tekst": "jubeljaar",
           "voorkomen": 1,
           "strongs": [
-            "H8141"
-          ],
-          "bronwoorden": [
-            "שְׁנַ֥ת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
-            "referentie": "LEV 25:52",
-            "bronindices": [
-              5
-            ]
-          },
-          "toelichting": "Twee grondwoorden worden in het Nederlands door één samengesteld woord weergegeven; beide krijgen daarom hetzelfde ankerwoord."
-        },
-        {
-          "tekst": "jubeljaar",
-          "voorkomen": 1,
-          "strongs": [
+            "H8141",
             "H3104"
           ],
+          "morfologie": [
+            "HNcfsc",
+            "HTd/Ncmsa"
+          ],
           "bronwoorden": [
+            "שְׁנַ֥ת",
             "הַ/יֹּבֵ֖ל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5F1E0B5054B016372D35751D4CBBCE0F826BF2DA3CA774CA8CB7203292B10EFD",
             "referentie": "LEV 25:52",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              5,
               6
             ]
-          },
-          "toelichting": "Twee grondwoorden worden in het Nederlands door één samengesteld woord weergegeven; beide krijgen daarom hetzelfde ankerwoord."
+          }
         },
         {
           "tekst": "rekenen",

@@ -822,7 +822,7 @@
         },
         {
           "tekst": "uw",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G4771"
           ],
@@ -841,9 +841,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -852,6 +849,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:2",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -1765,7 +1765,7 @@
         },
         {
           "tekst": "uw",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G4771"
           ],
@@ -1784,9 +1784,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -1795,6 +1792,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:3",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               19
             ]
@@ -4016,7 +4016,7 @@
         },
         {
           "tekst": "u",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G4771"
           ],
@@ -4035,9 +4035,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -4046,6 +4043,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:6",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -8660,7 +8660,7 @@
         },
         {
           "tekst": "maar",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G1161"
           ],
@@ -8679,9 +8679,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -8690,6 +8687,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:12",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               18
             ]
@@ -10776,7 +10776,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -10795,9 +10795,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -10806,6 +10803,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:15",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -11005,35 +11005,25 @@
           }
         },
         {
-          "tekst": "gedaan zal hebben",
+          "tekst": "zal hebben",
           "voorkomen": 1,
           "strongs": [
-            "G1510",
-            "G4160"
+            "G1510"
           ],
           "lemma_strongs": [
-            "G1510",
-            "G4160"
+            "G1510"
           ],
           "morfologie": [
-            "V-PAS-3S",
-            "V-RAP-NSM"
+            "V-PAS-3S"
           ],
           "bronwoorden": [
-            "η",
-            "πεποιηκως"
+            "η"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            "G5725",
-            "G5761"
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -11043,8 +11033,47 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:15",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
-              15,
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "gedaan",
+          "voorkomen": 1,
+          "strongs": [
+            "G4160"
+          ],
+          "lemma_strongs": [
+            "G4160"
+          ],
+          "morfologie": [
+            "V-RAP-NSM"
+          ],
+          "bronwoorden": [
+            "πεποιηκως"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JAS.UTR",
+            "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
+            "referentie": "JAS 5:15",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
               16
             ]
           }
@@ -13028,7 +13057,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -13059,7 +13088,7 @@
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:18",
             "bronindices": [
-              3
+              8
             ]
           }
         },
@@ -13184,7 +13213,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G2532"
           ],
@@ -13203,9 +13232,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -13214,6 +13240,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 5:18",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]

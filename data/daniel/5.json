@@ -2390,13 +2390,13 @@
           }
         },
         {
-          "tekst": "vingeren",
+          "tekst": "kwamen",
           "voorkomen": 1,
           "strongs": [
-            "H677"
+            "H5312"
           ],
           "bronwoorden": [
-            "אֶצְבְּעָן֙"
+            "נפקו"
           ],
           "transliteraties": [
             ""
@@ -2411,6 +2411,41 @@
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:5",
+            "bronindices": [
+              5
+            ]
+          },
+          "toelichting": "Ketiv נפקו; het qere in <note type=\"variant\"> luidt נְפַ֨קָה֙. MorphHB geeft voor het ketiv H5312. Het scheidbare 'kwamen … voort' draagt het lemma op 'kwamen'."
+        },
+        {
+          "tekst": "vingers",
+          "voorkomen": 1,
+          "strongs": [
+            "H677"
+          ],
+          "morfologie": [
+            "ANcfpa"
+          ],
+          "bronwoorden": [
+            "אֶצְבְּעָן֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:5",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               1
             ]
@@ -2444,33 +2479,6 @@
           }
         },
         {
-          "tekst": "mens",
-          "voorkomen": 1,
-          "strongs": [
-            "H606"
-          ],
-          "bronwoorden": [
-            "אֱנָ֔שׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:5",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "hand",
           "voorkomen": 1,
           "strongs": [
@@ -2498,13 +2506,13 @@
           }
         },
         {
-          "tekst": "kwamen",
+          "tekst": "mens",
           "voorkomen": 1,
           "strongs": [
-            "H5312"
+            "H606"
           ],
           "bronwoorden": [
-            "נפקו"
+            "אֱנָ֔שׁ"
           ],
           "transliteraties": [
             ""
@@ -2520,10 +2528,9 @@
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:5",
             "bronindices": [
-              5
+              3
             ]
-          },
-          "toelichting": "Ketiv נפקו; het qere in <note type=\"variant\"> luidt נְפַ֨קָה֙. MorphHB geeft voor het ketiv H5312. Het scheidbare 'kwamen … voort' draagt het lemma op 'kwamen'."
+          }
         },
         {
           "tekst": "schreven",
@@ -2549,6 +2556,60 @@
             "referentie": "DAN 5:5",
             "bronindices": [
               6
+            ]
+          }
+        },
+        {
+          "tekst": "tegenover",
+          "voorkomen": 1,
+          "strongs": [
+            "H6903"
+          ],
+          "bronwoorden": [
+            "לָ/קֳבֵ֣ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:5",
+            "bronindices": [
+              11
+            ]
+          }
+        },
+        {
+          "tekst": "kandelaar",
+          "voorkomen": 1,
+          "strongs": [
+            "H5043"
+          ],
+          "bronwoorden": [
+            "נֶבְרַשְׁתָּ֔/א"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:5",
+            "bronindices": [
+              12
             ]
           }
         },
@@ -2661,13 +2722,13 @@
           }
         },
         {
-          "tekst": "tegenover",
+          "tekst": "paleis",
           "voorkomen": 1,
           "strongs": [
-            "H6903"
+            "H1965"
           ],
           "bronwoorden": [
-            "לָ/קֳבֵ֣ל"
+            "הֵיכְלָ֖/א"
           ],
           "transliteraties": [
             ""
@@ -2683,34 +2744,7 @@
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:5",
             "bronindices": [
-              11
-            ]
-          }
-        },
-        {
-          "tekst": "kandelaar",
-          "voorkomen": 1,
-          "strongs": [
-            "H5043"
-          ],
-          "bronwoorden": [
-            "נֶבְרַשְׁתָּ֔/א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:5",
-            "bronindices": [
-              12
+              15
             ]
           }
         },
@@ -2765,33 +2799,6 @@
             "referentie": "DAN 5:5",
             "bronindices": [
               14
-            ]
-          }
-        },
-        {
-          "tekst": "paleis",
-          "voorkomen": 1,
-          "strongs": [
-            "H1965"
-          ],
-          "bronwoorden": [
-            "הֵיכְלָ֖/א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:5",
-            "bronindices": [
-              15
             ]
           }
         },
@@ -3140,10 +3147,13 @@
           }
         },
         {
-          "tekst": "glans",
+          "tekst": "gelaatskleur",
           "voorkomen": 1,
           "strongs": [
             "H2122"
+          ],
+          "morfologie": [
+            "ANcmpc/Sp3ms"
           ],
           "bronwoorden": [
             "זִיוֺ֣/הִי"
@@ -3154,13 +3164,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:6",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
@@ -3249,33 +3263,6 @@
           }
         },
         {
-          "tekst": "lendenen",
-          "voorkomen": 1,
-          "strongs": [
-            "H2783"
-          ],
-          "bronwoorden": [
-            "חַרְצֵ/הּ֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:6",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "banden",
           "voorkomen": 1,
           "strongs": [
@@ -3299,6 +3286,33 @@
             "referentie": "DAN 5:6",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "lendenen",
+          "voorkomen": 1,
+          "strongs": [
+            "H2783"
+          ],
+          "bronwoorden": [
+            "חַרְצֵ/הּ֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:6",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -3390,10 +3404,13 @@
           "toelichting": "דָּא לְדָא ('deze tegen deze', tweemaal H1668) is met 'tegen elkaar' weergegeven; 'elkaar' draagt beide nummers."
         },
         {
-          "tekst": "stieten",
+          "tekst": "stootten",
           "voorkomen": 1,
           "strongs": [
             "H5368"
+          ],
+          "morfologie": [
+            "AVqrfpa"
           ],
           "bronwoorden": [
             "נָֽקְשָֽׁן"
@@ -3404,13 +3421,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:6",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
@@ -5144,10 +5165,13 @@
           }
         },
         {
-          "tekst": "glans",
+          "tekst": "gelaatskleur",
           "voorkomen": 1,
           "strongs": [
             "H2122"
+          ],
+          "morfologie": [
+            "AC/Ncmpc/Sp3ms"
           ],
           "bronwoorden": [
             "וְ/זִיוֺ֖/הִי"
@@ -5158,13 +5182,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:9",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
@@ -5449,6 +5477,33 @@
       ],
       "woordnummers": [
         {
+          "tekst": "koningin",
+          "voorkomen": 1,
+          "strongs": [
+            "H4433"
+          ],
+          "bronwoorden": [
+            "מַלְכְּתָ֕/א"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:10",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
           "tekst": "Om",
           "voorkomen": 1,
           "strongs": [
@@ -5557,13 +5612,13 @@
           }
         },
         {
-          "tekst": "koningin",
+          "tekst": "huis",
           "voorkomen": 1,
           "strongs": [
-            "H4433"
+            "H1005"
           ],
           "bronwoorden": [
-            "מַלְכְּתָ֕/א"
+            "לְ/בֵ֥ית"
           ],
           "transliteraties": [
             ""
@@ -5579,7 +5634,34 @@
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:10",
             "bronindices": [
-              4
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "maaltijd",
+          "voorkomen": 1,
+          "strongs": [
+            "H4961"
+          ],
+          "bronwoorden": [
+            "מִשְׁתְּיָ֖/א"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:10",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -5610,141 +5692,6 @@
             ]
           },
           "toelichting": "Ketiv עללת; het qere in <note type=\"variant\"> luidt עַלַּ֑ת. MorphHB geeft voor het ketiv H5954."
-        },
-        {
-          "tekst": "maaltijd",
-          "voorkomen": 1,
-          "strongs": [
-            "H4961"
-          ],
-          "bronwoorden": [
-            "מִשְׁתְּיָ֖/א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:10",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "huis",
-          "voorkomen": 1,
-          "strongs": [
-            "H1005"
-          ],
-          "bronwoorden": [
-            "לְ/בֵ֥ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:10",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "koning",
-          "voorkomen": 2,
-          "strongs": [
-            "H4430"
-          ],
-          "bronwoorden": [
-            "מַלְכָּ/א֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:10",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "leef",
-          "voorkomen": 1,
-          "strongs": [
-            "H2418"
-          ],
-          "bronwoorden": [
-            "חֱיִ֔י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:10",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "eeuwigheid",
-          "voorkomen": 1,
-          "strongs": [
-            "H5957"
-          ],
-          "bronwoorden": [
-            "לְ/עָלְמִ֣ין"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:10",
-            "bronindices": [
-              10
-            ]
-          }
         },
         {
           "tekst": "sprak",
@@ -5828,6 +5775,87 @@
           }
         },
         {
+          "tekst": "koning",
+          "voorkomen": 2,
+          "strongs": [
+            "H4430"
+          ],
+          "bronwoorden": [
+            "מַלְכָּ/א֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:10",
+            "bronindices": [
+              8
+            ]
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
+            "H5957"
+          ],
+          "bronwoorden": [
+            "לְ/עָלְמִ֣ין"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:10",
+            "bronindices": [
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "leef",
+          "voorkomen": 1,
+          "strongs": [
+            "H2418"
+          ],
+          "bronwoorden": [
+            "חֱיִ֔י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:10",
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
           "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
@@ -5851,33 +5879,6 @@
             "referentie": "DAN 5:10",
             "bronindices": [
               14
-            ]
-          }
-        },
-        {
-          "tekst": "gedachten",
-          "voorkomen": 1,
-          "strongs": [
-            "H7476"
-          ],
-          "bronwoorden": [
-            "רַעְיוֹנָ֔/ךְ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:10",
-            "bronindices": [
-              15
             ]
           }
         },
@@ -5909,13 +5910,13 @@
           }
         },
         {
-          "tekst": "glans",
+          "tekst": "gedachten",
           "voorkomen": 1,
           "strongs": [
-            "H2122"
+            "H7476"
           ],
           "bronwoorden": [
-            "וְ/זִיוָ֖י/ךְ"
+            "רַעְיוֹנָ֔/ךְ"
           ],
           "transliteraties": [
             ""
@@ -5930,6 +5931,40 @@
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:10",
+            "bronindices": [
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "gelaatskleur",
+          "voorkomen": 1,
+          "strongs": [
+            "H2122"
+          ],
+          "morfologie": [
+            "AC/Ncmpc/Sp2ms"
+          ],
+          "bronwoorden": [
+            "וְ/זִיוָ֖י/ךְ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:10",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
@@ -7124,256 +7159,79 @@
       ],
       "woordnummers": [
         {
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "Omdat",
+          "plaats": "voor",
+          "strongs": [
+            "H3606"
+          ],
+          "morfologie": [
+            "AC/C"
+          ],
+          "bronwoorden": [
+            "כָּ/ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "grondindices": [
+              0
+            ],
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
           "tekst": "Omdat",
           "voorkomen": 1,
           "strongs": [
-            "H3606",
             "H6903",
             "H1768"
           ],
+          "morfologie": [
+            "AC",
+            "AC"
+          ],
           "bronwoorden": [
-            "כָּ/ל",
             "קֳבֵ֡ל",
             "דִּ֣י"
           ],
           "transliteraties": [
             "",
-            "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:12",
-            "bronindices": [
-              0,
+            "grondindices": [
               1,
               2
-            ]
-          },
-          "toelichting": "כָּל־קֳבֵל דִּי ('om reden dat', H3606, H6903 en H1768) is samengetrokken tot één Nederlands woord 'Omdat'; dat woord draagt alle drie de nummers."
-        },
-        {
-          "tekst": "Daniël",
-          "voorkomen": 1,
-          "strongs": [
-            "H1841"
-          ],
-          "bronwoorden": [
-            "בְּ/דָ֣נִיֵּ֔אל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
+            ],
             "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "die",
-          "voorkomen": 3,
-          "strongs": [
-            "H1768"
-          ],
-          "bronwoorden": [
-            "דִּֽי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              4
-            ]
-          }
-        },
-        {
-          "tekst": "koning",
-          "voorkomen": 1,
-          "strongs": [
-            "H4430"
-          ],
-          "bronwoorden": [
-            "מַלְכָּ֥/א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "gaf",
-          "voorkomen": 1,
-          "strongs": [
-            "H7761"
-          ],
-          "bronwoorden": [
-            "שָׂם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
-          "tekst": "naam",
-          "voorkomen": 1,
-          "strongs": [
-            "H8036"
-          ],
-          "bronwoorden": [
-            "שְׁמֵ֖/הּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "Beltsazar",
-          "voorkomen": 1,
-          "strongs": [
-            "H1096"
-          ],
-          "bronwoorden": [
-            "בֵּלְטְשַׁאצַּ֑ר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
-          "tekst": "gevonden",
-          "voorkomen": 1,
-          "strongs": [
-            "H7912"
-          ],
-          "bronwoorden": [
-            "הִשְׁתְּכַ֤חַת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
-          "tekst": "voortreffelijke",
-          "voorkomen": 1,
-          "strongs": [
-            "H3493"
-          ],
-          "bronwoorden": [
-            "יַתִּירָ֡ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:12",
-            "bronindices": [
-              10
+              1,
+              2
             ]
           }
         },
@@ -7401,6 +7259,33 @@
             "referentie": "DAN 5:12",
             "bronindices": [
               11
+            ]
+          }
+        },
+        {
+          "tekst": "voortreffelijke",
+          "voorkomen": 1,
+          "strongs": [
+            "H3493"
+          ],
+          "bronwoorden": [
+            "יַתִּירָ֡ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              10
             ]
           }
         },
@@ -7621,13 +7506,13 @@
           }
         },
         {
-          "tekst": "geroepen",
+          "tekst": "gevonden",
           "voorkomen": 1,
           "strongs": [
-            "H7123"
+            "H7912"
           ],
           "bronwoorden": [
-            "יִתְקְרֵ֖י"
+            "הִשְׁתְּכַ֤חַת"
           ],
           "transliteraties": [
             ""
@@ -7643,18 +7528,18 @@
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:12",
             "bronindices": [
-              20
+              9
             ]
           }
         },
         {
           "tekst": "Daniël",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H1841"
           ],
           "bronwoorden": [
-            "דָּנִיֵּ֥אל"
+            "בְּ/דָ֣נִיֵּ֔אל"
           ],
           "transliteraties": [
             ""
@@ -7670,7 +7555,142 @@
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:12",
             "bronindices": [
-              21
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 3,
+          "strongs": [
+            "H1768"
+          ],
+          "bronwoorden": [
+            "דִּֽי"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "koning",
+          "voorkomen": 1,
+          "strongs": [
+            "H4430"
+          ],
+          "bronwoorden": [
+            "מַלְכָּ֥/א"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "gaf",
+          "voorkomen": 1,
+          "strongs": [
+            "H7761"
+          ],
+          "bronwoorden": [
+            "שָׂם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "naam",
+          "voorkomen": 1,
+          "strongs": [
+            "H8036"
+          ],
+          "bronwoorden": [
+            "שְׁמֵ֖/הּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "Beltsazar",
+          "voorkomen": 1,
+          "strongs": [
+            "H1096"
+          ],
+          "bronwoorden": [
+            "בֵּלְטְשַׁאצַּ֑ר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              8
             ]
           }
         },
@@ -7702,13 +7722,13 @@
           }
         },
         {
-          "tekst": "kennen",
-          "voorkomen": 1,
+          "tekst": "Daniël",
+          "voorkomen": 2,
           "strongs": [
-            "H2324"
+            "H1841"
           ],
           "bronwoorden": [
-            "יְהַֽחֲוֵֽה"
+            "דָּנִיֵּ֥אל"
           ],
           "transliteraties": [
             ""
@@ -7724,7 +7744,34 @@
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:12",
             "bronindices": [
-              23
+              21
+            ]
+          }
+        },
+        {
+          "tekst": "geroepen",
+          "voorkomen": 1,
+          "strongs": [
+            "H7123"
+          ],
+          "bronwoorden": [
+            "יִתְקְרֵ֖י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              20
             ]
           }
         },
@@ -7752,6 +7799,33 @@
             "referentie": "DAN 5:12",
             "bronindices": [
               24
+            ]
+          }
+        },
+        {
+          "tekst": "kennen",
+          "voorkomen": 1,
+          "strongs": [
+            "H2324"
+          ],
+          "bronwoorden": [
+            "יְהַֽחֲוֵֽה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:12",
+            "bronindices": [
+              23
             ]
           }
         }
@@ -14400,67 +14474,79 @@
           }
         },
         {
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "alhoewel",
+          "plaats": "voor",
+          "strongs": [
+            "H3606"
+          ],
+          "morfologie": [
+            "AC/C"
+          ],
+          "bronwoorden": [
+            "כָּ/ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:22",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              8
+            ]
+          }
+        },
+        {
           "tekst": "alhoewel",
           "voorkomen": 1,
           "strongs": [
-            "H3606",
             "H6903",
             "H1768"
           ],
+          "morfologie": [
+            "AC",
+            "AC"
+          ],
           "bronwoorden": [
-            "כָּ/ל",
             "קֳבֵ֕ל",
             "דִּ֥י"
           ],
           "transliteraties": [
             "",
-            "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
             "referentie": "DAN 5:22",
+            "grondindices": [
+              7,
+              8
+            ],
             "bronindices": [
-              8,
               6,
               7
-            ]
-          },
-          "toelichting": "כָּל־קֳבֵל דִּי ('om reden dat', H3606, H6903 en H1768) is samengetrokken tot één Nederlands woord 'alhoewel'; dat woord draagt alle drie de nummers. De uitlijngids zet zijn drie tokens in een andere volgorde; de bronindices zijn naar de grondtekstvolgorde geordend."
-        },
-        {
-          "tekst": "geweten",
-          "voorkomen": 1,
-          "strongs": [
-            "H3046"
-          ],
-          "bronwoorden": [
-            "יְדַֽעְתָּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
-            "referentie": "DAN 5:22",
-            "bronindices": [
-              9
             ]
           }
         },
@@ -14515,6 +14601,33 @@
             "referentie": "DAN 5:22",
             "bronindices": [
               11
+            ]
+          }
+        },
+        {
+          "tekst": "geweten",
+          "voorkomen": 1,
+          "strongs": [
+            "H3046"
+          ],
+          "bronwoorden": [
+            "יְדַֽעְתָּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "3E9486DBECAE45B0CA0EA5811B77FBC4D5C366769A7423AC0CA5D14D2A009755",
+            "referentie": "DAN 5:22",
+            "bronindices": [
+              9
             ]
           }
         }

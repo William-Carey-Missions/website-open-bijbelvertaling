@@ -1209,36 +1209,69 @@
           "tekst": "na",
           "voorkomen": 1,
           "strongs": [
-            "H310",
-            "H3651"
+            "H310"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
-            "אַחֲרֵי",
-            "כֵ֑ן"
+            "אַחֲרֵי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:4",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "gids_strongs": [
-            "H310"
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "H3651"
           ],
-          "toelichting": "'na deze' dekt אַחֲרֵי כֵן (H310 en H3651); de gids heeft geen token voor כֵן."
+          "morfologie": [
+            "HD"
+          ],
+          "bronwoorden": [
+            "כֵ֑ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 24:4",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
+            ]
+          }
         },
         {
           "tekst": "was",
@@ -3348,10 +3381,13 @@
           }
         },
         {
-          "tekst": "handelde",
+          "tekst": "goddeloos",
           "voorkomen": 1,
           "strongs": [
             "H4849"
+          ],
+          "morfologie": [
+            "HTd/Ncfsa"
           ],
           "bronwoorden": [
             "הַ/מִּרְשַׁ֔עַת"
@@ -3362,18 +3398,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:7",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               2
             ]
-          },
-          "toelichting": "הַמִּרְשַׁעַת (H4849, 'de goddeloze') is als 'goddeloos handelde' weergegeven."
+          }
         },
         {
           "tekst": "zonen",
@@ -3791,33 +3830,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "koning",
-          "voorkomen": 1,
-          "strongs": [
-            "H4428"
-          ],
-          "bronwoorden": [
-            "הַ/מֶּ֔לֶךְ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 24:8",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "gebood",
           "voorkomen": 1,
           "strongs": [
@@ -3844,6 +3856,33 @@
             ]
           },
           "toelichting": "וַיֹּאמֶר (H559, 'hij zei') is als 'gebood' weergegeven."
+        },
+        {
+          "tekst": "koning",
+          "voorkomen": 1,
+          "strongs": [
+            "H4428"
+          ],
+          "bronwoorden": [
+            "הַ/מֶּ֔לֶךְ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 24:8",
+            "bronindices": [
+              0
+            ]
+          }
         },
         {
           "tekst": "maakten",
@@ -3900,10 +3939,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "een",
           "voorkomen": 1,
           "strongs": [
             "H259"
+          ],
+          "morfologie": [
+            "HAcmsa"
           ],
           "bronwoorden": [
             "אֶחָ֑ד"
@@ -3914,21 +3956,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:8",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               2
             ]
-          },
-          "anker": "kist",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "אֶחָד (H259, 'één') is in het Nederlands als onbepaald lidwoord opgegaan."
+          }
         },
         {
           "tekst": "stelden",
@@ -6481,10 +6523,13 @@
           }
         },
         {
-          "tekst": "zij",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqw3mp"
           ],
           "bronwoorden": [
             "וַ/יִּֽהְי֤וּ"
@@ -6495,18 +6540,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:12",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "וַיִּהְיוּ (H1961) hoort bij 'zij huurden'."
+          }
         },
         {
           "tekst": "huurden",
@@ -8147,10 +8195,13 @@
           }
         },
         {
-          "tekst": "zij",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqw3mp"
           ],
           "bronwoorden": [
             "וַ֠/יִּֽהְיוּ"
@@ -8161,18 +8212,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:14",
+            "grondindices": [
+              19
+            ],
             "bronindices": [
               22
             ]
-          },
-          "toelichting": "וַיִּהְיוּ (H1961) hoort bij 'zij offerden'."
+          }
         },
         {
           "tekst": "offerden",
@@ -8536,10 +8590,13 @@
           }
         },
         {
-          "tekst": "zat",
+          "tekst": "verzadigd",
           "voorkomen": 1,
           "strongs": [
             "H7646"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יִּשְׂבַּ֥ע"
@@ -8550,18 +8607,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:15",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "וַיִּשְׂבַּע (H7646, 'hij werd verzadigd') is als 'zat van dagen' weergegeven."
+          }
         },
         {
           "tekst": "dagen",
@@ -11564,9 +11624,12 @@
         },
         {
           "tekst": "u",
-          "voorkomen": 3,
+          "voorkomen": 4,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp2mp"
           ],
           "bronwoorden": [
             "אֶתְ/כֶֽם"
@@ -11577,18 +11640,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:20",
+            "grondindices": [
+              29
+            ],
             "bronindices": [
               28
             ]
-          },
-          "toelichting": "אֶתְכֶם (H853 met suffix, 'u') is als 'u' weergegeven."
+          }
         }
       ]
     },
@@ -11682,10 +11748,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "maakten",
+          "tekst": "samenzwering",
           "voorkomen": 1,
           "strongs": [
             "H7194"
+          ],
+          "morfologie": [
+            "HC/Vqw3mp"
           ],
           "bronwoorden": [
             "וַ/יִּקְשְׁר֣וּ"
@@ -11696,23 +11765,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:21",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
           }
         },
         {
-          "tekst": "verbintenis",
+          "tekst": "tegen",
           "voorkomen": 1,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
           ],
           "bronwoorden": [
             "עָלָ֔י/ו"
@@ -11723,18 +11799,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:21",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "עָלָיו (H5921 met suffix, 'tegen hem') hoort bij 'een verbintenis tegen hem'; gekoppeld aan 'verbintenis'."
+          }
         },
         {
           "tekst": "stenigden",
@@ -12743,10 +12822,13 @@
           }
         },
         {
-          "tekst": "omgang",
+          "tekst": "wisseling",
           "voorkomen": 1,
           "strongs": [
             "H8622"
+          ],
+          "morfologie": [
+            "HR/Ncfsc"
           ],
           "bronwoorden": [
             "לִ/תְקוּפַ֣ת"
@@ -12757,18 +12839,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:23",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "לִתְקוּפַת (H8622, 'bij de wending van') is als 'met de omgang van' weergegeven."
+          }
         },
         {
           "tekst": "jaar",
@@ -13130,33 +13215,6 @@
         },
         {
           "tekst": "volk",
-          "voorkomen": 1,
-          "strongs": [
-            "H5971"
-          ],
-          "bronwoorden": [
-            "הָ/עָ֖ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 24:23",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
-          "tekst": "volk",
           "voorkomen": 2,
           "strongs": [
             "H5971"
@@ -13179,6 +13237,33 @@
             "referentie": "2CH 24:23",
             "bronindices": [
               16
+            ]
+          }
+        },
+        {
+          "tekst": "volk",
+          "voorkomen": 1,
+          "strongs": [
+            "H5971"
+          ],
+          "bronwoorden": [
+            "הָ/עָ֖ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 24:23",
+            "bronindices": [
+              15
             ]
           }
         },
@@ -13528,63 +13613,6 @@
           }
         },
         {
-          "tekst": "legermacht",
-          "voorkomen": 1,
-          "strongs": [
-            "H2426"
-          ],
-          "bronwoorden": [
-            "חֵ֣יל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 24:24",
-            "bronindices": [
-              2
-            ]
-          },
-          "gids_strongs": [
-            "H2428"
-          ]
-        },
-        {
-          "tekst": "Syrië",
-          "voorkomen": 1,
-          "strongs": [
-            "H758"
-          ],
-          "bronwoorden": [
-            "אֲרָ֗ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
-            "referentie": "2CH 24:24",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
           "tekst": "weinig",
           "voorkomen": 1,
           "strongs": [
@@ -13669,13 +13697,13 @@
           }
         },
         {
-          "tekst": "gaf",
+          "tekst": "legermacht",
           "voorkomen": 1,
           "strongs": [
-            "H5414"
+            "H2426"
           ],
           "bronwoorden": [
-            "נָתַ֨ן"
+            "חֵ֣יל"
           ],
           "transliteraties": [
             ""
@@ -13691,7 +13719,37 @@
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:24",
             "bronindices": [
-              7
+              2
+            ]
+          },
+          "gids_strongs": [
+            "H2428"
+          ]
+        },
+        {
+          "tekst": "Syrië",
+          "voorkomen": 1,
+          "strongs": [
+            "H758"
+          ],
+          "bronwoorden": [
+            "אֲרָ֗ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 24:24",
+            "bronindices": [
+              1
             ]
           }
         },
@@ -13719,6 +13777,33 @@
             "referentie": "2CH 24:24",
             "bronindices": [
               6
+            ]
+          }
+        },
+        {
+          "tekst": "gaf",
+          "voorkomen": 1,
+          "strongs": [
+            "H5414"
+          ],
+          "bronwoorden": [
+            "נָתַ֨ן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
+            "referentie": "2CH 24:24",
+            "bronindices": [
+              7
             ]
           }
         },
@@ -13777,10 +13862,13 @@
           }
         },
         {
-          "tekst": "grote",
+          "tekst": "menigte",
           "voorkomen": 1,
           "strongs": [
             "H7230"
+          ],
+          "morfologie": [
+            "HR/Ncbsa"
           ],
           "bronwoorden": [
             "לָ/רֹ֣ב"
@@ -13791,23 +13879,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:24",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
           }
         },
         {
-          "tekst": "menigte",
+          "tekst": "grote",
           "voorkomen": 1,
           "strongs": [
             "H3966"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
             "מְאֹ֔ד"
@@ -13818,13 +13913,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:24",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               9
             ]
@@ -14498,10 +14597,13 @@
           }
         },
         {
-          "tekst": "maakten",
+          "tekst": "samenzwering",
           "voorkomen": 1,
           "strongs": [
             "H7194"
+          ],
+          "morfologie": [
+            "HVtp3cp"
           ],
           "bronwoorden": [
             "הִתְקַשְּׁר֨וּ"
@@ -14512,18 +14614,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:25",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               8
             ]
-          },
-          "toelichting": "הִתְקַשְּׁרוּ (H7194, 'zij spanden samen') is als 'maakten een verbintenis' weergegeven; gekoppeld aan 'maakten'."
+          }
         },
         {
           "tekst": "tegen",
@@ -15115,10 +15220,13 @@
           }
         },
         {
-          "tekst": "verbintenis",
+          "tekst": "samenzwering",
           "voorkomen": 1,
           "strongs": [
             "H7194"
+          ],
+          "morfologie": [
+            "HTd/Vtrmpa"
           ],
           "bronwoorden": [
             "הַ/מִּתְקַשְּׁרִ֣ים"
@@ -15129,18 +15237,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 24:26",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "toelichting": "הַמִּתְקַשְּׁרִים (H7194, 'de samenzweerders') is als 'die een verbintenis maakten' weergegeven."
+          }
         },
         {
           "tekst": "tegen",

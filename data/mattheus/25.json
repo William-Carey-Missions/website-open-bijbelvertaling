@@ -2418,32 +2418,47 @@
       ],
       "woordnummers": [
         {
-          "tekst": "om",
+          "tekst": "middernacht",
           "voorkomen": 1,
           "strongs": [
-            "G3319"
+            "G3319",
+            "G3571"
+          ],
+          "lemma_strongs": [
+            "G3319",
+            "G3571"
+          ],
+          "morfologie": [
+            "A-GSF",
+            "N-GSF"
           ],
           "bronwoorden": [
-            "μεσης"
+            "μεσης",
+            "νυκτος"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "E4F6964CC06BB34631C501C30A59544C5DB3C4C15E27D9A7069AA1706A07B724",
             "referentie": "MAT 25:6",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
-              0
+              0,
+              2
+            ],
+            "bronindices": [
+              0,
+              2
             ]
           }
         },
@@ -2474,36 +2489,6 @@
             ],
             "grondindices": [
               1
-            ]
-          }
-        },
-        {
-          "tekst": "middernacht",
-          "voorkomen": 1,
-          "strongs": [
-            "G3571"
-          ],
-          "bronwoorden": [
-            "νυκτος"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "lokale-tr-grondtekst",
-            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
-            "sha256": "E4F6964CC06BB34631C501C30A59544C5DB3C4C15E27D9A7069AA1706A07B724",
-            "referentie": "MAT 25:6",
-            "bronindices": [
-              2
-            ],
-            "grondindices": [
-              2
             ]
           }
         },
@@ -4191,10 +4176,16 @@
           }
         },
         {
-          "tekst": "geen geval",
+          "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
             "G3756"
+          ],
+          "lemma_strongs": [
+            "G3756"
+          ],
+          "morfologie": [
+            "PRT-N"
           ],
           "bronwoorden": [
             "ουκ"
@@ -4205,17 +4196,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "E4F6964CC06BB34631C501C30A59544C5DB3C4C15E27D9A7069AA1706A07B724",
             "referentie": "MAT 25:9",
-            "bronindices": [
+            "grondindices": [
               6
             ],
-            "grondindices": [
+            "bronindices": [
               6
             ]
           }
@@ -17362,10 +17354,16 @@
           }
         },
         {
-          "tekst": "het",
-          "voorkomen": 2,
+          "tekst": "degene",
+          "voorkomen": 1,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSM"
           ],
           "bronwoorden": [
             "τω"
@@ -17376,17 +17374,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "E4F6964CC06BB34631C501C30A59544C5DB3C4C15E27D9A7069AA1706A07B724",
             "referentie": "MAT 25:28",
-            "bronindices": [
+            "grondindices": [
               8
             ],
-            "grondindices": [
+            "bronindices": [
               8
             ]
           }

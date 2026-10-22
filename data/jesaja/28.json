@@ -1540,9 +1540,12 @@
       "woordnummers": [
         {
           "tekst": "zijn",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqq3fs"
           ],
           "bronwoorden": [
             "וְֽ/הָ֨יְתָ֜ה"
@@ -1553,13 +1556,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 28:4",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               9
             ]
@@ -9232,10 +9239,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Van de tijd af",
+          "tekst": "tijd",
           "voorkomen": 1,
           "strongs": [
             "H1767"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
           ],
           "bronwoorden": [
             "מִ/דֵּ֤י"
@@ -9246,13 +9256,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 28:19",
+            "grondindices": [
+              0
+            ],
             "bronindices": [
               0
             ]
@@ -9367,11 +9381,15 @@
           }
         },
         {
-          "tekst": "elke morgen",
+          "tekst": "morgen",
           "voorkomen": 1,
           "strongs": [
             "H1242",
             "H1242"
+          ],
+          "morfologie": [
+            "HRd/Ncmsa",
+            "HRd/Ncmsa"
           ],
           "bronwoorden": [
             "בַ/בֹּ֧קֶר",
@@ -9385,19 +9403,23 @@
             "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 28:19",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
               6,
               7
             ]
-          },
-          "toelichting": "בַ/בֹּ֧קֶר בַּ/בֹּ֛קֶר ('morgen aan morgen') staat in MorphHB als twee tokens; het Nederlands vat de herhaling samen in 'elke morgen'."
+          }
         },
         {
           "tekst": "doortrekken",

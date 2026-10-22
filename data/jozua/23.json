@@ -202,55 +202,42 @@
           }
         },
         {
-          "tekst": "na",
-          "voorkomen": 1,
-          "strongs": [
-            "H310"
-          ],
-          "bronwoorden": [
-            "אַ֠חֲרֵי"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
-            "referentie": "JOS 23:1",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "nadat",
           "voorkomen": 1,
           "strongs": [
+            "H310",
             "H834"
           ],
+          "morfologie": [
+            "HR",
+            "HTr"
+          ],
           "bronwoorden": [
+            "אַ֠חֲרֵי",
             "אֲשֶׁר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 23:1",
+            "grondindices": [
+              3,
+              4
+            ],
             "bronindices": [
+              3,
               4
             ]
           }
@@ -4842,39 +4829,72 @@
           }
         },
         {
-          "tekst": "enig",
+          "tekst": "Één",
           "voorkomen": 1,
           "strongs": [
-            "H259",
-            "H4480"
+            "H259"
+          ],
+          "morfologie": [
+            "HAcmsa"
           ],
           "bronwoorden": [
-            "אֶחָ֥ד",
-            "מִ/כֶּ֖ם"
+            "אֶחָ֥ד"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
             "referentie": "JOS 23:10",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
-          },
-          "gids_strongs": [
-            "H259"
+          }
+        },
+        {
+          "tekst": "onder",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "De uitlijngids heeft geen eigen token voor mikkem ('onder u'); dat grondtoken staat daarom samen met echad in één koppeling."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֖ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "71A82EA7A4491FB3B4C3BF8F1CB8E86AC3C4119D56F831D16DF00131018FAAE2",
+            "referentie": "JOS 23:10",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
+            ]
+          }
         },
         {
           "tekst": "jagen",

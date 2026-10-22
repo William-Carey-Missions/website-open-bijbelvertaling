@@ -1448,10 +1448,13 @@
           }
         },
         {
-          "tekst": "zijn",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
             "H8033"
+          ],
+          "morfologie": [
+            "HD"
           ],
           "bronwoorden": [
             "שָׁ֔ם"
@@ -1462,18 +1465,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:3",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
-          },
-          "toelichting": "שָׁם ('daar') gaat op in 'waar u zult zijn'; het anker staat op 'zijn'."
+          }
         },
         {
           "tekst": "ik",
@@ -5240,33 +5246,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Saul",
-          "voorkomen": 1,
-          "strongs": [
-            "H7586"
-          ],
-          "bronwoorden": [
-            "שָׁא֜וּל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "zocht",
           "voorkomen": 1,
           "strongs": [
@@ -5294,6 +5273,33 @@
           }
         },
         {
+          "tekst": "Saul",
+          "voorkomen": 1,
+          "strongs": [
+            "H7586"
+          ],
+          "bronwoorden": [
+            "שָׁא֜וּל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
           "tekst": "spitten",
           "voorkomen": 1,
           "strongs": [
@@ -5317,6 +5323,33 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               2
+            ]
+          }
+        },
+        {
+          "tekst": "speer",
+          "voorkomen": 1,
+          "strongs": [
+            "H2595"
+          ],
+          "bronwoorden": [
+            "בַּֽ/חֲנִית֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "bronindices": [
+              5
             ]
           }
         },
@@ -5371,60 +5404,6 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               4
-            ]
-          }
-        },
-        {
-          "tekst": "speer",
-          "voorkomen": 1,
-          "strongs": [
-            "H2595"
-          ],
-          "bronwoorden": [
-            "בַּֽ/חֲנִית֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "David",
-          "voorkomen": 2,
-          "strongs": [
-            "H1732"
-          ],
-          "bronwoorden": [
-            "וְ/דָוִ֛ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              6
             ]
           }
         },
@@ -5510,33 +5489,6 @@
           }
         },
         {
-          "tekst": "speer",
-          "voorkomen": 2,
-          "strongs": [
-            "H2595"
-          ],
-          "bronwoorden": [
-            "הַ/חֲנִ֖ית"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              10
-            ]
-          }
-        },
-        {
           "tekst": "sloeg",
           "voorkomen": 1,
           "strongs": [
@@ -5566,11 +5518,47 @@
         {
           "tekst": "",
           "voorkomen": 2,
+          "anker": "speer",
+          "plaats": "voor",
           "strongs": [
             "H853"
           ],
+          "morfologie": [
+            "HTo"
+          ],
           "bronwoorden": [
             "אֶֽת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
+          "tekst": "speer",
+          "voorkomen": 2,
+          "strongs": [
+            "H2595"
+          ],
+          "bronwoorden": [
+            "הַ/חֲנִ֖ית"
           ],
           "transliteraties": [
             ""
@@ -5586,13 +5574,9 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:10",
             "bronindices": [
-              12
+              10
             ]
-          },
-          "anker": "wand",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdend-voorwerpteken אֶת is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "wand",
@@ -5618,6 +5602,33 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               13
+            ]
+          }
+        },
+        {
+          "tekst": "David",
+          "voorkomen": 2,
+          "strongs": [
+            "H1732"
+          ],
+          "bronwoorden": [
+            "וְ/דָוִ֛ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "bronindices": [
+              6
             ]
           }
         },
@@ -5676,33 +5687,6 @@
           }
         },
         {
-          "tekst": "die",
-          "voorkomen": 1,
-          "strongs": [
-            "H1931"
-          ],
-          "bronwoorden": [
-            "הֽוּא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:10",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
           "tekst": "nacht",
           "voorkomen": 1,
           "strongs": [
@@ -5726,6 +5710,40 @@
             "referentie": "1SA 19:10",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "die",
+          "voorkomen": 2,
+          "strongs": [
+            "H1931"
+          ],
+          "morfologie": [
+            "HPp3ms"
+          ],
+          "bronwoorden": [
+            "הֽוּא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:10",
+            "grondindices": [
+              17
+            ],
+            "bronindices": [
+              16
             ]
           }
         }
@@ -12113,13 +12131,13 @@
       ],
       "woordnummers": [
         {
-          "tekst": "voortgaande",
+          "tekst": "ging",
           "voorkomen": 1,
           "strongs": [
-            "H1980"
+            "H3212"
           ],
           "bronwoorden": [
-            "הָלוֹךְ֙"
+            "וַ/יֵּ֣לֶךְ"
           ],
           "transliteraties": [
             ""
@@ -12135,9 +12153,12 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:23",
             "bronindices": [
-              0
+              11
             ]
-          }
+          },
+          "gids_strongs": [
+            "H1980"
+          ]
         },
         {
           "tekst": "daarheen",
@@ -12245,60 +12266,6 @@
             "referentie": "1SA 19:23",
             "bronindices": [
               4
-            ]
-          }
-        },
-        {
-          "tekst": "Geest",
-          "voorkomen": 1,
-          "strongs": [
-            "H7307"
-          ],
-          "bronwoorden": [
-            "ר֣וּחַ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:23",
-            "bronindices": [
-              5
-            ]
-          }
-        },
-        {
-          "tekst": "God",
-          "voorkomen": 1,
-          "strongs": [
-            "H430"
-          ],
-          "bronwoorden": [
-            "אֱלֹהִ֗ים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
-            "referentie": "1SA 19:23",
-            "bronindices": [
-              6
             ]
           }
         },
@@ -12412,13 +12379,13 @@
           "toelichting": "גַּם הוּא ('ook hij') is in de Statenvertaling met 'dezelfde … ook' weergegeven; הוּא draagt 'dezelfde'."
         },
         {
-          "tekst": "ging",
+          "tekst": "Geest",
           "voorkomen": 1,
           "strongs": [
-            "H3212"
+            "H7307"
           ],
           "bronwoorden": [
-            "וַ/יֵּ֣לֶךְ"
+            "ר֣וּחַ"
           ],
           "transliteraties": [
             ""
@@ -12434,21 +12401,18 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:23",
             "bronindices": [
-              11
+              5
             ]
-          },
-          "gids_strongs": [
-            "H1980"
-          ]
+          }
         },
         {
-          "tekst": "al",
+          "tekst": "God",
           "voorkomen": 1,
           "strongs": [
-            "H3212"
+            "H430"
           ],
           "bronwoorden": [
-            "וַ/יֵּ֤לֶךְ"
+            "אֱלֹהִ֗ים"
           ],
           "transliteraties": [
             ""
@@ -12464,13 +12428,50 @@
             "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
             "referentie": "1SA 19:23",
             "bronindices": [
-              12
+              6
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "voortgaande",
+          "voorkomen": 1,
+          "strongs": [
+            "H3212",
             "H1980"
           ],
-          "toelichting": "וַיֵּלֶךְ הָלוֹךְ ('hij ging al voortgaande') is over 'al voortgaande' verdeeld."
+          "morfologie": [
+            "HC/Vqw3ms",
+            "HVqa"
+          ],
+          "bronwoorden": [
+            "וַ/יֵּ֤לֶךְ",
+            "הָלוֹךְ֙"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2797EE31215F5EB2214A044A198474F6AB4B9BD3B84507FA32DC99AA18493794",
+            "referentie": "1SA 19:23",
+            "grondindices": [
+              11,
+              12
+            ],
+            "bronindices": [
+              11,
+              0
+            ]
+          }
         },
         {
           "tekst": "profeteerde",

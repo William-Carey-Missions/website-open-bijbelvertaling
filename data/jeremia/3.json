@@ -2195,9 +2195,12 @@
         },
         {
           "tekst": "U",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H859"
+          ],
+          "morfologie": [
+            "HPp2ms"
           ],
           "bronwoorden": [
             "אָֽתָּה"
@@ -2208,13 +2211,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:4",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               4
             ]
@@ -4131,10 +4138,13 @@
           }
         },
         {
-          "tekst": "dat",
+          "tekst": "als",
           "voorkomen": 1,
           "strongs": [
             "H3588"
+          ],
+          "morfologie": [
+            "HC"
           ],
           "bronwoorden": [
             "כִּ֤י"
@@ -4145,13 +4155,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:8",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -4161,26 +4175,40 @@
           "tekst": "vanwege",
           "voorkomen": 1,
           "strongs": [
-            "H5921"
+            "H5921",
+            "H182"
+          ],
+          "morfologie": [
+            "HR",
+            "HNcfpa"
           ],
           "bronwoorden": [
-            "עַל"
+            "עַל",
+            "אֹדוֹת֙"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:8",
+            "grondindices": [
+              2,
+              4
+            ],
             "bronindices": [
-              2
+              2,
+              4
             ]
           }
         },
@@ -4210,37 +4238,6 @@
               3
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H182"
-          ],
-          "bronwoorden": [
-            "אֹדוֹת֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
-            "referentie": "JER 3:8",
-            "bronindices": [
-              4
-            ]
-          },
-          "anker": "waarin",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "אֹדוֹת (H182) 'oorzaken' heeft in de Nederlandse zin geen zelfstandig woord; het is vóór 'waarin' ingevoegd."
         },
         {
           "tekst": "waarin",
@@ -6520,29 +6517,43 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
+            "H5002",
             "H5002"
           ],
+          "morfologie": [
+            "HNcmsc",
+            "HNcmsc"
+          ],
           "bronwoorden": [
+            "נְאֻם",
             "נְאֻם"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:12",
+            "grondindices": [
+              10,
+              19
+            ],
             "bronindices": [
-              10
+              10,
+              18
             ]
           }
         },
@@ -6733,33 +6744,6 @@
             "referentie": "JER 3:12",
             "bronindices": [
               16
-            ]
-          }
-        },
-        {
-          "tekst": "spreekt",
-          "voorkomen": 1,
-          "strongs": [
-            "H5002"
-          ],
-          "bronwoorden": [
-            "נְאֻם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
-            "referentie": "JER 3:12",
-            "bronindices": [
-              18
             ]
           }
         },
@@ -7801,10 +7785,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -7815,13 +7802,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:14",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -11230,39 +11221,72 @@
           }
         },
         {
-          "tekst": "tot Mij roepen",
+          "tekst": "roepen",
           "voorkomen": 1,
           "strongs": [
-            "H7121",
             "H7121"
           ],
+          "morfologie": [
+            "HVqi2mp"
+          ],
           "bronwoorden": [
-            "תקראו",
-            "לִ֔/י"
+            "תקראו"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:19",
+            "grondindices": [
+              15
+            ],
             "bronindices": [
-              13
+              15
             ]
-          },
-          "gids_strongs": [
+          }
+        },
+        {
+          "tekst": "Mij",
+          "voorkomen": 1,
+          "strongs": [
             "H7121"
           ],
-          "toelichting": "De uitlijngids vat תקראו לי in één token samen; MorphHB telt twee tokens die beide H7121 dragen. De Nederlandse woordgroep 'tot Mij roepen' draagt daarom H7121 tweemaal."
+          "morfologie": [
+            "HR/Sp1cs"
+          ],
+          "bronwoorden": [
+            "לִ֔/י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
+            "referentie": "JER 3:19",
+            "grondindices": [
+              16
+            ],
+            "bronindices": [
+              16
+            ]
+          }
         },
         {
           "tekst": "achter",
@@ -11487,10 +11511,13 @@
           }
         },
         {
-          "tekst": "scheidt",
+          "tekst": "trouweloos",
           "voorkomen": 1,
           "strongs": [
             "H898"
+          ],
+          "morfologie": [
+            "HVqp3fs"
           ],
           "bronwoorden": [
             "בָּגְדָ֥ה"
@@ -11501,13 +11528,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:20",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               2
             ]
@@ -11676,10 +11707,13 @@
           }
         },
         {
-          "tekst": "spreek",
+          "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
             "H5002"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
             "נְאֻם"
@@ -11690,13 +11724,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:20",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]
@@ -12595,9 +12633,12 @@
         },
         {
           "tekst": "U",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "H859"
+          ],
+          "morfologie": [
+            "HPp2ms"
           ],
           "bronwoorden": [
             "אַתָּ֖ה"
@@ -12608,13 +12649,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 3:22",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               8
             ]

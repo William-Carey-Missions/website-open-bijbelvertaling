@@ -1568,6 +1568,36 @@
       ],
       "woordnummers": [
         {
+          "tekst": "trok",
+          "voorkomen": 1,
+          "strongs": [
+            "H3212"
+          ],
+          "bronwoorden": [
+            "וַ/יֵּ֥לֶךְ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:4",
+            "bronindices": [
+              7
+            ]
+          },
+          "gids_strongs": [
+            "H1980"
+          ]
+        },
+        {
           "tekst": "Abram",
           "voorkomen": 1,
           "strongs": [
@@ -1595,36 +1625,6 @@
           }
         },
         {
-          "tekst": "trok heen",
-          "voorkomen": 1,
-          "strongs": [
-            "H3212"
-          ],
-          "bronwoorden": [
-            "וַ/יֵּ֣לֶךְ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              1
-            ]
-          },
-          "gids_strongs": [
-            "H1980"
-          ]
-        },
-        {
           "tekst": "zoals",
           "voorkomen": 1,
           "strongs": [
@@ -1648,33 +1648,6 @@
             "referentie": "GEN 12:4",
             "bronindices": [
               2
-            ]
-          }
-        },
-        {
-          "tekst": "JAHWEH",
-          "voorkomen": 1,
-          "strongs": [
-            "H3068"
-          ],
-          "bronwoorden": [
-            "יְהוָ֔ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              3
             ]
           }
         },
@@ -1706,13 +1679,47 @@
           }
         },
         {
-          "tekst": "hem",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
           ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
           "bronwoorden": [
             "אֵלָי/ו֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:4",
+            "grondindices": [
+              4
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 1,
+          "strongs": [
+            "H3068"
+          ],
+          "bronwoorden": [
+            "יְהוָ֔ה"
           ],
           "transliteraties": [
             ""
@@ -1728,7 +1735,75 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:4",
             "bronindices": [
-              5
+              3
+            ]
+          }
+        },
+        {
+          "tekst": "trok",
+          "voorkomen": 2,
+          "strongs": [
+            "H3212"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
+          ],
+          "bronwoorden": [
+            "וַ/יֵּ֥לֶךְ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:4",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "met",
+          "voorkomen": 1,
+          "strongs": [
+            "H854"
+          ],
+          "morfologie": [
+            "HR/Sp3ms"
+          ],
+          "bronwoorden": [
+            "אִתּ֖/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:4",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              8
             ]
           }
         },
@@ -1760,63 +1835,6 @@
           }
         },
         {
-          "tekst": "trok",
-          "voorkomen": 1,
-          "strongs": [
-            "H3212"
-          ],
-          "bronwoorden": [
-            "וַ/יֵּ֥לֶךְ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              7
-            ]
-          },
-          "gids_strongs": [
-            "H1980"
-          ]
-        },
-        {
-          "tekst": "met hem",
-          "voorkomen": 1,
-          "strongs": [
-            "H854"
-          ],
-          "bronwoorden": [
-            "אִתּ֖/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
           "tekst": "Abram",
           "voorkomen": 2,
           "strongs": [
@@ -1840,6 +1858,40 @@
             "referentie": "GEN 12:4",
             "bronindices": [
               9
+            ]
+          }
+        },
+        {
+          "tekst": "oud",
+          "voorkomen": 1,
+          "strongs": [
+            "H1121"
+          ],
+          "morfologie": [
+            "HNcmsc"
+          ],
+          "bronwoorden": [
+            "בֶּן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:4",
+            "grondindices": [
+              10
+            ],
+            "bronindices": [
+              13
             ]
           }
         },
@@ -1871,6 +1923,47 @@
           }
         },
         {
+          "tekst": "jaar",
+          "voorkomen": 1,
+          "strongs": [
+            "H8141",
+            "H8141"
+          ],
+          "morfologie": [
+            "HNcfpa",
+            "HNcfsa"
+          ],
+          "bronwoorden": [
+            "שָׁנִים֙",
+            "שָׁנָ֔ה"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:4",
+            "grondindices": [
+              12,
+              14
+            ],
+            "bronindices": [
+              12,
+              14
+            ]
+          }
+        },
+        {
           "tekst": "zeventig",
           "voorkomen": 1,
           "strongs": [
@@ -1894,95 +1987,6 @@
             "referentie": "GEN 12:4",
             "bronindices": [
               11
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H8141"
-          ],
-          "bronwoorden": [
-            "שָׁנִים֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              12
-            ]
-          },
-          "anker": "vijf",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Eerste deel van de Hebreeuwse leeftijdsconstructie; niet afzonderlijk weergegeven."
-        },
-        {
-          "tekst": "",
-          "voorkomen": 2,
-          "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "בֶּן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              13
-            ]
-          },
-          "anker": "Abram",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Leeftijdsconstructie; niet afzonderlijk weergegeven."
-        },
-        {
-          "tekst": "jaar",
-          "voorkomen": 1,
-          "strongs": [
-            "H8141"
-          ],
-          "bronwoorden": [
-            "שָׁנָ֔ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:4",
-            "bronindices": [
-              14
             ]
           }
         },
@@ -2336,33 +2340,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Abram",
-          "voorkomen": 1,
-          "strongs": [
-            "H87"
-          ],
-          "bronwoorden": [
-            "אַבְרָם֩"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:5",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "nam",
           "voorkomen": 1,
           "strongs": [
@@ -2386,6 +2363,33 @@
             "referentie": "GEN 12:5",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "Abram",
+          "voorkomen": 1,
+          "strongs": [
+            "H87"
+          ],
+          "bronwoorden": [
+            "אַבְרָם֩"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:5",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -2419,6 +2423,33 @@
           "plaats": "voor",
           "status": "niet_afzonderlijk_weergegeven",
           "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+        },
+        {
+          "tekst": "Saraï",
+          "voorkomen": 1,
+          "strongs": [
+            "H8297"
+          ],
+          "bronwoorden": [
+            "שָׂרַ֨י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:5",
+            "bronindices": [
+              5
+            ]
+          }
         },
         {
           "tekst": "huisvrouw",
@@ -2479,13 +2510,13 @@
           "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
         },
         {
-          "tekst": "Saraï",
+          "tekst": "Lot",
           "voorkomen": 1,
           "strongs": [
-            "H8297"
+            "H3876"
           ],
           "bronwoorden": [
-            "שָׂרַ֨י"
+            "ל֣וֹט"
           ],
           "transliteraties": [
             ""
@@ -2501,7 +2532,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:5",
             "bronindices": [
-              5
+              9
             ]
           }
         },
@@ -2591,33 +2622,6 @@
           "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
         },
         {
-          "tekst": "Lot",
-          "voorkomen": 1,
-          "strongs": [
-            "H3876"
-          ],
-          "bronwoorden": [
-            "ל֣וֹט"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:5",
-            "bronindices": [
-              9
-            ]
-          }
-        },
-        {
           "tekst": "al",
           "voorkomen": 1,
           "strongs": [
@@ -2699,10 +2703,13 @@
           }
         },
         {
-          "tekst": "verworven hadden",
+          "tekst": "verworven",
           "voorkomen": 1,
           "strongs": [
             "H7408"
+          ],
+          "morfologie": [
+            "HVqp3cp"
           ],
           "bronwoorden": [
             "רָכָ֔שׁוּ"
@@ -2713,13 +2720,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:5",
+            "grondindices": [
+              13
+            ],
             "bronindices": [
               13
             ]
@@ -2811,10 +2822,13 @@
           }
         },
         {
-          "tekst": "verkregen hadden",
+          "tekst": "verkregen",
           "voorkomen": 1,
           "strongs": [
             "H6213"
+          ],
+          "morfologie": [
+            "HVqp3cp"
           ],
           "bronwoorden": [
             "עָשׂ֣וּ"
@@ -2825,13 +2839,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:5",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
               17
             ]
@@ -4491,33 +4509,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "daar",
-          "voorkomen": 1,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "מִ/שָּׁ֜ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:8",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "brak op",
           "voorkomen": 1,
           "strongs": [
@@ -4541,6 +4532,33 @@
             "referentie": "GEN 12:8",
             "bronindices": [
               1
+            ]
+          }
+        },
+        {
+          "tekst": "daar",
+          "voorkomen": 1,
+          "strongs": [
+            "H8033"
+          ],
+          "bronwoorden": [
+            "מִ/שָּׁ֜ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:8",
+            "bronindices": [
+              0
             ]
           }
         },
@@ -4631,10 +4649,13 @@
           }
         },
         {
-          "tekst": "sloeg zijn tent op",
+          "tekst": "sloeg",
           "voorkomen": 1,
           "strongs": [
             "H5186"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
             "וַ/יֵּ֣ט"
@@ -4645,13 +4666,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:8",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -4798,33 +4823,6 @@
           }
         },
         {
-          "tekst": "daar",
-          "voorkomen": 2,
-          "strongs": [
-            "H8033"
-          ],
-          "bronwoorden": [
-            "שָׁ֤ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:8",
-            "bronindices": [
-              13
-            ]
-          }
-        },
-        {
           "tekst": "bouwde",
           "voorkomen": 1,
           "strongs": [
@@ -4848,6 +4846,33 @@
             "referentie": "GEN 12:8",
             "bronindices": [
               14
+            ]
+          }
+        },
+        {
+          "tekst": "daar",
+          "voorkomen": 2,
+          "strongs": [
+            "H8033"
+          ],
+          "bronwoorden": [
+            "שָׁ֤ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:8",
+            "bronindices": [
+              13
             ]
           }
         },
@@ -4906,38 +4931,103 @@
           }
         },
         {
-          "tekst": "riep de Naam van JAHWEH aan",
+          "tekst": "riep",
           "voorkomen": 1,
           "strongs": [
-            "H7121",
-            "H8034",
-            "H3068"
+            "H7121"
+          ],
+          "morfologie": [
+            "HC/Vqw3ms"
           ],
           "bronwoorden": [
-            "וַ/יִּקְרָ֖א",
-            "בְּ/שֵׁ֥ם",
-            "יְהוָֽה"
+            "וַ/יִּקְרָ֖א"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:8",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
-              17,
-              18,
+              17
+            ]
+          }
+        },
+        {
+          "tekst": "Naam",
+          "voorkomen": 1,
+          "strongs": [
+            "H8034"
+          ],
+          "morfologie": [
+            "HR/Ncmsc"
+          ],
+          "bronwoorden": [
+            "בְּ/שֵׁ֥ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:8",
+            "grondindices": [
+              18
+            ],
+            "bronindices": [
+              18
+            ]
+          }
+        },
+        {
+          "tekst": "JAHWEH",
+          "voorkomen": 2,
+          "strongs": [
+            "H3068"
+          ],
+          "morfologie": [
+            "HNp"
+          ],
+          "bronwoorden": [
+            "יְהוָֽה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:8",
+            "grondindices": [
+              19
+            ],
+            "bronindices": [
               19
             ]
           }
@@ -5375,33 +5465,6 @@
           }
         },
         {
-          "tekst": "Abram",
-          "voorkomen": 1,
-          "strongs": [
-            "H87"
-          ],
-          "bronwoorden": [
-            "אַבְרָ֤ם"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:10",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "trok",
           "voorkomen": 1,
           "strongs": [
@@ -5425,6 +5488,33 @@
             "referentie": "GEN 12:10",
             "bronindices": [
               4
+            ]
+          }
+        },
+        {
+          "tekst": "Abram",
+          "voorkomen": 1,
+          "strongs": [
+            "H87"
+          ],
+          "bronwoorden": [
+            "אַבְרָ֤ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:10",
+            "bronindices": [
+              3
             ]
           }
         },
@@ -5456,6 +5546,40 @@
           }
         },
         {
+          "tekst": "verkeren",
+          "voorkomen": 1,
+          "strongs": [
+            "H1481"
+          ],
+          "morfologie": [
+            "HR/Vqc"
+          ],
+          "bronwoorden": [
+            "לָ/ג֣וּר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:10",
+            "grondindices": [
+              6
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
           "tekst": "daar",
           "voorkomen": 1,
           "strongs": [
@@ -5483,33 +5607,6 @@
           }
         },
         {
-          "tekst": "als een vreemdeling te verkeren",
-          "voorkomen": 1,
-          "strongs": [
-            "H1481"
-          ],
-          "bronwoorden": [
-            "לָ/ג֣וּר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:10",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
           "tekst": "omdat",
           "voorkomen": 1,
           "strongs": [
@@ -5533,6 +5630,33 @@
             "referentie": "GEN 12:10",
             "bronindices": [
               8
+            ]
+          }
+        },
+        {
+          "tekst": "zwaar",
+          "voorkomen": 1,
+          "strongs": [
+            "H3515"
+          ],
+          "bronwoorden": [
+            "כָבֵ֥ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:10",
+            "bronindices": [
+              11
             ]
           }
         },
@@ -5587,33 +5711,6 @@
             "referentie": "GEN 12:10",
             "bronindices": [
               10
-            ]
-          }
-        },
-        {
-          "tekst": "zwaar",
-          "voorkomen": 1,
-          "strongs": [
-            "H3515"
-          ],
-          "bronwoorden": [
-            "כָבֵ֥ד"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:10",
-            "bronindices": [
-              11
             ]
           }
         }
@@ -5951,33 +6048,6 @@
           }
         },
         {
-          "tekst": "huisvrouw",
-          "voorkomen": 1,
-          "strongs": [
-            "H802"
-          ],
-          "bronwoorden": [
-            "אִשְׁתּ֔/וֹ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:11",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
           "tekst": "Saraï",
           "voorkomen": 1,
           "strongs": [
@@ -6001,6 +6071,33 @@
             "referentie": "GEN 12:11",
             "bronindices": [
               8
+            ]
+          }
+        },
+        {
+          "tekst": "huisvrouw",
+          "voorkomen": 1,
+          "strongs": [
+            "H802"
+          ],
+          "bronwoorden": [
+            "אִשְׁתּ֔/וֹ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:11",
+            "bronindices": [
+              7
             ]
           }
         },
@@ -6113,87 +6210,6 @@
           }
         },
         {
-          "tekst": "u",
-          "voorkomen": 1,
-          "strongs": [
-            "H859"
-          ],
-          "bronwoorden": [
-            "אָֽתְּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:11",
-            "bronindices": [
-              13
-            ]
-          }
-        },
-        {
-          "tekst": "schoon",
-          "voorkomen": 1,
-          "strongs": [
-            "H3303"
-          ],
-          "bronwoorden": [
-            "יְפַת"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:11",
-            "bronindices": [
-              14
-            ]
-          }
-        },
-        {
-          "tekst": "aangezicht",
-          "voorkomen": 1,
-          "strongs": [
-            "H4758"
-          ],
-          "bronwoorden": [
-            "מַרְאֶ֖ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:11",
-            "bronindices": [
-              15
-            ]
-          }
-        },
-        {
           "tekst": "vrouw",
           "voorkomen": 1,
           "strongs": [
@@ -6217,6 +6233,101 @@
             "referentie": "GEN 12:11",
             "bronindices": [
               16
+            ]
+          }
+        },
+        {
+          "tekst": "knap",
+          "voorkomen": 1,
+          "strongs": [
+            "H3303"
+          ],
+          "morfologie": [
+            "HAafsc"
+          ],
+          "bronwoorden": [
+            "יְפַת"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:11",
+            "grondindices": [
+              14
+            ],
+            "bronindices": [
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "uiterlijk",
+          "voorkomen": 1,
+          "strongs": [
+            "H4758"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "מַרְאֶ֖ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:11",
+            "grondindices": [
+              15
+            ],
+            "bronindices": [
+              15
+            ]
+          }
+        },
+        {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "H859"
+          ],
+          "bronwoorden": [
+            "אָֽתְּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:11",
+            "bronindices": [
+              13
             ]
           }
         }
@@ -6355,33 +6466,6 @@
           }
         },
         {
-          "tekst": "Egyptenaars",
-          "voorkomen": 1,
-          "strongs": [
-            "H4713"
-          ],
-          "bronwoorden": [
-            "הַ/מִּצְרִ֔ים"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:12",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
           "tekst": "zien",
           "voorkomen": 1,
           "strongs": [
@@ -6409,13 +6493,47 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "u",
           "voorkomen": 1,
           "strongs": [
             "H853"
           ],
+          "morfologie": [
+            "HTo/Sp2fs"
+          ],
           "bronwoorden": [
             "אֹתָ/ךְ֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:12",
+            "grondindices": [
+              3
+            ],
+            "bronindices": [
+              4
+            ]
+          }
+        },
+        {
+          "tekst": "Egyptenaars",
+          "voorkomen": 1,
+          "strongs": [
+            "H4713"
+          ],
+          "bronwoorden": [
+            "הַ/מִּצְרִ֔ים"
           ],
           "transliteraties": [
             ""
@@ -6431,13 +6549,9 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:12",
             "bronindices": [
-              4
+              2
             ]
-          },
-          "anker": "u",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "zeggen",
@@ -6463,33 +6577,6 @@
             "referentie": "GEN 12:12",
             "bronindices": [
               5
-            ]
-          }
-        },
-        {
-          "tekst": "Dat",
-          "voorkomen": 1,
-          "strongs": [
-            "H2063"
-          ],
-          "bronwoorden": [
-            "זֹ֑את"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:12",
-            "bronindices": [
-              6
             ]
           }
         },
@@ -6521,6 +6608,33 @@
           }
         },
         {
+          "tekst": "Dat",
+          "voorkomen": 1,
+          "strongs": [
+            "H2063"
+          ],
+          "bronwoorden": [
+            "זֹ֑את"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:12",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
           "tekst": "doden",
           "voorkomen": 1,
           "strongs": [
@@ -6548,10 +6662,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "mij",
           "voorkomen": 1,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp1cs"
           ],
           "bronwoorden": [
             "אֹתִ֖/י"
@@ -6562,27 +6679,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:12",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "anker": "mij",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+          }
         },
         {
-          "tekst": "",
+          "tekst": "u",
           "voorkomen": 2,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HC/To/Sp2fs"
           ],
           "bronwoorden": [
             "וְ/אֹתָ֥/ךְ"
@@ -6593,21 +6713,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:12",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
-          },
-          "anker": "u",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "behouden",
@@ -6743,33 +6863,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "toch",
-          "voorkomen": 1,
-          "strongs": [
-            "H4994"
-          ],
-          "bronwoorden": [
-            "נָ֖א"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:13",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
           "tekst": "Zeg",
           "voorkomen": 1,
           "strongs": [
@@ -6797,13 +6890,13 @@
           }
         },
         {
-          "tekst": "U",
+          "tekst": "toch",
           "voorkomen": 1,
           "strongs": [
-            "H859"
+            "H4994"
           ],
           "bronwoorden": [
-            "אָ֑תְּ"
+            "נָ֖א"
           ],
           "transliteraties": [
             ""
@@ -6819,7 +6912,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:13",
             "bronindices": [
-              2
+              0
             ]
           }
         },
@@ -6847,6 +6940,33 @@
             "referentie": "GEN 12:13",
             "bronindices": [
               3
+            ]
+          }
+        },
+        {
+          "tekst": "U",
+          "voorkomen": 1,
+          "strongs": [
+            "H859"
+          ],
+          "bronwoorden": [
+            "אָ֑תְּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:13",
+            "bronindices": [
+              2
             ]
           }
         },
@@ -6905,10 +7025,13 @@
           }
         },
         {
-          "tekst": "om u",
+          "tekst": "om",
           "voorkomen": 1,
           "strongs": [
             "H5668"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
             "בַ/עֲבוּרֵ֔/ךְ"
@@ -6919,26 +7042,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:13",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               6
             ]
           }
         },
         {
-          "tekst": "om uwentwil",
+          "tekst": "leve",
           "voorkomen": 1,
           "strongs": [
-            "H1558"
+            "H2421"
           ],
           "bronwoorden": [
-            "בִּ/גְלָלֵֽ/ךְ"
+            "וְ/חָיְתָ֥ה"
           ],
           "transliteraties": [
             ""
@@ -6954,7 +7081,7 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:13",
             "bronindices": [
-              7
+              9
             ]
           }
         },
@@ -6986,13 +7113,16 @@
           }
         },
         {
-          "tekst": "leve",
+          "tekst": "uwentwil",
           "voorkomen": 1,
           "strongs": [
-            "H2421"
+            "H1558"
+          ],
+          "morfologie": [
+            "HR/Ncmsc/Sp2fs"
           ],
           "bronwoorden": [
-            "וְ/חָיְתָ֥ה"
+            "בִּ/גְלָלֵֽ/ךְ"
           ],
           "transliteraties": [
             ""
@@ -7000,15 +7130,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:13",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
-              9
+              7
             ]
           }
         }
@@ -7594,13 +7728,13 @@
       "text1637_html": "Oock sagen haer <sup class=\"note-marker\" data-note=\"30\">30</sup> Pharaos Vorsten, ende presense by <sup class=\"note-marker\" data-note=\"31\">31</sup> Pharao: ende die vrouwe wert <sup class=\"note-marker\" data-note=\"32\">32</sup> wech genomen <sup class=\"note-marker\" data-note=\"33\">33</sup> nae Pharaos huys.",
       "woordnummers": [
         {
-          "tekst": "Farao",
+          "tekst": "zagen",
           "voorkomen": 1,
           "strongs": [
-            "H6547"
+            "H7200"
           ],
           "bronwoorden": [
-            "פַרְעֹ֔ה"
+            "וַ/יִּרְא֤וּ"
           ],
           "transliteraties": [
             ""
@@ -7616,7 +7750,41 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:15",
             "bronindices": [
-              0
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "haar",
+          "voorkomen": 1,
+          "strongs": [
+            "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3fs"
+          ],
+          "bronwoorden": [
+            "אֹתָ/הּ֙"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:15",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              3
             ]
           }
         },
@@ -7648,13 +7816,13 @@
           }
         },
         {
-          "tekst": "zagen",
+          "tekst": "Farao",
           "voorkomen": 1,
           "strongs": [
-            "H7200"
+            "H6547"
           ],
           "bronwoorden": [
-            "וַ/יִּרְא֤וּ"
+            "פַרְעֹ֔ה"
           ],
           "transliteraties": [
             ""
@@ -7670,40 +7838,9 @@
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:15",
             "bronindices": [
-              2
+              0
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H853"
-          ],
-          "bronwoorden": [
-            "אֹתָ/הּ֙"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:15",
-            "bronindices": [
-              3
-            ]
-          },
-          "anker": "haar",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
         },
         {
           "tekst": "prezen",
@@ -7733,10 +7870,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "haar",
           "voorkomen": 2,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3fs"
           ],
           "bronwoorden": [
             "אֹתָ֖/הּ"
@@ -7747,21 +7887,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:15",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "haar",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "bij",
@@ -7818,33 +7958,6 @@
           }
         },
         {
-          "tekst": "vrouw",
-          "voorkomen": 1,
-          "strongs": [
-            "H802"
-          ],
-          "bronwoorden": [
-            "הָ/אִשָּׁ֖ה"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:15",
-            "bronindices": [
-              8
-            ]
-          }
-        },
-        {
           "tekst": "weggenomen",
           "voorkomen": 1,
           "strongs": [
@@ -7868,6 +7981,33 @@
             "referentie": "GEN 12:15",
             "bronindices": [
               9
+            ]
+          }
+        },
+        {
+          "tekst": "vrouw",
+          "voorkomen": 1,
+          "strongs": [
+            "H802"
+          ],
+          "bronwoorden": [
+            "הָ/אִשָּׁ֖ה"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:15",
+            "bronindices": [
+              8
             ]
           }
         },
@@ -9462,33 +9602,6 @@
           }
         },
         {
-          "tekst": "Zij",
-          "voorkomen": 1,
-          "strongs": [
-            "H1931"
-          ],
-          "bronwoorden": [
-            "הִ֔וא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:19",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
           "tekst": "zus",
           "voorkomen": 1,
           "strongs": [
@@ -9512,6 +9625,33 @@
             "referentie": "GEN 12:19",
             "bronindices": [
               3
+            ]
+          }
+        },
+        {
+          "tekst": "Zij",
+          "voorkomen": 1,
+          "strongs": [
+            "H1931"
+          ],
+          "bronwoorden": [
+            "הִ֔וא"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:19",
+            "bronindices": [
+              2
             ]
           }
         },
@@ -9543,10 +9683,13 @@
           }
         },
         {
-          "tekst": "",
+          "tekst": "haar",
           "voorkomen": 1,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3fs"
           ],
           "bronwoorden": [
             "אֹתָ֛/הּ"
@@ -9557,21 +9700,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:19",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "haar",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "vrouw",
@@ -9827,6 +9970,60 @@
       "text1637_html": "<sup class=\"note-marker\" data-note=\"38\">38</sup> Ende Pharao geboodt [sijnen] mannen van wegen hem, ende sy geleydden hem, ende sijne huysvrouwe, ende alles wat hy hadde.",
       "woordnummers": [
         {
+          "tekst": "gebood",
+          "voorkomen": 1,
+          "strongs": [
+            "H6680"
+          ],
+          "bronwoorden": [
+            "וַ/יְצַ֥ו"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:20",
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
+          "tekst": "vanwege",
+          "voorkomen": 1,
+          "strongs": [
+            "H5921"
+          ],
+          "bronwoorden": [
+            "עָלָ֛י/ו"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
+            "referentie": "GEN 12:20",
+            "bronindices": [
+              3
+            ]
+          }
+        },
+        {
           "tekst": "Farao",
           "voorkomen": 1,
           "strongs": [
@@ -9884,60 +10081,6 @@
           ]
         },
         {
-          "tekst": "gebood",
-          "voorkomen": 1,
-          "strongs": [
-            "H6680"
-          ],
-          "bronwoorden": [
-            "וַ/יְצַ֥ו"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:20",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "vanwege",
-          "voorkomen": 1,
-          "strongs": [
-            "H5921"
-          ],
-          "bronwoorden": [
-            "עָלָ֛י/ו"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
-            "referentie": "GEN 12:20",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
           "tekst": "geleidden",
           "voorkomen": 1,
           "strongs": [
@@ -9965,10 +10108,13 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
+          "tekst": "hem",
+          "voorkomen": 2,
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo/Sp3ms"
           ],
           "bronwoorden": [
             "אֹת֛/וֹ"
@@ -9979,21 +10125,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A017CFB35C62515A078403D2739F8C897F2256CBE18B1347F03881B5DB4B0098",
             "referentie": "GEN 12:20",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]
-          },
-          "anker": "hem",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Direct-objectmarker; niet afzonderlijk weergegeven."
+          }
         },
         {
           "tekst": "",

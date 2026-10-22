@@ -5543,10 +5543,13 @@
           }
         },
         {
-          "tekst": "zal",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqq3ms"
           ],
           "bronwoorden": [
             "וְ/הָיָ֞ה"
@@ -5557,13 +5560,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 20:11",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               5
             ]
@@ -7518,10 +7525,13 @@
           }
         },
         {
-          "tekst": "",
-          "voorkomen": 1,
+          "tekst": "zijn",
+          "voorkomen": 2,
           "strongs": [
             "H2007"
+          ],
+          "morfologie": [
+            "HPp3fp"
           ],
           "bronwoorden": [
             "הֵֽנָּה"
@@ -7532,21 +7542,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 20:15",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               11
             ]
-          },
-          "anker": "volken",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het zelfstandig gebruikte voornaamwoord hennah ('zij') is in het Nederlands niet apart weergegeven."
+          }
         }
       ]
     },
@@ -8759,10 +8769,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp3mp"
           ],
           "bronwoorden": [
             "תּֽוֹעֲבֹתָ֔/ם"
@@ -8773,13 +8786,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 20:18",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -10549,52 +10566,39 @@
           "tekst": "die",
           "voorkomen": 1,
           "strongs": [
-            "H834"
-          ],
-          "bronwoorden": [
-            "אֲשֶׁר"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
-            "referentie": "DEU 20:20",
-            "bronindices": [
-              16
-            ]
-          }
-        },
-        {
-          "tekst": "zij",
-          "voorkomen": 1,
-          "strongs": [
+            "H834",
             "H1931"
           ],
+          "morfologie": [
+            "HTr",
+            "HPp3fs"
+          ],
           "bronwoorden": [
+            "אֲשֶׁר",
             "הִ֨וא"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "70CF7B6FE614E1227FF7BD13E5946BB3876B14DA214392032CD2B3514233DFA3",
             "referentie": "DEU 20:20",
+            "grondindices": [
+              16,
+              17
+            ],
             "bronindices": [
+              16,
               17
             ]
           }

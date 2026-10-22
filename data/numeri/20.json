@@ -3471,9 +3471,12 @@
         },
         {
           "tekst": "u",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H859"
+          ],
+          "morfologie": [
+            "HPp2ms"
           ],
           "bronwoorden": [
             "אַתָּה֙"
@@ -3484,13 +3487,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 20:8",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
@@ -5295,10 +5302,13 @@
           "toelichting": "Het scheidbare werkwoord 'uitkomen' geeft וַיֵּצְאוּ weer; het anker ligt op 'kwam'."
         },
         {
-          "tekst": "waters",
+          "tekst": "water",
           "voorkomen": 1,
           "strongs": [
             "H4325"
+          ],
+          "morfologie": [
+            "HNcmpa"
           ],
           "bronwoorden": [
             "מַ֣יִם"
@@ -5309,13 +5319,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 20:11",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
@@ -7616,7 +7630,7 @@
             "H1"
           ],
           "bronwoorden": [
-            "וְ/לַ/אֲבֹתֵֽי/נוּ"
+            "אֲבֹתֵ֨י/נוּ֙"
           ],
           "transliteraties": [
             ""
@@ -7632,7 +7646,7 @@
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 20:15",
             "bronindices": [
-              9
+              0
             ]
           }
         }
@@ -8533,9 +8547,12 @@
         },
         {
           "tekst": "noch",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H3808"
+          ],
+          "morfologie": [
+            "HC/Tn"
           ],
           "bronwoorden": [
             "וְ/לֹ֥א"
@@ -8546,13 +8563,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 20:17",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -11878,80 +11899,40 @@
           "tekst": "Israëlieten",
           "voorkomen": 1,
           "strongs": [
-            "H1121"
-          ],
-          "bronwoorden": [
-            "לִ/בְנֵ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 20:24",
-            "bronindices": [
-              11
-            ]
-          }
-        },
-        {
-          "tekst": "Israëlieten",
-          "voorkomen": 1,
-          "strongs": [
+            "H1121",
             "H3478"
           ],
+          "morfologie": [
+            "HR/Ncmpc",
+            "HNp"
+          ],
           "bronwoorden": [
+            "לִ/בְנֵ֣י",
             "יִשְׂרָאֵ֑ל"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 20:24",
-            "bronindices": [
+            "grondindices": [
+              11,
               12
-            ]
-          }
-        },
-        {
-          "tekst": "tegen",
-          "voorkomen": 1,
-          "strongs": [
-            "H5921"
-          ],
-          "bronwoorden": [
-            "עַ֛ל"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 20:24",
+            ],
             "bronindices": [
-              13
+              11,
+              12
             ]
           }
         },
@@ -11959,25 +11940,39 @@
           "tekst": "omdat",
           "voorkomen": 1,
           "strongs": [
+            "H5921",
             "H834"
           ],
+          "morfologie": [
+            "HR",
+            "HTr"
+          ],
           "bronwoorden": [
+            "עַ֛ל",
             "אֲשֶׁר"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 20:24",
+            "grondindices": [
+              13,
+              14
+            ],
             "bronindices": [
+              13,
               14
             ]
           }

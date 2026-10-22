@@ -5767,42 +5767,62 @@
           }
         },
         {
-          "tekst": "op gelijke wijze",
+          "tekst": "",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
-            "G3664",
-            "G5158"
+            "G3588"
           ],
           "lemma_strongs": [
-            "G3588",
-            "G3664",
-            "G5158"
+            "G3588"
           ],
           "morfologie": [
-            "T-ASM",
-            "A-ASM",
-            "N-ASM"
+            "T-ASM"
           ],
           "bronwoorden": [
-            "τον",
-            "ομοιον",
-            "τροπον"
+            "τον"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
           ],
-          "tvm": [
-            null,
-            null,
-            null
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:7",
+            "grondindices": [
+              9
+            ],
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "gelijke",
+          "voorkomen": 1,
+          "strongs": [
+            "G3664"
+          ],
+          "lemma_strongs": [
+            "G3664"
+          ],
+          "morfologie": [
+            "A-ASM"
+          ],
+          "bronwoorden": [
+            "ομοιον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -5812,10 +5832,11 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:7",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
-              9,
-              10,
-              12
+              10
             ]
           }
         },
@@ -5853,6 +5874,43 @@
             "referentie": "JUDE 1:7",
             "bronindices": [
               11
+            ]
+          }
+        },
+        {
+          "tekst": "wijze",
+          "voorkomen": 1,
+          "strongs": [
+            "G5158"
+          ],
+          "lemma_strongs": [
+            "G5158"
+          ],
+          "morfologie": [
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "τροπον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:7",
+            "grondindices": [
+              12
+            ],
+            "bronindices": [
+              12
             ]
           }
         },
@@ -5931,28 +5989,31 @@
           }
         },
         {
-          "tekst": "ander",
+          "tekst": "nagegaan",
           "voorkomen": 1,
           "strongs": [
-            "G2087"
+            "G565",
+            "G3694"
           ],
           "lemma_strongs": [
-            "G2087"
+            "G565",
+            "G3694"
           ],
           "morfologie": [
-            "A-GSF"
+            "V-2AAP-NPF",
+            "ADV"
           ],
           "bronwoorden": [
-            "ετερας"
+            "απελθουσαι",
+            "οπισω"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
-          ],
-          "tvm": [
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -5962,8 +6023,13 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:7",
+            "grondindices": [
+              15,
+              16
+            ],
             "bronindices": [
-              18
+              15,
+              16
             ]
           }
         },
@@ -6005,64 +6071,19 @@
           }
         },
         {
-          "tekst": "zijn nagegaan",
+          "tekst": "ander",
           "voorkomen": 1,
           "strongs": [
-            "G565",
-            "G3694"
+            "G2087"
           ],
           "lemma_strongs": [
-            "G565",
-            "G3694"
+            "G2087"
           ],
           "morfologie": [
-            "V-2AAP-NPF",
-            "ADV"
+            "A-GSF"
           ],
           "bronwoorden": [
-            "απελθουσαι",
-            "οπισω"
-          ],
-          "transliteraties": [
-            "",
-            ""
-          ],
-          "glossen": [
-            "",
-            ""
-          ],
-          "tvm": [
-            "G5631",
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:7",
-            "bronindices": [
-              15,
-              16
-            ]
-          }
-        },
-        {
-          "tekst": "voorbeeld",
-          "voorkomen": 1,
-          "strongs": [
-            "G1164"
-          ],
-          "lemma_strongs": [
-            "G1164"
-          ],
-          "morfologie": [
-            "N-ASN"
-          ],
-          "bronwoorden": [
-            "δειγμα"
+            "ετερας"
           ],
           "transliteraties": [
             ""
@@ -6082,7 +6103,7 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:7",
             "bronindices": [
-              20
+              18
             ]
           }
         },
@@ -6124,56 +6145,19 @@
           }
         },
         {
-          "tekst": "dragende",
+          "tekst": "voorbeeld",
           "voorkomen": 1,
           "strongs": [
-            "G5254"
+            "G1164"
           ],
           "lemma_strongs": [
-            "G5254"
+            "G1164"
           ],
           "morfologie": [
-            "V-PAP-NPF"
+            "N-ASN"
           ],
           "bronwoorden": [
-            "υπεχουσαι"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            "G5723"
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:7",
-            "bronindices": [
-              24
-            ]
-          }
-        },
-        {
-          "tekst": "straf",
-          "voorkomen": 1,
-          "strongs": [
-            "G1349"
-          ],
-          "lemma_strongs": [
-            "G1349"
-          ],
-          "morfologie": [
-            "N-ASF"
-          ],
-          "bronwoorden": [
-            "δικην"
+            "δειγμα"
           ],
           "transliteraties": [
             ""
@@ -6193,7 +6177,44 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:7",
             "bronindices": [
-              23
+              20
+            ]
+          }
+        },
+        {
+          "tekst": "vuur",
+          "voorkomen": 1,
+          "strongs": [
+            "G4442"
+          ],
+          "lemma_strongs": [
+            "G4442"
+          ],
+          "morfologie": [
+            "N-GSN"
+          ],
+          "bronwoorden": [
+            "πυρος"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:7",
+            "bronindices": [
+              21
             ]
           }
         },
@@ -6235,19 +6256,19 @@
           }
         },
         {
-          "tekst": "vuur",
+          "tekst": "straf",
           "voorkomen": 1,
           "strongs": [
-            "G4442"
+            "G1349"
           ],
           "lemma_strongs": [
-            "G4442"
+            "G1349"
           ],
           "morfologie": [
-            "N-GSN"
+            "N-ASF"
           ],
           "bronwoorden": [
-            "πυρος"
+            "δικην"
           ],
           "transliteraties": [
             ""
@@ -6267,7 +6288,44 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:7",
             "bronindices": [
-              21
+              23
+            ]
+          }
+        },
+        {
+          "tekst": "dragende",
+          "voorkomen": 1,
+          "strongs": [
+            "G5254"
+          ],
+          "lemma_strongs": [
+            "G5254"
+          ],
+          "morfologie": [
+            "V-PAP-NPF"
+          ],
+          "bronwoorden": [
+            "υπεχουσαι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5723"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:7",
+            "bronindices": [
+              24
             ]
           }
         }
@@ -9756,43 +9814,6 @@
           }
         },
         {
-          "tekst": "vlekken",
-          "voorkomen": 1,
-          "strongs": [
-            "G4694"
-          ],
-          "lemma_strongs": [
-            "G4694"
-          ],
-          "morfologie": [
-            "N-NPF"
-          ],
-          "bronwoorden": [
-            "σπιλαδες"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:12",
-            "bronindices": [
-              6
-            ]
-          }
-        },
-        {
           "tekst": "in",
           "voorkomen": 1,
           "strongs": [
@@ -9826,43 +9847,6 @@
             "referentie": "JUDE 1:12",
             "bronindices": [
               2
-            ]
-          }
-        },
-        {
-          "tekst": "uw",
-          "voorkomen": 1,
-          "strongs": [
-            "G4771"
-          ],
-          "lemma_strongs": [
-            "G4771"
-          ],
-          "morfologie": [
-            "P-2GP"
-          ],
-          "bronwoorden": [
-            "υμων"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:12",
-            "bronindices": [
-              5
             ]
           }
         },
@@ -9912,6 +9896,117 @@
           }
         },
         {
+          "tekst": "uw",
+          "voorkomen": 1,
+          "strongs": [
+            "G4771"
+          ],
+          "lemma_strongs": [
+            "G4771"
+          ],
+          "morfologie": [
+            "P-2GP"
+          ],
+          "bronwoorden": [
+            "υμων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:12",
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "vlekken",
+          "voorkomen": 1,
+          "strongs": [
+            "G4694"
+          ],
+          "lemma_strongs": [
+            "G4694"
+          ],
+          "morfologie": [
+            "N-NPF"
+          ],
+          "bronwoorden": [
+            "σπιλαδες"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:12",
+            "bronindices": [
+              6
+            ]
+          }
+        },
+        {
+          "tekst": "maaltijd",
+          "voorkomen": 1,
+          "strongs": [
+            "G4910"
+          ],
+          "lemma_strongs": [
+            "G4910"
+          ],
+          "morfologie": [
+            "V-PNP-NPM"
+          ],
+          "bronwoorden": [
+            "συνευωχουμενοι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:12",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
           "tekst": "u",
           "voorkomen": 1,
           "strongs": [
@@ -9945,117 +10040,6 @@
             "referentie": "JUDE 1:12",
             "bronindices": [
               8
-            ]
-          }
-        },
-        {
-          "tekst": "ter maaltijd zijn",
-          "voorkomen": 1,
-          "strongs": [
-            "G4910"
-          ],
-          "lemma_strongs": [
-            "G4910"
-          ],
-          "morfologie": [
-            "V-PNP-NPM"
-          ],
-          "bronwoorden": [
-            "συνευωχουμενοι"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            "G5740"
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:12",
-            "bronindices": [
-              7
-            ]
-          }
-        },
-        {
-          "tekst": "weiden",
-          "voorkomen": 1,
-          "strongs": [
-            "G4165"
-          ],
-          "lemma_strongs": [
-            "G4165"
-          ],
-          "morfologie": [
-            "V-PAP-NPM"
-          ],
-          "bronwoorden": [
-            "ποιμαινοντες"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            "G5723"
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:12",
-            "bronindices": [
-              11
-            ]
-          }
-        },
-        {
-          "tekst": "zichzelf",
-          "voorkomen": 1,
-          "strongs": [
-            "G1438"
-          ],
-          "lemma_strongs": [
-            "G1438"
-          ],
-          "morfologie": [
-            "F-3APM"
-          ],
-          "bronwoorden": [
-            "εαυτους"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:12",
-            "bronindices": [
-              10
             ]
           }
         },
@@ -10097,19 +10081,19 @@
           }
         },
         {
-          "tekst": "waterloze",
+          "tekst": "zichzelf",
           "voorkomen": 1,
           "strongs": [
-            "G504"
+            "G1438"
           ],
           "lemma_strongs": [
-            "G504"
+            "G1438"
           ],
           "morfologie": [
-            "A-NPF"
+            "F-3APM"
           ],
           "bronwoorden": [
-            "ανυδροι"
+            "εαυτους"
           ],
           "transliteraties": [
             ""
@@ -10129,7 +10113,44 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:12",
             "bronindices": [
-              13
+              10
+            ]
+          }
+        },
+        {
+          "tekst": "weiden",
+          "voorkomen": 1,
+          "strongs": [
+            "G4165"
+          ],
+          "lemma_strongs": [
+            "G4165"
+          ],
+          "morfologie": [
+            "V-PAP-NPM"
+          ],
+          "bronwoorden": [
+            "ποιμαινοντες"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5723"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:12",
+            "bronindices": [
+              11
             ]
           }
         },
@@ -10167,6 +10188,43 @@
             "referentie": "JUDE 1:12",
             "bronindices": [
               12
+            ]
+          }
+        },
+        {
+          "tekst": "waterloze",
+          "voorkomen": 1,
+          "strongs": [
+            "G504"
+          ],
+          "lemma_strongs": [
+            "G504"
+          ],
+          "morfologie": [
+            "A-NPF"
+          ],
+          "bronwoorden": [
+            "ανυδροι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:12",
+            "bronindices": [
+              13
             ]
           }
         },
@@ -10319,7 +10377,7 @@
           }
         },
         {
-          "tekst": "afgaan van de herfst",
+          "tekst": "herfst",
           "voorkomen": 1,
           "strongs": [
             "G5352"
@@ -10339,9 +10397,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -10350,6 +10405,9 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:12",
+            "grondindices": [
+              18
+            ],
             "bronindices": [
               18
             ]
@@ -10684,43 +10742,6 @@
       ],
       "woordnummers": [
         {
-          "tekst": "Wilde",
-          "voorkomen": 1,
-          "strongs": [
-            "G66"
-          ],
-          "lemma_strongs": [
-            "G66"
-          ],
-          "morfologie": [
-            "A-NPN"
-          ],
-          "bronwoorden": [
-            "αγρια"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:13",
-            "bronindices": [
-              1
-            ]
-          }
-        },
-        {
           "tekst": "golven",
           "voorkomen": 1,
           "strongs": [
@@ -10754,6 +10775,43 @@
             "referentie": "JUDE 1:13",
             "bronindices": [
               0
+            ]
+          }
+        },
+        {
+          "tekst": "Wilde",
+          "voorkomen": 1,
+          "strongs": [
+            "G66"
+          ],
+          "lemma_strongs": [
+            "G66"
+          ],
+          "morfologie": [
+            "A-NPN"
+          ],
+          "bronwoorden": [
+            "αγρια"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:13",
+            "bronindices": [
+              1
             ]
           }
         },
@@ -10795,19 +10853,19 @@
           }
         },
         {
-          "tekst": "hun eigen",
+          "tekst": "opschuimende",
           "voorkomen": 1,
           "strongs": [
-            "G1438"
+            "G1890"
           ],
           "lemma_strongs": [
-            "G1438"
+            "G1890"
           ],
           "morfologie": [
-            "F-3GPN"
+            "V-PAP-NPN"
           ],
           "bronwoorden": [
-            "εαυτων"
+            "επαφριζοντα"
           ],
           "transliteraties": [
             ""
@@ -10816,7 +10874,7 @@
             ""
           ],
           "tvm": [
-            null
+            "G5723"
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -10827,7 +10885,7 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:13",
             "bronindices": [
-              5
+              3
             ]
           }
         },
@@ -10877,56 +10935,19 @@
           }
         },
         {
-          "tekst": "opschuimende",
+          "tekst": "hun eigen",
           "voorkomen": 1,
           "strongs": [
-            "G1890"
+            "G1438"
           ],
           "lemma_strongs": [
-            "G1890"
+            "G1438"
           ],
           "morfologie": [
-            "V-PAP-NPN"
+            "F-3GPN"
           ],
           "bronwoorden": [
-            "επαφριζοντα"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            "G5723"
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:13",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "dwalende",
-          "voorkomen": 1,
-          "strongs": [
-            "G4107"
-          ],
-          "lemma_strongs": [
-            "G4107"
-          ],
-          "morfologie": [
-            "N-NPM"
-          ],
-          "bronwoorden": [
-            "πλανηται"
+            "εαυτων"
           ],
           "transliteraties": [
             ""
@@ -10946,7 +10967,7 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:13",
             "bronindices": [
-              8
+              5
             ]
           }
         },
@@ -10984,6 +11005,43 @@
             "referentie": "JUDE 1:13",
             "bronindices": [
               7
+            ]
+          }
+        },
+        {
+          "tekst": "dwalende",
+          "voorkomen": 1,
+          "strongs": [
+            "G4107"
+          ],
+          "lemma_strongs": [
+            "G4107"
+          ],
+          "morfologie": [
+            "N-NPM"
+          ],
+          "bronwoorden": [
+            "πλανηται"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:13",
+            "bronindices": [
+              8
             ]
           }
         },
@@ -11115,42 +11173,25 @@
           }
         },
         {
-          "tekst": "in eeuwigheid",
+          "tekst": "in",
           "voorkomen": 1,
           "strongs": [
-            "G1519",
-            "G3588",
-            "G165"
+            "G1519"
           ],
           "lemma_strongs": [
-            "G1519",
-            "G3588",
-            "G165"
+            "G1519"
           ],
           "morfologie": [
-            "PREP",
-            "T-ASM",
-            "N-ASM"
+            "PREP"
           ],
           "bronwoorden": [
-            "εις",
-            "τον",
-            "αιωνα"
+            "εις"
           ],
           "transliteraties": [
-            "",
-            "",
             ""
           ],
           "glossen": [
-            "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -11160,8 +11201,54 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:13",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
-              14,
+              14
+            ]
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G165"
+          ],
+          "lemma_strongs": [
+            "G3588",
+            "G165"
+          ],
+          "morfologie": [
+            "T-ASM",
+            "N-ASM"
+          ],
+          "bronwoorden": [
+            "τον",
+            "αιωνα"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:13",
+            "grondindices": [
+              15,
+              16
+            ],
+            "bronindices": [
               15,
               16
             ]
@@ -13497,7 +13584,7 @@
           }
         },
         {
-          "tekst": "klagers over hun staat",
+          "tekst": "klagers",
           "voorkomen": 1,
           "strongs": [
             "G3202"
@@ -13517,9 +13604,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -13528,45 +13612,11 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:16",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
-            ]
-          }
-        },
-        {
-          "tekst": "wandelende",
-          "voorkomen": 1,
-          "strongs": [
-            "G4198"
-          ],
-          "lemma_strongs": [
-            "G4198"
-          ],
-          "morfologie": [
-            "V-PNP-NPM"
-          ],
-          "bronwoorden": [
-            "πορευομενοι"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            "G5740"
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:16",
-            "bronindices": [
-              8
             ]
           }
         },
@@ -13604,43 +13654,6 @@
             "referentie": "JUDE 1:16",
             "bronindices": [
               4
-            ]
-          }
-        },
-        {
-          "tekst": "hun",
-          "voorkomen": 2,
-          "strongs": [
-            "G846"
-          ],
-          "lemma_strongs": [
-            "G846"
-          ],
-          "morfologie": [
-            "P-GPM"
-          ],
-          "bronwoorden": [
-            "αυτων"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:16",
-            "bronindices": [
-              7
             ]
           }
         },
@@ -13690,6 +13703,80 @@
           }
         },
         {
+          "tekst": "hun",
+          "voorkomen": 2,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GPM"
+          ],
+          "bronwoorden": [
+            "αυτων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:16",
+            "bronindices": [
+              7
+            ]
+          }
+        },
+        {
+          "tekst": "wandelende",
+          "voorkomen": 1,
+          "strongs": [
+            "G4198"
+          ],
+          "lemma_strongs": [
+            "G4198"
+          ],
+          "morfologie": [
+            "V-PNP-NPM"
+          ],
+          "bronwoorden": [
+            "πορευομενοι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            "G5740"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:16",
+            "bronindices": [
+              8
+            ]
+          }
+        },
+        {
           "tekst": "en",
           "voorkomen": 1,
           "strongs": [
@@ -13723,43 +13810,6 @@
             "referentie": "JUDE 1:16",
             "bronindices": [
               9
-            ]
-          }
-        },
-        {
-          "tekst": "hun",
-          "voorkomen": 3,
-          "strongs": [
-            "G846"
-          ],
-          "lemma_strongs": [
-            "G846"
-          ],
-          "morfologie": [
-            "P-GPM"
-          ],
-          "bronwoorden": [
-            "αυτων"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:16",
-            "bronindices": [
-              12
             ]
           }
         },
@@ -13809,6 +13859,43 @@
           }
         },
         {
+          "tekst": "hun",
+          "voorkomen": 3,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GPM"
+          ],
+          "bronwoorden": [
+            "αυτων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:16",
+            "bronindices": [
+              12
+            ]
+          }
+        },
+        {
           "tekst": "spreekt",
           "voorkomen": 1,
           "strongs": [
@@ -13846,7 +13933,7 @@
           }
         },
         {
-          "tekst": "zeer hoogdravende dingen",
+          "tekst": "hoogdravende",
           "voorkomen": 1,
           "strongs": [
             "G5246"
@@ -13866,9 +13953,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -13877,6 +13961,9 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:16",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -13957,43 +14044,6 @@
           }
         },
         {
-          "tekst": "vanwege",
-          "voorkomen": 1,
-          "strongs": [
-            "G5484"
-          ],
-          "lemma_strongs": [
-            "G5484"
-          ],
-          "morfologie": [
-            "PREP"
-          ],
-          "bronwoorden": [
-            "χαριν"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:16",
-            "bronindices": [
-              18
-            ]
-          }
-        },
-        {
           "tekst": "voordeel",
           "voorkomen": 1,
           "strongs": [
@@ -14027,6 +14077,43 @@
             "referentie": "JUDE 1:16",
             "bronindices": [
               17
+            ]
+          }
+        },
+        {
+          "tekst": "vanwege",
+          "voorkomen": 1,
+          "strongs": [
+            "G5484"
+          ],
+          "lemma_strongs": [
+            "G5484"
+          ],
+          "morfologie": [
+            "PREP"
+          ],
+          "bronwoorden": [
+            "χαριν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:16",
+            "bronindices": [
+              18
             ]
           }
         }
@@ -14161,6 +14248,43 @@
       ],
       "woordnummers": [
         {
+          "tekst": "u",
+          "voorkomen": 1,
+          "strongs": [
+            "G4771"
+          ],
+          "lemma_strongs": [
+            "G4771"
+          ],
+          "morfologie": [
+            "P-2NP"
+          ],
+          "bronwoorden": [
+            "υμεις"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:17",
+            "grondindices": [
+              0
+            ],
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
           "tekst": "Maar",
           "voorkomen": 1,
           "strongs": [
@@ -14235,35 +14359,25 @@
           }
         },
         {
-          "tekst": "gedenkt u",
+          "tekst": "gedenkt",
           "voorkomen": 1,
           "strongs": [
-            "G4771",
             "G3403"
           ],
           "lemma_strongs": [
-            "G4771",
             "G3403"
           ],
           "morfologie": [
-            "P-2NP",
             "V-APM-2P"
           ],
           "bronwoorden": [
-            "υμεις",
             "μνησθητε"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            "G5682"
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -14273,8 +14387,10 @@
             "versie": "JUDE.UTR",
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:17",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
-              0,
               3
             ]
           }
@@ -14481,43 +14597,6 @@
           }
         },
         {
-          "tekst": "onze",
-          "voorkomen": 1,
-          "strongs": [
-            "G1473"
-          ],
-          "lemma_strongs": [
-            "G1473"
-          ],
-          "morfologie": [
-            "P-1GP"
-          ],
-          "bronwoorden": [
-            "ημων"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "tvm": [
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:17",
-            "bronindices": [
-              13
-            ]
-          }
-        },
-        {
           "tekst": "Heere",
           "voorkomen": 1,
           "strongs": [
@@ -14559,6 +14638,43 @@
             "bronindices": [
               11,
               12
+            ]
+          }
+        },
+        {
+          "tekst": "onze",
+          "voorkomen": 1,
+          "strongs": [
+            "G1473"
+          ],
+          "lemma_strongs": [
+            "G1473"
+          ],
+          "morfologie": [
+            "P-1GP"
+          ],
+          "bronwoorden": [
+            "ημων"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:17",
+            "bronindices": [
+              13
             ]
           }
         },
@@ -14880,7 +14996,7 @@
           }
         },
         {
-          "tekst": "dat",
+          "tekst": "Dat",
           "voorkomen": 1,
           "strongs": [
             "G3754"
@@ -14912,7 +15028,7 @@
             "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
             "referentie": "JUDE 1:18",
             "bronindices": [
-              3
+              0
             ]
           }
         },
@@ -17121,6 +17237,80 @@
           }
         },
         {
+          "tekst": "eniger",
+          "voorkomen": 1,
+          "strongs": [
+            "G3739"
+          ],
+          "lemma_strongs": [
+            "G3739"
+          ],
+          "morfologie": [
+            "R-APM"
+          ],
+          "bronwoorden": [
+            "ους"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:22",
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "wel",
+          "voorkomen": 1,
+          "strongs": [
+            "G3303"
+          ],
+          "lemma_strongs": [
+            "G3303"
+          ],
+          "morfologie": [
+            "PRT"
+          ],
+          "bronwoorden": [
+            "μεν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JUDE.UTR",
+            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
+            "referentie": "JUDE 1:22",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
+            ]
+          }
+        },
+        {
           "tekst": "ontfermt u",
           "voorkomen": 1,
           "strongs": [
@@ -17154,51 +17344,6 @@
             "referentie": "JUDE 1:22",
             "bronindices": [
               3
-            ]
-          }
-        },
-        {
-          "tekst": "wel eniger",
-          "voorkomen": 1,
-          "strongs": [
-            "G3739",
-            "G3303"
-          ],
-          "lemma_strongs": [
-            "G3739",
-            "G3303"
-          ],
-          "morfologie": [
-            "R-APM",
-            "PRT"
-          ],
-          "bronwoorden": [
-            "ους",
-            "μεν"
-          ],
-          "transliteraties": [
-            "",
-            ""
-          ],
-          "glossen": [
-            "",
-            ""
-          ],
-          "tvm": [
-            null,
-            null
-          ],
-          "status": "uitgelijnd",
-          "confidence": 0.9,
-          "reviewstatus": "automatisch_hoog_vertrouwen",
-          "herkomst": {
-            "dataset": "robinson-scrivener-tr",
-            "versie": "JUDE.UTR",
-            "sha256": "46724D6AC953166269CC6B85FB44031DD33EEF2B8E32F471DA0AF0448C087B90",
-            "referentie": "JUDE 1:22",
-            "bronindices": [
-              1,
-              2
             ]
           }
         },

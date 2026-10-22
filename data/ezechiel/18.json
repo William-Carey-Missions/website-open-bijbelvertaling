@@ -4544,10 +4544,13 @@
           "toelichting": "De uitlijngids kiest H253 (אָח, de uitroep 'ach!') waar MorphHB voor deze vorm lemma H251 (אָח, 'broeder') geeft; MorphHB blijft leidend. De Statenvertaling leest hier eveneens 'broeder'."
         },
         {
-          "tekst": "één",
-          "voorkomen": 1,
+          "tekst": "een",
+          "voorkomen": 3,
           "strongs": [
             "H259"
+          ],
+          "morfologie": [
+            "HR/Acmsa"
           ],
           "bronwoorden": [
             "מֵ/אַחַ֖ד"
@@ -4558,13 +4561,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 18:10",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
@@ -5336,10 +5343,13 @@
           }
         },
         {
-          "tekst": "roofs",
+          "tekst": "buit",
           "voorkomen": 1,
           "strongs": [
             "H1500"
+          ],
+          "morfologie": [
+            "HNcfpa"
           ],
           "bronwoorden": [
             "גְּזֵל֣וֹת"
@@ -5350,13 +5360,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 18:12",
+            "grondindices": [
+              3
+            ],
             "bronindices": [
               3
             ]
@@ -5959,8 +5973,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "al",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֵ֣ת"
@@ -5971,21 +5990,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 18:13",
+            "grondindices": [
+              7
+            ],
             "bronindices": [
               7
             ]
-          },
-          "anker": "die gruwelen",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Hebreeuwse lijdend-voorwerpteken אֵת is niet afzonderlijk vertaald."
+          }
         },
         {
           "tekst": "al",
@@ -6015,10 +6034,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "הַ/תּוֹעֵב֤וֹת"
@@ -6029,13 +6051,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 18:13",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               11
             ]
@@ -6638,39 +6664,72 @@
           }
         },
         {
-          "tekst": "dergelijke",
-          "voorkomen": 1,
+          "tekst": "doet",
+          "voorkomen": 2,
           "strongs": [
-            "H6213",
-            "H2004"
+            "H6213"
+          ],
+          "morfologie": [
+            "HVqi3ms"
           ],
           "bronwoorden": [
-            "יַעֲשֶׂ֖ה",
-            "כָּ/הֵֽן"
+            "יַעֲשֶׂ֖ה"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 18:14",
+            "grondindices": [
+              12
+            ],
             "bronindices": [
               12
             ]
-          },
-          "gids_strongs": [
-            "H6213"
+          }
+        },
+        {
+          "tekst": "dergelijke",
+          "voorkomen": 1,
+          "strongs": [
+            "H2004"
           ],
-          "toelichting": "De uitlijngids trekt כָּ/הֵן ('zoals zij') samen met het voorafgaande werkwoord tot één token, terwijl MorphHB het als een eigen woord met lemma H2004 telt. MorphHB blijft leidend: deze koppeling dekt beide grondwoorden en staat op het Nederlandse 'dergelijke', dat כָּהֵן weergeeft."
+          "morfologie": [
+            "HR/Sp3fp"
+          ],
+          "bronwoorden": [
+            "כָּ/הֵֽן"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
+            "referentie": "EZK 18:14",
+            "grondindices": [
+              13
+            ],
+            "bronindices": [
+              13
+            ]
+          }
         }
       ]
     },
@@ -12135,10 +12194,13 @@
           }
         },
         {
-          "tekst": "gruwelen",
+          "tekst": "gruwelijke dingen",
           "voorkomen": 1,
           "strongs": [
             "H8441"
+          ],
+          "morfologie": [
+            "HTd/Ncfpa"
           ],
           "bronwoorden": [
             "הַ/תּוֹעֵב֜וֹת"
@@ -12149,13 +12211,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "250EC443C249AFBB4ECCF7B7E5CCD8D8AB1AE43D995763EFE843AC96EDF5BC5B",
             "referentie": "EZK 18:24",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               7
             ]

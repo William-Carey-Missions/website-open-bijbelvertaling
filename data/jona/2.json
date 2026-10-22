@@ -2079,10 +2079,13 @@
           }
         },
         {
-          "tekst": "grendelen",
+          "tekst": "grendels",
           "voorkomen": 1,
           "strongs": [
             "H1280"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp3fs"
           ],
           "bronwoorden": [
             "בְּרִחֶ֥י/הָ"
@@ -2093,13 +2096,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "A889D4C95EA35757953D2369ADDF6C567FEED1A71B88FE2C017F00A62077E8F0",
             "referentie": "JON 2:6",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               5
             ]

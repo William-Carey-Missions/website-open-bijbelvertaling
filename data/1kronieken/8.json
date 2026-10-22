@@ -10295,10 +10295,13 @@
           ]
         },
         {
-          "tekst": "strijdbare",
+          "tekst": "helden",
           "voorkomen": 1,
           "strongs": [
             "H1368"
+          ],
+          "morfologie": [
+            "HAampc"
           ],
           "bronwoorden": [
             "גִּבֹּרֵי"
@@ -10309,24 +10312,30 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 8:40",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               3
             ]
-          },
-          "toelichting": "Doeltekst bijgewerkt na tekstsweep: 'kloeke' is in de lopende tekst 'strijdbare' geworden."
+          }
         },
         {
-          "tekst": "helden",
+          "tekst": "strijdbare",
           "voorkomen": 1,
           "strongs": [
             "H2428"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "חַ֜יִל"
@@ -10337,13 +10346,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "3E4D7E5268B56FEDCC50AFD00799A4F7F984374A1D2ACEDB0703A2338DAD1991",
             "referentie": "1CH 8:40",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
               5
             ]

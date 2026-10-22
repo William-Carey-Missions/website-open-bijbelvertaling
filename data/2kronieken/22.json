@@ -1651,10 +1651,13 @@
           }
         },
         {
-          "tekst": "handelen",
+          "tekst": "goddeloos",
           "voorkomen": 1,
           "strongs": [
             "H7561"
+          ],
+          "morfologie": [
+            "HR/Vhc"
           ],
           "bronwoorden": [
             "לְ/הַרְשִֽׁיעַ"
@@ -1665,18 +1668,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 22:3",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               10
             ]
-          },
-          "toelichting": "לְהַרְשִׁיעַ (H7561, 'om goddeloos te doen') is aan 'handelen' verankerd."
+          }
         }
       ]
     },
@@ -7800,9 +7806,12 @@
         },
         {
           "tekst": "zij",
-          "voorkomen": 2,
+          "voorkomen": 1,
           "strongs": [
             "H1931"
+          ],
+          "morfologie": [
+            "HPp3fs"
           ],
           "bronwoorden": [
             "הִיא֩"
@@ -7813,18 +7822,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "99DB1DE4A26F3B8C66A9DAAA6450C64C952E4540DE5DFAC8692C9536F3957DB9",
             "referentie": "2CH 22:11",
+            "grondindices": [
+              29
+            ],
             "bronindices": [
               28
             ]
-          },
-          "toelichting": "הִיא (H1931, 'zij') is het onderwerp bij 'want zij was de zus'."
+          }
         },
         {
           "tekst": "was",

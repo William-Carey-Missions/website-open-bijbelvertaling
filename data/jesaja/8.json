@@ -2391,59 +2391,42 @@
           "tekst": "Omdat",
           "voorkomen": 1,
           "strongs": [
-            "H3282"
-          ],
-          "bronwoorden": [
-            "יַ֗עַן"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 8:6",
-            "bronindices": [
-              0
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H3282",
             "H3588"
           ],
+          "morfologie": [
+            "HC",
+            "HC"
+          ],
           "bronwoorden": [
+            "יַ֗עַן",
             "כִּ֤י"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 8:6",
+            "grondindices": [
+              0,
+              1
+            ],
             "bronindices": [
+              0,
               1
             ]
-          },
-          "anker": "Omdat",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "כִּי vormt met יַעַן de vaste verbinding יַעַן כִּי; het Nederlands vat die samen in 'Omdat'."
+          }
         },
         {
           "tekst": "veracht",
@@ -4061,10 +4044,13 @@
           }
         },
         {
-          "tekst": "vleugelen",
+          "tekst": "vleugels",
           "voorkomen": 1,
           "strongs": [
             "H3671"
+          ],
+          "morfologie": [
+            "HNcfpc/Sp3ms"
           ],
           "bronwoorden": [
             "כְּנָפָ֔י/ו"
@@ -4075,13 +4061,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 8:8",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]

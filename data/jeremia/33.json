@@ -1393,12 +1393,12 @@
         },
         {
           "tekst": "van",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H5921"
           ],
           "bronwoorden": [
-            "עַל"
+            "וְ/עַל"
           ],
           "transliteraties": [
             ""
@@ -1414,7 +1414,7 @@
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 33:4",
             "bronindices": [
-              6
+              9
             ]
           }
         },
@@ -1501,9 +1501,12 @@
         },
         {
           "tekst": "van",
-          "voorkomen": 2,
+          "voorkomen": 4,
           "strongs": [
             "H5921"
+          ],
+          "morfologie": [
+            "HC/R"
           ],
           "bronwoorden": [
             "וְ/עַל"
@@ -1514,13 +1517,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 33:4",
+            "grondindices": [
+              10
+            ],
             "bronindices": [
               9
             ]
@@ -7218,10 +7225,13 @@
           }
         },
         {
-          "tekst": "herderen",
+          "tekst": "herders",
           "voorkomen": 1,
           "strongs": [
             "H7462"
+          ],
+          "morfologie": [
+            "HVqrmpa"
           ],
           "bronwoorden": [
             "רֹעִ֔ים"
@@ -7232,13 +7242,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 33:12",
+            "grondindices": [
+              16
+            ],
             "bronindices": [
               16
             ]
@@ -8287,8 +8301,13 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "het",
+          "plaats": "voor",
           "strongs": [
             "H853"
+          ],
+          "morfologie": [
+            "HTo"
           ],
           "bronwoorden": [
             "אֶת"
@@ -8299,21 +8318,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 33:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]
-          },
-          "anker": "woord",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het lijdendvoorwerpspartikel אֶת heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
           "tekst": "woord",
@@ -8371,9 +8390,12 @@
         },
         {
           "tekst": "dat",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HTr"
           ],
           "bronwoorden": [
             "אֲשֶׁ֥ר"
@@ -8384,13 +8406,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 33:14",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
@@ -10245,10 +10271,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HNcfsa"
           ],
           "bronwoorden": [
             "מִנְחָ֛ה"
@@ -10259,13 +10288,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "BA456360B55F800CDE8E8BBE0CDE1B7A1FA9AD74177FD0B3F56B58D3E546FDEB",
             "referentie": "JER 33:18",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               11
             ]

@@ -350,10 +350,13 @@
           }
         },
         {
-          "tekst": "schaduw van de dood",
+          "tekst": "schaduw",
           "voorkomen": 1,
           "strongs": [
             "H6757"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "צַלְמָ֔וֶת"
@@ -364,13 +367,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 9:2",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]
@@ -847,10 +854,13 @@
           }
         },
         {
-          "tekst": "gelijk",
+          "tekst": "zoals",
           "voorkomen": 2,
           "strongs": [
             "H834"
+          ],
+          "morfologie": [
+            "HR/Tr"
           ],
           "bronwoorden": [
             "כַּ/אֲשֶׁ֥ר"
@@ -861,18 +871,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 9:3",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]
-          },
-          "toelichting": "כַּאֲשֶׁר leidt de tweede vergelijking in ('gelijk men verheugd is'); dat is het tweede 'gelijk' in dit vers."
+          }
         },
         {
           "tekst": "verheugd",
@@ -1779,10 +1792,13 @@
           }
         },
         {
-          "tekst": "gebeurde",
+          "tekst": "werden",
           "voorkomen": 1,
           "strongs": [
             "H1961"
+          ],
+          "morfologie": [
+            "HC/Vqq3fs"
           ],
           "bronwoorden": [
             "וְ/הָיְתָ֥ה"
@@ -1793,13 +1809,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 9:5",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -2531,39 +2551,72 @@
           }
         },
         {
-          "tekst": "Vader van de eeuwigheid",
+          "tekst": "Vader",
           "voorkomen": 1,
           "strongs": [
-            "H1",
-            "H5703"
+            "H1"
+          ],
+          "morfologie": [
+            "HNcmsc"
           ],
           "bronwoorden": [
-            "אֲבִי",
-            "עַ֖ד"
+            "אֲבִי"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 9:6",
+            "grondindices": [
+              17
+            ],
             "bronindices": [
-              15
+              17
             ]
-          },
-          "gids_strongs": [
-            "H1"
+          }
+        },
+        {
+          "tekst": "eeuwigheid",
+          "voorkomen": 1,
+          "strongs": [
+            "H5703"
           ],
-          "toelichting": "אֲבִי עַד is één titel; de gids kent daarvoor maar één token (H1), daarom draagt deze koppeling ook H5703 (עַד, 'eeuwigheid')."
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "עַ֖ד"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
+            "referentie": "ISA 9:6",
+            "grondindices": [
+              18
+            ],
+            "bronindices": [
+              18
+            ]
+          }
         },
         {
           "tekst": "Vredevorst",
@@ -6200,59 +6253,42 @@
           "tekst": "aanzienlijke",
           "voorkomen": 1,
           "strongs": [
-            "H5375"
-          ],
-          "bronwoorden": [
-            "וּ/נְשׂוּא"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
-            "referentie": "ISA 9:15",
-            "bronindices": [
-              2
-            ]
-          }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
+            "H5375",
             "H6440"
           ],
+          "morfologie": [
+            "HC/Vqsmsc",
+            "HNcbpa"
+          ],
           "bronwoorden": [
+            "וּ/נְשׂוּא",
             "פָנִ֖ים"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 9:15",
+            "grondindices": [
+              1,
+              2
+            ],
             "bronindices": [
+              2,
               3
             ]
-          },
-          "anker": "aanzienlijke",
-          "plaats": "na",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "פָנִים vormt met נְשׂוּא de uitdrukking נְשׂוּא פָנִים ('aanzienlijk van aangezicht'); het Nederlands vat die samen in 'aanzienlijke'."
+          }
         },
         {
           "tekst": "die",
@@ -8078,10 +8114,13 @@
           }
         },
         {
-          "tekst": "verwarde struiken",
+          "tekst": "struiken",
           "voorkomen": 1,
           "strongs": [
             "H5442"
+          ],
+          "morfologie": [
+            "HR/Ncmpc"
           ],
           "bronwoorden": [
             "בְּ/סִֽבְכֵ֣י"
@@ -8092,13 +8131,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "E48BA7D56F42C43CDB20E14816F5732B205E471D4C5DCBE55DD109BA661C6CC9",
             "referentie": "ISA 9:18",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               9
             ]

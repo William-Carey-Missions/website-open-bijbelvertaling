@@ -877,10 +877,13 @@
           }
         },
         {
-          "tekst": "zwijmeling",
+          "tekst": "bedwelming",
           "voorkomen": 1,
           "strongs": [
             "H7478"
+          ],
+          "morfologie": [
+            "HNcmsa"
           ],
           "bronwoorden": [
             "רַ֛עַל"
@@ -891,13 +894,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 12:2",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]

@@ -975,37 +975,78 @@
           }
         },
         {
-          "tekst": "gaven Hem over",
+          "tekst": "gaven",
           "voorkomen": 1,
           "strongs": [
-            "G3860",
-            "G846"
+            "G3860"
+          ],
+          "lemma_strongs": [
+            "G3860"
+          ],
+          "morfologie": [
+            "V-AAI-3P"
           ],
           "bronwoorden": [
-            "παρεδωκαν",
-            "αυτον"
+            "παρεδωκαν"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5656"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:2",
+            "grondindices": [
+              5
+            ],
             "bronindices": [
-              5,
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "Hem",
+          "voorkomen": 3,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-ASM"
+          ],
+          "bronwoorden": [
+            "αυτον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-tr-grondtekst",
+            "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
+            "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
+            "referentie": "MAT 27:2",
+            "grondindices": [
               6
             ],
-            "grondindices": [
-              5,
+            "bronindices": [
               6
             ]
           }
@@ -2739,10 +2780,16 @@
           }
         },
         {
-          "tekst": "verworgde zichzelf",
+          "tekst": "verhing",
           "voorkomen": 1,
           "strongs": [
             "G519"
+          ],
+          "lemma_strongs": [
+            "G519"
+          ],
+          "morfologie": [
+            "V-AMI-3S"
           ],
           "bronwoorden": [
             "απηγξατο"
@@ -2753,17 +2800,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5668"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:5",
-            "bronindices": [
+            "grondindices": [
               10
             ],
-            "grondindices": [
+            "bronindices": [
               10
             ]
           }
@@ -5973,8 +6024,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -5985,24 +6044,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:11",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -6546,9 +6602,17 @@
         },
         {
           "tekst": "",
-          "voorkomen": 3,
+          "voorkomen": 2,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -6559,24 +6623,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:11",
-            "bronindices": [
-              19
-            ],
             "grondindices": [
               19
+            ],
+            "bronindices": [
+              19
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -11463,9 +11524,17 @@
         },
         {
           "tekst": "",
-          "voorkomen": 2,
+          "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASM"
           ],
           "bronwoorden": [
             "τον"
@@ -11476,24 +11545,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:20",
-            "bronindices": [
-              13
-            ],
             "grondindices": [
               13
+            ],
+            "bronindices": [
+              13
             ]
-          },
-          "anker": "en",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "en",
@@ -15352,8 +15418,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASM"
           ],
           "bronwoorden": [
             "τον"
@@ -15364,24 +15438,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:26",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
               5
+            ],
+            "bronindices": [
+              5
             ]
-          },
-          "anker": "maar",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "maar",
@@ -25781,8 +25852,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "hetzelfde",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASN"
           ],
           "bronwoorden": [
             "το"
@@ -25793,24 +25872,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:44",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -29230,8 +29306,16 @@
         {
           "tekst": "",
           "voorkomen": 1,
+          "anker": "Jezus",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
           ],
           "bronwoorden": [
             "ο"
@@ -29242,24 +29326,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:50",
-            "bronindices": [
-              0
-            ],
             "grondindices": [
               0
+            ],
+            "bronindices": [
+              0
             ]
-          },
-          "anker": "En",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Dit Griekse bronwoord is niet afzonderlijk in het Nederlands weergegeven."
+          }
         },
         {
           "tekst": "En",
@@ -35883,10 +35964,18 @@
           }
         },
         {
-          "tekst": "een",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "steenrots",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSF"
           ],
           "bronwoorden": [
             "τη"
@@ -35897,17 +35986,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:60",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -36183,10 +36273,16 @@
           }
         },
         {
-          "tekst": "ging hij weg",
+          "tekst": "ging",
           "voorkomen": 1,
           "strongs": [
             "G565"
+          ],
+          "lemma_strongs": [
+            "G565"
+          ],
+          "morfologie": [
+            "V-2AAI-3S"
           ],
           "bronwoorden": [
             "απηλθεν"
@@ -36197,17 +36293,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "tvm": [
+            "G5627"
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "lokale-tr-grondtekst",
             "versie": "7fd4d02c3e5adebd379ebfbc824040820dde10fc",
             "sha256": "9C675C0037EDD150A2B5918613053BD6D0C41A784F61239C4AEE2C57F6037A9F",
             "referentie": "MAT 27:60",
-            "bronindices": [
+            "grondindices": [
               21
             ],
-            "grondindices": [
+            "bronindices": [
               21
             ]
           }

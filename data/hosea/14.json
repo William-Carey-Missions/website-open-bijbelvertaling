@@ -2451,10 +2451,13 @@
           }
         },
         {
-          "tekst": "wortelen",
+          "tekst": "wortels",
           "voorkomen": 1,
           "strongs": [
             "H8328"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp3ms"
           ],
           "bronwoorden": [
             "שָׁרָשָׁ֖י/ו"
@@ -2465,13 +2468,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "AE1AA404BA62FC7ADBD2319177C9966320AA934568813D61C3A914F8F7E3EE5A",
             "referentie": "HOS 14:5",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
               6
             ]

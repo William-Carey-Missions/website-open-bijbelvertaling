@@ -1262,7 +1262,7 @@
           }
         },
         {
-          "tekst": "in de toom te houden",
+          "tekst": "toom",
           "voorkomen": 1,
           "strongs": [
             "G5468"
@@ -1282,9 +1282,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5658"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -1293,6 +1290,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:2",
+            "grondindices": [
+              14
+            ],
             "bronindices": [
               14
             ]
@@ -1856,25 +1856,28 @@
           "tekst": "opdat",
           "voorkomen": 1,
           "strongs": [
-            "G4314"
+            "G4314",
+            "G3588"
           ],
           "lemma_strongs": [
-            "G4314"
+            "G4314",
+            "G3588"
           ],
           "morfologie": [
-            "PREP"
+            "PREP",
+            "T-ASN"
           ],
           "bronwoorden": [
-            "προς"
+            "προς",
+            "το"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
-          ],
-          "tvm": [
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -1884,41 +1887,36 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:3",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
-              9
+              9,
+              10
             ]
           }
         },
         {
-          "tekst": "zouden gehoorzamen",
+          "tekst": "gehoorzamen",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
             "G3982"
           ],
           "lemma_strongs": [
-            "G3588",
             "G3982"
           ],
           "morfologie": [
-            "T-ASN",
             "V-PPN"
           ],
           "bronwoorden": [
-            "το",
             "πειθεσθαι"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            "G5745"
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -1928,8 +1926,10 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:3",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
-              10,
               11
             ]
           }
@@ -3539,7 +3539,7 @@
           }
         },
         {
-          "tekst": "roemt toch grote dingen",
+          "tekst": "roemt",
           "voorkomen": 1,
           "strongs": [
             "G3166"
@@ -3559,9 +3559,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            "G5719"
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -3570,6 +3567,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:5",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -4341,7 +4341,7 @@
         },
         {
           "tekst": "de tong",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G3588",
             "G1100"
@@ -4366,10 +4366,6 @@
             "",
             ""
           ],
-          "tvm": [
-            null,
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -4378,6 +4374,10 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:6",
+            "grondindices": [
+              9,
+              10
+            ],
             "bronindices": [
               9,
               10
@@ -4771,49 +4771,68 @@
           }
         },
         {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-ASM"
+          ],
+          "bronwoorden": [
+            "τον"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JAS.UTR",
+            "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
+            "referentie": "JAS 3:6",
+            "grondindices": [
+              23
+            ],
+            "bronindices": [
+              23
+            ]
+          }
+        },
+        {
           "tekst": "levensloop",
           "voorkomen": 1,
           "strongs": [
-            "G3588",
             "G5164",
-            "G3588",
             "G1078"
           ],
           "lemma_strongs": [
-            "G3588",
             "G5164",
-            "G3588",
             "G1078"
           ],
           "morfologie": [
-            "T-ASM",
             "N-ASM",
-            "T-GSF",
             "N-GSF"
           ],
           "bronwoorden": [
-            "τον",
             "τροχον",
-            "της",
             "γενεσεως"
           ],
           "transliteraties": [
-            "",
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -4823,11 +4842,50 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:6",
-            "bronindices": [
-              23,
+            "grondindices": [
               24,
-              25,
               26
+            ],
+            "bronindices": [
+              24,
+              26
+            ]
+          }
+        },
+        {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSF"
+          ],
+          "bronwoorden": [
+            "της"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JAS.UTR",
+            "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
+            "referentie": "JAS 3:6",
+            "grondindices": [
+              25
+            ],
+            "bronindices": [
+              25
             ]
           }
         },
@@ -6710,7 +6768,7 @@
         },
         {
           "tekst": "door",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G1722"
           ],
@@ -6729,9 +6787,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -6740,6 +6795,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:9",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               8
             ]
@@ -7222,42 +7280,31 @@
           }
         },
         {
-          "tekst": "deze mond",
+          "tekst": "mond",
           "voorkomen": 1,
           "strongs": [
             "G3588",
-            "G846",
             "G4750"
           ],
           "lemma_strongs": [
             "G3588",
-            "G846",
             "G4750"
           ],
           "morfologie": [
             "T-GSN",
-            "P-GSN",
             "N-GSN"
           ],
           "bronwoorden": [
             "του",
-            "αυτου",
             "στοματος"
           ],
           "transliteraties": [
-            "",
             "",
             ""
           ],
           "glossen": [
             "",
-            "",
             ""
-          ],
-          "tvm": [
-            null,
-            null,
-            null
           ],
           "status": "uitgelijnd",
           "confidence": 0.9,
@@ -7267,10 +7314,50 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:10",
+            "grondindices": [
+              1,
+              3
+            ],
             "bronindices": [
               1,
-              2,
               3
+            ]
+          }
+        },
+        {
+          "tekst": "deze",
+          "voorkomen": 1,
+          "strongs": [
+            "G846"
+          ],
+          "lemma_strongs": [
+            "G846"
+          ],
+          "morfologie": [
+            "P-GSN"
+          ],
+          "bronwoorden": [
+            "αυτου"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JAS.UTR",
+            "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
+            "referentie": "JAS 3:10",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -11781,6 +11868,43 @@
           }
         },
         {
+          "tekst": "",
+          "voorkomen": 1,
+          "strongs": [
+            "G3303"
+          ],
+          "lemma_strongs": [
+            "G3303"
+          ],
+          "morfologie": [
+            "PRT"
+          ],
+          "bronwoorden": [
+            "μεν"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "robinson-scrivener-tr",
+            "versie": "JAS.UTR",
+            "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
+            "referentie": "JAS 3:17",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
           "tekst": "zuiver",
           "voorkomen": 1,
           "strongs": [
@@ -11966,7 +12090,7 @@
           }
         },
         {
-          "tekst": "voor rede vatbaar",
+          "tekst": "vatbaar",
           "voorkomen": 1,
           "strongs": [
             "G2138"
@@ -11986,9 +12110,6 @@
           "glossen": [
             ""
           ],
-          "tvm": [
-            null
-          ],
           "status": "uitgelijnd",
           "confidence": 0.9,
           "reviewstatus": "automatisch_hoog_vertrouwen",
@@ -11997,6 +12118,9 @@
             "versie": "JAS.UTR",
             "sha256": "FB3A867EFCB0BE09AA3C5104F594A93F4767E602DBECEC71D3F9EE65BBC13663",
             "referentie": "JAS 3:17",
+            "grondindices": [
+              11
+            ],
             "bronindices": [
               11
             ]

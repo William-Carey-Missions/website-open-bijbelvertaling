@@ -1757,6 +1757,40 @@
           }
         },
         {
+          "tekst": "elke",
+          "voorkomen": 1,
+          "strongs": [
+            "H376"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "אִ֥ישׁ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
+            "referentie": "NUM 1:4",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              0
+            ]
+          }
+        },
+        {
           "tekst": "man",
           "voorkomen": 1,
           "strongs": [
@@ -1782,37 +1816,6 @@
               0
             ]
           }
-        },
-        {
-          "tekst": "",
-          "voorkomen": 1,
-          "strongs": [
-            "H376"
-          ],
-          "bronwoorden": [
-            "אִ֖ישׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 1:4",
-            "bronindices": [
-              1
-            ]
-          },
-          "anker": "man",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "De distributieve verdubbeling אִישׁ אִישׁ is in het Nederlands samengetrokken tot 'van elke stam een man'; dit tweede אִישׁ heeft geen eigen woord."
         },
         {
           "tekst": "stam",
@@ -1845,52 +1848,39 @@
           "tekst": "hoofdman",
           "voorkomen": 1,
           "strongs": [
-            "H376"
-          ],
-          "bronwoorden": [
-            "אִ֛ישׁ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
-            "referentie": "NUM 1:4",
-            "bronindices": [
-              3
-            ]
-          }
-        },
-        {
-          "tekst": "hoofdman",
-          "voorkomen": 1,
-          "strongs": [
+            "H376",
             "H7218"
           ],
+          "morfologie": [
+            "HNcmsa",
+            "HNcmsa"
+          ],
           "bronwoorden": [
+            "אִ֛ישׁ",
             "רֹ֥אשׁ"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "77C45E138793369F6A7859A216DA3BDEAD4C060488BF359FFFD5AF4DB43EF252",
             "referentie": "NUM 1:4",
+            "grondindices": [
+              5,
+              6
+            ],
             "bronindices": [
+              1,
               4
             ]
           }

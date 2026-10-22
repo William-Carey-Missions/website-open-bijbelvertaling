@@ -2288,10 +2288,13 @@
           }
         },
         {
-          "tekst": "kinnebakken",
+          "tekst": "kaak",
           "voorkomen": 1,
           "strongs": [
             "H3895"
+          ],
+          "morfologie": [
+            "HNcbsa"
           ],
           "bronwoorden": [
             "לֶ֑חִי"
@@ -2302,42 +2305,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 3:7",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
-            ]
-          }
-        },
-        {
-          "tekst": "verbroken",
-          "voorkomen": 1,
-          "strongs": [
-            "H7665"
-          ],
-          "bronwoorden": [
-            "שִׁבַּֽרְתָּ"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
-            "referentie": "PSA 3:7",
-            "bronindices": [
-              10
             ]
           }
         },
@@ -2392,6 +2372,33 @@
             "referentie": "PSA 3:7",
             "bronindices": [
               12
+            ]
+          }
+        },
+        {
+          "tekst": "verbroken",
+          "voorkomen": 1,
+          "strongs": [
+            "H7665"
+          ],
+          "bronwoorden": [
+            "שִׁבַּֽרְתָּ"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
+            "referentie": "PSA 3:7",
+            "bronindices": [
+              10
             ]
           }
         }

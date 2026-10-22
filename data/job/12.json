@@ -574,34 +574,6 @@
           }
         },
         {
-          "tekst": "ik",
-          "voorkomen": 2,
-          "strongs": [
-            "H595"
-          ],
-          "bronwoorden": [
-            "אָנֹכִ֣י"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
-            "referentie": "JOB 12:3",
-            "bronindices": [
-              3
-            ]
-          },
-          "toelichting": "אָנֹכִי is het zelfstandige nadrukpronomen in de tweede zinshelft en draagt het tweede 'ik'."
-        },
-        {
           "tekst": "niet",
           "voorkomen": 1,
           "strongs": [
@@ -632,19 +604,49 @@
           "tekst": "zwicht",
           "voorkomen": 1,
           "strongs": [
-            "H5307",
-            "H4480"
+            "H5307"
+          ],
+          "morfologie": [
+            "HVqrmsa"
           ],
           "bronwoorden": [
-            "נֹפֵ֣ל",
-            "מִ/כֶּ֑ם"
+            "נֹפֵ֣ל"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
+            "referentie": "JOB 12:3",
+            "grondindices": [
+              5
+            ],
+            "bronindices": [
+              5
+            ]
+          }
+        },
+        {
+          "tekst": "ik",
+          "voorkomen": 2,
+          "strongs": [
+            "H595"
+          ],
+          "bronwoorden": [
+            "אָנֹכִ֣י"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
             ""
           ],
           "confidence": 1.0,
@@ -655,13 +657,44 @@
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 12:3",
             "bronindices": [
-              5
+              3
             ]
           },
-          "gids_strongs": [
-            "H5307"
+          "toelichting": "אָנֹכִי is het zelfstandige nadrukpronomen in de tweede zinshelft en draagt het tweede 'ik'."
+        },
+        {
+          "tekst": "voor",
+          "voorkomen": 1,
+          "strongs": [
+            "H4480"
           ],
-          "toelichting": "נֹפֵל ('achterstaand') en het vergelijkende מִכֶּם ('bij u vandaan') vormen samen 'ik zwicht niet voor u'; de gids heeft voor מִכֶּם geen eigen token, daarom zijn beide grondwoorden onder één koppeling gebracht."
+          "morfologie": [
+            "HR/Sp2mp"
+          ],
+          "bronwoorden": [
+            "מִ/כֶּ֑ם"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
+            "referentie": "JOB 12:3",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              7
+            ]
+          }
         },
         {
           "tekst": "bij",

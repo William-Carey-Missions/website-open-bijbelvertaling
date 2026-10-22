@@ -654,37 +654,72 @@
           }
         },
         {
-          "tekst": "huis van God",
+          "tekst": "huis",
           "voorkomen": 1,
           "strongs": [
-            "H1008",
             "H1008"
           ],
+          "morfologie": [
+            "HNp"
+          ],
           "bronwoorden": [
-            "בֵּֽית",
-            "אֵ֔ל"
+            "בֵּֽית"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 7:2",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
-              0,
+              0
+            ]
+          }
+        },
+        {
+          "tekst": "God",
+          "voorkomen": 1,
+          "strongs": [
+            "H1008"
+          ],
+          "morfologie": [
+            "HNp"
+          ],
+          "bronwoorden": [
+            "אֵ֔ל"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
+            "referentie": "ZEC 7:2",
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
               1
             ]
-          },
-          "toelichting": "בֵּית־אֵל is in MorphHB in twee tokens gesplitst die beide H1008 dragen; de Statenvertalingstraditie leest de naam als 'het huis van God'. De Nederlandse woordgroep draagt daarom beide grondwoorden."
+          }
         },
         {
           "tekst": "Sarezer",
@@ -1738,10 +1773,13 @@
           }
         },
         {
-          "tekst": "tot mij",
+          "tekst": "tot",
           "voorkomen": 1,
           "strongs": [
             "H413"
+          ],
+          "morfologie": [
+            "HR/Sp1cs"
           ],
           "bronwoorden": [
             "אֵלַ֥/י"
@@ -1752,13 +1790,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 7:4",
+            "grondindices": [
+              4
+            ],
             "bronindices": [
               4
             ]
@@ -6593,10 +6635,13 @@
           ]
         },
         {
-          "tekst": "achter hen",
+          "tekst": "achter",
           "voorkomen": 1,
           "strongs": [
             "H310"
+          ],
+          "morfologie": [
+            "HR/Sp3mp"
           ],
           "bronwoorden": [
             "אַֽחֲרֵי/הֶ֔ם"
@@ -6607,13 +6652,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "5064ACC8322E9BA82650F0F25316C83BBCC1FAF0112899E2EBD77BF133AD3F34",
             "referentie": "ZEC 7:14",
+            "grondindices": [
+              9
+            ],
             "bronindices": [
               9
             ]

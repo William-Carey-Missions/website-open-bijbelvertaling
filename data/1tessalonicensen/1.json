@@ -1382,28 +1382,43 @@
           "tekst": "denken",
           "voorkomen": 1,
           "strongs": [
-            "G3417"
+            "G3417",
+            "G4160"
+          ],
+          "lemma_strongs": [
+            "G3417",
+            "G4160"
+          ],
+          "morfologie": [
+            "N-ASF",
+            "V-PMP-NPM"
           ],
           "bronwoorden": [
-            "μνειαν"
+            "μνειαν",
+            "ποιουμενοι"
           ],
           "transliteraties": [
+            "",
             ""
           ],
           "glossen": [
+            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 1:2",
-            "bronindices": [
-              8
-            ],
             "grondindices": [
+              7,
+              9
+            ],
+            "bronindices": [
+              8,
               7
             ]
           }
@@ -1438,36 +1453,6 @@
           "gids_strongs": []
         },
         {
-          "tekst": "denken",
-          "voorkomen": 1,
-          "strongs": [
-            "G4160"
-          ],
-          "bronwoorden": [
-            "ποιουμενοι"
-          ],
-          "transliteraties": [
-            ""
-          ],
-          "glossen": [
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
-            "referentie": "1TH 1:2",
-            "bronindices": [
-              7
-            ],
-            "grondindices": [
-              9
-            ]
-          }
-        },
-        {
           "tekst": "in",
           "voorkomen": 1,
           "strongs": [
@@ -1498,10 +1483,18 @@
           }
         },
         {
-          "tekst": "onze",
+          "tekst": "",
           "voorkomen": 1,
+          "anker": "onze",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GPF"
           ],
           "bronwoorden": [
             "των"
@@ -1512,17 +1505,18 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 1:2",
-            "bronindices": [
+            "grondindices": [
               11
             ],
-            "grondindices": [
+            "bronindices": [
               11
             ]
           }
@@ -2514,10 +2508,18 @@
           }
         },
         {
-          "tekst": "onze",
-          "voorkomen": 2,
+          "tekst": "",
+          "voorkomen": 1,
+          "anker": "God",
+          "plaats": "voor",
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-GSM"
           ],
           "bronwoorden": [
             "του"
@@ -2528,18 +2530,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "C9D7489DCEC2B7C4DB64158651FCF5C62B282147038B2633D4F79F83266679B5",
             "referentie": "1TH 1:3",
-            "bronindices": [
-              4
-            ],
             "grondindices": [
               23
+            ],
+            "bronindices": [
+              4
             ]
           }
         },

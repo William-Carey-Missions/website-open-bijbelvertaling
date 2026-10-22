@@ -4633,10 +4633,13 @@
           "toelichting": "גַּל ('steenhoop' dan wel 'bron'); de SV leest 'de springader', de gids 'the rock heap'. De vertaling volgt de SV."
         },
         {
-          "tekst": "wortelen",
+          "tekst": "wortels",
           "voorkomen": 1,
           "strongs": [
             "H8328"
+          ],
+          "morfologie": [
+            "HNcmpc/Sp3ms"
           ],
           "bronwoorden": [
             "שָֽׁרָשָׁ֣י/ו"
@@ -4647,13 +4650,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "524B1E393860E58F72B3DBF34AC9022F69E8700AFECB0F1F1EF29676EC1FDEC7",
             "referentie": "JOB 8:17",
+            "grondindices": [
+              2
+            ],
             "bronindices": [
               0
             ]

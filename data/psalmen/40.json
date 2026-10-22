@@ -2264,10 +2264,13 @@
           }
         },
         {
-          "tekst": "spijsoffer",
+          "tekst": "voedseloffer",
           "voorkomen": 1,
           "strongs": [
             "H4503"
+          ],
+          "morfologie": [
+            "HC/Ncfsa"
           ],
           "bronwoorden": [
             "וּ/מִנְחָ֨ה"
@@ -2278,13 +2281,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 40:6",
+            "grondindices": [
+              1
+            ],
             "bronindices": [
               1
             ]
@@ -5391,43 +5398,81 @@
           }
         },
         {
-          "tekst": "achteruit gedreven",
+          "tekst": "gedreven",
           "voorkomen": 1,
           "strongs": [
-            "H5472",
-            "H268"
+            "H5472"
+          ],
+          "morfologie": [
+            "HVNi3mp"
           ],
           "bronwoorden": [
-            "יִסֹּ֣גוּ",
-            "אָ֭חוֹר"
+            "יִסֹּ֣גוּ"
           ],
           "transliteraties": [
-            "",
             ""
           ],
           "glossen": [
-            "",
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 40:14",
+            "grondindices": [
+              6
+            ],
             "bronindices": [
-              8,
-              9
+              8
             ]
-          },
-          "toelichting": "De Nederlandse woordgroep geeft H5472 (‘terugwijken’) en H268 (‘achterwaarts’) samen weer."
+          }
         },
         {
-          "tekst": "te schande",
+          "tekst": "achteruit",
+          "voorkomen": 1,
+          "strongs": [
+            "H268"
+          ],
+          "morfologie": [
+            "HNcmsa"
+          ],
+          "bronwoorden": [
+            "אָ֭חוֹר"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
+            "referentie": "PSA 40:14",
+            "grondindices": [
+              7
+            ],
+            "bronindices": [
+              9
+            ]
+          }
+        },
+        {
+          "tekst": "schande",
           "voorkomen": 1,
           "strongs": [
             "H3637"
+          ],
+          "morfologie": [
+            "HC/VNi3mp"
           ],
           "bronwoorden": [
             "וְ/יִכָּלְמ֑וּ"
@@ -5438,13 +5483,17 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "00ADA5917264A4176113CF37BC7807A2E737F9088F079C0DF4D796B50F903A02",
             "referentie": "PSA 40:14",
+            "grondindices": [
+              8
+            ],
             "bronindices": [
               10
             ]

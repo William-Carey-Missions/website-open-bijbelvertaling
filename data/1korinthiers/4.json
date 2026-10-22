@@ -549,52 +549,64 @@
       ],
       "woordnummers": [
         {
-          "tekst": "En",
-          "voorkomen": 1,
-          "strongs": [
-            "G3739",
-            "G1161"
-          ],
-          "bronwoorden": [
-            "ο",
-            "δε"
-          ],
-          "transliteraties": [
-            "",
-            ""
-          ],
-          "glossen": [
-            "",
-            ""
-          ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
-          "herkomst": {
-            "dataset": "bsb-full-strongs-usj",
-            "versie": "5.6",
-            "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
-            "referentie": "1CO 4:2",
-            "bronindices": [
-              0
-            ],
-            "grondindices": [
-              0,
-              1
-            ]
-          },
-          "gids_strongs": [
-            "G5602"
-          ],
-          "toelichting": "De lokale TR schrijft ο δέ als twee tokens waar de gids één afwijkend openingswoord gebruikt."
-        },
-        {
           "tekst": "verder",
           "voorkomen": 1,
           "strongs": [
+            "G3739",
             "G3063"
           ],
+          "lemma_strongs": [
+            "G3739",
+            "G3062"
+          ],
+          "morfologie": [
+            "R-ASN",
+            "A-ASN"
+          ],
           "bronwoorden": [
+            "ο",
             "λοιπον"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "bsb-full-strongs-usj",
+            "versie": "5.6",
+            "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
+            "referentie": "1CO 4:2",
+            "grondindices": [
+              0,
+              2
+            ],
+            "bronindices": [
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "tekst": "En",
+          "voorkomen": 1,
+          "strongs": [
+            "G1161"
+          ],
+          "lemma_strongs": [
+            "G1161"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "δε"
           ],
           "transliteraties": [
             ""
@@ -602,18 +614,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:2",
-            "bronindices": [
+            "grondindices": [
               1
             ],
-            "grondindices": [
-              2
+            "bronindices": [
+              1
             ]
           }
         },
@@ -1101,10 +1114,16 @@
           }
         },
         {
-          "tekst": "het minste",
+          "tekst": "minste",
           "voorkomen": 1,
           "strongs": [
             "G1646"
+          ],
+          "lemma_strongs": [
+            "G1646"
+          ],
+          "morfologie": [
+            "A-ASN-S"
           ],
           "bronwoorden": [
             "ελαχιστον"
@@ -1115,18 +1134,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:3",
-            "bronindices": [
-              2
-            ],
             "grondindices": [
               3
+            ],
+            "bronindices": [
+              2
             ]
           }
         },
@@ -2470,10 +2490,16 @@
           }
         },
         {
-          "tekst": "de tijd",
+          "tekst": "tijd",
           "voorkomen": 1,
           "strongs": [
             "G2540"
+          ],
+          "lemma_strongs": [
+            "G2540"
+          ],
+          "morfologie": [
+            "N-GSM"
           ],
           "bronwoorden": [
             "καιρου"
@@ -2484,18 +2510,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:5",
-            "bronindices": [
-              5
-            ],
             "grondindices": [
               3
+            ],
+            "bronindices": [
+              5
             ]
           }
         },
@@ -3139,6 +3166,12 @@
           "strongs": [
             "G3588"
           ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-NSM"
+          ],
           "bronwoorden": [
             "ο"
           ],
@@ -3148,24 +3181,21 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "niet_afzonderlijk_weergegeven",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:5",
-            "bronindices": [
-              28
-            ],
             "grondindices": [
               26
+            ],
+            "bronindices": [
+              28
             ]
-          },
-          "anker": "ieder",
-          "plaats": "voor",
-          "status": "niet_afzonderlijk_weergegeven",
-          "toelichting": "Het Griekse lidwoord bij lof heeft geen zelfstandig Nederlands equivalent."
+          }
         },
         {
           "tekst": "lof",
@@ -6595,9 +6625,15 @@
         },
         {
           "tekst": "de",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G3588"
+          ],
+          "lemma_strongs": [
+            "G3588"
+          ],
+          "morfologie": [
+            "T-DSM"
           ],
           "bronwoorden": [
             "τω"
@@ -6608,18 +6644,19 @@
           "glossen": [
             ""
           ],
-          "confidence": 1.0,
-          "reviewstatus": "handmatig_gecontroleerd",
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
           "herkomst": {
             "dataset": "bsb-full-strongs-usj",
             "versie": "5.6",
             "sha256": "2323AFBC34CEAB062E242822252F09662FA6CE589E6F41DB56F239D4C17A311A",
             "referentie": "1CO 4:9",
-            "bronindices": [
-              14
-            ],
             "grondindices": [
               15
+            ],
+            "bronindices": [
+              14
             ]
           }
         },
