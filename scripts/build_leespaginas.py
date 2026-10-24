@@ -121,7 +121,7 @@ def pagina(titel, omschrijving, pad, inhoud, json_ld, extra_head=""):
 <script src="js/topnav.js"></script>
 <main class="lp">
 {inhoud}
-<footer class="lp-voet">De tekst van de Open Vertaling is vrij van rechten (<a href="{CC0}" rel="license">CC0 1.0</a>, publiek domein): vrij te citeren, te kopiëren en te hergebruiken, zonder toestemming. De tekst wordt nog door mensen nagekeken. <a href="https://williamcareymissions.nl/over-ons">William Carey Missions</a></footer>
+<footer class="lp-voet">De tekst van de Open Vertaling is vrij van rechten (<a href="{CC0}" rel="license">CC0 1.0</a>, publiek domein): vrij te citeren, te kopiëren en te hergebruiken, zonder toestemming. De tekst wordt nog door mensen nagekeken.</footer>
 </main>
 </body>
 </html>

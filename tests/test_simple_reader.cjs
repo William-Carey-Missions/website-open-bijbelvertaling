@@ -107,9 +107,10 @@ await vm.runInContext('App._setupAudioPlayer=()=>{};App.init()',c);
 assert.ok(nodes.get('verses-container').children.some(row => /Woord/.test(row.innerHTML || '')));
 });
 
-test('about page explains Open Vertaling and credits William Carey Missions', () => {
+test('about page explains Open Vertaling without naming an organisation', () => {
 const html=fs.readFileSync('over-ov.html','utf8');
-for(const text of ['Wat is de Open Vertaling?','Doel en aanleiding','Uitgangspunt: een eerlijke vermenging','Werkwijze','William Carey Missions']) assert.ok(html.includes(text),text);
+for(const text of ['Wat is de Open Vertaling?','Doel en aanleiding','Uitgangspunt: een eerlijke vermenging','Werkwijze','Vrij te gebruiken']) assert.ok(html.includes(text),text);
 assert.ok(html.replace(/<[^>]*>/g,'').length>4500);
 assert.ok(fs.readFileSync('js/topnav.js','utf8').includes('href="/over-ov.html">Over ons'));
+assert.ok(!/William Carey/.test(html+fs.readFileSync('js/topnav.js','utf8')+fs.readFileSync('index.html','utf8')));
 });
