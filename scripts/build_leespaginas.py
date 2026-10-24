@@ -67,18 +67,37 @@ def esc(tekst):
     return html.escape(str(tekst or ""), quote=True)
 
 
+# Godsnaam HEERE, zoals de leesweergave hem standaard toont (js/opties.js, 'klassiek').
+# De volgorde telt: samenstellingen eerst, daarna voorzetsel en aanroep, dan de rest.
+GODSNAAM = [
+    (re.compile(r"\bGod JAHWEH\b"), "de HEERE God"),
+    (re.compile(r"\bJAHWEH van de legermachten\b"), "de HEERE der heirscharen"),
+    (re.compile(r"\b(op|van|aan|voor|tot|door|in|met|bij|over|onder|naast|achter|jegens|uit|na|sinds) JAHWEH\b",
+                re.I), r"\1 de HEERE"),
+    (re.compile(r"\b([Oo]) JAHWEH\b"), r"\1 HEERE"),
+    (re.compile(r"\bJAHWEH!"), "HEERE!"),
+    (re.compile(r"(^|[.!?]\s+)JAHWEH\b"), r"\1De HEERE"),
+    (re.compile(r"\bJAHWEH\b"), "de HEERE"),
+    (re.compile(r"\bde de HEERE\b"), "de HEERE"),
+    (re.compile(r"\bDe de HEERE\b"), "De HEERE"),
+]
+
+
+def godsnaam(tekst):
+    for patroon, vervanging in GODSNAAM:
+        tekst = patroon.sub(vervanging, tekst)
+    return tekst
+
+
 def verstekst(tekst):
     """Platte versdata naar HTML; <<opschrift>> (bv. Jezus Sirach 51:1) wordt een opschrift."""
-    tekst = str(tekst or "").replace("God JAHWEH", "de HEERE God")
-    tekst = re.sub(r"\bJAHWEH\b", "de HEERE", tekst)
-    veilig = esc(" ".join(tekst.split()))
+    veilig = esc(" ".join(godsnaam(str(tekst or "")).split()))
     return re.sub(r"&lt;&lt;(.+?)&gt;&gt;\s*", r'<span class="lp-opschrift">\1</span>', veilig)
 
 
 def platte_tekst(tekst):
-    tekst = str(tekst or "").replace("God JAHWEH", "de HEERE God")
-    tekst = re.sub(r"\bJAHWEH\b", "de HEERE", tekst)
-    return re.sub(r"<<(.+?)>>\s*", r"\1. ", " ".join(tekst.split()))
+    tekst = " ".join(godsnaam(str(tekst or "")).split())
+    return re.sub(r"<<(.+?)>>\s*", r"\1. ", tekst)
 
 
 def lees_json(pad):

@@ -139,7 +139,7 @@
     footer.innerHTML = '<div class="ka-footer-in"><div><strong>Open Vertaling</strong>' +
         '<p>Een herziening van de Statenvertaling. Vrij te gebruiken onder CC0.</p></div>' +
         '<nav aria-label="Lezen"><a href="index.html#johannes/1">Bijbel</a><a href="downloads.html">Downloads</a></nav>' +
-        '<nav aria-label="Over ons"><a href="/over-ov.html">Over de Open Vertaling</a></nav></div>';
+        '<nav aria-label="Over ons"><a href="/over-ov.html">Over de Open Vertaling</a><a href="/achtergrond.html">Achtergrond</a><a href="/markdown/index.md">Markdown</a></nav></div>';
     function plaatsFooter() { if (!footer.isConnected) document.body.appendChild(footer); }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', plaatsFooter);
     else plaatsFooter();
