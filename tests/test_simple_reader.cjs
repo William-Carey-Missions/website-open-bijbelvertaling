@@ -114,3 +114,17 @@ assert.ok(html.replace(/<[^>]*>/g,'').length>4500);
 assert.ok(fs.readFileSync('js/topnav.js','utf8').includes('href="/over-ov.html">Over ons'));
 assert.ok(!/William Carey/.test(html+fs.readFileSync('js/topnav.js','utf8')+fs.readFileSync('index.html','utf8')));
 });
+
+test('reader offers Verschillen SV-OV and shows kanttekeningen beside the text on wide screens', () => {
+const html=fs.readFileSync('index.html','utf8');
+assert.ok(html.includes('id="toggle-verschillen"') && html.includes('id="mobile-diff-btn"'));
+assert.ok(html.includes('<script src="js/spoor.js"></script>'));
+assert.ok(html.includes('id="ka-passage-kt"'));
+const css=fs.readFileSync('css/publication.css','utf8');
+assert.match(css,/@media \(min-width:1100px\) \{\s*body\.kt-popup-mode #content\.reading-mode #verses-container/);
+const c={document:{createElement:()=>({dataset:{},children:[],appendChild(n){this.children.push(n)}})}};vm.createContext(c);
+vm.runInContext(fs.readFileSync('js/chapter-renderer.js','utf8')+';this.CR=ChapterRenderer',c);
+const cel=c.CR.kanttekeningCel({marginNotes:[{marker:'1',type:'explanatory',text2026:'Namelijk het Woord.'}]},'johannes',1);
+assert.equal(cel.children.length,1);
+assert.equal(cel.children[0].dataset.note,'1');
+});

@@ -107,6 +107,7 @@
             <span class="mp-label">Genesis 1</span>
             <svg width="12" height="8" viewBox="0 0 12 8" aria-hidden="true"><path fill="currentColor" d="M6 8L0 0h12z"/></svg>
         </button>
+        <button type="button" id="mobile-diff-btn" class="reader-diff-toggle" data-verschillen-knop aria-pressed="false" aria-label="Verschillen SV-OV" title="Verschillen SV-OV: woorden die afwijken van de Statenvertaling 1888">SV-OV</button>
         <button type="button" id="mobile-search-btn" aria-label="Zoeken" title="Zoeken in Gods Woord" onclick="if(window.Search&&Search.open){Search.open();}else{location.href='index.html?q=';}">
             <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
         </button>
@@ -143,7 +144,13 @@
                     <h2 id="ka-passage-titel">Johannes 1:1–5</h2>
 
                 </div>
-                <p class="ka-scripture" id="ka-passage-tekst" lang="nl">In het begin was het Woord, en het Woord was bij God, en het Woord was God.</p>
+                <div class="ka-passage-body">
+                    <p class="ka-scripture" id="ka-passage-tekst" lang="nl">In het begin was het Woord, en het Woord was bij God, en het Woord was God.</p>
+                    <aside class="ka-passage-kt" aria-labelledby="ka-passage-kt-titel">
+                        <h3 id="ka-passage-kt-titel">Kanttekeningen</h3>
+                        <div id="ka-passage-kt" lang="nl"><p class="ka-kt-leeg">De kanttekeningen worden geladen…</p></div>
+                    </aside>
+                </div>
                 <div class="ka-passage-foot">
                     <span class="ka-pill" id="ka-passage-status">Geverifieerd</span>
 
@@ -182,7 +189,10 @@
     <main id="content">
         <div id="content-topbar">
             <h2 id="chapter-title"></h2>
-            <label class="reader-notes-toggle"><input type="checkbox" id="toggle-kanttekeningen" checked> Kanttekeningen</label>
+            <div class="reader-knoppen">
+                <button type="button" class="reader-diff-toggle" id="toggle-verschillen" data-verschillen-knop aria-pressed="false" title="Woorden die afwijken van de Statenvertaling 1888 gestippeld onderstrepen. Wijs een woord aan voor het oude woord en het principe.">Verschillen SV-OV</button>
+                <label class="reader-notes-toggle"><input type="checkbox" id="toggle-kanttekeningen" checked> Kanttekeningen</label>
+            </div>
 
         </div>
         <div id="book-intro"></div>
@@ -394,6 +404,7 @@
     <script src="js/assets.js"></script>
     <script src="js/audio-available.js"></script>
     <script src="js/chunked-audio.js"></script>
+  <script src="js/spoor.js"></script>
   <script src="js/chapter-renderer.js"></script>
   <script src="js/app.js?v=0.60.0"></script>
     <script src="js/search.js"></script>

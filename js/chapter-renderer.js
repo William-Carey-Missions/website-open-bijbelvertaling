@@ -1,5 +1,33 @@
 /* Reader presentation, shared through the main controller object. */
 const ChapterRenderer = {
+    /* De kanttekeningen van één vers, voor de kolom rechts naast de tekst. */
+    kanttekeningCel(verse, bookId, chapterNum) {
+        const noten = (verse.marginNotes || []).filter(n => n && (n.text2026 || n.text1637));
+        if (!noten.length) return null;
+        const cel = document.createElement('div');
+        cel.className = 'verse-cell col-kt';
+        cel.dataset.col = 'kt';
+        for (const noot of noten) {
+            const item = document.createElement('p');
+            item.className = 'kt-item' + (noot.type === 'crossref' ? ' kt-verwijzing' : '');
+            item.dataset.note = noot.marker;
+            const merk = document.createElement('button');
+            merk.type = 'button';
+            merk.className = 'kt-m';
+            merk.dataset.note = noot.marker;
+            merk.textContent = noot.marker;
+            merk.title = 'Kanttekening ' + noot.marker + ' openen';
+            const tekst = document.createElement('span');
+            const bron = noot.text2026 || noot.text1637;
+            if (typeof References !== 'undefined' && typeof References.linkify === 'function') tekst.innerHTML = References.linkify(bron, bookId, chapterNum);
+            else tekst.textContent = bron;
+            item.appendChild(merk);
+            item.appendChild(tekst);
+            cel.appendChild(item);
+        }
+        return cel;
+    },
+
     async renderChapter(bookId, chapterNum, opts = {}) {
         if (!opts.append && !opts.prepend) document.getElementById('chapter-verification')?.remove();
         await App._laadVerified();   // banner mag niet op verouderde info draaien
@@ -139,6 +167,12 @@ const ChapterRenderer = {
 
             row.innerHTML = `<div class="verse-num" data-col="num">${verse.number}</div>
                 <div class="verse-cell col-2026" data-col="2026">${openVertaling}</div>`;
+            // Kanttekeningen als eigen cel; op brede schermen staat die rechts
+            // naast de tekst, smal blijft het bij de pop-up (zie publication.css).
+            const kanttekeningen = ChapterRenderer.kanttekeningCel(verse, bookId, chapterNum);
+            if (kanttekeningen) row.appendChild(kanttekeningen);
+            // Versdata voor de knop Verschillen SV-OV (js/spoor.js).
+            row._ovVers = verse;
             sink.appendChild(row);
             if (!isExternalTranslation) Editor.attachVerseListeners(row, bookId, chapterNum, verse);
             // Rechtermuisknop op versnummer = tag toevoegen
@@ -159,6 +193,9 @@ const ChapterRenderer = {
             container.insertBefore(sink, container.firstChild);
             if (scroller) scroller.scrollTop = prevTop + (scroller.scrollHeight - prevH);
         }
+
+        // Verschillen SV-OV: gewijzigde woorden markeren als de knop aan staat.
+        if (window.OVSpoor) OVSpoor.markeerRijen(container);
 
         this.updateProgress();
         this.updateGrid();

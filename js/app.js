@@ -326,6 +326,21 @@ const App = {
         applyNotes();
         notesToggle.addEventListener('change', applyNotes);
 
+        // Verschillen SV-OV: woorden die afwijken van de SV1888 markeren (js/spoor.js).
+        // Twee knoppen (hoofdstukbalk en mobiele balk) met één stand.
+        const diffKnoppen = document.querySelectorAll('[data-verschillen-knop]');
+        if (diffKnoppen.length && window.OVSpoor) {
+            const zetKnoppen = () => diffKnoppen.forEach(knop => knop.setAttribute('aria-pressed', OVSpoor.aan() ? 'true' : 'false'));
+            zetKnoppen();
+            diffKnoppen.forEach(knop => knop.addEventListener('click', () => {
+                const container = document.getElementById('verses-container');
+                OVSpoor.zet(!OVSpoor.aan());
+                if (OVSpoor.aan()) OVSpoor.markeerRijen(container);
+                else OVSpoor.wis(container);
+                zetKnoppen();
+            }));
+        }
+
 
         Sidebar.init();
 

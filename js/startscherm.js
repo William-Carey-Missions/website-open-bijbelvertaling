@@ -81,8 +81,8 @@
                 var verzen = (hoofdstuk.verses || []).filter(function (v) { return v.number >= 1 && v.number <= 5; });
                 doel.textContent = '';
                 verzen.forEach(function (vers, i) {
-                    var html = vers.text2026_html || vers.text2026 || '';
-                    html = html.replace(/<sup[^>]*>[\s\S]*?<\/sup>/g, '').replace(/\s{2,}/g, ' ').trim();
+                    // De nootcijfers blijven staan: ze verwijzen naar de kanttekeningen ernaast.
+                    var html = (vers.text2026_html || vers.text2026 || '').replace(/\s{2,}/g, ' ').trim();
                     if (global.Opties && Opties.transformOV) {
                         try { html = Opties.transformOV(html, 'NT'); } catch (e) { /* tekst blijft onveranderd */ }
                     }
@@ -96,6 +96,7 @@
                     doel.appendChild(nr);
                     doel.appendChild(tekst);
                 });
+                vulKanttekeningen(verzen, doel);
                 var sporen = doel.querySelectorAll('.spoor[tabindex]');
                 var codes = {};
                 sporen.forEach(function (s) { if (s.dataset.p && s.dataset.p !== 'los') codes[s.dataset.p] = 1; });
@@ -110,6 +111,44 @@
             .catch(function () { /* de statische eerste zin blijft staan */ });
 
 
+    }
+
+    /* De kanttekeningen bij Johannes 1:1–5, naast de tekst. Een klik op een
+       nootcijfer in de tekst licht de bijbehorende noot op. */
+    function vulKanttekeningen(verzen, tekst) {
+        var lijst = document.getElementById('ka-passage-kt');
+        if (!lijst) return;
+        lijst.textContent = '';
+        verzen.forEach(function (vers) {
+            (vers.marginNotes || []).forEach(function (noot) {
+                var bron = noot.text2026 || noot.text1637;
+                if (!bron) return;
+                var item = document.createElement('p');
+                item.className = 'kt-item' + (noot.type === 'crossref' ? ' kt-verwijzing' : '');
+                item.dataset.note = noot.marker;
+                var merk = document.createElement('b');
+                merk.className = 'kt-m';
+                merk.textContent = noot.marker;
+                var inhoud = document.createElement('span');
+                if (global.References && References.linkify) inhoud.innerHTML = References.linkify(bron, 'johannes', 1);
+                else inhoud.textContent = bron;
+                item.appendChild(merk);
+                item.appendChild(document.createTextNode(' '));
+                item.appendChild(inhoud);
+                lijst.appendChild(item);
+            });
+        });
+        tekst.addEventListener('click', function (e) {
+            var merk = e.target.closest && e.target.closest('.note-marker');
+            if (!merk) return;
+            e.preventDefault();
+            var doelNoot = Array.prototype.find.call(lijst.querySelectorAll('.kt-item'),
+                function (item) { return item.dataset.note === merk.dataset.note; });
+            if (!doelNoot) return;
+            lijst.querySelectorAll('.kt-item.is-actief').forEach(function (item) { item.classList.remove('is-actief'); });
+            doelNoot.classList.add('is-actief');
+            lijst.scrollTo({ top: doelNoot.offsetTop - lijst.offsetTop - 8, behavior: 'smooth' });
+        });
     }
 
     function vulStatus() {

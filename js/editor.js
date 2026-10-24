@@ -48,9 +48,18 @@ const Editor = {
             });
         });
 
-        // Nootmarker klik
+        // Nootmarker klik: staat de kanttekeningenkolom rechts in beeld, dan
+        // licht de noot daar op; anders (smal scherm) opent de pop-up.
         row.querySelectorAll('.note-marker').forEach(marker => {
             marker.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (this.toonInKolom(row, e.currentTarget.dataset.note)) return;
+                this.showNoteTooltip(e.currentTarget, bookId, chapterNum, verse);
+            });
+        });
+        // Het nummer in de kolom opent de volledige noot (met SV 1637 en controle).
+        row.querySelectorAll('.col-kt .kt-m').forEach(knop => {
+            knop.addEventListener('click', (e) => {
                 e.stopPropagation();
                 this.showNoteTooltip(e.currentTarget, bookId, chapterNum, verse);
             });
@@ -129,6 +138,17 @@ const Editor = {
             this.saveVerse(row, bookId, ch, vs);
         });
         App.updateProgress();
+    },
+
+    toonInKolom(row, noteId) {
+        const kolom = row && row.querySelector('.col-kt');
+        if (!kolom || kolom.offsetParent === null) return false;
+        const doel = [...kolom.querySelectorAll('.kt-item')].find(item => item.dataset.note === noteId);
+        if (!doel) return false;
+        document.querySelectorAll('.kt-item.is-actief').forEach(item => item.classList.remove('is-actief'));
+        doel.classList.add('is-actief');
+        doel.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+        return true;
     },
 
     showNoteTooltip(marker, bookId, chapterNum, verse) {
