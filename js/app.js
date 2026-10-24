@@ -318,13 +318,13 @@ const App = {
         References.init();
         this.initColumnToggles();
         const notesToggle = document.getElementById('toggle-kanttekeningen');
-        const applyNotes = () => {
-            document.body.classList.toggle('kt-popup-mode', notesToggle.checked);
-            localStorage.setItem('ov_kanttekeningen', String(notesToggle.checked));
+        const applyNotes = (aan) => {
+            document.body.classList.toggle('kt-popup-mode', aan);
+            notesToggle.setAttribute('aria-pressed', aan ? 'true' : 'false');
+            localStorage.setItem('ov_kanttekeningen', String(aan));
         };
-        notesToggle.checked = localStorage.getItem('ov_kanttekeningen') !== 'false';
-        applyNotes();
-        notesToggle.addEventListener('change', applyNotes);
+        applyNotes(localStorage.getItem('ov_kanttekeningen') !== 'false');
+        notesToggle.addEventListener('click', () => applyNotes(!document.body.classList.contains('kt-popup-mode')));
 
         // Verschillen SV-OV: woorden die afwijken van de SV1888 markeren (js/spoor.js).
         // Twee knoppen (hoofdstukbalk en mobiele balk) met één stand.

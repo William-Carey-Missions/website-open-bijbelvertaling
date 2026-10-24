@@ -4,15 +4,20 @@
 #topnav .topnav-logo { height:56px; max-width:200px; }
 @media(max-width:768px){#topnav .topnav-logo{height:46px;max-width:156px;}}
 
-.reader-notes-toggle{display:inline-flex;align-items:center;gap:.5rem;font-family:var(--font-body);font-size:14px;cursor:pointer;white-space:nowrap}.reader-notes-toggle input{accent-color:var(--teal);width:17px;height:17px}body:not(.kt-popup-mode) .col-2026 sup.note-marker{display:none!important}
+body:not(.kt-popup-mode) .col-2026 sup.note-marker{display:none!important}
 
 #content.reading-mode .verse-row{grid-template-columns:2rem minmax(0,1fr)}
 
 /* Knoppen rechts in de hoofdstukbalk: Verschillen SV-OV en Kanttekeningen. */
 .reader-knoppen { display:flex; align-items:center; gap:14px; flex-wrap:wrap; justify-content:flex-end; }
-.reader-diff-toggle { font:500 13.5px/1 var(--font-body); padding:7px 12px; border-radius:999px; border:1px solid var(--ka-rule, #d9d2c3); background:transparent; color:inherit; cursor:pointer; white-space:nowrap; }
-.reader-diff-toggle:hover { background:var(--ka-gold-wash, rgba(203,164,73,.14)); }
-.reader-diff-toggle[aria-pressed="true"] { border-color:var(--ka-trace, #cba449); background:var(--ka-gold-wash, rgba(203,164,73,.18)); font-weight:600; }
+.reader-diff-toggle { display:inline-flex; align-items:center; gap:7px; font:500 13.5px/1 var(--font-body); padding:7px 12px; border-radius:999px; border:1px solid var(--ka-rule, #d9d2c3) !important; background:transparent !important; color:var(--text-secondary, #555) !important; cursor:pointer; white-space:nowrap; }
+/* Stand aan/uit: hol bolletje = uit, gevuld bolletje en gouden knop = aan. */
+.reader-diff-toggle::before { content:""; flex:none; width:9px; height:9px; border-radius:50%; border:1.5px solid currentColor; box-sizing:border-box; opacity:.6; }
+.reader-diff-toggle:hover { background:var(--ka-gold-wash, rgba(203,164,73,.14)) !important; }
+/* !important: het donkere thema geeft alle knoppen een eigen achtergrond. */
+.reader-diff-toggle[aria-pressed="true"] { border-color:#cba449 !important; background:#cba449 !important; color:#142e42 !important; font-weight:600; }
+.reader-diff-toggle[aria-pressed="true"]::before { background:#142e42; border-color:#142e42; opacity:1; }
+.reader-diff-toggle[aria-pressed="true"]:hover { background:#d6b35e !important; }
 .reader-diff-toggle:focus-visible { outline:2px solid #cba449; outline-offset:2px; }
 
 /* Kanttekeningen naast de tekst: alleen op brede schermen en als de schakelaar
