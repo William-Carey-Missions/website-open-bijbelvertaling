@@ -10,7 +10,7 @@
 
 const VERSION = 'v0.60.0';
 // New reader modules must not be mixed with HTML from before verification.
-const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1-ontwerp1`;
+const CACHE_VERSION = `${VERSION}-verification-v13-splitsing1-ontwerp1-logo20261024`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `data-${CACHE_VERSION}`;
 const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;

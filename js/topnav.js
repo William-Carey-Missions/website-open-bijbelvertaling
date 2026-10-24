@@ -118,7 +118,7 @@
     nav.innerHTML =
         '<div class="topnav-brand">' +
             '<a class="topnav-brand-link" href="index.html" aria-label="Open Vertaling — naar de startpagina">' +
-                '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg" alt="Open Vertaling" width="200" height="60" fetchpriority="high">' +
+                '<img class="topnav-logo" src="/images/branding/open-vertaling-logo-light.svg?v=20261024" alt="Open Vertaling" width="200" height="60" fetchpriority="high">' +
             '</a>' +
         '</div>' +
         '<div class="topnav-links" id="topnav-links">' +
