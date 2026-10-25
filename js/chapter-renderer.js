@@ -128,6 +128,27 @@ const ChapterRenderer = {
             sink.appendChild(intro);
         }
 
+        const kunstbron = document.querySelector('.ka-kunstkaart[data-book="' + bookId + '"][data-chapter="' + chapterNum + '"]');
+        if (kunstbron) {
+            const figure = document.createElement('figure');
+            figure.className = 'ov-kunstwerk';
+            figure.dataset.book = bookId;
+            figure.dataset.chapter = chapterNum;
+            const image = kunstbron.querySelector('img').cloneNode(true);
+            const groter = document.createElement('a');
+            groter.href = image.getAttribute('src');
+            groter.target = '_blank';
+            groter.rel = 'noopener';
+            groter.setAttribute('aria-label', 'Bekijk het schilderij groter');
+            groter.appendChild(image);
+            figure.appendChild(groter);
+            const caption = document.createElement('figcaption');
+            caption.textContent = kunstbron.querySelector('.ka-kunst-naam').textContent;
+            caption.appendChild(kunstbron.querySelector('.ka-kunst-bron').cloneNode(true));
+            figure.appendChild(caption);
+            sink.appendChild(figure);
+        }
+
         for (const verse of chapter.verses) {
             // Pericoop-kop vóór dit vers?
             if (pericMap[verse.number]) {
