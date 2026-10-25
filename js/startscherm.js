@@ -193,7 +193,7 @@
                 el.className = 'ka-pill ok';
                 el.textContent = 'Gecontroleerd';
             }
-        }).catch(function () { /* blijft 'Concept' */ });
+        }).catch(function () { /* De publicatietekst blijft staan. */ });
     }
 
     function init() {

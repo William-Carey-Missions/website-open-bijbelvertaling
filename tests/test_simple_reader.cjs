@@ -26,14 +26,14 @@ test('saved research and translation options cannot change the fixed reading tex
     assert.match(options.transformOV('JAHWEH schiep de hemel.', 'OT'), /HEERE/);
 });
 
-test('all New Testament books are verified without a concept warning', () => {
+test('published chapters show no concept warnings or review controls', () => {
     const context = { window: {}, document: { addEventListener() {} } };
     vm.runInNewContext(fs.readFileSync('js/reader-policy.js', 'utf8'), context);
     context.ReaderPolicy = context.window.ReaderPolicy;
     vm.runInNewContext(fs.readFileSync('js/verification.js', 'utf8'), context);
     const books = JSON.parse(fs.readFileSync('data/books.json', 'utf8')).books;
     assert.equal(books.filter(book => book.testament === 'NT').length, 27);
-    for (const book of books.filter(book => book.testament === 'NT')) {
+    for (const book of books.filter(book => context.ReaderPolicy.allowsBook(book))) {
         assert.equal(context.window.Verification.chapterVerified({}, book.id, 1), true);
         assert.equal(context.window.Verification.warning(book.id, 1), '');
     }
@@ -80,7 +80,7 @@ test('rendering a chapter never reads hidden research data or decorates the firs
     const nodes = new Map();
     const container = { children: [], appendChild(node) {this.children.push(node);} };
     nodes.set('verses-container',container);
-    const document = { getElementById: id => nodes.get(id) || null,
+    const document = { getElementById: id => nodes.get(id) || null, querySelector: () => null,
         createElement: () => ({dataset:{},querySelector:()=>({addEventListener(){}})}) };
     const verse = {number:1,text2026:'Paulus, een apostel.'};
     for (const name of ['grondtekst','phraseDiff','textSV1888']) Object.defineProperty(verse,name,{get(){throw Error('Hidden research was accessed');}});

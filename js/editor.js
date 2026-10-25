@@ -209,6 +209,7 @@ const Editor = {
     },
 
     showStatusDropdown(target, row, bookId, chapterNum, verseNum) {
+        if (window.ReaderPolicy?.publicationReviewed) return;
         this.hideStatusDropdown();
 
         const dropdown = document.createElement('div');

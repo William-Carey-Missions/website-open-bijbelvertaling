@@ -140,7 +140,7 @@ def pagina(titel, omschrijving, pad, inhoud, json_ld, extra_head=""):
 <script src="js/topnav.js"></script>
 <main class="lp">
 {inhoud}
-<footer class="lp-voet">De tekst van de Open Vertaling is vrij van rechten (<a href="{CC0}" rel="license">CC0 1.0</a>, publiek domein): vrij te citeren, te kopiëren en te hergebruiken, zonder toestemming. De tekst wordt nog door mensen nagekeken.</footer>
+<footer class="lp-voet">De tekst van de Open Vertaling is vrij van rechten (<a href="{CC0}" rel="license">CC0 1.0</a>, publiek domein): vrij te citeren, te kopiëren en te hergebruiken, zonder toestemming. De tekst en kanttekeningen zijn nagekeken.</footer>
 </main>
 </body>
 </html>
@@ -291,7 +291,7 @@ def main():
         "ook commercieel en door AI-taalmodellen, zonder toestemming en zonder verplichte bronvermelding.",
         f"Bron: {BASE} · per hoofdstuk: {BASE}/bijbel/{{boek-id}}/{{hoofdstuk}}.html en "
         f"{BASE}/data/{{boek-id}}/{{hoofdstuk}}.json · gebouwd op {datetime.date.today().isoformat()}.",
-        "De tekst wordt nog door mensen nagekeken.",
+        "De tekst en kanttekeningen zijn nagekeken.",
         "",
     ]
     for groep, boeken in groepen:

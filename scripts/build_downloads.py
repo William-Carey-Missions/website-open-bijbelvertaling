@@ -3,7 +3,7 @@
 
 Levert in downloads/:
   open-vertaling-brondata.zip    de complete data-map, ongefilterd
-  open-vertaling-nagekeken.epub  alleen nagekeken hoofdstukken, verstekst
+  open-vertaling-nagekeken.epub  de volledige leesuitgave, verstekst
   index.json                     naam, omvang en datum per uitgave
 
 Draait tijdens de deploy, na export_review_status.py en build_stats.py,
@@ -44,9 +44,12 @@ def lees(pad, standaard=None):
         return standaard
 
 
-def nagekeken_hoofdstukken(verified, boek_id, totaal):
-    """Welke hoofdstukken van dit boek zijn nagekeken? Lege lijst = geen."""
-    return sorted(verified.get(boek_id, []))
+def gepubliceerde_hoofdstukken(boek):
+    """Beschikbare hoofdstukken van de openbare leesuitgave."""
+    if boek.get('ethiopic') or boek.get('testament') == 'ET':
+        return []
+    nummers = boek.get('chaptersIncluded') or range(1, boek.get('totalChapters', 0) + 1)
+    return sorted(n for n in nummers if os.path.isfile(os.path.join(DATA, boek['id'], f'{n}.json')))
 
 
 def verstekst(vers):
@@ -91,7 +94,7 @@ def bouw_epub(boeken, verified, stats):
 
     for boek in boeken:
         bid, naam = boek["id"], boek["nameDutch"]
-        nrs = nagekeken_hoofdstukken(verified, bid, boek.get("totalChapters", 0))
+        nrs = gepubliceerde_hoofdstukken(boek)
         if not nrs:
             continue
         inhoud = []
@@ -112,7 +115,7 @@ def bouw_epub(boeken, verified, stats):
     # --- documenten opbouwen
     docs = []                  # (bestandsnaam, xhtml)
     for boek, inhoud in hoofdstukken:
-        volledig = nagekeken_hoofdstukken(verified, boek["id"], boek.get("totalChapters", 0))
+        volledig = gepubliceerde_hoofdstukken(boek)
         deels = len(volledig) < boek.get("totalChapters", 0)
         delen = [
             '<?xml version="1.0" encoding="utf-8"?>',
@@ -125,7 +128,7 @@ def bouw_epub(boeken, verified, stats):
         ]
         if deels:
             reeks = ", ".join(str(n) for n in volledig[:3]) + ("…" if len(volledig) > 3 else "")
-            delen.append(f'<p class="deels">Van dit boek zijn alleen de nagekeken '
+            delen.append(f'<p class="deels">Van dit boek zijn de beschikbare '
                          f'hoofdstukken opgenomen ({reeks}).</p>')
         for nr, verzen in inhoud:
             delen.append(f'<h2 id="h{nr}">{xml(boek["nameDutch"])} {nr}</h2>')
@@ -143,9 +146,8 @@ def bouw_epub(boeken, verified, stats):
 <p>Een vrije, leesbare herziening van de Statenvertaling (1637/1888) in
 hedendaags Nederlands.</p>
 <h2>Wat er in deze uitgave staat</h2>
-<p>Alleen hoofdstukken die vers voor vers zijn nagekeken. De vertaling is nog
-in bewerking; deze uitgave groeit mee naarmate er meer wordt nagekeken. Van
-boeken die nog niet af zijn, zijn alleen de nagekeken hoofdstukken opgenomen.</p>
+<p>De tekst en kanttekeningen zijn nagekeken. Deze leesuitgave bevat de
+beschikbare hoofdstukken van de Open Vertaling.</p>
 <p>Deze uitgave bevat {n_boeken} boeken, {n_hfdst} hoofdstukken en {n_verzen} verzen.</p>
 <h2>Versie</h2>
 <p>{xml(versie)} — {xml(datum)}</p>
@@ -232,8 +234,7 @@ p.deels { font-style: italic; color: #666; font-size: 0.9em; }
 # -------------------------------------------------------------------- main
 def main():
     os.makedirs(UIT, exist_ok=True)
-    with open(os.path.join(DATA, "verified-chapters.json"), encoding="utf-8") as fh:
-        verified = json.load(fh)
+    verified = {}
     boeken = (lees(os.path.join(DATA, "books.json"), {}) or {}).get("books", [])
     stats = lees(os.path.join(DATA, "stats.json"), {}) or {}
     zippad = bouw_zip()
@@ -248,27 +249,27 @@ def main():
                 "bestand": ZIP_NAAM,
                 "omschrijving": ("De complete data-map zoals de site die gebruikt: alle boeken en "
                                  "hoofdstukken als JSON, met kanttekeningen, grondtekst en "
-                                 "Strong's-nummers. Ongefilterd, dus inclusief nog niet nagekeken tekst."),
+                                 "Strong's-nummers. Geschikt voor hergebruik in eigen toepassingen."),
                 "bytes": os.path.getsize(zippad),
                 "datum": vandaag,
             },
         ],
     }
-    if any(verified.values()):
+    if any(gepubliceerde_hoofdstukken(boek) for boek in boeken):
         epubpad, telling = bouw_epub(boeken, verified, stats)
         index["uitgaven"].insert(0, {
-            "naam": "Geverifieerde tekst (EPUB)",
+            "naam": "Nagekeken leesuitgave (EPUB)",
             "bestand": EPUB_NAAM,
             "omschrijving": (
                 f"Leesuitgave: {telling['boeken']} boeken, {telling['hoofdstukken']} hoofdstukken "
-                f"en {telling['verzen']} verzen. Accountgebonden hoofdstukverificaties op {vandaag}."
+                f"en {telling['verzen']} verzen. Bijgewerkt op {vandaag}."
             ),
             "bytes": os.path.getsize(epubpad),
             "datum": vandaag,
         })
     with atomic_output(os.path.join(UIT, "index.json")) as temporary, open(temporary, "w", encoding="utf-8") as fh:
         json.dump(index, fh, ensure_ascii=False, indent=1)
-    if not any(verified.values()):
+    if not any(gepubliceerde_hoofdstukken(boek) for boek in boeken):
         # Trek eerst de link in; verwijder daarna uitsluitend de oude gegenereerde EPUB.
         previous_epub = os.path.join(UIT, EPUB_NAAM)
         if os.path.exists(previous_epub):

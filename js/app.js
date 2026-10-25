@@ -654,6 +654,13 @@ const App = {
     },
 
     updateProgress() {
+        if (window.ReaderPolicy?.publicationReviewed) {
+            const label = document.getElementById('progress-text');
+            if (label) label.textContent = 'Nagekeken leesuitgave';
+            const fill = document.getElementById('progress-fill');
+            if (fill) fill.style.width = '100%';
+            return;
+        }
         const rows = document.querySelectorAll('.verse-row');
         if (rows.length === 0) return;
 

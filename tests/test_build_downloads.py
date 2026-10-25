@@ -28,7 +28,7 @@ def release(tmp_path, monkeypatch):
     return tmp_path / "downloads"
 
 
-def test_epub_contains_exactly_verified_chapters_and_valid_xml(release):
+def test_epub_contains_all_published_chapters_and_valid_xml(release):
     with zipfile.ZipFile(release / builder.EPUB_NAAM) as epub:
         first = epub.infolist()[0]
         assert first.filename == "mimetype" and first.compress_type == zipfile.ZIP_STORED
@@ -37,9 +37,9 @@ def test_epub_contains_exactly_verified_chapters_and_valid_xml(release):
             if name.endswith((".xhtml", ".opf", ".xml")):
                 ET.fromstring(epub.read(name))
         text = epub.read("OEBPS/genesis.xhtml").decode()
-        assert set(re.findall(r'<h2 id="h(\d+)">', text)) == {"1"}
+        assert set(re.findall(r'<h2 id="h(\d+)">', text)) == {"1", "2"}
         assert "<sup" not in text
-        assert "Hoofdstuk 2." not in text
+        assert "Hoofdstuk 2." in text
         assert "CC0" in epub.read("OEBPS/colofon.xhtml").decode()
         nav = epub.read("OEBPS/nav.xhtml").decode()
         for href in re.findall(r'href="([^"#]+)', nav):
