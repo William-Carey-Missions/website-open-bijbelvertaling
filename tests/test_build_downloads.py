@@ -71,3 +71,17 @@ def test_interrupted_build_preserves_previous_release_and_removes_partial_output
             raise RuntimeError("interrupted build")
     assert target.read_bytes() == b"previous release"
     assert not (tmp_path / "archive.zip.tmp").exists()
+
+
+def test_pdf_and_markdown_urls_point_to_existing_artifacts(release):
+    root = release.parent
+    (release / builder.PDF_NAAM).write_bytes(b"%PDF-1.4\n")
+    (root / "markdown").mkdir()
+    (root / "markdown/ov-volledig.md").write_text("# Open Vertaling\n")
+    assert builder.main() == 0
+    index = json.loads((release / "index.json").read_text())
+    formats = {item['url']: item for item in index['uitgaven'] if 'url' in item}
+    assert set(formats) == {'/downloads/' + builder.PDF_NAAM, '/markdown/ov-volledig.md'}
+    for url, item in formats.items():
+        assert (root / url.lstrip('/')).stat().st_size == item['bytes']
+    assert 'Zonder kanttekeningen' in formats['/downloads/' + builder.PDF_NAAM]['omschrijving']

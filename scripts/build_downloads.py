@@ -4,7 +4,10 @@
 Levert in downloads/:
   open-vertaling-brondata.zip    de complete data-map, ongefilterd
   open-vertaling-nagekeken.epub  de volledige leesuitgave, verstekst
+  open-vertaling-volledig.pdf   leesuitgave, vooraf gebouwd door build_pdf.py
   index.json                     naam, omvang en datum per uitgave
+
+De index verwijst ook naar markdown/ov-volledig.md, gebouwd door build_markdown.py.
 
 Draait tijdens de deploy, na export_review_status.py en build_stats.py,
 zodat de uitgaven altijd gelijk lopen met de tekst en er geen binaire
@@ -22,6 +25,7 @@ SITE = "https://openvertaling.nl"
 
 ZIP_NAAM = "open-vertaling-brondata.zip"
 EPUB_NAAM = "open-vertaling-nagekeken.epub"
+PDF_NAAM = "open-vertaling-volledig.pdf"
 
 
 @contextmanager
@@ -267,6 +271,20 @@ def main():
             "bytes": os.path.getsize(epubpad),
             "datum": vandaag,
         })
+    # Deze bestanden worden op de runner gebouwd en vóór deze serverstap
+    # gepubliceerd. Het indexbestand bevat alleen bestaande uitgaven.
+    for naam, relative, omschrijving in [
+        ('Volledige leesuitgave (PDF)', 'downloads/' + PDF_NAAM,
+         'Alle 82 openbare boeken van de Open Vertaling als PDF, met klikbare boekinhoud en hoofdstukbladwijzers. Zonder kanttekeningen en afbeeldingen.'),
+        ('Volledige tekst met kanttekeningen (Markdown)', 'markdown/ov-volledig.md',
+         'De volledige Open Vertaling als één Markdown-bestand, inclusief de herziene kanttekeningen als voetnoten. Geschikt voor zoeken, citeren en hergebruik.'),
+    ]:
+        path = os.path.join(ROOT, relative)
+        if os.path.isfile(path):
+            index['uitgaven'].append({
+                'naam': naam, 'bestand': os.path.basename(path), 'url': '/' + relative,
+                'omschrijving': omschrijving, 'bytes': os.path.getsize(path), 'datum': vandaag,
+            })
     with atomic_output(os.path.join(UIT, "index.json")) as temporary, open(temporary, "w", encoding="utf-8") as fh:
         json.dump(index, fh, ensure_ascii=False, indent=1)
     if not any(gepubliceerde_hoofdstukken(boek) for boek in boeken):

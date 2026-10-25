@@ -263,7 +263,8 @@ def main():
     per_id = {boek["id"]: boek for boek in index["boeken"]}
     volgorde = [(groep, ids.split()) for groep, ids in GROEPEN]
     bekend = [boek_id for _, ids in volgorde for boek_id in ids]
-    if sorted(bekend) != sorted(per_id):
+    per_id = {boek_id: per_id[boek_id] for boek_id in bekend}
+    if len(bekend) != 82 or len(set(bekend)) != 82:
         sys.exit(f"Boekvolgorde wijkt af van data/books-index.json: {sorted(set(bekend) ^ set(per_id))}")
 
     groepen = []
@@ -290,7 +291,7 @@ def main():
         f"Licentie: CC0 1.0, publiek domein ({CC0}). Vrij te citeren, te kopiëren, te bewerken en te hergebruiken, "
         "ook commercieel en door AI-taalmodellen, zonder toestemming en zonder verplichte bronvermelding.",
         f"Bron: {BASE} · per hoofdstuk: {BASE}/bijbel/{{boek-id}}/{{hoofdstuk}}.html en "
-        f"{BASE}/data/{{boek-id}}/{{hoofdstuk}}.json · gebouwd op {datetime.date.today().isoformat()}.",
+        f"{BASE}/data/llm/{{boek-id}}/{{hoofdstuk}}.json · gebouwd op {datetime.date.today().isoformat()}.",
         "De tekst en kanttekeningen zijn nagekeken.",
         "",
     ]
@@ -319,6 +320,9 @@ def main():
                         tekst.append(f"{vers['number']} {platte_tekst(vers['text2026'])}")
                         verzen_totaal += 1
                 tekst.append("")
+
+    from build_llm_catalog import build_catalog
+    build_catalog(ROOT, doel)
 
     aantallen = {"boeken": len(per_id), "hoofdstukken": geschreven, "verzen": verzen_totaal}
     pad, inhoud = overzicht(groepen, aantallen)

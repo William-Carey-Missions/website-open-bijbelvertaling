@@ -2,9 +2,21 @@
 
 > De Open Vertaling (OV) is een vrije herziening van de Statenvertaling in hedendaags Nederlands, met de kanttekeningen van de Statenvertalers. Tekst en kanttekeningen zijn vrij van rechten (CC0 1.0, publiek domein): vrij te citeren, te kopiëren, te bewerken en te hergebruiken, ook commercieel en door AI-taalmodellen.
 
-De OV gaat uit van de Statenvertaling in de editie van 1888. De zinsbouw en het karakter van de Statenvertaling blijven behouden; verouderde naamvallen, werkwoordsvormen en woorden zijn volgens vastgelegde wijzigingsprincipes vervangen. De Godsnaam is HEERE. De uitgave bevat 82 boeken: 39 van het Oude Testament, 27 van het Nieuwe Testament en de 16 apocriefe boeken die ook in de Statenvertaling staan. De Ethiopische boeken (Henoch, Jubileeën, Meqabyan, 4 Baruch) staan niet in de OV, maar in de Open Parafrase Weergave en op Open Gods Woord. AI is gebruikt als hulpmiddel; de tekst wordt per hoofdstuk door mensen nagekeken en goedgekeurd, en is nog niet overal nagekeken.
+De OV gaat uit van de Statenvertaling in de editie van 1888. De zinsbouw en het karakter van de Statenvertaling blijven behouden; verouderde naamvallen, werkwoordsvormen en woorden zijn volgens vastgelegde wijzigingsprincipes vervangen. De Godsnaam is HEERE. De uitgave bevat 82 boeken: 39 van het Oude Testament, 27 van het Nieuwe Testament en de 16 apocriefe boeken die ook in de Statenvertaling staan. Ethiopische boeken behoren niet tot de openbare collectie van 82 boeken. AI is gebruikt als hulpmiddel. De gepubliceerde tekst en kanttekeningen zijn door mensen nagekeken.
 
 Citeer met boeknaam, hoofdstuk en vers, bijvoorbeeld "Johannes 3:16 (Open Vertaling)". Bronvermelding is niet verplicht.
+
+## Begin hier: vinden, lezen en citeren
+
+1. Lees de [machineleesbare catalogus](https://openvertaling.nl/data/llm/index.json). Die bevat precies de 82 openbare boeken, namen, echte hoofdstuknummers en downloadlinks per hoofdstuk.
+2. Haal alleen het benodigde hoofdstuk op, bijvoorbeeld [Johannes 3 als JSON](https://openvertaling.nl/data/llm/johannes/3.json). Dit is een kleine UTF-8-download zonder vergelijkingsteksten.
+3. Gebruik `verses[].text` als tekst en `verses[].citation` met `verses[].url` als bronverwijzing. Voorbeeld: [Johannes 3:16 (Open Vertaling)](https://openvertaling.nl/bijbel/johannes/3.html#v16).
+
+Schema versie 1: de index heeft `edition`, `source`, `version`, `license` en `books[].chapters[]` met `chapter`, `json`, `url`, `verseCount`, `version`. Een hoofdstuk heeft `edition`, `license`, `version`, `book`, `bookName`, `chapter`, `url`, `verses`. Elk vers heeft `id`, `book`, `chapter`, `verse`, `text`, `citation`, `url` en `notes` (uitsluitend herziene OV-kanttekeningen). Getallen zijn JSON-nummers. `id` is een vaste URN, bijvoorbeeld `urn:ov:johannes:3:16`; `version` is een inhoudshash, geen verzonnen publicatiedatum. Citeer de HTML-verslink; gebruik de JSON-link voor ophalen.
+
+De licentie geldt voor de tekst van deze editie: CC0 1.0, publiek domein (https://creativecommons.org/publicdomain/zero/1.0/). Neem geen rechten voor afbeeldingen, woordenboeken, grondtekstdata of andere edities aan op basis van deze tekstlicentie. Ethiopische boeken staan niet in deze openbare collectie.
+
+Houd de bronnen apart: [Open Vertaling](https://openvertaling.nl/llms.txt) is de nagekeken herziening van de Statenvertaling met herziene kanttekeningen; [Open Parafrase Weergave](https://open-parafrase-weergave.nl/llms.txt) is een parafrase in eenvoudig Nederlands met proef-/conceptstatus; [Open Gods Word](https://opengodsword.com/llms.txt) biedt wiki, achtergrond en broninformatie. Schrijf bij een citaat de werkelijke editie erbij.
 
 ## Achtergrond
 
@@ -24,8 +36,8 @@ Citeer met boeknaam, hoofdstuk en vers, bijvoorbeeld "Johannes 3:16 (Open Vertal
 
 ## Gegevens
 
-- [Boekenregister](https://openvertaling.nl/data/books-index.json): boek-id's, namen en aantallen hoofdstukken.
-- Hoofdstukdata: https://openvertaling.nl/data/{boek-id}/{hoofdstuk}.json, met per vers text2026 (OV), textSV1888, text1637, marginNotes (kanttekeningen in de drie edities) en phraseDiff (gewijzigde woordgroepen met het principe). Andere vergelijkingsteksten in deze bestanden zijn auteursrechtelijk beschermd en vallen niet onder CC0.
+- [Openbaar boeken- en hoofdstukregister](https://openvertaling.nl/data/llm/index.json): uitsluitend de 82 openbare boeken, met hoofdstukdownloads en versie-informatie.
+- Hoofdstukdata voor hergebruik: https://openvertaling.nl/data/llm/{boek-id}/{hoofdstuk}.json. Alleen OV-tekst en herziene OV-kanttekeningen; geen vergelijkingsteksten. Gebruik de verseigenschappen `citation` en `url` voor een precieze verwijzing.
 - Hoofdstukpagina: https://openvertaling.nl/bijbel/{boek-id}/{hoofdstuk}.html; leesweergave: https://openvertaling.nl/index.html#{boek-id}/{hoofdstuk}.
 
 ## Verwante sites

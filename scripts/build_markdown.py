@@ -131,6 +131,8 @@ def boek_md(boek, nummers, editie, cfg):
         hoofdstuk_regels, voetnoten = [], []
         for vers in data.get("verses", []):
             regel, eigen = vers_md(vers, n, editie, cfg)
+            if regel and editie == "ov":
+                regel += f" [bron]({BASE}/bijbel/{boek['id']}/{n}.html#v{vers['number']})"
             if regel:
                 hoofdstuk_regels += [regel, ""]
                 voetnoten += eigen
@@ -138,6 +140,8 @@ def boek_md(boek, nummers, editie, cfg):
         if not hoofdstuk_regels:
             continue
         regels += [f"## {boek['naam']} {n}", ""]
+        if editie == "ov":
+            regels += [f"[Hoofdstuk als JSON]({BASE}/data/llm/{boek['id']}/{n}.json)", ""]
         inleiding = data.get("chapterIntro")
         if cfg["inleiding"] and isinstance(inleiding, dict) and inleiding.get(cfg["inleiding"]):
             regels += [f"*{md(schoon(inleiding[cfg['inleiding']], cfg['godsnaam']))}*", ""]
@@ -300,6 +304,8 @@ def index_md(groepen, totaal):
         "## Edities",
         "",
     ]
+    from build_llm_catalog import guide_section
+    regels.insert(6, guide_section())
     for editie, cfg in EDITIES.items():
         t = totaal[editie]
         regels.append(f"- [{cfg['naam']} — volledig]({BASE}/markdown/{editie}-volledig.md): {t['boeken']} boeken, "

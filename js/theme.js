@@ -44,4 +44,12 @@
     } catch (error) {
         console.error('[Theme] Thema-instellingen konden niet worden geladen.', error);
     }
+    // Eén lokale bootstrap voor alle gewone en gegenereerde pagina's.
+    if (global.top === global.self && !document.getElementById('ogw-analytics-bootstrap')) {
+        var analytics = document.createElement('script');
+        analytics.id = 'ogw-analytics-bootstrap';
+        analytics.async = true;
+        analytics.src = '/js/analytics.js?v=1';
+        document.head.appendChild(analytics);
+    }
 })(window);

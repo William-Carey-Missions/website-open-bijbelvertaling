@@ -30,7 +30,7 @@ jobs:
       # met de hand bijgewerkt liep die index twee maanden achter.
       # build_citaten.py schrijft per hoofdstuk alleen de tekst (data/citaat/) voor
       # embed.js, zodat de bewijsteksten op Open Gods Woord licht en snel laden.
-      build_command: python scripts/build_illustraties.py && python scripts/build_review_catalog.py && python scripts/build_leespaginas.py && python scripts/build_markdown.py && python scripts/build_search_index.py && python scripts/build_sitemap.py && python scripts/build_citaten.py
+      build_command: python -m pip install -r requirements-pdf.txt && python scripts/build_illustraties.py && python scripts/build_review_catalog.py && python scripts/build_leespaginas.py && python scripts/build_markdown.py && python scripts/build_pdf.py && python scripts/build_search_index.py && python scripts/build_sitemap.py && python scripts/build_citaten.py
       rsync_excludes: |
         .git/
         .github/

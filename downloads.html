@@ -11,14 +11,14 @@
     <link rel="apple-touch-icon" href="/icons/icon-192.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Downloads — Open Vertaling</title>
-    <meta name="description" content="Download de Open Vertaling: een leesuitgave als EPUB voor e-reader en tablet, en de complete brondata als ZIP. Vrij te gebruiken, CC0 / publiek domein.">
+    <meta name="description" content="Download de volledige Open Vertaling als PDF, Markdown met kanttekeningen, EPUB of brondata. De OV-tekst is CC0 / publiek domein.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://openvertaling.nl/downloads.html">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Open Vertaling">
     <meta property="og:locale" content="nl_NL">
     <meta property="og:title" content="Downloads — Open Vertaling">
-    <meta property="og:description" content="De Open Vertaling als EPUB voor je e-reader, en de complete brondata als ZIP. CC0 / publiek domein.">
+    <meta property="og:description" content="De volledige Open Vertaling als PDF, Markdown met kanttekeningen, EPUB of brondata. De OV-tekst is CC0 / publiek domein.">
     <meta property="og:url" content="https://openvertaling.nl/downloads.html">
     <meta property="og:image" content="https://openvertaling.nl/icons/icon-512.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -52,16 +52,22 @@
 
     <div class="page">
         <h1>Downloads</h1>
-        <p class="subtitle">De vertaling meenemen naar je e-reader, of de data zelf gebruiken.</p>
+        <p class="subtitle">De volledige vertaling downloaden om te lezen, citeren of hergebruiken.</p>
 
         <div class="dl-lead">
-            Alles op deze pagina is vrij te gebruiken. De omvang en datum hieronder worden bij elke
+            De OV-tekst is vrij te gebruiken onder CC0. Voor extern bronmateriaal in de brondata gelden de eigen bronlicenties. De omvang en datum hieronder worden bij elke
             publicatie opnieuw bepaald, dus wat je downloadt loopt gelijk met wat er op de site staat.
         </div>
 
         <div id="dl-uitgaven">
             <p class="dl-laden">Bezig met laden…</p>
         </div>
+
+        <h2>De hele Open Vertaling</h2>
+        <p class="dl-oms">De <a href="/downloads/open-vertaling-volledig.pdf" download>volledige PDF-leesuitgave</a>
+            bevat alle 82 openbare boeken, met klikbare boekinhoud, hoofdstukbladwijzers en versnummers.
+            De PDF bevat geen kanttekeningen en afbeeldingen. Download voor de kanttekeningen de
+            <a href="/markdown/ov-volledig.md" download>volledige Open Vertaling als Markdown</a>.</p>
 
         <div class="dl-licentie">
             <strong>CC0 / publiek domein.</strong> U mag deze tekst vrij gebruiken, kopiëren, bewerken
@@ -121,7 +127,7 @@
                     '<div class="dl-kop"><span class="dl-naam">' + esc(u.naam) + '</span>' +
                     '<span class="dl-meta">' + omvang(u.bytes) + ' · ' + esc(datumNL(u.datum)) + '</span></div>' +
                     '<p class="dl-oms">' + esc(u.omschrijving) + '</p>' +
-                    '<a class="dl-knop" href="downloads/' + esc(u.bestand) + '" download>Downloaden</a>' +
+                    '<a class="dl-knop" href="' + esc(u.url || ('downloads/' + u.bestand)) + '" download>Downloaden</a>' +
                     '</div>';
             }).join('') +
             (d.versie ? '<p style="font-size:12.5px;color:#888">Gebouwd uit versie ' + esc(d.versie) +

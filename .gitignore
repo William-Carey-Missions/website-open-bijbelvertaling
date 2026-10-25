@@ -44,6 +44,7 @@ PROMPTS.md
 # niet in git bewaard. De losse transcriptie in downloads/ blijft wel staan.
 downloads/*.zip
 downloads/*.epub
+downloads/*.pdf
 downloads/index.json
 
 # Adres van de gepubliceerde opmerkingen-sheet (niet in de geschiedenis)
@@ -67,3 +68,6 @@ images/covers/gods-woord/*/voorkant.png
 
 # Tijdelijke documentvergrendelingen
 .~lock.*#
+
+# Kleine openbare hoofdstukbestanden, gegenereerd bij de uitrol
+/data/llm/
