@@ -132,8 +132,9 @@
                 merk.className = 'kt-m';
                 merk.textContent = noot.marker;
                 var inhoud = document.createElement('span');
-                if (global.References && References.linkify) inhoud.innerHTML = References.linkify(bron, 'johannes', 1);
+                if (typeof References !== 'undefined' && References.linkify) inhoud.innerHTML = References.linkify(bron, 'johannes', 1);
                 else inhoud.textContent = bron;
+                linkGriekseWoorden(inhoud, vers);
                 item.appendChild(merk);
                 item.appendChild(document.createTextNode(' '));
                 item.appendChild(inhoud);
@@ -150,6 +151,37 @@
             lijst.querySelectorAll('.kt-item.is-actief').forEach(function (item) { item.classList.remove('is-actief'); });
             doelNoot.classList.add('is-actief');
             lijst.scrollTo({ top: doelNoot.offsetTop - lijst.offsetTop - 8, behavior: 'smooth' });
+        });
+    }
+
+    function linkGriekseWoorden(container, vers) {
+        var normaliseer = function (word) { return word.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/ς/g, 'σ'); };
+        var woorden = new Map();
+        (vers.grondtekst || []).forEach(function (word) {
+            var number = String(word.strongs || '').match(/^G\d+/);
+            if (number) woorden.set(normaliseer(word.woord || ''), number[0]);
+        });
+        var walker = document.createTreeWalker(container, NodeFilter.SHOW_TEXT, {
+            acceptNode: function (text) { return text.parentElement.closest('a,button') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT; }
+        });
+        var nodes = [];
+        while (walker.nextNode()) nodes.push(walker.currentNode);
+        nodes.forEach(function (text) {
+            var pattern = /[\u0370-\u03ff\u1f00-\u1fff]+/g;
+            var fragment = document.createDocumentFragment(), offset = 0, found = false;
+            for (var match of text.textContent.matchAll(pattern)) {
+                var number = woorden.get(normaliseer(match[0]));
+                if (!number) continue;
+                found = true;
+                fragment.appendChild(document.createTextNode(text.textContent.slice(offset, match.index)));
+                var link = document.createElement('a');
+                link.className = 'ka-greek-link';
+                link.href = 'https://opengodsword.com/lexicon-viewer.html?taal=grieks&entry=' + encodeURIComponent(number);
+                link.title = 'Lees de betekenis van ' + match[0] + ' bij Open Gods Word';
+                link.lang = 'grc'; link.textContent = match[0];
+                fragment.appendChild(link); offset = match.index + match[0].length;
+            }
+            if (found) { fragment.appendChild(document.createTextNode(text.textContent.slice(offset))); text.replaceWith(fragment); }
         });
     }
 

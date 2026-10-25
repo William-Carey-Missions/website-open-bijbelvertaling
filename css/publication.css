@@ -70,6 +70,8 @@ body:not(.kt-popup-mode) .col-2026 sup.note-marker{display:none!important}
 #ka-passage-kt .kt-verwijzing { color:var(--ka-muted, #777); }
 #ka-passage-kt .kt-item.is-actief { background:var(--ka-gold-wash, rgba(203,164,73,.18)); }
 #ka-passage-kt .kt-m { font:600 11.5px/1 var(--ka-mono, monospace); color:var(--ka-gold-text, #9a7a2c); margin-right:2px; }
+#ka-passage-kt .ref-link, #ka-passage-kt .ka-greek-link { color: var(--ka-gold-text, #9a7a2c); text-decoration: underline; text-underline-offset: 2px; }
+#ka-passage-kt .ref-link:focus-visible, #ka-passage-kt .ka-greek-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
 .ka-scripture .note-marker { font:600 10.5px/1 var(--ka-mono, monospace); color:var(--ka-gold-text, #9a7a2c); cursor:pointer; vertical-align:super; padding:0 1px; }
 @media (min-width:1100px) {
   .ka-hero { grid-template-columns:minmax(0,.85fr) minmax(0,1.55fr); }
