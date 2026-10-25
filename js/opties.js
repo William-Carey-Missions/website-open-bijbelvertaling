@@ -5,8 +5,8 @@ const Opties = {
     STORAGE_KEY: 'sv2026_vertaalopties',
 
     DEFAULTS: {
-        godsnaam: 'klassiek',          // 'ov' (JAHWEH) | 'klassiek' (HEERE) | 'jehovah' (Jehovah) | 'yehovah' (Yehováh) | 'jhwh' (יהוה) | 'yhwh' (YHWH)
-        godsnaamOPV: 'heere',    // Open Parafrase Weergave: 'heere' (zoals geschreven) | 'jahweh' | 'jehovah' | 'yehovah' | 'jhwh' | 'yhwh'
+        godsnaam: 'yhwh',          // 'ov' (JAHWEH) | 'klassiek' (HEERE) | 'jehovah' (Jehovah) | 'yehovah' (Yehováh) | 'jhwh' (יהוה) | 'yhwh' (YHWH)
+        godsnaamOPV: 'yhwh',    // Open Parafrase Weergave: 'heere' (zoals geschreven) | 'jahweh' | 'jehovah' | 'yehovah' | 'jhwh' | 'yhwh'
         heereNT: 'heere',        // NT-aanspreektitel (Kurios): 'heere' (OSV) | 'here' (Heere → Here)
         kolomLayout: 'naast',    // 'naast' (parallelle kolom) | 'eronder' (nieuwe regel onder OV2026)
         boekvolgorde: 'canoniek',// 'canoniek' | 'tenach' | 'chronologisch' | 'auteur' | 'lengte'
@@ -37,7 +37,7 @@ const Opties = {
 
     enforceReaderOptions() {
         Object.assign(this.state, {
-            godsnaam: 'klassiek', heereNT: 'heere', otSheol: 'dodenrijk',
+            heereNT: 'heere', otSheol: 'dodenrijk',
             arabischeNamen: 'uit', jezusNaam: 'nl', maatstelsel: 'metrisch',
             getalweergave: 'woorden', tijdrekening: 'bijbels', spoor: 'uit',
             geoMarkeren: 'uit', strongs: 'uit', ethiopischeBoeken: 'uit', teksteditie: 'nl-ov', parallelEdities: [],
@@ -669,7 +669,7 @@ const Opties = {
     /**
      * De Godsnaam in de Open Parafrase Weergave. Die tekst schrijft HEERE, dus
      * dit werkt andersom dan transformOV: HEERE is de bron, JAHWEH de keuze.
-     * Een eigen optie, omdat de OPV een andere standaard heeft dan de OV.
+     * Een eigen optie, omdat de OPV een andere brontekst heeft dan de OV.
      *
      * "de HEERE" wordt de naam zonder lidwoord, zodat "van de HEERE" vanzelf
      * "van JAHWEH" wordt en "De HEERE God maakte" "JAHWEH God maakte".

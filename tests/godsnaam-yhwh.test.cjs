@@ -44,9 +44,7 @@ function insluiten() {
     return context.window.OSV;
 }
 
-const zetVast = opties().enforceReaderOptions !== undefined;
-
-test('de keuze YHWH vervangt JAHWEH in de Open Vertaling', { skip: zetVast && 'deze lezer zet de keuzes vast' }, () => {
+test('de keuze YHWH vervangt JAHWEH in de Open Vertaling', () => {
     const current = opties();
     current.state.godsnaam = 'yhwh';
     assert.equal(current.transformOV('En JAHWEH zei tot Mozes', 'OT'), 'En YHWH zei tot Mozes');
@@ -94,4 +92,27 @@ test('de drukversie biedt YHWH aan', { skip: !heeft('js/drukversie.js') && 'geen
     vm.runInContext(lees('js/drukversie.js'), context);
     const godsnaam = context.window.Druk.LEESOPTIES.find(optie => optie[0] === 'godsnaam');
     assert.equal(godsnaam[2].find(keuze => keuze[0] === 'yhwh')[1], 'YHWH');
+});
+
+test('YHWH is de standaard voor beide leesedities', () => {
+    const current = opties();
+    assert.equal(current.DEFAULTS.godsnaam, 'yhwh');
+    assert.equal(current.DEFAULTS.godsnaamOPV, 'yhwh');
+    assert.equal(current.transformOV('God JAHWEH sprak tot JAHWEH', 'OT'), 'God YHWH sprak tot YHWH');
+    assert.equal(current.transformOPV('De HEERE God sprak, de Heere hoorde'), 'YHWH God sprak, de Heere hoorde');
+});
+
+test('een bewaarde Godsnaam-keuze blijft behouden', () => {
+    const current = opties();
+    current.state.godsnaam = 'jehovah';
+    current.state.godsnaamOPV = 'heere';
+    if (current.enforceReaderOptions) current.enforceReaderOptions();
+    assert.equal(current.state.godsnaam, 'jehovah');
+    assert.equal(current.transformOV('God JAHWEH sprak', 'OT'), 'God Jehovah sprak');
+    assert.equal(current.transformOPV('de HEERE sprak'), 'de HEERE sprak');
+});
+
+test('een ingesloten citaat gebruikt standaard YHWH', { skip: !heeft('embed.js') && 'geen embed.js' }, async () => {
+    const uitkomst = await insluiten().cite('genesis 2:7', { link: false });
+    assert.match(uitkomst.plain, /God YHWH had de mens gevormd/);
 });

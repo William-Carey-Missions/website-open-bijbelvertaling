@@ -116,3 +116,12 @@ def test_uitrol_bouwt_de_leespaginas_en_git_bewaart_ze_niet():
     assert "scripts/build_leespaginas.py" in bouwstap
     gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8").splitlines()
     assert "/bijbel/" in gitignore and "/llms-full.txt" in gitignore
+
+
+def test_statische_verzen_gebruiken_de_standaard_godsnaam():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location('leespaginas', ROOT / 'scripts/build_leespaginas.py')
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    assert module.godsnaam('God JAHWEH sprak tot JAHWEH') == 'God YHWH sprak tot YHWH'
+    assert module.godsnaam('de Heere sprak') == 'de Heere sprak'

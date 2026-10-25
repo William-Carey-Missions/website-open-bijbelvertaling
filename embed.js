@@ -15,7 +15,7 @@
  *   numbers   true|false   versnummers tonen          (standaard true)
  *   citaat    true|false   citaatopmaak (rood=God enz.)(standaard true)
  *   link      true|false   bronverwijzing tonen        (standaard true)
- *   godsnaam  ov|klassiek|jehovah|yehovah|jhwh|yhwh    (standaard ov = JAHWEH)
+ *   godsnaam  ov|klassiek|jehovah|yehovah|jhwh|yhwh    (standaard yhwh = YHWH)
  *   strongs   true|false   bronvaste woordnummers tonen (standaard: globale voorkeur)
  *
  * Via JavaScript:
@@ -299,7 +299,7 @@
       ? sharedView.citatenAan(opts)
       : bool(opts.citaat, true);
     var showLink = bool(opts.link, true);
-    var gods = opts.godsnaam || 'ov';
+    var gods = opts.godsnaam || 'yhwh';
     var showWordNumbers = bool(
       opts.strongs,
       globalOptions ? globalOptions.strongs === 'aan' : storedStrongPreference()
