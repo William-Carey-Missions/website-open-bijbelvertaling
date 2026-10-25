@@ -89,8 +89,10 @@
                     var nr = document.createElement('span');
                     nr.className = 'ka-vn';
                     nr.textContent = vers.number;
-                    var tekst = document.createElement('span');
+                    var tekst = document.createElement('a');
                     tekst.className = 'ka-vt';
+                    tekst.href = '#johannes/1/' + vers.number;
+                    tekst.title = 'Lees Johannes 1:' + vers.number;
                     tekst.innerHTML = html;
                     if (i) doel.appendChild(document.createTextNode(' '));
                     doel.appendChild(nr);
