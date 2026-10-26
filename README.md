@@ -1,5 +1,7 @@
 # Open Vertaling
 
+Beheer van de bezoekersstatistieken: [Google Analytics en meet-ID](docs/analytics.md).
+
 ![Logo van Open Vertaling](images/branding/open-vertaling-logo.svg)
 
 De Open Vertaling (OV) is een herziening van de Statenvertaling in hedendaags Nederlands. De tekst is vrij te gebruiken onder CC0.
