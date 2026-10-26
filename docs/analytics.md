@@ -93,4 +93,3 @@ niet vaststellen of wijzigen.
 - [Google: Consent Mode](https://developers.google.com/tag-platform/security/concepts/consent-mode)
 - [Google: gebeurtenissen voor verbeterde meting](https://support.google.com/analytics/answer/9216061?hl=nl)
 - [Google: Realtime-rapport](https://support.google.com/analytics/answer/9271392?hl=nl)
-

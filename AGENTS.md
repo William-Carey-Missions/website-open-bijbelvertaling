@@ -21,4 +21,3 @@ De GA4-meet-ID is **`G-BZGB0WJVD7`**. De bronconfiguratie staat in
 - Voer bij wijzigingen aan Analytics, de bootstrap of hoofdstuknavigatie
   `node --test tests/analytics.test.cjs` uit. Zie de handleiding voor vereisten
   en de aanvullende controle na publicatie.
-
