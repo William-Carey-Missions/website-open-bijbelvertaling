@@ -15627,6 +15627,20 @@
    "toelichting": "De versteende datief 'te dezer tijd' wordt 'in deze tijd', zoals Esther 4:14 in de canon. N5 (dezer -> van deze) past hier niet: 'te van deze tijd' is geen Nederlands.",
    "regex": "\\bte dezer tijd\\b",
    "voorbeeld": "Baruch 3:5"
+  },
+  {
+   "id": "V1659",
+   "categorie": "Menselijke review",
+   "oud": "reuzen (nefilim, Genesis 6:4)",
+   "nieuw": "gevallenen",
+   "toelichting": "Vertaalkeuze van de eigenaar. Het Hebreeuws heeft hier nefilim (H5303), dat wordt afgeleid van nafal, vallen; de kanttekening bij dit vers zegt dat ook. De Statenvertaling 1888 heeft reuzen, de herziening had eerder de transliteratie Nephilim. Eén plaats. Het bereik is nodig omdat reuzen elders vooral voor andere Hebreeuwse woorden staat, zoals refaim. Numeri 13:33 heeft hetzelfde Hebreeuwse woord maar blijft reuzen; de kanttekening daar noemt Nephilim als het Hebreeuwse woord.",
+   "regex": "\breuzen\b",
+   "bereik": {
+    "genesis": [
+     "6:4"
+    ]
+   },
+   "voorbeeld": "Genesis 6:4"
   }
  ]
 }
