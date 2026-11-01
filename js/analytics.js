@@ -152,7 +152,8 @@
             '#analytics-consent button,#analytics-settings{font:inherit;cursor:pointer;border:1px solid #52686b;' +
             'border-radius:6px;padding:8px 12px;background:var(--bg-surface,#fff);color:var(--text-primary,#142e42)}' +
             '#analytics-consent button:focus-visible,#analytics-settings:focus-visible{outline:3px solid #c4a048;outline-offset:3px}' +
-            '#analytics-settings{position:fixed;right:12px;bottom:calc(88px + env(safe-area-inset-bottom,0px));z-index:10019;font:13px system-ui;box-shadow:0 2px 8px #0002}';
+            '#analytics-settings{position:fixed;right:12px;bottom:calc(88px + env(safe-area-inset-bottom,0px));z-index:10019;font:13px system-ui;box-shadow:0 2px 8px #0002}' +
+            '@media(max-width:768px),(pointer:coarse){#analytics-settings{position:static;display:block;min-height:44px;margin:16px auto;box-shadow:none}}';
         document.head.appendChild(style);
         panel = document.createElement('section');
         panel.id = 'analytics-consent';

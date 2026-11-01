@@ -49,7 +49,7 @@
         var analytics = document.createElement('script');
         analytics.id = 'ogw-analytics-bootstrap';
         analytics.async = true;
-        analytics.src = '/js/analytics.js?v=1';
+        analytics.src = '/js/analytics.js?v=2';
         document.head.appendChild(analytics);
     }
 })(window);

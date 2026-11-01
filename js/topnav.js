@@ -55,6 +55,8 @@
         ':root[data-theme="donker"] .ka-fam-links a { color: #c9d3db !important; }',
         ':root[data-theme="donker"] .ka-fam-links a[aria-current] { color: #fff !important; }',
         '.ka-fam-sep { opacity: .45; }',
+        '@media (pointer: coarse) { .ka-fam-links a { position: relative; }',
+        '  .ka-fam-links a::after { content: ""; position: absolute; left: 0; right: 0; top: -9px; bottom: -9px; } }',
         '.ov-ingebed .ka-fam { display: none; }',
         ':root[lang="ar"] .ka-fam { letter-spacing: 0; text-transform: none; }',
         ':root[dir="rtl"] .ka-fam-links { direction: ltr; }',

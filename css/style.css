@@ -3970,9 +3970,10 @@ body.is-ingelogd .uitzondering-uitleg { display: block; }
         position: fixed;
         left: 0; right: 0;
         bottom: 0;
-        padding: 0 20px calc(10px + env(safe-area-inset-bottom, 0));
+        padding: 16px 20px calc(10px + env(safe-area-inset-bottom, 0));
         z-index: 180;
-        background: transparent;
+        /* De tekst loopt uit onder de knoppen, niet erdoorheen. */
+        background: linear-gradient(to top, var(--bg-page) 58%, transparent);
         border-top: none;
         box-shadow: none;
         min-height: 0;
@@ -4013,7 +4014,7 @@ body.is-ingelogd .uitzondering-uitleg { display: block; }
 
     /* Reserveer ruimte onderin zodat content niet onder de footer valt
        (incl. iOS safe-area zodat content niet achter Safari URL-bar verdwijnt) */
-    body { padding-bottom: calc(56px + env(safe-area-inset-bottom, 0px)); }
+    body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
 
     /* --- Verberg desktop-elementen die op mobiel verwarrend zijn --- */
     /* De ◀-driehoek voor links-inklappen blijft binnen sidebar header maar de
@@ -5590,6 +5591,7 @@ body.hide-verse-numbers #content.reading-mode:not(.layout-eronder) .verse-row::a
     cursor: pointer;
 }
 .mfn-scrubber.hidden { display: none; }
+@media (pointer: coarse) { .mfn-scrubber { top: -12px; height: 20px; border-radius: 0; background: linear-gradient(transparent 8px, rgba(203,164,73,0.35) 8px, rgba(203,164,73,0.35) 13px, transparent 13px); } }
 .mfn-scrubber::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: var(--gold); box-shadow: 0 1px 3px rgba(0,0,0,0.3); cursor: pointer; }
 .mfn-scrubber::-moz-range-thumb { width: 16px; height: 16px; border: none; border-radius: 50%; background: var(--gold); cursor: pointer; }
 
