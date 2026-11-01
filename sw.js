@@ -8,7 +8,7 @@
  * Versionering: bump VERSION bij elke deploy om alle caches te vernieuwen.
  */
 
-const VERSION = 'v0.60.1';
+const VERSION = 'v0.60.2';
 // New reader modules must not be mixed with HTML from before verification.
 const CACHE_VERSION = `${VERSION}-mobiel20261101-verification-v13-splitsing1-ontwerp1-kunst20261025-publicatie20261025-statistics-consent1-yhwh20261025`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;

@@ -15631,13 +15631,19 @@
   {
    "id": "V1659",
    "categorie": "Menselijke review",
-   "oud": "reuzen (nefilim, Genesis 6:4)",
+   "oud": "reuzen (nefilim) / Nefilim",
    "nieuw": "gevallenen",
-   "toelichting": "Vertaalkeuze van de eigenaar. Het Hebreeuws heeft hier nefilim (H5303), dat wordt afgeleid van nafal, vallen; de kanttekening bij dit vers zegt dat ook. De Statenvertaling 1888 heeft reuzen, de herziening had eerder de transliteratie Nephilim. Eén plaats. Het bereik is nodig omdat reuzen elders vooral voor andere Hebreeuwse woorden staat, zoals refaim. Numeri 13:33 heeft hetzelfde Hebreeuwse woord maar blijft reuzen; de kanttekening daar noemt Nephilim als het Hebreeuwse woord.",
-   "regex": "\breuzen\b",
+   "toelichting": "Vertaalkeuze van de eigenaar. Het Hebreeuws heeft in Genesis 6:4 en Numeri 13:33 nefilim (H5303), dat wordt afgeleid van nafal, vallen; de kanttekening bij Genesis 6:4 zegt dat ook. De Statenvertaling 1888 heeft op beide plaatsen reuzen. Jubileeën 7:22 noemt dezelfde groep en had de transliteratie Nefilim. Drie verzen. Het bereik is nodig omdat reuzen elders vooral voor andere Hebreeuwse woorden staat, zoals refaim. De kanttekening bij Numeri 13:33 blijft Nephilim noemen als het Hebreeuwse woord.",
+   "regex": "\b(reuzen|Nefilim)\b",
    "bereik": {
     "genesis": [
      "6:4"
+    ],
+    "numeri": [
+     "13:33"
+    ],
+    "jubileeen": [
+     "7:22"
     ]
    },
    "voorbeeld": "Genesis 6:4"
