@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <script src="/js/reader-policy.js"></script>
+    <script type="module" src="/js/auth-bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <script src="/js/theme.js"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#142e42">
+    <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>De Bijbel met kanttekeningen — Open Vertaling</title>
+    <meta name="description" content="De Open Vertaling met de herziene kanttekeningen als PDF in drie delen: Genesis t/m Esther, Job t/m Maleachi, en Mattheüs t/m Openbaring met de apocriefe boeken. CC0 / publiek domein.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://openvertaling.nl/kanttekeningen.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Open Vertaling">
+    <meta property="og:locale" content="nl_NL">
+    <meta property="og:title" content="De Bijbel met kanttekeningen — Open Vertaling">
+    <meta property="og:description" content="De Open Vertaling met de herziene kanttekeningen als PDF in drie delen, gezet met de noten onder de tekst op dezelfde bladzijde.">
+    <meta property="og:url" content="https://openvertaling.nl/kanttekeningen.html">
+    <meta property="og:image" content="https://openvertaling.nl/images/kanttekeningen/deel-1.webp">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ontwerp.css?v=0.60.0">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/kanttekeningen.css">
+    <link rel="describedby" href="/llms.txt" type="text/markdown">
+</head>
+<body>
+    <nav id="topnav"></nav>
+    <script src="js/topnav.js"></script>
+
+    <main class="kt">
+        <a class="kt-terug" href="downloads.html">← Alle downloads</a>
+
+        <div class="kt-raster">
+            <img class="kt-omslag" id="kt-omslag" src="images/kanttekeningen/deel-1.webp" alt="Omslag van deel I" width="600" height="900">
+
+            <div class="kt-tekst">
+                <h1>De Bijbel met kanttekeningen</h1>
+                <p class="kt-sub">Open Vertaling, in drie delen</p>
+                <p class="kt-gegevens">Uitgever: Open Vertaling<span id="kt-datum"></span></p>
+                <p class="kt-oms">De hele Bijbel als PDF met de herziene kanttekeningen. De tekst staat in twee kolommen en de noten eronder in drie, op dezelfde bladzijde als het woord waarbij ze horen.</p>
+
+                <fieldset class="kt-keuze">
+                    <legend>Kies een deel</legend>
+                    <div class="kt-delen">
+                        <div>
+                            <input type="radio" name="deel" id="kt-deel-1" value="1" checked>
+                            <label class="kt-kaart" for="kt-deel-1">
+                                <img src="images/kanttekeningen/deel-1.webp" alt="" width="46" height="69" decoding="async">
+                                <span><span class="kt-naam">Deel I</span><span class="kt-bereik">Genesis t/m Esther</span></span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="deel" id="kt-deel-2" value="2">
+                            <label class="kt-kaart" for="kt-deel-2">
+                                <img src="images/kanttekeningen/deel-2.webp" alt="" width="46" height="69" decoding="async">
+                                <span><span class="kt-naam">Deel II</span><span class="kt-bereik">Job t/m Maleachi</span></span>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="deel" id="kt-deel-3" value="3">
+                            <label class="kt-kaart" for="kt-deel-3">
+                                <img src="images/kanttekeningen/deel-3.webp" alt="" width="46" height="69" decoding="async">
+                                <span><span class="kt-naam">Deel III</span><span class="kt-bereik">Mattheüs t/m Openbaring, met de apocriefe boeken</span></span>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="kt-inhoud">
+                    <h2>Inhoud</h2>
+                    <div id="kt-inhoud"></div>
+                </div>
+
+                <div class="kt-knoppen">
+                    <a class="kt-knop" id="kt-download" href="downloads/open-vertaling-kanttekeningen-deel-1.pdf" download>PDF downloaden</a>
+                    <a class="kt-knop kt-knop--rand" id="kt-open" href="downloads/open-vertaling-kanttekeningen-deel-1.pdf" target="_blank" rel="noopener">Openen in de browser</a>
+                </div>
+                <p class="kt-omvang" id="kt-omvang"></p>
+                <noscript>
+                    <p class="kt-omvang">
+                        <a href="downloads/open-vertaling-kanttekeningen-deel-1.pdf">Deel I</a> ·
+                        <a href="downloads/open-vertaling-kanttekeningen-deel-2.pdf">Deel II</a> ·
+                        <a href="downloads/open-vertaling-kanttekeningen-deel-3.pdf">Deel III</a>
+                    </p>
+                </noscript>
+            </div>
+        </div>
+
+        <figure class="kt-voorbeeld">
+            <h2>Zo ziet het eruit</h2>
+            <img src="images/kanttekeningen/voorbeeld-genesis-1.webp" alt="Twee bladzijden uit Genesis 1: bijbeltekst in twee kolommen met daaronder de kanttekeningen in drie kolommen" width="1665" height="1170" loading="lazy" decoding="async">
+            <figcaption>De opening van Genesis 1 uit deel I.</figcaption>
+        </figure>
+
+        <section class="kt-over">
+            <h2>Over deze uitgave</h2>
+            <p>Een cijfer in de tekst verwijst naar een uitleggende kanttekening, een letter naar andere bijbelplaatsen. Beide staan vlak vóór het woord waarop ze slaan. Elk deel heeft een klikbare inhoudsopgave en bladwijzers per boek en hoofdstuk.</p>
+            <p>De Godsnaam staat als YHWH, zoals de site die standaard toont. Bij een verwijzing staat alleen de bijbelplaats, niet de hele tekst ervan. Bij de apocriefe boeken staan geen kanttekeningen.</p>
+            <p>De PDF's worden bij elke publicatie opnieuw opgebouwd, dus ze lopen gelijk met de tekst op de site.</p>
+            <div class="kt-vrij"><strong>CC0 / publiek domein.</strong> U mag deze tekst vrij gebruiken, kopiëren, drukken, bewerken en verspreiden, voor elk doel, zonder toestemming en zonder bronvermelding.</div>
+        </section>
+    </main>
+
+<script>
+(function () {
+    // Bladzijden, omvang en datum komen uit downloads/kanttekeningen-uitgave.json,
+    // dat samen met de PDF's wordt gebouwd. De boekenlijst staat ook hier, zodat de
+    // pagina bruikbaar blijft als dat bestand niet geladen kan worden.
+    var DELEN = {
+        1: [{ boeken: ['Genesis', 'Exodus', 'Leviticus', 'Numeri', 'Deuteronomium', 'Jozua', 'Richteren', 'Ruth', '1 Samuël', '2 Samuël', '1 Koningen', '2 Koningen', '1 Kronieken', '2 Kronieken', 'Ezra', 'Nehemia', 'Esther'] }],
+        2: [{ boeken: ['Job', 'Psalmen', 'Spreuken', 'Prediker', 'Hooglied', 'Jesaja', 'Jeremia', 'Klaagliederen', 'Ezechiël', 'Daniël', 'Hosea', 'Joël', 'Amos', 'Obadja', 'Jona', 'Micha', 'Nahum', 'Habakuk', 'Zefanja', 'Haggaï', 'Zacharia', 'Maleachi'] }],
+        3: [
+            { kop: 'Het Nieuwe Testament', boeken: ['Mattheüs', 'Markus', 'Lukas', 'Johannes', 'Handelingen', 'Romeinen', '1 Korinthiërs', '2 Korinthiërs', 'Galaten', 'Efeziërs', 'Filippenzen', 'Kolossenzen', '1 Tessalonicensen', '2 Tessalonicensen', '1 Timotheüs', '2 Timotheüs', 'Titus', 'Filemon', 'Hebreeën', 'Jakobus', '1 Petrus', '2 Petrus', '1 Johannes', '2 Johannes', '3 Johannes', 'Judas', 'Openbaring'] },
+            { kop: 'De apocriefe boeken', boeken: ['3 Ezra', '4 Ezra', 'Tobit', 'Judith', 'Boek der Wijsheid', 'Jezus Sirach', 'Baruch', 'Esther (apocrief)', 'Gebed van Azarja', 'Gezang in de vuuroven', 'Susanna', 'Bel en de draak', 'Gebed van Manasse', '1 Makkabeeën', '2 Makkabeeën', '3 Makkabeeën'] }
+        ]
+    };
+    var ROMEINS = { 1: 'I', 2: 'II', 3: 'III' };
+    var verslag = {};
+    var huidig = 1;
+
+    function esc(s) {
+        return String(s).replace(/[&<>"]/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+        });
+    }
+
+    function omvang(bytes) {
+        return (bytes / 1048576).toFixed(1).replace('.', ',') + ' MB';
+    }
+
+    function bestand(deel) {
+        return 'downloads/open-vertaling-kanttekeningen-deel-' + deel + '.pdf';
+    }
+
+    function toon(deel) {
+        huidig = deel;
+        var gegevens = verslag[deel] || {};
+        var paginas = {};
+        (gegevens.boeken || []).forEach(function (b) { paginas[b.naam] = b.pagina; });
+        document.getElementById('kt-omslag').src = 'images/kanttekeningen/deel-' + deel + '.webp';
+        document.getElementById('kt-omslag').alt = 'Omslag van deel ' + ROMEINS[deel];
+        document.getElementById('kt-download').href = bestand(deel);
+        document.getElementById('kt-open').href = bestand(deel);
+        document.getElementById('kt-omvang').textContent = gegevens.bytes
+            ? gegevens.paginas + ' bladzijden · ' + omvang(gegevens.bytes) : '';
+        document.getElementById('kt-inhoud').innerHTML = DELEN[deel].map(function (groep) {
+            return (groep.kop ? '<h3>' + esc(groep.kop) + '</h3>' : '') + '<ul>' + groep.boeken.map(function (naam) {
+                return '<li>' + esc(naam) + (paginas[naam] ? ' <span>' + paginas[naam] + '</span>' : '') + '</li>';
+            }).join('') + '</ul>';
+        }).join('');
+    }
+
+    function deelUitAdres() {
+        var n = parseInt(new URLSearchParams(location.search).get('deel'), 10);
+        return DELEN[n] ? n : 1;
+    }
+
+    document.querySelectorAll('input[name="deel"]').forEach(function (keuze) {
+        keuze.addEventListener('change', function () {
+            var deel = parseInt(keuze.value, 10);
+            toon(deel);
+            try { history.replaceState(history.state, '', location.pathname + '?deel=' + deel + location.hash); } catch (e) {}
+        });
+    });
+
+    huidig = deelUitAdres();
+    document.getElementById('kt-deel-' + huidig).checked = true;
+    toon(huidig);
+
+    fetch('downloads/kanttekeningen-uitgave.json', { cache: 'no-cache' })
+        .then(function (r) { if (!r.ok) throw new Error('niet gevonden'); return r.json(); })
+        .then(function (d) {
+            (d.delen || []).forEach(function (v) { verslag[v.deel] = v; });
+            if (d.datum) document.getElementById('kt-datum').textContent = ' · Opgebouwd op ' + d.datum;
+            toon(huidig);
+        })
+        .catch(function () {});
+})();
+</script>
+</body>
+</html>

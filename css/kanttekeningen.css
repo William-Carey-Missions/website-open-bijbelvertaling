@@ -1,0 +1,72 @@
+/* Uitgave met kanttekeningen: dezelfde opbouw als een uitgave op didache.nl
+   (omslag links, tekst en keuze rechts), in de huisstijl van de Open Vertaling. */
+
+.kt { max-width: 1120px; margin: 0 auto; padding: 36px 32px 64px; }
+.kt-terug { display: inline-block; margin-bottom: 28px; color: var(--text-secondary, #555); font-size: 16px; text-decoration: none; }
+.kt-terug:hover { color: var(--navy); }
+
+.kt-raster { display: grid; grid-template-columns: minmax(230px, .8fr) minmax(0, 1.2fr); align-items: start; gap: 72px; }
+.kt-omslag { display: block; width: min(100%, 350px); height: auto; margin-inline: auto; box-shadow: 4px 9px 24px rgba(39, 35, 28, .22); }
+
+.kt-tekst h1 { margin: 0; font-family: var(--font-cursive); font-size: clamp(36px, 4.2vw, 56px); font-weight: 500; line-height: 1.06; letter-spacing: -.02em; color: var(--navy); }
+.kt-sub { margin: 12px 0 0; font-family: var(--font-cursive); font-size: 25px; line-height: 1.25; color: var(--navy); }
+.kt-gegevens { margin: 12px 0 0; font-size: 13px; line-height: 1.6; color: var(--text-secondary, #666); }
+.kt-oms { max-width: 560px; margin: 20px 0 26px; font-family: var(--font-cursive); font-size: 20px; line-height: 1.5; }
+
+.kt-keuze { min-width: 0; max-width: 640px; margin: 0 0 28px; padding: 0; border: 0; }
+.kt-keuze legend { margin-bottom: 12px; padding: 0; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-secondary, #666); }
+.kt-delen { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.kt-keuze input { position: absolute; width: 1px; height: 1px; margin: 0; opacity: 0; pointer-events: none; }
+.kt-kaart { position: relative; display: flex; align-items: center; gap: 12px; height: 100%; padding: 10px; background: var(--bg-surface, #fff); border: 1px solid var(--border, #dcd8cf); border-radius: 2px; cursor: pointer; transition: border-color .15s ease, box-shadow .15s ease; }
+.kt-kaart img { flex-shrink: 0; width: 46px; height: 69px; box-shadow: 1px 2px 6px rgba(39, 35, 28, .2); }
+.kt-kaart:hover { border-color: var(--gold); }
+.kt-naam { display: block; font-family: var(--font-cursive); font-size: 19px; line-height: 1.2; }
+.kt-bereik { display: block; margin-top: 3px; font-size: 13px; line-height: 1.35; color: var(--text-secondary, #666); }
+.kt-keuze input:checked + .kt-kaart { border-color: var(--navy); box-shadow: inset 0 0 0 1px var(--navy); }
+.kt-keuze input:checked + .kt-kaart .kt-naam { color: var(--navy); font-weight: 600; }
+.kt-keuze input:focus-visible + .kt-kaart { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+.kt-inhoud { max-width: 590px; margin: 0 0 26px; padding-top: 20px; border-top: 1px solid var(--border, #dcd8cf); }
+.kt-inhoud h2 { margin: 0 0 12px; font-family: var(--font-cursive); font-size: 22px; font-weight: 500; color: var(--navy); }
+.kt-inhoud h3 { margin: 14px 0 6px; font-size: 13px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-secondary, #666); }
+.kt-inhoud ul { columns: 2; column-gap: 38px; margin: 0; padding: 0; list-style: none; font-size: 15px; line-height: 1.55; }
+.kt-inhoud li { display: flex; justify-content: space-between; gap: 12px; break-inside: avoid; margin-bottom: 2px; }
+.kt-inhoud li span { color: var(--text-secondary, #666); font-variant-numeric: tabular-nums; }
+
+.kt-knoppen { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.kt-knop { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 13px 22px; border: 1px solid var(--navy); border-radius: 4px; background: var(--navy); color: #fff; font-size: 15px; font-weight: 500; line-height: 1.4; text-decoration: none; }
+.kt-knop:hover { background: var(--gold); border-color: var(--gold); color: var(--navy); }
+.kt-knop--rand { background: transparent; color: var(--navy); }
+.kt-omvang { margin: 10px 0 0; font-size: 13px; color: var(--text-secondary, #666); font-variant-numeric: tabular-nums; }
+
+.kt-voorbeeld { margin: 60px 0 0; padding-top: 28px; border-top: 1px solid var(--border, #dcd8cf); }
+.kt-voorbeeld h2, .kt-over h2 { margin: 0 0 16px; font-family: var(--font-cursive); font-size: 28px; font-weight: 500; color: var(--navy); }
+.kt-voorbeeld img { display: block; width: 100%; height: auto; box-shadow: 2px 5px 18px rgba(39, 35, 28, .18); }
+.kt-voorbeeld figcaption { margin-top: 10px; font-size: 13px; color: var(--text-secondary, #666); }
+.kt-over { max-width: 720px; margin: 48px 0 0; font-size: 16px; line-height: 1.65; }
+.kt-over p { margin: 0 0 12px; }
+.kt-vrij { margin: 20px 0 0; padding: 10px 16px; border-left: 3px solid var(--teal, #92b6b4); border-radius: 0 6px 6px 0; background: rgba(146, 182, 180, .10); font-size: 14.5px; }
+
+:root[data-theme="donker"] .kt-tekst h1, :root[data-theme="donker"] .kt-sub,
+:root[data-theme="donker"] .kt-inhoud h2, :root[data-theme="donker"] .kt-voorbeeld h2,
+:root[data-theme="donker"] .kt-over h2, :root[data-theme="donker"] .kt-keuze input:checked + .kt-kaart .kt-naam,
+:root[data-theme="donker"] .kt-terug:hover { color: var(--gold); }
+:root[data-theme="donker"] .kt-kaart { background: var(--bg-surface-alt, var(--bg-surface)); }
+:root[data-theme="donker"] .kt-keuze input:checked + .kt-kaart { border-color: var(--gold); box-shadow: inset 0 0 0 1px var(--gold); }
+:root[data-theme="donker"] .kt-knop { background: var(--gold); border-color: var(--gold); color: #1a1d24; }
+:root[data-theme="donker"] .kt-knop--rand { background: transparent; color: var(--gold); }
+
+@media (max-width: 900px) {
+    .kt-raster { gap: 40px; }
+    .kt-delen { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 680px) {
+    .kt { padding: 16px 16px 48px; }
+    .kt-terug { display: inline-flex; align-items: center; min-height: 44px; margin-bottom: 10px; }
+    .kt-raster { grid-template-columns: 1fr; gap: 24px; }
+    .kt-omslag { width: min(60vw, 230px); }
+    .kt-oms { font-size: 18px; }
+    .kt-inhoud ul { columns: 1; }
+    .kt-knop { flex: 1 1 100%; }
+    .kt-voorbeeld { margin-top: 40px; }
+}
