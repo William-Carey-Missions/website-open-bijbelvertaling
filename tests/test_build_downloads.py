@@ -3,6 +3,7 @@ import json
 import re
 import zipfile
 import xml.etree.ElementTree as ET
+from pathlib import Path
 import pytest
 from scripts import build_downloads as builder
 
@@ -59,6 +60,11 @@ def test_release_index_and_unfiltered_source_zip(release):
         assert item["omschrijving"].strip()
     with zipfile.ZipFile(release / builder.ZIP_NAAM) as archive:
         assert {"data/books.json", "data/genesis/1.json", "data/genesis/2.json"} <= set(archive.namelist())
+
+
+def test_card_title_stays_readable_in_the_dark_theme():
+    page = (Path(__file__).resolve().parents[1] / "downloads.html").read_text(encoding="utf-8")
+    assert ':root[data-theme="donker"] .dl-naam { color: var(--gold); }' in page
 
 
 def test_interrupted_build_preserves_previous_release_and_removes_partial_output(tmp_path):
