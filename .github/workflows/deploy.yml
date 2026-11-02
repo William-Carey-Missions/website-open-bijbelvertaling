@@ -28,9 +28,10 @@ jobs:
       # als platte tekst (llms-full.txt), zodat zoekmachines en AI-crawlers hem vinden.
       # build_search_index.py houdt de zoekfunctie van de site gelijk met de tekst;
       # met de hand bijgewerkt liep die index twee maanden achter.
+      # build_kanttekeningen_pdf.py zet de drie delen met kanttekeningen voor kanttekeningen.html.
       # build_citaten.py schrijft per hoofdstuk alleen de tekst (data/citaat/) voor
       # embed.js, zodat de bewijsteksten op Open Gods Woord licht en snel laden.
-      build_command: python -m pip install -r requirements-pdf.txt && python scripts/build_illustraties.py && python scripts/build_review_catalog.py && python scripts/build_leespaginas.py && python scripts/build_markdown.py && python scripts/build_pdf.py && python scripts/build_search_index.py && python scripts/build_sitemap.py && python scripts/build_citaten.py
+      build_command: python -m pip install -r requirements-pdf.txt && python scripts/build_illustraties.py && python scripts/build_review_catalog.py && python scripts/build_leespaginas.py && python scripts/build_markdown.py && python scripts/build_pdf.py && python scripts/build_kanttekeningen_pdf.py && python scripts/build_search_index.py && python scripts/build_sitemap.py && python scripts/build_citaten.py
       rsync_excludes: |
         .git/
         .github/
@@ -45,6 +46,7 @@ jobs:
         server/
         migrations/
         data/verified-chapters.json
+        scripts/druk-fonts/
         downloads/*.zip
         downloads/*.epub
         downloads/index.json
