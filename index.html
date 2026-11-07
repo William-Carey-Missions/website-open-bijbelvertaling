@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css?v=0.60.1">
     <link rel="stylesheet" href="css/verwijzing-popup.css">
-  <link rel="stylesheet" href="css/ontwerp.css?v=0.60.0">
+  <link rel="stylesheet" href="css/ontwerp.css?v=20261107-samen">
     <link rel="stylesheet" href="css/print.css" media="print">
 
     <!-- JSONLD:start (auto) -->
@@ -127,19 +127,17 @@
          (html.ov-start). Aantallen komen uit data/stats.json (data-stat), de
          passage uit data/johannes/1.json; zie js/startscherm.js. -->
     <main id="ov-start" class="ka-start" aria-labelledby="ka-start-titel">
-        <section class="ka-nieuws" aria-labelledby="ka-uitgave-titel">
-            <div><p class="ka-eyebrow">Gods Woord · Met kanttekeningen</p>
-            <h2 id="ka-uitgave-titel">Gods Woord — een uitgave om te bewaren</h2>
-            <p>Bekijk het zwarte titelblad met gouden rand en download de drie delen met kanttekeningen onderaan de pagina.</p></div>
-            <a href="kanttekeningen.html?v=20261107-sierband" aria-label="Bekijk Gods Woord met titelblad"><img src="images/kanttekeningen/deel-1.webp?v=20261107-sierband" alt="Zwart titelblad Gods Woord met gouden rand" width="130" height="184" style="height:auto;box-shadow:3px 5px 15px #0004"></a>
-            <a class="ka-btn ka-btn-gold" href="kanttekeningen.html?v=20261107-sierband">Bekijk de uitgave →</a>
-        </section>
-
-        <section class="ka-nieuws" aria-labelledby="ka-nieuws-titel">
-            <div><p class="ka-eyebrow">Nieuws · <time datetime="2026-11-07">7 november 2026</time></p>
-            <h2 id="ka-nieuws-titel">Stel zelf uw traktaat samen uit verschillende bijbelboeken</h2>
-            <p>Kies uw Bijbelboeken, bepaal de opmaak en bewaar uw eigen uitgave als PDF om te lezen of uit te delen.</p></div>
-            <a class="ka-btn ka-btn-gold" href="uitgave.html?selectie=custom">Stel uw traktaat samen <span aria-hidden="true">→</span></a>
+        <section class="ka-nieuws ka-uitgave-nieuws" aria-labelledby="ka-uitgave-titel">
+            <a class="ka-uitgave-cover" href="kanttekeningen.html?v=20261107-sierband" aria-label="Bekijk Gods Woord met titelblad"><img src="images/kanttekeningen/deel-1.webp?v=20261107-sierband" alt="Zwart titelblad Gods Woord met gouden rand" width="130" height="184"></a>
+            <div class="ka-uitgave-bericht">
+                <p class="ka-eyebrow">Gods Woord · Lezen en delen</p>
+                <h2 id="ka-uitgave-titel">Een uitgave om te bewaren, een traktaat om te delen</h2>
+                <p>Download Gods Woord met het zwarte titelblad en de kanttekeningen onderaan de pagina. Of stel zelf uw traktaat samen uit verschillende Bijbelboeken, met uw eigen opmaak.</p>
+                <div class="ka-uitgave-knoppen">
+                    <a class="ka-btn ka-btn-gold" href="kanttekeningen.html?v=20261107-sierband">Bekijk de uitgave <span aria-hidden="true">→</span></a>
+                    <a class="ka-btn ka-btn-ghost" href="uitgave.html?selectie=custom">Stel uw traktaat samen <span aria-hidden="true">→</span></a>
+                </div>
+            </div>
         </section>
 
         <div class="ka-hero">
