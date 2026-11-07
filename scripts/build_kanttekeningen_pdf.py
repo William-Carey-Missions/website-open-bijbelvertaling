@@ -14,6 +14,7 @@ Gebruik:     python scripts/build_kanttekeningen_pdf.py [--deel 1] [--uit map]
              python scripts/build_kanttekeningen_pdf.py --proef genesis:1-3
 """
 import argparse
+from html.parser import HTMLParser
 import bisect
 import datetime
 import difflib
@@ -193,6 +194,7 @@ VERANTWOORDING = [
     'uitleggende kanttekening, een letter naar een verwijzing naar andere bijbelplaatsen; beide staan vlak vóór het woord '
     'waarop ze slaan en lopen per hoofdstuk door. Een schuingedrukt woord aan het begin van een kanttekening is het woord '
     'of de woordgroep uit de tekst die wordt besproken.',
+    'Godscitaten die in de brontekst zijn gemarkeerd, staan rood en cursief.',
     'De Godsnaam staat in deze uitgave als YHWH, de vier medeklinkers waarmee de Hebreeuwse tekst hem schrijft, gelijk aan '
     'wat de website standaard toont.',
     'In de digitale kanttekeningen is bij een verwijzing vaak de volledige tekst van de bijbelplaats ingevoegd. Hier staat '
@@ -315,29 +317,56 @@ def vers_woorden(vers):
     op papier staat het voor het woord zelf (`de ³hemel`).
     """
     bron = godsnaam(vers.get('text2026_html') or vers.get('text2026') or '')
-    woorden, huidig, wachtend = [], None, []
-    for token in re.split(r'(<sup[^>]*data-note="[^"]*"[^>]*>.*?</sup>)', bron, flags=re.S):
-        m = re.match(r'<sup[^>]*data-note="([^"]*)"', token)
-        if m:
-            merk = htmllib.unescape(m.group(1))
-            if huidig is not None and not re.search(r'\w', huidig['tekst']):
-                huidig['voor'].append(merk)  # direct na een haakje of aanhalingsteken
-            else:
-                wachtend.append(merk)
-            continue
-        kaal = htmllib.unescape(re.sub(r'<[^>]+>', '', token)).replace(chr(0xA0), ' ')
-        for stuk in re.findall(r'\s+|\S+', kaal):
-            if stuk.isspace():
-                huidig = None
-            elif huidig is None:
-                huidig = {'voor': wachtend, 'tekst': stuk}
-                wachtend = []
-                woorden.append(huidig)
-            else:
-                huidig['tekst'] += stuk
-    if wachtend and woorden:
-        woorden[-1]['voor'] += wachtend
-    return woorden
+    class WoordenParser(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=True)
+            self.woorden, self.wachtend, self.stapel = [], [], []
+            self.huidig = None
+            self.sup = 0
+
+        def handle_starttag(self, tag, attrs):
+            attrs = dict(attrs)
+            if tag == 'sup':
+                self.sup += 1
+                merk = attrs.get('data-note')
+                if merk is not None:
+                    if self.huidig is not None and not re.search(r'\w', self.huidig['tekst']):
+                        self.huidig['voor'].append(merk)
+                    else:
+                        self.wachtend.append(merk)
+            if tag not in ('br', 'hr', 'img', 'wbr'):
+                self.stapel.append((tag, 'god-speaks' in attrs.get('class', '').split()))
+
+        def handle_endtag(self, tag):
+            if tag == 'sup':
+                self.sup = max(0, self.sup - 1)
+            for i in range(len(self.stapel) - 1, -1, -1):
+                if self.stapel[i][0] == tag:
+                    del self.stapel[i:]
+                    break
+
+        def handle_data(self, data):
+            if self.sup:
+                return
+            god = any(markering for _, markering in self.stapel)
+            for stuk in re.findall(r'\s+|\S+', data.replace(chr(0xA0), ' ')):
+                if stuk.isspace():
+                    self.huidig = None
+                    continue
+                if self.huidig is None:
+                    self.huidig = {'voor': self.wachtend, 'tekst': '', 'delen': []}
+                    self.wachtend = []
+                    self.woorden.append(self.huidig)
+                self.huidig['tekst'] += stuk
+                self.huidig['delen'].append((stuk, god))
+
+    parser = WoordenParser()
+    parser.feed(bron)
+    parser.close()
+    if parser.wachtend and parser.woorden:
+        parser.woorden[-1]['voor'] += parser.wachtend
+    return parser.woorden
+
 
 
 def hang_noten_aan(vers, woorden, plat):
@@ -406,6 +435,7 @@ def stijlen(f):
     oud = (('onum', True), )
     return {
         'tekst': Stijl(f['tekst'], TEKST_KORPS, kenmerken=oud),
+        'godscitaat': Stijl(f['tekst_c'], TEKST_KORPS, kenmerken=oud, kleur=(0.65, 0.08, 0.10)),
         'tekst_kk': Stijl(f['tekst'], TEKST_KORPS, kenmerken=(('smcp', True), ('onum', True)), spatie=0.25, afbreken=False),
         'nr': Stijl(f['tekst'], TEKST_KORPS, kenmerken=oud, afbreken=False),
         'merk': Stijl(f['noot'], 5.7, hoog=3.7, afbreken=False),
@@ -491,7 +521,7 @@ def zet_hoofdstuk(zetter, st, boek, hoofdstuk, perikopen, items, noten, stats):
 
         segs = []
         dropcap = None
-        if eerste_vers and woorden and re.match(r'^[^\W\d_]', woorden[0]['tekst']):
+        if eerste_vers and woorden and not any(god for _, god in woorden[0]['delen']) and re.match(r'^[^\W\d_]', woorden[0]['tekst']):
             eerste = woorden[0]
             letter = eerste['tekst'][0].upper()
             dropcap = zetter.los([(letter, st['begin'])])
@@ -506,7 +536,10 @@ def zet_hoofdstuk(zetter, st, boek, hoofdstuk, perikopen, items, noten, stats):
             segs.append((f'{versnummer}' + chr(0xA0), st['nr']))
         for i, w in enumerate(woorden):
             segs += merktekens(w['voor'], per_merk, st)
-            segs.append((w['tekst'] + (' ' if i + 1 < len(woorden) else ''), st['tekst']))
+            for tekst, god in w['delen']:
+                segs.append((tekst, st['godscitaat'] if god else st['tekst']))
+            if i + 1 < len(woorden):
+                segs.append((' ', st['tekst']))
 
         if dropcap:
             d = dropcap.breedte + 1.5
@@ -856,32 +889,42 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
 # ---------------------------------------------------------------- voorwerk
 
 def titelpagina(b, deel):
+    """Rustig titelblad, optisch gecentreerd op de pagina, voor alle drie delen."""
     st, zetter, pdf = b.st, b.zetter, b.pdf
-    uit = ['0 0 0 RG 0 0 0 rg\n']
-    x0, y = BINNEN, HOOGTE - 130
+    uit = ['0.12 g 0.12 G\n']
+    midden = BREEDTE / 2
+    kop = st['t_groot'].letter
+    klein = Stijl(kop, 10, spatie=1.8, afbreken=False)
+    titel = Stijl(kop, 66, spatie=2.0, afbreken=False)
+    ondertitel = Stijl(kop, 15, spatie=1.0, afbreken=False)
 
-    def regel(tekst, stijl, stap):
-        nonlocal y
+    def regel(tekst, stijl, y):
         r = zetter.los([(tekst, stijl)])
-        y -= stap
-        teken_regel(r, x0 + (ZETBREEDTE - r.breedte) / 2, y, uit)
+        teken_regel(r, midden - r.breedte / 2, y, uit)
 
-    regel('BIJBEL', st['t_groot'], 0)
-    regel('dat is', st['t_cursief'], 34)
-    regel('DE GEHELE HEILIGE SCHRIFT', st['t_mid'], 40)
-    stap = 30
-    for t in DELEN[deel]['testament'].split('\n'):
-        regel(t, st['t_tekst'], stap)
-        stap = 16
-    regel('OPEN VERTALING', st['t_mid'], 76)
-    regel('een vrije herziening van de Statenvertaling', st['t_tekst'], 28)
-    regel('in hedendaags Nederlands', st['t_tekst'], 16)
-    regel('Met de herziene kanttekeningen', st['t_cursief'], 34)
-    regel('uitleg bij moeilijke plaatsen en verwijzingen naar andere bijbelplaatsen', st['t_cursief'], 16)
-    regel(f'DEEL {romeins(deel)}', st['t_klein'], 72)
-    regel(DELEN[deel]['titel'], st['t_tekst'], 22)
-    y = ONDER + 46
-    regel('openvertaling.nl', st['t_klein'], 0)
+    def ornament(y):
+        # Fijne haarlijnen en een kleine ruit; ook helder in zwart-witdruk.
+        uit.append(f'q 0.48 G 0.48 g 0.45 w '
+                   f'{midden - 82} {y} m {midden - 12} {y} l S '
+                   f'{midden + 12} {y} m {midden + 82} {y} l S '
+                   f'{midden} {y + 3} m {midden + 3} {y} l '
+                   f'{midden} {y - 3} l {midden - 3} {y} l h f Q\n')
+
+    regel('OPEN VERTALING', klein, HOOGTE - 100)
+    regel('BIJBEL', titel, HOOGTE - 228)
+    regel('DE GEHELE HEILIGE SCHRIFT', ondertitel, HOOGTE - 266)
+    ornament(HOOGTE - 301)
+    regel('Met de herziene kanttekeningen', st['t_cursief'], HOOGTE - 341)
+    regel('Een vrije herziening van de Statenvertaling', st['t_tekst'], HOOGTE - 389)
+    regel('in hedendaags Nederlands', st['t_tekst'], HOOGTE - 408)
+
+    regel(f'DEEL {romeins(deel)}', klein, 263)
+    # Deel III heeft een lange titel; geef de apocriefe boeken een eigen regel.
+    titelregels = DELEN[deel]['titel'].replace(', met de ', '\nmet de ').split('\n')
+    for i, tekst in enumerate(titelregels):
+        regel(tekst, st['t_tekst'], 233 - i * 20)
+    ornament(178)
+    regel('openvertaling.nl', st['t_tekst'], 80)
     pdf.pagina(''.join(uit))
 
 

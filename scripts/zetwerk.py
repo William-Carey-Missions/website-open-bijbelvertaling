@@ -98,11 +98,12 @@ class Lettertype:
 
 
 class Stijl:
-    __slots__ = ('letter', 'corps', 'hoog', 'kenmerken', 'spatie', 'afbreken', 'rtl', 'schaal', 'spatiebreedte')
+    __slots__ = ('letter', 'corps', 'hoog', 'kenmerken', 'spatie', 'afbreken', 'rtl', 'kleur', 'schaal', 'spatiebreedte')
 
-    def __init__(self, letter, corps, hoog=0.0, kenmerken=(), spatie=0.0, afbreken=True, rtl=False):
+    def __init__(self, letter, corps, hoog=0.0, kenmerken=(), spatie=0.0, afbreken=True, rtl=False, kleur=(0, 0, 0)):
         self.letter, self.corps, self.hoog = letter, corps, hoog
         self.kenmerken, self.spatie, self.afbreken, self.rtl = tuple(kenmerken), spatie, afbreken, rtl
+        self.kleur = kleur
         self.schaal = corps / letter.upem
         self.spatiebreedte = letter.vorm(' ', self.kenmerken)[0][1] * self.schaal + spatie
 
@@ -134,7 +135,7 @@ class Zetter:
             return [(tekst, stijl)]
         for andere in self.terugval:
             if all(andere.heeft(c) or unicodedata.combining(c) or not c.isalpha() for c in tekst):
-                return [(tekst, Stijl(andere, stijl.corps, stijl.hoog, afbreken=False))]
+                return [(tekst, Stijl(andere, stijl.corps, stijl.hoog, afbreken=False, kleur=stijl.kleur))]
         self.onbekend.update(c for c in tekst if not any(a.heeft(c) for a in self.terugval))
         return [(tekst, stijl)]
 
@@ -216,7 +217,7 @@ class Zetter:
         for m in HEBREEUWS.finditer(tekst):
             if m.start() > pos:
                 uit.append((tekst[pos:m.start()], stijl))
-            uit.append((m.group(0), Stijl(heb, stijl.corps, stijl.hoog, afbreken=False, rtl=True)))
+            uit.append((m.group(0), Stijl(heb, stijl.corps, stijl.hoog, afbreken=False, rtl=True, kleur=stijl.kleur)))
             pos = m.end()
         if pos < len(tekst):
             uit.append((tekst[pos:], stijl))
@@ -429,6 +430,8 @@ def teken_regel(regel, x, y, uit):
                 delen.append(f'/{st.letter.pdfnaam} {_getal(st.corps)} Tf ')
             if huidig is None or huidig.hoog != st.hoog:
                 delen.append(f'{_getal(st.hoog)} Ts ')
+            if huidig is None or huidig.kleur != st.kleur:
+                delen.append(' '.join(_getal(c) for c in st.kleur) + ' rg ')
             huidig = st
 
     for st, inhoud in regel.stukken:
@@ -465,7 +468,7 @@ def teken_regel(regel, x, y, uit):
     if huidig is not None and huidig.hoog:
         delen.append('0 Ts ')
     delen.append('ET\n')
-    uit.append(''.join(delen))
+    uit.append('q ' + ''.join(delen) + 'Q\n')
 
 
 def lijn(x1, y1, x2, y2, dikte, uit):

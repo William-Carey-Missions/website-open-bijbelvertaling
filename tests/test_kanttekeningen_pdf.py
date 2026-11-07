@@ -53,7 +53,8 @@ def test_merkteken_staat_voor_het_woord_waarop_het_slaat():
 def test_merkteken_aan_het_eind_komt_voor_het_laatste_woord():
     sup = '<sup class="note-marker" data-note="7">7</sup>'
     woorden = bouw.vers_woorden({'text2026_html': 'Hij kwam thuis.' + sup})
-    assert woorden[-1] == {'voor': ['7'], 'tekst': 'thuis.'}
+    assert woorden[-1]['voor'] == ['7']
+    assert woorden[-1]['tekst'] == 'thuis.'
 
 
 def test_noot_zonder_merkteken_krijgt_een_plek_bij_het_besproken_woord():
@@ -90,3 +91,27 @@ def test_pagina_wijst_naar_de_drie_delen_zonder_lookbehind():
     assert '(?<' not in html
     for naam in json.loads((ROOT / 'data' / 'books-index.json').read_text(encoding='utf-8'))['boeken']:
         assert naam['naam'] in html
+
+
+def test_godscitaten_behouden_geneste_opmaak_en_nootmarkeringen():
+    woorden = bouw.vers_woorden({'text2026_html': 'God zei: <span class="god-speaks"><i>Er <sup data-note="1">1</sup>zij <b>licht</b>!</i></span> En het was licht.'})
+    assert ' '.join(w['tekst'] for w in woorden) == 'God zei: Er zij licht! En het was licht.'
+    assert [w['tekst'] for w in woorden if any(god for _, god in w['delen'])] == ['Er', 'zij', 'licht!']
+    assert woorden[3]['voor'] == ['1']
+
+
+def test_citaatgrens_binnen_woord_blijft_behouden():
+    woorden = bouw.vers_woorden({'text2026_html': '<span class="god-speaks">Licht</span>! Gewoon.'})
+    assert woorden[0]['delen'] == [('Licht', True), ('!', False)]
+    assert woorden[1]['delen'] == [('Gewoon.', False)]
+
+
+def test_pdf_wisselt_rood_en_zwart_en_gebruikt_cursief():
+    fonts = bouw.lettertypes()
+    st = bouw.stijlen(fonts)
+    assert st['godscitaat'].letter is fonts['tekst_c']
+    regel = bouw.Zetter().los([('Licht', st['godscitaat']), (' gewoon', st['tekst'])])
+    uit = []
+    bouw.teken_regel(regel, 50, 50, uit)
+    assert '0.65 0.08 0.1 rg' in ''.join(uit)
+    assert '0 0 0 rg' in ''.join(uit)

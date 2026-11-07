@@ -1035,3 +1035,10 @@ html.ka-lees .reader-footer { font-family: var(--ka-sans); }
 @media (prefers-reduced-motion: reduce) {
     .spoor::after, .ka-doc-card { transition: none; }
 }
+
+/* Nieuws boven de leesintroductie. */
+.ka-nieuws { display:flex; align-items:center; justify-content:space-between; gap:28px; padding:28px max(24px, calc((100% - 1240px) / 2)); background:var(--ka-paper); border-bottom:1px solid var(--border,#d8d0bf); }
+.ka-nieuws h2 { font:400 clamp(22px,2.5vw,30px)/1.2 Georgia,serif; margin:8px 0; }
+.ka-nieuws p { margin:8px 0; max-width:760px; line-height:1.5; }
+.ka-nieuws .ka-btn { flex-shrink:0; }
+@media(max-width:760px) { .ka-nieuws { align-items:flex-start; flex-direction:column; padding:24px 20px; gap:12px; } }

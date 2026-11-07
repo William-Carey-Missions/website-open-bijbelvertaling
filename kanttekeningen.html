@@ -20,7 +20,7 @@
     <meta property="og:title" content="De Bijbel met kanttekeningen — Open Vertaling">
     <meta property="og:description" content="De Open Vertaling met de herziene kanttekeningen als PDF in drie delen, gezet met de noten onder de tekst op dezelfde bladzijde.">
     <meta property="og:url" content="https://openvertaling.nl/kanttekeningen.html">
-    <meta property="og:image" content="https://openvertaling.nl/images/kanttekeningen/deel-1.webp">
+    <meta property="og:image" content="https://openvertaling.nl/images/kanttekeningen/deel-1.webp?v=20261107">
     <meta name="twitter:card" content="summary_large_image">
 
     <link rel="stylesheet" href="css/fonts.css">
@@ -38,7 +38,7 @@
         <a class="kt-terug" href="downloads.html">← Alle downloads</a>
 
         <div class="kt-raster">
-            <img class="kt-omslag" id="kt-omslag" src="images/kanttekeningen/deel-1.webp" alt="Omslag van deel I" width="600" height="900">
+            <img class="kt-omslag" id="kt-omslag" src="images/kanttekeningen/deel-1.webp?v=20261107" alt="Omslag van deel I" width="600" height="900">
 
             <div class="kt-tekst">
                 <h1>De Bijbel met kanttekeningen</h1>
@@ -52,21 +52,21 @@
                         <div>
                             <input type="radio" name="deel" id="kt-deel-1" value="1" checked>
                             <label class="kt-kaart" for="kt-deel-1">
-                                <img src="images/kanttekeningen/deel-1.webp" alt="" width="46" height="69" decoding="async">
+                                <img src="images/kanttekeningen/deel-1.webp?v=20261107" alt="" width="46" height="69" decoding="async">
                                 <span><span class="kt-naam">Deel I</span><span class="kt-bereik">Genesis t/m Esther</span></span>
                             </label>
                         </div>
                         <div>
                             <input type="radio" name="deel" id="kt-deel-2" value="2">
                             <label class="kt-kaart" for="kt-deel-2">
-                                <img src="images/kanttekeningen/deel-2.webp" alt="" width="46" height="69" decoding="async">
+                                <img src="images/kanttekeningen/deel-2.webp?v=20261107" alt="" width="46" height="69" decoding="async">
                                 <span><span class="kt-naam">Deel II</span><span class="kt-bereik">Job t/m Maleachi</span></span>
                             </label>
                         </div>
                         <div>
                             <input type="radio" name="deel" id="kt-deel-3" value="3">
                             <label class="kt-kaart" for="kt-deel-3">
-                                <img src="images/kanttekeningen/deel-3.webp" alt="" width="46" height="69" decoding="async">
+                                <img src="images/kanttekeningen/deel-3.webp?v=20261107" alt="" width="46" height="69" decoding="async">
                                 <span><span class="kt-naam">Deel III</span><span class="kt-bereik">Mattheüs t/m Openbaring, met de apocriefe boeken</span></span>
                             </label>
                         </div>
@@ -95,14 +95,14 @@
 
         <figure class="kt-voorbeeld">
             <h2>Zo ziet het eruit</h2>
-            <img src="images/kanttekeningen/voorbeeld-genesis-1.webp" alt="Twee bladzijden uit Genesis 1: bijbeltekst in twee kolommen met daaronder de kanttekeningen in drie kolommen" width="1665" height="1170" loading="lazy" decoding="async">
+            <img src="images/kanttekeningen/voorbeeld-genesis-1.webp?v=20261107" alt="Twee bladzijden uit Genesis 1: bijbeltekst in twee kolommen met daaronder de kanttekeningen in drie kolommen" width="1665" height="1170" loading="lazy" decoding="async">
             <figcaption>De opening van Genesis 1 uit deel I.</figcaption>
         </figure>
 
         <section class="kt-over">
             <h2>Over deze uitgave</h2>
             <p>Een cijfer in de tekst verwijst naar een uitleggende kanttekening, een letter naar andere bijbelplaatsen. Beide staan vlak vóór het woord waarop ze slaan. Elk deel heeft een klikbare inhoudsopgave en bladwijzers per boek en hoofdstuk.</p>
-            <p>De Godsnaam staat als YHWH, zoals de site die standaard toont. Bij een verwijzing staat alleen de bijbelplaats, niet de hele tekst ervan. Bij de apocriefe boeken staan geen kanttekeningen.</p>
+            <p>Gemarkeerde Godscitaten staan rood en cursief. De Godsnaam staat als YHWH, zoals de site die standaard toont. Bij een verwijzing staat alleen de bijbelplaats, niet de hele tekst ervan. Bij de apocriefe boeken staan geen kanttekeningen.</p>
             <p>De PDF's worden bij elke publicatie opnieuw opgebouwd, dus ze lopen gelijk met de tekst op de site.</p>
             <div class="kt-vrij"><strong>CC0 / publiek domein.</strong> U mag deze tekst vrij gebruiken, kopiëren, drukken, bewerken en verspreiden, voor elk doel, zonder toestemming en zonder bronvermelding.</div>
         </section>
@@ -144,7 +144,7 @@
         var gegevens = verslag[deel] || {};
         var paginas = {};
         (gegevens.boeken || []).forEach(function (b) { paginas[b.naam] = b.pagina; });
-        document.getElementById('kt-omslag').src = 'images/kanttekeningen/deel-' + deel + '.webp';
+        document.getElementById('kt-omslag').src = 'images/kanttekeningen/deel-' + deel + '.webp?v=20261107';
         document.getElementById('kt-omslag').alt = 'Omslag van deel ' + ROMEINS[deel];
         document.getElementById('kt-download').href = bestand(deel);
         document.getElementById('kt-open').href = bestand(deel);
