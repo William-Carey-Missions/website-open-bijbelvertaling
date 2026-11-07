@@ -29,5 +29,16 @@
     "open_grondwoorden": 7970,
     "volledig_inhoudelijk_gecontroleerd": false,
     "controle": "Nieuwe logica: 4 tests geslaagd; volledige technische audit van 82 boeken zonder onvindbare ankers of bronverwijzingen. Compatibiliteit van 30 gewijzigde verzen met de gedeelde woordnummerweergave gecontroleerd: 589 knoppen, geen fouten. Alle correcties zijn idempotent."
+  },
+  "vervolgronde_3": {
+    "datum": "2026-11-07",
+    "passage": "3 Ezra 9:48–56",
+    "betrokken_verzen": 9,
+    "extra_koppelingen_netto": 71,
+    "extra_gekoppelde_grondwoordvoorkomens": 97,
+    "open_grondwoorden": 43566,
+    "volledig_inhoudelijk_gecontroleerd": false,
+    "controle": "5 regressietests geslaagd; audit van alle 82 boeken zonder onvindbare ankers of bronverwijzingen. Negen gewijzigde verzen met gedeelde woordnummerweergave getest: 114 knoppen, geen fouten. Herhaald toepassen: 0 wijzigingen. Nederlandse teksten en alle bronobjecten behouden. Zeven overige tests geslaagd, waaronder regressie voor lege en uitgeschakelde koppelingen.",
+    "telcorrectie": "Oude telling telde bronverwijzingen zonder Nederlands anker mee als gekoppeld. De nieuwe telling telt uitsluitend vindbare ankers met een zichtbare reviewstatus. Hierdoor is de oude stand 7.970 niet rechtstreeks vergelijkbaar met deze stand."
   }
 }

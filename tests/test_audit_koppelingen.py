@@ -32,3 +32,14 @@ def test_audit_detects_unfindable_anchor_and_missing_source_link():
     with patch('audit_genesis_koppelingen.laad', return_value=(None, chapter)):
         report = audit('voorbeeld', [1])
     assert {e['type'] for e in report['fouten']} == {'anker_onvindbaar', 'grondwoord_zonder_koppeling'}
+
+
+def test_empty_and_pending_mappings_do_not_hide_unlinked_source_words():
+    for target, status in [('', 'handmatig_gecontroleerd'), ('licht', 'controle_nodig')]:
+        chapter = {'verses': [{'number': 1, 'text2026': 'licht',
+            'grondtekst': [{'woord': 'φως', 'strongs': 'G5457'}],
+            'woordnummers': [{'tekst': target, 'strongs': ['G5457'], 'bronwoorden': ['φως'], 'reviewstatus': status}]}]}
+        with patch('audit_genesis_koppelingen.laad', return_value=(None, chapter)):
+            report = audit('voorbeeld', [1])
+        assert [e['type'] for e in report['fouten']] == ['grondwoord_zonder_koppeling']
+        assert report['aantal_woorden_zonder_link'] == 1

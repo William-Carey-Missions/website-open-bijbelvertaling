@@ -30,17 +30,17 @@ def audit(boek="genesis", hoofdstukken=range(1, 51)):
             mappings = (verse.get('woordnummers') or [])
             for mapping, source_indices in zip(mappings, indices(verse)):
                 report['koppelingen'] += 1
-                linked.update(source_indices)
                 if not source_indices:
                     report['fouten'].append({'ref': ref, 'type': 'grondwoord_onvindbaar', 'mapping': mapping})
                 target = mapping.get('tekst') or mapping.get('anker') or ''
-                if not target:
+                if not target or mapping.get('reviewstatus') not in (None, 'handmatig_gecontroleerd', 'automatisch_hoog_vertrouwen'):
                     continue
                 positions = plekken(text, target)
                 occurrence = mapping.get('voorkomen', 1)
                 if not isinstance(occurrence, int) or not 1 <= occurrence <= len(positions):
                     report['fouten'].append({'ref': ref, 'type': 'anker_onvindbaar', 'mapping': mapping})
-                elif mapping.get('tekst'):
+                else:
+                    linked.update(source_indices)
                     start = positions[occurrence - 1]
                     covered.update(range(start, start + len(target)))
             for i, token in enumerate((verse.get('grondtekst') or [])):

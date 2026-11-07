@@ -42,6 +42,30 @@ class VerseBoundaries(unittest.TestCase):
             nt.prepare(self.plan)
 
 
+class ApocryphalBoundaries(unittest.TestCase):
+    def test_split_shift_and_empty_final_verse_preserve_source(self):
+        plan = json.loads((ROOT/'reviews/strongs/plannen/3ezra9-versgrenzen-2026-11-07.json').read_text())
+        log = json.loads((ROOT/'reviews/strongs/controles/3ezra9-versgrenzen-2026-11-07.json').read_text())
+        before = {'verses': [row['voor'] for row in log]}
+        self.assertIsNone(before['verses'][-1]['grondtekst'])
+        with patch.object(nt, 'laad', lambda b,c: (Path('fixture.json'), copy.deepcopy(before))):
+            chapters, changes = nt.prepare(plan)
+        verses = {v['number']: v for v in chapters['3ezra',9][1]['verses']}
+        self.assertEqual(len(changes), 9)
+        self.assertEqual(verses[48]['grondtekst'][-1]['woord'], 'κυρίου')
+        self.assertEqual(verses[49]['grondtekst'][4]['woord'], 'ἀνεγίνωσκον')
+        self.assertEqual(verses[56]['grondtekst'][0]['woord'], 'ὅτι')
+        for v in verses.values():
+            spans = []
+            for m in v['woordnummers']:
+                start = nt.plekken(nt.platte_tekst(v), m['tekst'])[m['voorkomen']-1]
+                span = (start, start + len(m['tekst']))
+                self.assertFalse(any(span[0] < end and start < span[1] for start,end in spans))
+                spans.append(span)
+        with patch.object(nt, 'laad', lambda b,c: (Path('fixture.json'), copy.deepcopy(chapters['3ezra',9][1]))):
+            self.assertEqual(nt.prepare(plan), ({}, []))
+
+
 class Conjunctions(unittest.TestCase):
     def sample(self,text='En hij kwam en hij ging.'):
         return {'text2026':text,'grondtekst':[{'woord':'και','strongs':'G2532'},{'woord':'και','strongs':'G2532'}],

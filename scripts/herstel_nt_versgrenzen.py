@@ -28,9 +28,9 @@ def prepare(plan):
     old = deepcopy(verses)
     for ref, v in verses.items():
         expected = plan['verzen'][ref]
-        assert digest(v.get('grondtekst', [])) == expected['grondtekst_sha256'], ref
+        assert digest((v.get('grondtekst') or [])) == expected['grondtekst_sha256'], ref
         assert digest({k: x for k, x in v.items() if k.startswith('text')}) == expected['tekst_sha256'], ref
-    origins = {ref: [(ref, i) for i in range(len(v.get('grondtekst', [])))] for ref, v in old.items()}
+    origins = {ref: [(ref, i) for i in range(len((v.get('grondtekst') or [])))] for ref, v in old.items()}
     for source, start, end, target, placement in plan['verplaatsingen']:
         segment = [(source, i) for i in range(start, end)]
         assert all(pair in origins[source] for pair in segment)
@@ -77,7 +77,7 @@ def prepare(plan):
             assert not text or len(plekken(platte_tekst(v), text)) >= m.get('voorkomen', 1), (ref, text)
         v['grondtekst_versificatie'] = {'correctie': plan['id'], 'toelichting': plan['reden']}
     def tokens(data):
-        return Counter(json.dumps(w, sort_keys=True, ensure_ascii=False) for v in data.values() for w in v.get('grondtekst', []))
+        return Counter(json.dumps(w, sort_keys=True, ensure_ascii=False) for v in data.values() for w in (v.get('grondtekst') or []))
     assert tokens(old) == tokens(verses), 'Bronwoorden verloren of toegevoegd'
     ignore = {'grondtekst', 'woordnummers', 'grondtekst_versificatie'}
     for ref, v in verses.items():
@@ -88,11 +88,13 @@ def prepare(plan):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--write', action='store_true')
+    parser.add_argument('--plan', type=Path, default=PLAN)
+    parser.add_argument('--report', type=Path, default=ROOT / 'reviews/strongs/controles/nt-versgrenzen-2026-11-07.json')
     args = parser.parse_args()
-    chapters, changes = prepare(json.loads(PLAN.read_text()))
+    chapters, changes = prepare(json.loads(args.plan.read_text()))
     if args.write and changes:
         for path, data in chapters.values():
             bewaar(path, data)
-        destination = ROOT / 'reviews/strongs/controles/nt-versgrenzen-2026-11-07.json'
+        destination = args.report
         destination.write_text(json.dumps(changes, ensure_ascii=False, indent=2) + '\n')
     print(('Geschreven' if args.write else 'Voorbereid'), len(changes), 'verzen')
