@@ -890,28 +890,33 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
 
 def titelpagina(b, deel):
     """Rustig titelblad, optisch gecentreerd op de pagina, voor alle drie delen."""
-    st, zetter, pdf = b.st, b.zetter, b.pdf
-    uit = ['0.12 g 0.12 G\n']
+    from copy import copy
+    st = {naam: copy(stijl) for naam, stijl in b.st.items()}
+    licht = (0.94, 0.91, 0.83)
+    for stijl in st.values():
+        stijl.kleur = licht
+    zetter, pdf = b.zetter, b.pdf
+    uit = [f'q 0.025 0.025 0.025 rg 0 0 {BREEDTE} {HOOGTE} re f Q\n']
     midden = BREEDTE / 2
     kop = st['t_groot'].letter
-    klein = Stijl(kop, 10, spatie=1.8, afbreken=False)
-    titel = Stijl(kop, 66, spatie=2.0, afbreken=False)
-    ondertitel = Stijl(kop, 15, spatie=1.0, afbreken=False)
+    klein = Stijl(kop, 10, spatie=1.8, afbreken=False, kleur=licht)
+    titel = Stijl(kop, 48, spatie=0.6, afbreken=False, kleur=licht)
+    ondertitel = Stijl(kop, 15, spatie=1.0, afbreken=False, kleur=licht)
 
     def regel(tekst, stijl, y):
         r = zetter.los([(tekst, stijl)])
         teken_regel(r, midden - r.breedte / 2, y, uit)
 
     def ornament(y):
-        # Fijne haarlijnen en een kleine ruit; ook helder in zwart-witdruk.
-        uit.append(f'q 0.48 G 0.48 g 0.45 w '
+        # Subtiele gouden haarlijnen en een kleine ruit op de zwarte omslag.
+        uit.append(f'q 0.68 0.55 0.32 RG 0.68 0.55 0.32 rg 0.45 w '
                    f'{midden - 82} {y} m {midden - 12} {y} l S '
                    f'{midden + 12} {y} m {midden + 82} {y} l S '
                    f'{midden} {y + 3} m {midden + 3} {y} l '
                    f'{midden} {y - 3} l {midden - 3} {y} l h f Q\n')
 
     regel('OPEN VERTALING', klein, HOOGTE - 100)
-    regel('BIJBEL', titel, HOOGTE - 228)
+    regel('Gods Woord', titel, HOOGTE - 228)
     regel('DE GEHELE HEILIGE SCHRIFT', ondertitel, HOOGTE - 266)
     ornament(HOOGTE - 301)
     regel('Met de herziene kanttekeningen', st['t_cursief'], HOOGTE - 341)

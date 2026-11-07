@@ -10,7 +10,7 @@
 
 const VERSION = 'v0.60.2';
 // New reader modules must not be mixed with HTML from before verification.
-const CACHE_VERSION = `${VERSION}-uitgave20261107-mobiel20261101-verification-v13-splitsing1-ontwerp1-kunst20261025-publicatie20261025-statistics-consent1-yhwh20261025`;
+const CACHE_VERSION = `${VERSION}-uitgave20261107-zwart-mobiel20261101-verification-v13-splitsing1-ontwerp1-kunst20261025-publicatie20261025-statistics-consent1-yhwh20261025`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `data-${CACHE_VERSION}`;
 const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
