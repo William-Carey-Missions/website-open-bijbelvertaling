@@ -79,15 +79,15 @@
                 </div>
 
                 <div class="kt-knoppen">
-                    <a class="kt-knop" id="kt-download" href="downloads/open-vertaling-kanttekeningen-deel-1.pdf" download>PDF downloaden</a>
-                    <a class="kt-knop kt-knop--rand" id="kt-open" href="downloads/open-vertaling-kanttekeningen-deel-1.pdf" target="_blank" rel="noopener">Openen in de browser</a>
+                    <a class="kt-knop" id="kt-download" href="downloads/open-vertaling-kanttekeningen-deel-1.pdf?v=20261107" download>PDF downloaden</a>
+                    <a class="kt-knop kt-knop--rand" id="kt-open" href="downloads/open-vertaling-kanttekeningen-deel-1.pdf?v=20261107" target="_blank" rel="noopener">Openen in de browser</a>
                 </div>
                 <p class="kt-omvang" id="kt-omvang"></p>
                 <noscript>
                     <p class="kt-omvang">
-                        <a href="downloads/open-vertaling-kanttekeningen-deel-1.pdf">Deel I</a> ·
-                        <a href="downloads/open-vertaling-kanttekeningen-deel-2.pdf">Deel II</a> ·
-                        <a href="downloads/open-vertaling-kanttekeningen-deel-3.pdf">Deel III</a>
+                        <a href="downloads/open-vertaling-kanttekeningen-deel-1.pdf?v=20261107">Deel I</a> ·
+                        <a href="downloads/open-vertaling-kanttekeningen-deel-2.pdf?v=20261107">Deel II</a> ·
+                        <a href="downloads/open-vertaling-kanttekeningen-deel-3.pdf?v=20261107">Deel III</a>
                     </p>
                 </noscript>
             </div>
@@ -136,7 +136,7 @@
     }
 
     function bestand(deel) {
-        return 'downloads/open-vertaling-kanttekeningen-deel-' + deel + '.pdf';
+        return 'downloads/open-vertaling-kanttekeningen-deel-' + deel + '.pdf?v=20261107';
     }
 
     function toon(deel) {
@@ -174,7 +174,7 @@
     document.getElementById('kt-deel-' + huidig).checked = true;
     toon(huidig);
 
-    fetch('downloads/kanttekeningen-uitgave.json', { cache: 'no-cache' })
+    fetch('downloads/kanttekeningen-uitgave.json?v=20261107', { cache: 'no-cache' })
         .then(function (r) { if (!r.ok) throw new Error('niet gevonden'); return r.json(); })
         .then(function (d) {
             (d.delen || []).forEach(function (v) { verslag[v.deel] = v; });
