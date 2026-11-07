@@ -897,11 +897,37 @@ def titelpagina(b, deel):
         stijl.kleur = licht
     zetter, pdf = b.zetter, b.pdf
     uit = [f'q 0.025 0.025 0.025 rg 0 0 {BREEDTE} {HOOGTE} re f Q\n']
+    # Een vectorpatroon als blinddruk: zacht gebogen bladeren in een ruitrooster.
+    uit.append(f'q 38 38 {BREEDTE - 76} {HOOGTE - 76} re W n '
+               '0.075 0.070 0.057 RG 0.45 w\n')
+    for cy in range(46, int(HOOGTE), 78):
+        for cx in range(24, int(BREEDTE) + 78, 78):
+            for dx, dy in ((1, 1), (-1, 1), (1, -1), (-1, -1)):
+                uit.append(f'{cx} {cy} m '
+                           f'{cx + dx * 23} {cy + dy * 2} '
+                           f'{cx + dx * 28} {cy + dy * 19} '
+                           f'{cx + dx * 31} {cy + dy * 31} c '
+                           f'{cx + dx * 10} {cy + dy * 28} '
+                           f'{cx + dx * 2} {cy + dy * 16} '
+                           f'{cx} {cy} c S\n')
+    uit.append('Q\n')
+    # Dubbele goudlijn met kleine hoekruiten, ruim binnen de snijrand.
+    uit.append(f'q 0.68 0.55 0.32 RG 0.68 0.55 0.32 rg '
+               f'1.1 w 25 25 {BREEDTE - 50} {HOOGTE - 50} re S '
+               f'0.35 w 33 33 {BREEDTE - 66} {HOOGTE - 66} re S\n')
+    for x, y in ((33, 33), (BREEDTE - 33, 33),
+                 (33, HOOGTE - 33), (BREEDTE - 33, HOOGTE - 33)):
+        uit.append(f'{x} {y + 5} m {x + 5} {y} l '
+                   f'{x} {y - 5} l {x - 5} {y} l h f\n')
+    uit.append('Q\n')
     midden = BREEDTE / 2
     kop = st['t_groot'].letter
-    klein = Stijl(kop, 10, spatie=1.8, afbreken=False, kleur=licht)
-    titel = Stijl(kop, 48, spatie=0.6, afbreken=False, kleur=licht)
-    ondertitel = Stijl(kop, 15, spatie=1.0, afbreken=False, kleur=licht)
+    klein = Stijl(kop, 13, spatie=1.8, afbreken=False, kleur=licht)
+    titel = Stijl(kop, 60, spatie=0.6, afbreken=False, kleur=licht)
+    ondertitel = Stijl(kop, 18, spatie=1.0, afbreken=False, kleur=licht)
+
+    st['t_tekst'] = Stijl(st['t_tekst'].letter, 14.5, kleur=licht, afbreken=False)
+    st['t_cursief'] = Stijl(st['t_cursief'].letter, 15, kleur=licht, afbreken=False)
 
     def regel(tekst, stijl, y):
         r = zetter.los([(tekst, stijl)])
@@ -921,13 +947,13 @@ def titelpagina(b, deel):
     ornament(HOOGTE - 301)
     regel('Met de herziene kanttekeningen', st['t_cursief'], HOOGTE - 341)
     regel('Een vrije herziening van de Statenvertaling', st['t_tekst'], HOOGTE - 389)
-    regel('in hedendaags Nederlands', st['t_tekst'], HOOGTE - 408)
+    regel('in hedendaags Nederlands', st['t_tekst'], HOOGTE - 413)
 
     regel(f'DEEL {romeins(deel)}', klein, 263)
     # Deel III heeft een lange titel; geef de apocriefe boeken een eigen regel.
     titelregels = DELEN[deel]['titel'].replace(', met de ', '\nmet de ').split('\n')
     for i, tekst in enumerate(titelregels):
-        regel(tekst, st['t_tekst'], 233 - i * 20)
+        regel(tekst, st['t_tekst'], 233 - i * 24)
     ornament(178)
     regel('openvertaling.nl', st['t_tekst'], 80)
     pdf.pagina(''.join(uit))
