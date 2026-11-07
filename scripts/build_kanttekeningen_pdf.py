@@ -949,6 +949,18 @@ def titelpagina(b, deel):
     regel('Een vrije herziening van de Statenvertaling', st['t_tekst'], HOOGTE - 389)
     regel('in hedendaags Nederlands', st['t_tekst'], HOOGTE - 413)
 
+    regel('Waarom?', st['t_cursief'], 390)
+    redenen = ('Vrij van rechten', 'Herziening, geen hertaling', 'Inclusief kanttekeningen')
+    regels = [zetter.los([(tekst, st['t_tekst'])]) for tekst in redenen]
+    links = midden - max(r.breedte for r in regels) / 2 + 5
+    for i, r in enumerate(regels):
+        y = 361 - i * 22
+        x = links - 13
+        uit.append(f'q 0.68 0.55 0.32 rg '
+                   f'{x} {y + 5} m {x + 2.2} {y + 2.8} l '
+                   f'{x} {y + 0.6} l {x - 2.2} {y + 2.8} l h f Q\n')
+        teken_regel(r, links, y, uit)
+
     regel(f'DEEL {romeins(deel)}', klein, 263)
     # Deel III heeft een lange titel; geef de apocriefe boeken een eigen regel.
     titelregels = DELEN[deel]['titel'].replace(', met de ', '\nmet de ').split('\n')
