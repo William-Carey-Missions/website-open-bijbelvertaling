@@ -1,0 +1,21 @@
+{
+  "datum": "2026-11-07",
+  "volledig_inhoudelijk_gecontroleerd": false,
+  "uitgevoerde_controle": "Alle opgeslagen koppelingen technisch geïnventariseerd; alle Nederlandse woorden zonder volledig tekstanker opgenomen. Gerichte correcties van dubbele voorkomensposities, met behoud van tekst en Strong-bronwoordparen.",
+  "correcties_deze_ronde": 126,
+  "gecorrigeerde_verzen": 63,
+  "gecorrigeerde_boeken": 10,
+  "vervolg": "Resterende grondwoorden beoordelen: eerst de bron- en versificatieverschillen bij ontbrekende koppelingslagen, daarnaast afzonderlijke niet-gekoppelde tokens bij bestaande mappings. Ook woorden zonder grondtekst blijven buiten de telling van ontbrekende grondwoordkoppelingen.",
+  "tests": "Drie regressiecontroles geslaagd met unittest; pytest niet geïnstalleerd.",
+  "vervolgronde": {
+    "nieuwe_nt_links": 23,
+    "jesaja64": "Versificatie en koppelingen van alle 12 verzen hersteld; 63:19b verplaatst naar 64:1, overige grondtekst één vers opgeschoven. Geen grondtokens toegevoegd of verwijderd.",
+    "open_grondwoorden": 8000,
+    "categorieen": {
+      "aanvulling_bestaande_koppelingen": 215,
+      "geen_koppelingslaag": 7785
+    },
+    "tests": "6 tests geslaagd via unittest; beide correctiescripts opnieuw gedraaid: 0 wijzigingen.",
+    "ethiopische_boeken": "Ontbreken in deze repository en in de telling van 82 boeken. Aangetroffen in ../Open Parafrase; scopevraag staat open. Daar nog niets gewijzigd."
+  }
+}
