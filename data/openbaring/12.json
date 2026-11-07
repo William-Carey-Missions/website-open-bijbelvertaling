@@ -13708,7 +13708,7 @@
         },
         {
           "tekst": "En",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -13740,7 +13740,11 @@
             "referentie": "REV 12:14",
             "bronindices": [
               0
-            ]
+            ],
+            "grondindices": [
+              23
+            ],
+            "voorkomenscontrole": "en-kai-2026-11-07"
           }
         },
         {
@@ -13782,7 +13786,7 @@
         },
         {
           "tekst": "en",
-          "voorkomen": 2,
+          "voorkomen": 3,
           "strongs": [
             "G2532"
           ],
@@ -13814,7 +13818,11 @@
             "referentie": "REV 12:14",
             "bronindices": [
               25
-            ]
+            ],
+            "grondindices": [
+              25
+            ],
+            "voorkomenscontrole": "en-kai-2026-11-07"
           }
         },
         {
@@ -16733,7 +16741,50 @@
           "text2026": "stond op het zand van de zee: Namelijk in een gezicht, of ook metterdaad, op het eiland Patmos, gelijk van Daniël, Daniël 10:4 , dergelijke wordt betuigd, namelijk om te zien wat verder gebeuren zou, of wat gezicht mij uit de zee zou getoond worden. Gelijk Openbaring 13 uitwijst, waaraan vers 18 schijnt te behoren, dat daarom ook door sommigen bij Openbaring 13 gevoegd wordt. Daniël 10:4 : En op de vier en twintigsten dag van de eerste maand, zo was ik aan de oever van de grote rivier, welke is Hiddekel. Openbaring 12:18 : En ik stond op het zand van de zee."
         }
       ],
-      "grondtekst": [],
+      "grondtekst": [
+        {
+          "woord": "και",
+          "strongs": "G2532",
+          "lemma_strongs": "G2532",
+          "morfologie": "CONJ"
+        },
+        {
+          "woord": "εσταθην",
+          "strongs": "G2476",
+          "lemma_strongs": "G2476",
+          "morfologie": "V-API-1S"
+        },
+        {
+          "woord": "επι",
+          "strongs": "G1909",
+          "lemma_strongs": "G1909",
+          "morfologie": "PREP"
+        },
+        {
+          "woord": "την",
+          "strongs": "G3588",
+          "lemma_strongs": "G3588",
+          "morfologie": "T-ASF"
+        },
+        {
+          "woord": "αμμον",
+          "strongs": "G285",
+          "lemma_strongs": "G285",
+          "morfologie": "N-ASF"
+        },
+        {
+          "woord": "της",
+          "strongs": "G3588",
+          "lemma_strongs": "G3588",
+          "morfologie": "T-GSF"
+        },
+        {
+          "woord": "θαλασσης",
+          "strongs": "G2281",
+          "lemma_strongs": "G2281",
+          "morfologie": "N-GSF"
+        }
+      ],
       "text2026_html": "En ik<sup class=\"note-marker\" data-note=\"40\">40</sup> stond op het zand van de zee.",
       "textSV1888_html": "En ik<sup class=\"note-marker\" data-note=\"40\">40</sup> stond op het zand der zee.",
       "text1637_html": "En<i>de</i> ick <sup class=\"note-marker\" data-note=\"40\">40</sup> stont op het zandt der zee.",
@@ -16744,7 +16795,226 @@
           "principe": "N2"
         }
       ],
-      "woordnummers": []
+      "woordnummers": [
+        {
+          "tekst": "En",
+          "voorkomen": 1,
+          "strongs": [
+            "G2532"
+          ],
+          "lemma_strongs": [
+            "G2532"
+          ],
+          "morfologie": [
+            "CONJ"
+          ],
+          "bronwoorden": [
+            "και"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "tvm": [
+            null
+          ],
+          "status": "uitgelijnd",
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "dataset": "lokale-griekse-grondtekst",
+            "versie": "nt-versgrenzen-2026-11-07",
+            "sha256": "ad8a30fa0618bf1b3c16797a660ec79ca185f0d46329abc4a83e531f90840d8b",
+            "referentie": "openbaring/12/18",
+            "bronindices": [
+              0
+            ],
+            "grondindices": [
+              0
+            ],
+            "bronplaatsen": [
+              [
+                "openbaring/13/1",
+                0
+              ]
+            ]
+          }
+        },
+        {
+          "tekst": "ik stond",
+          "voorkomen": 1,
+          "strongs": [
+            "G2476"
+          ],
+          "bronwoorden": [
+            "εσταθην"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "grondindices": [
+              1
+            ],
+            "bronindices": [
+              1
+            ],
+            "dataset": "lokale-griekse-grondtekst",
+            "versie": "nt-versgrenzen-2026-11-07",
+            "sha256": "ad8a30fa0618bf1b3c16797a660ec79ca185f0d46329abc4a83e531f90840d8b",
+            "referentie": "openbaring/12/18",
+            "bronplaatsen": [
+              [
+                "openbaring/13/1",
+                1
+              ]
+            ]
+          }
+        },
+        {
+          "tekst": "op",
+          "voorkomen": 1,
+          "strongs": [
+            "G1909"
+          ],
+          "bronwoorden": [
+            "επι"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "grondindices": [
+              2
+            ],
+            "bronindices": [
+              2
+            ],
+            "dataset": "lokale-griekse-grondtekst",
+            "versie": "nt-versgrenzen-2026-11-07",
+            "sha256": "ad8a30fa0618bf1b3c16797a660ec79ca185f0d46329abc4a83e531f90840d8b",
+            "referentie": "openbaring/12/18",
+            "bronplaatsen": [
+              [
+                "openbaring/13/1",
+                2
+              ]
+            ]
+          }
+        },
+        {
+          "tekst": "het zand",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G285"
+          ],
+          "bronwoorden": [
+            "την",
+            "αμμον"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "grondindices": [
+              3,
+              4
+            ],
+            "bronindices": [
+              3,
+              4
+            ],
+            "dataset": "lokale-griekse-grondtekst",
+            "versie": "nt-versgrenzen-2026-11-07",
+            "sha256": "ad8a30fa0618bf1b3c16797a660ec79ca185f0d46329abc4a83e531f90840d8b",
+            "referentie": "openbaring/12/18",
+            "bronplaatsen": [
+              [
+                "openbaring/13/1",
+                3
+              ],
+              [
+                "openbaring/13/1",
+                4
+              ]
+            ]
+          }
+        },
+        {
+          "tekst": "van de zee",
+          "voorkomen": 1,
+          "strongs": [
+            "G3588",
+            "G2281"
+          ],
+          "bronwoorden": [
+            "της",
+            "θαλασσης"
+          ],
+          "transliteraties": [
+            "",
+            ""
+          ],
+          "glossen": [
+            "",
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 1.0,
+          "reviewstatus": "handmatig_gecontroleerd",
+          "herkomst": {
+            "grondindices": [
+              5,
+              6
+            ],
+            "bronindices": [
+              5,
+              6
+            ],
+            "dataset": "lokale-griekse-grondtekst",
+            "versie": "nt-versgrenzen-2026-11-07",
+            "sha256": "ad8a30fa0618bf1b3c16797a660ec79ca185f0d46329abc4a83e531f90840d8b",
+            "referentie": "openbaring/12/18",
+            "bronplaatsen": [
+              [
+                "openbaring/13/1",
+                5
+              ],
+              [
+                "openbaring/13/1",
+                6
+              ]
+            ]
+          }
+        }
+      ],
+      "grondtekst_versificatie": {
+        "correctie": "nt-versgrenzen-2026-11-07",
+        "toelichting": "De Nederlandse versgrenzen staan op andere plaatsen dan in de meegeleverde Scrivener-grondtekst. Alleen bronwoorden en koppelingen verplaatsen; Nederlandse tekst blijft gelijk. De voorkomens van en in Openbaring 13:1 zijn tevens inhoudelijk hersteld."
+      }
     }
   ],
   "chapterIntro": {

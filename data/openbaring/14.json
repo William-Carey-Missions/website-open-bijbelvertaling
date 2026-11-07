@@ -21360,7 +21360,7 @@
         },
         {
           "tekst": "En",
-          "voorkomen": 1,
+          "voorkomen": 2,
           "strongs": [
             "G2532"
           ],
@@ -21392,7 +21392,11 @@
             "referentie": "REV 14:20",
             "bronindices": [
               0
-            ]
+            ],
+            "grondindices": [
+              7
+            ],
+            "voorkomenscontrole": "en-kai-2026-11-07"
           }
         },
         {
@@ -21788,6 +21792,41 @@
               21
             ]
           }
+        },
+        {
+          "tekst": "ver",
+          "voorkomen": 1,
+          "strongs": [
+            "G575"
+          ],
+          "bronwoorden": [
+            "απο"
+          ],
+          "transliteraties": [
+            ""
+          ],
+          "glossen": [
+            ""
+          ],
+          "status": "uitgelijnd",
+          "confidence": 0.9,
+          "reviewstatus": "automatisch_hoog_vertrouwen",
+          "herkomst": {
+            "dataset": "lokale-grondtekst",
+            "versie": "1",
+            "sha256": "8d3956f16d126a3e8d75bcf0d4ff963a078fddf757131ca69f6d36d135bc3f61",
+            "referentie": "openbaring/14/20",
+            "grondindices": [
+              18
+            ],
+            "bronindices": [
+              18
+            ],
+            "aanvullingsplan": "2026-11-07"
+          },
+          "morfologie": [
+            "PREP"
+          ]
         }
       ]
     }

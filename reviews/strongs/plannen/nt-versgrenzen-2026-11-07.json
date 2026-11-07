@@ -1,0 +1,444 @@
+{
+  "id": "nt-versgrenzen-2026-11-07",
+  "reden": "De Nederlandse versgrenzen staan op andere plaatsen dan in de meegeleverde Scrivener-grondtekst. Alleen bronwoorden en koppelingen verplaatsen; Nederlandse tekst blijft gelijk. De voorkomens van en in Openbaring 13:1 zijn tevens inhoudelijk hersteld.",
+  "verzen": {
+    "1petrus/2/7": {
+      "grondtekst_sha256": "39a7da7b388ae48b278b8e8436e7c252cf201240768b6eed38ae8f09cdda4539",
+      "tekst_sha256": "d978ec0490bbc7625e25768515bcd05e720d6e018ef3444292c745e18b3cefa2"
+    },
+    "1petrus/2/8": {
+      "grondtekst_sha256": "d64fd67f64e83dc0c9e8124eaf40bb2f11ce28e7e4e13eb18d1f9d3be9679952",
+      "tekst_sha256": "2706f3e561ee720951bfd37b3473eb9624e58d7f8807196ac62e9061b6facf98"
+    },
+    "hebreeen/1/1": {
+      "grondtekst_sha256": "d09e04138b3115f9668df4ee32ecaa1c4a06ae39fa8a3e1156ca25c9e37e49fb",
+      "tekst_sha256": "2387901a94422444013d022501004d1ab4d0710e2d2ec9db606fcffc14d95937"
+    },
+    "hebreeen/1/2": {
+      "grondtekst_sha256": "bd728bf95b3d488e164e6d76904e206f6a5ab0e7a2fbb50bbfebc2ef678040c9",
+      "tekst_sha256": "f5dddef89408fa7c451ba9fa11fc4ac9fc2823c58bd95d8c2b9f967f3dc7b742"
+    },
+    "hebreeen/10/15": {
+      "grondtekst_sha256": "5f4f9a5112526fbd6a76cc6f51e0c289d4c13e0aa7d27a8a9b432165dda63c04",
+      "tekst_sha256": "60458efde396b06548a67712e54fa2edc416606297affe0eb88ff6a15e534655"
+    },
+    "hebreeen/10/16": {
+      "grondtekst_sha256": "b68b20e4815a33c4fe2e9f3e158b9f2acd218247a462773f80d2ae994f173221",
+      "tekst_sha256": "196b3e2a97f07654e22067374be74f421f8e48fa5622c602c507e4960f7b9f7d"
+    },
+    "filemon/1/11": {
+      "grondtekst_sha256": "7ce0897f64c70cdd3ee5b8c56b2651c8049af03d5a81b299609630e3ac1f7f53",
+      "tekst_sha256": "3ddd73d4ceb8d9acdee19e844e92fea7e04ab9f96e641e3e99144e57055679ba"
+    },
+    "filemon/1/12": {
+      "grondtekst_sha256": "48ad9ef174bb862978fed7f52a89d999faf7663a9a2ab1e1d040f43b45b91052",
+      "tekst_sha256": "d094b9afdf680d85e1a1747bb964b0342af18f3abc4da1c186e8ac1e0bc22697"
+    },
+    "openbaring/12/18": {
+      "grondtekst_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "tekst_sha256": "e1b1bd7773c69a0065330494619b17ae37b7b91d9ac580f2ec8ff8c0706f579f"
+    },
+    "openbaring/13/1": {
+      "grondtekst_sha256": "c31956a7920f8f93e6b9795dc0ba7f1afbb78255d5738542a40a9d589cfe73a9",
+      "tekst_sha256": "5c5d3fe9a5f0106aa91b932846917abf233c39ea87737af3810432c82dd0a75b"
+    }
+  },
+  "verplaatsingen": [
+    [
+      "1petrus/2/8",
+      0,
+      6,
+      "1petrus/2/7",
+      "append"
+    ],
+    [
+      "hebreeen/1/2",
+      0,
+      9,
+      "hebreeen/1/1",
+      "append"
+    ],
+    [
+      "hebreeen/10/15",
+      8,
+      12,
+      "hebreeen/10/16",
+      "prepend"
+    ],
+    [
+      "filemon/1/12",
+      0,
+      2,
+      "filemon/1/11",
+      "append"
+    ],
+    [
+      "openbaring/13/1",
+      0,
+      7,
+      "openbaring/12/18",
+      "append"
+    ]
+  ],
+  "herbouw": [
+    "openbaring/12/18",
+    "openbaring/13/1"
+  ],
+  "ankers": {
+    "1petrus/2/7": [
+      [
+        [
+          18
+        ],
+        "en",
+        1
+      ],
+      [
+        [
+          19
+        ],
+        "steen",
+        2
+      ],
+      [
+        [
+          20
+        ],
+        "aanstoot",
+        1
+      ],
+      [
+        [
+          21
+        ],
+        "en",
+        2
+      ],
+      [
+        [
+          22
+        ],
+        "rots",
+        1
+      ],
+      [
+        [
+          23
+        ],
+        "ergernis",
+        1
+      ]
+    ],
+    "hebreeen/1/1": [
+      [
+        [
+          12
+        ],
+        "in",
+        1
+      ],
+      [
+        [
+          13
+        ],
+        "laatste",
+        1
+      ],
+      [
+        [
+          14,
+          15
+        ],
+        "dagen",
+        1
+      ],
+      [
+        [
+          16
+        ],
+        "deze",
+        1
+      ],
+      [
+        [
+          17
+        ],
+        "gesproken",
+        2
+      ],
+      [
+        [
+          18
+        ],
+        "tot ons",
+        1
+      ],
+      [
+        [
+          19
+        ],
+        "door",
+        2
+      ],
+      [
+        [
+          20
+        ],
+        "de Zoon",
+        1
+      ]
+    ],
+    "hebreeen/10/16": [
+      [
+        [
+          0
+        ],
+        "nadat",
+        1
+      ],
+      [
+        [
+          1
+        ],
+        "Want",
+        1
+      ],
+      [
+        [
+          2,
+          3
+        ],
+        "te voren gezegd had",
+        1
+      ]
+    ],
+    "filemon/1/11": [
+      [
+        [
+          10
+        ],
+        "die",
+        2
+      ],
+      [
+        [
+          11
+        ],
+        "wedergezonden heb",
+        1
+      ]
+    ],
+    "openbaring/12/18": [
+      [
+        [
+          0
+        ],
+        "En",
+        1
+      ],
+      [
+        [
+          1
+        ],
+        "ik stond",
+        1
+      ],
+      [
+        [
+          2
+        ],
+        "op",
+        1
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        "het zand",
+        1
+      ],
+      [
+        [
+          5,
+          6
+        ],
+        "van de zee",
+        1
+      ]
+    ],
+    "openbaring/13/1": [
+      [
+        [
+          0
+        ],
+        "En",
+        1
+      ],
+      [
+        [
+          1
+        ],
+        "ik zag",
+        1
+      ],
+      [
+        [
+          2
+        ],
+        "uit",
+        1
+      ],
+      [
+        [
+          3,
+          4
+        ],
+        "de zee",
+        1
+      ],
+      [
+        [
+          5
+        ],
+        "beest",
+        1
+      ],
+      [
+        [
+          6
+        ],
+        "opkomen",
+        1
+      ],
+      [
+        [
+          7
+        ],
+        "hebbende",
+        1
+      ],
+      [
+        [
+          8
+        ],
+        "hoofden",
+        1
+      ],
+      [
+        [
+          9
+        ],
+        "zeven",
+        1
+      ],
+      [
+        [
+          10
+        ],
+        "en",
+        2
+      ],
+      [
+        [
+          11
+        ],
+        "hoornen",
+        1
+      ],
+      [
+        [
+          12
+        ],
+        "tien",
+        1
+      ],
+      [
+        [
+          13
+        ],
+        "en",
+        3
+      ],
+      [
+        [
+          14
+        ],
+        "op",
+        1
+      ],
+      [
+        [
+          15,
+          16
+        ],
+        "hoornen",
+        2
+      ],
+      [
+        [
+          17
+        ],
+        "zijn",
+        1
+      ],
+      [
+        [
+          18
+        ],
+        "tien",
+        2
+      ],
+      [
+        [
+          19
+        ],
+        "koninklijke hoeden",
+        1
+      ],
+      [
+        [
+          20
+        ],
+        "en",
+        4
+      ],
+      [
+        [
+          21
+        ],
+        "op",
+        2
+      ],
+      [
+        [
+          22,
+          23
+        ],
+        "hoofden",
+        2
+      ],
+      [
+        [
+          24
+        ],
+        "zijn",
+        2
+      ],
+      [
+        [
+          25
+        ],
+        "naam",
+        1
+      ],
+      [
+        [
+          26
+        ],
+        "godslastering",
+        1
+      ]
+    ]
+  }
+}
