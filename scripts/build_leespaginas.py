@@ -67,9 +67,9 @@ def esc(tekst):
     return html.escape(str(tekst or ""), quote=True)
 
 
-# Dezelfde Godsnaam als de standaard leesweergave (js/opties.js, 'yhwh').
-def godsnaam(tekst):
-    return re.sub(r"\bJAHWEH\b", "YHWH", tekst)
+# Dezelfde Godsnaam als de standaard leesweergave (js/opties.js, 'klassiek').
+sys.path.insert(0, str(ROOT / 'scripts'))
+from godsnaam import heere as godsnaam
 
 
 def verstekst(tekst):

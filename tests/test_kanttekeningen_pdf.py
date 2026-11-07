@@ -37,9 +37,9 @@ def test_lemma_moet_uit_het_vers_komen():
 
 
 def test_godsnaam_is_de_standaard_van_de_site():
-    assert bouw.godsnaam('de God JAHWEH') == 'de God YHWH'
+    assert bouw.godsnaam('God JAHWEH') == 'de HEERE God'
     opties = (ROOT / 'js' / 'opties.js').read_text(encoding='utf-8')
-    assert re.search(r"godsnaam:\s*'yhwh'", opties)
+    assert re.search(r"godsnaam:\s*'klassiek'", opties)
 
 
 def test_merkteken_staat_voor_het_woord_waarop_het_slaat():

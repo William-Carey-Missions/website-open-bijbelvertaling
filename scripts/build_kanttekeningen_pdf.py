@@ -7,7 +7,7 @@
 
 Bijbeltekst in twee kolommen, daaronder op dezelfde bladzijde de kanttekeningen
 in drie kolommen. De tekst komt uit data/ (text2026), de Godsnaam zoals de site
-hem standaard toont (YHWH).
+hem standaard toont (HEERE).
 
 Installatie: python -m pip install -r requirements-pdf.txt
 Gebruik:     python scripts/build_kanttekeningen_pdf.py [--deel 1] [--uit map]
@@ -195,8 +195,7 @@ VERANTWOORDING = [
     'waarop ze slaan en lopen per hoofdstuk door. Een schuingedrukt woord aan het begin van een kanttekening is het woord '
     'of de woordgroep uit de tekst die wordt besproken.',
     'Godscitaten die in de brontekst zijn gemarkeerd, staan rood en cursief.',
-    'De Godsnaam staat in deze uitgave als YHWH, de vier medeklinkers waarmee de Hebreeuwse tekst hem schrijft, gelijk aan '
-    'wat de website standaard toont.',
+    'De Godsnaam staat in deze uitgave als HEERE, gelijk aan de standaardweergave op openvertaling.nl.',
     'In de digitale kanttekeningen is bij een verwijzing vaak de volledige tekst van de bijbelplaats ingevoegd. Hier staat '
     'alleen de verwijzing, zodat de bladzijde overzichtelijk blijft; veelvoorkomende woorden zijn afgekort volgens de lijst '
     'op de volgende bladzijden.',
@@ -232,8 +231,9 @@ def romeins(n):
 
 
 def godsnaam(tekst):
-    """Gelijk aan de standaardinstelling van js/opties.js ('yhwh')."""
-    return re.sub(r'\bJAHWEH\b', 'YHWH', tekst)
+    """Gelijk aan de klassieke standaardinstelling van openvertaling.nl."""
+    from godsnaam import heere
+    return heere(tekst)
 
 
 def spaties(tekst):

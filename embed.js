@@ -15,7 +15,7 @@
  *   numbers   true|false   versnummers tonen          (standaard true)
  *   citaat    true|false   citaatopmaak (rood=God enz.)(standaard true)
  *   link      true|false   bronverwijzing tonen        (standaard true)
- *   godsnaam  ov|klassiek|jehovah|yehovah|jhwh|yhwh    (standaard yhwh = YHWH)
+ *   godsnaam  ov|klassiek|jehovah|yehovah|jhwh|yhwh    (standaard HEERE op openvertaling.nl; elders YHWH)
  *   strongs   true|false   bronvaste woordnummers tonen (standaard: globale voorkeur)
  *
  * Via JavaScript:
@@ -299,7 +299,8 @@
       ? sharedView.citatenAan(opts)
       : bool(opts.citaat, true);
     var showLink = bool(opts.link, true);
-    var gods = opts.godsnaam || 'yhwh';
+    var eigenSite = global.location && /^(www\.)?openvertaling\.nl$/.test(global.location.hostname);
+    var gods = opts.godsnaam || (eigenSite ? 'klassiek' : 'yhwh');
     var showWordNumbers = bool(
       opts.strongs,
       globalOptions ? globalOptions.strongs === 'aan' : storedStrongPreference()

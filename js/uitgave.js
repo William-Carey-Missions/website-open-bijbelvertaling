@@ -4,7 +4,13 @@
 const $ = id => document.getElementById('uw-' + id);
 let books = [], step = 0, controller = null;
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const name = s => String(s || '').replace(/\bJAHWEH\b/g, 'YHWH');
+const name = s => String(s || '').split(/(<[^>]+>)/g).map((part,i)=>i%2?part:part
+ .replace(/\bGod JAHWEH\b/g,'de HEERE God')
+ .replace(/\bJAHWEH van de legermachten\b/g,'de HEERE der heirscharen')
+ .replace(/\b(op|van|aan|voor|tot|door|in|met|bij|over|onder|naast|achter|jegens|uit|na|sinds) JAHWEH\b/gi,'$1 de HEERE')
+ .replace(/\b([Oo]) JAHWEH\b/g,'$1 HEERE').replace(/\bJAHWEH!/g,'HEERE!')
+ .replace(/(^|[.!?]\s+)JAHWEH\b/g,'$1De HEERE').replace(/\bJAHWEH\b/g,'de HEERE')
+ .replace(/\bde de HEERE\b/g,'de HEERE').replace(/\bDe de HEERE\b/g,'De HEERE')).join('');
 const order = 'genesis exodus leviticus numeri deuteronomium jozua richteren ruth 1samuel 2samuel 1koningen 2koningen 1kronieken 2kronieken ezra nehemia esther job psalmen spreuken prediker hooglied jesaja jeremia klaagliederen ezechiel daniel hosea joel amos obadja jona micha nahum habakuk zefanja haggai zacharia maleachi mattheus markus lukas johannes handelingen romeinen 1korinthiers 2korinthiers galaten efeziers filippenzen kolossenzen 1tessalonicensen 2tessalonicensen 1timotheus 2timotheus titus filemon hebreeen jakobus 1petrus 2petrus 1johannes 2johannes 3johannes judas openbaring 3ezra 4ezra tobit judith boekderwijsheid jezussirach baruch estherapocrief gebedvanazaria gezangindevuuroven susanna belenddedraak gebedvanmanasse 1makkabeeen 2makkabeeen 3makkabeeen'.split(' ');
 function selection() {
  const mode = $('groep').value;

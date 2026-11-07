@@ -21,7 +21,7 @@ function opties() {
 }
 
 /* embed.js draait buiten de lezer; de bestanden komen hier van schijf. */
-function insluiten() {
+function insluiten(hostname = 'localhost') {
     const fetch = async url => {
         const pad = String(url).replace(/^https?:\/\/[^/]+/, '').replace(/^\//, '');
         try {
@@ -36,7 +36,7 @@ function insluiten() {
         getElementById: () => null, createElement: () => ({}), querySelectorAll: () => [],
         addEventListener() {},
     };
-    const window = { document, fetch, location: { hostname: 'localhost' },
+    const window = { document, fetch, location: { hostname },
         localStorage: { getItem: () => null } };
     const context = vm.createContext({ window, document, fetch, location: window.location,
         localStorage: window.localStorage });
@@ -94,11 +94,11 @@ test('de drukversie biedt YHWH aan', { skip: !heeft('js/drukversie.js') && 'geen
     assert.equal(godsnaam[2].find(keuze => keuze[0] === 'yhwh')[1], 'YHWH');
 });
 
-test('YHWH is de standaard voor beide leesedities', () => {
+test('HEERE is de OV-standaard en YHWH blijft de parafrasestandaard', () => {
     const current = opties();
-    assert.equal(current.DEFAULTS.godsnaam, 'yhwh');
+    assert.equal(current.DEFAULTS.godsnaam, 'klassiek');
     assert.equal(current.DEFAULTS.godsnaamOPV, 'yhwh');
-    assert.equal(current.transformOV('God JAHWEH sprak tot JAHWEH', 'OT'), 'God YHWH sprak tot YHWH');
+    assert.equal(current.transformOV('God JAHWEH sprak tot JAHWEH', 'OT'), 'de HEERE God sprak tot de HEERE');
     assert.equal(current.transformOPV('De HEERE God sprak, de Heere hoorde'), 'YHWH God sprak, de Heere hoorde');
 });
 
@@ -115,4 +115,9 @@ test('een bewaarde Godsnaam-keuze blijft behouden', () => {
 test('een ingesloten citaat gebruikt standaard YHWH', { skip: !heeft('embed.js') && 'geen embed.js' }, async () => {
     const uitkomst = await insluiten().cite('genesis 2:7', { link: false });
     assert.match(uitkomst.plain, /God YHWH had de mens gevormd/);
+});
+
+test('ingesloten citaten op openvertaling.nl volgen standaard HEERE', async () => {
+    const resultaat = await insluiten('openvertaling.nl').cite('genesis 2:7', { link: false });
+    assert.match(resultaat.plain, /de HEERE God had de mens gevormd/);
 });
