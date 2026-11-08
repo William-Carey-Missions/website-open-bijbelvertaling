@@ -47,3 +47,16 @@ def test_a3_proef_heeft_de_juiste_platen_en_geen_verlies(tmp_path):
     assert b'/MediaBox[0 0 841.89 1190.55]' in content
     assert content.count(b'/Subtype/Image')==3
     assert content.count(b'/S/URI')==3
+
+    # Iedere plaat deelt de pagina met echte hoofdstuktekst en kanttekeningen.
+    assert info['illustraties_in_tekst'] is True
+    pdf=tmp_path/info['bestand']
+    lijst=subprocess.check_output(['pdfimages','-list',str(pdf)],text=True)
+    beeldpaginas={int(regel.split()[0]) for regel in lijst.splitlines()[2:] if regel.strip()}
+    assert len(beeldpaginas)==3  # Ook elk werk bij Genesis 3 krijgt een halve pagina.
+    for pagina in beeldpaginas:
+        tekst=subprocess.check_output(['pdftotext','-f',str(pagina),'-l',str(pagina),str(pdf),'-'],text=True)
+        assert 'GENESIS' in tekst
+        assert 'HEERE' in tekst
+        assert 'Gospelimages' in tekst
+        assert len(tekst)>2000

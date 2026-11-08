@@ -902,12 +902,16 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
 
     b.hoofdstuk_op = []
     for h in hoofdstukken:
-        zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats)
-        if getattr(b, 'heeft_illustraties', lambda *args: False)(boek, int(h['number'])):
+        geillustreerd = getattr(b, 'heeft_illustraties', lambda *args: False)(boek, int(h['number']))
+        if geillustreerd and items:
             b.vul(items, noten, kopregel, bovenruimte, voorop)
             items, noten = [], []
             bovenruimte, voorop = 0.0, None
-            b.plaats_illustraties(boek, int(h['number']), naam)
+        zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats)
+        if geillustreerd:
+            b.vul_geillustreerd(boek, int(h['number']), naam, items, noten, kopregel, voorop)
+            items, noten = [], []
+            bovenruimte, voorop = 0.0, None
     if items:
         b.vul(items, noten, kopregel, bovenruimte, voorop)
     seen = set()
