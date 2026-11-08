@@ -488,7 +488,7 @@ def laad_boek(boek):
     return meta, hoofdstukken
 
 
-def zet_hoofdstuk(zetter, st, boek, hoofdstuk, perikopen, items, noten, stats):
+def zet_hoofdstuk(zetter, st, boek, hoofdstuk, perikopen, items, noten, stats, bij_vers=None):
     """Voegt de kop, inleiding en verzen van één hoofdstuk toe aan de kolomstroom."""
     nummer = int(hoofdstuk['number'])
     psalm = boek == 'psalmen'
@@ -509,12 +509,14 @@ def zet_hoofdstuk(zetter, st, boek, hoofdstuk, perikopen, items, noten, stats):
 
     for vers in hoofdstuk['verses']:
         versnummer = int(vers['number']) if str(vers['number']).isdigit() else vers['number']
+        if bij_vers:
+            bij_vers(versnummer, len(items))
         kop_tekst = perikopen.get((nummer, versnummer))
         if kop_tekst:
+            items.append(Item(TEKST_REGEL, gat=True, breek=False, hst=nummer))
             k = zetter.zet([(godsnaam(kop_tekst), st['tussenkop'])], KOLOM2, uitvullen=False)
             for r in k:
                 items.append(Item(TEKST_REGEL + 1.0, r, breek=False, hst=nummer, x=(KOLOM2 - r.breedte) / 2))
-            items.append(Item(TEKST_REGEL, gat=True, breek=False, hst=nummer))
         woorden = vers_woorden(vers)
         plat = ' '.join(w['tekst'] for w in woorden)
         per_merk = hang_noten_aan(vers, woorden, plat)
@@ -643,12 +645,15 @@ class Boekbouwer:
         overloop = []  # notenregels die nog moeten
         boven = bovenruimte
         while i < n or overloop:
+            grens, links = n, []
+            if hasattr(self, 'bereid_pagina'):
+                boven, voorop, grens, links = self.bereid_pagina(items, noten, i, boven, voorop)
             beschikbaar = ZETHOOGTE - boven
             carry = len(overloop)
             beste_k, beste_h, beste_s = i, 0.0, i
             k = i + 1
             kandidaten_over = None
-            while k <= n:
+            while k <= grens:
                 h, s = self.kolomverdeling(som, items, i, k)
                 if h > beschikbaar:
                     break
@@ -701,6 +706,9 @@ class Boekbouwer:
             pagina = len(self.pdf.paginas) + 1
             self._teken_pagina(pagina, items, i, beste_s, beste_k, beste_h, regels, boven, kopfunctie,
                                voorop, n, overloop)
+            if links:
+                inhoud, bestaande_links = self.pdf.paginas[-1]
+                self.pdf.paginas[-1] = (inhoud, bestaande_links + links)
             voorop = None
             i = beste_k
             boven = 0.0
@@ -733,12 +741,8 @@ class Boekbouwer:
             lijn(xr, y_boven - 1, xr, y_boven - h + 1.5, LIJNDIKTE, uit)
         if notenregels:
             rijen = math.ceil(len(notenregels) / 3)
-            # Onderaan de bladzijde, zodat de bladspiegel gelijk blijft; op een laatste, korte
-            # bladzijde van een boek sluiten ze direct op de tekst aan.
-            y_top = ONDER + rijen * NOOT_REGEL
-            einde_boek = k == n and not overloop
-            if einde_boek:
-                y_top = y_boven - h - GAT_TEKST_NOTEN
+            # Kanttekeningen sluiten op elke pagina direct aan op de Bijbeltekst.
+            y_top = y_boven - h - GAT_TEKST_NOTEN
             kolommen = [notenregels[c * rijen:(c + 1) * rijen] for c in range(3)]
             for c, kol in enumerate(kolommen):
                 x = x0 + c * (KOLOM3 + KOLOMWIT3)
@@ -902,16 +906,10 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
 
     b.hoofdstuk_op = []
     for h in hoofdstukken:
-        geillustreerd = getattr(b, 'heeft_illustraties', lambda *args: False)(boek, int(h['number']))
-        if geillustreerd and items:
-            b.vul(items, noten, kopregel, bovenruimte, voorop)
-            items, noten = [], []
-            bovenruimte, voorop = 0.0, None
-        zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats)
-        if geillustreerd:
-            b.vul_geillustreerd(boek, int(h['number']), naam, items, noten, kopregel, voorop)
-            items, noten = [], []
-            bovenruimte, voorop = 0.0, None
+        bij_vers = None
+        if hasattr(b, 'markeer_illustraties'):
+            bij_vers = lambda vers, positie: b.markeer_illustraties(boek, int(h['number']), naam, vers, positie)
+        zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats, bij_vers)
     if items:
         b.vul(items, noten, kopregel, bovenruimte, voorop)
     seen = set()

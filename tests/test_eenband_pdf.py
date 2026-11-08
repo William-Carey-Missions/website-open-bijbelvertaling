@@ -29,12 +29,16 @@ def test_alineas_behouden_alle_woorden():
     assert ' '.join(alineas)==tekst
     assert basis.inleiding_alineas('Eerste alinea.\n\nTweede alinea.')==['Eerste alinea.','Tweede alinea.']
 
-def test_perikoop_heeft_een_volledige_witregel():
+def test_perikoop_heeft_witregel_erboven_en_geen_witregel_eronder():
     fonts=basis.lettertypes();st=basis.stijlen(fonts)
     items=[]
     basis.zet_hoofdstuk(basis.Zetter(terugval=(fonts['hebr'],fonts['grieks'])),st,'genesis',
         {'number':1,'verses':[{'number':1,'text2026':'In het begin.'}]},{(1,1):'De schepping'},items,[],{'verzen':0,'noten':0})
-    assert any(it.gat and not it.breek and it.h==basis.TEKST_REGEL for it in items)
+    wit=[i for i,it in enumerate(items) if it.gat and not it.breek and it.h==basis.TEKST_REGEL]
+    assert len(wit)==1
+    kop=wit[0]+1
+    assert items[kop].regel is not None and not items[kop].breek
+    assert items[kop+1].regel is not None and not items[kop+1].gat
 
 def test_a3_proef_heeft_de_juiste_platen_en_geen_verlies(tmp_path):
     subprocess.run([sys.executable,str(ROOT/'scripts/build_eenband_pdf.py'),'--proef','genesis:2-3','--uit',str(tmp_path)],check=True,capture_output=True)
@@ -58,5 +62,6 @@ def test_a3_proef_heeft_de_juiste_platen_en_geen_verlies(tmp_path):
         tekst=subprocess.check_output(['pdftotext','-f',str(pagina),'-l',str(pagina),str(pdf),'-'],text=True)
         assert 'GENESIS' in tekst
         assert 'HEERE' in tekst
-        assert 'Gospelimages' in tekst
+        assert 'Gospelimages' not in tekst
+        assert 'Niet commercieel' not in tekst
         assert len(tekst)>2000

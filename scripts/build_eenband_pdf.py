@@ -50,6 +50,13 @@ def configureer():
 def bouw(uit, proef=None):
     manifest,mapping=catalogus()
     configureer()
+    def eerste_vers(werk):
+        return int(re.search(r':(\d+)',werk['verwijzing']).group(1))
+    groepen={}
+    for plaats,werken in mapping.items():
+        werken=sorted(werken,key=eerste_vers)
+        stap=2 if len(werken)>2 else 1
+        groepen[plaats]=[werken[i:i+stap] for i in range(0,len(werken),stap)]
     oorspronkelijke_titelpagina = basis.titelpagina
     def titelpagina(b, deel):
         # Vergroot de hele zwarte boekband evenredig met het papierformaat.
@@ -64,55 +71,69 @@ def bouw(uit, proef=None):
     basis.titelpagina = titelpagina
     origineel=basis.Boekbouwer
     class Geillustreerd(origineel):
-        def heeft_illustraties(self,boek,hoofdstuk):
-            return (boek,hoofdstuk) in mapping
-        def vul_geillustreerd(self,boek,hoofdstuk,naam,items,noten,kopregel,voorop):
-            # Boekinleiding apart; daarna beeld en hoofdstuktekst op dezelfde pagina.
-            if voorop:
-                content=['0 0 0 RG 0 0 0 rg\n']
-                self.koptekst(content,len(self.pdf.paginas)+1,'')
-                content.extend(voorop)
-                self.pdf.pagina(''.join(content))
-            werken=mapping[(boek,hoofdstuk)]
-            # Verdeel de tekst op geldige regelovergangen: elk werk krijgt een eigen
-            # halve pagina met tekst en noten, ook bij hoofdstukken met meerdere werken.
-            grenzen=[i+1 for i,it in enumerate(items) if it.breek]
-            som=[0.0]
+        def __init__(self,*args):
+            super().__init__(*args)
+            self.werken=[]
+        def markeer_illustraties(self,boek,hoofdstuk,naam,vers,positie):
+            self.werken.extend((positie,g,naam,hoofdstuk) for g in groepen.get((boek,hoofdstuk),[]) if eerste_vers(g[0])==vers)
+        def vul(self,items,noten,kopfunctie,*args,**kwargs):
+            self.gewichten=[0.0]
             for it in items:
-                som.append(som[-1]+it.h/2+sum(len(noten[n]) for n in it.noten)*basis.NOOT_REGEL/3)
-            begin=0
-            for nr,werk in enumerate(werken):
-                resterend=len(werken)-nr
-                if resterend==1:
-                    einde=len(items)
-                else:
-                    kandidaten=[g for g in grenzen if g>begin and len([b for b in grenzen if b>g])>=resterend-1]
-                    doel=som[begin]+(som[-1]-som[begin])/resterend
-                    einde=min(kandidaten,key=lambda g:abs(som[g]-doel))
+                self.gewichten.append(self.gewichten[-1]+it.h/2+sum(len(noten[n]) for n in it.noten)*basis.NOOT_REGEL/3)
+            self.grenzen=[i+1 for i,it in enumerate(items) if it.breek]
+            result=super().vul(items,noten,lambda h,v:kopfunctie(h,v and not self.beeld_op_pagina),*args,**kwargs)
+            if self.werken:
+                raise ValueError('Afbeeldingen over na het zetten van het boek')
+            return result
+        def bereid_pagina(self,items,noten,i,boven,voorop):
+            self.beeld_op_pagina=False
+            if not self.werken:
+                return boven,voorop,len(items),[]
+            positie,werken,naam,hoofdstuk=self.werken[0]
+            afstand=self.gewichten[positie]-self.gewichten[i]
+            resterend=self.gewichten[-1]-self.gewichten[i]
+            toon=not voorop and i<len(items) and (afstand<=basis.ZETHOOGTE/2 or resterend<=basis.ZETHOOGTE/2*(len(self.werken)+0.5))
+            if toon:
+                self.werken.pop(0)
+                self.beeld_op_pagina=True
                 pagina=len(self.pdf.paginas)
                 x0=self.linkerrand(pagina+1)
                 hoogte=basis.ZETHOOGTE/2
                 top=basis.HOOGTE-basis.BOVEN
-                plaat=ROOT/werk['bestand']
-                with Image.open(plaat) as im:w,h=im.size
-                factor=min(basis.ZETBREEDTE/w,(hoogte-105)/h)
-                bw,bh=w*factor,h*factor
-                x=x0+(basis.ZETBREEDTE-bw)/2
-                y=top-34-(hoogte-105)+(hoogte-105-bh)/2
-                content=[self.pdf.afbeelding(plaat,x,y,bw,bh)]
-                def center(text,style,y):
-                    r=self.zetter.los([(text,style)])
-                    teken_regel(r,x0+(basis.ZETBREEDTE-r.breedte)/2,y,content)
-                center(werk['titel']+' · '+werk['verwijzing'],self.st['fm_c'],top-15)
-                center('© Jan van ’t Hoff · Gospelimages',self.st['fm_klein'],top-hoogte+57)
-                center('Naamsvermelding · Niet commercieel · Geen afgeleide werken',self.st['fm_klein'],top-hoogte+43)
-                center(werk['bron'],self.st['fm_klein'],top-hoogte+29)
-                self.pdf.bladwijzers.append((werk['titel']+' — '+werk['verwijzing'],pagina,1))
-                self.vul(items[begin:einde],noten,lambda h, _: kopregel(h,False),hoogte,content)
-                inhoud,links=self.pdf.paginas[pagina]
-                self.pdf.paginas[pagina]=(inhoud,links+[((x0,top-hoogte+15,x0+basis.ZETBREEDTE,top-hoogte+38),werk['bron'])])
-                geplaatst.append(werk['id'])
-                begin=einde
+                content,links=[],[]
+                tussen=18.0
+                vakbreedte=(basis.ZETBREEDTE-tussen*(len(werken)-1))/len(werken)
+                kopruimte=54 if len(werken)>1 else 28
+                maten=[]
+                for werk in werken:
+                    with Image.open(ROOT/werk['bestand']) as im:w,h=im.size
+                    factor=min(vakbreedte/w,(hoogte-kopruimte-18)/h)
+                    maten.append((w*factor,h*factor))
+                # Reserveer alleen de echte beeldhoogte, maximaal een halve pagina.
+                hoogte=kopruimte+max(bh for _,bh in maten)+18
+                for nr,werk in enumerate(werken):
+                    plaat=ROOT/werk['bestand']
+                    bw,bh=maten[nr]
+                    vx=x0+nr*(vakbreedte+tussen)
+                    x=vx+(vakbreedte-bw)/2
+                    y=top-kopruimte-bh
+                    content.append(self.pdf.afbeelding(plaat,x,y,bw,bh))
+                    titel=self.zetter.zet([(werk['titel']+' · '+werk['verwijzing'],self.st['fm_c'])],vakbreedte,uitvullen=False)
+                    for regel,r in enumerate(titel):
+                        teken_regel(r,vx+(vakbreedte-r.breedte)/2,top-15-regel*13,content)
+                    self.pdf.bladwijzers.append((werk['titel']+' — '+werk['verwijzing'],pagina,1))
+                    geplaatst.append(werk['id'])
+                    links.append(((x,y,x+bw,y+bh),werk['bron']))
+                boven,voorop=hoogte,content
+            else:
+                links=[]
+            # Bewaar voldoende tekst voor komende beelden, ook aan het boekeinde.
+            grens=len(items)
+            if self.werken:
+                reserve=min(resterend/(len(self.werken)+1),basis.ZETHOOGTE*0.375)*len(self.werken)
+                kandidaten=[g for g in self.grenzen if g>i and self.gewichten[g]<=self.gewichten[-1]-reserve]
+                grens=kandidaten[-1] if kandidaten else next(g for g in self.grenzen if g>i)
+            return boven,voorop,grens,links
     geplaatst=[]
     basis.Boekbouwer=Geillustreerd
     afkortingen=basis.afkortingen
@@ -120,8 +141,8 @@ def bouw(uit, proef=None):
         afkortingen(b)
         basis.alinea_bladzijden(b,['§§Over deze geïllustreerde uitgave',
           'Deze complete uitgave bevat de Bijbeltekst en herziene kanttekeningen in één band op A3 (297 × 420 mm). De Godsnaam wordt weergegeven als HEERE. De Bijbeltekst staat in twee kolommen en de kanttekeningen in drie kolommen onderaan dezelfde pagina.',
-          f"Alle {len(manifest['afbeeldingen'])} werken uit de op 8 november 2026 vastgelegde openbare Gospelimages-catalogus van Jan van ’t Hoff zijn ongewijzigd opgenomen. De schilderijen en tekeningen staan bij het bijbehorende hoofdstuk, in de bovenste helft van dezelfde pagina als de Bijbeltekst en kanttekeningen. Elk werk krijgt een halve pagina beeld met daaronder een gedeelte van de hoofdstuktekst en de bijbehorende kanttekeningen.",
-          'De tekst en herziene kanttekeningen zijn CC0 / publiek domein. Dit geldt niet voor de afbeeldingen. © Jan van ’t Hoff / Gospelimages. De afbeeldingen mogen uitsluitend worden gebruikt met naamsvermelding, niet commercieel en zonder afgeleide werken. Deze voorwaarden blijven gelden bij verspreiding van deze geïllustreerde PDF. De afzonderlijke bron staat onder ieder werk.',
+          f"Alle {len(manifest['afbeeldingen'])} werken uit de op 8 november 2026 vastgelegde openbare Gospelimages-catalogus van Jan van ’t Hoff zijn ongewijzigd opgenomen. De schilderijen en tekeningen staan bij het bijbehorende hoofdstuk, in de bovenste helft van dezelfde pagina als de Bijbeltekst en kanttekeningen. Afbeeldingen staan tussen de doorlopende Bijbeltekst en beslaan maximaal een halve pagina. Bij hoofdstukken met veel werken kunnen twee afbeeldingen naast elkaar staan. De kanttekeningen sluiten direct aan op de Bijbeltekst.",
+          'De tekst en herziene kanttekeningen zijn CC0 / publiek domein. Dit geldt niet voor de afbeeldingen. © Jan van ’t Hoff / Gospelimages. De afbeeldingen mogen uitsluitend worden gebruikt met naamsvermelding, niet commercieel en zonder afgeleide werken. Deze voorwaarden blijven gelden bij verspreiding van deze geïllustreerde PDF. De naamsvermelding en gebruiksvoorwaarden staan hier centraal voor alle afbeeldingen. Iedere afbeelding bevat een klikbare verwijzing naar de afzonderlijke bron bij Gospelimages.',
           'Broncatalogus en gebruiksvoorwaarden: https://www.gospelimages.nl/schilderijen. Voor commercieel gebruik van de afbeeldingen is afzonderlijke toestemming van de rechthebbende nodig.'])
     basis.afkortingen=voorwerk
     vandaag=datetime.date.today()
@@ -129,7 +150,7 @@ def bouw(uit, proef=None):
     verslag=basis.bouw_deel(0,uit,datum,proef)
     verwacht=[w['id'] for k,werken in mapping.items() if not proef or (k[0]==proef[0] and k[1] in proef[1]) for w in werken]
     if sorted(geplaatst)!=sorted(verwacht):raise ValueError('Niet alle verwachte afbeeldingen opgenomen')
-    verslag.update({'formaat':'A3','breedte_mm':297,'hoogte_mm':420,'afbeeldingen':len(geplaatst),'illustraties_in_tekst':True,'afbeelding_ids':geplaatst,
+    verslag.update({'formaat':'A3','breedte_mm':297,'hoogte_mm':420,'afbeeldingen':len(geplaatst),'illustraties_in_tekst':True,'opmaak_versie':'doorlopend-20261108','afbeelding_ids':geplaatst,
                     'afbeeldingen_licentie':'Naamsvermelding; niet commercieel; geen afgeleide werken',
                     'bron_afbeeldingen':'https://www.gospelimages.nl/schilderijen'})
     (uit/'eenband-uitgave.json').write_text(json.dumps(verslag,ensure_ascii=False,indent=2)+'\n')
