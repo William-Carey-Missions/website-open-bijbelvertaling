@@ -14,3 +14,17 @@ en een verwijzing naar de toelichting en gebruiksvoorwaarden op Gospelimages.
 
 De afbeeldingen staan buiten de brondata-download en de EPUB. Die uitgaven
 worden zonder deze schilderijen gebouwd.
+
+## Complete geïllustreerde A3-uitgave
+
+Op 8 november 2026 zijn alle 126 publiek getoonde werken uit de officiële
+Gospelimages-catalogus vastgelegd in `data/gospelimages.json`. De ongewijzigde
+JPEG-bestanden staan in `reeks/`, met SHA-256-controlesommen en oorspronkelijke
+bestands- en toelichtingsadressen in het manifest. Herhalen kan met
+`python scripts/import_gospelimages.py`; de publicatie gebruikt de vastgelegde
+bestanden en haalt geen nieuwe beelden op.
+
+`build_eenband_pdf.py` neemt ieder werk eenmaal volledig op, zonder uitsnede,
+met maker, Bijbelplaats, bron en de drie gebruiksvoorwaarden bij het werk.
+De illustraties vallen niet onder CC0. De geïllustreerde PDF is voor
+niet-commerciële verspreiding; de tekst en kanttekeningen zelf blijven CC0.

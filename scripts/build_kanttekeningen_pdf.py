@@ -514,6 +514,7 @@ def zet_hoofdstuk(zetter, st, boek, hoofdstuk, perikopen, items, noten, stats):
             k = zetter.zet([(godsnaam(kop_tekst), st['tussenkop'])], KOLOM2, uitvullen=False)
             for r in k:
                 items.append(Item(TEKST_REGEL + 1.0, r, breek=False, hst=nummer, x=(KOLOM2 - r.breedte) / 2))
+            items.append(Item(TEKST_REGEL, gat=True, breek=False, hst=nummer))
         woorden = vers_woorden(vers)
         plat = ' '.join(w['tekst'] for w in woorden)
         per_merk = hang_noten_aan(vers, woorden, plat)
@@ -784,6 +785,26 @@ def lees_perikopen():
     return {boek: {(p['c'], p['v']): p['t'] for p in lijst} for boek, lijst in ruw.items()}
 
 
+def inleiding_alineas(tekst):
+    """Maak leesbare alinea's op zinsgrenzen, zonder de woorden te wijzigen."""
+    expliciet = [spaties(x) for x in re.split(r'\n\s*\n|</p>\s*<p[^>]*>', tekst) if spaties(x)]
+    if len(expliciet) > 1:
+        return expliciet
+    zinnen = re.split(r'(?<=[.!?])\s+(?=[A-ZÀ-ÖØ-Þ])', spaties(tekst))
+    alineas, lopend = [], ''
+    for zin in zinnen:
+        lopend = (lopend + ' ' + zin).strip()
+        if len(lopend) >= 430:
+            alineas.append(lopend)
+            lopend = ''
+    if lopend:
+        if alineas and len(lopend) < 150:
+            alineas[-1] += ' ' + lopend
+        else:
+            alineas.append(lopend)
+    return alineas
+
+
 def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True):
     """Zet één boek: titel, inhoud van het boek over de volle breedte, daarna de kolommen."""
     pdf, st, zetter = b.pdf, b.st, b.zetter
@@ -821,13 +842,20 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
     if intro:
         gecentreerd('INHOUD VAN DIT BOEK', st['inhoud_kop'], 12)
         y -= 9
-        intro = spaties(godsnaam(intro))
+        alineas = inleiding_alineas(godsnaam(intro))
+        intro = alineas[0]
         beginletter = zetter.los([(intro[0].upper(), st['intro_begin'])])
         d = beginletter.breedte + 2.5
         eerste_woord, rest = (intro[1:].split(' ', 1) + [''])[:2]
         regels = zetter.zet([(eerste_woord.lower(), st['intro_kk']), (' ' + rest, st['intro'])], ZETBREEDTE,
                             eerste=(ZETBREEDTE - d, ZETBREEDTE - d), verschuif=(d, d))
+        for alinea in alineas[1:]:
+            regels.append(None)
+            regels.extend(zetter.zet([(alinea, st['intro'])], ZETBREEDTE, inspring=8.0))
         for nr, r in enumerate(regels):
+            if r is None:
+                y -= INTRO_REGEL * 0.7
+                continue
             if y - INTRO_REGEL < ONDER:
                 extra_paginas.append(bovenaan)
                 bovenaan = []
@@ -860,9 +888,6 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
     # Tekst en kanttekeningen zetten.
     items, noten = [], []
     per = perikopen.get(boek, {})
-    for h in hoofdstukken:
-        zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats)
-
     def kopregel(hst, heeft_voorop):
         if heeft_voorop and not extra_paginas:
             return ''
@@ -876,7 +901,15 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
         return f'{naam.upper()} {romeins(lo)}' if lo == hi else f'{naam.upper()} {romeins(lo)}–{romeins(hi)}'
 
     b.hoofdstuk_op = []
-    b.vul(items, noten, kopregel, bovenruimte, voorop)
+    for h in hoofdstukken:
+        zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats)
+        if getattr(b, 'heeft_illustraties', lambda *args: False)(boek, int(h['number'])):
+            b.vul(items, noten, kopregel, bovenruimte, voorop)
+            items, noten = [], []
+            bovenruimte, voorop = 0.0, None
+            b.plaats_illustraties(boek, int(h['number']), naam)
+    if items:
+        b.vul(items, noten, kopregel, bovenruimte, voorop)
     seen = set()
     for nummer, p in b.hoofdstuk_op:
         if nummer not in seen:
@@ -949,7 +982,7 @@ def titelpagina(b, deel):
     regel('Een vrije herziening van de Statenvertaling', st['t_tekst'], HOOGTE - 389)
     regel('in hedendaags Nederlands', st['t_tekst'], HOOGTE - 413)
 
-    regel(f'DEEL {romeins(deel)}', klein, 263)
+    regel('ÉÉN COMPLETE UITGAVE' if deel == 0 else f'DEEL {romeins(deel)}', klein, 263)
     # Deel III heeft een lange titel; geef de apocriefe boeken een eigen regel.
     titelregels = DELEN[deel]['titel'].replace(', met de ', '\nmet de ').split('\n')
     for i, tekst in enumerate(titelregels):
@@ -964,7 +997,7 @@ def colofon(b, deel, datum):
     uit = ['0 0 0 RG 0 0 0 rg\n']
     x0, y = BUITEN, ONDER + 150
     teksten = [
-        f'Open Vertaling met kanttekeningen, deel {romeins(deel)}: {DELEN[deel]["titel"]}.',
+        f'Open Vertaling met kanttekeningen: {DELEN[deel]["titel"]}.' if deel == 0 else f'Open Vertaling met kanttekeningen, deel {romeins(deel)}: {DELEN[deel]["titel"]}.',
         f'Deze PDF is opgebouwd op {datum} uit de tekst van openvertaling.nl.',
         '',
         'De tekst van de Open Vertaling en de herziene kanttekeningen vallen onder CC0 1.0 (publiek domein). '
@@ -1112,7 +1145,7 @@ def bouw_deel(deel, uit_map, datum, proef=None):
     fonts = lettertypes()
     st = stijlen(fonts)
     zetter = Zetter(terugval=(fonts['hebr'], fonts['grieks']))
-    titel = f'Open Vertaling met kanttekeningen, deel {romeins(deel)}: {DELEN[deel]["titel"]}'
+    titel = f'Gods Woord — {DELEN[deel]["titel"]}' if deel == 0 else f'Open Vertaling met kanttekeningen, deel {romeins(deel)}: {DELEN[deel]["titel"]}'
     pdf = Pdf(BREEDTE, HOOGTE, titel, onderwerp='De Bijbel in de Open Vertaling met herziene kanttekeningen')
     b = Boekbouwer(pdf, st, zetter)
     stats = {'verzen': 0, 'noten': 0}

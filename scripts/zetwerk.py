@@ -10,6 +10,7 @@ in de PDF komt, zodat de bladzijde-opbouw en de controle achteraf kloppen.
 Dit bestand weet niets van de Bijbel; dat staat in build_kanttekeningen_pdf.py.
 """
 import io
+from pathlib import Path
 import os
 import re
 import tempfile
@@ -483,6 +484,7 @@ class Pdf:
         self.paginas = []  # (inhoud, links)
         self.bladwijzers = []  # (titel, pagina-index, niveau)
         self.lettertypes = []
+        self.afbeeldingen = {}
 
     def _nieuw(self, inhoud=None):
         self.objecten.append(inhoud)
@@ -495,6 +497,27 @@ class Pdf:
     def pagina(self, inhoud, links=()):
         self.paginas.append((inhoud, list(links)))
         return len(self.paginas) - 1
+
+    def afbeelding(self, pad, x, y, breedte, hoogte):
+        """Plaats een volledige JPEG, zonder uitsnede of vervorming."""
+        from PIL import Image
+        sleutel = str(pad)
+        if sleutel not in self.afbeeldingen:
+            with Image.open(pad) as im:
+                w, h = im.size
+                if im.mode != 'RGB':
+                    buffer = io.BytesIO()
+                    im.convert('RGB').save(buffer, format='JPEG', quality=95)
+                    data = buffer.getvalue()
+                else:
+                    data = Path(pad).read_bytes()
+            naam = f'Im{len(self.afbeeldingen) + 1}'
+            header = (f'<</Type/XObject/Subtype/Image/Width {w}/Height {h}'
+                      f'/ColorSpace/DeviceRGB/BitsPerComponent 8/Filter/DCTDecode/Length {len(data)}>>\nstream\n').encode()
+            obj = self._nieuw(header + data + b'\nendstream')
+            self.afbeeldingen[sleutel] = (naam, obj)
+        naam, _ = self.afbeeldingen[sleutel]
+        return f'q {breedte:.3f} 0 0 {hoogte:.3f} {x:.3f} {y:.3f} cm /{naam} Do Q\n'
 
     def _lettertype(self, font):
         gebruikte = sorted(font.tekst_bij)
@@ -555,7 +578,8 @@ class Pdf:
 
     def schrijf(self, pad, lettertypes):
         fontdict = ''.join(f'/{f.pdfnaam} {self._lettertype(f)} 0 R' for f in lettertypes if f.tekst_bij)
-        bronnen = self._nieuw(f'<</Font<<{fontdict}>>>>'.encode())
+        beelden = ''.join(f'/{naam} {obj} 0 R' for naam, obj in self.afbeeldingen.values())
+        bronnen = self._nieuw(f'<</Font<<{fontdict}>>/XObject<<{beelden}>>>>'.encode())
         paginaboom = self._nieuw(None)
         pagina_ids = []
         for inhoud, links in self.paginas:
@@ -564,9 +588,11 @@ class Pdf:
             if links:
                 onderdelen = []
                 for rect, doel in links:
+                    recttekst = ' '.join(_getal(v) for v in rect)
+                    actie = (f'/A<</S/URI/URI {self._pdf_tekst(doel)}>>' if isinstance(doel, str)
+                             else f'/Dest[@{doel}@ /Fit]')
                     onderdelen.append(self._nieuw(
-                        ('<</Type/Annot/Subtype/Link/Border[0 0 0]/Rect[%s]/Dest[@%d@ /Fit]>>' % (
-                            ' '.join(_getal(v) for v in rect), doel)).encode()))
+                        f'<</Type/Annot/Subtype/Link/Border[0 0 0]/Rect[{recttekst}]{actie}>>'.encode()))
                 annots = '/Annots[' + ' '.join(f'{o} 0 R' for o in onderdelen) + ']'
             pagina_ids.append(self._nieuw(
                 f'<</Type/Page/Parent {paginaboom} 0 R/MediaBox[0 0 {_getal(self.breedte)} {_getal(self.hoogte)}]'
