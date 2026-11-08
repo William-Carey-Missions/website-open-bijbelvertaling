@@ -33,7 +33,7 @@ def audit(boek="genesis", hoofdstukken=range(1, 51)):
                 if not source_indices:
                     report['fouten'].append({'ref': ref, 'type': 'grondwoord_onvindbaar', 'mapping': mapping})
                 target = mapping.get('tekst') or mapping.get('anker') or ''
-                if not target or mapping.get('reviewstatus') not in (None, 'handmatig_gecontroleerd', 'automatisch_hoog_vertrouwen'):
+                if not target or not any(mapping.get('strongs') or []) or mapping.get('reviewstatus') not in (None, 'handmatig_gecontroleerd', 'automatisch_hoog_vertrouwen'):
                     continue
                 positions = plekken(text, target)
                 occurrence = mapping.get('voorkomen', 1)

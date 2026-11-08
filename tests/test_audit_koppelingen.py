@@ -43,3 +43,13 @@ def test_empty_and_pending_mappings_do_not_hide_unlinked_source_words():
             report = audit('voorbeeld', [1])
         assert [e['type'] for e in report['fouten']] == ['grondwoord_zonder_koppeling']
         assert report['aantal_woorden_zonder_link'] == 1
+
+
+def test_mapping_without_a_number_does_not_cover_a_dutch_word():
+    chapter = {'verses': [{'number':1, 'text2026':'ons',
+        'grondtekst':[{'woord':'bron','strongs':''}],
+        'woordnummers':[{'tekst':'ons','strongs':[''],'bronwoorden':['bron']}]}]}
+    with patch('audit_genesis_koppelingen.laad', return_value=(None,chapter)):
+        report=audit('voorbeeld',[1])
+    assert report['aantal_woorden_zonder_link'] == 1
+    assert report['fouten'] == []
