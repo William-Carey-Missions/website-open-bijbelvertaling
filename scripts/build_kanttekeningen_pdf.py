@@ -645,15 +645,12 @@ class Boekbouwer:
         overloop = []  # notenregels die nog moeten
         boven = bovenruimte
         while i < n or overloop:
-            grens, links = n, []
-            if hasattr(self, 'bereid_pagina'):
-                boven, voorop, grens, links = self.bereid_pagina(items, noten, i, boven, voorop)
             beschikbaar = ZETHOOGTE - boven
             carry = len(overloop)
             beste_k, beste_h, beste_s = i, 0.0, i
             k = i + 1
             kandidaten_over = None
-            while k <= grens:
+            while k <= n:
                 h, s = self.kolomverdeling(som, items, i, k)
                 if h > beschikbaar:
                     break
@@ -706,9 +703,6 @@ class Boekbouwer:
             pagina = len(self.pdf.paginas) + 1
             self._teken_pagina(pagina, items, i, beste_s, beste_k, beste_h, regels, boven, kopfunctie,
                                voorop, n, overloop)
-            if links:
-                inhoud, bestaande_links = self.pdf.paginas[-1]
-                self.pdf.paginas[-1] = (inhoud, bestaande_links + links)
             voorop = None
             i = beste_k
             boven = 0.0
@@ -728,6 +722,7 @@ class Boekbouwer:
 
     def _teken_pagina(self, pagina, items, i, s, k, h, notenregels, boven, kopfunctie, voorop, n, overloop):
         uit = ['0 0 0 RG 0 0 0 rg\n']
+        self.pagina_links = []
         x0 = self.linkerrand(pagina)
         y_boven = HOOGTE - BOVEN - boven
         hoofdstukken = [it.hst for it in items[i:k] if it.hst is not None]
@@ -753,7 +748,7 @@ class Boekbouwer:
                 if c < 2 and kolommen[c + 1]:
                     xr = x + KOLOM3 + KOLOMWIT3 / 2
                     lijn(xr, y_top - 0.5, xr, y_top - rijen * NOOT_REGEL + 0.5, LIJNDIKTE, uit)
-        self.pdf.pagina(''.join(uit))
+        self.pdf.pagina(''.join(uit), self.pagina_links)
 
     def _teken_kolom(self, items, i, k, x, y_top, uit, pagina):
         y = y_top
@@ -762,6 +757,8 @@ class Boekbouwer:
             if it.gat and eerste:
                 continue
             eerste = False
+            if it.extra and it.extra[0] == 'beeld':
+                self.teken_illustratie(it, x, y, uit, pagina)
             if it.regel is not None:
                 basis = y - it.h * 0.77
                 teken_regel(it.regel, x + it.x, basis, uit)
@@ -907,8 +904,8 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
     b.hoofdstuk_op = []
     for h in hoofdstukken:
         bij_vers = None
-        if hasattr(b, 'markeer_illustraties'):
-            bij_vers = lambda vers, positie: b.markeer_illustraties(boek, int(h['number']), naam, vers, positie)
+        if hasattr(b, 'voeg_illustraties'):
+            bij_vers = lambda vers, positie: b.voeg_illustraties(boek, int(h['number']), vers, items)
         zet_hoofdstuk(zetter, st, boek, h, per, items, noten, stats, bij_vers)
     if items:
         b.vul(items, noten, kopregel, bovenruimte, voorop)

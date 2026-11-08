@@ -57,7 +57,7 @@ def test_a3_proef_heeft_de_juiste_platen_en_geen_verlies(tmp_path):
     pdf=tmp_path/info['bestand']
     lijst=subprocess.check_output(['pdfimages','-list',str(pdf)],text=True)
     beeldpaginas={int(regel.split()[0]) for regel in lijst.splitlines()[2:] if regel.strip()}
-    assert len(beeldpaginas)==3  # Ook elk werk bij Genesis 3 krijgt een halve pagina.
+    assert 1<=len(beeldpaginas)<=3  # Beelden maken deel uit van de doorlopende tekstkolommen.
     for pagina in beeldpaginas:
         tekst=subprocess.check_output(['pdftotext','-f',str(pagina),'-l',str(pagina),str(pdf),'-'],text=True)
         assert 'GENESIS' in tekst
@@ -65,3 +65,18 @@ def test_a3_proef_heeft_de_juiste_platen_en_geen_verlies(tmp_path):
         assert 'Gospelimages' not in tekst
         assert 'Niet commercieel' not in tekst
         assert len(tekst)>2000
+
+
+def test_meerdere_werken_bij_hetzelfde_vers_blijven_in_de_tekst(tmp_path):
+    subprocess.run([sys.executable,str(ROOT/'scripts/build_eenband_pdf.py'),'--proef','lukas:15','--uit',str(tmp_path)],check=True,capture_output=True)
+    info=json.loads((tmp_path/'eenband-uitgave.json').read_text())
+    assert info['verzen']==32 and info['afbeeldingen']==6
+    assert info['controle']['noot_te_laat']==0 and not info['afwijkingen']
+    pdf=tmp_path/info['bestand']
+    lijst=subprocess.check_output(['pdfimages','-list',str(pdf)],text=True)
+    for regel in lijst.splitlines()[2:]:
+        if not regel.strip():continue
+        velden=regel.split()
+        assert int(velden[4])/float(velden[13])*72<543  # maximaal halve A3-zetspiegel
+    tekst=subprocess.check_output(['pdftotext',str(pdf),'-'],text=True)
+    assert 'LUKAS XV' in tekst
