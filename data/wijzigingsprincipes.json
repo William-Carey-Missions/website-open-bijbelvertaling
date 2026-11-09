@@ -15659,7 +15659,11 @@
    "tekstsoort": "kanttekening",
    "bereik": {
     "genesis": [
-     "1:4"
+     "1:4",
+     "1:6",
+     "1:26",
+     "2:2",
+     "2:7"
     ]
    }
   },
@@ -15690,6 +15694,103 @@
    "bereik": {
     "genesis": [
      "inleiding"
+    ]
+   }
+  },
+  {
+   "id": "KT3",
+   "categorie": "Overig",
+   "oud": "Brontekst bij een andere kanttekening",
+   "nieuw": "Brontekst bij de inhoudelijk overeenkomstige kanttekening",
+   "toelichting": "De nummering van de kanttekeningen verschilt tussen 1637 en 1888. Koppel de historische uitleg op inhoud aan de passende noot. Verwijder een aantoonbaar verkeerde vergelijking als een passende brontekst ontbreekt; verzin geen bron. Bewaar de vorige toewijzing in het herzieningsverslag.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "kanttekening",
+   "bereik": {
+    "genesis": [
+     "2:5",
+     "2:6",
+     "2:7",
+     "2:8",
+     "2:9",
+     "2:10",
+     "2:11",
+     "2:12",
+     "2:13",
+     "2:14",
+     "2:16",
+     "2:19"
+    ]
+   }
+  },
+  {
+   "id": "BI2",
+   "categorie": "Overig",
+   "oud": "aanwas / pogen",
+   "nieuw": "groei van het aantal / proberen",
+   "toelichting": "Vervang deze verouderde formuleringen in de inleiding van Exodus door gangbaar Nederlands, met behoud van de inhoud van de historische inleiding.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "boekinleiding",
+   "bereik": {
+    "exodus": [
+     "inleiding"
+    ]
+   }
+  },
+  {
+   "id": "WK1",
+   "categorie": "Overig",
+   "oud": "Ontbrekende of onjuist geplaatste woordkoppelingen",
+   "nieuw": "Bij de juiste woorden gecontroleerde koppelingen",
+   "toelichting": "Koppel bronwoorden aan de inhoudelijk overeenkomstige Nederlandse zin, ook wanneer de versnummering verschilt. Bewaar alle bronwoorden en vertaalde tekst. Koppel aantoonbare bronverschillen niet alsof zij hetzelfde betekenen.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "woordkoppeling",
+   "bereik": {
+    "tobit": [
+     "1:10",
+     "1:11",
+     "1:12",
+     "1:13",
+     "1:14",
+     "1:15",
+     "1:16",
+     "1:17",
+     "1:18",
+     "1:19",
+     "1:20",
+     "1:21",
+     "1:22",
+     "1:23",
+     "1:24",
+     "1:25"
+    ]
+   }
+  },
+  {
+   "id": "WK2",
+   "categorie": "Overig",
+   "oud": "Ontbrekende of onjuist geplaatste woordkoppelingen",
+   "nieuw": "Bij de juiste woorden gecontroleerde koppelingen",
+   "toelichting": "Beoordeel woordkoppelingen afzonderlijk tegen de daadwerkelijke parafrasetekst. Voeg samengevoegde spreekformules samen en controleer herhaalde woorden op hun plaats in de zin.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "woordkoppeling",
+   "bereik": {
+    "4baruch": [
+     "1:1",
+     "1:2",
+     "1:3",
+     "1:4",
+     "1:5",
+     "1:6",
+     "1:7",
+     "1:8",
+     "1:9",
+     "1:10",
+     "1:11",
+     "1:12"
     ]
    }
   }

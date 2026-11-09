@@ -51,7 +51,7 @@ def main():
             if len(verzen[pid]) < MAX_VERZEN:
                 verzen[pid].append({"b":boek,"n":namen.get(boek,boek),"c":hst,"v":vers,
                     "o":r["old"],"x":r["new"],"k":r["soort"],"m":marker,
-                    "r":r["reden"],"q":r["bronpassage"],"s":r["bronveld"],"t":r["datum"],"id":r["id"]})
+                    "r":r["reden"],"q":r["bronpassage"],"s":r["bronveld"],"t":r["datum"],"id":r["id"],"f":r.get("veld","text2026"),"e":r.get("editie")})
 
     for boek in sorted(os.listdir(data)):
         map_ = os.path.join(data, boek)
@@ -69,6 +69,7 @@ def main():
                 d = json.load(fh)
             hst = d.get("number")
             for v in d.get("verses", []):
+                revision_entries(v, boek, hst, v.get("number"))
                 for note in v.get("marginNotes") or []:
                     if isinstance(note, dict):
                         revision_entries(note, boek, hst, v.get("number"), note.get("marker"))
@@ -87,6 +88,18 @@ def main():
                                 "o": p.get("old", ""),
                                 "x": p.get("new", ""),
                             })
+
+    edition = os.path.join(data, "vertalingen", "nl-opv")
+    if os.path.isdir(edition):
+        for boek in sorted(os.listdir(edition)):
+            folder = os.path.join(edition, boek)
+            if not os.path.isdir(folder): continue
+            for fn in sorted(os.listdir(folder)):
+                if not fn.endswith(".json") or not fn[:-5].isdigit(): continue
+                with open(os.path.join(folder, fn), encoding="utf-8") as fh:
+                    chapter = json.load(fh)
+                for verse in chapter.get("verzen", []):
+                    revision_entries(verse, boek, chapter["hoofdstuk"], verse["nummer"])
 
     uit = {"counts": dict(counts), "verses": {k: v for k, v in verzen.items()}}
     pad = os.path.join(data, "principes-data.json")
