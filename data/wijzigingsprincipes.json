@@ -15647,6 +15647,51 @@
     ]
    },
    "voorbeeld": "Genesis 6:4"
+  },
+  {
+   "id": "KT1",
+   "categorie": "Overig",
+   "oud": "Weggevallen uitleg uit de historische kanttekening",
+   "nieuw": "Dezelfde uitleg in hedendaags Nederlands herstellen",
+   "toelichting": "Behoud de inhoudelijke onderscheidingen van de historische kanttekening. Herstel aantoonbaar weggevallen uitleg vanuit textSV1888 of text1637, zonder nieuwe exegese toe te voegen. Elke toepassing vermeldt de bronpassage. Alleen handmatig beoordeelde plaatsen; geen automatische vervangregel.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "kanttekening",
+   "bereik": {
+    "genesis": [
+     "1:4"
+    ]
+   }
+  },
+  {
+   "id": "KT2",
+   "categorie": "Overig",
+   "oud": "Onjuiste congruentie in de herziene kanttekening",
+   "nieuw": "Grammaticale congruentie volgens de historische verwijzing",
+   "toelichting": "Herstel enkelvoud of meervoud wanneer de herziening een onjuiste verwijzing heeft opgeleverd. Controleer het antecedent in de historische bron; verander de uitleg niet. Alleen de geregistreerde plaats.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "kanttekening",
+   "bereik": {
+    "genesis": [
+     "1:2"
+    ]
+   }
+  },
+  {
+   "id": "BI1",
+   "categorie": "Overig",
+   "oud": "voornaamste oogmerk / herstelling",
+   "nieuw": "belangrijkste doel / herstel",
+   "toelichting": "Moderniseer deze formuleringen in de boekinleiding met behoud van de historische betekenis en theologische inhoud. Raadpleeg de oorspronkelijke inleiding; pas dit niet als algemene sweep toe op de herziene Bijbeltekst.",
+   "regex": "",
+   "bron": "AI-ondersteunde redactie",
+   "tekstsoort": "boekinleiding",
+   "bereik": {
+    "genesis": [
+     "inleiding"
+    ]
+   }
   }
  ]
 }

@@ -682,7 +682,7 @@
           "marker": "8",
           "type": "explanatory",
           "text1637": "Ofte, beweegde sich: verstaet, om het eerste wesen ende gestalte der aerde ende wateren, so die doe was, te onderhouden, op dat soo treffelicke schepselen door de cracht des Geests daer uyt voortgebracht souden worden. 't Schijnt eene gelijckenisse, genomen vande vogelen die de eyers broeden om de jonckskens daer uyt te doen voortkomen, ende daer na met hare vleugelen over de selve sweven, om die te koesteren en op te queecken. Siet Deuter. 32.11.",
-          "text2026": "Of: bewoog zich. Dat wil zeggen: om het eerste bestaan en de gestalte van de aarde en wateren, zoals die toen was, te onderhouden, opdat zulke voortreffelijke schepselen door de kracht van de Geest daaruit voortgebracht zouden worden. Het lijkt een vergelijking, ontleend aan vogels die de eieren uitbroeden om de jongen eruit te laten komen, en daarna met hun vleugels erover zweven om ze te koesteren en groot te brengen. Zie Deut. 32:11.",
+          "text2026": "Of: bewoog zich. Dat wil zeggen: om het eerste bestaan en de gestalte van de aarde en wateren, zoals die toen waren, te onderhouden, opdat zulke voortreffelijke schepselen door de kracht van de Geest daaruit voortgebracht zouden worden. Het lijkt een vergelijking, ontleend aan vogels die de eieren uitbroeden om de jongen eruit te laten komen, en daarna met hun vleugels erover zweven om ze te koesteren en groot te brengen. Zie Deut. 32:11.",
           "textSV1888": "Of, bewoog zich. Versta, om het eerste wezen en de gestalte der aarde en wateren, gelijk die toen waren, te onderhouden, opdat alzo de kracht des Geestes daaruit voortgebracht zouden worden. Het schijnt ene gelijkenis, genomen van de vogels, die de eieren broeden om de jongskens daaruit te doen voortkomen, en daarna met hare vleugels over dezelve zweven, om die te koesteren en op te kweken. Zie Deut. 32:11. Deuteronomium 32:11: Gelijk een arend zijn nest opwekt, over zijn jongen zweeft, zijn vleugelen uitbreidt, ze neemt en ze draagt op zijn vlerken;",
           "noteDiff": [
             {
@@ -704,10 +704,6 @@
             {
               "old": "gelijk",
               "new": "zoals"
-            },
-            {
-              "old": "waren,",
-              "new": "was,"
             },
             {
               "old": "alzo",
@@ -752,10 +748,23 @@
             {
               "old": "kweken.",
               "new": "brengen."
-            },
+            }
+          ],
+          "herzieningen": [
             {
-              "old": "Deuteronomium 32:11: Gelijk een arend zijn nest opwekt, over zijn jongen zweeft, zijn vleugelen uitbreidt, ze neemt en ze draagt op zijn vlerken;",
-              "new": ""
+              "id": "genesis/1/2/8/KT2/2026-11-09",
+              "datum": "2026-11-09",
+              "soort": "kanttekening",
+              "ref": "genesis/1/2/8",
+              "principe": "KT2",
+              "old": "zoals die toen was",
+              "new": "zoals die toen waren",
+              "reden": "Het historische meervoud verwijst naar aarde en wateren. De enkelvoudsvorm was bij de herziening ontstaan.",
+              "bronveld": "textSV1888",
+              "bronpassage": "gelijk die toen waren",
+              "voor_sha256": "df99abdf6ebd85c08a345c30cd402431cf546b9032ae7bc0f1e71a16dc96e0f4",
+              "na_sha256": "461cf991a8b2f862045f7108d18c7f0c153758a22ca5ecdc32a83662b8f3c7a0",
+              "beoordeling": "AI-ondersteunde herziening; geen menselijke verificatie"
             }
           ]
         },
@@ -1550,20 +1559,45 @@
           "marker": "12",
           "type": "explanatory",
           "text1637": "Dit is menschelijcker wijse van Godt gesproken. De sin is, dat Godt sijn schepsel voor goet kende.",
-          "text2026": "God beschouwde zijn schepping als goed.",
+          "text2026": "Hier wordt op menselijke wijze over God gesproken. De betekenis is dat God zijn schepsel als goed beschouwde.",
           "textSV1888": "12 zag het: Dat is menselijker wijze van God gesproken. De zin is, dat God zijn schepsel voor goed kende.",
           "noteDiff": [
             {
-              "old": "12 zag het: Dat is menselijker wijze van",
-              "new": ""
+              "old": "12 zag het: Dat is menselijker",
+              "new": "Hier wordt op menselijke"
             },
             {
-              "old": "gesproken. De zin is, dat God",
-              "new": "beschouwde"
+              "old": "van",
+              "new": "over"
             },
             {
-              "old": "schepsel voor goed kende.",
-              "new": "schepping als goed."
+              "old": "zin is,",
+              "new": "betekenis is"
+            },
+            {
+              "old": "voor",
+              "new": "als"
+            },
+            {
+              "old": "kende.",
+              "new": "beschouwde."
+            }
+          ],
+          "herzieningen": [
+            {
+              "id": "genesis/1/4/12/KT1/2026-11-09",
+              "datum": "2026-11-09",
+              "soort": "kanttekening",
+              "ref": "genesis/1/4/12",
+              "principe": "KT1",
+              "old": "God beschouwde zijn schepping als goed.",
+              "new": "Hier wordt op menselijke wijze over God gesproken. De betekenis is dat God zijn schepsel als goed beschouwde.",
+              "reden": "De uitleg over de menselijke spreekwijze was weggevallen. Hersteld vanuit de historische bron, zonder nieuwe exegese.",
+              "bronveld": "textSV1888",
+              "bronpassage": "Dat is menselijker wijze van God gesproken. De zin is, dat God zijn schepsel voor goed kende.",
+              "voor_sha256": "4e28e6efbf2da1e1099a5ec2f4d64d48a3fe1143016fab6ce24ad33b06c02985",
+              "na_sha256": "ce733e8ab6e9635eba3232aaaac2ba4398dc561b5e2441a4420cae2152baf9db",
+              "beoordeling": "AI-ondersteunde herziening; geen menselijke verificatie"
             }
           ]
         },

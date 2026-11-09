@@ -44,10 +44,23 @@ def main():
     counts = collections.Counter()
     verzen = collections.defaultdict(list)
 
+    def revision_entries(obj, boek, hst=None, vers=None, marker=None):
+        for r in obj.get("herzieningen", []):
+            pid = r["principe"]
+            counts[pid] += 1
+            if len(verzen[pid]) < MAX_VERZEN:
+                verzen[pid].append({"b":boek,"n":namen.get(boek,boek),"c":hst,"v":vers,
+                    "o":r["old"],"x":r["new"],"k":r["soort"],"m":marker,
+                    "r":r["reden"],"q":r["bronpassage"],"s":r["bronveld"],"t":r["datum"],"id":r["id"]})
+
     for boek in sorted(os.listdir(data)):
         map_ = os.path.join(data, boek)
         if not os.path.isdir(map_) or not os.path.exists(os.path.join(map_, "1.json")):
             continue
+        manifest = os.path.join(data, boek + ".json")
+        if os.path.isfile(manifest):
+            with open(manifest, encoding="utf-8") as fh:
+                revision_entries(json.load(fh).get("bookIntro") or {}, boek)
         bestanden = [f for f in os.listdir(map_) if f.endswith(".json")]
         # op hoofdstuknummer, niet alfabetisch: anders komt 10 voor 2
         bestanden.sort(key=lambda f: int(f[:-5]) if f[:-5].isdigit() else 0)
@@ -56,20 +69,24 @@ def main():
                 d = json.load(fh)
             hst = d.get("number")
             for v in d.get("verses", []):
+                for note in v.get("marginNotes") or []:
+                    if isinstance(note, dict):
+                        revision_entries(note, boek, hst, v.get("number"), note.get("marker"))
                 for p in v.get("phraseDiff") or []:
                     pid = p.get("principe")
                     if not pid:
                         continue
-                    counts[pid] += 1
-                    if len(verzen[pid]) < MAX_VERZEN:
-                        verzen[pid].append({
-                            "b": boek,
-                            "n": namen.get(boek, boek),
-                            "c": hst,
-                            "v": v.get("number"),
-                            "o": p.get("old", ""),
-                            "x": p.get("new", ""),
-                        })
+                    for one_id in pid if isinstance(pid, list) else [pid]:
+                        counts[one_id] += 1
+                        if len(verzen[one_id]) < MAX_VERZEN:
+                            verzen[one_id].append({
+                                "b": boek,
+                                "n": namen.get(boek, boek),
+                                "c": hst,
+                                "v": v.get("number"),
+                                "o": p.get("old", ""),
+                                "x": p.get("new", ""),
+                            })
 
     uit = {"counts": dict(counts), "verses": {k: v for k, v in verzen.items()}}
     pad = os.path.join(data, "principes-data.json")
