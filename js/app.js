@@ -608,7 +608,7 @@ const App = {
     },
 
     async _loadAudioTiming(bookId, ch, voice) {
-        const key = `${bookId}/${ch}-${voice}`;
+        const key = App._audioTimingKey(bookId, ch, voice);
         App._timingCache = App._timingCache || {};
         if (key in App._timingCache) return App._timingCache[key];
         let data = null;
@@ -630,10 +630,15 @@ const App = {
         return data;
     },
 
+    _audioTimingKey(bookId, ch, voice) {
+        const edition = window.OV_AUDIO && OV_AUDIO.edition ? OV_AUDIO.edition() : 'nl-ov';
+        return `${edition}/${bookId}/${ch}-${voice}`;
+    },
+
     // Bepaal het versnummer dat NU klinkt, binnen het opgegeven (spelende) hoofdstuk.
     // Exact via tijdsbestand; anders een schatting op tekstlengte BINNEN dit hoofdstuk.
     _currentAudioVerse(bookId, ch, voice, t, duration) {
-        const timing = App._timingCache && App._timingCache[`${bookId}/${ch}-${voice}`];
+        const timing = App._timingCache && App._timingCache[App._audioTimingKey(bookId, ch, voice)];
         if (timing && timing.length) {
             let cur = timing[0].v;
             for (const seg of timing) { if (t >= seg.t) cur = seg.v; else break; }

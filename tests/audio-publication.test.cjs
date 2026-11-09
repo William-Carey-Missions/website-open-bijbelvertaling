@@ -27,3 +27,14 @@ test('existing female audio keeps its original asset location',()=>{
  assert.equal(a.voiceFor('genesis',1),'v');
  assert.equal(a.src('genesis',1),'https://kleineark.com/assets/openvertaling/audio/genesis/1-v.mp3');
 });
+test('Open Parafrase uses its own recordings and never the legacy Open Vertaling files',()=>{
+ const c=audio('v'),a=c.OV_AUDIO;
+ a.published={genesis:{m:[1,2]}};
+ a.publishedEditions={'nl-opv':{genesis:{m:[1]}}};
+ c.TekstEditie={code:()=> 'nl-opv'};
+ assert.equal(a.available('genesis',1),true);
+ assert.equal(a.available('genesis',2),false);
+ assert.equal(a.voiceFor('genesis',1),'m');
+ assert.equal(a.src('genesis',1),'/audio/higgs-20261109/nl-opv/genesis/1-m.mp3');
+ assert.equal(a.timingSrc('genesis',1,'m'),'/audio/higgs-20261109/nl-opv/genesis/1-m.json');
+});

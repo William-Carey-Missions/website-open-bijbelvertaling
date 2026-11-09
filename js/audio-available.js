@@ -58,12 +58,20 @@ window.OV_AUDIO = {
     toggleVoice() { const nv = this.getVoice() === 'm' ? 'v' : 'm'; this.setVoice(nv); return nv; },
     label(v) { return this.labels[v || this.getVoice()]; },
     published: {},
+    publishedEditions: {},
     publishedBase: '/audio/higgs-20261109/nl-ov/',
+    edition() {
+        return (window.TekstEditie && typeof window.TekstEditie.code === 'function') ? window.TekstEditie.code() : 'nl-ov';
+    },
+    editionBase() {
+        return this.edition() === 'nl-ov' ? this.publishedBase : '/audio/higgs-20261109/' + this.edition() + '/';
+    },
     isPublished(bookId, chapter, voice) {
-        return (((this.published || {})[bookId] || {})[voice] || []).includes(Number(chapter));
+        const table = this.edition() === 'nl-ov' ? this.published : this.publishedEditions[this.edition()];
+        return (((table || {})[bookId] || {})[voice] || []).includes(Number(chapter));
     },
     voices(bookId, chapter) {
-        const legacy = ((window.AUDIO_AVAILABLE || {})[bookId] || []).includes(Number(chapter));
+        const legacy = this.edition() === 'nl-ov' && ((window.AUDIO_AVAILABLE || {})[bookId] || []).includes(Number(chapter));
         return ['m', 'v'].filter(v => legacy || this.isPublished(bookId, chapter, v));
     },
     voiceFor(bookId, chapter) {
@@ -73,19 +81,18 @@ window.OV_AUDIO = {
     src(bookId, chapter) {
         const voice = this.voiceFor(bookId, chapter);
         return this.isPublished(bookId, chapter, voice)
-            ? this.publishedBase + `${bookId}/${chapter}-${voice}.mp3`
+            ? this.editionBase() + `${bookId}/${chapter}-${voice}.mp3`
             : window.OV_ASSETS.url(`audio/${bookId}/${chapter}-${voice}.mp3`);
     },
     timingSrc(bookId, chapter, voice) {
         return this.isPublished(bookId, chapter, voice)
-            ? this.publishedBase + `${bookId}/${chapter}-${voice}.json`
+            ? this.editionBase() + `${bookId}/${chapter}-${voice}.json`
             : `data/audio-timing/${bookId}/${chapter}-${voice}.json`;
     },
-    // De opnames lezen de Open Vertaling voor. Staat er een andere teksteditie in
-    // beeld, zoals de Open Parafrase Weergave, dan hoort de opname niet bij de tekst.
+    // Iedere opname hoort uitsluitend bij haar eigen teksteditie. De oudere
+    // externe opnames zijn alleen voor nl-ov; nl-opv heeft een eigen catalogus.
     available(bookId, chapter) {
-        const editie = (window.TekstEditie && typeof window.TekstEditie.code === 'function') ? window.TekstEditie.code() : 'nl-ov';
-        if (editie !== 'nl-ov') return false;
+        if (!['nl-ov', 'nl-opv'].includes(this.edition())) return false;
         return this.voices(bookId, chapter).length > 0;
     },
 };
@@ -98,6 +105,7 @@ if (typeof fetch === 'function') {
         .then(catalog => {
             if (!catalog || !catalog.editions || !catalog.editions['nl-ov']) return;
             window.OV_AUDIO.published = catalog.editions['nl-ov'];
+            window.OV_AUDIO.publishedEditions = catalog.editions;
             if (typeof App !== 'undefined') {
                 App._timingCache = {};
                 const audio = document.getElementById('audio-el');
