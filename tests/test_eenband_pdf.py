@@ -44,6 +44,7 @@ def test_a3_proef_heeft_de_juiste_platen_en_geen_verlies(tmp_path):
     subprocess.run([sys.executable,str(ROOT/'scripts/build_eenband_pdf.py'),'--proef','genesis:2-3','--uit',str(tmp_path)],check=True,capture_output=True)
     info=json.loads((tmp_path/'eenband-uitgave.json').read_text())
     assert info['formaat']=='A3' and info['afbeelding_ids']==[7,8,9]
+    assert info['godsnaam']=='HEERE'
     assert info['verzen']==49 and info['afbeeldingen']==3
     assert info['controle']['noot_te_laat']==0
     assert not info['afwijkingen'] and not info['onbekende_tekens']
@@ -80,3 +81,24 @@ def test_meerdere_werken_bij_hetzelfde_vers_blijven_in_de_tekst(tmp_path):
         assert int(velden[4])/float(velden[13])*72<543  # maximaal halve A3-zetspiegel
     tekst=subprocess.check_output(['pdftotext',str(pdf),'-'],text=True)
     assert 'LUKAS XV' in tekst
+
+
+def test_yhwh_behoudt_html_en_zet_klassieke_naamvormen_om():
+    from godsnaam import yhwh, heere
+    assert yhwh('JAHWEH sprak. De HEERE zei: het woord des HEEREN.')=='YHWH sprak. YHWH zei: het woord van YHWH.'
+    assert yhwh('De JAHWEH sprak.')=='YHWH sprak.'
+    assert yhwh('<span title="HEERE">JAHWEH</span>')=='<span title="HEERE">YHWH</span>'
+    assert heere('JAHWEH sprak.')=='De HEERE sprak.'
+
+
+def test_didache_pdf_heeft_yhwh_en_eigen_bestanden(tmp_path):
+    subprocess.run([sys.executable,str(ROOT/'scripts/build_eenband_pdf.py'),'--godsnaam','YHWH','--proef','genesis:2-3','--uit',str(tmp_path)],check=True,capture_output=True)
+    info=json.loads((tmp_path/'eenband-uitgave-yhwh.json').read_text())
+    assert info['godsnaam']=='YHWH' and info['bestand'].endswith('-yhwh.pdf')
+    assert info['verzen']==49 and info['afbeeldingen']==3
+    assert info['controle']['noot_te_laat']==0 and not info['afwijkingen']
+    assert not (tmp_path/'eenband-uitgave.json').exists()
+    tekst=subprocess.check_output(['pdftotext',str(tmp_path/info['bestand']),'-'],text=True)
+    assert 'YHWH' in tekst
+    assert not re.search(r'\b(?:HEERE|HEEREN|JAHWEH)\b',tekst)
+    assert not re.search(r'\b[Dd]e YHWH\b',tekst)

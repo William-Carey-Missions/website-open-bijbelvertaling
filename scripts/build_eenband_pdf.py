@@ -31,7 +31,17 @@ def catalogus():
         mapping.setdefault((boek,hoofdstuk),[]).append(werk)
     return manifest,mapping
 
-def configureer():
+def configureer(godsnaam="HEERE"):
+    from godsnaam import heere, yhwh
+    if godsnaam not in ("HEERE", "YHWH"):
+        raise ValueError("Onbekende Godsnaam")
+    basis.godsnaam = yhwh if godsnaam == "YHWH" else heere
+    if godsnaam == "YHWH":
+        basis.VERANTWOORDING = [
+            "De Godsnaam staat in deze uitgave voor Didache als YHWH."
+            if t.startswith("De Godsnaam staat in deze uitgave") else t
+            for t in basis.VERANTWOORDING
+        ]
     basis.BREEDTE,basis.HOOGTE = 841.89,1190.55 # A3: één ISO-stap boven A4.
     basis.BINNEN,basis.BUITEN = 64.0,54.0
     basis.BOVEN,basis.ONDER = 64.0,46.0
@@ -45,11 +55,11 @@ def configureer():
     basis.DELEN[0]={'titel':'De gehele Bijbel met kanttekeningen en illustraties',
       'testament':'Het Oude en Nieuwe Testament, met de apocriefe boeken',
       'groepen':[('Het Oude Testament',[b for d in (1,2) for _,groep in basis.DELEN[d]['groepen'] for b in groep])]+basis.DELEN[3]['groepen']}
-    basis.UITVOERNAAM=BESTAND
+    basis.UITVOERNAAM=BESTAND.replace(".pdf", "-yhwh.pdf") if godsnaam == "YHWH" else BESTAND
 
-def bouw(uit, proef=None):
+def bouw(uit, proef=None, godsnaam="HEERE"):
     manifest,mapping=catalogus()
-    configureer()
+    configureer(godsnaam)
     def eerste_vers(werk):
         return int(re.search(r':(\d+)',werk['verwijzing']).group(1))
     ankers={}
@@ -81,7 +91,7 @@ def bouw(uit, proef=None):
             werk=ankers.get((boek,hoofdstuk,vers))
             if werk:
                 with Image.open(ROOT/werk['bestand']) as im:w,h=im.size
-                titel=self.zetter.zet([(werk['titel']+' · '+werk['verwijzing'],self.st['fm_c'])],basis.KOLOM2,uitvullen=False)
+                titel=self.zetter.zet([(basis.godsnaam(werk['titel'])+' · '+werk['verwijzing'],self.st['fm_c'])],basis.KOLOM2,uitvullen=False)
                 kophoogte=len(titel)*13+10
                 factor=min(basis.KOLOM2/w,(basis.ZETHOOGTE/2-kophoogte-12)/h)
                 bw,bh=w*factor,h*factor
@@ -95,7 +105,7 @@ def bouw(uit, proef=None):
             by=y-kophoogte-bh
             uit.append(self.pdf.afbeelding(ROOT/werk['bestand'],bx,by,bw,bh))
             self.pagina_links.append(((bx,by,bx+bw,by+bh),werk['bron']))
-            self.pdf.bladwijzers.append((werk['titel']+' — '+werk['verwijzing'],pagina-1,1))
+            self.pdf.bladwijzers.append((basis.godsnaam(werk['titel'])+' — '+werk['verwijzing'],pagina-1,1))
             geplaatst.append(werk['id'])
     geplaatst=[]
     basis.Boekbouwer=Geillustreerd
@@ -103,7 +113,7 @@ def bouw(uit, proef=None):
     def voorwerk(b):
         afkortingen(b)
         basis.alinea_bladzijden(b,['§§Over deze geïllustreerde uitgave',
-          'Deze complete uitgave bevat de Bijbeltekst en herziene kanttekeningen in één band op A3 (297 × 420 mm). De Godsnaam wordt weergegeven als HEERE. De Bijbeltekst staat in twee kolommen en de kanttekeningen in drie kolommen onderaan dezelfde pagina.',
+          f'Deze complete uitgave bevat de Bijbeltekst en herziene kanttekeningen in één band op A3 (297 × 420 mm). De Godsnaam wordt weergegeven als {godsnaam}. De Bijbeltekst staat in twee kolommen en de kanttekeningen in drie kolommen onderaan dezelfde pagina.',
           f"Alle {len(manifest['afbeeldingen'])} werken uit de op 8 november 2026 vastgelegde openbare Gospelimages-catalogus van Jan van ’t Hoff zijn ongewijzigd opgenomen. De schilderijen en tekeningen staan tussen de verzen in de doorlopende tekstkolommen, bij de Bijbelplaats waarnaar de kunstenaar verwijst. Ze beslaan maximaal een halve pagina. De kanttekeningen sluiten direct aan op de Bijbeltekst.",
           'De tekst en herziene kanttekeningen zijn CC0 / publiek domein. Dit geldt niet voor de afbeeldingen. © Jan van ’t Hoff / Gospelimages. De afbeeldingen mogen uitsluitend worden gebruikt met naamsvermelding, niet commercieel en zonder afgeleide werken. Deze voorwaarden blijven gelden bij verspreiding van deze geïllustreerde PDF. De naamsvermelding en gebruiksvoorwaarden staan hier centraal voor alle afbeeldingen. Iedere afbeelding bevat een klikbare verwijzing naar de afzonderlijke bron bij Gospelimages.',
           'Broncatalogus en gebruiksvoorwaarden: https://www.gospelimages.nl/schilderijen. Voor commercieel gebruik van de afbeeldingen is afzonderlijke toestemming van de rechthebbende nodig.'])
@@ -113,17 +123,19 @@ def bouw(uit, proef=None):
     verslag=basis.bouw_deel(0,uit,datum,proef)
     verwacht=[w['id'] for k,werken in mapping.items() if not proef or (k[0]==proef[0] and k[1] in proef[1]) for w in werken]
     if sorted(geplaatst)!=sorted(verwacht):raise ValueError('Niet alle verwachte afbeeldingen opgenomen')
-    verslag.update({'formaat':'A3','breedte_mm':297,'hoogte_mm':420,'afbeeldingen':len(geplaatst),'illustraties_in_tekst':True,'opmaak_versie':'inline-20261108','afbeelding_ids':geplaatst,
+    verslag.update({'godsnaam':godsnaam,'formaat':'A3','breedte_mm':297,'hoogte_mm':420,'afbeeldingen':len(geplaatst),'illustraties_in_tekst':True,'opmaak_versie':'inline-20261108','afbeelding_ids':geplaatst,
                     'afbeeldingen_licentie':'Naamsvermelding; niet commercieel; geen afgeleide werken',
                     'bron_afbeeldingen':'https://www.gospelimages.nl/schilderijen'})
-    (uit/'eenband-uitgave.json').write_text(json.dumps(verslag,ensure_ascii=False,indent=2)+'\n')
+    metadata = 'eenband-uitgave-yhwh.json' if godsnaam == 'YHWH' else 'eenband-uitgave.json'
+    (uit/metadata).write_text(json.dumps(verslag,ensure_ascii=False,indent=2)+'\n')
     return verslag
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--uit',type=Path,default=ROOT/'downloads')
+    p.add_argument('--godsnaam',type=str.upper,choices=('HEERE','YHWH'),default='HEERE')
     p.add_argument('--proef',help='Bijvoorbeeld genesis:2-3')
     a=p.parse_args();proef=None
     if a.proef:
         boek,bereik=a.proef.split(':');delen=bereik.split('-');proef=(boek,set(range(int(delen[0]),int(delen[-1])+1)))
-    print(json.dumps(bouw(a.uit,proef),ensure_ascii=False),flush=True)
+    print(json.dumps(bouw(a.uit,proef,a.godsnaam),ensure_ascii=False),flush=True)

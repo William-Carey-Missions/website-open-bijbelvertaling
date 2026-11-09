@@ -1,4 +1,4 @@
-"""Standaard Godsnaam voor de publicaties van openvertaling.nl."""
+"""Godsnaamweergave voor de website en PDF-uitgaven."""
 import re
 
 
@@ -19,4 +19,17 @@ def heere(tekst):
     for i in range(0, len(delen), 2):
         for patroon, vervanging, flags in regels:
             delen[i] = re.sub(patroon, vervanging, delen[i], flags=flags)
+    return ''.join(delen)
+
+
+def yhwh(tekst):
+    """YHWH-uitgave: omzetting in tekst, met behoud van HTML en attributen."""
+    delen = re.split(r'(<[^>]+>)', tekst)
+    for i in range(0, len(delen), 2):
+        t = delen[i]
+        t = re.sub(r'\b([Dd])es HEEREN\b', lambda m: 'Van YHWH' if m[1] == 'D' else 'van YHWH', t)
+        t = re.sub(r'\b(?:[Dd]e|[Dd]en) HEERE\b', 'YHWH', t)
+        t = re.sub(r'\b(?:JAHWEH|HEERE|HEEREN)\b', 'YHWH', t)
+        t = re.sub(r'\b(?:[Dd]e|[Dd]en) YHWH\b', 'YHWH', t)
+        delen[i] = t
     return ''.join(delen)
