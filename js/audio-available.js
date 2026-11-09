@@ -57,12 +57,53 @@ window.OV_AUDIO = {
     setVoice(v) { if (v === 'm' || v === 'v') localStorage.setItem('ov_voice', v); },
     toggleVoice() { const nv = this.getVoice() === 'm' ? 'v' : 'm'; this.setVoice(nv); return nv; },
     label(v) { return this.labels[v || this.getVoice()]; },
-    src(bookId, chapter) { return window.OV_ASSETS.url(`audio/${bookId}/${chapter}-${this.getVoice()}.mp3`); },
+    published: {},
+    publishedBase: '/audio/higgs-20261109/nl-ov/',
+    isPublished(bookId, chapter, voice) {
+        return (((this.published || {})[bookId] || {})[voice] || []).includes(Number(chapter));
+    },
+    voices(bookId, chapter) {
+        const legacy = ((window.AUDIO_AVAILABLE || {})[bookId] || []).includes(Number(chapter));
+        return ['m', 'v'].filter(v => legacy || this.isPublished(bookId, chapter, v));
+    },
+    voiceFor(bookId, chapter) {
+        const voices = this.voices(bookId, chapter);
+        return voices.includes(this.getVoice()) ? this.getVoice() : (voices[0] || this.getVoice());
+    },
+    src(bookId, chapter) {
+        const voice = this.voiceFor(bookId, chapter);
+        return this.isPublished(bookId, chapter, voice)
+            ? this.publishedBase + `${bookId}/${chapter}-${voice}.mp3`
+            : window.OV_ASSETS.url(`audio/${bookId}/${chapter}-${voice}.mp3`);
+    },
+    timingSrc(bookId, chapter, voice) {
+        return this.isPublished(bookId, chapter, voice)
+            ? this.publishedBase + `${bookId}/${chapter}-${voice}.json`
+            : `data/audio-timing/${bookId}/${chapter}-${voice}.json`;
+    },
     // De opnames lezen de Open Vertaling voor. Staat er een andere teksteditie in
     // beeld, zoals de Open Parafrase Weergave, dan hoort de opname niet bij de tekst.
     available(bookId, chapter) {
         const editie = (window.TekstEditie && typeof window.TekstEditie.code === 'function') ? window.TekstEditie.code() : 'nl-ov';
         if (editie !== 'nl-ov') return false;
-        const list = (window.AUDIO_AVAILABLE || {})[bookId] || []; return list.includes(chapter);
+        return this.voices(bookId, chapter).length > 0;
     },
 };
+
+// De catalogus wordt pas als laatste geschreven, na upload en controle van
+// alle bestanden. Een nog niet afgeronde publicatie activeert dus geen audio.
+if (typeof fetch === 'function') {
+    fetch('/audio/higgs-20261109/catalogus.json', { cache: 'no-store' })
+        .then(r => r.ok ? r.json() : null)
+        .then(catalog => {
+            if (!catalog || !catalog.editions || !catalog.editions['nl-ov']) return;
+            window.OV_AUDIO.published = catalog.editions['nl-ov'];
+            if (typeof App !== 'undefined') {
+                App._timingCache = {};
+                const audio = document.getElementById('audio-el');
+                if (App._audioBookId && audio && audio.paused) {
+                    App._updateAudioPlayer(App._audioBookId, App._audioChapter);
+                }
+            }
+        }).catch(() => {});
+}

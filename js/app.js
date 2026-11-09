@@ -52,6 +52,7 @@ const App = {
 
         const ov = window.OV_AUDIO;
         const show = !!(ov && ov.available(bookId, chapter));
+        if (show && ov.voiceFor) ov.setVoice(ov.voiceFor(bookId, chapter));
         const setHidden = (el, hide) => { if (el) el.classList.toggle('hidden', hide); };
         setHidden(playBtn, !show);
         setHidden(playMob, !show);
@@ -61,8 +62,19 @@ const App = {
         setHidden(scrubMob, !show);
         setHidden(chfCenter, !show);
         setHidden(mfnAudio, !show);
-        setHidden(voiceBtn, !show);
-        setHidden(voiceMob, !show);
+        const singleVoice = ov && ov.voices && ov.voices(bookId, chapter).length < 2;
+        setHidden(voiceBtn, !show || singleVoice);
+        setHidden(voiceMob, !show || singleVoice);
+        let credit = document.getElementById('audio-model-credit');
+        if (!credit) {
+            credit = document.createElement('p');
+            credit.id = 'audio-model-credit';
+            credit.style.cssText = 'font-size:11px;opacity:.7;text-align:center;margin:8px 0';
+            const footer = document.getElementById('chapter-footer');
+            if (footer) footer.insertAdjacentElement('afterend', credit);
+        }
+        credit.textContent = 'AI-voorlezing · BosonAI Higgs TTS 3';
+        credit.hidden = !show;
         if (!show) { audioEl.removeAttribute('src'); App._autoplayNext = false; return; }
         audioEl.src = ov.src(bookId, chapter);
         // Auto-doorspelen: na 'ended' navigeren we naar het volgende hoofdstuk;
@@ -601,7 +613,10 @@ const App = {
         if (key in App._timingCache) return App._timingCache[key];
         let data = null;
         try {
-            const r = await fetch(`data/audio-timing/${bookId}/${ch}-${voice}.json`);
+            const url = window.OV_AUDIO && OV_AUDIO.timingSrc
+                ? OV_AUDIO.timingSrc(bookId, ch, voice)
+                : `data/audio-timing/${bookId}/${ch}-${voice}.json`;
+            const r = await fetch(url);
             if (r.ok) {
                 const j = await r.json();
                 const arr = Array.isArray(j) ? j : (j.verses || []);

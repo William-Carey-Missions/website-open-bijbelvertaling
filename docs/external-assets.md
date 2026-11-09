@@ -53,3 +53,21 @@ OV_ASSET_SSH_TARGET=root@example.org \
 OV_ASSET_REMOTE_ROOT=/srv/project/assets \
 scripts/publish_audio.sh audio/genesis/1-m.mp3
 ```
+
+## Lokale Higgs-generatie van november 2026
+
+De gecontroleerde nieuwe versbestanden en daaruit samengevoegde hoofdstukken
+staan onder `/audio/higgs-20261109/` op openvertaling.nl. `nl-ov`, `nl-opv` en
+`nl-et-basis` houden de drie tekstbronnen gescheiden. De bestaande externe
+assetlocatie blijft de oudere opnames aanbieden.
+
+`catalogus.json` wordt pas na alle uploads, SHA256-controles en hoofdstukbouw
+atomair geplaatst. De speler leest deze catalogus en biedt uitsluitend volledige
+hoofdstukken in de juiste editie aan. Tijdmarkeringen komen uit de afzonderlijke
+versduren; samenvoegen kopieert de MP3-frames zonder een nieuwe spraakgeneratie
+of extra audiocompressie. Een bestaande vrouwenstem blijft beschikbaar.
+
+`Publish finished audio` gebruikt de bestaande deploysleutel op GitHub Actions.
+De workflow haalt de expliciet gekozen publieke `higgs-audio-*`-release op en
+installeert de pakketten met `scripts/audio/install_release.py`. Hij verwijdert
+geen bestaande audio. Een lege release-tag test alleen de uploadbestemming.

@@ -30,7 +30,7 @@ jobs:
           DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
           DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
           DEPLOY_USER: ${{ vars.DEPLOY_USER }}
-        run: ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" 'test -d /var/www/openvertaling.nl/site && command -v ffmpeg && df -h /var/www/openvertaling.nl/site'
+        run: ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" 'set -e; test -d /var/www/openvertaling.nl/site; if ! command -v ffmpeg >/dev/null; then apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ffmpeg; fi; df -h /var/www/openvertaling.nl/site'
       - name: Prepare selected release
         if: inputs.release_tag != ''
         env:
