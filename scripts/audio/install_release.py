@@ -45,6 +45,8 @@ def main():
     root = args.root.resolve()
     root.mkdir(parents=True, exist_ok=True)
     assets = json.loads(args.assets_json.read_text())
+    receipt_path = root / '_installed_packages.json'
+    installed = json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
     packages = []
     count = 0
     for asset in assets:
@@ -55,6 +57,15 @@ def main():
         url = asset['browser_download_url']
         if not url.startswith('https://github.com/William-Carey-Missions/website-open-bijbelvertaling/releases/download/higgs-audio-'):
             raise ValueError('Unexpected asset URL')
+        stamp = asset.get('digest') or asset.get('updated_at')
+        edition, book = asset['name'][:-4].rsplit('-', 1)
+        previous_manifest = root / edition / book / '_manifest.json'
+        if stamp and installed.get(asset['name']) == stamp and previous_manifest.exists():
+            manifest = json.loads(previous_manifest.read_text())
+            packages.append(manifest)
+            count += len(manifest['files'])
+            print('Already verified:', asset['name'], flush=True)
+            continue
         print('Download:', asset['name'], flush=True)
         manifest = None
         with urllib.request.urlopen(url, timeout=120) as response:
@@ -79,6 +90,10 @@ def main():
                 raise RuntimeError('Audio checksum mismatch: ' + file['path'])
         count += len(manifest['files'])
         packages.append(manifest)
+        installed[asset['name']] = stamp
+        receipt_pending = receipt_path.with_suffix('.pending.json')
+        receipt_pending.write_text(json.dumps(installed))
+        receipt_pending.replace(receipt_path)
         print('Verified:', len(manifest['files']), 'verses', flush=True)
     tasks = []
     for package in packages:
