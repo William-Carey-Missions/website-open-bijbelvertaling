@@ -49,3 +49,12 @@ test('activation removes private responses retained by previous workers', async 
     await completed;
     assert.deepEqual(removed, requests.slice(0, 2).map(r => r.url));
 });
+
+test('extensionless document URLs such as /index fetch current HTML before old cache', async () => {
+    const handlers = worker({ open: async () => ({
+        match: async () => new Response('old HTML'), put: async () => {},
+    }) }, async () => new Response('current HTML'));
+    let response;
+    handlers.fetch({ request: { url: 'https://example.test/index', method: 'GET', mode: 'navigate', destination: 'document', headers: new Headers() }, respondWith(p) { response = p; } });
+    assert.equal(await (await response).text(), 'current HTML');
+});

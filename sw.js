@@ -8,7 +8,7 @@
  * Versionering: bump VERSION bij elke deploy om alle caches te vernieuwen.
  */
 
-const VERSION = 'v0.60.2';
+const VERSION = 'v0.60.3';
 // New reader modules must not be mixed with HTML from before verification.
 const CACHE_VERSION = `${VERSION}-uitgave20261108-inline-mobiel20261101-verification-v13-splitsing1-ontwerp1-kunst20261025-publicatie20261025-statistics-consent1-yhwh20261025`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
@@ -163,7 +163,8 @@ self.addEventListener('fetch', (event) => {
     // HTML: network-first — altijd de nieuwste pagina als online (voorkomt dat
     // mobiel een versie achterloopt met verouderde JS-structuur); cache = offline-fallback.
     // Een adres dat op / eindigt (bijv. /bijbel/genesis/) is ook een pagina.
-    if (path.endsWith('.html') || path.endsWith('/')) {
+    if (req.mode === 'navigate' || req.destination === 'document' ||
+        path.endsWith('.html') || path.endsWith('/')) {
         event.respondWith(networkFirst(req, SHELL_CACHE));
         return;
     }
