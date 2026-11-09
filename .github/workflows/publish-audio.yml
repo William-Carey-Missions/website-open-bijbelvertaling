@@ -6,6 +6,11 @@ on:
         description: Public audio release tag (empty performs connection check)
         required: false
         type: string
+      deploy_reader:
+        description: Publish the tested audio reader and browser cache fix
+        required: false
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -31,6 +36,13 @@ jobs:
           DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
           DEPLOY_USER: ${{ vars.DEPLOY_USER }}
         run: ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" 'set -e; test -d /var/www/openvertaling.nl/site; if ! command -v ffmpeg >/dev/null; then apt-get update -qq && DEBIAN_FRONTEND=noninteractive apt-get install -y -qq ffmpeg; fi; df -h /var/www/openvertaling.nl/site'
+      - name: Deploy tested audio reader
+        if: inputs.deploy_reader || inputs.release_tag != ''
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+        run: rsync -rtR --chmod=F644,D755 -e "ssh -p $DEPLOY_PORT" js/audio-available.js js/app.js sw.js "$DEPLOY_USER@$DEPLOY_HOST:/var/www/openvertaling.nl/site/"
       - name: Prepare selected release
         if: inputs.release_tag != ''
         env:
