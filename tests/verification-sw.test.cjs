@@ -58,3 +58,16 @@ test('extensionless document URLs such as /index fetch current HTML before old c
     handlers.fetch({ request: { url: 'https://example.test/index', method: 'GET', mode: 'navigate', destination: 'document', headers: new Headers() }, respondWith(p) { response = p; } });
     assert.equal(await (await response).text(), 'current HTML');
 });
+
+test('audio manifests and byte-range requests bypass the shell cache', async () => {
+    const handlers = worker(new Proxy({}, { get() { throw Error('Unexpected cache access'); } }),
+        async request => new Response(request.headers.get('Range') || 'fresh catalog'));
+    for (const request of [
+        new Request('https://example.test/audio/higgs-20261109/catalogus.json'),
+        new Request('https://example.test/audio/higgs-20261109/nl-ov/genesis/1-m.mp3', {headers:{Range:'bytes=0-127'}}),
+    ]) {
+        let response;
+        handlers.fetch({request,respondWith(p) {response=p;}});
+        assert.equal(await (await response).text(),request.headers.get('Range') || 'fresh catalog');
+    }
+});

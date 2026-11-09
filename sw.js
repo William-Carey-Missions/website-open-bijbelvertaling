@@ -130,6 +130,14 @@ self.addEventListener('fetch', (event) => {
         return;
     }
 
+    // De audiocatalogus verandert bij publicatie. MP3's gebruiken Range-
+    // verzoeken; bewaar die grote of gedeeltelijke antwoorden niet in de
+    // shellcache. Dit voorkomt ook dat een vroege HTML-fallback blijft hangen.
+    if (path.startsWith('/audio/')) {
+        event.respondWith(fetch(req));
+        return;
+    }
+
     // Lexicon (grote JS)
     if (path.endsWith('/js/hebreeuws-woordenboek.js') || path.endsWith('/js/grieks-woordenboek.js') || path.endsWith('/js/grieks-tbesg.js')) {
         event.respondWith(cacheFirst(req, LEXICON_CACHE));
