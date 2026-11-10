@@ -1053,9 +1053,12 @@ html.ka-lees .reader-footer { font-family: var(--ka-sans); }
     .ka-uitgave-knoppen { flex-direction:column; align-items:flex-start; }
     .ka-uitgave-knoppen .ka-btn { white-space:normal; }
 }
-@media(max-width:420px) {
-    .ka-uitgave-cover { flex-basis:62px; }
-    .ka-nieuws.ka-uitgave-nieuws { gap:14px; }
+@media(max-width:480px) {
+    /* Smal scherm: omslag boven de tekst in plaats van een duimnagel ernaast. */
+    .ka-nieuws.ka-uitgave-nieuws { flex-direction:column; align-items:stretch; gap:16px; }
+    .ka-uitgave-cover { flex:none; width:128px; align-self:center; }
+    .ka-uitgave-knoppen { align-items:stretch; }
+    .ka-uitgave-knoppen .ka-btn { justify-content:center; text-align:center; }
 }
 
 .ka-uitgave-waarom { margin-top:16px; }

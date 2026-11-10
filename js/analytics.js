@@ -153,7 +153,11 @@
             'border-radius:6px;padding:8px 12px;background:var(--bg-surface,#fff);color:var(--text-primary,#142e42)}' +
             '#analytics-consent button:focus-visible,#analytics-settings:focus-visible{outline:3px solid #c4a048;outline-offset:3px}' +
             '#analytics-settings{position:fixed;right:12px;bottom:calc(88px + env(safe-area-inset-bottom,0px));z-index:10019;font:13px system-ui;box-shadow:0 2px 8px #0002}' +
-            '@media(max-width:768px),(pointer:coarse){#analytics-settings{position:static;display:block;min-height:44px;margin:16px auto;box-shadow:none}}';
+            '@media(max-width:768px),(pointer:coarse){#analytics-settings{position:static;display:block;min-height:44px;margin:16px auto;box-shadow:none}}' +
+            // Telefoon: een compacte balk onderaan in plaats van een blok midden over de tekst.
+            '@media(max-width:600px){#analytics-consent{left:8px;right:8px;width:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));' +
+            'max-height:60vh;padding:14px 16px;font-size:14px;line-height:1.45}#analytics-consent h2{font-size:16px;margin-bottom:4px}' +
+            '#analytics-consent p{margin-bottom:10px}#analytics-consent .analytics-actions button{flex:1;min-height:44px}}';
         document.head.appendChild(style);
         panel = document.createElement('section');
         panel.id = 'analytics-consent';

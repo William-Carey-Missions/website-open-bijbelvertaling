@@ -37,6 +37,10 @@
         .dl-oms { font-size: 14.5px; line-height: 1.6; color: #444; margin: 0 0 14px; }
         .dl-knop { display: inline-block; background: var(--navy, #142e42); color: #fff; text-decoration: none; font-family: var(--font-ui, inherit); font-weight: 600; font-size: 14px; padding: 9px 20px; border-radius: 6px; border: 2px solid var(--gold); }
         .dl-knop:hover { background: var(--gold); color: var(--navy); }
+        /* :root erbij: .page a:not(...) uit ontwerp.css weegt anders zwaarder. */
+        :root .page a.dl-knop { color: #fff; }
+        :root .page a.dl-knop:hover { color: var(--navy); }
+        @media (max-width: 600px) { .dl-knop { display: block; text-align: center; padding: 12px 16px; font-size: 15px; } }
         .dl-licentie { border-left: 3px solid var(--teal, #92b6b4); background: rgba(146,182,180,0.10); padding: 10px 16px; border-radius: 0 6px 6px 0; margin: 22px 0; font-size: 14.5px; }
         .dl-laden { color: #888; font-style: italic; }
         :root[data-theme="donker"] .dl-naam { color: var(--gold); }

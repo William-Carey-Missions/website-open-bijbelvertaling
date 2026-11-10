@@ -3970,10 +3970,11 @@ body.is-ingelogd .uitzondering-uitleg { display: block; }
         position: fixed;
         left: 0; right: 0;
         bottom: 0;
-        padding: 16px 20px calc(10px + env(safe-area-inset-bottom, 0));
+        padding: 30px 20px calc(10px + env(safe-area-inset-bottom, 0));
         z-index: 180;
-        /* De tekst loopt uit onder de knoppen, niet erdoorheen. */
-        background: linear-gradient(to top, var(--bg-page) 58%, transparent);
+        /* De tekst loopt uit onder de knoppen, niet erdoorheen: het verloop
+           eindigt boven de voortgangsbalk, zodat die nooit over tekst ligt. */
+        background: linear-gradient(to top, var(--bg-page) calc(100% - 6px), transparent);
         border-top: none;
         box-shadow: none;
         min-height: 0;
@@ -5592,6 +5593,8 @@ body.hide-verse-numbers #content.reading-mode:not(.layout-eronder) .verse-row::a
 }
 .mfn-scrubber.hidden { display: none; }
 @media (pointer: coarse) { .mfn-scrubber { top: -12px; height: 20px; border-radius: 0; background: linear-gradient(transparent 8px, rgba(203,164,73,0.35) 8px, rgba(203,164,73,0.35) 13px, transparent 13px); } }
+/* In de mobiele balk ligt de voortgangsbalk binnen de eigen achtergrond, niet over de tekst. */
+#mobile-footer-nav .mfn-scrubber { top: 6px; }
 .mfn-scrubber::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: var(--gold); box-shadow: 0 1px 3px rgba(0,0,0,0.3); cursor: pointer; }
 .mfn-scrubber::-moz-range-thumb { width: 16px; height: 16px; border: none; border-radius: 50%; background: var(--gold); cursor: pointer; }
 

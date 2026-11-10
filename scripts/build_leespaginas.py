@@ -42,7 +42,7 @@ STIJL = """
 .lp { max-width: 760px; margin: 0 auto; padding: 24px 16px 56px; }
 .lp-kruimel { font-size: 13px; color: var(--text-muted, #888); margin: 0 0 14px; }
 .lp-kruimel a { color: var(--teal, #76978a); text-decoration: none; }
-.lp h1 { font-family: var(--font-serif); color: var(--navy, #142e42); margin: 0 0 8px; }
+.lp h1 { font-family: var(--font-serif); color: var(--navy, #142e42); margin: 0 0 8px; line-height: 1.2; }
 .lp-lead { color: var(--text-secondary, #555); margin: 0 0 18px; }
 .lp-inhoud { font-style: italic; color: var(--text-secondary, #555); border-left: 3px solid var(--gold, #cba449); padding: 4px 12px; margin: 0 0 20px; }
 .lp-inleiding { color: var(--text-secondary, #555); line-height: 1.6; }
