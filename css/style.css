@@ -4015,7 +4015,7 @@ body.is-ingelogd .uitzondering-uitleg { display: block; }
 
     /* Reserveer ruimte onderin zodat content niet onder de footer valt
        (incl. iOS safe-area zodat content niet achter Safari URL-bar verdwijnt) */
-    body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }
+    body { padding-bottom: calc(98px + env(safe-area-inset-bottom, 0px)); }
 
     /* --- Verberg desktop-elementen die op mobiel verwarrend zijn --- */
     /* De ◀-driehoek voor links-inklappen blijft binnen sidebar header maar de

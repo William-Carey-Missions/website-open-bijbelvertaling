@@ -20,8 +20,10 @@ def test_zustersites_zijn_op_de_telefoon_goed_te_raken():
 
 def test_onderbalk_laat_de_tekst_niet_door_de_knoppen_lopen():
     css = lees("css/style.css")
-    assert "background: linear-gradient(to top, var(--bg-page) 58%, transparent);" in css
-    assert "body { padding-bottom: calc(84px + env(safe-area-inset-bottom, 0px)); }" in css
+    assert "background: linear-gradient(to top, var(--bg-page) calc(100% - 6px), transparent);" in css
+    assert "body { padding-bottom: calc(98px + env(safe-area-inset-bottom, 0px)); }" in css
+    # De voortgangsbalk ligt binnen de balk, op de paginakleur, niet over de laatste regel.
+    assert "#mobile-footer-nav .mfn-scrubber { top: 6px; }" in css
 
 
 def test_voortgangsbalk_is_op_de_telefoon_te_raken():
