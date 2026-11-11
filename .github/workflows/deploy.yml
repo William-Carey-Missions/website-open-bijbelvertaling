@@ -42,7 +42,10 @@ jobs:
         reviews/
         .superpowers/
         .mobile-shots/
-        audio/
+        audio/_pilot/
+        audio/**/*.mp3
+        audio/**/*.opus
+        audio/**/*.wav
         server/
         migrations/
         data/verified-chapters.json

@@ -71,3 +71,14 @@ of extra audiocompressie. Een bestaande vrouwenstem blijft beschikbaar.
 De workflow haalt de expliciet gekozen publieke `higgs-audio-*`-release op en
 installeert de pakketten met `scripts/audio/install_release.py`. Hij verwijdert
 geen bestaande audio. Een lege release-tag test alleen de uploadbestemming.
+
+### Audio behouden bij website-updates
+
+De payload staat buiten de website in
+`/srv/openvertaling/audio/higgs-20261109`. De repository bevat uitsluitend de
+symlink `audio/higgs-20261109` naar deze opslag. De gedeelde deployworkflow
+verwijdert ontbrekende bestanden met `rsync --delete`; daarom moet deze symlink
+meegaan in de uitrol. Alleen de generatie-map en binaire audiobestanden worden
+uitgesloten, niet de gehele map `audio/`. Zo kan een volgende site-uitrol de
+opnames niet verwijderen. `audio-persistent-storage.test.cjs` controleert twee
+zulke uitrollen achter elkaar met een echte rsync.

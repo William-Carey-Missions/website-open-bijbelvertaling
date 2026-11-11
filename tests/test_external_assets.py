@@ -115,4 +115,8 @@ def test_binary_audio_is_ignored_but_manifests_remain_trackable():
 
 def test_normal_site_deploy_does_not_include_audio_tree():
     workflow = (ROOT / ".github/workflows/deploy.yml").read_text(encoding="utf-8")
-    assert "        audio/\n" in workflow
+    assert "        audio/\n" not in workflow
+    assert "        audio/_pilot/\n" in workflow
+    link = ROOT / "audio/higgs-20261109"
+    assert link.is_symlink()
+    assert str(link.readlink()) == "/srv/openvertaling/audio/higgs-20261109"

@@ -61,4 +61,12 @@ jobs:
           stage="/tmp/openvertaling-audio-${GITHUB_RUN_ID}"
           ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" "install -d -m 0700 '$stage'"
           scp -P "$DEPLOY_PORT" scripts/audio/install_release.py /tmp/audio-release.json "$DEPLOY_USER@$DEPLOY_HOST:$stage/"
-          ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" "python3 '$stage/install_release.py' --assets-json '$stage/audio-release.json' --root /var/www/openvertaling.nl/site/audio/higgs-20261109"
+          ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" "python3 '$stage/install_release.py' --assets-json '$stage/audio-release.json' --root /srv/openvertaling/audio/higgs-20261109"
+      - name: Link persistent audio into website
+        if: inputs.release_tag != ''
+        env:
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER }}
+        run: |
+          ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" 'test -f /srv/openvertaling/audio/higgs-20261109/catalogus.json && install -d -m 0755 /var/www/openvertaling.nl/site/audio && ln -sfnT /srv/openvertaling/audio/higgs-20261109 /var/www/openvertaling.nl/site/audio/higgs-20261109'
