@@ -509,9 +509,9 @@ html.ov-lezer .ka-footer,
     background: var(--ka-gold-wash) !important;
 }
 
-/* Alleen de OV-kolom aan: tekstbreedte begrenzen (±70 tekens per regel). */
+/* Alleen de OV-kolom aan: de tekst gebruikt de hele breedte van de pagina (keuze eigenaar). */
 #content.reading-mode.hide-1637.hide-sv1888.hide-hebrew.hide-diff.hide-margin2026.hide-margin1637.hide-marginSV1888.hide-noteDiff #verses-container:not(:has(.edition-comparison)) {
-    max-width: 900px;
+    max-width: none;
 }
 
 /* Verzen */

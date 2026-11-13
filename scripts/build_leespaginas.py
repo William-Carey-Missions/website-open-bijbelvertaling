@@ -113,8 +113,8 @@ def pagina(titel, omschrijving, pad, inhoud, json_ld, extra_head=""):
 <link rel="describedby" href="/llms.txt" type="text/markdown">
 {extra_head}<link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/ontwerp.css?v=0.60.0">
-<link rel="stylesheet" href="css/publication.css?v=0.60.0">
+<link rel="stylesheet" href="css/ontwerp.css?v=0.60.1">
+<link rel="stylesheet" href="css/publication.css?v=0.60.1">
 <style>{STIJL}</style>
 <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>
