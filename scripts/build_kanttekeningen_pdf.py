@@ -920,74 +920,166 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
 
 # ---------------------------------------------------------------- voorwerk
 
+# Uitgever en versie op het voorblad van alle uitgaven met kanttekeningen.
+UITGEVER = 'Didache – Dordrecht'
+VERSIE = '16-11-2026'
+GOUD = (0.74, 0.60, 0.35)
+OMSLAG_ZWART = (0.025, 0.025, 0.025)
+A4 = (595.28, 841.89)
+
+
+def _kleur(rgb, op='rg'):
+    return ' '.join(f'{c:.3f}' for c in rgb) + f' {op}'
+
+
+def _cirkel(cx, cy, r):
+    k = 0.5523 * r
+    return (f'{cx + r:.2f} {cy:.2f} m '
+            f'{cx + r:.2f} {cy + k:.2f} {cx + k:.2f} {cy + r:.2f} {cx:.2f} {cy + r:.2f} c '
+            f'{cx - k:.2f} {cy + r:.2f} {cx - r:.2f} {cy + k:.2f} {cx - r:.2f} {cy:.2f} c '
+            f'{cx - r:.2f} {cy - k:.2f} {cx - k:.2f} {cy - r:.2f} {cx:.2f} {cy - r:.2f} c '
+            f'{cx + k:.2f} {cy - r:.2f} {cx + r:.2f} {cy - k:.2f} {cx + r:.2f} {cy:.2f} c ')
+
+
+def _paneel(x0, y0, x1, y1, r):
+    """Rechthoek met holle hoeken, zoals een cartouche op een oude boekband."""
+    k = 0.5523 * r
+    return (f'{x0 + r:.2f} {y0:.2f} m {x1 - r:.2f} {y0:.2f} l '
+            f'{x1 - r:.2f} {y0 + k:.2f} {x1 - k:.2f} {y0 + r:.2f} {x1:.2f} {y0 + r:.2f} c '
+            f'{x1:.2f} {y1 - r:.2f} l '
+            f'{x1 - k:.2f} {y1 - r:.2f} {x1 - r:.2f} {y1 - k:.2f} {x1 - r:.2f} {y1:.2f} c '
+            f'{x0 + r:.2f} {y1:.2f} l '
+            f'{x0 + r:.2f} {y1 - k:.2f} {x0 + k:.2f} {y1 - r:.2f} {x0:.2f} {y1 - r:.2f} c '
+            f'{x0:.2f} {y0 + r:.2f} l '
+            f'{x0 + k:.2f} {y0 + r:.2f} {x0 + r:.2f} {y0 + k:.2f} {x0 + r:.2f} {y0:.2f} c h ')
+
+
+def _ruit(cx, cy, w, h):
+    return f'{cx:.2f} {cy + h:.2f} m {cx + w:.2f} {cy:.2f} l {cx:.2f} {cy - h:.2f} l {cx - w:.2f} {cy:.2f} l h '
+
+
+def _hoekornament(x, y, sx, sy):
+    """Een gouden krul met blad in een hoek; sx en sy geven de richting naar binnen."""
+    d = []
+    # Twee kwartbogen die in de hoek samenkomen, met een blaadje en een ruitje.
+    for r in (16, 24):
+        k = 0.5523 * r
+        d.append(f'{x + sx * r:.2f} {y:.2f} m '
+                 f'{x + sx * r:.2f} {y + sy * k:.2f} {x + sx * k:.2f} {y + sy * r:.2f} {x:.2f} {y + sy * r:.2f} c S ')
+    d.append(f'{x + sx * 30:.2f} {y + sy * 30:.2f} m '
+             f'{x + sx * 40:.2f} {y + sy * 33:.2f} {x + sx * 46:.2f} {y + sy * 42:.2f} {x + sx * 46:.2f} {y + sy * 46:.2f} c '
+             f'{x + sx * 42:.2f} {y + sy * 46:.2f} {x + sx * 33:.2f} {y + sy * 40:.2f} {x + sx * 30:.2f} {y + sy * 30:.2f} c f ')
+    d.append(_ruit(x + sx * 8, y + sy * 8, 3.2, 3.2) + 'f ')
+    return ''.join(d)
+
+
+def _boekband(uit, b, h):
+    """Zwart vlak met blinddruk van in elkaar grijpende cirkels en een gouden lijstwerk."""
+    uit.append(f'q {_kleur(OMSLAG_ZWART)} 0 0 {b:.2f} {h:.2f} re f Q\n')
+    # Blinddruk: overlappende cirkels geven een rustig patroon van vierpassen.
+    stap, straal = 34.0, 17.0
+    uit.append(f'q 40 40 {b - 80:.2f} {h - 80:.2f} re W n {_kleur((0.085, 0.078, 0.063), "RG")} 0.4 w\n')
+    y = 40.0
+    while y < h - 20:
+        x = 40.0
+        rij = []
+        while x < b - 20:
+            rij.append(_cirkel(x, y, straal))
+            x += stap
+        uit.append(''.join(rij) + 'S\n')
+        y += stap
+    uit.append('Q\n')
+    goud = f'{_kleur(GOUD, "RG")} {_kleur(GOUD)}'
+    uit.append(f'q {goud} 1.2 w 24 24 {b - 48:.2f} {h - 48:.2f} re S '
+               f'0.4 w 29.5 29.5 {b - 59:.2f} {h - 59:.2f} re S 0.6 w\n')
+    for x, y, sx, sy in ((40, 40, 1, 1), (b - 40, 40, -1, 1), (40, h - 40, 1, -1), (b - 40, h - 40, -1, -1)):
+        uit.append(_hoekornament(x, y, sx, sy) + '\n')
+    # Kleine ruiten midden op de zijden van het lijstwerk.
+    for x, y in ((b / 2, 29.5), (b / 2, h - 29.5), (29.5, h / 2), (b - 29.5, h / 2)):
+        uit.append(f'{_kleur(OMSLAG_ZWART)} {_ruit(x, y, 7, 7)}f {_kleur(GOUD)} {_ruit(x, y, 4.2, 4.2)}f\n')
+    uit.append('Q\n')
+
+
+def _sierlijn(uit, midden, y, breedte=86):
+    """Gouden haarlijnen met een ruit en twee stippen in het midden."""
+    goud = f'{_kleur(GOUD, "RG")} {_kleur(GOUD)}'
+    uit.append(f'q {goud} 0.5 w {midden - breedte:.2f} {y:.2f} m {midden - 16:.2f} {y:.2f} l S '
+               f'{midden + 16:.2f} {y:.2f} m {midden + breedte:.2f} {y:.2f} l S '
+               f'{_ruit(midden, y, 4.5, 4.5)}f {_cirkel(midden - 10, y, 1.3)}f {_cirkel(midden + 10, y, 1.3)}f Q\n')
+
+
+def _medaillon(uit, x, y, r):
+    """Rond gouden embleem met een staande ruit, op voor- en achterblad."""
+    goud = f'{_kleur(GOUD, "RG")} {_kleur(GOUD)}'
+    uit.append(f'q {_kleur(OMSLAG_ZWART)} {_cirkel(x, y, r)}f {goud} 0.8 w '
+               f'{_cirkel(x, y, r)}S 0.35 w {_cirkel(x, y, r * 0.8)}S '
+               f'{_ruit(x, y, r * 0.27, r * 0.42)}f Q\n')
+
+
 def titelpagina(b, deel):
-    """Rustig titelblad, optisch gecentreerd op de pagina, voor alle drie delen."""
-    from copy import copy
-    st = {naam: copy(stijl) for naam, stijl in b.st.items()}
-    licht = (0.94, 0.91, 0.83)
-    for stijl in st.values():
-        stijl.kleur = licht
+    """Voorblad: zwarte boekband met gouden lijstwerk, op A4-maat (de A3-uitgave schaalt mee)."""
     zetter, pdf = b.zetter, b.pdf
-    uit = [f'q 0.025 0.025 0.025 rg 0 0 {BREEDTE} {HOOGTE} re f Q\n']
-    # Een vectorpatroon als blinddruk: zacht gebogen bladeren in een ruitrooster.
-    uit.append(f'q 38 38 {BREEDTE - 76} {HOOGTE - 76} re W n '
-               '0.075 0.070 0.057 RG 0.45 w\n')
-    for cy in range(46, int(HOOGTE), 78):
-        for cx in range(24, int(BREEDTE) + 78, 78):
-            for dx, dy in ((1, 1), (-1, 1), (1, -1), (-1, -1)):
-                uit.append(f'{cx} {cy} m '
-                           f'{cx + dx * 23} {cy + dy * 2} '
-                           f'{cx + dx * 28} {cy + dy * 19} '
-                           f'{cx + dx * 31} {cy + dy * 31} c '
-                           f'{cx + dx * 10} {cy + dy * 28} '
-                           f'{cx + dx * 2} {cy + dy * 16} '
-                           f'{cx} {cy} c S\n')
-    uit.append('Q\n')
-    # Dubbele goudlijn met kleine hoekruiten, ruim binnen de snijrand.
-    uit.append(f'q 0.68 0.55 0.32 RG 0.68 0.55 0.32 rg '
-               f'1.1 w 25 25 {BREEDTE - 50} {HOOGTE - 50} re S '
-               f'0.35 w 33 33 {BREEDTE - 66} {HOOGTE - 66} re S\n')
-    for x, y in ((33, 33), (BREEDTE - 33, 33),
-                 (33, HOOGTE - 33), (BREEDTE - 33, HOOGTE - 33)):
-        uit.append(f'{x} {y + 5} m {x + 5} {y} l '
-                   f'{x} {y - 5} l {x - 5} {y} l h f\n')
-    uit.append('Q\n')
+    uit = []
+    _boekband(uit, BREEDTE, HOOGTE)
     midden = BREEDTE / 2
-    kop = st['t_groot'].letter
-    klein = Stijl(kop, 13, spatie=1.8, afbreken=False, kleur=licht)
-    titel = Stijl(kop, 60, spatie=0.6, afbreken=False, kleur=licht)
-    ondertitel = Stijl(kop, 18, spatie=1.0, afbreken=False, kleur=licht)
+    licht = (0.95, 0.92, 0.84)
+    kop = b.st['t_groot'].letter
+    tekst_letter = b.st['t_tekst'].letter
+    cursief_letter = b.st['t_cursief'].letter
+    titel = Stijl(kop, 62, spatie=0.6, afbreken=False, kleur=licht)
+    ondertitel = Stijl(kop, 18, spatie=1.4, afbreken=False, kleur=licht)
+    cursief = Stijl(cursief_letter, 16, afbreken=False, kleur=licht)
+    tekst = Stijl(tekst_letter, 13.5, kenmerken=(('onum', True),), afbreken=False, kleur=licht)
+    tekst_cursief = Stijl(cursief_letter, 13.5, afbreken=False, kleur=licht)
+    klein_goud = Stijl(kop, 12.5, spatie=2.0, afbreken=False, kleur=GOUD)
+    uitgever = Stijl(kop, 14, spatie=1.8, afbreken=False, kleur=GOUD)
+    versie = Stijl(tekst_letter, 9.5, kenmerken=(('onum', True),), spatie=0.4, afbreken=False,
+                   kleur=(0.66, 0.62, 0.54))
 
-    st['t_tekst'] = Stijl(st['t_tekst'].letter, 14.5, kleur=licht, afbreken=False)
-    st['t_cursief'] = Stijl(st['t_cursief'].letter, 15, kleur=licht, afbreken=False)
+    # Cartouche rond de titel; het zwart dekt de blinddruk zodat de titel rustig staat.
+    x0, x1, y0, y1 = 88.0, BREEDTE - 88.0, HOOGTE - 372.0, HOOGTE - 136.0
+    goud = f'{_kleur(GOUD, "RG")} {_kleur(GOUD)}'
+    uit.append(f'q {_kleur(OMSLAG_ZWART)} {_paneel(x0, y0, x1, y1, 18)}f '
+               f'{goud} 1.0 w {_paneel(x0, y0, x1, y1, 18)}S '
+               f'0.35 w {_paneel(x0 + 6, y0 + 6, x1 - 6, y1 - 6, 14)}S Q\n')
 
-    def regel(tekst, stijl, y):
-        r = zetter.los([(tekst, stijl)])
+    def regel(t, stijl, y):
+        r = zetter.los([(t, stijl)])
         teken_regel(r, midden - r.breedte / 2, y, uit)
 
-    def ornament(y):
-        # Subtiele gouden haarlijnen en een kleine ruit op de zwarte omslag.
-        uit.append(f'q 0.68 0.55 0.32 RG 0.68 0.55 0.32 rg 0.45 w '
-                   f'{midden - 82} {y} m {midden - 12} {y} l S '
-                   f'{midden + 12} {y} m {midden + 82} {y} l S '
-                   f'{midden} {y + 3} m {midden + 3} {y} l '
-                   f'{midden} {y - 3} l {midden - 3} {y} l h f Q\n')
+    regel('Gods Woord', titel, HOOGTE - 232)
+    regel('DE GEHELE HEILIGE SCHRIFT', ondertitel, HOOGTE - 272)
+    regel('voorzien van kanttekeningen', cursief, HOOGTE - 304)
+    _sierlijn(uit, midden, HOOGTE - 336)
 
-    regel('OPEN VERTALING', klein, HOOGTE - 100)
-    regel('Gods Woord', titel, HOOGTE - 228)
-    regel('DE GEHELE HEILIGE SCHRIFT', ondertitel, HOOGTE - 266)
-    ornament(HOOGTE - 301)
-    regel('Met de herziene kanttekeningen', st['t_cursief'], HOOGTE - 341)
-    regel('Een vrije herziening van de Statenvertaling', st['t_tekst'], HOOGTE - 389)
-    regel('in hedendaags Nederlands', st['t_tekst'], HOOGTE - 413)
+    regel('Open Vertaling — vrij van rechten', tekst, HOOGTE - 430)
+    regel('Herziening van de SV1888 met kanttekeningen', tekst, HOOGTE - 452)
+    if deel == 0:
+        regel('Voorzien van de schilderijen van Jan van ’t Hoff', tekst_cursief, HOOGTE - 496)
+    else:
+        regel(f'DEEL {romeins(deel)}', klein_goud, HOOGTE - 506)
+        # Deel III heeft een lange titel; geef de apocriefe boeken een eigen regel.
+        titelregels = DELEN[deel]['titel'].replace(', met de ', '\nmet de ').split('\n')
+        for i, t in enumerate(titelregels):
+            regel(t, tekst_cursief, HOOGTE - 530 - i * 20)
 
-    regel('ÉÉN COMPLETE UITGAVE' if deel == 0 else f'DEEL {romeins(deel)}', klein, 263)
-    # Deel III heeft een lange titel; geef de apocriefe boeken een eigen regel.
-    titelregels = DELEN[deel]['titel'].replace(', met de ', '\nmet de ').split('\n')
-    for i, tekst in enumerate(titelregels):
-        regel(tekst, st['t_tekst'], 233 - i * 24)
-    ornament(178)
-    regel('openvertaling.nl', st['t_tekst'], 80)
+    _medaillon(uit, midden, 246, 22)
+    _sierlijn(uit, midden, 172, 60)
+    regel(UITGEVER.upper(), uitgever, 136)
+    regel(f'Versie {VERSIE}', versie, 112)
+    pdf.pagina(''.join(uit))
+
+
+def achterblad(b):
+    """Zwart achterblad in dezelfde band, altijd op een even (linker) bladzijde."""
+    pdf = b.pdf
+    if len(pdf.paginas) % 2 == 0:
+        pdf.pagina('')
+    sx, sy = BREEDTE / A4[0], HOOGTE / A4[1]
+    uit = [f'q {sx:.6f} 0 0 {sy:.6f} 0 0 cm\n']
+    _boekband(uit, *A4)
+    _medaillon(uit, A4[0] / 2, A4[1] / 2, 26)
+    uit.append('Q\n')
     pdf.pagina(''.join(uit))
 
 
@@ -1180,6 +1272,7 @@ def bouw_deel(deel, uit_map, datum, proef=None):
             regels.append((namen[boek], pagina))
         inhoud.append((groep, regels))
     inhoudsopgave(b, deel, inhoud, 2)
+    achterblad(b)
 
     uit_map.mkdir(parents=True, exist_ok=True)
     pad = uit_map / UITVOERNAAM.format(deel)
