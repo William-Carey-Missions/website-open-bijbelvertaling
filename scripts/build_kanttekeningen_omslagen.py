@@ -3,7 +3,7 @@
 
 Eenmalig werk: de beelden veranderen niet met de tekst en staan daarom in git.
 Vereist PyMuPDF en Pillow, die de uitrol niet nodig heeft.
-Gebruik: python scripts/build_kanttekeningen_omslagen.py map-met-gebouwde-pdfs
+Gebruik: python scripts/build_kanttekeningen_omslagen.py map-met-gebouwde-pdfs [--alleen-voorbeeld]
 """
 import io
 import sys
@@ -68,17 +68,21 @@ def voorbeeld(map_pdf, pad):
         doel = fitz.open()
         blad = doel.new_page(width=w * 2 + 8, height=h)
         blad.draw_rect(blad.rect, fill=(0.86, 0.85, 0.81), color=None)
-        blad.show_pdf_page(fitz.Rect(0, 0, w, h), d, 9)
-        blad.show_pdf_page(fitz.Rect(w + 8, 0, 2 * w + 8, h), d, 10)
+        # Eerste bladwijzer 'Hoofdstuk 1' na Genesis: daar begint de tekst met kanttekeningen.
+        links = next(blad for niveau, titel, blad in d.get_toc() if niveau == 2 and titel == 'Hoofdstuk 1') - 1
+        links -= links % 2 == 0  # een opening begint links op een even bladzijde
+        blad.show_pdf_page(fitz.Rect(0, 0, w, h), d, links)
+        blad.show_pdf_page(fitz.Rect(w + 8, 0, 2 * w + 8, h), d, links + 1)
         png = blad.get_pixmap(dpi=100).tobytes('png')
     Image.open(io.BytesIO(png)).convert('RGB').save(pad, 'WEBP', quality=78, method=6)
 
 
 def main():
     UIT.mkdir(parents=True, exist_ok=True)
-    fonts = lettertypes()
-    for deel in DELEN:
-        omslag(deel, fonts, UIT / f'deel-{deel}.webp')
+    if '--alleen-voorbeeld' not in sys.argv:
+        fonts = lettertypes()
+        for deel in DELEN:
+            omslag(deel, fonts, UIT / f'deel-{deel}.webp')
     voorbeeld(Path(sys.argv[1]), UIT / 'voorbeeld-genesis-1.webp')
 
 
