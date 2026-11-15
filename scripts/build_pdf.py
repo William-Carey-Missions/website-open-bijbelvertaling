@@ -19,7 +19,7 @@ from reportlab.lib.pagesizes import A5
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
+from reportlab.platypus import DocIf, Flowable, SimpleDocTemplate, Paragraph, Spacer, PageBreak
 
 from build_downloads import gepubliceerde_hoofdstukken, verstekst, atomic_output
 from build_leespaginas import GROEPEN
@@ -45,48 +45,20 @@ def fonts():
     return glyphs
 
 
-# Omslag in de stijl van de kanttekeningenuitgaven: donker vlak, blinddruk van
-# bladeren, dubbele goudlijn met hoekruiten en gecentreerde titels.
-OMSLAG = colors.HexColor('#102838')
-BLINDDRUK = colors.HexColor('#16334a')
-GOUD = colors.HexColor('#b08c52')
-LICHT = colors.HexColor('#efe8d5')
+# Omslag gelijk aan de kanttekeningenuitgaven: zwart, alleen typografie.
+WIT = colors.HexColor('#edebe3')
+GRIJS = colors.HexColor('#9e9c94')
 
 
 def omslag(canvas):
+    from build_kanttekeningen_pdf import DRUKKER, STAAT, UITGEVER, VERSIE
     breedte, hoogte = A5
     midden = breedte / 2
     canvas.saveState()
-    canvas.setFillColor(OMSLAG)
+    canvas.setFillColor(colors.black)
     canvas.rect(0, 0, breedte, hoogte, stroke=0, fill=1)
 
-    # Blinddruk: vier gebogen bladeren per ruitpunt, binnen de goudlijn.
-    canvas.saveState()
-    pad = canvas.beginPath()
-    pad.rect(30, 30, breedte - 60, hoogte - 60)
-    canvas.clipPath(pad, stroke=0, fill=0)
-    canvas.setStrokeColor(BLINDDRUK)
-    canvas.setLineWidth(0.45)
-    for cy in range(38, int(hoogte), 62):
-        for cx in range(20, int(breedte) + 62, 62):
-            for dx, dy in ((1, 1), (-1, 1), (1, -1), (-1, -1)):
-                blad = canvas.beginPath()
-                blad.moveTo(cx, cy)
-                blad.curveTo(cx + dx * 18, cy + dy * 2, cx + dx * 22, cy + dy * 15, cx + dx * 25, cy + dy * 25)
-                blad.curveTo(cx + dx * 8, cy + dy * 22, cx + dx * 2, cy + dy * 13, cx, cy)
-                canvas.drawPath(blad, stroke=1, fill=0)
-    canvas.restoreState()
-
-    canvas.setStrokeColor(GOUD)
-    canvas.setFillColor(GOUD)
-    canvas.setLineWidth(1.1)
-    canvas.rect(20, 20, breedte - 40, hoogte - 40, stroke=1, fill=0)
-    canvas.setLineWidth(0.35)
-    canvas.rect(27, 27, breedte - 54, hoogte - 54, stroke=1, fill=0)
-    for x, y in ((27, 27), (breedte - 27, 27), (27, hoogte - 27), (breedte - 27, hoogte - 27)):
-        ruit(canvas, x, y, 4.5)
-
-    def regel(tekst, letter, grootte, y, spatie=0.0, kleur=LICHT):
+    def regel(tekst, letter, grootte, y, spatie=0.0, kleur=WIT):
         breed = pdfmetrics.stringWidth(tekst, letter, grootte) + spatie * (len(tekst) - 1)
         regelobject = canvas.beginText(midden - breed / 2, y)
         regelobject.setFont(letter, grootte)
@@ -95,35 +67,35 @@ def omslag(canvas):
         regelobject.textOut(tekst)
         canvas.drawText(regelobject)
 
-    def ornament(y):
-        canvas.setLineWidth(0.45)
-        canvas.line(midden - 66, y, midden - 10, y)
-        canvas.line(midden + 10, y, midden + 66, y)
-        ruit(canvas, midden, y, 2.6)
+    if STAAT:
+        regel(STAAT, 'OVMedium', 7.5, hoogte - 66, spatie=1.8, kleur=GRIJS)
+    regel('Gods Woord', 'OVMedium', 42, hoogte - 178)
+    regel('DE GEHELE HEILIGE SCHRIFT', 'OVMedium', 10.5, hoogte - 204, spatie=1.6)
+    regel('volledige leesuitgave', 'OVItalic', 10, hoogte - 222)
+    canvas.setStrokeColor(WIT)
+    canvas.setLineWidth(0.3)
+    canvas.line(midden - 20, hoogte - 245, midden + 20, hoogte - 245)
+    regel('Open Vertaling — vrij van rechten', 'OV', 8.5, hoogte - 273, kleur=GRIJS)
+    regel('Herziening van de SV1888', 'OV', 8.5, hoogte - 286, kleur=GRIJS)
+    regel('Oude en Nieuwe Testament, met de apocriefe boeken', 'OVItalic', 8.5, hoogte - 309, kleur=GRIJS)
 
-    regel('OPEN VERTALING', 'OVMedium', 11, hoogte - 92, spatie=2.4, kleur=GOUD)
-    regel('Gods Woord', 'OVMedium', 50, hoogte - 196, spatie=0.5)
-    regel('DE GEHELE HEILIGE SCHRIFT', 'OVMedium', 13.5, hoogte - 228, spatie=1.4)
-    ornament(hoogte - 257)
-    regel('Volledige leesuitgave', 'OVItalic', 15, hoogte - 291)
-    regel('Een vrije herziening van de Statenvertaling', 'OV', 12.5, hoogte - 330)
-    regel('in hedendaags Nederlands', 'OV', 12.5, hoogte - 349)
-
-    regel('OUDE EN NIEUWE TESTAMENT', 'OVMedium', 10.5, 176, spatie=1.8, kleur=GOUD)
-    regel('met de apocriefe boeken', 'OVItalic', 13, 154)
-    ornament(120)
-    regel('openvertaling.nl', 'OV', 12, 68)
+    regel(UITGEVER.upper(), 'OVMedium', 7.5, 90, spatie=1.7, kleur=GRIJS)
+    regel(DRUKKER, 'OV', 8.5, 76, kleur=GRIJS)
+    regel(f'Versie {VERSIE}', 'OV', 6.5, 63, kleur=GRIJS)
     canvas.restoreState()
 
 
-def ruit(canvas, x, y, r):
-    pad = canvas.beginPath()
-    pad.moveTo(x, y + r)
-    pad.lineTo(x + r, y)
-    pad.lineTo(x, y - r)
-    pad.lineTo(x - r, y)
-    pad.close()
-    canvas.drawPath(pad, stroke=0, fill=1)
+class Achterblad(Flowable):
+    """Een effen zwart achterblad over de hele bladzijde."""
+
+    def wrap(self, *args):
+        return (0, 0)
+
+    def drawOn(self, canvas, x, y, _sW=0):
+        canvas.saveState()
+        canvas.setFillColor(colors.black)
+        canvas.rect(0, 0, A5[0], A5[1], stroke=0, fill=1)
+        canvas.restoreState()
 
 
 class Heading(Paragraph):
@@ -201,6 +173,9 @@ def build(output=OUTPUT):
             for number, text in verses:
                 safe = re.sub(r'([\u0590-\u05ff]+)', r'<font name="Hebrew">\1</font>', html.escape(text))
                 story.append(Paragraph(f'<super><font size="8">{number}</font></super> {safe}', body))
+
+    # Het zwarte achterblad valt altijd op een even (linker) bladzijde.
+    story.extend([PageBreak(), DocIf('doc.page % 2 == 1', [Spacer(1, 1), PageBreak()]), Achterblad()])
 
     def footer(canvas, doc):
         canvas.setTitle('Open Vertaling - volledige leesuitgave')
