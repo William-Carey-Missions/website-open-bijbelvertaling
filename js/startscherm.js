@@ -132,7 +132,7 @@
                 merk.className = 'kt-m';
                 merk.textContent = noot.marker;
                 var inhoud = document.createElement('span');
-                if (typeof References !== 'undefined' && References.linkify) inhoud.innerHTML = References.linkify(bron, 'johannes', 1);
+                if (typeof References !== 'undefined' && References.linkify) inhoud.innerHTML = (global.Opties && Opties.transformOV) ? Opties.transformOV(References.linkify(bron, 'johannes', 1), 'NT') : References.linkify(bron, 'johannes', 1);
                 else inhoud.textContent = bron;
                 linkGriekseWoorden(inhoud, vers);
                 item.appendChild(merk);

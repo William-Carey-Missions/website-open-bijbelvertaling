@@ -1,7 +1,14 @@
 /* Reader presentation, shared through the main controller object. */
 const ChapterRenderer = {
+    /* Kanttekeningen en inleidingen volgen dezelfde Godsnaam-keuze als de tekst.
+       Zonder deze stap toonden de noten JAHWEH, ook als de lezer HEERE of YHWH koos. */
+    godsnaam(html, testament) {
+        if (!html || typeof Opties === 'undefined' || !Opties.transformOV) return html;
+        return Opties.transformOV(html, testament);
+    },
+
     /* De kanttekeningen van één vers, voor de kolom rechts naast de tekst. */
-    kanttekeningCel(verse, bookId, chapterNum) {
+    kanttekeningCel(verse, bookId, chapterNum, testament) {
         const noten = (verse.marginNotes || []).filter(n => n && (n.text2026 || n.text1637));
         if (!noten.length) return null;
         const cel = document.createElement('div');
@@ -19,8 +26,8 @@ const ChapterRenderer = {
             merk.title = 'Kanttekening ' + noot.marker + ' openen';
             const tekst = document.createElement('span');
             const bron = noot.text2026 || noot.text1637;
-            if (typeof References !== 'undefined' && typeof References.linkify === 'function') tekst.innerHTML = References.linkify(bron, bookId, chapterNum);
-            else tekst.textContent = bron;
+            if (typeof References !== 'undefined' && typeof References.linkify === 'function') tekst.innerHTML = ChapterRenderer.godsnaam(References.linkify(bron, bookId, chapterNum), testament);
+            else tekst.textContent = ChapterRenderer.godsnaam(bron, testament);
             item.appendChild(merk);
             item.appendChild(tekst);
             cel.appendChild(item);
@@ -113,7 +120,7 @@ const ChapterRenderer = {
             bIntro.className = 'book-intro-inline';
             bIntro.dataset.book = bookId;
             bIntro.innerHTML = '<span class="book-intro-label">Boekinleiding:</span> ' +
-                (book.bookIntro.text2026 || book.bookIntro.text1637);
+                ChapterRenderer.godsnaam(book.bookIntro.text2026 || book.bookIntro.text1637, book.testament);
             sink.appendChild(bIntro);
         }
 
@@ -124,7 +131,7 @@ const ChapterRenderer = {
             intro.className = 'chapter-intro-inline';
             intro.dataset.book = bookId;
             intro.dataset.chapter = chapterNum;
-            intro.textContent = chapter.chapterIntro.text2026 || chapter.chapterIntro.text1637;
+            intro.textContent = ChapterRenderer.godsnaam(chapter.chapterIntro.text2026 || chapter.chapterIntro.text1637, book.testament);
             sink.appendChild(intro);
         }
 
@@ -190,7 +197,7 @@ const ChapterRenderer = {
                 <div class="verse-cell col-2026" data-col="2026">${openVertaling}</div>`;
             // Kanttekeningen als eigen cel; op brede schermen staat die rechts
             // naast de tekst, smal blijft het bij de pop-up (zie publication.css).
-            const kanttekeningen = ChapterRenderer.kanttekeningCel(verse, bookId, chapterNum);
+            const kanttekeningen = ChapterRenderer.kanttekeningCel(verse, bookId, chapterNum, book.testament);
             if (kanttekeningen) row.appendChild(kanttekeningen);
             // Versdata voor de knop Verschillen SV-OV (js/spoor.js).
             row._ovVers = verse;

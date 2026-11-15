@@ -162,7 +162,7 @@ const Editor = {
         const notes = [...verse.marginNotes].sort((a, b) => Number(b.marker === noteId) - Number(a.marker === noteId));
         for (const note of notes) {
             const linkedText1637 = References.linkify(note.text1637, bookId, chapterNum);
-            const linkedText2026 = note.text2026 ? References.linkify(note.text2026, bookId, chapterNum) : '';
+            const linkedText2026 = note.text2026 ? ChapterRenderer.godsnaam(References.linkify(note.text2026, bookId, chapterNum)) : '';
             const item = document.createElement('section');
             item.className = 'note-popup-item';
             const label = document.createElement('div');
