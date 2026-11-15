@@ -50,7 +50,7 @@ body:not(.kt-popup-mode) .col-2026 sup.note-marker{display:none!important}
 #content.reading-mode .verse-row .verse-cell.col-kt, #content .verse-cell.col-kt { display:none !important; }
 @media (min-width:1100px) {
   body.kt-popup-mode #content.reading-mode #verses-container { max-width:none !important; }
-  body.kt-popup-mode #content.reading-mode .verse-row { display:grid !important; grid-template-columns:2rem minmax(0,1.7fr) minmax(0,1fr) !important; column-gap:28px; align-items:start; }
+  body.kt-popup-mode #content.reading-mode .verse-row { display:grid !important; grid-template-columns:2rem minmax(0,var(--kt-tekst,1.7fr)) minmax(0,var(--kt-noten,1fr)) !important; column-gap:28px; align-items:start; }
   body.kt-popup-mode #content.reading-mode .verse-row .verse-cell.col-kt { display:block !important; min-width:0; padding:6px 0 6px 16px; border-left:1px solid var(--ka-rule-soft, #e6e0d4); font:400 13.5px/1.5 var(--font-body); color:var(--ka-ink-2, #4a4a4a); }
   body.kt-popup-mode #content.reading-mode .verse-row > .verse-num { grid-column:1; }
   .kt-item { margin:0 0 6px; padding:2px 4px; border-radius:4px; }
@@ -78,4 +78,14 @@ body:not(.kt-popup-mode) .col-2026 sup.note-marker{display:none!important}
   .ka-passage-body { grid-template-columns:minmax(0,1.1fr) minmax(0,1fr); gap:24px; }
   .ka-passage-kt { border-top:0; border-left:1px solid var(--ka-rule-soft, #e6e0d4); padding:0 0 0 18px; }
   #ka-passage-kt { max-height:360px; }
+}
+/* Versleepbare grens tussen tekst en kanttekeningen (js/kolombreedte.js). */
+@media (min-width:1100px) {
+  body.kt-popup-mode #content.reading-mode #verses-container { position:relative; }
+  .kt-greep { position:absolute; top:0; bottom:0; width:28px; z-index:5; cursor:col-resize; touch-action:none; }
+  .kt-greep[hidden] { display:none; }
+  .kt-greep::after { content:""; position:absolute; top:0; bottom:0; left:13px; width:2px; background:transparent; transition:background .15s; }
+  .kt-greep:hover::after, .kt-greep:focus-visible::after, .kt-greep.is-sleept::after { background:var(--ka-gold, #cba449); }
+  .kt-greep:focus-visible { outline:none; }
+  body.kt-sleept { cursor:col-resize; user-select:none; -webkit-user-select:none; }
 }
