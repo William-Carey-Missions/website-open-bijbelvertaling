@@ -922,7 +922,9 @@ def zet_boek(b, boek, namen, perikopen, stats, hoofdstukfilter=None, recto=True)
 
 # Uitgever en versie op het voorblad van alle uitgaven met kanttekeningen.
 UITGEVER = 'Didache – Dordrecht'
+DRUKKER = 'Drukkerij Pretore Dordrecht'
 VERSIE = '16-11-2026'
+STAAT = 'PROEFDRUK'  # leeg maken voor de definitieve druk
 GOUD = (0.74, 0.60, 0.35)
 OMSLAG_ZWART = (0.025, 0.025, 0.025)
 A4 = (595.28, 841.89)
@@ -1063,10 +1065,13 @@ def titelpagina(b, deel):
         for i, t in enumerate(titelregels):
             regel(t, tekst_cursief, HOOGTE - 530 - i * 20)
 
-    _medaillon(uit, midden, 246, 22)
-    _sierlijn(uit, midden, 172, 60)
-    regel(UITGEVER.upper(), uitgever, 136)
-    regel(f'Versie {VERSIE}', versie, 112)
+    if STAAT:
+        regel(STAAT, Stijl(kop, 15, spatie=4.0, afbreken=False, kleur=GOUD), HOOGTE - 96)
+    _medaillon(uit, midden, 252, 22)
+    _sierlijn(uit, midden, 186, 60)
+    regel(UITGEVER.upper(), uitgever, 152)
+    regel(DRUKKER, Stijl(tekst_letter, 11, afbreken=False, kleur=(0.80, 0.77, 0.69)), 130)
+    regel(f'Versie {VERSIE}', versie, 110)
     pdf.pagina(''.join(uit))
 
 
