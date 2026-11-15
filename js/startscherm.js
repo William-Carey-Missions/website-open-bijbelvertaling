@@ -185,21 +185,9 @@
         });
     }
 
-    function vulStatus() {
-        var el = document.getElementById('ka-passage-status');
-        if (!el || !global.App || !App._laadVerified) return;
-        Promise.resolve(App._laadVerified()).then(function () {
-            if (App._isVerified('johannes', 1)) {
-                el.className = 'ka-pill ok';
-                el.textContent = 'Gecontroleerd';
-            }
-        }).catch(function () { /* De publicatietekst blijft staan. */ });
-    }
-
     function init() {
         vulVerderLezen();
         vulPassage();
-        vulStatus();
 
     }
 

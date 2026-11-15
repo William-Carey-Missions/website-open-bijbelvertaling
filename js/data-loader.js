@@ -51,7 +51,9 @@ const DataLoader = {
     },
 
     async _loadChapterData(bookId, chapterNum, key) {
-        const ch = await Verification.loadJSON('data/' + bookId + '/' + chapterNum + '.json');
+        const response = await fetch('data/' + bookId + '/' + chapterNum + '.json', { cache: 'no-cache' });
+        if (!response.ok) throw new Error('Hoofdstuk niet gevonden: ' + bookId + ' ' + chapterNum);
+        const ch = await response.json();
         if (window.CitatieUit) CitatieUit.hoofdstuk(ch, bookId);
         const edits = typeof Storage !== 'undefined' ? Storage.getEdits(bookId) : null;
         if (edits) this._mergeChapterEdits(ch, edits, chapterNum);

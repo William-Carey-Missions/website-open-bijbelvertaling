@@ -470,35 +470,22 @@ class CollaborationFrontendTests(unittest.TestCase):
         bootstrap = (ROOT / "js" / "auth-bootstrap.js").read_text(encoding="utf-8")
         client = (ROOT / "js" / "collaboration.js").read_text(encoding="utf-8")
         users = (ROOT / "gebruikers.html").read_text(encoding="utf-8")
-        reviews = (ROOT / "beoordelingen.html").read_text(encoding="utf-8")
-        history = (ROOT / "beoordelingsgeschiedenis.html").read_text(encoding="utf-8")
         users_client = (ROOT / "js" / "gebruikers.js").read_text(encoding="utf-8")
-        reviews_client = (ROOT / "js" / "beoordelingen.js").read_text(encoding="utf-8")
-        history_client = (ROOT / "js" / "beoordelingsgeschiedenis.js").read_text(encoding="utf-8")
 
         self.assertNotIn("js/collaboration.js", topnav)
         self.assertIn("import './collaboration.js'", bootstrap)
-        for page in (users, reviews, history):
-            self.assertIn('type="module" src="/js/auth-bootstrap.js"', page)
+        self.assertIn('type="module" src="/js/auth-bootstrap.js"', users)
         self.assertIn("'/api/collaboration' + path", client)
         self.assertIn("Gebruikers", users)
-        self.assertIn("Beoordelingen", reviews)
         self.assertIn('href="css/style.css"', users)
-        self.assertIn('href="css/style.css"', reviews)
-        self.assertIn('href="css/style.css"', history)
-        self.assertIn('href="beoordelingsgeschiedenis.html"', reviews)
-        self.assertNotIn('<dialog', reviews)
-        self.assertNotIn('review-events-table', reviews)
-        self.assertIn('js/beoordelingsgeschiedenis.js', history)
+        # Hoofdstukken goedkeuren bestaat niet meer; correctietaken wel.
+        self.assertNotIn("beoordelingen.html", client)
+        self.assertIn("correcties.html", client)
+        for page in ("herverificatie.html", "beoordelingen.html", "beoordelingsgeschiedenis.html"):
+            self.assertFalse((ROOT / page).exists(), page)
 
         self.assertIn("stateResolved: false", auth)
         self.assertIn("ready: false", client)
-        for page in (users, reviews, history):
-            self.assertRegex(page, r'<main[^>]+class="collaboration-main"[^>]+hidden')
-        for page_client in (users_client, reviews_client, history_client):
-            self.assertIn("if (!ready) return;", page_client)
-            self.assertIn("location.replace('index.html')", page_client)
-
-
-if __name__ == "__main__":
-    unittest.main()
+        self.assertRegex(users, r'<main[^>]+class="collaboration-main"[^>]+hidden')
+        self.assertIn("if (!ready) return;", users_client)
+        self.assertIn("location.replace('index.html')", users_client)

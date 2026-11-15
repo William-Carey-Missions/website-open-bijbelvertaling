@@ -171,11 +171,6 @@ const Sidebar = {
                 for (const ch of book.chaptersIncluded) {
                     const btn = document.createElement('button');
                     btn.className = 'tree-ch-btn';
-                    const verified = App && App._isVerified ? App._isVerified(book.id, ch) : false;
-                    if (!verified) {
-                        btn.classList.add('unverified');
-                        btn.title = 'Concept — nog niet handmatig gecontroleerd';
-                    }
                     btn.textContent = ch;
                     btn.dataset.bookId = book.id;
                     btn.dataset.chapter = ch;

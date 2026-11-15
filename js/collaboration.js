@@ -48,13 +48,6 @@
         });
         if (!profile) return;
         if (profile.roles.indexOf('reviewer') !== -1) {
-            var reviews = document.createElement('a');
-            reviews.href = 'beoordelingen.html';
-            reviews.dataset.collaborationLink = 'review';
-            reviews.textContent = 'Beoordelingen';
-            if (location.pathname.endsWith('/beoordelingen.html') ||
-                location.pathname.endsWith('/beoordelingsgeschiedenis.html')) reviews.classList.add('active');
-            links.appendChild(reviews);
             var corrections = document.createElement('a');
             corrections.href = '/correcties.html';
             corrections.dataset.collaborationLink = 'corrections';

@@ -13,13 +13,6 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data')
 SKIP = {'speech-v2', 'speech', 'audio', 'tts'}
 
-def parse_verified():
-    """Releasesnapshot uit export_review_status.py; nooit handmatig bijwerken."""
-    pad = os.path.join(DATA, 'verified-chapters.json')
-    with open(pad, encoding='utf-8') as fh:
-        return json.load(fh)
-
-
 def default_release_metadata():
     """Lees de versie en datum van de actuele uitgave."""
     pad = os.path.join(DATA, 'release.json')
@@ -83,7 +76,8 @@ def main():
     datum = sys.argv[2] if len(sys.argv) > 2 else standaarddatum
 
     books = json.load(open(os.path.join(DATA, 'books.json'), encoding='utf-8'))['books']
-    verified = parse_verified()
+    # Er is geen goedkeuring per hoofdstuk meer: alle gepubliceerde tekst telt mee.
+    verified = {b['id']: list(b.get('chaptersIncluded', [])) for b in books}
 
     ch_total = verses_total = ch_ver = verses_ver = books_full = diff_total = diff_via_principe = 0
     verified_books = []   # weergavelabels van (deels) nagekeken boeken, in canonieke volgorde

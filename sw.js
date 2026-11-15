@@ -10,7 +10,7 @@
 
 const VERSION = 'v0.60.3';
 // New reader modules must not be mixed with HTML from before verification.
-const CACHE_VERSION = `${VERSION}-kolomslepen20261115-ktgodsnaam20261115-breed20261113-mobiel20261110-uitgave20261108-inline-mobiel20261101-verification-v13-splitsing1-ontwerp1-kunst20261025-publicatie20261025-statistics-consent1-yhwh20261025`;
+const CACHE_VERSION = `${VERSION}-kolomslepen20261115-ktgodsnaam20261115-breed20261113-mobiel20261110-uitgave20261108-inline-mobiel20261101-zonderbeoordeling20261115-splitsing1-ontwerp1-kunst20261025-publicatie20261025-statistics-consent1-yhwh20261025`;
 const SHELL_CACHE   = `shell-${CACHE_VERSION}`;
 const DATA_CACHE    = `data-${CACHE_VERSION}`;
 const LEXICON_CACHE = `lexicon-${CACHE_VERSION}`;
@@ -35,9 +35,7 @@ const PRECACHE_URLS = [
     '/js/reader-policy.js',
     '/js/teksteditie.js',
     '/js/data-loader.js',
-    '/js/verification.js',
     '/js/review-components.js',
-    '/js/verification-display.js',
     '/js/collaboration.js',
     '/correcties.html',
     '/js/corrections.js',
@@ -45,7 +43,6 @@ const PRECACHE_URLS = [
     '/css/collaboration.css',
     '/js/chapter-renderer.js',
     '/js/kolombreedte.js',
-    '/css/verification.css',
     '/js/citatie-uit.js',
     '/js/assets.js',
     '/js/book-orders.js',

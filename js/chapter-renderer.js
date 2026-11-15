@@ -36,8 +36,6 @@ const ChapterRenderer = {
     },
 
     async renderChapter(bookId, chapterNum, opts = {}) {
-        if (!opts.append && !opts.prepend) document.getElementById('chapter-verification')?.remove();
-        await App._laadVerified();   // banner mag niet op verouderde info draaien
         const append = !!opts.append;    // doorlopend-lezen: hoofdstuk onderaan toevoegen
         const prepend = !!opts.prepend;  // doorlopend-lezen: hoofdstuk bovenaan toevoegen
         // Manifest (klein) + chapter (klein) parallel
@@ -71,8 +69,6 @@ const ChapterRenderer = {
         }
         // Audio play-knop tonen voor hoofdstukken met voorlezing
         App._updateAudioPlayer(bookId, chapterNum);
-        // AI-concept-banner tonen voor niet-geverifieerde hoofdstukken
-        App._updateVerifiedBanner(bookId, chapterNum);
 
 
 
@@ -173,9 +169,8 @@ const ChapterRenderer = {
             }
             const row = document.createElement('div');
             row.className = 'verse-row';
-            // Statuskleur volgt de enige bron (VERIFIED_CHAPTERS): een nagekeken hoofdstuk
-            // toont 'final' (groen), anders de redactionele status van het vers zelf.
-            row.dataset.status = App._isVerified(bookId, chapterNum) ? 'final' : (verse.status || 'empty');
+            // De gepubliceerde tekst is de leestekst; er is geen nakijkstatus meer.
+            row.dataset.status = 'final';
             row.dataset.book = bookId;
             row.dataset.chapter = chapterNum;
             row.dataset.verse = verse.number;
@@ -239,6 +234,5 @@ const ChapterRenderer = {
         // tijdens gewoon lezen). De markering verschijnt alleen tijdens het voorlezen,
         // exact op het vers dat klinkt (zie audio timeupdate + _followAudio).
         App._clearVerseFocus();
-        Verification.readerRendered(bookId, chapterNum, false, chapter._verificationSourceHash, append || prepend);
     },
 };

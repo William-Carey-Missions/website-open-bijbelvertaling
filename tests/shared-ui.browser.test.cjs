@@ -145,29 +145,6 @@ test('one auth startup supports login, private roles, logout and mobile navigati
     await page.close();
 });
 
-test('a delayed auth dependency resolves before administrator page listeners run', async () => {
-    const page = await fixture.pageAs('admin');
-    await page.addInitScript(() => {
-        window.documentLoaded = false;
-        document.addEventListener('DOMContentLoaded', () => { window.documentLoaded = true; });
-    });
-    let release, captured;
-    const gate = new Promise(resolve => { release = resolve; });
-    const seen = new Promise(resolve => { captured = resolve; });
-    await page.route('**/js/auth.js', async route => {
-        captured();await gate;await route.fulfill({ contentType:'text/javascript', body:'' });
-    });
-    const errors=[];page.on('pageerror', error => errors.push(String(error)));
-    const navigation=page.goto(fixture.base + '/beoordelingsgeschiedenis.html');
-    await seen;
-    await page.waitForFunction(() => document.getElementById('review-events-table'));
-    assert.equal(await page.evaluate(() => documentLoaded), false);
-    release();await navigation;
-    await page.locator('#review-events-table tbody tr').first().waitFor();
-    assert.deepEqual(errors, []);
-    await page.close();
-});
-
 test('nested manuscript pages also start auth exactly once', async () => {
     const page = await realAuthPage();
     await page.goto(fixture.base + '/handschriften/genesis.html');

@@ -184,9 +184,6 @@ const Editor = {
         }
 
         document.body.appendChild(tooltip);
-        const review = document.createElement('div');
-        tooltip.prepend(review);
-        Verification.notes(review, bookId, chapterNum, verse.number);
 
         const rect = marker.getBoundingClientRect();
         const position = () => {

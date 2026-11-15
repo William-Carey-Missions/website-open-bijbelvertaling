@@ -17,17 +17,6 @@ const App = {
     // AUDIO_AVAILABLE leeft in js/audio-available.js (window.AUDIO_AVAILABLE) —
     // niet hier definieren. Wordt door de TTS-rollout-script bijgewerkt.
 
-    // Alleen de Bijbeltekst; toevoegingen hebben een afzonderlijke beoordeling.
-    VERIFIED_CHAPTERS: {},
-    _verifiedGeladen: null,
-
-    _laadVerified() { return Verification.loadChapters(App); },
-
-    _isVerified(bookId, chapter) { return Verification.chapterVerified(App, bookId, chapter); },
-
-    _updateVerifiedBanner(bookId, chapter) {
-        VerificationDisplay.banner(bookId, chapter);
-    },
 
 
     _updateAudioPlayer(bookId, chapter) {
@@ -320,10 +309,6 @@ const App = {
     },
 
     async init() {
-        // Eerst de nagekeken-lijst, want sidebar.js, mobile-nav.js en de
-        // hoofdstukknoppen lezen die synchroon. Renderen ze eerder, dan lijkt
-        // alles concept te zijn.
-        await App._laadVerified();
         Navigation.init();
         Editor.init();
 
@@ -432,9 +417,10 @@ const App = {
         setTimeout(tryFocus, 60);
     },
 
-    // Hoofdstuktitel (met concept-marker) zetten — gedeeld door render + scroll-spy
+    // Hoofdstuktitel zetten — gedeeld door render + scroll-spy
     _setTitle(bookId, chapterNum) {
-        VerificationDisplay.readerTitle(App, bookId, chapterNum);
+        const name = App._contNames?.[bookId] || bookId;
+        document.getElementById('chapter-title').textContent = `${name} ${chapterNum}`;
     },
 
     // Bepaal het scrollbare element (document of #content)

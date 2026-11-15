@@ -201,11 +201,8 @@ const MobileNav = {
         for (const ch of book.chaptersIncluded) {
             const item = document.createElement('button');
             item.type = 'button';
-            const verified = (window.App && App._isVerified) ? App._isVerified(book.id, ch) : false;
             item.className = 'mp-item'
-                + (sameBook && ch === currentChapter ? ' active' : '')
-                + (verified ? '' : ' unverified');
-            if (!verified) item.title = 'Concept — nog niet handmatig gecontroleerd';
+                + (sameBook && ch === currentChapter ? ' active' : '');
             item.textContent = ch;
             item.addEventListener('click', () => {
                 // Direct het topbar-label updaten zodat het niet de oude waarde

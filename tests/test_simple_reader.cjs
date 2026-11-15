@@ -26,18 +26,20 @@ test('saved research and translation options cannot change the fixed reading tex
     assert.match(options.transformOV('JAHWEH schiep de hemel.', 'OT'), /HEERE/);
 });
 
-test('published chapters show no concept warnings or review controls', () => {
+test('the reader has no chapter approval: no review scripts, labels or concept marks', () => {
     const context = { window: {}, document: { addEventListener() {} } };
     vm.runInNewContext(fs.readFileSync('js/reader-policy.js', 'utf8'), context);
-    context.ReaderPolicy = context.window.ReaderPolicy;
-    vm.runInNewContext(fs.readFileSync('js/verification.js', 'utf8'), context);
     const books = JSON.parse(fs.readFileSync('data/books.json', 'utf8')).books;
     assert.equal(books.filter(book => book.testament === 'NT').length, 27);
-    for (const book of books.filter(book => context.ReaderPolicy.allowsBook(book))) {
-        assert.equal(context.window.Verification.chapterVerified({}, book.id, 1), true);
-        assert.equal(context.window.Verification.warning(book.id, 1), '');
+    assert.equal(context.window.ReaderPolicy.allowsBook({ id: 'henoch' }), false);
+    const index = fs.readFileSync('index.html', 'utf8');
+    assert.doesNotMatch(index, /verification|Geverifieerd/);
+    for (const file of ['js/app.js', 'js/chapter-renderer.js', 'js/data-loader.js', 'js/sidebar.js', 'js/mobile-nav.js']) {
+        assert.doesNotMatch(fs.readFileSync(file, 'utf8'), /Verification|_isVerified|unverified/, file);
     }
-    assert.equal(context.ReaderPolicy.allowsBook({ id: 'henoch' }), false);
+    for (const page of ['herverificatie.html', 'beoordelingen.html', 'beoordelingsgeschiedenis.html']) {
+        assert.equal(fs.existsSync(page), false, page);
+    }
 });
 test('published pages only reference scripts that still exist', () => {
     for (const file of fs.readdirSync('.').filter(name => name.endsWith('.html'))) {
@@ -53,10 +55,16 @@ test('concurrent chapter reads fetch once and keep nonstandard chapter numbers',
     let manifestRequests = 0, chapterRequests = 0;
     const context = {
         window: {}, ReaderPolicy: { allowsBook: book => book.id !== 'henoch' },
-        fetch: async () => { manifestRequests++; return { ok: true, json: async () => ({ books: [
-            {id:'estherapocrief',chaptersIncluded:[10,11],totalChapters:2}, {id:'henoch',chaptersIncluded:[1]}
-        ] }) }; },
-        Verification: { loadJSON: async () => { chapterRequests++; await Promise.resolve(); return { verses: [] }; } },
+        fetch: async url => {
+            if (url !== 'data/books.json') {
+                chapterRequests++; await Promise.resolve();
+                return { ok: true, json: async () => ({ verses: [] }) };
+            }
+            manifestRequests++;
+            return { ok: true, json: async () => ({ books: [
+                {id:'estherapocrief',chaptersIncluded:[10,11],totalChapters:2}, {id:'henoch',chaptersIncluded:[1]}
+            ] }) };
+        },
         Storage: { getEdits: () => null }
     };
     vm.runInNewContext(fs.readFileSync('js/data-loader.js','utf8'), context);
@@ -85,9 +93,9 @@ test('rendering a chapter never reads hidden research data or decorates the firs
     const verse = {number:1,text2026:'Paulus, een apostel.'};
     for (const name of ['grondtekst','phraseDiff','textSV1888']) Object.defineProperty(verse,name,{get(){throw Error('Hidden research was accessed');}});
     const context = {window:{},document,
-        App: {_laadVerified:async()=>{},_pericopen:{},_isVerified:()=>true,_setTitle(){},_updateAudioPlayer(){},_updateVerifiedBanner(){},_afterRenderContinuous(){},_clearVerseFocus(){},_applyDropcap(){throw Error('Decorative initial was applied');}},
+        App: {_pericopen:{},_setTitle(){},_updateAudioPlayer(){},_afterRenderContinuous(){},_clearVerseFocus(){},_applyDropcap(){throw Error('Decorative initial was applied');}},
         DataLoader:{loadBook:async()=>({id:'efeziers',nameDutch:'Efeziërs',testament:'NT'}),loadChapter:async()=>({verses:[verse]}),prefetchAdjacent(){}},
-        Opties:{transformOV:text=>text},Editor:{attachVerseListeners(){}},Verification:{readerRendered(){}}
+        Opties:{transformOV:text=>text},Editor:{attachVerseListeners(){}}
     };
     vm.runInNewContext(fs.readFileSync('js/chapter-renderer.js','utf8')+';globalThis.renderer=ChapterRenderer;',context);
     await context.renderer.renderChapter.call({updateProgress(){},updateGrid(){}},'efeziers',1);

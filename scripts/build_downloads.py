@@ -9,7 +9,7 @@ Levert in downloads/:
 
 De index verwijst ook naar markdown/ov-volledig.md, gebouwd door build_markdown.py.
 
-Draait tijdens de deploy, na export_review_status.py en build_stats.py,
+Draait tijdens de deploy, na build_stats.py,
 zodat de uitgaven altijd gelijk lopen met de tekst en er geen binaire
 bestanden in git komen.
 

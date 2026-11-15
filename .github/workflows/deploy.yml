@@ -88,13 +88,13 @@ jobs:
         run: |
           stage="/tmp/openvertaling-collaboration-${GITHUB_SHA}"
           ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" "bash '$stage/install_collaboration_api.sh' '$stage'"
-      - name: Build verified release snapshot and downloads
+      - name: Build stats and downloads
         env:
           DEPLOY_HOST: ${{ vars.DEPLOY_HOST }}
           DEPLOY_PORT: ${{ vars.DEPLOY_PORT }}
           DEPLOY_USER: ${{ vars.DEPLOY_USER }}
         run: |
-          ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" 'cd /var/www/openvertaling.nl/site && python3 scripts/export_review_status.py && python3 scripts/build_stats.py && python3 scripts/build_downloads.py'
+          ssh -p "$DEPLOY_PORT" "$DEPLOY_USER@$DEPLOY_HOST" 'cd /var/www/openvertaling.nl/site && python3 scripts/build_stats.py && python3 scripts/build_downloads.py'
       - name: Remove uploaded installation files
         if: always()
         env:
